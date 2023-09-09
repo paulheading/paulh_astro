@@ -1,0 +1,20 @@
+---
+import dots from '~svg/dots.svg?raw'
+import { parse } from 'node-html-parser'
+---
+
+<header>
+  <div>Projects</div>
+  <div>{parse(dots)}</div>
+</header>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  header {
+    justify-content: space-between;
+    padding: $padding-trello;
+    align-items: center;
+    display: flex;
+  }
+</style>

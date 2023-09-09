@@ -1,0 +1,1 @@
+I've been a Developer since 2020 and a Designer for over 10 years. I work in the **Digital Products** team at the [Barbican](https://barbican.org.uk) and spend my time building/designing better website-based experiences.

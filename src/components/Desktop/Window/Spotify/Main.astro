@@ -1,0 +1,31 @@
+---
+import { spotify } from '~data/layout.json'
+import Track from '~components/Desktop/Window/Spotify/Track.astro'
+
+const { year } = Astro.props
+
+const { tracks, url } = spotify['_' + year]
+---
+
+<main>
+  {
+    tracks.map(function (track, index) {
+      const trackProps = {
+        number: index + 1,
+        track,
+        url,
+      }
+      return <Track {...trackProps} />
+    })
+  }
+</main>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  main {
+    max-height: $width-window;
+    overflow: scroll;
+    padding: 0.75rem;
+  }
+</style>

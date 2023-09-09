@@ -1,0 +1,39 @@
+@mixin form_row {
+  @include large-up {
+    grid-template-columns: 8rem auto;
+    align-items: center;
+    display: grid;
+  }
+}
+
+@mixin form_input {
+  padding: 0.75rem 0.75rem 0.75rem 0;
+  font-weight: $font-weight-bold;
+  letter-spacing: -0.025rem;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  border: none;
+
+  @include large-up {
+    padding: 1rem 1rem 1rem 0;
+  }
+
+  &,
+  &::placeholder {
+    color: inherit;
+  }
+
+  @include focus {
+    outline: none;
+
+    &,
+    &::placeholder {
+      color: black;
+    }
+  }
+
+  &:focus {
+    background-color: lightgoldenrodyellow;
+  }
+}

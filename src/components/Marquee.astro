@@ -1,0 +1,90 @@
+---
+const mode = Astro.url.pathname == '/' ? 'home' : 'away'
+---
+
+<div id="marquee" class="marquee">
+  <a href="" class:list={['tab-link', mode]}>See Project</a>
+  <div class="row-container">
+    <a href="" class="row-link">
+      <span class="link-content"></span>
+    </a>
+  </div>
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  $tab-height: 3.125rem;
+
+  .marquee {
+    margin-top: -$tab-height;
+    text-align: center;
+  }
+
+  .tab-link {
+    $radius: 0.25rem;
+
+    border-top-right-radius: $radius;
+    border-top-left-radius: $radius;
+    padding: 0.625rem 0.875rem;
+    background-color: black;
+    letter-spacing: -0.01em;
+    transition: bottom 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    outline: transparent;
+    bottom: -$tab-height;
+    position: relative;
+    color: white;
+    z-index: 1;
+
+    @include small-up {
+      bottom: -$radius;
+    }
+  }
+
+  .tab-link.home {
+    @include focus {
+      @include single-box(white);
+    }
+  }
+
+  .tab-link.away {
+    @include focus {
+      @include single-box(black);
+      background-color: $c-lemon;
+      color: black;
+    }
+  }
+
+  .row-container {
+    $border: 0.25rem solid black;
+
+    background-color: white;
+    border-bottom: $border;
+    border-top: $border;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .row-link {
+    text-decoration: none;
+    display: block;
+
+    @include focus {
+      background-color: $c-lemon;
+    }
+  }
+
+  .link-content {
+    $padding: 0.75rem;
+
+    padding-bottom: $padding;
+    justify-content: center;
+    padding-top: $padding;
+    white-space: nowrap;
+    display: flex;
+    gap: 1rem;
+  }
+</style>

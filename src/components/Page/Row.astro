@@ -1,0 +1,111 @@
+---
+import Controls from '~components/Page/Controls.astro'
+
+const { title, mode, controls = false } = Astro.props
+
+const rowProps = {
+  class: 'page-row',
+}
+
+const contentProps = {
+  class: 'page-content',
+}
+
+const titleProps = {
+  class: 'title',
+}
+
+if (mode) contentProps.class += ' ' + mode
+
+if (controls) {
+  rowProps.class += ' has-controls'
+  titleProps.class += ' has-controls'
+}
+
+if (title) rowProps.id = title.toLowerCase() + '_row'
+---
+
+<div {...rowProps}>
+  {title && <div {...titleProps}>{title}</div>}
+  {
+    controls ? (
+      <Controls>
+        <div {...contentProps}>
+          <slot />
+        </div>
+      </Controls>
+    ) : (
+      <div {...contentProps}>
+        <slot />
+      </div>
+    )
+  }
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  @mixin page-content {
+    min-height: 3.5rem;
+
+    @include medium-up {
+      align-items: flex-start;
+      gap: $padding-row;
+      display: grid;
+    }
+  }
+
+  .page-row {
+    background-color: white;
+    padding: $padding-row;
+
+    @include medium-down {
+      box-shadow: $box-shadow-page;
+    }
+  }
+
+  .page-row.has-controls {
+    padding-right: 0;
+    padding-left: 0;
+
+    @include medium-down {
+      padding-bottom: 0;
+    }
+  }
+
+  .page-row + .page-row {
+    @include medium-down {
+      margin-top: $padding-row * 1.5;
+    }
+
+    @include medium-up {
+      border-top: $border-dashed;
+    }
+  }
+
+  .title {
+    padding-bottom: $padding-row;
+    font-size: $h3-font-size;
+  }
+
+  .title.has-controls {
+    padding-right: $padding-row;
+    padding-left: $padding-row;
+  }
+
+  .page-content.double {
+    @include page-content;
+
+    @include medium-up {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+
+  .page-content.triple {
+    @include page-content;
+
+    @include medium-up {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

@@ -1,0 +1,30 @@
+---
+const { class: className } = Astro.props
+
+const containerProps = {
+  class: 'container',
+}
+
+if (className) containerProps.class += ' ' + className
+---
+
+<div {...containerProps}>
+  <slot />
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .container {
+    background-color: mistyrose;
+    font-size: $h5-font-size;
+    padding: $padding-tag;
+    border: 1px dotted;
+    color: darkred;
+    display: none;
+
+    @include large-up {
+      border: 1px solid;
+    }
+  }
+</style>

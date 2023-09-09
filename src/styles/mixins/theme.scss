@@ -1,0 +1,11 @@
+@mixin ThemeWindow($key, $value) {
+  .window.#{$key} {
+    border-color: $value;
+  }
+}
+
+@mixin ThemeVersion($key, $value) {
+  .version.#{$key} {
+    color: $value;
+  }
+}

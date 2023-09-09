@@ -1,0 +1,15 @@
+---
+import Layout from '~layouts/Main.astro'
+import Hero from '~components/Hero.astro'
+
+import seo from '~data/seo.js'
+
+const layoutProps = {
+  keywords: seo.keywords('portfolio'),
+  description: "I'm a " + seo.job.title + '. ' + seo.job.description,
+}
+---
+
+<Layout {...layoutProps}>
+  <Hero />
+</Layout>

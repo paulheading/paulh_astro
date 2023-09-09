@@ -1,0 +1,51 @@
+---
+import Alert from '~components/Form/Alert.astro'
+
+const { name } = Astro.props
+
+const inputProps = {
+  ...Astro.props,
+  id: name,
+}
+---
+
+<div class="row">
+  <label for={name}>
+    <slot />
+  </label>
+  <input {...inputProps} />
+  <Alert class="alert" />
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .row {
+    @include form_row;
+    border-bottom: 1px solid $c-gray-5;
+  }
+
+  label {
+    @include large-down {
+      border-bottom: 1px dotted $c-gray-5;
+      padding-bottom: 0.75rem;
+      display: inline-block;
+      padding-top: 0.75rem;
+      width: 100%;
+    }
+  }
+
+  input {
+    @include form_input;
+  }
+
+  .alert {
+    border-bottom: none;
+    border-right: none;
+    grid-column: 2;
+
+    @include large-down {
+      border-left: none;
+    }
+  }
+</style>

@@ -1,0 +1,1190 @@
+{
+  "hashnode": [
+    {
+      "title": "Designing account areas in Vue.js",
+      "brief": "I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the Barbican, an arts centre in London.\n\nThe Project\nIn February 2020, we redesigned the account dashboard for users of the Barbican t...",
+      "slug": "designing-account-areas-in-vuejs"
+    },
+    {
+      "title": "Organising spaces with GraphQL [1]",
+      "brief": "I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the Barbican, an arts centre in London.\n\nThe Project\nMake a browser-based app for people who work at the Barbican and want to book/see...",
+      "slug": "organising-spaces-with-graphql-1"
+    }
+  ],
+  "projects": [
+    {
+      "id": "606d70215309533eec28564a",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": true,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 1,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2023-01-01T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-07-19T16:29:39.792Z",
+      "desc": "```\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n---\n\n# Organising Spaces with GraphQL\n\n### What's the Project?\n\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n### Can I see it?\n\nUnfortunately not, it's only available for Barbican staff at [dev.event.barbican.org.uk](https://dev.event.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paulh.biz/organising-spaces-with-graphql-1) on [my blog](https://blog.paulh.biz).\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue 3](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 💾 Consuming data from the [Barbican](https://barbican.org.uk) [GraphQL](https://graphql.org) feed.\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThis project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the [Barbican](https://barbican.org.uk) to use.\n\nWe're using [GraphQL](https://graphql.org) to pull data from the original system, and are using [Vue.js](https://vuejs.org) to present a more intuitive view of everything that is happening at the centre.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 23,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf423",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Barbican",
+          "color": "green",
+          "uses": 8
+        },
+        {
+          "id": "64b80eedd3cb846ab0943db4",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Vue.js",
+          "color": null,
+          "uses": 2
+        },
+        {
+          "id": "64b80f73bdf98a4131949e44",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "GraphQL",
+          "color": null,
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf423",
+        "64b80eedd3cb846ab0943db4",
+        "64b80f73bdf98a4131949e44"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Organising spaces with GraphQL",
+      "pos": 32767.5,
+      "shortLink": "uzNg2cZc",
+      "shortUrl": "https://trello.com/c/uzNg2cZc",
+      "start": "2023-01-01T08:00:00.000Z",
+      "subscribed": true,
+      "url": "https://trello.com/c/uzNg2cZc/23-hero-organising-spaces-with-graphql",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Organising spaces with GraphQL",
+      "hero": true,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Build a website/app for staff at the Barbican to see which spaces are available to book.",
+        "desc": "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<h3 id=\"whatstheproject\">What's the Project?</h3>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "pathname": "organising-spaces-with-graphql",
+        "url": "/project/organising-spaces-with-graphql"
+      }
+    },
+    {
+      "id": "64be46a284472c83d0ead0f6",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 1,
+        "attachments": 0,
+        "description": true,
+        "due": "2023-03-01T10:41:00.000Z",
+        "dueComplete": true,
+        "start": "2022-09-01T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-07-24T09:44:50.283Z",
+      "desc": "```\nBuild a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.\n\n---\n\n# Building a Portfolio in Next.js\n\n### What's the Project?\n\nBuild a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.\n\n### Can I see it?\n\nSure, you're looking at it 😉\n\nThe code is in my public [Github repository](https://github.com/paulheading/paulh3).\n\n### How much did you do?\n\nEverything! Which includes:\n\n- 💻 Building the app in [Next.js](https://nextjs.org)\n- 🎨 Designing the layout with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThis website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.\n\nIt also makes use of [Next.js dynamic routing](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes), [markdown for content generation](https://www.npmjs.com/package/raw-loader) and [GSAP](https://greensock.com/gsap) for web animation.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2023-03-01T10:41:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 31,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6491c7d859cf65f7b465cf91",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Freelance",
+          "color": "purple",
+          "uses": 2
+        },
+        {
+          "id": "64b80f8953c59efd3011ee02",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Next.js",
+          "color": null,
+          "uses": 2
+        }
+      ],
+      "idLabels": [
+        "6491c7d859cf65f7b465cf91",
+        "64b80f8953c59efd3011ee02"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Building a Portfolio in Next.js",
+      "pos": 33791.484375,
+      "shortLink": "HSU6I9yr",
+      "shortUrl": "https://trello.com/c/HSU6I9yr",
+      "start": "2022-09-01T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/HSU6I9yr/31-building-a-portfolio-in-nextjs",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Building a Portfolio in Next.js",
+      "hero": false,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.",
+        "desc": "<h1 id=\"buildingaportfolioinnextjs\">Building a Portfolio in Next.js</h1>\n<h3 id=\"whatstheproject\">What's the Project?</h3>\n<p>Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, you're looking at it 😉</p>\n<p>The code is in my public <a href=\"https://github.com/paulheading/paulh3\">Github repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layout with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.</p>\n<p>It also makes use of <a href=\"https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes\">Next.js dynamic routing</a>, <a href=\"https://www.npmjs.com/package/raw-loader\">markdown for content generation</a> and <a href=\"https://greensock.com/gsap\">GSAP</a> for web animation.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "pathname": "building-a-portfolio-in-nextjs",
+        "url": "/project/building-a-portfolio-in-nextjs"
+      }
+    },
+    {
+      "id": "6491c7bdb4a1fd40f80a1a99",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": true,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 2,
+        "attachments": 0,
+        "description": true,
+        "due": "2023-02-01T16:41:00.000Z",
+        "dueComplete": true,
+        "start": "2022-08-01T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-07-19T16:30:01.162Z",
+      "desc": "```\nBuild and animate the website for Stephanie Cannon, a professional Voice-over Artist.\n\n---\n\n# Sparking the Cannon with Next.js\n\n### What's the Project?\n\nBuild and animate the website for Stephanie Cannon, a professional Voice-over Artist.\n\n### Can I see it?\n\nSure, it's at [sparkthecannon.com](https://sparkthecannon.com)\n\nThe code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/steph23).\n\nI've started writing about [this project](https://blog.paulh.biz/preview/64908a776fdc99000f5daf42) on [my blog](https://blog.paulh.biz).\n\n### How much did you do?\n\nEverything! Except the wonderful illustration. This includes:\n\n- 💻 Building the site in [Next.js](https://nextjs.org)\n- 🎨 Designing the layouts with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nDefinitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n- **Accessibility** 😥 It's pretty limited. Areas like [color contrast](https://webaim.org/resources/contrastchecker) and [focus states](https://design-system.service.gov.uk/get-started/focus-states) need further consideration.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2023-02-01T16:41:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 26,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6491c7d859cf65f7b465cf91",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Freelance",
+          "color": "purple",
+          "uses": 2
+        },
+        {
+          "id": "64b80f8953c59efd3011ee02",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Next.js",
+          "color": null,
+          "uses": 2
+        }
+      ],
+      "idLabels": [
+        "6491c7d859cf65f7b465cf91",
+        "64b80f8953c59efd3011ee02"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Sparking the cannon with Next.js",
+      "pos": 34815.46875,
+      "shortLink": "nfonRydx",
+      "shortUrl": "https://trello.com/c/nfonRydx",
+      "start": "2022-08-01T07:00:00.000Z",
+      "subscribed": true,
+      "url": "https://trello.com/c/nfonRydx/26-hero-sparking-the-cannon-with-nextjs",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Sparking the cannon with Next.js",
+      "hero": true,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.",
+        "desc": "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<h3 id=\"whatstheproject\">What's the Project?</h3>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>",
+        "pathname": "sparking-the-cannon-with-nextjs",
+        "url": "/project/sparking-the-cannon-with-nextjs"
+      }
+    },
+    {
+      "id": "64b7e3a314038c0ef3b3350a",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2020-11-02T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-07-20T16:05:46.770Z",
+      "desc": "```\nBuild the [Barbican Reset](https://www.npmjs.com/package/barbican-reset). An [NPM package](https://docs.npmjs.com/about-packages-and-modules) that can be used across the [Barbican's](https://barbican.org.uk) many digital products to provide consistent styling and functionality.\n\n---\n\n# Resetting the Barbican with Node.js\n\n### What's the Project?\n\nBuild the [Barbican Reset](https://www.npmjs.com/package/barbican-reset). An [NPM package](https://docs.npmjs.com/about-packages-and-modules) that can be used across the [Barbican's](https://barbican.org.uk) many digital products to provide consistent styling and functionality.\n\n### Can I see it?\n\nSure, it's at [npmjs.com/package/barbican-reset](https://www.npmjs.com/package/barbican-reset)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly. But feel free to download the [Barbican Reset](https://www.npmjs.com/package/barbican-reset) and review the production code.\n\n### How much did you do?\n\nPretty much everything, which includes:\n\n- 💻 Building the package for [NPM](https://www.npmjs.com/)\n- 💡 Creating components for [Vue.js](https://vuejs.org)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThis was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.\n\n### What needs improving?\n\n- **Compatibility** 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 29,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf423",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Barbican",
+          "color": "green",
+          "uses": 8
+        },
+        {
+          "id": "64b80fa76e02b0365160d280",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Node.js",
+          "color": null,
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf423",
+        "64b80fa76e02b0365160d280"
+      ],
+      "manualCoverAttachment": true,
+      "name": "Resetting the Barbican with Node.js",
+      "pos": 35839.453125,
+      "shortLink": "Xenp0qa2",
+      "shortUrl": "https://trello.com/c/Xenp0qa2",
+      "start": "2020-11-02T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/Xenp0qa2/29-resetting-the-barbican-with-nodejs",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Resetting the Barbican with Node.js",
+      "hero": false,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Build the Barbican Reset. An NPM package that can be used across the Barbican's many digital products to provide consistent styling and functionality.",
+        "desc": "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<h3 id=\"whatstheproject\">What's the Project?</h3>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building the package for <a href=\"https://www.npmjs.com/\">NPM</a></li>\n<li>💡 Creating components for <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "pathname": "resetting-the-barbican-with-nodejs",
+        "url": "/project/resetting-the-barbican-with-nodejs"
+      }
+    },
+    {
+      "id": "64a6bdfeea6cc13792990d17",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2021-07-01T11:00:00.000Z",
+        "dueComplete": true,
+        "start": "2021-04-01T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-07-19T16:30:55.022Z",
+      "desc": "```\nBuild and animate the website for a community festival called Leytonstone Loves Film.\n\n---\n\n# Leytonstone Loves Film\n\n### What's the Project?\n\nBuild and animate the website for a community festival called Leytonstone Loves Film.\n\n### Can I see it?\n\nSure, it's at [leytonstonelovesfilm.com](https://leytonstonelovesfilm.com)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\n### How much did you do?\n\nEverything on the frontend, which includes:\n\n- 💻 Building the site in [Nuxt.js](https://nuxt.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nI'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n- **Accessibility** 😥 It has none. Areas like [color contrast](https://webaim.org/resources/contrastchecker) and [focus states](https://design-system.service.gov.uk/get-started/focus-states) were not considered at build time.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2021-07-01T11:00:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 28,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf423",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Barbican",
+          "color": "green",
+          "uses": 8
+        },
+        {
+          "id": "64b80fbffbbbe0940125f1a4",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Nuxt",
+          "color": null,
+          "uses": 2
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf423",
+        "64b80fbffbbbe0940125f1a4"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Leytonstone Loves Film",
+      "pos": 36863.4375,
+      "shortLink": "c8anGNEy",
+      "shortUrl": "https://trello.com/c/c8anGNEy",
+      "start": "2021-04-01T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/c8anGNEy/28-leytonstone-loves-film",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Leytonstone Loves Film",
+      "hero": false,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Build and animate the website for a community festival called Leytonstone Loves Film.",
+        "desc": "<h1 id=\"leytonstonelovesfilm\">Leytonstone Loves Film</h1>\n<h3 id=\"whatstheproject\">What's the Project?</h3>\n<p>Build and animate the website for a community festival called Leytonstone Loves Film.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://leytonstonelovesfilm.com\">leytonstonelovesfilm.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nuxt.com\">Nuxt.js</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>I'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>",
+        "pathname": "leytonstone-loves-film",
+        "url": "/project/leytonstone-loves-film"
+      }
+    },
+    {
+      "id": "64a1d42ad7a72fe6b404d356",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2021-07-01T11:00:00.000Z",
+        "dueComplete": true,
+        "start": "2021-04-01T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-07-19T16:31:10.524Z",
+      "desc": "```\nBuild and animate the website for a community festival called Walthamstow Garden Party.\n\n---\n\n# Walthamstow Garden Party\n\n### What's the Project?\n\nBuild and animate the website for a community festival called Walthamstow Garden Party.\n\n### Can I see it?\n\nSure, it's at [walthamstowgardenparty.com](https://walthamstowgardenparty.com)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\n### How much did you do?\n\nEverything on the frontend, which includes:\n\n- Building the site in [Nuxt.js](https://nuxt.com)\n- Animating the brand artwork in [GSAP](https://greensock.com)\n- Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nI'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n- **Accessibility** 😥 It has none. Areas like [color contrast](https://webaim.org/resources/contrastchecker) and [focus states](https://design-system.service.gov.uk/get-started/focus-states) were not considered at build time.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2021-07-01T11:00:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 27,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf423",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Barbican",
+          "color": "green",
+          "uses": 8
+        },
+        {
+          "id": "64b80fbffbbbe0940125f1a4",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Nuxt",
+          "color": null,
+          "uses": 2
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf423",
+        "64b80fbffbbbe0940125f1a4"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Walthamstow Garden Party",
+      "pos": 38911.40625,
+      "shortLink": "SSN0F8Me",
+      "shortUrl": "https://trello.com/c/SSN0F8Me",
+      "start": "2021-04-01T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/SSN0F8Me/27-walthamstow-garden-party",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Walthamstow Garden Party",
+      "hero": false,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Build and animate the website for a community festival called Walthamstow Garden Party.",
+        "desc": "<h1 id=\"walthamstowgardenparty\">Walthamstow Garden Party</h1>\n<h3 id=\"whatstheproject\">What's the Project?</h3>\n<p>Build and animate the website for a community festival called Walthamstow Garden Party.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://walthamstowgardenparty.com\">walthamstowgardenparty.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything on the frontend, which includes:</p>\n<ul>\n<li>Building the site in <a href=\"https://nuxt.com\">Nuxt.js</a></li>\n<li>Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>I'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>",
+        "pathname": "walthamstow-garden-party",
+        "url": "/project/walthamstow-garden-party"
+      }
+    },
+    {
+      "id": "6073409c74b96c31fb853842",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": true,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2020-12-06T12:28:00.000Z",
+        "dueComplete": true,
+        "start": "2020-11-02T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-07-19T16:27:25.595Z",
+      "desc": "```\nUpdate the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a modular design that better reflects the brand and offers a wider range of functionality.\n\n---\n\n# Designing Account Areas in Vue.js\n\n### What's the Project?\n\nUpdate the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a modular design that better reflects the brand and offers a wider range of functionality.\n\n### Can I see it?\n\nSure, it's at [tickets.barbican.org.uk](https://tickets.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paulh.biz/designing-account-areas-in-vuejs) on [my blog](https://blog.paulh.biz).\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue.js](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThe platform is built in [Vue.js](https://vuejs.org) and combines [Drupal](https://drupal.org) data from the [main website](https://barbican.org.uk) with ticketing data from [Spektrix](https://spektrix.com). It's been at the centre of user-focussed innovation at the [Barbican](https://barbican.org.uk) for the last 3 years.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2020-12-06T12:28:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 25,
+      "idAttachmentCover": "",
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf423",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Barbican",
+          "color": "green",
+          "uses": 8
+        },
+        {
+          "id": "64b80eedd3cb846ab0943db4",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Vue.js",
+          "color": null,
+          "uses": 2
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf423",
+        "64b80eedd3cb846ab0943db4"
+      ],
+      "manualCoverAttachment": true,
+      "name": "Designing account areas in Vue.js",
+      "pos": 40959.375,
+      "shortLink": "vti9VRxN",
+      "shortUrl": "https://trello.com/c/vti9VRxN",
+      "start": "2020-11-02T08:00:00.000Z",
+      "subscribed": true,
+      "url": "https://trello.com/c/vti9VRxN/25-hero-designing-account-areas-in-vuejs",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Designing account areas in Vue.js",
+      "hero": true,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Update the Barbican ticketing platform with a modular design that better reflects the brand and offers a wider range of functionality.",
+        "desc": "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<h3 id=\"whatstheproject\">What's the Project?</h3>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "pathname": "designing-account-areas-in-vuejs",
+        "url": "/project/designing-account-areas-in-vuejs"
+      }
+    },
+    {
+      "id": "64b7ebc40642ef9285ec9c0d",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2017-01-01T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-07-19T16:31:27.232Z",
+      "desc": "```\nBuild and brand [36 Bourne Street](https://36bournestreet.com). An online store, built in [Wordpress](https://wordpress.com) for a leather and fabric retailer off the [Pimlico Road, London](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).\n\n---\n\n# Selling designer fabric with Wordpress\n\n### What's the Project?\n\nBuild and brand [36 Bourne Street](https://36bournestreet.com). An online store, built in [Wordpress](https://wordpress.com) for a leather and fabric retailer off the [Pimlico Road, London](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).\n\n### Can I see it?\n\nSure, it's at [36bournestreet.com](https://www.36bournestreet.com)\n\nThe code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/BourneSt).\n\n### How much did you do?\n\nPretty much everything, which includes:\n\n- 💻 Building a child theme for [Wordpress](https://wordpress.com/)\n- 🎨 Designing the layouts with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThe handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a [CMS](https://www.wpbeginner.com/glossary/content-management-system-cms), using [template partials in Wordpress](https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps) and building functionality with the [Advanced Custom Fields](https://www.advancedcustomfields.com) plugin.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 30,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf428",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Bourne St",
+          "color": "red",
+          "uses": 1
+        },
+        {
+          "id": "64b80fdfe485c8ac9019185e",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Wordpress",
+          "color": null,
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf428",
+        "64b80fdfe485c8ac9019185e"
+      ],
+      "manualCoverAttachment": true,
+      "name": "Selling designer fabric with Wordpress",
+      "pos": 327679,
+      "shortLink": "JRu8JTVU",
+      "shortUrl": "https://trello.com/c/JRu8JTVU",
+      "start": "2017-01-01T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/JRu8JTVU/30-selling-designer-fabric-with-wordpress",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Selling designer fabric with Wordpress",
+      "hero": false,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Build and brand 36 Bourne Street. An online store, built in Wordpress for a leather and fabric retailer off the Pimlico Road, London.",
+        "desc": "<h1 id=\"sellingdesignerfabricwithwordpress\">Selling designer fabric with Wordpress</h1>\n<h3 id=\"whatstheproject\">What's the Project?</h3>\n<p>Build and brand <a href=\"https://36bournestreet.com\">36 Bourne Street</a>. An online store, built in <a href=\"https://wordpress.com\">Wordpress</a> for a leather and fabric retailer off the <a href=\"https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district\">Pimlico Road, London</a>.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.36bournestreet.com\">36bournestreet.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/BourneSt\">repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building a child theme for <a href=\"https://wordpress.com/\">Wordpress</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a <a href=\"https://www.wpbeginner.com/glossary/content-management-system-cms\">CMS</a>, using <a href=\"https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps\">template partials in Wordpress</a> and building functionality with the <a href=\"https://www.advancedcustomfields.com\">Advanced Custom Fields</a> plugin.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "pathname": "selling-designer-fabric-with-wordpress",
+        "url": "/project/selling-designer-fabric-with-wordpress"
+      }
+    }
+  ],
+  "spotify": {
+    "_2020": {
+      "collaborative": false,
+      "description": "My favourite songs from the worst year",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3BlVHgMeYX01HMh4eIe5n3"
+      },
+      "followers": 2,
+      "href": "https://api.spotify.com/v1/playlists/3BlVHgMeYX01HMh4eIe5n3",
+      "id": "3BlVHgMeYX01HMh4eIe5n3",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27313d6c82dec0fb2b710ad4d27ab67616d0000b2734eb5d168c3d3fbb96ba6ec8fab67616d0000b2739bb74b4058c40a59fd33bf26ab67616d0000b273eec05a19db1f69581760fb88",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27313d6c82dec0fb2b710ad4d27ab67616d0000b2734eb5d168c3d3fbb96ba6ec8fab67616d0000b2739bb74b4058c40a59fd33bf26ab67616d0000b273eec05a19db1f69581760fb88",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27313d6c82dec0fb2b710ad4d27ab67616d0000b2734eb5d168c3d3fbb96ba6ec8fab67616d0000b2739bb74b4058c40a59fd33bf26ab67616d0000b273eec05a19db1f69581760fb88",
+          "width": 60
+        }
+      ],
+      "name": "2020 => 10",
+      "owner": {
+        "name": "pheading86",
+        "url": "https://open.spotify.com/user/pheading86"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "NTYsMjBhZDMzZDZkYjFlYzliNGVhZDU0YWNkMWYxNTY0NWMzNjRkYjY3Mw==",
+      "tracks": [
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/5qvYokMeJUfBYTqaUnegE8",
+            "name": "Jameszoo"
+          },
+          "popularity": 0,
+          "release_date": "2019-05-17",
+          "url": "https://open.spotify.com/track/2SyJFcJ3sPOzUxL8Ci8YEI",
+          "name": "(flake)"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/1UGH6A3IionoSVLLmqtl4o",
+            "name": "Jack Larsen"
+          },
+          "popularity": 0,
+          "release_date": "2019-10-23",
+          "url": "https://open.spotify.com/track/0FYaOJr2QbhQo4nF4Pq7QV",
+          "name": "Spirit"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/1GFkwGetxvXluztDxPShGo",
+            "name": "Rina Mushonga"
+          },
+          "popularity": 43,
+          "release_date": "2019-02-15",
+          "url": "https://open.spotify.com/track/3OyedWlIaMQWvx1qAiILAA",
+          "name": "Narcisc0"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/7LTSTQkL7iK7zndjFQgHQo",
+            "name": "O'Flynn"
+          },
+          "popularity": 31,
+          "release_date": "2019-09-06",
+          "url": "https://open.spotify.com/track/1SMLoRfenhQJjL4fbimctZ",
+          "name": "Aletheia"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/2dOnTAoXrpBwYAo1qIbemO",
+            "name": "Steam Down"
+          },
+          "popularity": 28,
+          "release_date": "2019-11-08",
+          "url": "https://open.spotify.com/track/3a9BypAqVxHNCZgHQXfeG7",
+          "name": "Free My Skin"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/1ooAqaFu4Ac3BO2HpL4V2R",
+            "name": "Henrik Schwarz"
+          },
+          "popularity": 30,
+          "release_date": "2020-03-20",
+          "url": "https://open.spotify.com/track/7GA49BEANCELzwyBxQVxU1",
+          "name": "Come Together"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/0uo6UbyUYXbG4xBT7vBGSx",
+            "name": "Wilma Archer"
+          },
+          "popularity": 21,
+          "release_date": "2020-04-03",
+          "url": "https://open.spotify.com/track/2C5Q2WNxzaW6NTucwChrAr",
+          "name": "Cheater"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/6aRJP31fKBf0jbvb6qYAGt",
+            "name": "Iftin Band"
+          },
+          "popularity": 13,
+          "release_date": "2019-12-13",
+          "url": "https://open.spotify.com/track/2l8davPIbbdn8BxYgbkwtP",
+          "name": "Sirmaqabe - No Secrets"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/3uOdNUjwD6hhOh1z2dQEIn",
+            "name": "lau.ra"
+          },
+          "popularity": 18,
+          "release_date": "2020-02-07",
+          "url": "https://open.spotify.com/track/5rtAx0XN2V6P0RCkJSAXZ5",
+          "name": "Sideways"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/6kGMx9MqwnbKR2EYvZvvrG",
+            "name": "Alex Cameron"
+          },
+          "popularity": 0,
+          "release_date": "2019-09-13",
+          "url": "https://open.spotify.com/track/0FRyPq968HfykYgFjagGPF",
+          "name": "Far From Born Again"
+        }
+      ],
+      "type": "playlist",
+      "uri": "spotify:playlist:3BlVHgMeYX01HMh4eIe5n3",
+      "profile": "https://open.spotify.com/user/pheading86",
+      "url": "https://open.spotify.com/playlist/3BlVHgMeYX01HMh4eIe5n3",
+      "image": "https://mosaic.scdn.co/640/ab67616d0000b27313d6c82dec0fb2b710ad4d27ab67616d0000b2734eb5d168c3d3fbb96ba6ec8fab67616d0000b2739bb74b4058c40a59fd33bf26ab67616d0000b273eec05a19db1f69581760fb88"
+    },
+    "_2021": {
+      "collaborative": false,
+      "description": "100% organic free-range corn-fed billy bangers",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/50LzfPmB6f0wAZULsP8wzp"
+      },
+      "followers": 1,
+      "href": "https://api.spotify.com/v1/playlists/50LzfPmB6f0wAZULsP8wzp",
+      "id": "50LzfPmB6f0wAZULsP8wzp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273c45d9bd6bb6ff4075fdbe5e0",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273c45d9bd6bb6ff4075fdbe5e0",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273c45d9bd6bb6ff4075fdbe5e0",
+          "width": 60
+        }
+      ],
+      "name": "2021 => 10",
+      "owner": {
+        "name": "pheading86",
+        "url": "https://open.spotify.com/user/pheading86"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MTQxLDE4NmViMjhlYjdlYmI3Yjc0MDlmMWViODI1MDU0ZjFiZTk0MzQzZTc=",
+      "tracks": [
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/6nbtlXRy0S6adYpDVoRdNi",
+            "name": "Anna B Savage"
+          },
+          "popularity": 21,
+          "release_date": "2021-01-29",
+          "url": "https://open.spotify.com/track/4oUBPVqmxoP5u9HeXLU6To",
+          "name": "Corncrakes"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/5K9Px0eeCuYatmBGFfhSOA",
+            "name": "Orlando Weeks"
+          },
+          "popularity": 20,
+          "release_date": "2021-06-16",
+          "url": "https://open.spotify.com/track/0Zga9iWiTp760vRHHLNxFF",
+          "name": "Big Skies, Silly Faces"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/4BSjlnV6ZYrkMLPm55Wrfm",
+            "name": "Deep Throat Choir"
+          },
+          "popularity": 3,
+          "release_date": "2021-09-27",
+          "url": "https://open.spotify.com/track/4GC8pzLgJSqp1gD55ddTaz",
+          "name": "In Order to Know You"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/4GZ18L0i6k1mxAjo3GzINM",
+            "name": "Lou Hayter"
+          },
+          "popularity": 21,
+          "release_date": "2021-05-28",
+          "url": "https://open.spotify.com/track/2nJGzWo4AL574tQCvPaS9z",
+          "name": "My Baby Just Cares for Me"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/6SsTlCsuCYleNza6xGwynu",
+            "name": "Agnes"
+          },
+          "popularity": 47,
+          "release_date": "2021-10-22",
+          "url": "https://open.spotify.com/track/7f0SiAYG8XjOoQyfGvgbLA",
+          "name": "Fingers Crossed"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/6aDX1jzNVAI9enlQzW0Pgw",
+            "name": "Moonchild Sanelly"
+          },
+          "popularity": 16,
+          "release_date": "2021-09-02",
+          "url": "https://open.spotify.com/track/5pDJ0QhZMlcUldSFQqFdNM",
+          "name": "Undumpable"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/0Dy94lW3txJhWQHqNXP1BT",
+            "name": "Laura Mvula"
+          },
+          "popularity": 41,
+          "release_date": "2021-07-02",
+          "url": "https://open.spotify.com/track/32YlBIj8qDpyXgsLJ4MfwR",
+          "name": "Got Me"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/4gQsGkfdB4uVrNBqo4MhmI",
+            "name": "LUMP"
+          },
+          "popularity": 21,
+          "release_date": "2021-05-05",
+          "url": "https://open.spotify.com/track/6fcJI9qrH0vr9EYxjpQdaM",
+          "name": "Animal - Edit"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/5R9d1YP5jtBw2IrQItGzQI",
+            "name": "Michael Mayer"
+          },
+          "popularity": 21,
+          "release_date": "2021-06-04",
+          "url": "https://open.spotify.com/track/0x1eIudX2mUXc28RujjNl5",
+          "name": "Brainwave Technology"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
+            "name": "audiobooks"
+          },
+          "popularity": 32,
+          "release_date": "2021-10-01",
+          "url": "https://open.spotify.com/track/56CpzZPbczcpj3WGu2KYZ9",
+          "name": "The Doll"
+        }
+      ],
+      "type": "playlist",
+      "uri": "spotify:playlist:50LzfPmB6f0wAZULsP8wzp",
+      "profile": "https://open.spotify.com/user/pheading86",
+      "url": "https://open.spotify.com/playlist/50LzfPmB6f0wAZULsP8wzp",
+      "image": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273c45d9bd6bb6ff4075fdbe5e0"
+    },
+    "_2022": {
+      "collaborative": false,
+      "description": "some songs released this year. some not. gimme a break",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2uGfm83zVuJGUfUFy8xnq7"
+      },
+      "followers": 2,
+      "href": "https://api.spotify.com/v1/playlists/2uGfm83zVuJGUfUFy8xnq7",
+      "id": "2uGfm83zVuJGUfUFy8xnq7",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebbaec19d00d18a627f927663d1",
+          "width": null
+        }
+      ],
+      "name": "2022 => 10",
+      "owner": {
+        "name": "pheading86",
+        "url": "https://open.spotify.com/user/pheading86"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "ODAsYjMyMzczYWY2NzkxMTgxMzNkMWY4OTU1ZWQxM2FhNTFlZGVlNzNkZg==",
+      "tracks": [
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/4rqegcqfzES4oBRh4n8TM1",
+            "name": "Ezéchiel Pailhès"
+          },
+          "popularity": 45,
+          "release_date": "2022-10-07",
+          "url": "https://open.spotify.com/track/2k9B3ifvsmef8V8L73BawX",
+          "name": "Mélopée"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/370nbSkMB9kDWyTypwWYak",
+            "name": "Haruomi Hosono"
+          },
+          "popularity": 33,
+          "release_date": "1978",
+          "url": "https://open.spotify.com/track/6EN8xSFfwNPy3W3BD4hCLH",
+          "name": "SPORTS MEN (2018 Yoshinori Sunahara Remastering)"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/3I3Fz1DeUY0icXFvOjbXm7",
+            "name": "Methyl Ethel"
+          },
+          "popularity": 36,
+          "release_date": "2022-02-18",
+          "url": "https://open.spotify.com/track/4QI59IbUG9W8oUo4gWoBxw",
+          "name": "Proof (feat. Stella Donnelly)"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/3v8mFhjLFa50QK8zDvAMYN",
+            "name": "Amanda Miguel"
+          },
+          "popularity": 72,
+          "release_date": "1981-01-01",
+          "url": "https://open.spotify.com/track/0hTao6s03MkTStWfxAmnGk",
+          "name": "Así No Te Amará Jamás"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/6CZhbpXpR3VJNQWFkwd2Ic",
+            "name": "Noé Preszow"
+          },
+          "popularity": 33,
+          "release_date": "2022-03-18",
+          "url": "https://open.spotify.com/track/6sqYnu5QuI8e1JwxlbwFs4",
+          "name": "Faire les choses bien - Version alternative"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/0uAnwMXg0tsGQsOdVwudkb",
+            "name": "Colourbox"
+          },
+          "popularity": 33,
+          "release_date": "1985-08-12",
+          "url": "https://open.spotify.com/track/3RlGLTcM9OwrAA0ErwJ2rA",
+          "name": "The Moon Is Blue"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
+            "name": "Superpoze"
+          },
+          "popularity": 25,
+          "release_date": "2022-03-25",
+          "url": "https://open.spotify.com/track/5YKffOovP69vePWQunFDdW",
+          "name": "Geneva"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/6Jrxnp0JgqmeUX1veU591p",
+            "name": "Santigold"
+          },
+          "popularity": 47,
+          "release_date": "2022-09-09",
+          "url": "https://open.spotify.com/track/1vbayZm5FgNe4ou8BRNiDq",
+          "name": "High Priestess"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/0RwXnFrEoI8tltFvYpJgP6",
+            "name": "Confidence Man"
+          },
+          "popularity": 54,
+          "release_date": "2022-04-01",
+          "url": "https://open.spotify.com/track/53wnscuzFnH8jaGymzqgfi",
+          "name": "Holiday"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/6RQoLyY1nkArRcNc3sE86m",
+            "name": "Ora the Molecule"
+          },
+          "popularity": 29,
+          "release_date": "2021-07-23",
+          "url": "https://open.spotify.com/track/0vydtoDOsW0qRhmFEHdyTT",
+          "name": "Creator"
+        }
+      ],
+      "type": "playlist",
+      "uri": "spotify:playlist:2uGfm83zVuJGUfUFy8xnq7",
+      "profile": "https://open.spotify.com/user/pheading86",
+      "url": "https://open.spotify.com/playlist/2uGfm83zVuJGUfUFy8xnq7",
+      "image": "https://i.scdn.co/image/ab67706c0000bebbaec19d00d18a627f927663d1"
+    }
+  },
+  "gem": {
+    "name": "futuro",
+    "version": "1.1.8",
+    "downloads": 179905,
+    "url": "https://rubygems.org/gems/futuro"
+  },
+  "npm": {
+    "name": "barbican-reset",
+    "version": "2.16.0",
+    "downloads": 13076,
+    "url": "https://www.npmjs.com/package/barbican-reset"
+  }
+}

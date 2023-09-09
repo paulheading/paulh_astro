@@ -1,0 +1,19 @@
+@mixin HeroBanner($key, $value) {
+  .banner.loop_#{$key} {
+    background-color: $value;
+  }
+}
+
+@mixin HeroContainer($key, $value) {
+  .container.loop_#{$key} {
+    background-color: $value;
+  }
+}
+
+@mixin HeroLink($key, $value) {
+  .link.loop_#{$key} {
+    @include focus {
+      background-color: $value;
+    }
+  }
+}

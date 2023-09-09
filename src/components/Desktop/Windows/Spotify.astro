@@ -1,0 +1,26 @@
+---
+import Window from '~components/Desktop/Window.astro'
+import Header from '~components/Desktop/Window/Spotify/Header.astro'
+import Main from '~components/Desktop/Window/Spotify/Main.astro'
+
+const { title } = Astro.props
+---
+
+<Window {...Astro.props} class="window">
+  <div class="content">
+    <Header year={title} />
+    <Main year={title} />
+  </div>
+</Window>
+
+<style lang="scss">
+  .window {
+    left: 4rem;
+    top: 2rem;
+  }
+
+  .content {
+    background-color: black;
+    color: white;
+  }
+</style>

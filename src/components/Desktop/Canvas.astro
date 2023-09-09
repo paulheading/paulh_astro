@@ -1,0 +1,77 @@
+---
+import Windows from '~components/Desktop/Windows.astro'
+import Folders from '~components/Desktop/Folders.astro'
+
+const group = (title, folders = [], state = false) => ({
+  state: state ? 'open' : 'closed',
+  folders,
+  title,
+})
+
+const folder = (title, state = false) => ({
+  state: state ? 'open' : 'closed',
+  title,
+})
+
+const folders = [
+  group('trello', [], true),
+  group('spotify', [folder('2020'), folder('2021'), folder('2022', true)]),
+  group('theme', [folder('reset', true), folder('futuro')]),
+]
+---
+
+<script src="/src/scripts/components/desktop/canvas.js"></script>
+
+<div id="canvas" class="container">
+  <div class="wrap">
+    <div class="content">
+      <Windows items={folders} />
+      <Folders items={folders} />
+    </div>
+    <div class="credit">
+      <a href="https://www.flaticon.com/authors/dinosoftlabs" class="link">
+        Icons made by DinosoftLabs
+      </a>
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .container {
+    background-color: $c-teal;
+    padding: $padding-canvas;
+    overflow: hidden;
+  }
+
+  .wrap {
+    @include wrap;
+  }
+
+  .content {
+    justify-content: center;
+    display: grid;
+
+    @include medium-up {
+      justify-content: space-between;
+      height: $height-section;
+      display: flex;
+    }
+  }
+
+  .credit {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .link {
+    @include folder_words;
+    font-size: $h6-font-size;
+    border-radius: 0.25rem;
+
+    @include focus {
+      @include folder_words--focus;
+    }
+  }
+</style>

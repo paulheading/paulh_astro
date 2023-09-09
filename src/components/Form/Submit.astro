@@ -1,0 +1,25 @@
+<div class="row">
+  <button id="submit">
+    <slot />
+  </button>
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .row {
+    padding: $padding-row-hz;
+    text-align: right;
+  }
+
+  button {
+    @include invisible-button;
+    padding: $padding-row-hz;
+    font-weight: bold;
+
+    @include focus {
+      background-color: $c-gray-6;
+      color: white;
+    }
+  }
+</style>

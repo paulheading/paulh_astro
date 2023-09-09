@@ -1,0 +1,48 @@
+---
+import Alert from '~components/Form/Alert.astro'
+
+const { name } = Astro.props
+
+const placeholder = await Astro.slots.render('default')
+
+const textareaProps = {
+  ...Astro.props,
+  placeholder,
+  id: name,
+}
+---
+
+<div class="row">
+  <label hidden for={name}>
+    {placeholder}
+  </label>
+  <textarea {...textareaProps}></textarea>
+  <Alert class="alert" />
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .row {
+    padding-bottom: $padding-row-hz;
+  }
+
+  textarea {
+    @include form_input;
+    display: block;
+    height: 8rem;
+    resize: none;
+
+    @include large-up {
+      height: 18rem;
+    }
+  }
+
+  .alert {
+    border-right: none;
+
+    @include large-down {
+      border-left: none;
+    }
+  }
+</style>

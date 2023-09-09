@@ -1,0 +1,37 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 320 320"
+  data-loop="60734"
+  height="320"
+  width="320">
+  <path id="mouse" class="st0" d="M212,160L62,100"></path>
+  <path
+    id="left_squiggle"
+    class="st1"
+    d="M62,100h63l-63,30h63l-63,30h63l-63,30h63l-63,30h63"></path>
+  <path
+    id="right_squiggle"
+    class="st1"
+    d="M162,115h86l-86,30h86l-86,30h86l-86,30h86"></path>
+  <path id="box" class="st0" d="M261,220H148V100h113V220z"></path>
+</svg>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  path {
+    stroke-linecap: square;
+    stroke: $c-60734-svg;
+    stroke-width: 6;
+    display: none;
+    fill: none;
+
+    @include small-down {
+      stroke: $c-60734-banner;
+    }
+  }
+
+  .st1 {
+    stroke-linejoin: round;
+  }
+</style>

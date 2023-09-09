@@ -1,0 +1,139 @@
+---
+import { DateTime } from 'luxon'
+
+import Labels from '~components/Labels.astro'
+import Label from '~components/Label.astro'
+import { calc } from '~scripts/helpers'
+import { parse } from 'node-html-parser'
+
+let { card, index } = Astro.props
+let { name, labels, dueComplete, local, start, due } = card
+let primary = labels.filter(({ color }) => color)[0].color
+
+const containerProps = {
+  class: 'container',
+}
+
+if (index >= 3) containerProps.style = { display: 'none' }
+
+start = DateTime.fromISO(start)
+
+due = DateTime.fromISO(due)
+
+const length = calc.summary_length(dueComplete, due, start)
+
+const nameProps = {
+  href: local.url,
+  class: 'name',
+}
+
+function processSummary(content) {
+  let max = 100
+  let words = content.split(' ')
+  let needsButton = false
+  let short = ''
+  let extra = ''
+
+  words.forEach((word) => {
+    if (max < word.length) {
+      needsButton = true
+      extra += ' ' + word
+    } else {
+      max -= word.length
+      short += ' ' + word
+    }
+  })
+
+  short = "<span class='short'>" + short + '</span>'
+  extra = "<span class='extra' style='display:none;'>" + extra + '</span>'
+
+  let total = short
+
+  if (needsButton) {
+    total += extra
+    total += ' ' + "<button class='readmore'>more</button>"
+  }
+
+  return parse(total)
+}
+
+const summary = processSummary(local.summary)
+---
+
+<script src="/src/scripts/components/page/card.js"></script>
+
+<div {...containerProps}>
+  <div class="label_wrap">
+    <Labels>
+      {
+        labels.map(function ({ name, color }) {
+          const style = color ? 'solid' : 'outline'
+
+          color = color ? color : primary
+
+          const props = {
+            color,
+            style,
+          }
+
+          return <Label {...props}>{name}</Label>
+        })
+      }
+      <Label color={primary} style="outline">
+        {length}
+      </Label>
+    </Labels>
+  </div>
+  <a {...nameProps}>{name}</a>
+  <div class="due">
+    {dueComplete ? due.toFormat('MMM yyyy') : 'Ongoing'}
+  </div>
+  <div class="summary">
+    {summary}
+  </div>
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .container {
+    @include medium-down {
+      padding: ($padding-row * 1.5) $padding-row;
+      border-top: $border-dashed;
+    }
+  }
+
+  .label_wrap {
+    margin-bottom: 0.75rem;
+  }
+
+  .due {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-style: italic;
+    color: $c-gray-7;
+  }
+
+  .summary {
+    color: $c-gray-7;
+    font-size: 1rem;
+  }
+</style>
+
+<style lang="scss" is:global>
+  @import '~styles/mixins';
+
+  .readmore {
+    border-radius: $border-radius-sm;
+    border: 1px solid currentColor;
+    background-color: white;
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+    color: inherit;
+
+    @include focus {
+      background-color: $c-gray-7;
+      color: white;
+    }
+  }
+</style>

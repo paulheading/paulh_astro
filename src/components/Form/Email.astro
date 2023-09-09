@@ -1,0 +1,37 @@
+---
+const { placeholder } = Astro.props
+---
+
+<div class="row">
+  <div class="label">To</div>
+  <div class="tag_wrap">
+    <div class="tag">
+      {placeholder}
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .row {
+    @include form_row;
+    border-bottom: 1px solid $c-gray-5;
+    padding-bottom: $padding-row-hz;
+    padding-top: $padding-row-hz;
+
+    @include large-down {
+      align-items: center;
+      display: flex;
+      gap: 1rem;
+    }
+  }
+
+  .tag {
+    border-radius: $border-radius-sm;
+    background-color: $c-sky;
+    padding: $padding-tag;
+    display: inline-block;
+    color: black;
+  }
+</style>

@@ -1,0 +1,17 @@
+---
+import seo from '~data/seo.js'
+import personal from '~data/personal.js'
+
+const { title, keywords, description } = Astro.props
+---
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="generator" content={Astro.generator} />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="author" content={personal.name} />
+  <title>{title ? title : seo.title('Portfolio')}</title>
+  {description && <meta name="description" content={description} />}
+  {keywords && <meta name="keywords" content={keywords} />}
+</head>

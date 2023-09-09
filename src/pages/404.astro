@@ -1,0 +1,44 @@
+---
+import Layout from '~layouts/Main.astro'
+import Content from '~components/Content.astro'
+import seo from '~data/seo.js'
+
+const description =
+  'Oh no... this page is missing. Maybe the url is incorrect? If something looks broken, please email hello@paulh.biz'
+
+const layoutProps = {
+  title: seo.title('404'),
+  description,
+}
+---
+
+<Layout {...layoutProps}>
+  <Content>
+    <div class="wrap">
+      <h1 class="title">Page Not Found 🤬</h1>
+      <p class="copy">
+        <a href="mailto:hello@paulh.biz" class="link">where the page go?</a>
+      </p>
+    </div>
+  </Content>
+</Layout>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .wrap {
+    @include wrap;
+    text-align: center;
+  }
+
+  .copy {
+    font-size: $h3-font-size;
+    font-weight: bold;
+  }
+
+  .link {
+    @include focus {
+      @include gold-box;
+    }
+  }
+</style>

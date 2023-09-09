@@ -1,0 +1,167 @@
+/// @author Paul Heading
+/// This is the global scss file
+
+@import '~styles/mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-body;
+  font-weight: $font-weight-bold;
+  background-color: $c-body-bg;
+  font-size: $font-size-body;
+  line-height: $line-height;
+  min-width: 20rem;
+  margin: 0;
+
+  * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  $h1-drop: $h1-font-size * 0.5;
+
+  font-family: $font-family-headings;
+  font-size: $h1-font-size;
+  margin: 0 0 $h1-drop;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: $font-family-headings;
+  font-size: $h2-font-size;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+h3 {
+  font-family: $font-family-headings;
+  font-size: $h3-font-size;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+h4 {
+  font-family: $font-family-headings;
+  font-size: $h4-font-size;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+h5 {
+  font-family: $font-family-headings;
+  font-size: $h5-font-size;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+h6 {
+  font-size: $h6-font-size;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+blockquote {
+  background-color: white;
+  display: inline-block;
+  margin: 0 0 2rem;
+  padding: 1rem;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 0 1.25rem;
+  font-weight: 400;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  + blockquote {
+    margin-top: 0.75rem;
+  }
+
+  + h3,
+  + h4 {
+    margin-top: 3rem;
+  }
+}
+
+ul {
+  padding-left: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+
+  + h3,
+  + h4 {
+    margin-top: 3rem;
+  }
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+  appearance: none;
+  width: 100%;
+  padding: 0;
+}
+
+.small-up {
+  @include small-down {
+    display: none;
+  }
+}
+
+.small-down {
+  @include small-up {
+    display: none;
+  }
+}
+
+pre {
+  margin: 0;
+}
+
+pre + pre {
+  margin-top: 1.25rem;
+}
+
+code {
+  font-size: $h5-font-size;
+  background: $c-body-bg;
+  display: inline-block;
+  padding: 0.875rem;
+}
+
+.artwork svg {
+  display: none;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.page-content h1:only-child {
+  margin-bottom: 0;
+}
+
+.page-row a {
+  @include focus {
+    @include gold-box;
+  }
+}

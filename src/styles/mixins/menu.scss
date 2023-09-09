@@ -1,0 +1,39 @@
+@mixin container {
+  min-width: $min-width-site;
+  padding-right: $gap-links;
+  padding-left: $gap-links;
+
+  @include small-down {
+    border-bottom: $border-banner;
+    border-top: $border-banner;
+
+    .wrap {
+      height: $height-banner;
+    }
+  }
+
+  @include small-up {
+    padding: 2.5rem 2rem;
+  }
+}
+
+@mixin flex-links {
+  align-items: center;
+  gap: $gap-links;
+  display: flex;
+}
+
+@mixin focus-link {
+  @include single-box(white, 0.375rem);
+  background-color: white;
+}
+
+@mixin focus-about($a, $b) {
+  @include single-box($a);
+  background-color: $b;
+  color: $a;
+}
+
+@mixin focus-resume {
+  border-color: black;
+}

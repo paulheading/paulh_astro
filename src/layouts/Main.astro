@@ -1,0 +1,27 @@
+---
+import '~styles/global.scss'
+import Head from '~components/Head.astro'
+import Menu from '~components/Menu.astro'
+import Marquee from '~components/Marquee.astro'
+import Desktop from '~components/Desktop.astro'
+import Contact from '~components/Contact.astro'
+import Footer from '~components/Footer.astro'
+---
+
+<script>
+  import 'focus-visible/dist/focus-visible.min.js'
+</script>
+
+<script src="/src/scripts/layouts/main.js"></script>
+
+<html lang="en">
+  <Head {...Astro.props} />
+  <body>
+    <Menu />
+    <slot />
+    <Marquee />
+    <Desktop />
+    <Contact />
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,66 @@
+@import '~styles/variables';
+@import '~styles/mixins/breakpoints';
+@import '~styles/mixins/buttons';
+@import '~styles/mixins/focus';
+@import '~styles/mixins/folder';
+@import '~styles/mixins/form';
+@import '~styles/mixins/hero';
+@import '~styles/mixins/label';
+@import '~styles/mixins/menu';
+@import '~styles/mixins/row';
+@import '~styles/mixins/spotify';
+@import '~styles/mixins/theme';
+
+@mixin size($value) {
+  height: $value;
+  width: $value;
+}
+
+@mixin window {
+  box-shadow: $box-shadow-window;
+  border-radius: 0.5rem;
+  width: $width-window;
+  font-size: 1.125rem;
+  overflow: hidden;
+}
+
+@mixin text-overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin wrap {
+  max-width: $max-width-wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin icon($name) {
+  [astro-icon='#{$name}'] {
+    @content;
+  }
+}
+
+@mixin path($name) {
+  path[id='#{$name}'] {
+    @content;
+  }
+}
+
+@mixin topbar-icon {
+  justify-content: center;
+  display: inline-flex;
+  width: 5rem;
+}
+
+@mixin position-folder {
+  @include medium-down {
+    display: inline-block;
+  }
+
+  @include medium-up {
+    transition: right 300ms steps(3), top 300ms steps(3);
+    position: absolute;
+  }
+}

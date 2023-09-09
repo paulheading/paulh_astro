@@ -1,0 +1,61 @@
+---
+import Email from '~components/Form/Email.astro'
+import Input from '~components/Form/Input.astro'
+import Textarea from '~components/Form/Textarea.astro'
+import Submit from '~components/Form/Submit.astro'
+
+const formProps = {
+  'data-netlify': true,
+  noValidate: true,
+  name: 'contact',
+}
+
+const toProps = {
+  placeholder: 'hello@paulh.biz',
+}
+
+const subjectProps = {
+  placeholder: 'Hey there!',
+  name: 'subject',
+  required: true,
+  type: 'text',
+}
+
+const fromProps = {
+  placeholder: 'friendly@visitor.org',
+  required: true,
+  type: 'email',
+  minLength: 5,
+  name: 'from',
+}
+
+const messageProps = {
+  name: 'message',
+  required: true,
+}
+---
+
+<script src="../scripts/components/form.js"></script>
+
+<form {...formProps}>
+  <div class="wrap">
+    <input type="hidden" name="form-name" value="contact" />
+    <Email {...toProps} />
+    <Input {...subjectProps}>Subject</Input>
+    <Input {...fromProps}>From</Input>
+    <Textarea {...messageProps}>Message</Textarea>
+    <Submit>Submit</Submit>
+  </div>
+</form>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .wrap {
+    padding-left: 1rem;
+
+    @include small-up {
+      padding-left: 2rem;
+    }
+  }
+</style>

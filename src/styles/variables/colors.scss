@@ -1,0 +1,95 @@
+$spotify-bg: #0d100a;
+$spotify-header: #222b1b;
+$spotify-text: #a0a19e;
+
+$c-trello-text: #172b4e;
+$c-trello-background: #ebecf0;
+
+$c-gray-1: #f8f9fa;
+$c-gray-2: #e9ecef;
+$c-gray-3: #dee2e6;
+$c-gray-4: #ced4da;
+$c-gray-5: #adb5bd;
+$c-gray-6: #6c757d;
+$c-gray-7: #495057;
+$c-gray-8: #343a40;
+$c-gray-9: #212529;
+
+$c-blue: #007bff;
+$c-indigo: #6610f2;
+$c-purple: #6f42c1;
+$c-pink: #e83e8c;
+$c-red: #dc3545;
+$c-orange: #fd7e14;
+$c-yellow: #ffc107;
+$c-green: #28a745;
+
+$c-teal: #20c997;
+$c-teal--dark: darken($c-teal, 10%);
+$c-teal--xdark: darken($c-teal, 20%);
+$c-teal--xxdark: darken($c-teal, 35%);
+
+$c-cyan: #17a2b8;
+$c-sky: #87cefa;
+
+$c-lemon: lightgoldenrodyellow;
+$c-gold: #f5c356;
+
+$c-body-bg: $c-gray-2;
+$c-body-banner: darken($c-body-bg, 15%);
+
+$c-606d7-bg: hsl(270, 100%, 80%);
+$c-606d7-banner: lighten($c-606d7-bg, 10%);
+$c-606d7-svg: lighten($c-606d7-bg, 20%);
+
+$c-60734-bg: hsl(30, 90%, 50%);
+$c-60734-banner: lighten($c-60734-bg, 15%);
+$c-60734-svg: lighten($c-60734-bg, 30%);
+
+$c-6491c-bg: hsl(5, 100%, 70%);
+$c-6491c-banner: lighten($c-6491c-bg, 10%);
+$c-6491c-svg: lighten($c-6491c-bg, 20%);
+
+$c-status-neutral-fade: hsl(205, 100%, 95%);
+$c-status-neutral-light: hsl(205, 100%, 75%);
+$c-status-neutral: hsl(205, 100%, 37%);
+
+$c-status-error-fade: hsl(0, 45%, 95%);
+$c-status-error-light: hsl(0, 45%, 75%);
+$c-status-error: hsl(0, 45%, 37%);
+
+$c-status-success-fade: hsl(120, 30%, 95%);
+$c-status-success-light: hsl(120, 30%, 75%);
+$c-status-success: hsl(120, 30%, 37%);
+
+$heroes: (
+  "606d7": (
+    bg: $c-606d7-bg,
+    banner: $c-606d7-banner,
+    svg: $c-606d7-svg,
+  ),
+  "60734": (
+    bg: $c-60734-bg,
+    banner: $c-60734-banner,
+    svg: $c-60734-svg,
+  ),
+  "6491c": (
+    bg: $c-6491c-bg,
+    banner: $c-6491c-banner,
+    svg: $c-6491c-svg,
+  ),
+);
+
+$themes: (
+  "futuro": blue,
+  "barbican-reset": red,
+);
+
+$labels: (
+  "green": green,
+  "blue": blue,
+  "red": darkred,
+  "purple": purple,
+  "black": grey,
+  // trello is weird and calls grey black
+);

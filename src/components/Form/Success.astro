@@ -1,0 +1,35 @@
+---
+import Emoji from '~components/Form/Success/Emoji.astro'
+---
+
+<div id="success" class="container">
+  <div class="group">
+    <div class="confetti">
+      <Emoji />
+    </div>
+    <div class="title">Success!</div>
+  </div>
+  <p>Thanks for your message<br />I'll be in touch soon :)</p>
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .container {
+    text-align: center;
+    padding: 4rem 2rem;
+    display: none;
+  }
+
+  .confetti {
+    display: inline-block;
+    width: 9rem;
+  }
+
+  .title {
+    font-size: $h1-font-size;
+    margin-bottom: 0.625rem;
+    line-height: 1;
+    color: black;
+  }
+</style>

@@ -1,0 +1,522 @@
+{
+  "education": [
+    {
+      "id": "5fb2641a2db4d70a004f4556",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 1,
+        "description": true,
+        "due": "2020-10-01T10:36:00.000Z",
+        "dueComplete": true,
+        "start": "2017-11-01T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-06-05T15:52:40.238Z",
+      "desc": "Realised I wanted to build things for a living. Learnt how to use Javascript.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2020-10-01T10:36:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2640a3e5fc6395c87a038",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 11,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6214cc8307e4ec530e71135d",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Treehouse",
+          "color": "blue",
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "6214cc8307e4ec530e71135d"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Full-Stack Javascript Techdegree",
+      "pos": 65535,
+      "shortLink": "IzBQxk00",
+      "shortUrl": "https://trello.com/c/IzBQxk00",
+      "start": "2017-11-01T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/IzBQxk00/11-full-stack-javascript-techdegree",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Full-Stack Javascript Techdegree",
+      "hero": false,
+      "type": "education",
+      "attachments": [
+        {
+          "id": "5fcdfd8803eeb849dec98b26",
+          "name": "Read more",
+          "url": "https://teamtreehouse.com/plans"
+        }
+      ],
+      "actions": [],
+      "local": {
+        "summary": "Realised I wanted to build things for a living. Learnt how to use Javascript.",
+        "desc": "<p>Realised I wanted to build things for a living. Learnt how to use Javascript.</p>"
+      }
+    },
+    {
+      "id": "5fb26426e1197e5fe581b27c",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 1,
+        "description": true,
+        "due": "2009-07-03T10:36:00.000Z",
+        "dueComplete": true,
+        "start": "2009-06-01T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-06-05T15:53:33.693Z",
+      "desc": "Realised how I could get paid to design things. Learnt how to use InDesign.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2009-07-03T10:36:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2640a3e5fc6395c87a038",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 12,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6214cc70ee494a045f6adf36",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Publicis",
+          "color": "blue",
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "6214cc70ee494a045f6adf36"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Work Experience",
+      "pos": 131071,
+      "shortLink": "V9eseLCV",
+      "shortUrl": "https://trello.com/c/V9eseLCV",
+      "start": "2009-06-01T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/V9eseLCV/12-work-experience",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Work Experience",
+      "hero": false,
+      "type": "education",
+      "attachments": [
+        {
+          "id": "647e04fd5677b2796189e093",
+          "name": "Read more",
+          "url": "https://www.publicisgroupe.com/en/services/services-publicis-media-en"
+        }
+      ],
+      "actions": [],
+      "local": {
+        "summary": "Realised how I could get paid to design things. Learnt how to use InDesign.",
+        "desc": "<p>Realised how I could get paid to design things. Learnt how to use InDesign.</p>"
+      }
+    },
+    {
+      "id": "5fb26430a9be1e2de6e583b7",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 1,
+        "description": true,
+        "due": "2009-06-01T10:36:00.000Z",
+        "dueComplete": true,
+        "start": "2006-06-01T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-06-05T15:54:06.409Z",
+      "desc": "Realised I wanted to design things for a living. Learnt how to use Photoshop.",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2009-06-01T10:36:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2640a3e5fc6395c87a038",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 13,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6214cc35d8fa632b682f3e9e",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Goldsmiths",
+          "color": "blue",
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "6214cc35d8fa632b682f3e9e"
+      ],
+      "manualCoverAttachment": false,
+      "name": "BA History",
+      "pos": 196607,
+      "shortLink": "Xf9TrWyD",
+      "shortUrl": "https://trello.com/c/Xf9TrWyD",
+      "start": "2006-06-01T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/Xf9TrWyD/13-ba-history",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "BA History",
+      "hero": false,
+      "type": "education",
+      "attachments": [
+        {
+          "id": "5fce10434a1d5b5fedadc28c",
+          "name": "Read more",
+          "url": "https://gold.ac.uk"
+        }
+      ],
+      "actions": [],
+      "local": {
+        "summary": "Realised I wanted to design things for a living. Learnt how to use Photoshop.",
+        "desc": "<p>Realised I wanted to design things for a living. Learnt how to use Photoshop.</p>"
+      }
+    }
+  ],
+  "roles": [
+    {
+      "id": "5fcfcf2c4cb94d2d4d03cb00",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 1,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2019-12-02T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-07-31T20:36:38.326Z",
+      "desc": "```\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer and Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org). Outside of this role, I also like to build in [Next.js](https://nextjs.org)\n\n---\n\n# Front-end Designer and Developer\n\n### What's the Role?\n\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer and Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org).\n\n### What does this include?\n\n- ⏱️ Working as part of an Agile environment and estimating deadlines within a fortnightly workflow\n- 🗣️ Presenting at fortnightly demos to staff across the organisation\n- 🗣️ Beta testing and responding to user feedback\n- 👨‍🔬 Designing more inclusive and accessible online experiences\n- 🎨 Designing wireframes and prototypes with Figma\n- 💻 Building functionality with Vue.js\n- 🚀 Animating user interactions with GSAP\n- 📝 Styling layouts and translating designs with SCSS\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fcfcf0ce3266a31c9d16d38",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 17,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf423",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Barbican",
+          "color": "green",
+          "uses": 8
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf423"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Front-end Designer and Developer",
+      "pos": 16384,
+      "shortLink": "w7J6wjLT",
+      "shortUrl": "https://trello.com/c/w7J6wjLT",
+      "start": "2019-12-02T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/w7J6wjLT/17-front-end-designer-and-developer",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Front-end Designer and Developer",
+      "hero": false,
+      "type": "role",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Front-end Designer and Developer working for the Barbican in London. I create wireframes and prototypes in Figma, and build things in Vue.js. Outside of this role, I also like to build in Next.js",
+        "desc": "<h1 id=\"frontenddesigneranddeveloper\">Front-end Designer and Developer</h1>\n<h3 id=\"whatstherole\">What's the Role?</h3>\n<p><a href=\"https://en.wikipedia.org/wiki/Front-end_web_development\">Front-end</a> Designer and Developer working for the <a href=\"https://barbican.org.uk\">Barbican</a> in London. I create <a href=\"https://www.figma.com/blog/how-to-wireframe/\">wireframes</a> and <a href=\"https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma\">prototypes</a> in <a href=\"https://figma.com\">Figma</a>, and build things in <a href=\"https://vuejs.org\">Vue.js</a>.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working as part of an Agile environment and estimating deadlines within a fortnightly workflow</li>\n<li>🗣️ Presenting at fortnightly demos to staff across the organisation</li>\n<li>🗣️ Beta testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible online experiences</li>\n<li>🎨 Designing wireframes and prototypes with Figma</li>\n<li>💻 Building functionality with Vue.js</li>\n<li>🚀 Animating user interactions with GSAP</li>\n<li>📝 Styling layouts and translating designs with SCSS</li>\n</ul>",
+        "pathname": "front-end-designer-and-developer",
+        "url": "/role/front-end-designer-and-developer"
+      }
+    },
+    {
+      "id": "5fcfd001212e45767e76c7de",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2019-12-02T13:19:00.000Z",
+        "dueComplete": true,
+        "start": "2016-03-14T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-07-31T20:29:12.927Z",
+      "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican), designing digital content for marketing campaigns, as well as managing one other Designer.\n\n---\n\n# Design Manager\n\n### What's the Role?\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican), designing digital content for marketing campaigns, as well as managing one other Designer.\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 🎞️ Creating cinema trailers with Adobe After Effects\n- 🚀 Animating HTML 5 advertising with GSAP\n- 🎨 Designing layouts and concepts with Sketch\n- 👨‍💻 Managing workflow with Trello\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2019-12-02T13:19:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fcfcf0ce3266a31c9d16d38",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 18,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf423",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Barbican",
+          "color": "green",
+          "uses": 8
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf423"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Design Manager",
+      "pos": 32768,
+      "shortLink": "7s0duLts",
+      "shortUrl": "https://trello.com/c/7s0duLts",
+      "start": "2016-03-14T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/7s0duLts/18-design-manager",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Design Manager",
+      "hero": false,
+      "type": "role",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "I worked in the Barbican Design Studio, designing digital content for marketing campaigns, as well as managing one other Designer.",
+        "desc": "<h1 id=\"designmanager\">Design Manager</h1>\n<h3 id=\"whatstherole\">What's the Role?</h3>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/barbican\">Barbican Design Studio</a>, designing digital content for marketing campaigns, as well as managing one other Designer.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>",
+        "pathname": "design-manager",
+        "url": "/role/design-manager"
+      }
+    },
+    {
+      "id": "5fcfd05eea168a6c8d469cea",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2016-03-11T13:19:00.000Z",
+        "dueComplete": true,
+        "start": "2013-03-13T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-09-05T08:26:32.293Z",
+      "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n---\n\n# Junior Designer\n\n### What's the Role?\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 📺 Creating plasma trailers with Adobe After Effects\n- 🚀 Animating online advertising with Adobe Photoshop\n- 🎨 Designing layouts and concepts with Sketch\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2016-03-11T13:19:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fcfcf0ce3266a31c9d16d38",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 19,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "5fb002b2cdabcf46c03cf423",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Barbican",
+          "color": "green",
+          "uses": 8
+        }
+      ],
+      "idLabels": [
+        "5fb002b2cdabcf46c03cf423"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Junior Designer",
+      "pos": 49152,
+      "shortLink": "O3a6Y14f",
+      "shortUrl": "https://trello.com/c/O3a6Y14f",
+      "start": "2013-03-13T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/O3a6Y14f/19-junior-designer",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Junior Designer",
+      "hero": false,
+      "type": "role",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "I worked in the Barbican Design Studio designing digital content for marketing campaigns.",
+        "desc": "<h1 id=\"juniordesigner\">Junior Designer</h1>\n<h3 id=\"whatstherole\">What's the Role?</h3>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/paul-heading\">Barbican Design Studio</a> designing digital content for marketing campaigns.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>",
+        "pathname": "junior-designer",
+        "url": "/role/junior-designer"
+      }
+    }
+  ]
+}

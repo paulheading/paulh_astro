@@ -1,0 +1,55 @@
+---
+import SpotifyWindow from '~components/Desktop/Windows/Spotify.astro'
+import TrelloWindow from '~components/Desktop/Windows/Trello.astro'
+import ResetWindow from '~components/Desktop/Windows/Reset.astro'
+import FuturoWindow from '~components/Desktop/Windows/Futuro.astro'
+
+const { items } = Astro.props
+---
+
+<div id="desktop_windows" class="windows">
+  {
+    items.map(function (item) {
+      const { title, folders } = item
+
+      if (title == 'trello') return <TrelloWindow {...item} />
+
+      if (title == 'spotify') {
+        return folders.map(function (subfolder) {
+          const props = {
+            ...subfolder,
+            group: item.title,
+          }
+          return <SpotifyWindow {...props} />
+        })
+      }
+
+      if (title == 'theme') {
+        return folders.map(function (subfolder) {
+          const { title } = subfolder
+
+          const props = {
+            ...subfolder,
+            group: item.title,
+          }
+
+          if (title == 'reset') return <ResetWindow {...props} />
+          if (title == 'futuro') return <FuturoWindow {...props} />
+        })
+      }
+    })
+  }
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .windows {
+    position: relative;
+
+    @include medium-down {
+      height: 30rem;
+      width: 16rem;
+    }
+  }
+</style>

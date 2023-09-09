@@ -1,0 +1,46 @@
+---
+import Graph from '~components/Desktop/Window/Theme/Graph.astro'
+const { name, url, version, downloads, color, class: className } = Astro.props
+
+const containerProps = {
+  class: 'container ' + className,
+}
+---
+
+<div {...containerProps}>
+  <header>
+    <div>
+      <a class="name" href={url}>{name}</a>
+      <div>{downloads}</div>
+    </div>
+    <div class="version">{version}</div>
+  </header>
+  <Graph color={color} />
+</div>
+
+<style lang="scss" define:vars={{ color }}>
+  @import '~styles/mixins';
+
+  .container {
+    border-radius: $border-radius-lg;
+    border: 1px solid var(--color);
+    padding: 1rem;
+  }
+
+  header {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .name {
+    @include focus {
+      @include single-box($c-lemon);
+      background-color: $c-lemon;
+      color: black;
+    }
+  }
+
+  .version {
+    color: var(--color);
+  }
+</style>

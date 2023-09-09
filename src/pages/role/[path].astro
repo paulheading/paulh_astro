@@ -1,0 +1,32 @@
+---
+import { parse } from 'node-html-parser'
+
+import Layout from '~layouts/Main.astro'
+import Content from '~components/Content.astro'
+import Row from '~components/Page/Row.astro'
+import Page from '~components/Page.astro'
+
+import { roles } from '~data/resume.json'
+import { get, create } from '~scripts/helpers'
+
+export function getStaticPaths() {
+  return get.StaticPaths(roles)
+}
+
+const { name, local } = Astro.props
+
+const sections = create.sections(local.desc, '<h3')
+
+const layoutProps = {
+  title: 'Paul Heading | Role | ' + name,
+  description: local.summary,
+}
+---
+
+<Layout {...layoutProps}>
+  <Content>
+    <Page>
+      {sections.map((section) => <Row>{parse(section)}</Row>)}
+    </Page>
+  </Content>
+</Layout>

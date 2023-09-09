@@ -1,0 +1,12 @@
+@mixin folder_words {
+  @include text-overflow;
+  background-color: $c-teal--xdark;
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+  color: white;
+}
+
+@mixin folder_words--focus {
+  background-color: white;
+  color: $c-teal--xdark;
+}

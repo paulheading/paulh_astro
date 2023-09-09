@@ -1,0 +1,16 @@
+<div class="container">
+  <slot />
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .container {
+    @include wrap;
+
+    @include medium-up {
+      box-shadow: $box-shadow-page;
+      max-width: 50rem;
+    }
+  }
+</style>

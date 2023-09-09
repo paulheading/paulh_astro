@@ -1,0 +1,43 @@
+---
+const { name, local, labels } = Astro.props
+import Label from '~components/Desktop/Window/Trello/Label.astro'
+
+const primary = labels[0].color
+---
+
+<a class="container" href={local.url}>
+  {name}
+  <div class="labels">
+    {labels.map((label) => <Label {...label} primary={primary} />)}
+  </div>
+</a>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .container {
+    box-shadow: 0 0.125rem $c-trello-text;
+    background-color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    display: block;
+
+    + .container {
+      margin-top: $padding-trello;
+    }
+
+    @include focus {
+      @include single-box($c-trello-text, 0.1875rem);
+      z-index: inherit;
+    }
+  }
+
+  .labels {
+    $margin: 0.25rem;
+
+    margin-right: -$margin;
+    margin-left: -$margin;
+    margin-top: $margin;
+  }
+</style>

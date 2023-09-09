@@ -1,0 +1,32 @@
+---
+import Location from '~components/Desktop/Topbar/Location.astro'
+import Wifi from '~components/Desktop/Topbar/Wifi.astro'
+import Time from '~components/Desktop/Topbar/Time.astro'
+---
+
+<div id="topbar" class="container">
+  <div class="wrap">
+    <Location />
+    <Wifi />
+    <Time />
+  </div>
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .container {
+    border-bottom: 0.25rem $c-teal--xdark solid;
+    background-color: $c-teal--dark;
+    justify-content: center;
+    color: $c-teal--xxdark;
+    align-items: center;
+    padding: 0.5rem;
+    display: flex;
+  }
+
+  .wrap {
+    display: inline-flex;
+    align-items: center;
+  }
+</style>

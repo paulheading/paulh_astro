@@ -1,0 +1,24 @@
+---
+import Artwork606d7 from '~artwork/606d7.astro'
+import Artwork6491c from '~artwork/6491c.astro'
+import Artwork60734 from '~artwork/60734.astro'
+---
+
+<div class="artwork"><Artwork606d7 /><Artwork6491c /><Artwork60734 /></div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .artwork {
+    transform: scale(2);
+    grid-column: 1 / 2;
+    position: relative;
+    grid-row: 1 / 2;
+    bottom: -0.5rem;
+    z-index: 1;
+
+    @include small-up {
+      bottom: -1rem;
+    }
+  }
+</style>

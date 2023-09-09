@@ -1,0 +1,59 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 320 320"
+  data-loop="606d7"
+  height="320"
+  width="320">
+  <path class="st0" id="bar_4" d="M177.5,221h-120v-14h120V221z"></path>
+  <path class="st0" id="bar_3" d="M272.5,185h-160v-14h160V185z"></path>
+  <path class="st0" id="bar_2" d="M222.5,149h-160v-14h160V149z"></path>
+  <path class="st0" id="bar_1" d="M262.5,113h-160V99h160V113z"></path>
+  <path class="st1" id="marker" d="M160,78v164"></path>
+  <path
+    class="st0"
+    id="garden"
+    d="M219.4,162.6c0,16.2,13.1,29.4,29.4,29.4c16.2,0,29.4-13.1,29.4-29.4c0-16.2-13.1-29.4-29.4-29.4v-17.6h-46.9 v46.9L219.4,162.6L219.4,162.6z"
+  ></path>
+  <path
+    class="st0"
+    id="hall"
+    d="M100.6,135c0-16.2-13.1-29.4-29.4-29.4c-16.2,0-29.4,13.1-29.4,29.4c0,16.2,13.1,29.4,29.4,29.4V182h46.9v-46.9 L100.6,135L100.6,135z"
+  ></path>
+  <path class="st0" id="stage" d="M160,163.8l35,60h-70L160,163.8z"></path>
+  <path class="st2" id="sound" d="M177.6,131.4h-35.2V96.2h35.2V131.4z"></path>
+  <path class="st0" id="lobby" d="M177.6,131.4h-35.2V96.2h35.2V131.4z"></path>
+</svg>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  path {
+    display: none;
+  }
+
+  .st0 {
+    stroke-linecap: square;
+    stroke: $c-606d7-svg;
+    stroke-width: 5;
+    fill: none;
+
+    @include small-down {
+      stroke: $c-606d7-banner;
+    }
+  }
+
+  .st1 {
+    stroke-linecap: square;
+    stroke: $c-606d7-svg;
+    stroke-width: 3;
+    fill: none;
+
+    @include small-down {
+      stroke: $c-606d7-banner;
+    }
+  }
+
+  .st2 {
+    fill: $c-606d7-svg;
+  }
+</style>

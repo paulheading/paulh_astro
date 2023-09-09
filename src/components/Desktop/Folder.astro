@@ -1,0 +1,91 @@
+---
+import folder_open from '~svg/folder/open.svg?raw'
+import folder_closed from '~svg/folder/closed.svg?raw'
+import { parse } from 'node-html-parser'
+import Window from '~components/Desktop/Folder/Window.astro'
+import WindowList from '~components/Desktop/Folder/Window/List.astro'
+
+const { title, folders, state } = Astro.props
+
+const isGroup = folders.length ? true : false
+
+const dataProps = {
+  'data-group': isGroup ? title : false,
+  'data-state': state,
+}
+
+const folderProps = {
+  ...dataProps,
+  id: 'folder_' + title,
+  class: 'folder',
+}
+
+const windowProps = {
+  'data-state': dataProps['data-state'],
+}
+
+const listProps = {
+  'data-group': dataProps['data-group'],
+  items: folders,
+}
+---
+
+<div class="container">
+  <button {...folderProps}>
+    <div class="icon">
+      {parse(folder_open)}{parse(folder_closed)}
+    </div>
+    <div class="title">{title}</div>
+  </button>
+  {
+    isGroup && (
+      <Window {...windowProps} class="window">
+        <WindowList {...listProps} />
+      </Window>
+    )
+  }
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  .container {
+    position: relative;
+  }
+
+  .window {
+    position: absolute;
+    left: -8rem;
+  }
+
+  .folder {
+    @include invisible-button;
+    margin: 0.75rem;
+
+    @include focus {
+      .title {
+        @include folder_words--focus;
+      }
+    }
+  }
+
+  .title {
+    @include folder_words;
+    font-size: $h6-font-size;
+    font-weight: 600;
+  }
+</style>
+
+<style lang="scss" is:global>
+  .folder[data-state='open'] {
+    #svg_closed {
+      display: none;
+    }
+  }
+
+  .folder[data-state='closed'] {
+    #svg_open {
+      display: none;
+    }
+  }
+</style>

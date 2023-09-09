@@ -1,0 +1,24 @@
+@mixin label-setup {
+  border: 1px solid currentColor;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  max-width: 15rem;
+  margin: 0.25rem;
+}
+
+@mixin LabelColor($key, $value) {
+  .solid.#{$key} {
+    background-color: $value;
+    border-color: $value;
+  }
+  .outline.#{$key} {
+    color: $value;
+  }
+}
+
+@mixin LabelSize($key, $value) {
+  .label.#{$key} {
+    font-size: $value;
+  }
+}

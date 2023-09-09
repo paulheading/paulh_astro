@@ -1,0 +1,71 @@
+---
+import Artwork from '~components/Hero/Artwork.astro'
+---
+
+<div id="hero" class="container">
+  <h1 class="name">
+    <a href="" class="link"></a>
+  </h1>
+  <Artwork />
+</div>
+
+<style lang="scss">
+  @import '~styles/mixins';
+
+  @mixin center() {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .container {
+    background-color: #d3d3d3;
+    place-items: center;
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    height: 24rem;
+
+    @include small-up {
+      height: 32rem;
+    }
+  }
+
+  @each $key, $value in $heroes {
+    .container[data-loop='#{$key}'] {
+      background-color: map-get($value, bg);
+
+      .link {
+        @include focus {
+          background-color: map-get($value, svg);
+        }
+      }
+    }
+  }
+
+  .name {
+    @include center;
+    max-width: $max-width-wrap;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    position: relative;
+    bottom: 0.5rem;
+    z-index: 2;
+
+    @include small-up {
+      bottom: -0.5rem;
+    }
+  }
+
+  .link {
+    padding: 0.375rem;
+
+    @include focus {
+      background-color: white;
+      outline: none;
+    }
+  }
+
+  .artwork {
+    @include center;
+  }
+</style>
