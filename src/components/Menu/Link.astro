@@ -1,9 +1,22 @@
 ---
 const { name, class: className } = Astro.props;
 const href = name == "home" ? "/" : "/" + name;
+const matches = Astro.url.pathname == href;
 const classes = ["link", name + "-link", className];
 ---
 
-<a href={href} class:list={classes}>
-  <slot />
-</a>
+<div>
+  {Astro.url.pathname.split("/").join("")}
+</div>
+
+<!-- {
+  matches ? (
+    <div class:list={classes}>
+      <slot />
+    </div>
+  ) : (
+    <a href={href} class:list={classes}>
+      <slot />
+    </a>
+  )
+} -->
