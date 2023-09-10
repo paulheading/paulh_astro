@@ -7,7 +7,7 @@ for (let index = 0; index < links.length; index++) {
   const link = links[index];
   const { innerText } = link;
   const content = innerText.toLowerCase();
-  const path = pathname.slice(1);
+  const path = pathname.split("/").join("");
   const disabled = "disabled";
 
   console.log("content: ", content);
