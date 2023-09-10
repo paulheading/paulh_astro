@@ -13,8 +13,6 @@ const containerProps = {
 };
 ---
 
-<script src="~scripts/components/menu.js"></script>
-
 <div {...containerProps}>
   <div class="wrap">
     <div class="logo">
@@ -99,10 +97,7 @@ const containerProps = {
     }
   }
 
-  .link.disabled {
-    text-decoration: none;
-    pointer-events: none;
-
+  div.link {
     @include small-down {
       @include focus-link;
     }
@@ -119,7 +114,7 @@ const containerProps = {
     }
   }
 
-  .about-link:not(.disabled) {
+  a.about-link {
     @include small-down {
       @include focus {
         @include focus-link;
@@ -137,7 +132,7 @@ const containerProps = {
     }
   }
 
-  .about-link.disabled {
+  div.about-link {
     @include small-up {
       @include focus-about(black, white);
     }
@@ -154,7 +149,7 @@ const containerProps = {
     }
   }
 
-  .resume-link:not(.disabled) {
+  a.resume-link {
     @include small-down {
       @include focus {
         @include focus-link;
@@ -168,7 +163,7 @@ const containerProps = {
     }
   }
 
-  .resume-link.disabled {
+  div.resume-link {
     @include small-up {
       @include focus-resume;
     }
