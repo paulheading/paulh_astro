@@ -1,82 +1,82 @@
 ---
-import { DateTime } from 'luxon'
+import { DateTime } from "luxon";
 
-import Labels from '~components/Labels.astro'
-import Label from '~components/Label.astro'
-import { calc } from '~scripts/helpers'
-import { parse } from 'node-html-parser'
+import Labels from "~components/Labels.astro";
+import Label from "~components/Label.astro";
+import { calc } from "~scripts/helpers";
+import { parse } from "node-html-parser";
 
-let { card, index } = Astro.props
-let { name, labels, dueComplete, local, start, due } = card
-let primary = labels.filter(({ color }) => color)[0].color
+let { card, index } = Astro.props;
+let { name, labels, dueComplete, local, start, due } = card;
+let primary = labels.filter(({ color }) => color)[0].color;
 
 const containerProps = {
-  class: 'container',
-}
+  class: "container",
+};
 
-if (index >= 3) containerProps.style = { display: 'none' }
+if (index >= 3) containerProps.style = { display: "none" };
 
-start = DateTime.fromISO(start)
+start = DateTime.fromISO(start);
 
-due = DateTime.fromISO(due)
+due = DateTime.fromISO(due);
 
-const length = calc.summary_length(dueComplete, due, start)
+const length = calc.summary_length(dueComplete, due, start);
 
 const nameProps = {
   href: local.url,
-  class: 'name',
-}
+  class: "name",
+};
 
 function processSummary(content) {
-  let max = 100
-  let words = content.split(' ')
-  let needsButton = false
-  let short = ''
-  let extra = ''
+  let max = 100;
+  let words = content.split(" ");
+  let needsButton = false;
+  let short = "";
+  let extra = "";
 
   words.forEach((word) => {
     if (max < word.length) {
-      needsButton = true
-      extra += ' ' + word
+      needsButton = true;
+      extra += " " + word;
     } else {
-      max -= word.length
-      short += ' ' + word
+      max -= word.length;
+      short += " " + word;
     }
-  })
+  });
 
-  short = "<span class='short'>" + short + '</span>'
-  extra = "<span class='extra' style='display:none;'>" + extra + '</span>'
+  short = "<span class='short'>" + short + "</span>";
+  extra = "<span class='extra' style='display:none;'>" + extra + "</span>";
 
-  let total = short
+  let total = short;
 
   if (needsButton) {
-    total += extra
-    total += ' ' + "<button class='readmore'>more</button>"
+    total += extra;
+    total += " " + "<button class='readmore'>more</button>";
   }
 
-  return parse(total)
+  return parse(total);
 }
 
-const summary = processSummary(local.summary)
+const summary = processSummary(local.summary);
 ---
 
-<script src="/src/scripts/components/page/card.js"></script>
+<script src="~scripts/components/page/card.js"></script>
 
 <div {...containerProps}>
   <div class="label_wrap">
     <Labels>
       {
         labels.map(function ({ name, color }) {
-          const style = color ? 'solid' : 'outline'
+          const style = color ? "solid" : "outline";
 
-          color = color ? color : primary
+          color = color ? color : primary;
 
           const props = {
             color,
             style,
-          }
+          };
 
-          return <Label {...props}>{name}</Label>
+          return <Label {...props}>{name}</Label>;
         })
       }
       <Label color={primary} style="outline">
@@ -86,7 +86,7 @@ const summary = processSummary(local.summary)
   </div>
   <a {...nameProps}>{name}</a>
   <div class="due">
-    {dueComplete ? due.toFormat('MMM yyyy') : 'Ongoing'}
+    {dueComplete ? due.toFormat("MMM yyyy") : "Ongoing"}
   </div>
   <div class="summary">
     {summary}
@@ -94,7 +94,7 @@ const summary = processSummary(local.summary)
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .container {
     @include medium-down {
@@ -121,7 +121,7 @@ const summary = processSummary(local.summary)
 </style>
 
 <style lang="scss" is:global>
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .readmore {
     border-radius: $border-radius-sm;

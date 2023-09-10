@@ -1,41 +1,41 @@
 ---
-import Email from '~components/Form/Email.astro'
-import Input from '~components/Form/Input.astro'
-import Textarea from '~components/Form/Textarea.astro'
-import Submit from '~components/Form/Submit.astro'
+import Email from "~components/Form/Email.astro";
+import Input from "~components/Form/Input.astro";
+import Textarea from "~components/Form/Textarea.astro";
+import Submit from "~components/Form/Submit.astro";
 
 const formProps = {
-  'data-netlify': true,
+  "data-netlify": true,
   noValidate: true,
-  name: 'contact',
-}
+  name: "contact",
+};
 
 const toProps = {
-  placeholder: 'hello@paulh.biz',
-}
+  placeholder: "hello@paulh.biz",
+};
 
 const subjectProps = {
-  placeholder: 'Hey there!',
-  name: 'subject',
+  placeholder: "Hey there!",
+  name: "subject",
   required: true,
-  type: 'text',
-}
+  type: "text",
+};
 
 const fromProps = {
-  placeholder: 'friendly@visitor.org',
+  placeholder: "friendly@visitor.org",
   required: true,
-  type: 'email',
+  type: "email",
   minLength: 5,
-  name: 'from',
-}
+  name: "from",
+};
 
 const messageProps = {
-  name: 'message',
+  name: "message",
   required: true,
-}
+};
 ---
 
-<script src="../scripts/components/form.js"></script>
+<script src="~scripts/components/form.js"></script>
 
 <form {...formProps}>
   <div class="wrap">
@@ -49,7 +49,7 @@ const messageProps = {
 </form>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .wrap {
     padding-left: 1rem;

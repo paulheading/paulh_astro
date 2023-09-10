@@ -1,26 +1,26 @@
 ---
-import { projects } from '~data/layout.json'
-import Card from '~components/Desktop/Window/Trello/Card.astro'
+import { projects } from "~data/layout.json";
+import Card from "~components/Desktop/Window/Trello/Card.astro";
 
-let current = 0
-let page = 2
-let spaces = 2
-let pages = [[]]
+let current = 0;
+let page = 2;
+let spaces = 2;
+let pages = [[]];
 
 function Groups(project) {
   if (!spaces) {
-    pages.push([])
-    current += 1
-    spaces = page
+    pages.push([]);
+    current += 1;
+    spaces = page;
   }
-  pages[current].push(project)
-  spaces -= 1
+  pages[current].push(project);
+  spaces -= 1;
 }
 
-projects.map(Groups)
+projects.map(Groups);
 ---
 
-<script src="/src/scripts/components/desktop/window/trello/main.js"></script>
+<script src="~scripts/components/desktop/window/trello/main.js"></script>
 
 <main>
   {
@@ -28,10 +28,10 @@ projects.map(Groups)
       return (
         <div class="page" data-index={index}>
           {page.map(function (project) {
-            return <Card {...project} />
+            return <Card {...project} />;
           })}
         </div>
-      )
+      );
     })
   }
 </main>
