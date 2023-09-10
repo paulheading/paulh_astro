@@ -1,5 +1,7 @@
 import $ from "~scripts/selectors";
 
+console.log("fired");
+
 const { pathname } = window.location;
 const links = $.menu.querySelector(".links").children;
 
