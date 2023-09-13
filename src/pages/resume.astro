@@ -81,25 +81,28 @@ const learningProps = {
 <style lang="scss">
   @import "~styles/mixins";
 
+  @mixin mobile-bump {
+    @include medium-down {
+      margin-bottom: $padding-row * 0.5;
+    }
+  }
+
   .name {
+    @include mobile-bump;
     font-size: $h1-font-size;
 
     @include medium-down {
-      margin-bottom: $padding-row * 0.5;
       line-height: 1.3;
     }
   }
 
   .title {
+    margin-bottom: $padding-row * 0.5;
     font-size: $h3-font-size;
-    margin-bottom: 1rem;
   }
 
   .copy {
+    @include mobile-bump;
     font-weight: normal;
-
-    @include medium-down {
-      margin-bottom: $padding-row * 0.5;
-    }
   }
 </style>
