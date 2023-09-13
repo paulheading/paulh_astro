@@ -54,8 +54,8 @@ const windowProps = {
   }
 
   .close {
+    border: 0.125rem solid white;
     padding: var(--close_padding);
-    border: 1px solid white;
     background-color: $c-red;
     border-radius: 50%;
     font-size: 0;
@@ -63,8 +63,7 @@ const windowProps = {
 
   button.close {
     @include focus {
-      @include double-box($c-gray-5, $c-red, 0.1875rem);
-      border-color: transparent;
+      background-color: darken($c-red, 20%);
     }
   }
 
