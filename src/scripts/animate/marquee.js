@@ -1,5 +1,5 @@
-import { gsap } from 'gsap'
-import { trim, start, end } from '~data/timings'
+import { gsap } from "gsap";
+import { trim, start, end } from "~data/timings";
 
 // prettier-ignore
 function shuffle(array) {
@@ -12,37 +12,37 @@ function shuffle(array) {
 }
 
 function stagger(link) {
-  const wrap = link.querySelector('.link-content')
-  const sentences = wrap.querySelectorAll('.sentence')
-  const sample = sentences[0].querySelectorAll('.word')
+  const wrap = link.querySelector(".link-content");
+  const sentences = wrap.querySelectorAll(".sentence");
+  const sample = sentences[0].querySelectorAll(".word");
 
-  const tl = gsap.timeline()
-  const opacity = 1
-  const textDecoration = 'underline'
-  const stagger = start
-  const max_stagger = (sample.length - 1) * stagger
-  const start_end = start + max_stagger
-  const stagger_end = end - max_stagger
+  const tl = gsap.timeline();
+  const opacity = 1;
+  const textDecoration = "underline";
+  const stagger = start;
+  const max_stagger = (sample.length - 1) * stagger;
+  const start_end = start + max_stagger;
+  const stagger_end = end - max_stagger;
 
-  var random = [...Array(sample.length).keys()]
+  var random = [...Array(sample.length).keys()];
 
-  random = shuffle(random)
+  random = shuffle(random);
 
   function setWords(tl, params, label) {
     sentences.forEach((sentence) => {
-      const words = sentence.querySelectorAll('.word')
-      const targets = []
+      const words = sentence.querySelectorAll(".word");
+      const targets = [];
 
       for (let index = 0; index < words.length; index++) {
-        const ref = random[index]
-        const word = words[ref]
-        targets.push(word)
+        const ref = random[index];
+        const word = words[ref];
+        targets.push(word);
       }
 
-      tl.set(targets, { ...params, stagger }, label)
-    })
+      tl.to(targets, { ...params, stagger, duration: stagger }, label);
+    });
 
-    return tl
+    return tl;
   }
 
   // prettier-ignore
@@ -51,19 +51,19 @@ function stagger(link) {
     .set(link, { textDecoration: "none" }, stagger_end)
     .add(() => setWords(tl, { opacity: 0 }, 'hide'), 'hide');
 
-  return tl
+  return tl;
 }
 
 function scroll(wrap) {
-  const tl = gsap.timeline()
-  const ease = 'none'
-  const x = -trim * 30
+  const tl = gsap.timeline();
+  const ease = "none";
+  const x = -trim * 30;
 
   // prettier-ignore
   tl.set(wrap, { x: 0 })
     .to(wrap, { ease, x, duration: trim }, start);
 
-  return tl
+  return tl;
 }
 
-export default { stagger, scroll }
+export default { stagger, scroll };
