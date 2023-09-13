@@ -1,18 +1,18 @@
 ---
-const { class: className, dummy = false, size = 'sm' } = Astro.props
+const { class: className, dummy = false, size = "sm" } = Astro.props;
 
-var topbar_padding = '0.625rem'
-var close_padding = '0.625rem'
+var topbar_padding = "0.625rem";
+var close_padding = "0.625rem";
 
-if (size == 'lg') {
-  topbar_padding = '1rem'
-  close_padding = '0.75rem'
+if (size == "lg") {
+  topbar_padding = "1rem";
+  close_padding = "0.75rem";
 }
 
 const windowProps = {
-  'data-state': Astro.props['data-state'],
-  class: 'window ' + className,
-}
+  "data-state": Astro.props["data-state"],
+  class: "window " + className,
+};
 ---
 
 <div {...windowProps}>
@@ -31,7 +31,7 @@ const windowProps = {
 </div>
 
 <style lang="scss" define:vars={{ topbar_padding, close_padding }}>
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .window {
     border-radius: $border-radius-lg;
@@ -42,7 +42,7 @@ const windowProps = {
     color: $c-gray-6;
   }
 
-  .window[data-state='closed'] {
+  .window[data-state="closed"] {
     display: none;
   }
 
@@ -55,15 +55,16 @@ const windowProps = {
 
   .close {
     padding: var(--close_padding);
+    border: 1px solid white;
     background-color: $c-red;
     border-radius: 50%;
     font-size: 0;
-    border: none;
   }
 
   button.close {
     @include focus {
       @include double-box($c-gray-5, $c-red, 0.1875rem);
+      border-color: transparent;
     }
   }
 

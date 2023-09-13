@@ -1,18 +1,18 @@
 ---
-import Skiplink from '~components/Skiplink.astro'
+import Skiplink from "~components/Skiplink.astro";
 
-const { title, state, class: className, group } = Astro.props
+const { title, state, class: className, group } = Astro.props;
 
 const outerProps = {
-  'data-group': group,
-  'data-state': state,
-  class: 'outer ' + className,
-  id: 'window_' + title,
-}
+  class: "outer " + className,
+  id: "window_" + title,
+  "data-group": group,
+  "data-state": state,
+};
 
 const innerProps = {
-  class: 'inner',
-}
+  class: "inner",
+};
 ---
 
 <div {...outerProps}>
@@ -23,7 +23,7 @@ const innerProps = {
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .outer {
     position: absolute;
@@ -31,7 +31,7 @@ const innerProps = {
     width: 16rem;
   }
 
-  .outer[data-state='open'] {
+  .outer[data-state="open"] {
     display: block;
   }
 
