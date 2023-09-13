@@ -1,0 +1,77 @@
+---
+import Row from "~components/Page/Row.astro";
+import Thumbnail from "~components/Gallery/Thumbnail.astro";
+
+const trailers = [
+  { src: "/trailers/generations.mp4", title: "Generations" },
+  {
+    src: "/trailers/borders_and_boundaries.mp4",
+    title: "Borders and Boundaries",
+  },
+  {
+    src: "/trailers/more_than_human.mp4",
+    title: "More than Human",
+  },
+  {
+    src: "/trailers/watch_this_space.mp4",
+    title: "Watch this Space",
+  },
+];
+---
+
+<script src="~scripts/components/gallery.js"></script>
+
+<Row>
+  <!-- <h3>Any examples?</h3> -->
+  <div id="gallery" class="container">
+    <div class="thumbnails">
+      {trailers.map((trailer) => <Thumbnail {...trailer} />)}
+    </div>
+  </div>
+</Row>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .container {
+    // margin-top: $padding-row;
+  }
+
+  .thumbnails {
+    margin: -0.5rem;
+  }
+</style>
+
+<style lang="scss" is:global>
+  @import "~styles/mixins";
+
+  .overlay {
+    background: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    left: 0;
+    top: 0;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .overlay .wrap {
+    position: relative;
+    width: 70vw;
+  }
+
+  .overlay video {
+    border-radius: $border-radius-sm;
+  }
+
+  .overlay .close {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+  }
+</style>

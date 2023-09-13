@@ -49,4 +49,8 @@ $.projects_row = document.getElementById("projects_row");
 $.roles_row = document.getElementById("roles_row");
 $.learning_row = document.getElementById("learning_row");
 
+$.page_back = document.getElementById("back");
+
+$.gallery = document.getElementById("gallery");
+
 export default $;

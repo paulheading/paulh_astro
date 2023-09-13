@@ -1,19 +1,35 @@
 ---
-const { name, local, labels } = Astro.props
-import Label from '~components/Desktop/Window/Trello/Label.astro'
+import Label from "~components/Label.astro";
 
-const primary = labels[0].color
+const { name, local, labels } = Astro.props;
+
+const primary = labels[0].color;
+
+const anchorProps = {
+  class: "container",
+  href: local.url,
+};
 ---
 
-<a class="container" href={local.url}>
+<a {...anchorProps}>
   {name}
   <div class="labels">
-    {labels.map((label) => <Label {...label} primary={primary} />)}
+    {
+      labels.map(function ({ name, color }) {
+        const props = {
+          size: "sm",
+          primary,
+          color,
+        };
+
+        return <Label {...props}>{name}</Label>;
+      })
+    }
   </div>
 </a>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .container {
     box-shadow: 0 0.125rem $c-trello-text;

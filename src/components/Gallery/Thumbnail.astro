@@ -1,0 +1,80 @@
+---
+import { Image } from "astro:assets";
+import Label from "~components/Label.astro";
+
+const { width = 120, src, title } = Astro.props;
+
+const height = width * 0.56;
+const wrap_height = width * 0.75;
+
+const remify = (value) => value * 0.0625 + "rem";
+
+const vars = {
+  width: remify(width),
+  height: remify(height),
+  wrap_height: remify(wrap_height),
+};
+
+const imageProps = {
+  src: "/thumbnails" + src.slice(0, -4) + ".jpg",
+  class: "image",
+  alt: title,
+  height,
+  width,
+};
+
+const labelProps = {
+  color: "black",
+  style: "solid",
+  size: "sm",
+};
+
+const buttonProps = {
+  "data-src": src,
+  class: "button",
+};
+---
+
+<button {...buttonProps}>
+  <div class="wrap">
+    <Image {...imageProps} />
+  </div>
+  <div class="title">
+    {title}
+  </div>
+  <!-- <Label {...labelProps}>trailer</Label> -->
+</button>
+
+<style lang="scss" define:vars={vars}>
+  @import "~styles/mixins";
+
+  .button {
+    background-color: transparent;
+    vertical-align: top;
+    width: var(--width);
+    margin: 0.5rem;
+    border: none;
+    padding: 0;
+  }
+
+  .wrap {
+    border-radius: $border-radius-sm;
+    box-shadow: $box-shadow-page;
+    height: var(--wrap_height);
+    background-color: black;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .title {
+    margin-top: $padding-row * 0.5;
+    font-size: $h5-font-size;
+    font-weight: bold;
+  }
+</style>

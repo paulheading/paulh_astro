@@ -1,0 +1,14 @@
+<button class="button" onclick="history.back()">
+  <slot />
+</button>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .button {
+    margin-top: $padding-row;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+</style>
