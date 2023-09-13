@@ -3,16 +3,27 @@ const { name, class: className } = Astro.props;
 const href = name == "home" ? "/" : "/" + name;
 const path = Astro.url.pathname.split("/").join("");
 const matches = path == name;
-const classes = ["link", name + "-link", className];
+const classes = `link ${name}-link ${className}`;
+
+const props = {
+  class: classes,
+};
+
+if (!matches) {
+  // @ts-ignore
+  props.href = href;
+  // @ts-ignore
+  props["aria-label"] = name;
+}
 ---
 
 {
   matches ? (
-    <div class:list={classes}>
+    <div {...props}>
       <slot />
     </div>
   ) : (
-    <a href={href} class:list={classes}>
+    <a {...props}>
       <slot />
     </a>
   )
