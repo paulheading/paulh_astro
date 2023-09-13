@@ -1,7 +1,7 @@
 /// @author Paul Heading
 /// This is the global scss file
 
-@import '~styles/mixins';
+@import "~styles/mixins";
 
 * {
   box-sizing: border-box;
@@ -11,8 +11,8 @@ body {
   font-family: $font-family-body;
   font-weight: $font-weight-bold;
   background-color: $c-body-bg;
+  line-height: $line-height-lg;
   font-size: $font-size-body;
-  line-height: $line-height;
   min-width: 20rem;
   margin: 0;
 
