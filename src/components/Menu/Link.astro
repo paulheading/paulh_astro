@@ -1,9 +1,15 @@
 ---
 const { name, class: className } = Astro.props;
-const href = name == "home" ? "/" : "/" + name;
+
+const isHome = name == "home";
+
+const href = isHome ? "/" : "/" + name;
 const path = Astro.url.pathname.split("/").join("");
-const matches = path == name;
 const classes = `link ${name}-link ${className}`;
+
+let matches = path == name;
+
+if (isHome && !path.length) matches = true;
 
 const props = {
   class: classes,
