@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { spotify } from "~data/layout.json";
 import logo from "~svg/spotify.svg?raw";
 import { parse } from "node-html-parser";
@@ -21,7 +22,7 @@ const imageProps = {
 ---
 
 <header>
-  <img {...imageProps} />
+  <Image {...imageProps} />
   <div class="wrap-details">
     <div class="details">
       <div class="wrap-name">
