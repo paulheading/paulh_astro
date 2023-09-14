@@ -2,6 +2,18 @@ import $ from "~scripts/selectors";
 
 const buttons = $.gallery.getElementsByTagName("button");
 
+function calc_invert(ratio) {
+  const width = 1;
+  const height = 1 * ratio;
+  const inverse = width / height;
+
+  return inverse.toFixed(3);
+}
+
+const calc_height = (value, ratio) => Math.round(value * ratio);
+
+const calc_width = (value, ratio) => Math.round(value * calc_invert(ratio));
+
 function resizePlayer() {
   const overlay = $.gallery.querySelector(".overlay");
 
@@ -11,20 +23,19 @@ function resizePlayer() {
 
   const video = overlay.querySelector("video");
 
-  const calc_height = (value) => Math.round(value * 0.5625);
-
-  const calc_width = (value) => Math.round(value * 1.77);
+  const ratio = video.getAttribute("data-ratio");
 
   let width = wrap.offsetWidth;
 
-  let height = calc_height(width);
+  let height = calc_height(width, ratio);
 
   if (height > window.innerHeight) {
     height = window.innerHeight;
-    width = calc_width(height);
+    width = calc_width(height, ratio);
   }
 
   video.width = width;
+
   video.height = height;
 }
 
@@ -32,9 +43,13 @@ for (let index = 0; index < buttons.length; index++) {
   const button = buttons[index];
 
   button.addEventListener("click", function () {
-    const src = button.getAttribute("data-src");
+    const data = {};
 
-    if (!src) return;
+    data.src = button.getAttribute("data-src");
+
+    if (!data.src) return;
+
+    data.ratio = button.getAttribute("data-ratio");
 
     const body = document.getElementsByTagName("body")[0];
 
@@ -62,13 +77,18 @@ for (let index = 0; index < buttons.length; index++) {
     });
 
     // video.id = "video_player";
-    video.src = src;
-    // video.controls = true;
     // video.height = "auto";
     // video.width = "100%";
     // video.controlsList = "nodownload noplaybackrate";
     // video.disablePictureInPicture = true;
+
+    video.src = data.src;
+    video.controls = false;
     video.muted = true;
+    video.autoplay = true;
+    video.loop = true;
+
+    video.setAttribute("data-ratio", data.ratio);
 
     wrap.appendChild(close);
 

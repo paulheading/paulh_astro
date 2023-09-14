@@ -2,27 +2,24 @@
 import Row from "~components/Page/Row.astro";
 import Thumbnail from "~components/Gallery/Thumbnail.astro";
 
+const trailer = (src = "", title = "", ratio = 0.5625) => ({
+  src: "/trailers/" + src,
+  title,
+  ratio,
+});
+
 const trailers = [
-  { src: "/trailers/generations.mp4", title: "Generations" },
-  {
-    src: "/trailers/borders_and_boundaries.mp4",
-    title: "Borders and Boundaries",
-  },
-  {
-    src: "/trailers/more_than_human.mp4",
-    title: "More than Human",
-  },
-  {
-    src: "/trailers/watch_this_space.mp4",
-    title: "Watch this Space",
-  },
+  trailer("generations.mp4", "Generations"),
+  trailer("borders_and_boundaries.mp4", "Borders and Boundaries"),
+  trailer("more_than_human.mp4", "More than Human"),
+  trailer("watch_this_space.mp4", "Watch this Space"),
+  trailer("life_rewired/entrance_screen.mp4", "Entrance Screen", 1.8),
 ];
 ---
 
 <script src="~scripts/components/gallery.js"></script>
 
 <Row>
-  <!-- <h3>Any examples?</h3> -->
   <div id="gallery" class="container">
     <div class="thumbnails">
       {trailers.map((trailer) => <Thumbnail {...trailer} />)}
@@ -33,12 +30,12 @@ const trailers = [
 <style lang="scss">
   @import "~styles/mixins";
 
-  .container {
-    // margin-top: $padding-row;
-  }
-
   .thumbnails {
-    margin: -0.5rem;
+    margin: -0.75rem;
+
+    @include small-down {
+      text-align: center;
+    }
   }
 </style>
 

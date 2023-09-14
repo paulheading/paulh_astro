@@ -1,43 +1,47 @@
 ---
 import { Image } from "astro:assets";
-import Label from "~components/Label.astro";
+// import Label from "~components/Label.astro";
 
-const { width = 120, src, title } = Astro.props;
+const remify = (value = 1) => value * 0.0625 + "rem";
 
-const height = width * 0.56;
-const wrap_height = width * 0.75;
+let { width = 120, src, title, ratio } = Astro.props;
 
-const remify = (value) => value * 0.0625 + "rem";
+let height = width * 0.75;
 
-const vars = {
-  width: remify(width),
-  height: remify(height),
-  wrap_height: remify(wrap_height),
-};
+let image_width = ratio > 1 ? height / ratio : width;
+
+let image_height = ratio > 1 ? height : width * ratio;
 
 const imageProps = {
   src: "/thumbnails" + src.slice(0, -4) + ".jpg",
-  class: "image",
+  height: image_height,
+  width: image_width,
   alt: title,
-  height,
-  width,
-};
-
-const labelProps = {
-  color: "black",
-  style: "solid",
-  size: "sm",
 };
 
 const buttonProps = {
   "data-src": src,
+  "data-ratio": ratio,
   class: "button",
+};
+
+// const labelProps = {
+//   color: "black",
+//   style: "solid",
+//   size: "sm",
+// };
+
+const vars = {
+  height: remify(height),
+  width: remify(width),
 };
 ---
 
 <button {...buttonProps}>
   <div class="wrap">
-    <Image {...imageProps} />
+    <div class="inner">
+      <Image {...imageProps} />
+    </div>
   </div>
   <div class="title">
     {title}
@@ -52,7 +56,7 @@ const buttonProps = {
     background-color: transparent;
     vertical-align: top;
     width: var(--width);
-    margin: 0.5rem;
+    margin: 0.75rem;
     color: black;
     border: none;
     padding: 0;
@@ -61,14 +65,15 @@ const buttonProps = {
   .wrap {
     border-radius: $border-radius-sm;
     box-shadow: $box-shadow-page;
-    height: var(--wrap_height);
-    background-color: black;
+    background-color: $c-gray-9;
+    justify-content: center;
+    height: var(--height);
     align-items: center;
     overflow: hidden;
     display: flex;
   }
 
-  .image {
+  .wrap img {
     max-width: 100%;
     height: auto;
   }
@@ -76,6 +81,6 @@ const buttonProps = {
   .title {
     margin-top: $padding-row * 0.5;
     font-size: $h6-font-size;
-    font-weight: bold;
+    color: $c-gray-9;
   }
 </style>
