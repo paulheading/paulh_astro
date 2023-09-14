@@ -60,12 +60,19 @@ const trailers = [
   }
 
   .overlay .wrap {
+    justify-content: center;
     position: relative;
-    width: 70vw;
+    display: flex;
+    width: 100vw;
+
+    @include medium-up {
+      width: 70vw;
+    }
   }
 
   .overlay video {
     border-radius: $border-radius-sm;
+    display: block;
   }
 
   .overlay .close {
