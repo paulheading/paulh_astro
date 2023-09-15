@@ -54,15 +54,15 @@ $.learning_row = document.getElementById("learning_row");
 $.page_back = document.getElementById("back");
 
 $.gallery = document.getElementById("gallery");
-$.thumbnails = $.gallery.querySelectorAll(".thumbnail");
-$.overlay = $.gallery.querySelector(".overlay");
+$.thumbnails = $.gallery?.querySelectorAll(".thumbnail");
+$.overlay = $.gallery?.querySelector(".overlay");
 
-$.controls = $.overlay.querySelector(".controls");
-$.video = $.overlay.querySelector(".video");
-$.close = $.overlay.querySelector(".close");
-$.play = $.overlay.querySelector(".play");
-$.mute = $.overlay.querySelector(".mute");
-$.prev = $.overlay.querySelector(".prev");
-$.next = $.overlay.querySelector(".next");
+$.controls = $.overlay?.querySelector(".controls");
+$.video = $.overlay?.querySelector(".video");
+$.close = $.overlay?.querySelector(".close");
+$.play = $.overlay?.querySelector(".play");
+$.mute = $.overlay?.querySelector(".mute");
+$.prev = $.overlay?.querySelector(".prev");
+$.next = $.overlay?.querySelector(".next");
 
 export default $;
