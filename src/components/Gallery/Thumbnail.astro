@@ -4,19 +4,17 @@ import { Image } from "astro:assets";
 
 const remify = (value = 1) => value * 0.0625 + "rem";
 
-let { width = 120, src, title, ratio } = Astro.props;
+let { width = 120, height = 90, src, title, ratio } = Astro.props;
 
-let height = width * 0.75;
-
-let image_width = ratio > 1 ? height / ratio : width;
-
-let image_height = ratio > 1 ? height : width * ratio;
+const image = {
+  width: ratio > 1 ? height / ratio : width,
+  height: ratio > 1 ? height : width * ratio,
+};
 
 const imageProps = {
   src: "/thumbnails" + src.slice(0, -4) + ".jpg",
-  height: image_height,
-  width: image_width,
   alt: title,
+  ...image,
 };
 
 const buttonProps = {

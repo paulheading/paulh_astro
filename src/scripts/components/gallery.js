@@ -2,54 +2,43 @@ import $ from "~scripts/selectors";
 
 const buttons = $.gallery.getElementsByTagName("button");
 
-function calc_invert(ratio) {
-  const width = 1;
-  const height = 1 * ratio;
-  const inverse = width / height;
+function setupVideo(src, ratio) {
+  const video = document.createElement("video");
+  const portrait = ratio > 1;
+  const size = 1280;
 
-  return inverse.toFixed(3);
-}
-
-const calc_height = (value, ratio) => Math.round(value * ratio);
-
-const calc_width = (value, ratio) => Math.round(value * calc_invert(ratio));
-
-function resizePlayer() {
-  const overlay = $.gallery.querySelector(".overlay");
-
-  if (!overlay) return;
-
-  const wrap = overlay.querySelector(".wrap");
-
-  const video = overlay.querySelector("video");
-
-  const ratio = video.getAttribute("data-ratio");
-
-  let width = wrap.offsetWidth;
-
-  let height = calc_height(width, ratio);
-
-  if (height > window.innerHeight) {
-    height = window.innerHeight;
-    width = calc_width(height, ratio);
+  if (portrait) {
+    video.height = size;
+    video.width = size / ratio;
+  } else {
+    video.width = size;
+    video.height = size * ratio;
   }
 
-  video.width = width;
+  // video.id = "video_player";
+  // video.height = "auto";
+  // video.width = "100%";
+  // video.controlsList = "nodownload noplaybackrate";
+  // video.disablePictureInPicture = true;
 
-  video.height = height;
+  video.src = src;
+  video.controls = false;
+  video.muted = true;
+  video.autoplay = true;
+  video.loop = true;
+
+  return video;
 }
 
 for (let index = 0; index < buttons.length; index++) {
   const button = buttons[index];
 
   button.addEventListener("click", function () {
-    const data = {};
+    const src = button.getAttribute("data-src");
 
-    data.src = button.getAttribute("data-src");
+    if (!src) return;
 
-    if (!data.src) return;
-
-    data.ratio = button.getAttribute("data-ratio");
+    const ratio = button.getAttribute("data-ratio");
 
     const body = document.getElementsByTagName("body")[0];
 
@@ -57,7 +46,7 @@ for (let index = 0; index < buttons.length; index++) {
 
     const wrap = document.createElement("div");
 
-    const video = document.createElement("video");
+    const video = setupVideo(src, ratio);
 
     const close = document.createElement("button");
 
@@ -76,20 +65,6 @@ for (let index = 0; index < buttons.length; index++) {
       body.removeAttribute("style");
     });
 
-    // video.id = "video_player";
-    // video.height = "auto";
-    // video.width = "100%";
-    // video.controlsList = "nodownload noplaybackrate";
-    // video.disablePictureInPicture = true;
-
-    video.src = data.src;
-    video.controls = false;
-    video.muted = true;
-    video.autoplay = true;
-    video.loop = true;
-
-    video.setAttribute("data-ratio", data.ratio);
-
     wrap.appendChild(close);
 
     wrap.appendChild(video);
@@ -97,9 +72,5 @@ for (let index = 0; index < buttons.length; index++) {
     overlay.appendChild(wrap);
 
     $.gallery.appendChild(overlay);
-
-    resizePlayer();
   });
 }
-
-window.addEventListener("resize", resizePlayer);
