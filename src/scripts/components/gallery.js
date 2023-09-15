@@ -1,76 +1,173 @@
 import $ from "~scripts/selectors";
 
-const buttons = $.gallery.getElementsByTagName("button");
+const $body = document.querySelector("body");
+const $thumbnails = $.gallery.querySelectorAll(".thumbnail");
+const $overlay = $.gallery.querySelector(".overlay");
+const $controls = $overlay.querySelector(".controls");
+const $video = $overlay.querySelector(".video");
+const $close = $overlay.querySelector(".close");
+const $play = $overlay.querySelector(".play");
+const $mute = $overlay.querySelector(".mute");
+const $prev = $overlay.querySelector(".prev");
+const $next = $overlay.querySelector(".next");
 
-function setupVideo(src, ratio) {
-  const video = document.createElement("video");
+const resizeControls = () => $controls.style.height = $video.offsetHeight + 'px'
+
+function videoLoaded() {
+  if ($video.readyState >= 3) {
+    resizeControls();
+  }
+}
+
+function clearVideo() {
+  const attributes = ["src", "width", "height", "data-ratio"];
+
+  for (let index = 0; index < attributes.length; index++) {
+    const name = attributes[index];
+    $video.removeAttribute(name);
+  }
+
+  setPause($play);
+  setMute($mute);
+}
+
+function setupVideo(src, ratio, index) {
   const portrait = ratio > 1;
   const size = 1280;
 
+  $video.setAttribute("data-ratio", portrait ? "portrait" : "landscape");
+
+  $video.setAttribute("data-index", index)
+
   if (portrait) {
-    video.height = size;
-    video.width = size / ratio;
+    $video.height = size;
+    $video.width = size / ratio;
   } else {
-    video.width = size;
-    video.height = size * ratio;
+    $video.width = size;
+    $video.height = size * ratio;
   }
 
-  // video.id = "video_player";
-  // video.height = "auto";
-  // video.width = "100%";
-  // video.controlsList = "nodownload noplaybackrate";
-  // video.disablePictureInPicture = true;
-
-  video.src = src;
-  video.controls = false;
-  video.muted = true;
-  video.autoplay = true;
-  video.loop = true;
-
-  return video;
+  $video.src = src;
 }
 
-for (let index = 0; index < buttons.length; index++) {
-  const button = buttons[index];
-
-  button.addEventListener("click", function () {
-    const src = button.getAttribute("data-src");
-
-    if (!src) return;
-
-    const ratio = button.getAttribute("data-ratio");
-
-    const body = document.getElementsByTagName("body")[0];
-
-    const overlay = document.createElement("div");
-
-    const wrap = document.createElement("div");
-
-    const video = setupVideo(src, ratio);
-
-    const close = document.createElement("button");
-
-    body.style.overflow = "hidden";
-
-    overlay.classList.add("overlay");
-
-    wrap.classList.add("wrap");
-
-    close.classList.add("close");
-
-    close.innerText = "Close";
-
-    close.addEventListener("click", function () {
-      $.gallery.removeChild($.gallery.lastElementChild);
-      body.removeAttribute("style");
-    });
-
-    wrap.appendChild(close);
-
-    wrap.appendChild(video);
-
-    overlay.appendChild(wrap);
-
-    $.gallery.appendChild(overlay);
-  });
+function closeOverlay() {
+  $overlay.setAttribute("data-state", "closed");
+  clearVideo();
+  $body.removeAttribute("style");
 }
+
+function openOverlay(event) {
+  const { target } = event
+  const src = target.getAttribute("data-src");
+
+  if (!src) return;
+
+  const ratio = target.getAttribute("data-ratio");
+
+  const index = target.getAttribute("data-index");
+
+  setupVideo(src, ratio, index);
+
+  $body.style.overflow = "hidden";
+
+  $overlay.setAttribute("data-state", "open");
+}
+
+for (let index = 0; index < $thumbnails.length; index++) {
+  const $button = $thumbnails[index];
+  $button.addEventListener("click", openOverlay);
+}
+
+function setPlay(target) {
+  target.setAttribute('data-state', 'paused');
+  target.innerText = 'play'
+}
+
+function setPause(target) {
+  target.setAttribute('data-state', 'playing');
+  target.innerText = 'pause'
+}
+
+function togglePlay(event) {
+  const { target } = event;
+  const state = target.getAttribute('data-state');
+  const isPlaying = state == 'playing';
+
+  if (isPlaying) {
+    $video.pause();
+    setPlay(target);
+  } else {
+    $video.play();
+    setPause(target);
+  }
+}
+
+function setMute(target) {
+  target.setAttribute('data-state', 'muted');
+  target.innerText = "muted"
+}
+
+function setLoud(target) {
+  target.setAttribute('data-state', 'loud');
+  target.innerText = "not muted"
+}
+
+function toggleMute(event) {
+  const { target } = event;
+  const state = target.getAttribute('data-state');
+  const isMuted = state == 'muted';
+
+  if (isMuted) {
+    $video.muted = false;
+    setLoud(target);
+  } else {
+    $video.muted = true;
+    setMute(target);
+  }
+}
+
+function selectVideo(value) {
+  const target = $thumbnails[value];
+
+  const src = target.getAttribute("data-src");
+
+  const ratio = target.getAttribute("data-ratio");
+
+  clearVideo();
+
+  setupVideo(src, ratio, value);
+}
+
+function prevVideo() {
+  const index = $video.getAttribute('data-index');
+
+  let prev = Number(index) - 1;
+
+  if (!$thumbnails[prev]) prev = $thumbnails.length - 1
+
+  selectVideo(prev);
+}
+
+function nextVideo() {
+  const index = $video.getAttribute('data-index');
+
+  let next = Number(index) + 1;
+
+  if (!$thumbnails[next]) next = 0
+
+  selectVideo(next)
+}
+
+$video.addEventListener("loadeddata", videoLoaded);
+
+window.addEventListener("resize", resizeControls);
+
+$close.addEventListener("click", closeOverlay);
+
+$play.addEventListener("click", togglePlay)
+
+$mute.addEventListener("click", toggleMute)
+
+$next.addEventListener("click", nextVideo)
+
+$prev.addEventListener("click", prevVideo)

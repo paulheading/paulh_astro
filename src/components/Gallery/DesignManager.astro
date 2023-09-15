@@ -1,14 +1,17 @@
 ---
 import Row from "~components/Page/Row.astro";
 import Thumbnail from "~components/Gallery/Thumbnail.astro";
+import Overlay from "~components/Gallery/Overlay.astro";
 
 const thumbnail = (
+  index = 0,
   src = "",
   title = "",
   ratio = 0.5625,
   width = 120,
   height = 90
 ) => ({
+  index,
   src: "/trailers/" + src,
   title,
   ratio,
@@ -17,14 +20,14 @@ const thumbnail = (
 });
 
 const trailers = [
-  thumbnail("generations.mp4", "Generations"),
-  thumbnail("borders_and_boundaries.mp4", "Borders and Boundaries"),
-  thumbnail("more_than_human.mp4", "More than Human"),
-  thumbnail("watch_this_space.mp4", "Watch this Space"),
+  thumbnail(0, "generations.mp4", "Generations"),
+  thumbnail(1, "borders_and_boundaries.mp4", "Borders and Boundaries"),
+  thumbnail(2, "more_than_human.mp4", "More than Human"),
+  thumbnail(3, "watch_this_space.mp4", "Watch this Space"),
 ];
 
 const life_rewired = [
-  thumbnail("life_rewired/entrance_screen.mp4", "Entrance Screen", 1.8, 90),
+  thumbnail(4, "life_rewired/entrance_screen.mp4", "Entrance Screen", 1.8, 90),
 ];
 ---
 
@@ -38,6 +41,7 @@ const life_rewired = [
     <div class="thumbnails">
       {life_rewired.map((thumbnail) => <Thumbnail {...thumbnail} />)}
     </div>
+    <Overlay />
   </div>
 </Row>
 
@@ -50,50 +54,5 @@ const life_rewired = [
     @include small-down {
       text-align: center;
     }
-  }
-</style>
-
-<style lang="scss" is:global>
-  @import "~styles/mixins";
-
-  .overlay {
-    background: black;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 3;
-    left: 0;
-    top: 0;
-
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-
-  .overlay .wrap {
-    $size: 1024px;
-
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    max-height: $size;
-    max-width: $size;
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-  }
-
-  .overlay video {
-    border-radius: $border-radius-sm;
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-  }
-
-  .overlay .close {
-    position: absolute;
-    z-index: 2;
-    right: 0;
-    top: 0;
   }
 </style>
