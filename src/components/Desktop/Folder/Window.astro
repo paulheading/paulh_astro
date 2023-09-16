@@ -13,15 +13,20 @@ const windowProps = {
   "data-state": Astro.props["data-state"],
   class: "window " + className,
 };
+
+const closeProps = {
+  class: "close",
+  title: "close",
+};
 ---
 
 <div {...windowProps}>
   <div class="topbar">
     {
       dummy ? (
-        <div class="close">close</div>
+        <div {...closeProps}>close</div>
       ) : (
-        <button class="close">close</button>
+        <button {...closeProps}>close</button>
       )
     }
   </div>
@@ -54,10 +59,13 @@ const windowProps = {
   }
 
   .close {
-    border: 0.125rem solid black;
+    $color: black;
+
+    border: 0.125rem solid $color;
     padding: var(--close_padding);
     background-color: $c-red;
     border-radius: 50%;
+    color: $color;
     font-size: 0;
   }
 
