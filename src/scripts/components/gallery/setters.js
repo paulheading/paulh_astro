@@ -1,44 +1,53 @@
 import $ from "~scripts/selectors";
 
 function play(target) {
-  target.setAttribute('data-state', 'paused');
-  target.innerText = 'play'
+  target.setAttribute("data-state", "paused");
+  target.innerText = "play";
 }
 
 function pause(target) {
-  target.setAttribute('data-state', 'playing');
-  target.innerText = 'pause'
+  target.setAttribute("data-state", "playing");
+  target.innerText = "pause";
 }
 
 function mute(target) {
-  target.setAttribute('data-state', 'muted');
-  target.innerText = "unmute"
+  target.setAttribute("data-state", "muted");
+  target.innerText = "unmute";
 }
 
 function loud(target) {
-  target.setAttribute('data-state', 'loud');
-  target.innerText = "mute"
+  target.setAttribute("data-state", "loud");
+  target.innerText = "mute";
 }
 
-const controls = () => $.controls.style.height = $.video.offsetHeight + 'px'
+const controls = () =>
+  ($.overlay_controls.style.height = $.overlay_video.offsetHeight + "px");
 
 function video(src, ratio, index) {
   const portrait = ratio > 1;
   const size = 1280;
 
-  $.video.setAttribute("data-ratio", portrait ? "portrait" : "landscape");
+  $.overlay_video.setAttribute(
+    "data-ratio",
+    portrait ? "portrait" : "landscape"
+  );
 
-  $.video.setAttribute("data-index", index)
+  $.overlay_video.setAttribute("data-index", index);
 
   if (portrait) {
-    $.video.height = size;
-    $.video.width = size / ratio;
+    $.overlay_video.height = size;
+    $.overlay_video.width = size / ratio;
   } else {
-    $.video.width = size;
-    $.video.height = size * ratio;
+    $.overlay_video.width = size;
+    $.overlay_video.height = size * ratio;
   }
 
-  $.video.src = src;
+  $.overlay_video.src = src;
 }
 
-export default { play, pause, mute, loud, controls, video }
+function loaded(value) {
+  const targets = [$.overlay_loader, $.overlay_content];
+  targets.forEach((target) => target.setAttribute("data-loaded", value));
+}
+
+export default { play, pause, mute, loud, controls, video, loaded };

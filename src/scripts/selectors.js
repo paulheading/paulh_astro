@@ -57,12 +57,14 @@ $.gallery = document.getElementById("gallery");
 $.thumbnails = $.gallery?.querySelectorAll(".thumbnail");
 $.overlay = $.gallery?.querySelector(".overlay");
 
-$.controls = $.overlay?.querySelector(".controls");
-$.video = $.overlay?.querySelector(".video");
-$.close = $.overlay?.querySelector(".close");
-$.play = $.overlay?.querySelector(".play");
-$.mute = $.overlay?.querySelector(".mute");
-$.prev = $.overlay?.querySelector(".prev");
-$.next = $.overlay?.querySelector(".next");
+$.overlay_content = $.overlay?.querySelector(".content");
+$.overlay_controls = $.overlay?.querySelector(".controls");
+$.overlay_video = $.overlay?.querySelector(".video");
+$.overlay_close = $.overlay?.querySelector(".close");
+$.overlay_play = $.overlay?.querySelector(".play");
+$.overlay_mute = $.overlay?.querySelector(".mute");
+$.overlay_prev = $.overlay?.querySelector(".prev");
+$.overlay_next = $.overlay?.querySelector(".next");
+$.overlay_loader = $.overlay?.querySelector(".loader");
 
 export default $;

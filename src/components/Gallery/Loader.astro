@@ -1,0 +1,127 @@
+---
+const loaderProps = {
+  "data-loaded": "false",
+  class: "loader",
+};
+---
+
+<div {...loaderProps}>
+  <div class="loader-wrap">
+    <div class="loader-icon"></div>
+    <div class="loader-icon"></div>
+    <div class="loader-icon"></div>
+    <div class="loader-icon"></div>
+    <div class="loader-icon"></div>
+    <div class="loader-icon"></div>
+  </div>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  $offset: 0.875rem;
+  $animation-setup: 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @mixin loading-icon($size: 0.75rem) {
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    height: $size;
+    width: $size;
+    content: "";
+  }
+
+  .loader {
+    position: absolute;
+
+    &[data-loaded="true"] {
+      display: none;
+    }
+  }
+
+  .loader-wrap {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    height: 6.5rem;
+    width: 9.75rem;
+  }
+
+  .loader-icon {
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+
+    &:not(:last-child) {
+      margin-right: $offset * 1.75;
+    }
+
+    &:before {
+      @include loading-icon;
+      background-color: $c-gray-6;
+      animation: animation-before $animation-setup;
+    }
+
+    &:after {
+      @include loading-icon;
+      background-color: $c-gray-4;
+      animation: animation-after $animation-setup;
+    }
+
+    @for $i from 1 through 10 {
+      &:nth-child(#{$i}) {
+        &:before,
+        &:after {
+          animation-delay: #{$i * 0.2}s;
+        }
+      }
+    }
+  }
+
+  @keyframes animation-before {
+    0% {
+      top: -$offset;
+      z-index: 2;
+    }
+    25% {
+      transform: scale(1.25);
+      z-index: 2;
+    }
+    50% {
+      top: $offset;
+      z-index: 1;
+    }
+    75% {
+      transform: scale(0.75);
+      z-index: 1;
+    }
+    100% {
+      top: -$offset;
+      z-index: 2;
+    }
+  }
+
+  @keyframes animation-after {
+    0% {
+      top: $offset;
+      z-index: 1;
+    }
+    25% {
+      background-color: $c-gray-2;
+      transform: scale(0.75);
+      z-index: 1;
+    }
+    50% {
+      top: -$offset;
+      z-index: 2;
+    }
+    75% {
+      transform: scale(1.25);
+      z-index: 2;
+    }
+    100% {
+      top: $offset;
+      z-index: 2;
+    }
+  }
+</style>

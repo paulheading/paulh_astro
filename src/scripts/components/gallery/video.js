@@ -1,21 +1,24 @@
 import $ from "~scripts/selectors";
-import set from "~scripts/components/gallery/setters"
+import set from "~scripts/components/gallery/setters";
 
 function clear() {
   const attributes = ["src", "width", "height", "data-ratio"];
 
   for (let index = 0; index < attributes.length; index++) {
     const name = attributes[index];
-    $.video.removeAttribute(name);
+    $.overlay_video.removeAttribute(name);
   }
 
-  set.pause($.play);
-  set.mute($.mute);
+  set.pause($.overlay_play);
+
+  set.mute($.overlay_mute);
+  set.loaded("false");
 }
 
 function loaded() {
-  if ($.video.readyState >= 3) {
+  if ($.overlay_video.readyState >= 3) {
     set.controls();
+    set.loaded("true");
   }
 }
 
@@ -32,23 +35,23 @@ function select(value) {
 }
 
 function prev() {
-  const index = $.video.getAttribute('data-index');
+  const index = $.overlay_video.getAttribute("data-index");
 
   let prev = Number(index) - 1;
 
-  if (!$.thumbnails[prev]) prev = $.thumbnails.length - 1
+  if (!$.thumbnails[prev]) prev = $.thumbnails.length - 1;
 
   select(prev);
 }
 
 function next() {
-  const index = $.video.getAttribute('data-index');
+  const index = $.overlay_video.getAttribute("data-index");
 
   let next = Number(index) + 1;
 
-  if (!$.thumbnails[next]) next = 0
+  if (!$.thumbnails[next]) next = 0;
 
-  select(next)
+  select(next);
 }
 
-export default { clear, loaded, select, prev, next }
+export default { clear, loaded, select, prev, next };
