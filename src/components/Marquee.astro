@@ -1,9 +1,9 @@
 ---
-const mode = Astro.url.pathname == '/' ? 'home' : 'away'
+const mode = Astro.url.pathname == "/" ? "home" : "away";
 ---
 
 <div id="marquee" class="marquee">
-  <a href="" class:list={['tab-link', mode]}>See Project</a>
+  <a href="" class:list={["tab-link", mode]}>See Project</a>
   <div class="row-container">
     <a href="" class="row-link">
       <span class="link-content"></span>
@@ -12,7 +12,7 @@ const mode = Astro.url.pathname == '/' ? 'home' : 'away'
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   $tab-height: 3.125rem;
 
@@ -83,6 +83,7 @@ const mode = Astro.url.pathname == '/' ? 'home' : 'away'
     padding-bottom: $padding;
     justify-content: center;
     padding-top: $padding;
+    min-height: 3.375rem;
     white-space: nowrap;
     display: flex;
     gap: 1rem;
