@@ -93,3 +93,73 @@
     visibility: hidden;
   }
 }
+
+@mixin page-button-setup {
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.375rem;
+  border: 1px solid;
+  height: 2.125rem;
+  width: 2.125rem;
+
+  &:disabled {
+    opacity: 0;
+  }
+
+  svg {
+    pointer-events: none;
+    position: relative;
+  }
+}
+
+@mixin page-button {
+  $backgroundColor: white;
+  $color: black;
+
+  @include page-button-setup;
+
+  background-color: $backgroundColor;
+  border-color: $color;
+  color: $color;
+
+  @include focus {
+    border-color: $backgroundColor;
+    background-color: $color;
+    fill: $backgroundColor;
+
+    svg {
+      fill: $backgroundColor;
+    }
+  }
+
+  svg {
+    fill: $color;
+  }
+}
+
+@mixin gallery-button {
+  $backgroundColor: black;
+  $color: white;
+
+  @include page-button-setup;
+
+  background-color: $backgroundColor;
+  border-color: $color;
+  color: $color;
+
+  @include focus {
+    border-color: $backgroundColor;
+    background-color: $color;
+    fill: $backgroundColor;
+
+    svg {
+      fill: $backgroundColor;
+    }
+  }
+
+  svg {
+    fill: $color;
+  }
+}

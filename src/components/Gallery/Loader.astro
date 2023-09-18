@@ -1,6 +1,6 @@
 ---
 const loaderProps = {
-  "data-loaded": "false",
+  "data-state": "not-loaded",
   class: "loader",
 };
 ---
@@ -35,7 +35,7 @@ const loaderProps = {
   .loader {
     position: absolute;
 
-    &[data-loaded="true"] {
+    &[data-state="loaded"] {
       display: none;
     }
   }

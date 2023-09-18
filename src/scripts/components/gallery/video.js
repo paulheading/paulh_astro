@@ -9,16 +9,16 @@ function clear() {
     $.overlay_video.removeAttribute(name);
   }
 
-  set.pause($.overlay_play);
-
-  set.mute($.overlay_mute);
-  set.loaded("false");
+  set.paused();
+  set.loaded(false);
 }
 
 function loaded() {
   if ($.overlay_video.readyState >= 3) {
     set.controls();
-    set.loaded("true");
+
+    set.playing();
+    set.loaded(true);
   }
 }
 

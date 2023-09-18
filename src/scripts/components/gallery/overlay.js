@@ -1,15 +1,15 @@
 import $ from "~scripts/selectors";
-import video from "~scripts/components/gallery/video"
-import set from "~scripts/components/gallery/setters"
+import video from "~scripts/components/gallery/video";
+import set from "~scripts/components/gallery/setters";
 
 function close() {
-  $.overlay.setAttribute("data-state", "closed");
+  set.state($.overlay, "closed");
   video.clear();
   $.body.removeAttribute("style");
 }
 
 function open(event) {
-  const { target } = event
+  const { target } = event;
   const src = target.getAttribute("data-src");
 
   if (!src) return;
@@ -22,7 +22,7 @@ function open(event) {
 
   $.body.style.overflow = "hidden";
 
-  $.overlay.setAttribute("data-state", "open");
+  set.state($.overlay, "open");
 }
 
-export default { close, open }
+export default { close, open };

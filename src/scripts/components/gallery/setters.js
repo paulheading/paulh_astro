@@ -1,27 +1,40 @@
 import $ from "~scripts/selectors";
 
-function play(target) {
-  target.setAttribute("data-state", "paused");
-  target.innerText = "play";
+function state(target, value) {
+  return target.setAttribute("data-state", value);
 }
 
-function pause(target) {
-  target.setAttribute("data-state", "playing");
-  target.innerText = "pause";
+function paused() {
+  $.overlay_video.pause();
+  state($.overlay_play, "paused");
 }
 
-function mute(target) {
-  target.setAttribute("data-state", "muted");
-  target.innerText = "unmute";
+function playing() {
+  $.overlay_video.play();
+  state($.overlay_play, "playing");
 }
 
-function loud(target) {
-  target.setAttribute("data-state", "loud");
-  target.innerText = "mute";
+function muted() {
+  $.overlay_video.muted = true;
+  state($.overlay_mute, "muted");
 }
 
-const controls = () =>
-  ($.overlay_controls.style.height = $.overlay_video.offsetHeight + "px");
+function unmuted() {
+  $.overlay_video.muted = false;
+  state($.overlay_mute, "unmuted");
+}
+
+function controls() {
+  const video = $.overlay_video;
+  const close = $.overlay_close;
+
+  const videoIsTiny = video.offsetWidth < 160;
+  const adjust = "adjust";
+
+  !videoIsTiny ? close.classList.add(adjust) : close.classList.remove(adjust);
+
+  $.overlay_controls.style.height = video.offsetHeight + "px";
+}
 
 function video(src, ratio, index) {
   const portrait = ratio > 1;
@@ -46,8 +59,18 @@ function video(src, ratio, index) {
 }
 
 function loaded(value) {
+  value = value ? "loaded" : "not-loaded";
   const targets = [$.overlay_loader, $.overlay_content];
-  targets.forEach((target) => target.setAttribute("data-loaded", value));
+  targets.forEach((target) => state(target, value));
 }
 
-export default { play, pause, mute, loud, controls, video, loaded };
+export default {
+  controls,
+  video,
+  loaded,
+  state,
+  paused,
+  playing,
+  muted,
+  unmuted,
+};
