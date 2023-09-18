@@ -14,7 +14,7 @@ function clear() {
 }
 
 function loaded() {
-  if ($.overlay_video.readyState >= 3) {
+  if ($.overlay_video.readyState >= 2) {
     set.controls();
 
     set.playing();
