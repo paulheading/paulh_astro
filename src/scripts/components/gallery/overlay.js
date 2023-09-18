@@ -5,7 +5,7 @@ import set from "~scripts/components/gallery/setters";
 function close() {
   set.state($.overlay, "closed");
   video.clear();
-  $.body.removeAttribute("style");
+  set.state($.body, "visible");
 }
 
 function open(event) {
@@ -20,7 +20,7 @@ function open(event) {
 
   set.video(src, ratio, index);
 
-  $.body.style.overflow = "hidden";
+  set.state($.body, "hidden");
 
   set.state($.overlay, "open");
 }
