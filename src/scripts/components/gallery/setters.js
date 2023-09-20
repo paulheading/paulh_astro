@@ -51,6 +51,8 @@ function unmuted() {
 function controls() {
   const player = get.$player();
 
+  if (!player) return;
+
   const close = $.overlay_close;
 
   const playerIsTiny = player.offsetWidth < 160;
