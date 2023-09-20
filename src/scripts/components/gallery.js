@@ -1,24 +1,23 @@
 import $ from "~scripts/selectors";
-import video from "~scripts/components/gallery/video";
 import set from "~scripts/components/gallery/setters";
-import toggle from "~scripts/components/gallery/toggle";
 import overlay from "~scripts/components/gallery/overlay";
+
+import player from "~scripts/components/gallery/player";
+import toggle from "~scripts/components/gallery/toggle";
 
 for (let index = 0; index < $.thumbnails.length; index++) {
   const $button = $.thumbnails[index];
   $button.addEventListener("click", overlay.open);
 }
 
-window.addEventListener("resize", set.controls);
-
-$.overlay_video.addEventListener("loadeddata", video.loaded);
-
-$.overlay_close.addEventListener("click", overlay.close);
-
 $.overlay_play.addEventListener("click", toggle.play);
 
 $.overlay_mute.addEventListener("click", toggle.mute);
 
-$.overlay_next.addEventListener("click", video.next);
+$.overlay_next.addEventListener("click", player.next);
 
-$.overlay_prev.addEventListener("click", video.prev);
+$.overlay_prev.addEventListener("click", player.prev);
+
+$.overlay_close.addEventListener("click", overlay.close);
+
+window.addEventListener("resize", set.controls);

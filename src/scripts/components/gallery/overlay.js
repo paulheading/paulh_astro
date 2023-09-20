@@ -1,28 +1,32 @@
 import $ from "~scripts/selectors";
-import video from "~scripts/components/gallery/video";
+import player from "~scripts/components/gallery/player";
 import set from "~scripts/components/gallery/setters";
+import get from "~scripts/components/gallery/getters";
 
 function close() {
   set.state($.overlay, "closed");
-  video.clear();
+  player.clear();
   set.state($.body, "visible");
+}
+
+function update(target) {
+  const settings = get.player.data(target);
+
+  const { type } = settings;
+
+  if (type == "video") set.video(settings);
+
+  if (type == "ad") set.iframe(settings);
 }
 
 function open(event) {
   const { target } = event;
-  const src = target.getAttribute("data-src");
 
-  if (!src) return;
-
-  const ratio = target.getAttribute("data-ratio");
-
-  const index = target.getAttribute("data-index");
-
-  set.video(src, ratio, index);
+  update(target);
 
   set.state($.body, "hidden");
 
   set.state($.overlay, "open");
 }
 
-export default { close, open };
+export default { close, open, update };

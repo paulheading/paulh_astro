@@ -1,10 +1,12 @@
 ---
 import { Image } from "astro:assets";
-// import Label from "~components/Label.astro";
 
 const remify = (value = 1) => value * 0.0625 + "rem";
 
-let { width = 120, height = 90, src, title, ratio, index } = Astro.props;
+// prettier-ignore
+let { width = 120, height = 90, src, title, index, type, content } = Astro.props;
+
+const ratio = content.height / content.width;
 
 const image = {
   width: ratio > 1 ? height / ratio : width,
@@ -12,23 +14,19 @@ const image = {
 };
 
 const imageProps = {
-  src: "/thumbnails" + src.slice(0, -4) + ".jpg",
+  src: "/thumbnails/" + src + ".jpg",
   alt: title,
   ...image,
 };
 
 const buttonProps = {
+  "data-width": content.width,
+  "data-height": content.height,
   "data-index": index,
   "data-src": src,
-  "data-ratio": ratio,
+  "data-type": type,
   class: "thumbnail",
 };
-
-// const labelProps = {
-//   color: "black",
-//   style: "solid",
-//   size: "sm",
-// };
 
 const vars = {
   height: remify(height),
@@ -45,7 +43,6 @@ const vars = {
   <div class="title">
     {title}
   </div>
-  <!-- <Label {...labelProps}>trailer</Label> -->
 </button>
 
 <style lang="scss" define:vars={vars}>
@@ -75,6 +72,7 @@ const vars = {
 
   .wrap img {
     max-width: 100%;
+    display: block;
     height: auto;
   }
 

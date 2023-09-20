@@ -15,20 +15,11 @@ const contentProps = {
   "data-state": "not-loaded",
   class: "content",
 };
-
-const videoProps = {
-  class: "video",
-  controls: false,
-  autoplay: true,
-  muted: true,
-  loop: true,
-};
 ---
 
 <div {...overlayProps}>
   <Loader />
   <div {...contentProps}>
-    <video {...videoProps}></video>
     <div class="controls">
       <div class="top">
         <Close />
@@ -108,6 +99,7 @@ const videoProps = {
     position: absolute;
     min-width: 10rem;
     margin: auto;
+    z-index: 2;
   }
 
   @mixin control-row {

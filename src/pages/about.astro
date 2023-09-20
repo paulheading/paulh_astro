@@ -1,17 +1,19 @@
 ---
-import remove_markdown from 'remove-markdown'
-import Layout from '~layouts/Main.astro'
-import Content from '~components/Content.astro'
-import Page from '~components/Page.astro'
-import Markdown from '~markdown/about.mdx'
-import description from '~markdown/biography.md?raw'
+import remove_markdown from "remove-markdown";
+import Layout from "~layouts/Main.astro";
+import Content from "~components/Content.astro";
+import Page from "~components/Page.astro";
 
-import seo from '~data/seo.js'
+import Markdown from "~markdown/about.mdx";
+
+import description from "~markdown/biography.md?raw";
+
+import seo from "~data/seo.js";
 
 const layoutProps = {
-  title: seo.title('About'),
+  title: seo.title("About"),
   description: remove_markdown(description),
-}
+};
 ---
 
 <Layout {...layoutProps}>

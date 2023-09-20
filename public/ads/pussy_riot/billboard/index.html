@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      a {
+        background-color: #ffcc00;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        height: 250px;
+        width: 970px;
+      }
+
+      a img {
+        position: absolute;
+      }
+
+      #wordmark {
+        z-index: 2;
+        left: 42px;
+        top: 93px;
+      }
+
+      #pinkBg {
+        left: -34px;
+        top: -219px;
+      }
+
+      #yellow1 {
+        left: -34px;
+        top: 169px;
+      }
+
+      #yellow2 {
+        left: 251px;
+        top: 69px;
+      }
+
+      #yellow3 {
+        left: 614px;
+        top: 173px;
+        z-index: 3;
+      }
+
+      #pussyRiot {
+        left: 670px;
+        top: 23px;
+        z-index: 2;
+      }
+
+      #titles {
+        left: 55px;
+        top: 33px;
+      }
+
+      #copy {
+        left: 395px;
+        top: 120px;
+      }
+
+      #book {
+        left: 410px;
+        top: 118px;
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://www.barbican.org.uk/whats-on/2017/event/pussy-riot-theatre-riot-days"
+    >
+      <img id="pinkBg" src="pinkBg.svg" />
+      <img id="wordmark" src="wordmark.svg" />
+      <img id="pussyRiot" src="pussyRiot.png" />
+      <img id="yellow1" src="yellow1.svg" />
+      <img id="yellow2" src="yellow2.svg" />
+      <img id="yellow3" src="yellow3.svg" />
+      <img id="titles" src="titles.svg" />
+      <img id="copy" src="copy.svg" />
+      <img id="book" src="book.svg" />
+    </a>
+  </body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<script>
+  var tl = gsap.timeline({ repeat: -1, repeatDelay: 3 });
+
+  // prettier-ignore
+  tl.from("#pinkBg",  1.4, {y: -100, ease: "elastic.out(2,1)" }, 'phase1+=0.2')
+    .from("#yellow1", 1.4, {y:  100, ease: "elastic.out(2,1)" }, 'phase1+=0.2')
+    .from("#yellow2", 1.4, {y:  100, ease: "elastic.out(2,1)" }, 'phase1+=0.3')
+    .from("#yellow3", 1.4, {y:  100, ease: "elastic.out(2,1)" }, 'phase1+=0.4')
+    .from("#pussyRiot", 1, { display: "none", y: 260, ease: "elastic.out(2,2)" }, 'phase2-=0.2')
+    .to("#yellow3",     5, { y: 200, ease: "elastic.out(2,2)" }, 'phase2-=0.2')
+    .from("#titles",    1, { display: "none", y:-200, ease: "elastic.out(2,2)" }, 'phase2+=0.2')
+    .from("#copy",      1, { display: "none", y: 200, ease: "elastic.out(2,2)" }, 'phase2+=0.2')
+    .to("#titles",      1, { y:-200, ease: "elastic.out(2,2)" }, 'phase2+=3.2')
+    .to("#copy",        1, { y: 200, ease: "elastic.out(2,2)" }, 'phase2+=3.2')
+    .from("#wordmark",  1, { display:"none", y:-200, ease: "elastic.out(2,2)" }, 'phase2+=3.6')
+    .from("#book",      1, { display:"none",y:200,ease: "elastic.out(2,2)" }, 'phase2+=3.6');
+</script>

@@ -1,4 +1,5 @@
 import set from "~scripts/components/gallery/setters";
+import player from "~scripts/components/gallery/player";
 
 function play(event) {
   const { target } = event;
@@ -7,10 +8,8 @@ function play(event) {
   isPlaying ? set.paused() : set.playing();
 }
 
-function mute(event) {
-  const { target } = event;
-  const state = target.getAttribute("data-state");
-  const isMuted = state == "muted";
+function mute() {
+  const isMuted = player.muted;
   isMuted ? set.unmuted() : set.muted();
 }
 

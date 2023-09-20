@@ -59,12 +59,13 @@ $.overlay = $.gallery?.querySelector(".overlay");
 
 $.overlay_content = $.overlay?.querySelector(".content");
 $.overlay_controls = $.overlay?.querySelector(".controls");
-$.overlay_video = $.overlay?.querySelector(".video");
 $.overlay_close = $.overlay?.querySelector(".close");
 $.overlay_play = $.overlay?.querySelector(".play");
 $.overlay_mute = $.overlay?.querySelector(".mute");
 $.overlay_prev = $.overlay?.querySelector(".prev");
 $.overlay_next = $.overlay?.querySelector(".next");
 $.overlay_loader = $.overlay?.querySelector(".loader");
+
+$.overlay_video_controls = [$.overlay_play, $.overlay_mute];
 
 export default $;

@@ -65,4 +65,27 @@ function sections(content, element) {
   });
 }
 
-export default { date_span, environment, person, sections };
+function thumb({
+  index = 0,
+  src = "",
+  title = "",
+  width = 120,
+  height = 90,
+  type = "video",
+  content = {
+    width: 1280,
+    height: 720,
+  },
+}) {
+  return {
+    index,
+    src,
+    title,
+    width,
+    height,
+    type,
+    content,
+  };
+}
+
+export default { date_span, environment, person, sections, thumb };
