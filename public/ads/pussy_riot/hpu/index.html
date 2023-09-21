@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Barbican Riot Days HPU</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      a {
+        background-color: #ffcc00;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        height: 600px;
+        width: 300px;
+      }
+
+      a img {
+        position: absolute;
+      }
+
+      #wordmark {
+        top: 292px;
+        left: 14px;
+        z-index: 2;
+      }
+
+      #pinkBg {
+        left: -7px;
+        top: -115px;
+      }
+
+      #yellowBg {
+        left: -8px;
+        top: 433px;
+        z-index: 3;
+      }
+
+      #pussyRiot {
+        left: 45px;
+        top: 305px;
+        z-index: 2;
+      }
+
+      #titles {
+        left: 45px;
+        top: 25px;
+      }
+
+      #copy {
+        left: 45px;
+        top: 145px;
+      }
+
+      #book {
+        left: 45px;
+        top: 248px;
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://www.barbican.org.uk/whats-on/2017/event/pussy-riot-theatre-riot-days"
+    >
+      <img id="pinkBg" src="pinkBg.svg" />
+      <img id="wordmark" src="wordmark.svg" />
+      <img id="pussyRiot" src="pussyRiot.png" />
+      <img id="yellowBg" src="yellowBg.svg" />
+      <img id="titles" src="titles.svg" />
+      <img id="copy" src="copy.svg" />
+      <img id="book" src="book.svg" />
+    </a>
+  </body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<script>
+  var tl = gsap.timeline({ repeat: -1, repeatDelay: 3 });
+
+  // prettier-ignore
+  tl.from("#pinkBg",    1, { y: -100, ease: "elastic.out(2,1)" }, 'phase1')
+    .from("#yellowBg",  1, { y:  100, ease: "elastic.out(2,1)" }, 'phase1')
+    .from("#pussyRiot", 1, { display: "none", y: 260, ease: "elastic.out(2,2)" }, 'phase2-=0.4')
+    .to("#yellowBg",    5, { y: 260, ease: "elastic.out(2,2)" }, 'phase2-=0.4')
+    .from("#wordmark",  1, { x: -100, ease: "elastic.out(2,2)" }, 'phase2+=0.2')
+    .from("#titles",    1, { x: 300, ease: "elastic.out(2,2)" }, 'phase2+=0.6')
+    .from("#copy",      1, { x: 300, ease: "elastic.out(2,2)" }, 'phase2+=0.8')
+    .from("#book",      1, { x: 300, ease: "elastic.out(2,2)" }, 'phase2+=1');
+</script>
