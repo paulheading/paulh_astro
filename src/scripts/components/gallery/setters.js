@@ -74,6 +74,7 @@ function build(element, data) {
   element.setAttribute("data-index", index);
 
   element.style.border = "1px solid white";
+  element.style.zIndex = 2;
 
   return element;
 }
