@@ -45,15 +45,25 @@ const contentProps = {
   }
 
   .overlay {
+    $padding: 2rem;
+
     @include inset;
+    padding-bottom: $padding * 2;
+    padding-top: $padding * 2;
+    background-color: black;
     justify-content: center;
+    padding-right: $padding;
+    padding-left: $padding;
     align-items: center;
-    background: black;
     visibility: visible;
     position: fixed;
     display: flex;
-    padding: 2rem;
     z-index: 3;
+
+    @include small-up {
+      padding-bottom: $padding;
+      padding-top: $padding;
+    }
 
     &[data-state="closed"] {
       display: none;
@@ -99,10 +109,10 @@ const contentProps = {
     position: absolute;
     min-width: 10rem;
     margin: auto;
-    z-index: 2;
+    z-index: -1;
 
-    @include small-down {
-      z-index: -1;
+    @include small-up {
+      z-index: 2;
     }
   }
 
@@ -117,11 +127,19 @@ const contentProps = {
 
   .bottom {
     @include control-row;
-    bottom: -1rem;
+    bottom: -3rem;
+
+    @include small-up {
+      bottom: -1rem;
+    }
   }
 
   .top {
     @include control-row;
-    top: -1rem;
+    top: -3rem;
+
+    @include small-up {
+      top: -1rem;
+    }
   }
 </style>

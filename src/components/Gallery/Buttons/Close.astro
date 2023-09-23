@@ -17,11 +17,16 @@
 
   .close {
     @include gallery-button;
-    position: absolute;
-    right: 0;
+
+    @include small-up {
+      position: absolute;
+      right: 0;
+    }
   }
 
   .close.adjust {
-    right: -1rem;
+    @include small-up {
+      right: -1rem;
+    }
   }
 </style>
