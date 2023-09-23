@@ -14,7 +14,9 @@ body {
   line-height: $line-height-lg;
   font-size: $font-size-body;
   min-width: 20rem;
+  color: black;
   margin: 0;
+
 
   &[data-state="hidden"] {
     background-color: black;
