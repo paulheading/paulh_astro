@@ -10,16 +10,9 @@ const faviconProps = {
   rel: "icon",
 };
 
-const lightThemeProps = {
-  media: "(prefers-color-scheme: light)",
+const themeProps = {
   name: "theme-color",
-  content: "#ecd96f",
-};
-
-const darkThemeProps = {
-  media: "(prefers-color-scheme: dark)",
-  name: "theme-color",
-  content: "#0b3e05",
+  content: "black",
 };
 ---
 
@@ -32,6 +25,5 @@ const darkThemeProps = {
   <title>{title ? title : seo.title("Portfolio")}</title>
   {description && <meta name="description" content={description} />}
   {keywords && <meta name="keywords" content={keywords} />}
-  <meta {...lightThemeProps} />
-  <meta {...darkThemeProps} />
+  <meta {...themeProps} />
 </head>
