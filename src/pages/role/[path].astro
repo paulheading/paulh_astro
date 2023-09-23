@@ -26,8 +26,8 @@ const layoutProps = {
 };
 
 const is = {
-  DesignManager: name == "Design Manager"
-}
+  DesignManager: name == "Design Manager",
+};
 ---
 
 <Layout {...layoutProps}>
@@ -36,6 +36,16 @@ const is = {
       {sections.map((section) => <Row>{parse(section)}</Row>)}
       {is.DesignManager && <DesignManagerGallery />}
     </Page>
-    <Back>Go Back</Back>
+    <div class="wrap-back">
+      <Back size={20}>Back</Back>
+    </div>
   </Content>
 </Layout>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .wrap-back {
+    margin-top: $padding-row * 2;
+  }
+</style>
