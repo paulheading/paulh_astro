@@ -100,6 +100,10 @@ const contentProps = {
     min-width: 10rem;
     margin: auto;
     z-index: 2;
+
+    @include small-down {
+      z-index: -1;
+    }
   }
 
   @mixin control-row {
