@@ -1,17 +1,37 @@
 ---
-import seo from '~data/seo.js'
-import personal from '~data/personal.js'
+import seo from "~data/seo.js";
+import personal from "~data/personal.js";
 
-const { title, keywords, description } = Astro.props
+const { title, keywords, description } = Astro.props;
+
+const faviconProps = {
+  type: "image/svg+xml",
+  href: "/favicon.svg",
+  rel: "icon",
+};
+
+const lightThemeProps = {
+  media: "(prefers-color-scheme: light)",
+  name: "theme-color",
+  content: "#ecd96f",
+};
+
+const darkThemeProps = {
+  media: "(prefers-color-scheme: dark)",
+  name: "theme-color",
+  content: "#0b3e05",
+};
 ---
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link {...faviconProps} />
   <meta name="generator" content={Astro.generator} />
   <meta name="viewport" content="width=device-width" />
   <meta name="author" content={personal.name} />
-  <title>{title ? title : seo.title('Portfolio')}</title>
+  <title>{title ? title : seo.title("Portfolio")}</title>
   {description && <meta name="description" content={description} />}
   {keywords && <meta name="keywords" content={keywords} />}
+  <meta {...lightThemeProps} />
+  <meta {...darkThemeProps} />
 </head>
