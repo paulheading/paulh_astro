@@ -96,15 +96,14 @@ function resizeIFRAME(player) {
 
   overlay.isWideEnough = overlay.width >= content.width;
 
-  if (!overlay.isWideEnough) {
-    player.width = Math.round(overlay.width);
-    player.height = Math.round(overlay.width / content.ratio);
-  } else if (!overlay.isTallEnough) {
-    player.height = Math.round(overlay.height);
-    player.width = Math.round(overlay.height * content.ratio);
-  } else {
+  const fallback = "250px";
+
+  if (overlay.isWideEnough && overlay.isTallEnough) {
     player.height = content.height;
     player.width = content.width;
+  } else {
+    player.height = fallback;
+    player.width = fallback;
   }
 
   return player;

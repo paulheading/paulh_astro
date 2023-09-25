@@ -37,6 +37,9 @@ const contentProps = {
 <style lang="scss">
   @import "~styles/mixins";
 
+  $offset_sm: -1rem;
+  $offset_lg: -3.25rem;
+
   @mixin inset {
     bottom: 0;
     right: 0;
@@ -45,25 +48,18 @@ const contentProps = {
   }
 
   .overlay {
-    $padding: 2rem;
+    $padding_vt: 5rem;
+    $padding_hz: 3rem;
 
     @include inset;
-    padding-bottom: $padding * 2;
-    padding-top: $padding * 2;
+    padding: $padding_vt $padding_hz;
     background-color: black;
     justify-content: center;
-    padding-right: $padding;
-    padding-left: $padding;
     align-items: center;
     visibility: visible;
     position: fixed;
     display: flex;
     z-index: 3;
-
-    @include small-up {
-      padding-bottom: $padding;
-      padding-top: $padding;
-    }
 
     &[data-state="closed"] {
       display: none;
@@ -127,19 +123,19 @@ const contentProps = {
 
   .bottom {
     @include control-row;
-    bottom: -3rem;
+    bottom: $offset_lg;
 
     @include small-up {
-      bottom: -1rem;
+      bottom: $offset_sm;
     }
   }
 
   .top {
     @include control-row;
-    top: -3rem;
+    top: $offset_lg;
 
     @include small-up {
-      top: -1rem;
+      top: $offset_sm;
     }
   }
 </style>
