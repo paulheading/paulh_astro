@@ -2,19 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbican Riot Days HPU</title>
     <style>
+      :root {
+        --height: 600px;
+        --width: 300px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
       body {
         margin: 0;
       }
 
+      .fallback {
+        background-color: black;
+        justify-content: center;
+        font-family: sans-serif;
+        height: var(--height);
+        align-items: center;
+        width: var(--width);
+        text-align: center;
+        max-height: 100%;
+        max-width: 100%;
+        color: white;
+        padding: 1rem;
+        display: flex;
+      }
+
       a {
         background-color: #ffcc00;
+        height: var(--height);
+        width: var(--width);
         position: relative;
         overflow: hidden;
-        display: block;
-        height: 600px;
-        width: 300px;
+        display: none;
+      }
+
+      @media (min-width: 300px), (min-height: 600px) {
+        a {
+          display: block;
+        }
+
+        .fallback {
+          display: none;
+        }
       }
 
       a img {
@@ -61,6 +101,7 @@
     </style>
   </head>
   <body>
+    <div class="fallback">Please view this example on a larger screen.</div>
     <a
       href="https://www.barbican.org.uk/whats-on/2017/event/pussy-riot-theatre-riot-days"
     >

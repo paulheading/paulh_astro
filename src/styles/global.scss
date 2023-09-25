@@ -129,6 +129,10 @@ textarea {
   padding: 0;
 }
 
+iframe {
+  border: 0;
+}
+
 .small-up {
   @include small-down {
     display: none;
