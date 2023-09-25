@@ -109,6 +109,52 @@ function resizeIFRAME(player) {
   return player;
 }
 
+function resizeVIDEO(player) {
+  const content = {};
+
+  content.height = player.getAttribute("content-height");
+
+  content.width = player.getAttribute("content-width");
+
+  content.ratio = Number(content.width / content.height).toFixed(2);
+
+  const properties = {};
+
+  properties.height = [
+    "border-bottom-width",
+    "border-top-width",
+    "padding-bottom",
+    "padding-top",
+  ];
+
+  properties.width = [
+    "border-right-width",
+    "border-left-width",
+    "padding-right",
+    "padding-left",
+  ];
+
+  const overlay = {};
+
+  overlay.height = adjustOffset($.overlay.offsetHeight, properties.height);
+
+  overlay.width = adjustOffset($.overlay.offsetWidth, properties.width);
+
+  overlay.isTallEnough = overlay.height >= content.height;
+
+  overlay.isWideEnough = overlay.width >= content.width;
+
+  if (!overlay.isTallEnough) {
+    player.height = overlay.height;
+    player.width = overlay.height * content.ratio;
+  } else if (!overlay.isWideEnough) {
+    player.width = overlay.width;
+    player.height = overlay.width / content.ratio;
+  }
+
+  return player;
+}
+
 function controls() {
   let player = get.$player();
 
@@ -117,6 +163,8 @@ function controls() {
   let { tagName } = player;
 
   if (tagName == "IFRAME") player = resizeIFRAME(player);
+
+  if (tagName == "VIDEO") player = resizeVIDEO(player);
 
   const close = $.overlay_close;
 
@@ -133,7 +181,9 @@ function build(element, data) {
   const { src, index, width, height } = data;
 
   element.src = src;
+
   element.height = height;
+
   element.width = width;
 
   element.setAttribute("content-height", height);
@@ -143,43 +193,31 @@ function build(element, data) {
   element.setAttribute("data-index", index);
 
   element.style.outline = "1px solid white";
+
   element.style.zIndex = 2;
 
   return element;
 }
 
 function video(data) {
-  let { height, width } = data;
-
   let element = document.createElement("video");
 
   data.src += ".mp4";
 
   let settings = [element, data];
 
-  let ratio = height / width;
-
-  let portrait = ratio > 1;
-
   element = build(...settings);
 
-  if (portrait) {
-    element.setAttribute("data-ratio", "portrait");
-    element.style.height = "100%";
-    element.style.width = "auto";
-  } else {
-    element.setAttribute("data-ratio", "landscape");
-    element.style.width = "100%";
-    element.style.height = "auto";
-  }
-
-  element.style.maxHeight = "100%";
   element.style.maxWidth = "100%";
-  element.style.display = "block";
+
+  element.style.height = "auto";
 
   element.muted = player.muted;
+
   element.controls = false;
+
   element.autoplay = true;
+
   element.loop = true;
 
   $.overlay_content.appendChild(element);
