@@ -2,98 +2,33 @@
 import Row from "~components/Page/Row.astro";
 import Thumbnail from "~components/Gallery/Thumbnail.astro";
 import Overlay from "~components/Gallery/Overlay.astro";
-
-import create from "~scripts/helpers/create";
-
-const ad = (value = "") => "/ads/" + value;
-const trailer = (value = "") => "/trailers/" + value;
-
-const trailers = [
-  create.thumb({
-    index: 0,
-    src: trailer("generations"),
-    title: "Generations",
-  }),
-  create.thumb({
-    index: 1,
-    src: trailer("borders_and_boundaries"),
-    title: "Borders and Boundaries",
-  }),
-  create.thumb({
-    index: 2,
-    src: trailer("more_than_human"),
-    title: "More than Human",
-  }),
-  create.thumb({
-    index: 3,
-    src: trailer("watch_this_space"),
-    title: "Watch this Space",
-  }),
-];
-
-const life_rewired = [
-  create.thumb({
-    index: 4,
-    src: trailer("life_rewired/entrance_screen"),
-    title: "Entrance Screen",
-    width: 70,
-    content: {
-      width: 720,
-      height: 1280,
-    },
-  }),
-];
-
-const ads = [
-  create.thumb({
-    index: 5,
-    src: ad("pussy_riot/billboard"),
-    title: "Billboard",
-    height: 60,
-    type: "ad",
-    content: {
-      width: 970,
-      height: 250,
-    },
-  }),
-  create.thumb({
-    index: 6,
-    src: ad("pussy_riot/mpu"),
-    title: "MPU",
-    width: 80,
-    type: "ad",
-    content: {
-      width: 300,
-      height: 250,
-    },
-  }),
-  create.thumb({
-    index: 7,
-    src: ad("pussy_riot/hpu"),
-    title: "HPU",
-    type: "ad",
-    width: 70,
-    content: {
-      width: 300,
-      height: 600,
-    },
-  }),
-];
+import Rows from "~data/roles/designManager";
 ---
 
 <script src="~scripts/components/gallery.js"></script>
 
 <Row>
   <div id="gallery" class="container">
-    <div class="thumbs">
-      {trailers.map((thumb) => <Thumbnail {...thumb} />)}
-    </div>
-    <div class="thumbs">
-      {life_rewired.map((thumb) => <Thumbnail {...thumb} />)}
-    </div>
-    <div class="thumbs">
-      {ads.map((thumb) => <Thumbnail {...thumb} />)}
-    </div>
+    {
+      Rows.map(function (row) {
+        const { title, content } = row;
+
+        return (
+          <div class="wrap-row">
+            <div class="row">
+              <div class="wrap-title">
+                <div class="title">{title}</div>
+              </div>
+              <div class="content">
+                {content.map((thumb) => (
+                  <Thumbnail {...thumb} />
+                ))}
+              </div>
+            </div>
+          </div>
+        );
+      })
+    }
     <Overlay />
   </div>
 </Row>
@@ -101,15 +36,33 @@ const ads = [
 <style lang="scss">
   @import "~styles/mixins";
 
-  .thumbs {
-    margin: -0.75rem;
+  $margin: 0.75rem;
 
-    @include small-down {
-      text-align: center;
-    }
+  .wrap-row + .wrap-row {
+    margin-top: $margin * 3;
   }
 
-  .iframe {
-    border: none;
+  .row {
+    padding: $margin $margin * 1.5;
+    border: $border-dashed;
+    display: inline-block;
+  }
+
+  .wrap-title {
+    margin-bottom: $margin;
+    margin-top: -$margin * 2;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  .title {
+    background-color: white;
+    display: inline-block;
+    padding-right: $margin;
+    padding-left: $margin;
+  }
+
+  .content {
+    margin: -$margin;
   }
 </style>
