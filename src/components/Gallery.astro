@@ -1,0 +1,17 @@
+---
+import Thumbnails from "~components/Gallery/Thumbnails.astro";
+import Overlay from "~components/Gallery/Overlay.astro";
+
+const { id = "gallery" } = Astro.props;
+
+const props = {
+  id,
+};
+---
+
+<div {...props}>
+  <Thumbnails>
+    <slot />
+  </Thumbnails>
+  <Overlay />
+</div>

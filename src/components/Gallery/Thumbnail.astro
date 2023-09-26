@@ -32,6 +32,8 @@ const vars = {
   height: remify(height),
   width: remify(width),
 };
+
+const words = title.split(" ");
 ---
 
 <button {...buttonProps}>
@@ -41,21 +43,66 @@ const vars = {
     </div>
   </div>
   <div class="title">
-    {title}
+    {words.map((word) => <span class="word">{word}</span>)}
   </div>
 </button>
 
 <style lang="scss" define:vars={vars}>
   @import "~styles/mixins";
 
+  $shade: $c-body-bg;
+  $active: $c-blue;
+  $scale: 0.8;
+
   .thumbnail {
+    $margin: 0.75rem;
+
     background-color: transparent;
     vertical-align: top;
     width: var(--width);
-    margin: 0.75rem;
-    color: black;
+    margin: $margin;
     border: none;
+    color: black;
     padding: 0;
+
+    @include small-down {
+      width: calc(var(--width) * $scale);
+      margin: $margin * $scale;
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+
+    @include focus {
+      .wrap {
+        outline: 0.375rem solid $shade;
+      }
+
+      .word {
+        background-color: $active;
+        color: white;
+      }
+    }
+  }
+
+  .title {
+    margin-top: $padding-row * 0.5;
+    color: $c-gray-9;
+    font-size: 0;
+  }
+
+  .word {
+    line-height: $line-height-md;
+    background-color: $shade;
+    padding-right: 0.1875rem;
+    font-size: $h6-font-size;
+    padding-left: 0.1875rem;
+    display: inline-block;
+
+    @include small-down {
+      font-size: 0.9375rem;
+    }
   }
 
   .wrap {
@@ -68,17 +115,15 @@ const vars = {
     align-items: center;
     overflow: hidden;
     display: flex;
+
+    @include small-down {
+      height: calc(var(--height) * $scale);
+    }
   }
 
   .wrap img {
     max-width: 100%;
     display: block;
     height: auto;
-  }
-
-  .title {
-    margin-top: $padding-row * 0.5;
-    font-size: $h6-font-size;
-    color: $c-gray-9;
   }
 </style>

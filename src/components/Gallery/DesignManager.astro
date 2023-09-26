@@ -1,68 +1,14 @@
 ---
 import Row from "~components/Page/Row.astro";
+import Gallery from "~components/Gallery.astro";
 import Thumbnail from "~components/Gallery/Thumbnail.astro";
-import Overlay from "~components/Gallery/Overlay.astro";
-import Rows from "~data/roles/designManager";
+import Content from "~data/roles/designManager";
 ---
 
 <script src="~scripts/components/gallery.js"></script>
 
 <Row>
-  <div id="gallery" class="container">
-    {
-      Rows.map(function (row) {
-        const { title, content } = row;
-
-        return (
-          <div class="wrap-row">
-            <div class="row">
-              <div class="wrap-title">
-                <div class="title">{title}</div>
-              </div>
-              <div class="content">
-                {content.map((thumb) => (
-                  <Thumbnail {...thumb} />
-                ))}
-              </div>
-            </div>
-          </div>
-        );
-      })
-    }
-    <Overlay />
-  </div>
+  <Gallery>
+    {Content.map((content) => <Thumbnail {...content} />)}
+  </Gallery>
 </Row>
-
-<style lang="scss">
-  @import "~styles/mixins";
-
-  $margin: 0.75rem;
-
-  .wrap-row + .wrap-row {
-    margin-top: $margin * 3;
-  }
-
-  .row {
-    padding: $margin $margin * 1.5;
-    border: $border-dashed;
-    display: inline-block;
-  }
-
-  .wrap-title {
-    margin-bottom: $margin;
-    margin-top: -$margin * 2;
-    font-weight: normal;
-    font-size: 1rem;
-  }
-
-  .title {
-    background-color: white;
-    display: inline-block;
-    padding-right: $margin;
-    padding-left: $margin;
-  }
-
-  .content {
-    margin: -$margin;
-  }
-</style>
