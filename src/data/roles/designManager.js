@@ -1,4 +1,4 @@
-import create from "~scripts/helpers/create";
+import { create } from "~scripts/helpers";
 
 const ad = (value = "") => "/ads/" + value;
 

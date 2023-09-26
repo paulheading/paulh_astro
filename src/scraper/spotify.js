@@ -1,5 +1,5 @@
 import { string, playlist, id, secret, base } from "./spotify/variables.js";
-import get from "../scripts/helpers/get.js";
+import { get } from "../scripts/helpers.js";
 
 const getSpotify = {};
 

@@ -1,4 +1,4 @@
-import get from "../scripts/helpers/get.js";
+import { get } from "../scripts/helpers.js";
 import { GET_USER_ARTICLES } from "./hashnode/queries.js";
 
 async function getHashnodeData() {
