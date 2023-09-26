@@ -52,7 +52,6 @@ const words = title.split(" ");
 
   $shade: $c-body-bg;
   $active: $c-blue;
-  $scale: 0.8;
 
   .thumbnail {
     $margin: 0.75rem;
@@ -64,11 +63,6 @@ const words = title.split(" ");
     border: none;
     color: black;
     padding: 0;
-
-    @include small-down {
-      width: calc(var(--width) * $scale);
-      margin: $margin * $scale;
-    }
 
     &:active {
       transform: scale(0.95);
@@ -99,10 +93,6 @@ const words = title.split(" ");
     font-size: $h6-font-size;
     padding-left: 0.1875rem;
     display: inline-block;
-
-    @include small-down {
-      font-size: 0.9375rem;
-    }
   }
 
   .wrap {
@@ -115,10 +105,6 @@ const words = title.split(" ");
     align-items: center;
     overflow: hidden;
     display: flex;
-
-    @include small-down {
-      height: calc(var(--height) * $scale);
-    }
   }
 
   .wrap img {

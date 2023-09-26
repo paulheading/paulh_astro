@@ -11,13 +11,7 @@ const toRems = (value = "1") => Number(value) * 0.0625 + "rem";
 <style lang="scss" define:vars={{ margin: toRems(margin) }}>
   @import "~styles/mixins";
 
-  $scale: 0.8;
-
   .thumbnails {
     margin: var(--margin);
-
-    @include small-down {
-      margin: calc(var(--margin) * $scale);
-    }
   }
 </style>
