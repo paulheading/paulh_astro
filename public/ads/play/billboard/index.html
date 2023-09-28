@@ -111,17 +111,17 @@
         z-index: 2;
       }
 
-      #sprite {
+      #man {
         position: absolute;
         overflow: hidden;
         height: 156px;
-        width: 100px;
+        width: 156px;
         z-index: 3;
         left: 60px;
         bottom: 0;
       }
 
-      #sprite_img {
+      #sprite {
         position: relative;
       }
 
@@ -132,7 +132,7 @@
         left: 0px;
       }
 
-      #hz_line {
+      #horizontal {
         background-color: var(--color);
         width: var(--width);
         position: absolute;
@@ -141,7 +141,7 @@
         z-index: 1;
       }
 
-      #vt_line {
+      #vertical {
         background-color: var(--color);
         height: var(--height);
         position: absolute;
@@ -162,11 +162,11 @@
         <img id="subtitle" src="subtitle.png" />
         <img id="copy" src="copy.png" />
         <img id="book" src="book.png" />
-        <div id="hz_line"></div>
-        <div id="vt_line"></div>
+        <div id="horizontal"></div>
+        <div id="vertical"></div>
       </div>
-      <div id="sprite">
-        <img id="sprite_img" src="sprite.png" />
+      <div id="man">
+        <img id="sprite" src="sprite.png" />
       </div>
       <img id="highwalk" src="highwalk.png" />
     </a>
@@ -176,74 +176,66 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
 <script>
-  var tl = gsap.timeline({ repeat: -1, repeatDelay: 3 });
+  const tl = gsap.timeline({ repeat: -1, repeatDelay: 4 });
 
   const fast = 0.3;
 
   const slow = fast * 10;
 
-  const information = [
-    "#wordmark",
-    "#date",
-    "#title",
-    "#subtitle",
-    "#copy",
-    "#book",
-  ];
+  const delay = fast;
 
-  function run() {
-    var target = "#sprite_img";
+  const width = 970;
 
-    var delay = 0.2;
+  const highwalk = width * 0.5;
 
-    var loop = Array.from(Array(8).keys());
+  const ease = "steps(18)";
 
-    var tl = gsap.timeline({ defaults: { delay } });
+  const $menu = "#menu";
 
-    loop.forEach(() => tl.set(target, { x: -180 }).set(target, { x: -360 }));
-  }
+  const $man = "#man";
+  const $sprite = "#sprite";
+  const $highwalk = "#highwalk";
+  const $wordmark = "#wordmark";
+  const $date = "#date";
+  const $title = "#title";
+  const $subtitle = "#subtitle";
+  const $copy = "#copy";
+  const $book = "#book";
+  const $horizontal = "#horizontal";
+  const $vertical = "#vertical";
 
-  function sprite() {
-    var tl = gsap.timeline();
+  const information = [$wordmark, $date, $title, $subtitle, $copy, $book];
+
+  function Run() {
+    const loop = Array.from(Array(8).keys());
+
+    const tl = gsap.timeline();
 
     // prettier-ignore
-    tl.set(["#sprite","#sprite_img"], { x: 0 })
-      .from("#sprite", { duration: fast, ease: "none", y: -300 })
-      .add(run, 'run-=0.2')
-      .to("#sprite", { duration: slow, ease: "none", x: 1000 }, 'run')
+    loop.forEach((index) => tl.set($sprite, { x: -180, delay: index > 0 ? delay: 0 }).set($sprite, { x: -360, delay }))
   }
 
-  function hz_line() {
-    var target = "#hz_line";
+  function Line(target, movements) {
     var ease = "none";
+
     var duration = 1;
 
     var tl = gsap.timeline({ defaults: { ease, duration } });
 
-    // prettier-ignore
-    tl.to(target, { y: 200 })
-      .to(target, { y: 50 })
-      .to(target, { y: 95 })
+    movements.forEach((movement) => tl.to(target, movement));
   }
 
-  function vt_line() {
-    var target = "#vt_line";
-    var ease = "none";
-    var duration = 1;
-
-    var tl = gsap.timeline({ defaults: { ease, duration } });
-
-    // prettier-ignore
-    tl.to(target, { x: -300 })
-      .to(target, { x: -100 })
-      .to(target, { x: -220 })
+  function onComplete() {
+    Line($vertical, [{ x: -300 }, { x: -100 }, { x: -220 }]);
+    Line($horizontal, [{ y: 200 }, { y: 50 }, { y: 95 }]);
   }
 
   // prettier-ignore
-  tl.add(sprite)
-    .to("#highwalk", { duration: slow, x: -400 },'+=0.4')
-    .from("#menu", { duration: fast, opacity: 0 })
-    .from(information, { duration: fast, y: -20, opacity: 0, stagger: 0.1 })
-    .add(hz_line)
-    .add(vt_line)
+  tl.set([$vertical, $horizontal], { x: 0, y: 0 })
+    .set([$man, $sprite], { x: 0 })
+    .from($man, { y: -300 })
+    .to($man, { duration: slow, x: width, ease, onStart: Run }, 'run')
+    .to($highwalk, { duration: slow, x: -highwalk, ease }, 'run')
+    .from($menu, { duration: fast, opacity: 0 })
+    .from(information, { duration: fast, y: -20, opacity: 0, stagger: 0.1, onComplete });
 </script>
