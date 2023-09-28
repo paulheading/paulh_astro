@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbican PLAY!</title>
+    <style>
+      :root {
+        --backgroundColor: #add2f7;
+        --color: #ff4a00;
+        --sprite: 157px;
+        --height: 250px;
+        --width: 970px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .fallback {
+        background-color: black;
+        justify-content: center;
+        font-family: sans-serif;
+        height: var(--height);
+        align-items: center;
+        width: var(--width);
+        text-align: center;
+        max-height: 100%;
+        max-width: 100%;
+        color: white;
+        padding: 1rem;
+        display: flex;
+      }
+
+      a {
+        background-color: var(--backgroundColor);
+        background: url("sky.png");
+        height: var(--height);
+        width: var(--width);
+        position: relative;
+        overflow: hidden;
+        display: none;
+      }
+
+      @media (min-width: 970px) and (min-height: 250px) {
+        a {
+          display: block;
+        }
+
+        .fallback {
+          display: none;
+        }
+      }
+
+      #menu {
+        background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 4;
+        left: 0;
+        top: 0;
+      }
+
+      #menu img {
+        position: absolute;
+      }
+
+      #wordmark {
+        z-index: 2;
+        left: 10px;
+        top: 10px;
+      }
+
+      #date {
+        left: 117px;
+        z-index: 2;
+        top: 63px;
+      }
+
+      #title {
+        left: 117px;
+        z-index: 2;
+        top: 117px;
+      }
+
+      #subtitle {
+        left: 439px;
+        z-index: 2;
+        top: 33px;
+      }
+
+      #copy {
+        left: 438px;
+        z-index: 2;
+        top: 103px;
+      }
+
+      #book {
+        left: 439px;
+        top: 176px;
+        z-index: 2;
+      }
+
+      #sprite {
+        position: absolute;
+        overflow: hidden;
+        height: 156px;
+        width: 100px;
+        z-index: 3;
+        left: 60px;
+        bottom: 0;
+      }
+
+      #sprite_img {
+        position: relative;
+      }
+
+      #highwalk {
+        position: absolute;
+        z-index: 2;
+        top: 129px;
+        left: 0px;
+      }
+
+      #hz_line {
+        background-color: var(--color);
+        width: var(--width);
+        position: absolute;
+        opacity: 0.5;
+        height: 2px;
+        z-index: 1;
+      }
+
+      #vt_line {
+        background-color: var(--color);
+        height: var(--height);
+        position: absolute;
+        opacity: 0.5;
+        width: 2px;
+        z-index: 1;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fallback">Please view this example on a larger screen.</div>
+    <a href="https://www.barbican.org.uk/whats-on/2018/event/play">
+      <div id="menu">
+        <img id="wordmark" src="wordmark.png" />
+        <img id="date" src="date.png" />
+        <img id="title" src="title.png" />
+        <img id="subtitle" src="subtitle.png" />
+        <img id="copy" src="copy.png" />
+        <img id="book" src="book.png" />
+        <div id="hz_line"></div>
+        <div id="vt_line"></div>
+      </div>
+      <div id="sprite">
+        <img id="sprite_img" src="sprite.png" />
+      </div>
+      <img id="highwalk" src="highwalk.png" />
+    </a>
+  </body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<script>
+  var tl = gsap.timeline({ repeat: -1, repeatDelay: 3 });
+
+  const fast = 0.3;
+
+  const slow = fast * 10;
+
+  const information = [
+    "#wordmark",
+    "#date",
+    "#title",
+    "#subtitle",
+    "#copy",
+    "#book",
+  ];
+
+  function run() {
+    var target = "#sprite_img";
+
+    var delay = 0.2;
+
+    var loop = Array.from(Array(8).keys());
+
+    var tl = gsap.timeline({ defaults: { delay } });
+
+    loop.forEach(() => tl.set(target, { x: -180 }).set(target, { x: -360 }));
+  }
+
+  function sprite() {
+    var tl = gsap.timeline();
+
+    // prettier-ignore
+    tl.set(["#sprite","#sprite_img"], { x: 0 })
+      .from("#sprite", { duration: fast, ease: "none", y: -300 })
+      .add(run, 'run-=0.2')
+      .to("#sprite", { duration: slow, ease: "none", x: 1000 }, 'run')
+  }
+
+  function hz_line() {
+    var target = "#hz_line";
+    var ease = "none";
+    var duration = 1;
+
+    var tl = gsap.timeline({ defaults: { ease, duration } });
+
+    // prettier-ignore
+    tl.to(target, { y: 200 })
+      .to(target, { y: 50 })
+      .to(target, { y: 95 })
+  }
+
+  function vt_line() {
+    var target = "#vt_line";
+    var ease = "none";
+    var duration = 1;
+
+    var tl = gsap.timeline({ defaults: { ease, duration } });
+
+    // prettier-ignore
+    tl.to(target, { x: -300 })
+      .to(target, { x: -100 })
+      .to(target, { x: -220 })
+  }
+
+  // prettier-ignore
+  tl.add(sprite)
+    .to("#highwalk", { duration: slow, x: -400 },'+=0.4')
+    .from("#menu", { duration: fast, opacity: 0 })
+    .from(information, { duration: fast, y: -20, opacity: 0, stagger: 0.1 })
+    .add(hz_line)
+    .add(vt_line)
+</script>

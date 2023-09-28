@@ -1,6 +1,6 @@
 import create from "./helpers/create.js";
-import get from "./helpers/get.js"; // in the scraper
-import calc from "./helpers/calc.js"; // in the frontend
-import contains from "./helpers/contains.js"; // in the scraper
+import get from "./helpers/get.js";
+import calc from "./helpers/calc.js";
+import contains from "./helpers/contains.js";
 
 export { create, get, calc, contains };
