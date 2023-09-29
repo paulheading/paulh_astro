@@ -8,8 +8,8 @@
       :root {
         --backgroundColor: #add2f7;
         --color: #ff4a00;
-        --height: 250px;
-        --width: 970px;
+        --height: 600px;
+        --width: 300px;
         --man: 156px;
       }
 
@@ -80,38 +80,44 @@
 
       #wordmark {
         z-index: 2;
-        left: 10px;
-        top: 10px;
+        left: 228px;
+        top: 295px;
       }
 
       #date {
-        left: 117px;
+        left: 36px;
         z-index: 2;
-        top: 63px;
+        top: 47px;
       }
 
       #title {
-        left: 117px;
+        left: 36px;
         z-index: 2;
-        top: 117px;
+        top: 98px;
       }
 
       #subtitle {
-        left: 439px;
+        left: 30px;
         z-index: 2;
-        top: 33px;
+        top: 185px;
       }
 
       #copy {
-        left: 438px;
         z-index: 2;
-        top: 103px;
+        left: 31px;
+        top: 294px;
       }
 
       #book {
-        left: 439px;
-        top: 176px;
         z-index: 2;
+        left: 32px;
+        top: 439px;
+      }
+
+      #arrow {
+        left: 157px;
+        z-index: 2;
+        top: 431px;
       }
 
       #man {
@@ -120,8 +126,8 @@
         width: var(--man);
         overflow: hidden;
         z-index: 3;
-        left: 60px;
-        bottom: 0;
+        top: 55px;
+        left: 0;
       }
 
       #sprite {
@@ -131,8 +137,8 @@
       #background {
         position: absolute;
         z-index: 2;
-        top: 129px;
-        left: 0px;
+        top: 210px;
+        left: 0;
       }
 
       .line {
@@ -164,6 +170,7 @@
         <img id="subtitle" src="subtitle.png" />
         <img id="copy" src="copy.png" />
         <img id="book" src="book.png" />
+        <img id="arrow" src="arrow.png" />
         <div id="horizontal" class="line"></div>
         <div id="vertical" class="line"></div>
       </div>
@@ -186,9 +193,9 @@
 
   const delay = fast;
 
-  const width = 970;
+  const width = 300;
 
-  const scene = width * 0.5;
+  const scene = width * 1.5;
 
   const frames = 16;
 
@@ -216,13 +223,22 @@
   const $subtitle = "#subtitle";
   const $copy = "#copy";
   const $book = "#book";
+  const $arrow = "#arrow";
   const $horizontal = "#horizontal";
   const $vertical = "#vertical";
   const $man = "#man";
   const $sprite = "#sprite";
   const $background = "#background";
 
-  const information = [$wordmark, $date, $title, $subtitle, $copy, $book];
+  const information = [
+    $wordmark,
+    $date,
+    $title,
+    $subtitle,
+    $copy,
+    $book,
+    $arrow,
+  ];
 
   function Reset() {
     const timelines = [steps, foreground, background];
@@ -253,7 +269,7 @@
   steps.set($sprite, { x: -180 }).set($sprite, { x: -360, delay });
 
   // prettier-ignore
-  foreground.to($man, { duration: slow, x: scene * 3, ease });
+  foreground.to($man, { duration: slow, x: scene, ease }).to($man, { duration: slow, x: scene * 2, ease });
 
   // prettier-ignore
   background.to($scene, { duration: slow, x: -scene, ease });
@@ -261,13 +277,17 @@
   // prettier-ignore
   tl.add(Reset)
     .from($man, { y: -300 })
-    .add(Play, '+=' + fast)
-    .from($menu, { duration: fast, opacity: 0 }, 3.75)
+    .add(Play,'+=' + fast)
+    .set($man, { y: 120 },'+=0.7')
+    .set($man, { y: 0 },'+=0.3')
+    .set($man, { y: 120 },'+=2.6')
+    .set($man, { y: 360 },'+=0.3')
+    .from($menu, { duration: fast, opacity: 0 }, 6)
     .from(information, { duration: fast, y: -20, opacity: 0, stagger: 0.1 });
 
   DrawLines([
     { x: -300, y: 200 },
     { x: -100, y: 50 },
-    { x: -220, y: 95 },
+    { x: -220, y: 110 },
   ]);
 </script>
