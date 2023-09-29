@@ -6,6 +6,7 @@
     <title>Barbican Riot Days Billboard</title>
     <style>
       :root {
+        --fallback: 250px;
         --height: 250px;
         --width: 970px;
       }
@@ -27,12 +28,10 @@
         background-color: black;
         justify-content: center;
         font-family: sans-serif;
-        height: var(--height);
+        height: var(--fallback);
+        width: var(--fallback);
         align-items: center;
-        width: var(--width);
         text-align: center;
-        max-height: 100%;
-        max-width: 100%;
         color: white;
         padding: 1rem;
         display: flex;
