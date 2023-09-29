@@ -6,6 +6,48 @@ const trailer = (value = "") => "/trailers/" + value;
 
 const content = [];
 
+function billboard({ index, src }) {
+  return create.thumb({
+    index,
+    src: ad(src + "/billboard"),
+    title: "Billboard",
+    height: 50,
+    type: "ad",
+    content: {
+      width: 970,
+      height: 250,
+    },
+  });
+}
+
+function mpu({ index, src }) {
+  return create.thumb({
+    index,
+    src: ad(src + "/mpu"),
+    title: "MPU",
+    width: 85,
+    type: "ad",
+    content: {
+      width: 300,
+      height: 250,
+    },
+  });
+}
+
+function hpu({ index, src }) {
+  return create.thumb({
+    index,
+    src: ad(src + "/hpu"),
+    title: "HPU",
+    type: "ad",
+    width: 70,
+    content: {
+      width: 300,
+      height: 600,
+    },
+  });
+}
+
 content.push(
   create.thumb({
     index: 0,
@@ -43,39 +85,15 @@ content.push(
 );
 
 content.push(
-  create.thumb({
-    index: 5,
-    src: ad("pussy_riot/billboard"),
-    title: "Billboard",
-    height: 60,
-    type: "ad",
-    content: {
-      width: 970,
-      height: 250,
-    },
-  }),
-  create.thumb({
-    index: 6,
-    src: ad("pussy_riot/mpu"),
-    title: "MPU",
-    width: 80,
-    type: "ad",
-    content: {
-      width: 300,
-      height: 250,
-    },
-  }),
-  create.thumb({
-    index: 7,
-    src: ad("pussy_riot/hpu"),
-    title: "HPU",
-    type: "ad",
-    width: 70,
-    content: {
-      width: 300,
-      height: 600,
-    },
-  })
+  billboard({ index: 5, src: "pussy_riot" }),
+  mpu({ index: 6, src: "pussy_riot" }),
+  hpu({ index: 7, src: "pussy_riot" }),
+);
+
+content.push(
+  billboard({ index: 8, src: "play" }),
+  mpu({ index: 9, src: "play" }),
+  hpu({ index: 10, src: "play" }),
 );
 
 export default content;
