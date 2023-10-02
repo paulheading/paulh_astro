@@ -3,14 +3,14 @@ import { parse } from "node-html-parser";
 
 import Layout from "~layouts/Main.astro";
 import Content from "~components/Content.astro";
-import Row from "~components/Page/Row.astro";
+import Gallery from "~components/Gallery.astro";
 import Page from "~components/Page.astro";
+import Row from "~components/Page/Row.astro";
 import Back from "~components/Page/Back.astro";
-
-import DesignManagerGallery from "~components/Gallery/DesignManager.astro";
 
 import { roles } from "~data/resume.json";
 import { get, create } from "~scripts/helpers";
+import galleries from "~data/galleries";
 
 export function getStaticPaths() {
   return get.StaticPaths(roles);
@@ -25,16 +25,23 @@ const layoutProps = {
   description: local.summary,
 };
 
-const is = {
-  DesignManager: name == "Design Manager",
-};
+const filename = name.replace(/ /g, "");
+
+// @ts-ignore
+const content = galleries[filename];
 ---
 
 <Layout {...layoutProps}>
   <Content>
     <Page>
-      {sections.map((section) => <Row>{parse(section)}</Row>)}
-      {is.DesignManager && <DesignManagerGallery />}
+      {sections.map((section: string) => <Row>{parse(section)}</Row>)}
+      {
+        content && (
+          <Row>
+            <Gallery content={content} />
+          </Row>
+        )
+      }
     </Page>
     <div class="wrap-back">
       <Back size={20}>Back</Back>

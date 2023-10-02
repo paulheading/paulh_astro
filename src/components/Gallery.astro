@@ -1,17 +1,20 @@
 ---
 import Thumbnails from "~components/Gallery/Thumbnails.astro";
+import Thumbnail from "~components/Gallery/Thumbnail.astro";
 import Overlay from "~components/Gallery/Overlay.astro";
 
-const { id = "gallery" } = Astro.props;
+const { id = "gallery", content = [] } = Astro.props;
 
 const props = {
   id,
 };
 ---
 
+<script src="~scripts/components/gallery.js"></script>
+
 <div {...props}>
   <Thumbnails>
-    <slot />
+    {content.map((content: object) => <Thumbnail {...content} />)}
   </Thumbnails>
   <Overlay />
 </div>
