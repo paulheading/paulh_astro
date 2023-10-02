@@ -4,47 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbican Riot Days HPU</title>
+    <link rel="stylesheet" href="../styles.css" />
     <style>
       :root {
-        --backgroundColor: #ffcc00;
-        --fallback: 250px;
         --height: 600px;
         --width: 300px;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html,
-      body {
-        height: 100%;
-      }
-
-      body {
-        margin: 0;
-      }
-
-      .fallback {
-        background-color: black;
-        justify-content: center;
-        font-family: sans-serif;
-        height: var(--fallback);
-        width: var(--fallback);
-        align-items: center;
-        text-align: center;
-        color: white;
-        padding: 1rem;
-        display: flex;
-      }
-
-      a {
-        background-color: var(--backgroundColor);
-        height: var(--height);
-        width: var(--width);
-        position: relative;
-        overflow: hidden;
-        display: none;
       }
 
       @media (min-width: 300px) and (min-height: 600px) {
@@ -57,31 +21,27 @@
         }
       }
 
-      a img {
-        position: absolute;
-      }
-
       #wordmark {
-        top: 292px;
-        left: 14px;
         z-index: 2;
+        left: 14px;
+        top: 292px;
       }
 
       #pinkBg {
-        left: -7px;
         top: -115px;
+        left: -7px;
       }
 
       #yellowBg {
+        z-index: 3;
         left: -8px;
         top: 433px;
-        z-index: 3;
       }
 
       #pussyRiot {
+        z-index: 2;
         left: 45px;
         top: 305px;
-        z-index: 2;
       }
 
       #titles {

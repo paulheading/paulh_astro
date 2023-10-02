@@ -1,0 +1,43 @@
+:root {
+  --backgroundColor: #ffcc00;
+  --fallback: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.fallback {
+  background-color: black;
+  justify-content: center;
+  font-family: sans-serif;
+  height: var(--fallback);
+  width: var(--fallback);
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  display: flex;
+}
+
+a {
+  background-color: var(--backgroundColor);
+  height: var(--height);
+  width: var(--width);
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+
+a img {
+  position: absolute;
+}
