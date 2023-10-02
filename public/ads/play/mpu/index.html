@@ -3,51 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
     <title>Barbican PLAY! MPU</title>
     <style>
       :root {
-        --backgroundColor: #add2f7;
-        --color: #ff4a00;
-        --fallback: 250px;
         --height: 250px;
         --width: 300px;
-        --man: 156px;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html,
-      body {
-        height: 100%;
-      }
-
-      body {
-        margin: 0;
-      }
-
-      .fallback {
-        background-color: black;
-        justify-content: center;
-        font-family: sans-serif;
-        height: var(--fallback);
-        width: var(--fallback);
-        align-items: center;
-        text-align: center;
-        color: white;
-        padding: 1rem;
-        display: flex;
       }
 
       a {
-        background-color: var(--backgroundColor);
-        background: url("sky.png");
-        height: var(--height);
-        width: var(--width);
-        position: relative;
-        overflow: hidden;
-        display: none;
+        background-image: url("sky.png");
       }
 
       @media (min-width: 300px) and (min-height: 250px) {
@@ -60,104 +25,50 @@
         }
       }
 
-      #menu {
-        background-color: black;
-        height: var(--height);
-        width: var(--width);
-        position: absolute;
-        z-index: 4;
-        left: 0;
-        top: 0;
-      }
-
-      #menu img {
-        position: absolute;
-      }
-
-      #scene {
-        height: var(--height);
-        width: var(--width);
-      }
-
       #wordmark {
         left: 242px;
-        z-index: 2;
         top: 10px;
       }
 
       #date {
-        z-index: 2;
-        left: 30px;        
+        left: 30px;
         top: 75px;
       }
 
       #title {
-        z-index: 2;
         left: 30px;
         top: 118px;
       }
 
       #subtitle {
-        z-index: 2;
         left: 22px;
         top: 57px;
       }
 
       #copy {
-        z-index: 2;
         left: 23px;
         top: 56px;
       }
 
       #book {
-        z-index: 2;
         left: 24px;
         top: 173px;
       }
 
       #arrow {
         left: 149px;
-        z-index: 2;
         top: 165px;
       }
 
       #man {
-        height: var(--man);
-        position: absolute;
-        width: var(--man);
-        overflow: hidden;
-        z-index: 3;
         bottom: 0;
         left: 0;
       }
 
-      #sprite {
-        position: relative;
-      }
-
       #background {
         position: absolute;
-        z-index: 2;
         top: 129px;
         left: 0px;
-      }
-
-      .line {
-        background-color: var(--color);
-        position: absolute;
-        opacity: 0.5;
-        z-index: 1;
-      }
-
-      #horizontal {
-        width: var(--width);
-        height: 2px;
-      }
-
-      #vertical {
-        height: var(--height);
-        width: 2px;
-        right: 0;
       }
     </style>
   </head>
@@ -209,7 +120,7 @@
     stagger: 0.1,
     opacity: 0,
     y: -20,
-  }
+  };
 
   const tl = gsap.timeline({ repeat: -1, repeatDelay: slow });
 
