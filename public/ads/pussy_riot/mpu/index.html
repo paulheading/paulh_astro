@@ -4,21 +4,60 @@
     <meta charset="UTF-8" />
     <title>Barbican Riot Days MPU</title>
     <style>
+      :root {
+        --backgroundColor: #ffcc00;
+        --fallback: 250px;
+        --height: 250px;
+        --width: 300px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
       body {
         margin: 0;
       }
 
+      .fallback {
+        background-color: black;
+        justify-content: center;
+        font-family: sans-serif;
+        height: var(--fallback);
+        width: var(--fallback);
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 1rem;
+        display: flex;
+      }
+
       a {
-        background-color: #ffcc00;
+        background-color: var(--backgroundColor);
+        height: var(--height);
+        width: var(--width);
         position: relative;
         overflow: hidden;
-        display: block;
-        height: 250px;
-        width: 300px;
+        display: none;
       }
 
       a img {
         position: absolute;
+      }
+
+      @media (min-width: 300px) and (min-height: 250px) {
+        a {
+          display: block;
+        }
+
+        .fallback {
+          display: none;
+        }
       }
 
       #wordmark {
@@ -61,6 +100,7 @@
     </style>
   </head>
   <body>
+    <div class="fallback">Please view this example on a larger screen.</div>
     <a
       href="https://www.barbican.org.uk/whats-on/2017/event/pussy-riot-theatre-riot-days"
     >

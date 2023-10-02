@@ -29,7 +29,7 @@ function sections(content, element) {
   });
 }
 
-function thumb({
+function content({
   index = 0,
   src = "",
   title = "",
@@ -52,4 +52,48 @@ function thumb({
   };
 }
 
-export default { person, sections, thumb };
+const ad = (value = "") => "/ads/" + value;
+
+function billboard({ index, src }) {
+  return content({
+    index,
+    src: ad(src + "/billboard"),
+    title: "Billboard",
+    height: 50,
+    type: "ad",
+    content: {
+      width: 970,
+      height: 250,
+    },
+  });
+}
+
+function mpu({ index, src }) {
+  return content({
+    index,
+    src: ad(src + "/mpu"),
+    title: "MPU",
+    width: 85,
+    type: "ad",
+    content: {
+      width: 300,
+      height: 250,
+    },
+  });
+}
+
+function hpu({ index, src }) {
+  return content({
+    index,
+    src: ad(src + "/hpu"),
+    title: "HPU",
+    type: "ad",
+    width: 70,
+    content: {
+      width: 300,
+      height: 600,
+    },
+  });
+}
+
+export default { person, sections, content, billboard, mpu, hpu };
