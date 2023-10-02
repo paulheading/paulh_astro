@@ -96,4 +96,17 @@ content.push(
   hpu({ index: 10, src: "play" }),
 );
 
+content.push(
+  create.thumb({
+    index: 11,
+    src: trailer("archive"),
+    title: "Archive",
+    width: 70,
+    content: {
+      width: 720,
+      height: 1280,
+    },
+  })
+);
+
 export default content;
