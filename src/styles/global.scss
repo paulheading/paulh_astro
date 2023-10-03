@@ -168,12 +168,24 @@ button:not(:disabled) {
   cursor: pointer;
 }
 
-.page-content h1:only-child {
-  margin-bottom: 0;
-}
-
 .page-row a {
   @include focus {
     @include gold-box;
+  }
+}
+
+.page-content h1 {
+  &:only-child {
+    margin-bottom: 0;
+  }
+
+  @include small-down {
+    font-size: $h3-font-size;
+  }
+}
+
+.page-content h3 {
+  @include small-down {
+    font-size: $h4-font-size;
   }
 }
