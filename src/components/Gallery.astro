@@ -14,7 +14,16 @@ const props = {
 
 <div {...props}>
   <Thumbnails>
-    {content.map((content: object) => <Thumbnail {...content} />)}
+    {
+      content.map(function (content: object, index: number) {
+        const props = {
+          ...content,
+          index,
+        };
+
+        return <Thumbnail {...props} />;
+      })
+    }
   </Thumbnails>
   <Overlay />
 </div>

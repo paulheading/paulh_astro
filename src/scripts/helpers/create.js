@@ -30,7 +30,6 @@ function sections(content, element) {
 }
 
 function content({
-  index = 0,
   src = "",
   title = "",
   width = 120,
@@ -42,7 +41,6 @@ function content({
   },
 }) {
   return {
-    index,
     src,
     title,
     width,
@@ -54,9 +52,8 @@ function content({
 
 const ad = (value = "") => "/ads/" + value;
 
-function billboard({ index, src }) {
+function billboard({ src }) {
   return content({
-    index,
     src: ad(src + "/billboard"),
     title: "Billboard",
     height: 50,
@@ -68,9 +65,8 @@ function billboard({ index, src }) {
   });
 }
 
-function mpu({ index, src }) {
+function mpu({ src }) {
   return content({
-    index,
     src: ad(src + "/mpu"),
     title: "MPU",
     width: 85,
@@ -82,9 +78,8 @@ function mpu({ index, src }) {
   });
 }
 
-function hpu({ index, src }) {
+function hpu({ src }) {
   return content({
-    index,
     src: ad(src + "/hpu"),
     title: "HPU",
     type: "ad",
