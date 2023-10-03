@@ -89,7 +89,11 @@ const learningProps = {
 
   .name {
     @include mobile-bump;
-    font-size: $h1-font-size;
+    font-size: $h3-font-size;
+
+    @include small-up {
+      font-size: $h1-font-size;
+    }
 
     @include medium-down {
       line-height: 1.3;
