@@ -180,12 +180,6 @@ button:not(:disabled) {
   }
 
   @include small-down {
-    font-size: $h3-font-size;
-  }
-}
-
-.page-content h3 {
-  @include small-down {
-    font-size: $h4-font-size;
+    font-size: $h2-font-size;
   }
 }
