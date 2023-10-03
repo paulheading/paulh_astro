@@ -24,15 +24,15 @@ $h3-font-size: 2rem;
 
 $h4-font-size: 1.5rem;
 
-$h5-font-size: 1.125rem;
+$h5-font-size: 1.25rem;
 
 $h6-font-size: 1rem;
 
-$font-size-summary: 1.125rem;
+$font-size-body: $h5-font-size;
 
-$font-size-body: 1.25rem;
+$font-size-summary: $h5-font-size * 0.9;
 
-$font-size-alt: 0.75rem;
+$font-size-alt: $font-size-body * 0.6;
 
 $border-banner-width: 0.25rem;
 
