@@ -41,6 +41,14 @@ function next() {
   select(next);
 }
 
+function hasAudio(video) {
+  return (
+    video.mozHasAudio ||
+    Boolean(video.webkitAudioDecodedByteCount) ||
+    Boolean(video.audioTracks && video.audioTracks.length)
+  );
+}
+
 function loaded(event) {
   const { target } = event;
 
@@ -52,7 +60,14 @@ function loaded(event) {
 
   set.loaded(true);
 
-  if (tagName == "VIDEO") set.playing();
+  if (tagName == "VIDEO") {
+    $.overlay_play.removeAttribute("style");
+
+    if (hasAudio(target)) $.overlay_mute.removeAttribute("style");
+    else $.overlay_mute.style.display = "none";
+
+    set.playing();
+  }
 }
 
 export default { clear, select, prev, next, loaded, muted };

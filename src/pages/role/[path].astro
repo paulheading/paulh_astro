@@ -25,7 +25,13 @@ const layoutProps = {
   description: local.summary,
 };
 
-const filename = name.replace(/ /g, "");
+let filename = name;
+
+filename = filename.replace(" and ", "");
+
+filename = filename.replace("-", "");
+
+filename = filename.replace(/ /g, "");
 
 // @ts-ignore
 const content = galleries[filename];

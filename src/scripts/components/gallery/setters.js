@@ -223,9 +223,6 @@ function video(data) {
   $.overlay_content.appendChild(element);
 
   element.addEventListener("loadeddata", player.loaded);
-
-  // prettier-ignore
-  $.overlay_video_controls.forEach((control) => control.removeAttribute("style"));
 }
 
 function loaded(value) {
