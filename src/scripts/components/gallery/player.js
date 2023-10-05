@@ -68,6 +68,14 @@ function loaded(event) {
 
     set.playing();
   }
+
+  if (tagName == "IFRAME") {
+    let test = target.contentWindow.document.querySelector(".size");
+
+    test.innerText = "wider";
+
+    console.log("test: ", test);
+  }
 }
 
 export default { clear, select, prev, next, loaded, muted };
