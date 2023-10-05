@@ -49,6 +49,49 @@ function hasAudio(video) {
   );
 }
 
+const trimPx = (value) => value.slice(0, -2);
+
+function calcMaxWidth(styles) {
+  let { width, paddingLeft, paddingRight } = styles;
+
+  width = trimPx(width);
+  paddingLeft = trimPx(paddingLeft);
+  paddingRight = trimPx(paddingRight);
+
+  return width - paddingLeft - paddingRight;
+}
+
+function customFallback(target) {
+  const iframeSelector = (value) =>
+    target.contentWindow.document.querySelector(value);
+
+  let fallback = iframeSelector(".fallback");
+
+  let fallback_styles = window.getComputedStyle(fallback, null);
+
+  let fallback_hidden = fallback_styles.display == "none";
+
+  if (fallback_hidden) return;
+
+  let size = iframeSelector(".size");
+
+  let content = {};
+
+  content.width = target.getAttribute("content-width");
+
+  content.height = target.getAttribute("content-height");
+
+  let overlay = target.parentElement.parentElement;
+
+  let overlay_styles = window.getComputedStyle(overlay, null);
+
+  let overlay_width = calcMaxWidth(overlay_styles);
+
+  let contentIsTooWide = content.width > overlay_width;
+
+  size.innerText = contentIsTooWide ? "wider" : "taller";
+}
+
 function loaded(event) {
   const { target } = event;
 
@@ -70,11 +113,8 @@ function loaded(event) {
   }
 
   if (tagName == "IFRAME") {
-    let test = target.contentWindow.document.querySelector(".size");
-
-    test.innerText = "wider";
-
-    console.log("test: ", test);
+    customFallback(target);
+    window.addEventListener("resize", () => customFallback(target));
   }
 }
 
