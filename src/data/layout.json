@@ -848,7 +848,7 @@
             "url": "https://open.spotify.com/artist/1ooAqaFu4Ac3BO2HpL4V2R",
             "name": "Henrik Schwarz"
           },
-          "popularity": 28,
+          "popularity": 29,
           "release_date": "2020-03-20",
           "url": "https://open.spotify.com/track/7GA49BEANCELzwyBxQVxU1",
           "name": "Come Together"
@@ -990,7 +990,7 @@
             "url": "https://open.spotify.com/artist/6aDX1jzNVAI9enlQzW0Pgw",
             "name": "Moonchild Sanelly"
           },
-          "popularity": 14,
+          "popularity": 15,
           "release_date": "2021-09-02",
           "url": "https://open.spotify.com/track/5pDJ0QhZMlcUldSFQqFdNM",
           "name": "Undumpable"
@@ -1162,7 +1162,7 @@
             "url": "https://open.spotify.com/artist/6RQoLyY1nkArRcNc3sE86m",
             "name": "Ora the Molecule"
           },
-          "popularity": 27,
+          "popularity": 26,
           "release_date": "2021-07-23",
           "url": "https://open.spotify.com/track/0vydtoDOsW0qRhmFEHdyTT",
           "name": "Creator"
@@ -1178,13 +1178,13 @@
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 180743,
+    "downloads": 180891,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
     "version": "2.16.0",
-    "downloads": 11822,
+    "downloads": 11671,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

@@ -27,9 +27,9 @@ const layoutProps = {
 
 let filename = name;
 
-filename = filename.replace(" and ", "");
-
 filename = filename.replace("-", "");
+
+filename = filename.replace("&", "");
 
 filename = filename.replace(/ /g, "");
 

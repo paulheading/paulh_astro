@@ -293,8 +293,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-07-31T20:36:38.326Z",
-      "desc": "```\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer and Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org). Outside of this role, I also like to build in [Next.js](https://nextjs.org)\n\n---\n\n# Front-end Designer and Developer\n\n### What's the Role?\n\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer and Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org).\n\n### What does this include?\n\n- ⏱️ Working as part of an Agile environment and estimating deadlines within a fortnightly workflow\n- 🗣️ Presenting at fortnightly demos to staff across the organisation\n- 🗣️ Beta testing and responding to user feedback\n- 👨‍🔬 Designing more inclusive and accessible online experiences\n- 🎨 Designing wireframes and prototypes with Figma\n- 💻 Building functionality with Vue.js\n- 🚀 Animating user interactions with GSAP\n- 📝 Styling layouts and translating designs with SCSS\n```",
+      "dateLastActivity": "2023-10-05T08:58:28.695Z",
+      "desc": "```\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer & Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org). Outside of this role, I also like to build in [Next.js](https://nextjs.org)\n\n---\n\n# Front-end Designer & Developer\n\n### What's the Role?\n\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer & Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org).\n\n### What does this include?\n\n- ⏱️ Working as part of an Agile environment and estimating deadlines within a fortnightly workflow\n- 🗣️ Presenting at fortnightly demos to staff across the organisation\n- 🗣️ Beta testing and responding to user feedback\n- 👨‍🔬 Designing more inclusive and accessible online experiences\n- 🎨 Designing wireframes and prototypes with Figma\n- 💻 Building functionality with Vue.js\n- 🚀 Animating user interactions with GSAP\n- 📝 Styling layouts and translating designs with SCSS\n```",
       "descData": {
         "emoji": {}
       },
@@ -321,13 +321,13 @@
         "5fb002b2cdabcf46c03cf423"
       ],
       "manualCoverAttachment": false,
-      "name": "Front-end Designer and Developer",
+      "name": "Front-end Designer & Developer",
       "pos": 16384,
       "shortLink": "w7J6wjLT",
       "shortUrl": "https://trello.com/c/w7J6wjLT",
       "start": "2019-12-02T08:00:00.000Z",
       "subscribed": false,
-      "url": "https://trello.com/c/w7J6wjLT/17-front-end-designer-and-developer",
+      "url": "https://trello.com/c/w7J6wjLT/17-front-end-designer-developer",
       "cover": {
         "idAttachment": null,
         "color": null,
@@ -338,16 +338,16 @@
       },
       "isTemplate": false,
       "cardRole": null,
-      "marquee": "Front-end Designer and Developer",
+      "marquee": "Front-end Designer & Developer",
       "hero": false,
       "type": "role",
       "attachments": [],
       "actions": [],
       "local": {
-        "summary": "Front-end Designer and Developer working for the Barbican in London. I create wireframes and prototypes in Figma, and build things in Vue.js. Outside of this role, I also like to build in Next.js",
-        "desc": "<h1 id=\"frontenddesigneranddeveloper\">Front-end Designer and Developer</h1>\n<h3 id=\"whatstherole\">What's the Role?</h3>\n<p><a href=\"https://en.wikipedia.org/wiki/Front-end_web_development\">Front-end</a> Designer and Developer working for the <a href=\"https://barbican.org.uk\">Barbican</a> in London. I create <a href=\"https://www.figma.com/blog/how-to-wireframe/\">wireframes</a> and <a href=\"https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma\">prototypes</a> in <a href=\"https://figma.com\">Figma</a>, and build things in <a href=\"https://vuejs.org\">Vue.js</a>.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working as part of an Agile environment and estimating deadlines within a fortnightly workflow</li>\n<li>🗣️ Presenting at fortnightly demos to staff across the organisation</li>\n<li>🗣️ Beta testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible online experiences</li>\n<li>🎨 Designing wireframes and prototypes with Figma</li>\n<li>💻 Building functionality with Vue.js</li>\n<li>🚀 Animating user interactions with GSAP</li>\n<li>📝 Styling layouts and translating designs with SCSS</li>\n</ul>",
-        "pathname": "front-end-designer-and-developer",
-        "url": "/role/front-end-designer-and-developer"
+        "summary": "Front-end Designer & Developer working for the Barbican in London. I create wireframes and prototypes in Figma, and build things in Vue.js. Outside of this role, I also like to build in Next.js",
+        "desc": "<h1 id=\"frontenddesignerdeveloper\">Front-end Designer &amp; Developer</h1>\n<h3 id=\"whatstherole\">What's the Role?</h3>\n<p><a href=\"https://en.wikipedia.org/wiki/Front-end_web_development\">Front-end</a> Designer &amp; Developer working for the <a href=\"https://barbican.org.uk\">Barbican</a> in London. I create <a href=\"https://www.figma.com/blog/how-to-wireframe/\">wireframes</a> and <a href=\"https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma\">prototypes</a> in <a href=\"https://figma.com\">Figma</a>, and build things in <a href=\"https://vuejs.org\">Vue.js</a>.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working as part of an Agile environment and estimating deadlines within a fortnightly workflow</li>\n<li>🗣️ Presenting at fortnightly demos to staff across the organisation</li>\n<li>🗣️ Beta testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible online experiences</li>\n<li>🎨 Designing wireframes and prototypes with Figma</li>\n<li>💻 Building functionality with Vue.js</li>\n<li>🚀 Animating user interactions with GSAP</li>\n<li>📝 Styling layouts and translating designs with SCSS</li>\n</ul>",
+        "pathname": "front-end-designer-developer",
+        "url": "/role/front-end-designer-developer"
       }
     },
     {
