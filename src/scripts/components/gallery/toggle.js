@@ -1,3 +1,5 @@
+import $ from "~scripts/selectors";
+import get from "~scripts/components/gallery/getters";
 import set from "~scripts/components/gallery/setters";
 import player from "~scripts/components/gallery/player";
 
@@ -13,4 +15,30 @@ function mute() {
   isMuted ? set.unmuted() : set.muted();
 }
 
-export default { play, mute };
+function info(state) {
+  let { open } = state;
+
+  let player = get.$player();
+
+  if (open) {
+    player.pause();
+
+    player.style.display = "none";
+
+    $.overlay_controls.style.display = "none";
+
+    $.overlay_context.setAttribute("data-state", "visible");
+  } else {
+    player.play();
+
+    player.removeAttribute("style");
+
+    $.overlay_controls.removeAttribute("style");
+
+    $.overlay_context.setAttribute("data-state", "hidden");
+
+    set.controls();
+  }
+}
+
+export default { play, mute, info };

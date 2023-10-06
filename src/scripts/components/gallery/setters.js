@@ -166,13 +166,15 @@ function controls() {
 
   if (tagName == "VIDEO") player = resizeVIDEO(player);
 
-  const close = $.overlay_close;
+  let close = $.controls_close;
 
-  const playerIsTiny = player.offsetWidth < 160;
+  let right = close.parentElement;
 
-  const adjust = "adjust";
+  let playerIsTiny = player.offsetWidth < 160;
 
-  !playerIsTiny ? close.classList.add(adjust) : close.classList.remove(adjust);
+  let adjust = "adjust";
+
+  !playerIsTiny ? right.classList.add(adjust) : right.classList.remove(adjust);
 
   $.overlay_controls.style.height = player.offsetHeight + "px";
 }

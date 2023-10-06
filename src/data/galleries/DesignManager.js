@@ -8,18 +8,22 @@ content.push(
   create.content({
     src: trailer("generations"),
     title: "Generations",
+    info: "Test info content for Generations"
   }),
   create.content({
     src: trailer("borders_and_boundaries"),
     title: "Borders and Boundaries",
+    info: "Test info content for Borders and Boundaries"
   }),
   create.content({
     src: trailer("more_than_human"),
     title: "More than Human",
+    info: "Test info content for More than Human"
   }),
   create.content({
     src: trailer("watch_this_space"),
     title: "Watch this Space",
+    info: "Test info content for Watch this Space"
   })
 );
 

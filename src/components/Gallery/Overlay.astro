@@ -5,6 +5,7 @@ import Prev from "~components/Gallery/Buttons/Prev.astro";
 import Next from "~components/Gallery/Buttons/Next.astro";
 import Play from "~components/Gallery/Buttons/Play.astro";
 import Mute from "~components/Gallery/Buttons/Mute.astro";
+import Info from "~components/Gallery/Buttons/Info.astro";
 
 const overlayProps = {
   "data-state": "closed",
@@ -15,18 +16,30 @@ const contentProps = {
   "data-state": "not-loaded",
   class: "content",
 };
+
+const contextProps = {
+  "data-state": "hidden",
+  class: "context",
+};
 ---
 
 <div {...overlayProps}>
   <Loader />
   <div {...contentProps}>
+    <div {...contextProps}>
+      <Close />
+      <div class="copy"></div>
+    </div>
     <div class="controls">
       <div class="top">
-        <Close />
+        <div class="right">
+          <Close />
+        </div>
       </div>
       <div class="bottom">
         <Prev />
         <Play />
+        <Info />
         <Mute />
         <Next />
       </div>
@@ -141,5 +154,32 @@ const contentProps = {
     @include small-up {
       top: $offset_sm;
     }
+  }
+
+  .right {
+    @include small-up {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .right.adjust {
+    @include small-up {
+      right: -1rem;
+    }
+  }
+
+  .context {
+    font-weight: $font-weight-normal;
+    text-align: center;
+    color: white;
+  }
+
+  .context[data-state="hidden"] {
+    display: none;
+  }
+
+  .copy {
+    margin-top: 1rem;
   }
 </style>

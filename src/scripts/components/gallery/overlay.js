@@ -5,14 +5,20 @@ import get from "~scripts/components/gallery/getters";
 
 function close() {
   set.state($.overlay, "closed");
+
   player.clear();
+
   set.state($.body, "visible");
 }
 
 function update(target) {
-  const settings = get.player.data(target);
+  let settings = get.player.data(target);
 
-  const { type } = settings;
+  let { type } = settings;
+
+  let context = target.querySelector(".context").innerHTML;
+
+  if (context) $.context_copy.innerHTML = context;
 
   if (type == "video") set.video(settings);
 

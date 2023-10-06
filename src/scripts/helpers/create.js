@@ -32,6 +32,7 @@ function sections(content, element) {
 function content({
   src = "",
   title = "",
+  info = "",
   width = 120,
   height = 90,
   type = "video",
@@ -47,6 +48,7 @@ function content({
     height,
     type,
     content,
+    info
   };
 }
 
