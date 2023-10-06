@@ -13,5 +13,9 @@ const toRems = (value = "1") => Number(value) * 0.0625 + "rem";
 
   .thumbnails {
     margin: var(--margin);
+
+    @include small-down {
+      text-align: center;
+    }
   }
 </style>
