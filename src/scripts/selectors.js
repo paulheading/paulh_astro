@@ -66,6 +66,4 @@ $.overlay_prev = $.overlay?.querySelector(".prev");
 $.overlay_next = $.overlay?.querySelector(".next");
 $.overlay_loader = $.overlay?.querySelector(".loader");
 
-$.overlay_video_controls = [$.overlay_play, $.overlay_mute];
-
 export default $;

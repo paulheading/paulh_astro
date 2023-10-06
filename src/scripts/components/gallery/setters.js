@@ -244,8 +244,9 @@ function iframe(data) {
 
   element.addEventListener("load", player.loaded);
 
-  // prettier-ignore
-  $.overlay_video_controls.forEach((control) => (control.style.display = "none"));
+  $.overlay_play.style.display = "none";
+
+  $.overlay_mute.style.display = "none";
 }
 
 export default {

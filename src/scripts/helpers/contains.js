@@ -6,4 +6,9 @@ function label(labels, check) {
   return result;
 }
 
-export default { label };
+let audio = (video) =>
+  video.mozHasAudio ||
+  Boolean(video.webkitAudioDecodedByteCount) ||
+  Boolean(video.audioTracks && video.audioTracks.length);
+
+export default { label, audio };

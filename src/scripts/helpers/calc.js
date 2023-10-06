@@ -25,4 +25,12 @@ function summary_length(dueComplete, due, start) {
   return months + " " + label;
 }
 
-export default { summary_length };
+function inner_width(styles) {
+  let { width, paddingLeft, paddingRight } = styles;
+
+  let trimPx = (value) => value.slice(0, -2);
+
+  return trimPx(width) - trimPx(paddingLeft) - trimPx(paddingRight);
+}
+
+export default { summary_length, inner_width };

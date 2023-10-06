@@ -2,10 +2,10 @@ import $ from "~scripts/selectors";
 import get from "~scripts/components/gallery/getters";
 import set from "~scripts/components/gallery/setters";
 import overlay from "~scripts/components/gallery/overlay";
+import contains from "~scripts/helpers/contains";
+import calc from "~scripts/helpers/calc";
 
-const target = () => get.$player();
-
-const index = () => get.player.data(target()).index;
+const index = () => get.player.data(get.$player()).index;
 
 let muted = true;
 
@@ -15,6 +15,8 @@ function clear() {
   player.remove();
 
   set.loaded(false);
+
+  window.removeEventListener("resize", customFallback);
 }
 
 function select(value) {
@@ -41,28 +43,10 @@ function next() {
   select(next);
 }
 
-function hasAudio(video) {
-  return (
-    video.mozHasAudio ||
-    Boolean(video.webkitAudioDecodedByteCount) ||
-    Boolean(video.audioTracks && video.audioTracks.length)
-  );
-}
+function customFallback() {
+  let target = get.$player();
 
-const trimPx = (value) => value.slice(0, -2);
-
-function calcMaxWidth(styles) {
-  let { width, paddingLeft, paddingRight } = styles;
-
-  width = trimPx(width);
-  paddingLeft = trimPx(paddingLeft);
-  paddingRight = trimPx(paddingRight);
-
-  return width - paddingLeft - paddingRight;
-}
-
-function customFallback(target) {
-  const iframeSelector = (value) =>
+  let iframeSelector = (value) =>
     target.contentWindow.document.querySelector(value);
 
   let fallback = iframeSelector(".fallback");
@@ -75,21 +59,15 @@ function customFallback(target) {
 
   let size = iframeSelector(".size");
 
-  let content = {};
+  let content_width = target.getAttribute("content-width");
 
-  content.width = target.getAttribute("content-width");
+  let overlay_styles = window.getComputedStyle($.overlay, null);
 
-  content.height = target.getAttribute("content-height");
+  let overlay_width = calc.inner_width(overlay_styles);
 
-  let overlay = target.parentElement.parentElement;
+  let isTooWide = content_width > overlay_width;
 
-  let overlay_styles = window.getComputedStyle(overlay, null);
-
-  let overlay_width = calcMaxWidth(overlay_styles);
-
-  let contentIsTooWide = content.width > overlay_width;
-
-  size.innerText = contentIsTooWide ? "wider" : "taller";
+  size.innerText = isTooWide ? "wider" : "taller";
 }
 
 function loaded(event) {
@@ -106,15 +84,15 @@ function loaded(event) {
   if (tagName == "VIDEO") {
     $.overlay_play.removeAttribute("style");
 
-    if (hasAudio(target)) $.overlay_mute.removeAttribute("style");
+    if (contains.audio(target)) $.overlay_mute.removeAttribute("style");
     else $.overlay_mute.style.display = "none";
 
     set.playing();
   }
 
   if (tagName == "IFRAME") {
-    customFallback(target);
-    window.addEventListener("resize", () => customFallback(target));
+    customFallback();
+    window.addEventListener("resize", customFallback);
   }
 }
 
