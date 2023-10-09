@@ -222,7 +222,7 @@ function video(data) {
 
   element.loop = true;
 
-  $.overlay_content.appendChild(element);
+  $.overlay_controls.after(element);
 
   element.addEventListener("loadeddata", player.loaded);
 }
@@ -242,13 +242,13 @@ function iframe(data) {
 
   element = build(...settings);
 
-  $.overlay_content.appendChild(element);
+  $.overlay_controls.after(element);
 
   element.addEventListener("load", player.loaded);
 
-  $.overlay_play.style.display = "none";
+  let controls = [$.overlay_play, $.overlay_mute];
 
-  $.overlay_mute.style.display = "none";
+  controls.forEach((control) => (control.style.display = "none"));
 }
 
 export default {

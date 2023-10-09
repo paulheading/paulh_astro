@@ -20,20 +20,18 @@ function info(state) {
 
   let player = get.$player();
 
+  let previous = [player, $.overlay_controls];
+
   if (open) {
     player.pause();
 
-    player.style.display = "none";
-
-    $.overlay_controls.style.display = "none";
+    previous.forEach((item) => (item.style.display = "none"));
 
     $.overlay_context.setAttribute("data-state", "visible");
   } else {
     player.play();
 
-    player.removeAttribute("style");
-
-    $.overlay_controls.removeAttribute("style");
+    previous.forEach((item) => item.style.removeProperty("display"));
 
     $.overlay_context.setAttribute("data-state", "hidden");
 

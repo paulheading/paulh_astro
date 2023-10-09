@@ -20,6 +20,10 @@ function update(target) {
 
   if (context) $.context_copy.innerHTML = context;
 
+  context
+    ? $.overlay_info.style.removeProperty("display")
+    : ($.overlay_info.style.display = "none");
+
   if (type == "video") set.video(settings);
 
   if (type == "ad") set.iframe(settings);

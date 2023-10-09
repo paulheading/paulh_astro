@@ -14,6 +14,8 @@ function clear() {
 
   player.remove();
 
+  $.context_copy.innerHTML = "";
+
   set.loaded(false);
 
   window.removeEventListener("resize", customFallback);

@@ -26,10 +26,6 @@ const contextProps = {
 <div {...overlayProps}>
   <Loader />
   <div {...contentProps}>
-    <div {...contextProps}>
-      <Close />
-      <div class="copy"></div>
-    </div>
     <div class="controls">
       <div class="top">
         <div class="right">
@@ -43,6 +39,10 @@ const contextProps = {
         <Mute />
         <Next />
       </div>
+    </div>
+    <div {...contextProps}>
+      <Close />
+      <div class="copy"></div>
     </div>
   </div>
 </div>
@@ -180,6 +180,10 @@ const contextProps = {
   }
 
   .copy {
-    margin-top: 1rem;
+    $value: 21;
+
+    margin-top: toRem(-$value);
+    padding: toRem($value);
+    border: 1px solid;
   }
 </style>
