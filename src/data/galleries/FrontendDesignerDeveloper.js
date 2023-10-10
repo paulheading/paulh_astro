@@ -14,8 +14,8 @@ content.push(
     title: "Wireframes",
   }),
   create.content({
-    src: trailer("web_demo_teams"),
-    title: "Demos",
+    src: trailer("accessibility_provisions_teams"),
+    title: "Accessibility work",
   })
 );
 
