@@ -68,9 +68,9 @@ $.overlay_prev = $.overlay?.querySelector(".prev");
 $.overlay_next = $.overlay?.querySelector(".next");
 $.overlay_loader = $.overlay?.querySelector(".loader");
 
-$.controls_close = $.overlay_controls.querySelector(".close");
+$.controls_close = $.overlay_controls?.querySelector(".close");
 
-$.context_close = $.overlay_context.querySelector(".close");
-$.context_copy = $.overlay_context.querySelector(".copy");
+$.context_close = $.overlay_context?.querySelector(".close");
+$.context_copy = $.overlay_context?.querySelector(".copy");
 
 export default $;
