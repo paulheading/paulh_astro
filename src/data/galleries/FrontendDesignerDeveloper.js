@@ -15,7 +15,7 @@ content.push(
   }),
   create.content({
     src: trailer("accessibility_provisions_teams"),
-    title: "Accessibility work",
+    title: "Accessibility demo",
   })
 );
 
