@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import { parse } from "node-html-parser";
 
 const remify = (value = 1) => value * 0.0625 + "rem";
 
@@ -45,7 +46,7 @@ const words = title.split(" ");
   <div class="title">
     {words.map((word) => <span class="word">{word}</span>)}
   </div>
-  <div class="context">{info}</div>
+  <div class="context">{parse(info)}</div>
 </button>
 
 <style lang="scss" define:vars={vars}>
