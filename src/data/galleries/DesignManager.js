@@ -31,6 +31,7 @@ content.push(
   create.content({
     src: trailer("life_rewired/entrance_screen"),
     title: "Entrance Screen",
+    info: `This is an entrance screen for the <a href="https://www.barbican.org.uk/whats-on/2019/series/life-rewired-hub">Life Rewired hub</a>, a cross-arts season exploring the impact of technological and scientific change on what it means to be human. The Hub was home to new writing and short films from artists and thinkers. This animation is based on a glitch concept that we developed in-house and is created using Adobe After Effects.`,
     width: 70,
     content: {
       width: 720,
