@@ -24,12 +24,10 @@
   }
 }
 
-@mixin double-box(
-  $bg: white,
+@mixin double-box($bg: white,
   $col: black,
   $bg_size: 0.25rem,
-  $col_size: 0.15rem
-) {
+  $col_size: 0.15rem) {
   box-shadow: 0 0 0 $bg_size $bg, 0 0 0 ($bg_size + $col_size) $col;
   position: relative;
   z-index: 2;
@@ -39,6 +37,12 @@
   box-shadow: 0 0 0 $size $bg;
   position: relative;
   z-index: 2;
+}
+
+@mixin white-box {
+  @include single-box(white);
+  background-color: white;
+  color: black;
 }
 
 @mixin lemon-box {

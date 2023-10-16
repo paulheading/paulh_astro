@@ -1,0 +1,57 @@
+---
+import Close from "~components/Gallery/Buttons/Close.astro";
+import Up from "~components/Gallery/Buttons/Up.astro";
+import Down from "~components/Gallery/Buttons/Down.astro";
+
+const contextProps = {
+  "data-state": "hidden",
+  class: "context",
+};
+---
+
+<div {...contextProps}>
+  <div class="exit">
+    <Close />
+  </div>
+  <div class="copy"></div>
+  <div class="pagination">
+    <Up />
+    <Down />
+  </div>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  $margin-button: -17;
+
+  .context {
+    font-weight: $font-weight-normal;
+    text-align: center;
+    position: relative;
+    color: white;
+  }
+
+  .context[data-state="hidden"] {
+    display: none;
+  }
+
+  .copy {
+    padding: toRem(21);
+    border: 1px solid;
+
+    @include small-down {
+      font-size: toRem(18);
+    }
+  }
+
+  .exit {
+    @include control-row;
+    margin-bottom: toRem($margin-button);
+  }
+
+  .pagination {
+    @include control-row;
+    margin-top: toRem($margin-button);
+  }
+</style>

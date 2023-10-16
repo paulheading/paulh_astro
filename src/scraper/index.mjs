@@ -5,6 +5,7 @@ import getSpotifyData from "./spotify.js";
 import getGemData from "./gem.js";
 import getNpmData from "./npm.js";
 import getHashnodeData from "./hashnode.js";
+import getPocketcastsData from "./pocketcasts.js";
 
 async function getLayoutData() {
   const hashnode = await getHashnodeData();
@@ -12,8 +13,10 @@ async function getLayoutData() {
   const gem = await getGemData();
   const npm = await getNpmData();
   const spotify = await getSpotifyData();
+  const pocketcasts = await getPocketcastsData();
 
   return {
+    pocketcasts,
     hashnode,
     projects,
     spotify,

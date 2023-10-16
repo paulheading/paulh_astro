@@ -1,0 +1,20 @@
+<button class="up" style="display: none;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 75" width="16">
+    <path
+      d="M0.000195807 58.5L15.7002 74.3L47.9002 39.9L54.5002 32.7L58.4002 28.3L69.0002 40L100.4 74.7L116.7 58.5L57.8002 -2.5746e-06L0.000195807 58.5Z"
+    >
+    </path>
+  </svg>
+
+  <style lang="scss">
+    @import "~styles/mixins";
+
+    .up {
+      @include gallery-button;
+
+      svg {
+        top: -1px;
+      }
+    }
+  </style>
+</button>

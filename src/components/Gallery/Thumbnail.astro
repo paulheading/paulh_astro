@@ -1,10 +1,11 @@
 ---
 import { Image } from "astro:assets";
+import { parse } from "node-html-parser";
 
 const remify = (value = 1) => value * 0.0625 + "rem";
 
 // prettier-ignore
-let { width = 120, height = 90, src, title, index, type, content } = Astro.props;
+let { width = 120, height = 90, src, title, index, type, content, info } = Astro.props;
 
 const ratio = content.height / content.width;
 
@@ -45,6 +46,7 @@ const words = title.split(" ");
   <div class="title">
     {words.map((word) => <span class="word">{word}</span>)}
   </div>
+  <div class="context">{parse(info)}</div>
 </button>
 
 <style lang="scss" define:vars={vars}>
@@ -111,5 +113,9 @@ const words = title.split(" ");
     max-width: 100%;
     display: block;
     height: auto;
+  }
+
+  .context {
+    display: none;
   }
 </style>

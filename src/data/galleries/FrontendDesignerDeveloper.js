@@ -13,10 +13,10 @@ content.push(
     src: trailer("jobs_platform_figma"),
     title: "Wireframes",
   }),
-  // create.content({
-  //   src: trailer("web_demo_teams"),
-  //   title: "Demos",
-  // })
+  create.content({
+    src: trailer("accessibility_provisions_teams"),
+    title: "Accessibility demo",
+  })
 );
 
 export default content;

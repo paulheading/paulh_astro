@@ -13,6 +13,10 @@ function createThumbnails() {
     $button.addEventListener("click", overlay.open);
   }
 
+  $.overlay_info.addEventListener("click", () => toggle.info({ open: true }));
+
+  $.context_close.addEventListener("click", () => toggle.info({ open: false }));
+
   $.overlay_play.addEventListener("click", toggle.play);
 
   $.overlay_mute.addEventListener("click", toggle.mute);
@@ -21,7 +25,7 @@ function createThumbnails() {
 
   $.overlay_prev.addEventListener("click", player.prev);
 
-  $.overlay_close.addEventListener("click", overlay.close);
+  $.controls_close.addEventListener("click", overlay.close);
 
   window.addEventListener("resize", set.controls);
 }

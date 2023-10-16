@@ -5,6 +5,8 @@ import Prev from "~components/Gallery/Buttons/Prev.astro";
 import Next from "~components/Gallery/Buttons/Next.astro";
 import Play from "~components/Gallery/Buttons/Play.astro";
 import Mute from "~components/Gallery/Buttons/Mute.astro";
+import Info from "~components/Gallery/Buttons/Info.astro";
+import Context from "~components/Gallery/Context.astro";
 
 const overlayProps = {
   "data-state": "closed",
@@ -22,15 +24,19 @@ const contentProps = {
   <div {...contentProps}>
     <div class="controls">
       <div class="top">
-        <Close />
+        <div class="right">
+          <Close />
+        </div>
       </div>
       <div class="bottom">
         <Prev />
         <Play />
+        <Info />
         <Mute />
         <Next />
       </div>
     </div>
+    <Context />
   </div>
 </div>
 
@@ -39,13 +45,6 @@ const contentProps = {
 
   $offset_sm: -1rem;
   $offset_lg: -3.25rem;
-
-  @mixin inset {
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-  }
 
   .overlay {
     $padding: 2rem;
@@ -116,17 +115,8 @@ const contentProps = {
     }
   }
 
-  @mixin control-row {
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    gap: 0.5rem;
-    right: 0;
-    left: 0;
-  }
-
   .bottom {
-    @include control-row;
+    @include absolute-control-row;
     bottom: $offset_lg;
 
     @include small-up {
@@ -135,11 +125,24 @@ const contentProps = {
   }
 
   .top {
-    @include control-row;
+    @include absolute-control-row;
     top: $offset_lg;
 
     @include small-up {
       top: $offset_sm;
+    }
+  }
+
+  .right {
+    @include small-up {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .right.adjust {
+    @include small-up {
+      right: -1rem;
     }
   }
 </style>

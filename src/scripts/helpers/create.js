@@ -32,6 +32,7 @@ function sections(content, element) {
 function content({
   src = "",
   title = "",
+  info = "",
   width = 120,
   height = 90,
   type = "video",
@@ -47,17 +48,19 @@ function content({
     height,
     type,
     content,
+    info,
   };
 }
 
 const ad = (value = "") => "/ads/" + value;
 
-function billboard({ src }) {
+function billboard({ src = "", info = "" }) {
   return content({
     src: ad(src + "/billboard"),
     title: "Billboard",
     height: 50,
     type: "ad",
+    info,
     content: {
       width: 970,
       height: 250,
@@ -65,12 +68,13 @@ function billboard({ src }) {
   });
 }
 
-function mpu({ src }) {
+function mpu({ src = "", info = "" }) {
   return content({
     src: ad(src + "/mpu"),
     title: "MPU",
     width: 85,
     type: "ad",
+    info,
     content: {
       width: 300,
       height: 250,
@@ -78,12 +82,13 @@ function mpu({ src }) {
   });
 }
 
-function hpu({ src }) {
+function hpu({ src = "", info = "" }) {
   return content({
     src: ad(src + "/hpu"),
     title: "HPU",
     type: "ad",
     width: 70,
+    info,
     content: {
       width: 300,
       height: 600,
