@@ -77,7 +77,7 @@ content.push(
   create.content({
     src: trailer("archive"),
     title: "Archive",
-    info: `This animated projection was created to advertise the start of the <a href="https://gsap.com/">Barbican Archive</a> within the centre. Sadly, the projectors were not used in the end and the visuals were never seen.`,
+    info: `This animated projection was created to advertise the start of the <a href="https://artsandculture.google.com/story/an-introduction-to-the-barbican-and-our-archive-barbican-centre/pwXxF_LBd1sU5Q?hl=en">Barbican Archive</a> within the centre. Sadly, the projectors were not used in the end and the visuals were never seen.`,
     width: 70,
     content: {
       width: 720,
