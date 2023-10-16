@@ -41,6 +41,7 @@ content.push(
   create.content({
     src: trailer("life_rewired/plasma"),
     title: "Plasma",
+    info: `This is a short trailer for a <a href="https://www.barbican.org.uk/liferewired">Life Rewired event</a>, a cross-arts season exploring the impact of technological and scientific change on what it means to be human. These trailers are displayed on plasma screens throughout the Barbican centre. This animation is based on a glitch concept that we developed in-house and is created using Adobe After Effects.`,
   }),
   create.content({
     src: trailer("life_rewired/projector"),
