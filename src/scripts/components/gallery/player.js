@@ -73,17 +73,19 @@ function customFallback() {
 }
 
 function loaded(event) {
-  const { target } = event;
+  let { target } = event;
 
   if (target.readyState < 2) return;
 
-  const { tagName } = target;
+  let { tagName } = target;
+
+  let isVideo = tagName == "VIDEO";
 
   set.controls();
 
   set.loaded(true);
 
-  if (tagName == "VIDEO") {
+  if (isVideo) {
     $.overlay_play.removeAttribute("style");
 
     if (contains.audio(target)) $.overlay_mute.removeAttribute("style");
@@ -92,7 +94,7 @@ function loaded(event) {
     set.playing();
   }
 
-  if (tagName == "IFRAME") {
+  if (!isVideo) {
     customFallback();
     window.addEventListener("resize", customFallback);
   }
