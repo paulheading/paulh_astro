@@ -1,0 +1,20 @@
+<button class="down">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 75" width="16">
+    <path
+      d="M116.7 16.2002L101 0.400188L68.8 34.8002L62.2 42.0002L58.3 46.4002L47.7 34.7002L16.3 0.000197652L-2.55712e-06 16.2002L58.9 74.7002L116.7 16.2002Z"
+    >
+    </path>
+  </svg>
+
+  <style lang="scss">
+    @import "~styles/mixins";
+
+    .down {
+      @include gallery-button;
+
+      svg {
+        bottom: -1px;
+      }
+    }
+  </style>
+</button>

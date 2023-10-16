@@ -1,8 +1,10 @@
 ---
 import Loader from "~components/Gallery/Loader.astro";
 import Close from "~components/Gallery/Buttons/Close.astro";
+import Up from "~components/Gallery/Buttons/Up.astro";
 import Prev from "~components/Gallery/Buttons/Prev.astro";
 import Next from "~components/Gallery/Buttons/Next.astro";
+import Down from "~components/Gallery/Buttons/Down.astro";
 import Play from "~components/Gallery/Buttons/Play.astro";
 import Mute from "~components/Gallery/Buttons/Mute.astro";
 import Info from "~components/Gallery/Buttons/Info.astro";
@@ -41,8 +43,14 @@ const contextProps = {
       </div>
     </div>
     <div {...contextProps}>
-      <Close />
+      <div class="exit">
+        <Close />
+      </div>
       <div class="copy"></div>
+      <div class="pagination">
+        <Up />
+        <Down />
+      </div>
     </div>
   </div>
 </div>
@@ -129,17 +137,8 @@ const contextProps = {
     }
   }
 
-  @mixin control-row {
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    gap: 0.5rem;
-    right: 0;
-    left: 0;
-  }
-
   .bottom {
-    @include control-row;
+    @include absolute-control-row;
     bottom: $offset_lg;
 
     @include small-up {
@@ -148,7 +147,7 @@ const contextProps = {
   }
 
   .top {
-    @include control-row;
+    @include absolute-control-row;
     top: $offset_lg;
 
     @include small-up {
@@ -172,6 +171,7 @@ const contextProps = {
   .context {
     font-weight: $font-weight-normal;
     text-align: center;
+    position: relative;
     color: white;
   }
 
@@ -180,10 +180,23 @@ const contextProps = {
   }
 
   .copy {
-    $value: 21;
-
-    margin-top: toRem(-$value);
-    padding: toRem($value);
+    padding: toRem(21);
     border: 1px solid;
+
+    @include small-down {
+      font-size: 1rem;
+    }
+  }
+
+  $margin-button: -17;
+
+  .exit {
+    @include control-row;
+    margin-bottom: toRem($margin-button);
+  }
+
+  .pagination {
+    @include control-row;
+    margin-top: toRem($margin-button);
   }
 </style>

@@ -169,3 +169,16 @@
     fill: $color;
   }
 }
+
+@mixin control-row {
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+@mixin absolute-control-row {
+  @include control-row;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
