@@ -20,16 +20,20 @@ function info(state) {
 
   let player = get.$player();
 
+  let { tagName } = player;
+
+  let isVideo = tagName == "VIDEO";
+
   let previous = [player, $.overlay_controls];
 
   if (open) {
-    player.pause();
+    if (isVideo) player.pause();
 
     previous.forEach((item) => (item.style.display = "none"));
 
     $.overlay_context.setAttribute("data-state", "visible");
   } else {
-    player.play();
+    if (isVideo) player.play();
 
     previous.forEach((item) => item.style.removeProperty("display"));
 
