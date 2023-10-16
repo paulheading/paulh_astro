@@ -170,6 +170,13 @@
   }
 }
 
+@mixin inset {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
 @mixin control-row {
   justify-content: center;
   display: flex;
