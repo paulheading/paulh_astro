@@ -13,7 +13,7 @@ content.push(
   create.content({
     src: trailer("jobs_platform_figma"),
     title: "Wireframes",
-    info: `These <a href="https://www.figma.com/">Figma</a> visuals were created for the "Barbican Careers Platform" project. This project aimed to create a more intuitive environment for job applications. The plan was to provide a CMS for both administrators and applications. Applicants could login, make multiple applications and track their progress easily.`,
+    info: `These <a href="https://www.figma.com/">Figma</a> visuals were created for the <a href="https://work.barbican.org.uk">Barbican Careers Platform</a>. This project aimed to create a more intuitive environment for job applications. The plan was to provide a CMS for both administrators and applications. Applicants could login, make multiple applications and track their progress easily.`,
   }),
   create.content({
     src: trailer("accessibility_provisions_teams"),
