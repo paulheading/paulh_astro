@@ -8,7 +8,7 @@ content.push(
   create.content({
     src: trailer("events_project_figma"),
     title: "Prototypes",
-    info: `I created these prototypes in <a href="https://www.figma.com/">Figma</a> for the <a href="http://localhost:4321/project/organising-spaces-with-graphql">Barbican Events Management</a> project. They are really useful for exploring and explaining a hypothetical user journey around a new interface. With prototypes we can also begin collecting user feedback and start testing assumptions before we build the product.`,
+    info: `I created these prototypes in <a href="https://www.figma.com/">Figma</a> for the <a href="/project/organising-spaces-with-graphql">Barbican Events Management</a> project. They are really useful for exploring and explaining a hypothetical user journey around a new interface. With prototypes we can also begin collecting user feedback and start testing assumptions before we build the product.`,
   }),
   create.content({
     src: trailer("jobs_platform_figma"),
