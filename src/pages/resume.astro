@@ -15,7 +15,7 @@ import seo from "~data/seo.js";
 import details from "~data/personal.js";
 import { create } from "~scripts/helpers";
 import { projects } from "~data/layout.json";
-import { roles, education } from "~data/resume.json";
+import { roles, learning } from "~data/resume.json";
 
 const layoutProps = {
   title: seo.title("Resume"),
@@ -72,7 +72,7 @@ const learningProps = {
         {roles.map((card, index) => <Card card={card} index={index} />)}
       </Row>
       <Row {...learningProps}>
-        {education.map((card, index) => <Card card={card} index={index} />)}
+        {learning.map((card, index) => <Card card={card} index={index} />)}
       </Row>
     </Page>
   </Content>

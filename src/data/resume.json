@@ -1,5 +1,5 @@
 {
-  "education": [
+  "learning": [
     {
       "id": "5fb2641a2db4d70a004f4556",
       "badges": {
@@ -18,7 +18,7 @@
         "checkItemsChecked": 0,
         "checkItemsEarliestDue": null,
         "comments": 0,
-        "attachments": 1,
+        "attachments": 0,
         "description": true,
         "due": "2020-10-01T10:36:00.000Z",
         "dueComplete": true,
@@ -27,8 +27,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": true,
-      "dateLastActivity": "2023-06-05T15:52:40.238Z",
-      "desc": "Realised I wanted to build things for a living. Learnt how to use Javascript.",
+      "dateLastActivity": "2023-10-18T22:18:08.882Z",
+      "desc": "```\nRealised I wanted to build things for a living. Learnt how to use Javascript.\n\n---\n\n# Full-Stack Javascript Techdegree\n\n### What did I learn?\n\nRealised I wanted to build things for a living. Learnt how to use Javascript.\n```",
       "descData": {
         "emoji": {}
       },
@@ -74,18 +74,14 @@
       "cardRole": null,
       "marquee": "Full-Stack Javascript Techdegree",
       "hero": false,
-      "type": "education",
-      "attachments": [
-        {
-          "id": "5fcdfd8803eeb849dec98b26",
-          "name": "Read more",
-          "url": "https://teamtreehouse.com/plans"
-        }
-      ],
+      "type": "learning",
+      "attachments": [],
       "actions": [],
       "local": {
         "summary": "Realised I wanted to build things for a living. Learnt how to use Javascript.",
-        "desc": "<p>Realised I wanted to build things for a living. Learnt how to use Javascript.</p>"
+        "desc": "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>Realised I wanted to build things for a living. Learnt how to use Javascript.</p>",
+        "pathname": "full-stack-javascript-techdegree",
+        "url": "/learning/full-stack-javascript-techdegree"
       }
     },
     {
@@ -106,7 +102,7 @@
         "checkItemsChecked": 0,
         "checkItemsEarliestDue": null,
         "comments": 0,
-        "attachments": 1,
+        "attachments": 0,
         "description": true,
         "due": "2009-07-03T10:36:00.000Z",
         "dueComplete": true,
@@ -115,8 +111,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": true,
-      "dateLastActivity": "2023-06-05T15:53:33.693Z",
-      "desc": "Realised how I could get paid to design things. Learnt how to use InDesign.",
+      "dateLastActivity": "2023-10-18T22:21:39.358Z",
+      "desc": "```\nRealised how I could get paid to design things. Learnt how to use InDesign.\n\n---\n\n# Work Experience\n\n### What did I learn?\n\nRealised how I could get paid to design things. Learnt how to use InDesign.\n\n<!-- https://www.publicisgroupe.com/en/services/services-publicis-media-en -->\n```",
       "descData": {
         "emoji": {}
       },
@@ -162,18 +158,14 @@
       "cardRole": null,
       "marquee": "Work Experience",
       "hero": false,
-      "type": "education",
-      "attachments": [
-        {
-          "id": "647e04fd5677b2796189e093",
-          "name": "Read more",
-          "url": "https://www.publicisgroupe.com/en/services/services-publicis-media-en"
-        }
-      ],
+      "type": "learning",
+      "attachments": [],
       "actions": [],
       "local": {
         "summary": "Realised how I could get paid to design things. Learnt how to use InDesign.",
-        "desc": "<p>Realised how I could get paid to design things. Learnt how to use InDesign.</p>"
+        "desc": "<h1 id=\"workexperience\">Work Experience</h1>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>Realised how I could get paid to design things. Learnt how to use InDesign.</p>\n<!-- https://www.publicisgroupe.com/en/services/services-publicis-media-en -->",
+        "pathname": "work-experience",
+        "url": "/learning/work-experience"
       }
     },
     {
@@ -194,7 +186,7 @@
         "checkItemsChecked": 0,
         "checkItemsEarliestDue": null,
         "comments": 0,
-        "attachments": 1,
+        "attachments": 0,
         "description": true,
         "due": "2009-06-01T10:36:00.000Z",
         "dueComplete": true,
@@ -203,8 +195,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": true,
-      "dateLastActivity": "2023-06-05T15:54:06.409Z",
-      "desc": "Realised I wanted to design things for a living. Learnt how to use Photoshop.",
+      "dateLastActivity": "2023-10-18T22:24:08.472Z",
+      "desc": "```\nRealised I wanted to design things for a living. Learnt how to use Photoshop.\n\n---\n\n# BA History\n\n### What did I learn?\n\nRealised I wanted to design things for a living. Learnt how to use Photoshop.\n\n<!-- https://gold.ac.uk -->\n```",
       "descData": {
         "emoji": {}
       },
@@ -250,18 +242,14 @@
       "cardRole": null,
       "marquee": "BA History",
       "hero": false,
-      "type": "education",
-      "attachments": [
-        {
-          "id": "5fce10434a1d5b5fedadc28c",
-          "name": "Read more",
-          "url": "https://gold.ac.uk"
-        }
-      ],
+      "type": "learning",
+      "attachments": [],
       "actions": [],
       "local": {
         "summary": "Realised I wanted to design things for a living. Learnt how to use Photoshop.",
-        "desc": "<p>Realised I wanted to design things for a living. Learnt how to use Photoshop.</p>"
+        "desc": "<h1 id=\"bahistory\">BA History</h1>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>Realised I wanted to design things for a living. Learnt how to use Photoshop.</p>\n<!-- https://gold.ac.uk -->",
+        "pathname": "ba-history",
+        "url": "/learning/ba-history"
       }
     }
   ],

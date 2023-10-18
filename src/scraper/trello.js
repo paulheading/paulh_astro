@@ -74,8 +74,6 @@ async function processCard(card, list) {
   card.local.summary = card.desc ? create.summary(card.desc) : null;
   card.local.desc = card.desc ? create.desc(card.desc) : null;
 
-  if (card.type == "education") return card;
-
   card.local.pathname = card.name
     .replace(/\s+/g, "-")
     .replace(/\//g, "-")
@@ -109,7 +107,7 @@ getTrello.data = async function (type) {
 
   if (type === "roles") return await getTrello.cards(list.roles);
 
-  if (type === "education") return await getTrello.cards(list.education);
+  if (type === "learning") return await getTrello.cards(list.learning);
 };
 
 export default getTrello.data;

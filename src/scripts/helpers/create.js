@@ -96,4 +96,14 @@ function hpu({ src = "", info = "" }) {
   });
 }
 
-export default { person, sections, content, billboard, mpu, hpu };
+function filename(value) {
+  value = value.replace("-", "");
+
+  value = value.replace("&", "");
+
+  value = value.replace(/ /g, "");
+
+  return value;
+}
+
+export default { person, sections, content, billboard, mpu, hpu, filename };

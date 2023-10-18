@@ -25,13 +25,7 @@ const layoutProps = {
   description: local.summary,
 };
 
-let filename = name;
-
-filename = filename.replace("-", "");
-
-filename = filename.replace("&", "");
-
-filename = filename.replace(/ /g, "");
+let filename = create.filename(name);
 
 // @ts-ignore
 const content = galleries[filename];
@@ -50,7 +44,7 @@ const content = galleries[filename];
       }
     </Page>
     <div class="wrap-back">
-      <Back size={20}>Back</Back>
+      <Back>Resume</Back>
     </div>
   </Content>
 </Layout>

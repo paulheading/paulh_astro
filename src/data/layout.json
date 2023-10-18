@@ -3,6 +3,46 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "f47867eb-79e1-4b1d-aa7d-875c6ea80a57",
+        "url": "https://sphinx.acast.com/p/acast/s/adambuxton/e/652cf4432bf6d10012b12516/media.mp3",
+        "published": "2023-10-16T08:28:51Z",
+        "duration": 4796,
+        "fileType": "audio/mp3",
+        "title": "EP.208 - NATALIE WYNN aka CONTRAPOINTS",
+        "size": "111024440",
+        "playingStatus": 2,
+        "playedUpTo": 1161,
+        "starred": false,
+        "podcastUuid": "a862d790-3ea8-0133-bdc8-0d11918ab357",
+        "podcastTitle": "THE ADAM BUXTON PODCAST",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "ADAM BUXTON",
+        "bookmarks": []
+      },
+      {
+        "uuid": "72114bbf-3f7e-4eb5-b049-a3f4c32fc2a8",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/10/18-45620-gfw181023.mp3",
+        "published": "2023-10-18T13:51:29Z",
+        "duration": 3274,
+        "fileType": "audio/mp3",
+        "title": "England seal Euro 2024 spot and San Marino score a goal – Football Weekly",
+        "size": "77073371",
+        "playingStatus": 3,
+        "playedUpTo": 3274,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
         "uuid": "e1483f4f-92c9-44d4-89ea-0d96981d88fe",
         "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/21283G/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/c55b2fe5-b673-49d7-82bb-b3dcfad318b0/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=c55b2fe5-b673-49d7-82bb-b3dcfad318b0&feed=kwWc0lhf",
         "published": "2023-10-16T19:00:00Z",
@@ -1961,46 +2001,6 @@
         "isDeleted": false,
         "author": "Pushkin Industries",
         "bookmarks": []
-      },
-      {
-        "uuid": "bac02978-d9d7-4204-8448-2143b3a50219",
-        "url": "https://chrt.fm/track/B45G6F/traffic.megaphone.fm/ATL5579419378.mp3?updated=1690419187",
-        "published": "2023-07-27T09:00:00Z",
-        "duration": 1561,
-        "fileType": "audio/mpeg",
-        "title": "‘Everyone Used to be Nicer,’ And Other Persistent Myths",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 1561,
-        "starred": false,
-        "podcastUuid": "d6dd7e60-fe3f-0139-d525-0acc26574db2",
-        "podcastTitle": "How to Talk to People",
-        "episodeType": "full",
-        "episodeSeason": 4,
-        "episodeNumber": 7,
-        "isDeleted": true,
-        "author": "The Atlantic",
-        "bookmarks": []
-      },
-      {
-        "uuid": "bf59292c-a9ed-4975-833a-546cac980a92",
-        "url": "https://chtbl.com/track/736CG3/pdst.fm/e/stitcher.simplecastaudio.com/2be48404-a43c-4fa8-a32c-760a3216272e/episodes/4c515172-2b30-4a0a-b188-917a58548ba8/audio/128/default.mp3?aid=rss_feed&awCollectionId=2be48404-a43c-4fa8-a32c-760a3216272e&awEpisodeId=4c515172-2b30-4a0a-b188-917a58548ba8&feed=Y8lFbOT4",
-        "published": "2023-07-27T03:00:00Z",
-        "duration": 2925,
-        "fileType": "audio/mpeg",
-        "title": "551. What Can Whales Teach Us About Clean Energy, Workplace Harmony, and Living the Good Life?",
-        "size": "45841178",
-        "playingStatus": 2,
-        "playedUpTo": 2216,
-        "starred": false,
-        "podcastUuid": "d81fbcb0-0422-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Freakonomics Radio",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 551,
-        "isDeleted": false,
-        "author": "Freakonomics Radio + Stitcher",
-        "bookmarks": []
       }
     ]
   },
@@ -2823,7 +2823,7 @@
             "url": "https://open.spotify.com/artist/1GFkwGetxvXluztDxPShGo",
             "name": "Rina Mushonga"
           },
-          "popularity": 41,
+          "popularity": 42,
           "release_date": "2019-02-15",
           "url": "https://open.spotify.com/track/3OyedWlIaMQWvx1qAiILAA",
           "name": "Narcisc0"
@@ -3117,7 +3117,7 @@
             "url": "https://open.spotify.com/artist/6CZhbpXpR3VJNQWFkwd2Ic",
             "name": "Noé Preszow"
           },
-          "popularity": 32,
+          "popularity": 33,
           "release_date": "2022-03-18",
           "url": "https://open.spotify.com/track/6sqYnu5QuI8e1JwxlbwFs4",
           "name": "Faire les choses bien - Version alternative"
@@ -3183,13 +3183,13 @@
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 181370,
+    "downloads": 181486,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
-    "version": "2.16.0",
-    "downloads": 10984,
+    "version": "2.17.0",
+    "downloads": 10981,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

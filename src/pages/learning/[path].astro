@@ -8,12 +8,12 @@ import Page from "~components/Page.astro";
 import Row from "~components/Page/Row.astro";
 import Back from "~components/Page/Back.astro";
 
-import { projects } from "~data/layout.json";
+import { learning } from "~data/resume.json";
 import { get, create } from "~scripts/helpers";
 import galleries from "~data/galleries";
 
 export function getStaticPaths() {
-  return get.StaticPaths(projects);
+  return get.StaticPaths(learning);
 }
 
 const { name, local } = Astro.props;
@@ -21,7 +21,7 @@ const { name, local } = Astro.props;
 const sections = create.sections(local.desc, "<h3");
 
 const layoutProps = {
-  title: "Paul Heading | Project | " + name,
+  title: "Paul Heading | Learning | " + name,
   description: local.summary,
 };
 

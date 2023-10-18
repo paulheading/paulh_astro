@@ -26,11 +26,11 @@ async function getLayoutData() {
 }
 
 async function getResumeData() {
-  const education = await getTrelloData("education");
+  const learning = await getTrelloData("learning");
   const roles = await getTrelloData("roles");
 
   return {
-    education,
+    learning,
     roles,
   };
 }
