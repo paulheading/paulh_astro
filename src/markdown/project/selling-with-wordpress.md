@@ -4,8 +4,6 @@ Build and brand [36 Bourne Street](https://36bournestreet.com). An online store,
 
 # Selling designer fabric with Wordpress
 
-### What's the Project?
-
 Build and brand [36 Bourne Street](https://36bournestreet.com). An online store, built in [Wordpress](https://wordpress.com) for a leather and fabric retailer off the [Pimlico Road, London](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).
 
 ### Can I see it?

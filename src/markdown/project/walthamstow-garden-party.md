@@ -4,8 +4,6 @@ Build and animate the website for a community festival called Walthamstow Garden
 
 # Walthamstow Garden Party
 
-### What's the Project?
-
 Build and animate the website for a community festival called Walthamstow Garden Party.
 
 ### Can I see it?

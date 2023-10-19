@@ -4,8 +4,6 @@ Update the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a
 
 # Designing Account Areas in Vue.js
 
-### What's the Project?
-
 Update the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a modular design that better reflects the brand and offers a wider range of functionality.
 
 ### Can I see it?

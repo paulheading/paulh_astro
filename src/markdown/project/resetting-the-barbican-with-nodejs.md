@@ -4,8 +4,6 @@ Build the [Barbican Reset](https://www.npmjs.com/package/barbican-reset). An [NP
 
 # Resetting the Barbican with Node.js
 
-### What's the Project?
-
 Build the [Barbican Reset](https://www.npmjs.com/package/barbican-reset). An [NPM package](https://docs.npmjs.com/about-packages-and-modules) that can be used across the [Barbican's](https://barbican.org.uk) many digital products to provide consistent styling and functionality.
 
 ### Can I see it?

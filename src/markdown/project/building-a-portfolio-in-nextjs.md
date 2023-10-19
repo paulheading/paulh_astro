@@ -4,8 +4,6 @@ Build a portfolio site that is fast, engaging and showcases my abilities as a De
 
 # Building a Portfolio in Next.js
 
-### What's the Project?
-
 Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.
 
 ### Can I see it?

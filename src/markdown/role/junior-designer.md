@@ -4,8 +4,6 @@ I worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com
 
 # Junior Designer
 
-### What's the Role?
-
 I worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.
 
 ### What does this include?

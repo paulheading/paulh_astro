@@ -4,8 +4,6 @@ I worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com
 
 # Design Manager
 
-### What's the Role?
-
 I worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican), designing digital content for marketing campaigns, as well as managing one other Designer.
 
 ### What does this include?

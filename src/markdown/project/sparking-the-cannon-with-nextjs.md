@@ -4,8 +4,6 @@ Build and animate the website for Stephanie Cannon, a professional Voice-over Ar
 
 # Sparking the Cannon with Next.js
 
-### What's the Project?
-
 Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.
 
 ### Can I see it?

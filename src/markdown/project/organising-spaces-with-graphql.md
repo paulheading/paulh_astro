@@ -4,8 +4,6 @@ Build a website/app for staff at the [Barbican](https://barbican.org.uk) to see 
 
 # Organising Spaces with GraphQL
 
-### What's the Project?
-
 Build a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.
 
 ### Can I see it?
