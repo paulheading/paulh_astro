@@ -3,6 +3,26 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "fa558f7a-469e-4a8d-a44a-f4323ea48a23",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/10/19-48700-gfw191023.mp3",
+        "published": "2023-10-19T13:50:43Z",
+        "duration": 3535,
+        "fileType": "audio/mp3",
+        "title": "Merseyside derby kicks off Premier League’s return – Football Weekly Extra",
+        "size": "81959579",
+        "playingStatus": 2,
+        "playedUpTo": 3533,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
         "uuid": "b1222fae-4192-41ee-9e03-c768773e1e4b",
         "url": "https://sphinx.acast.com/p/open/s/64f75edec2b55e0011a26fb2/e/6530071714bb5f0012b7ce82/media.mp3",
         "published": "2023-10-19T04:00:07Z",
@@ -1981,26 +2001,6 @@
         "isDeleted": false,
         "author": "The Guardian",
         "bookmarks": []
-      },
-      {
-        "uuid": "6c9ce537-3c3c-4de5-8182-a819a7ddd64b",
-        "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/radiolab_podcast/radiolab_podcast072823_blackholes.mp3?awCollectionId=15957&awEpisodeId=1347192",
-        "published": "2023-07-28T14:00:00Z",
-        "duration": 2116,
-        "fileType": "audio/mpeg",
-        "title": "Little Black Holes Everywhere",
-        "size": "33472000",
-        "playingStatus": 3,
-        "playedUpTo": 2116,
-        "starred": false,
-        "podcastUuid": "f5b97290-0422-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Radiolab",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "WNYC Studios",
-        "bookmarks": []
       }
     ]
   },
@@ -2873,7 +2873,7 @@
             "url": "https://open.spotify.com/artist/6aRJP31fKBf0jbvb6qYAGt",
             "name": "Iftin Band"
           },
-          "popularity": 13,
+          "popularity": 14,
           "release_date": "2019-12-13",
           "url": "https://open.spotify.com/track/2l8davPIbbdn8BxYgbkwtP",
           "name": "Sirmaqabe - No Secrets"
@@ -2945,7 +2945,7 @@
             "url": "https://open.spotify.com/artist/6nbtlXRy0S6adYpDVoRdNi",
             "name": "Anna B Savage"
           },
-          "popularity": 21,
+          "popularity": 22,
           "release_date": "2021-01-29",
           "url": "https://open.spotify.com/track/4oUBPVqmxoP5u9HeXLU6To",
           "name": "Corncrakes"
@@ -3015,7 +3015,7 @@
             "url": "https://open.spotify.com/artist/4gQsGkfdB4uVrNBqo4MhmI",
             "name": "LUMP"
           },
-          "popularity": 19,
+          "popularity": 20,
           "release_date": "2021-05-05",
           "url": "https://open.spotify.com/track/6fcJI9qrH0vr9EYxjpQdaM",
           "name": "Animal - Edit"
@@ -3025,7 +3025,7 @@
             "url": "https://open.spotify.com/artist/5R9d1YP5jtBw2IrQItGzQI",
             "name": "Michael Mayer"
           },
-          "popularity": 21,
+          "popularity": 22,
           "release_date": "2021-06-04",
           "url": "https://open.spotify.com/track/0x1eIudX2mUXc28RujjNl5",
           "name": "Brainwave Technology"
@@ -3127,7 +3127,7 @@
             "url": "https://open.spotify.com/artist/0uAnwMXg0tsGQsOdVwudkb",
             "name": "Colourbox"
           },
-          "popularity": 32,
+          "popularity": 33,
           "release_date": "1985-08-12",
           "url": "https://open.spotify.com/track/3RlGLTcM9OwrAA0ErwJ2rA",
           "name": "The Moon Is Blue"
@@ -3137,7 +3137,7 @@
             "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
             "name": "Superpoze"
           },
-          "popularity": 23,
+          "popularity": 24,
           "release_date": "2022-03-25",
           "url": "https://open.spotify.com/track/5YKffOovP69vePWQunFDdW",
           "name": "Geneva"
@@ -3183,13 +3183,13 @@
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 181602,
+    "downloads": 181838,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
     "version": "2.17.0",
-    "downloads": 11267,
+    "downloads": 11219,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }
