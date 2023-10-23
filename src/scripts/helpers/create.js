@@ -106,4 +106,12 @@ function filename(value) {
   return value;
 }
 
-export default { person, sections, content, billboard, mpu, hpu, filename };
+export default {
+  person,
+  sections,
+  content,
+  billboard,
+  mpu,
+  hpu,
+  filename,
+};

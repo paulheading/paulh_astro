@@ -547,19 +547,19 @@
         "url": "https://pfx.vpixl.com/6qj4J/dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/bbbcc290-ed3b-44a2-8e5d-5513e38cfe20/episodes/31bb8c02-c572-4380-93fd-99f628ba125e/audio/128/default.mp3?awCollectionId=bbbcc290-ed3b-44a2-8e5d-5513e38cfe20&awEpisodeId=31bb8c02-c572-4380-93fd-99f628ba125e",
         "published": "2023-09-24T22:00:00Z",
         "duration": 4005,
-        "fileType": "audio/mpeg",
+        "fileType": "",
         "title": "779: Ends of the Earth",
         "size": "0",
         "playingStatus": 2,
         "playedUpTo": 212,
         "starred": false,
         "podcastUuid": "3782b780-0bc5-012e-fb02-00163e1b201c",
-        "podcastTitle": "This American Life",
-        "episodeType": "full",
+        "podcastTitle": "",
+        "episodeType": "",
         "episodeSeason": 0,
         "episodeNumber": 0,
         "isDeleted": false,
-        "author": "This American Life",
+        "author": "",
         "bookmarks": []
       },
       {
@@ -2165,7 +2165,7 @@
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Freelance",
           "color": "purple",
-          "uses": 2
+          "uses": 3
         },
         {
           "id": "64b80f8953c59efd3011ee02",
@@ -2257,7 +2257,7 @@
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Freelance",
           "color": "purple",
-          "uses": 2
+          "uses": 3
         },
         {
           "id": "64b80f8953c59efd3011ee02",
@@ -2670,6 +2670,98 @@
       }
     },
     {
+      "id": "65361bb8a1a1d1627f281d2f",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2017-05-01T11:00:00.000Z",
+        "dueComplete": true,
+        "start": "2017-02-01T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-10-23T07:21:57.170Z",
+      "desc": "```\nAnimate a brand moment for the [NYO](https://www.nyo.org.uk/), which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.\n\n---\n\n# Moving orchestras with After Effects\n\nAnimate a brand moment for the [NYO](https://www.nyo.org.uk/), which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.\n\n### How much did you do?\n\nI worked on this project with Chloe Ings. We both developed creative routes, from which I ultimately supplied the final brand animations.\n\n- 🎨 Creating concepts with [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html)\n- 🚀 Animating the brand artwork in [Adobe After Effects](https://www.adobe.com/uk/products/aftereffects.html)\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2017-05-01T11:00:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2238ca12fa82e01b9c819",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 32,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6491c7d859cf65f7b465cf91",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Freelance",
+          "color": "purple",
+          "uses": 3
+        },
+        {
+          "id": "65361f1593cafe728614fc83",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Video",
+          "color": null,
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "6491c7d859cf65f7b465cf91",
+        "65361f1593cafe728614fc83"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Moving orchestras with After Effects",
+      "pos": 294911,
+      "shortLink": "tS8vtoe1",
+      "shortUrl": "https://trello.com/c/tS8vtoe1",
+      "start": "2017-02-01T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/tS8vtoe1/32-moving-orchestras-with-after-effects",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Moving orchestras with After Effects",
+      "hero": false,
+      "type": "project",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Animate a brand moment for the NYO, which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.",
+        "desc": "<h1 id=\"movingorchestraswithaftereffects\">Moving orchestras with After Effects</h1>\n<p>Animate a brand moment for the <a href=\"https://www.nyo.org.uk/\">NYO</a>, which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>I worked on this project with Chloe Ings. We both developed creative routes, from which I ultimately supplied the final brand animations.</p>\n<ul>\n<li>🎨 Creating concepts with <a href=\"https://www.adobe.com/uk/products/indesign.html\">Adobe InDesign</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://www.adobe.com/uk/products/aftereffects.html\">Adobe After Effects</a></li>\n</ul>",
+        "pathname": "moving-orchestras-with-after-effects",
+        "url": "/project/moving-orchestras-with-after-effects"
+      }
+    },
+    {
       "id": "64b7ebc40642ef9285ec9c0d",
       "badges": {
         "attachmentsByType": {
@@ -2696,8 +2788,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-10-19T21:43:45.256Z",
-      "desc": "```\nBuild and brand [36 Bourne Street](https://36bournestreet.com). An online store, built in [Wordpress](https://wordpress.com) for a leather and fabric retailer off the [Pimlico Road, London](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).\n\n---\n\n# Selling designer fabric with Wordpress\n\nBuild and brand [36 Bourne Street](https://36bournestreet.com). An online store, built in [Wordpress](https://wordpress.com) for a leather and fabric retailer off the [Pimlico Road, London](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).\n\n### Can I see it?\n\nSure, it's at [36bournestreet.com](https://www.36bournestreet.com)\n\nThe code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/BourneSt).\n\n### How much did you do?\n\nPretty much everything, which includes:\n\n- 💻 Building a child theme for [Wordpress](https://wordpress.com/)\n- 🎨 Designing the layouts with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThe handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a [CMS](https://www.wpbeginner.com/glossary/content-management-system-cms), using [template partials in Wordpress](https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps) and building functionality with the [Advanced Custom Fields](https://www.advancedcustomfields.com) plugin.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+      "dateLastActivity": "2023-10-23T07:20:44.805Z",
+      "desc": "```\nCreate & brand an online shop for [36 Bourne Street](https://36bournestreet.com) in [Wordpress](https://wordpress.com). The shop sells leather and fabric on the [Pimlico Road](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).\n\n---\n\n# Selling designer fabric with Wordpress\n\nCreate & brand an online shop for [36 Bourne Street](https://36bournestreet.com) in [Wordpress](https://wordpress.com). The shop sells leather and fabric on the [Pimlico Road](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).\n\n### Can I see it?\n\nSure, it's at [36bournestreet.com](https://www.36bournestreet.com)\n\nThe code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/BourneSt).\n\n### How much did you do?\n\nPretty much everything, which includes:\n\n- 💻 Building a child theme for [Wordpress](https://wordpress.com/)\n- 🎨 Designing the layouts with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThe handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a [CMS](https://www.wpbeginner.com/glossary/content-management-system-cms), using [template partials in Wordpress](https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps) and building functionality with the [Advanced Custom Fields](https://www.advancedcustomfields.com) plugin.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
       "descData": {
         "emoji": {}
       },
@@ -2755,8 +2847,8 @@
       "attachments": [],
       "actions": [],
       "local": {
-        "summary": "Build and brand 36 Bourne Street. An online store, built in Wordpress for a leather and fabric retailer off the Pimlico Road, London.",
-        "desc": "<h1 id=\"sellingdesignerfabricwithwordpress\">Selling designer fabric with Wordpress</h1>\n<p>Build and brand <a href=\"https://36bournestreet.com\">36 Bourne Street</a>. An online store, built in <a href=\"https://wordpress.com\">Wordpress</a> for a leather and fabric retailer off the <a href=\"https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district\">Pimlico Road, London</a>.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.36bournestreet.com\">36bournestreet.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/BourneSt\">repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building a child theme for <a href=\"https://wordpress.com/\">Wordpress</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a <a href=\"https://www.wpbeginner.com/glossary/content-management-system-cms\">CMS</a>, using <a href=\"https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps\">template partials in Wordpress</a> and building functionality with the <a href=\"https://www.advancedcustomfields.com\">Advanced Custom Fields</a> plugin.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "summary": "Create & brand an online shop for 36 Bourne Street in Wordpress. The shop sells leather and fabric on the Pimlico Road.",
+        "desc": "<h1 id=\"sellingdesignerfabricwithwordpress\">Selling designer fabric with Wordpress</h1>\n<p>Create &amp; brand an online shop for <a href=\"https://36bournestreet.com\">36 Bourne Street</a> in <a href=\"https://wordpress.com\">Wordpress</a>. The shop sells leather and fabric on the <a href=\"https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district\">Pimlico Road</a>.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.36bournestreet.com\">36bournestreet.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/BourneSt\">repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building a child theme for <a href=\"https://wordpress.com/\">Wordpress</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a <a href=\"https://www.wpbeginner.com/glossary/content-management-system-cms\">CMS</a>, using <a href=\"https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps\">template partials in Wordpress</a> and building functionality with the <a href=\"https://www.advancedcustomfields.com\">Advanced Custom Fields</a> plugin.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
         "pathname": "selling-designer-fabric-with-wordpress",
         "url": "/project/selling-designer-fabric-with-wordpress"
       }
@@ -3189,7 +3281,7 @@
   "npm": {
     "name": "barbican-reset",
     "version": "2.17.0",
-    "downloads": 11219,
+    "downloads": 11176,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

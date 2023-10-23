@@ -28,33 +28,33 @@ const nameProps = {
 };
 
 function processSummary(content) {
-  let max = 100;
-  let words = content.split(" ");
-  let needsButton = false;
-  let short = "";
-  let extra = "";
+  let max = 15;
 
-  words.forEach((word) => {
-    if (max < word.length) {
-      needsButton = true;
-      extra += " " + word;
-    } else {
-      max -= word.length;
-      short += " " + word;
-    }
-  });
+  let words = content.split(" ");
+
+  let short = words.filter((word, index) => index <= max);
+
+  let extra = words.filter((word, index) => index > max);
+
+  let button = "<button class='readmore'>more</button>";
+
+  short = short.join(" ");
 
   short = "<span class='short'>" + short + "</span>";
-  extra = "<span class='extra' style='display:none;'>" + extra + "</span>";
 
-  let total = short;
+  let result = short;
 
-  if (needsButton) {
-    total += extra;
-    total += " " + "<button class='readmore'>more</button>";
+  if (extra.length) {
+    extra = extra.join(" ");
+
+    extra = "<span class='extra' style='display:none;'>" + extra + "</span>";
+
+    result += " " + extra;
+
+    result += " " + button;
   }
 
-  return parse(total);
+  return parse(result);
 }
 
 const summary = processSummary(local.summary);
@@ -127,7 +127,7 @@ const summary = processSummary(local.summary);
 <style lang="scss" is:global>
   @import "~styles/mixins";
 
-  .readmore {
+  .summary .readmore {
     padding: toRem(3) toRem(6) toRem(5) toRem(6);
     border-radius: $border-radius-sm;
     border: 1px solid currentColor;

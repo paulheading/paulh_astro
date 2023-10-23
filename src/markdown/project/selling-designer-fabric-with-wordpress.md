@@ -1,10 +1,10 @@
-Build and brand [36 Bourne Street](https://36bournestreet.com). An online store, built in [Wordpress](https://wordpress.com) for a leather and fabric retailer off the [Pimlico Road, London](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).
+Create & brand an online shop for [36 Bourne Street](https://36bournestreet.com) in [Wordpress](https://wordpress.com). The shop sells leather and fabric on the [Pimlico Road](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).
 
 ---
 
 # Selling designer fabric with Wordpress
 
-Build and brand [36 Bourne Street](https://36bournestreet.com). An online store, built in [Wordpress](https://wordpress.com) for a leather and fabric retailer off the [Pimlico Road, London](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).
+Create & brand an online shop for [36 Bourne Street](https://36bournestreet.com) in [Wordpress](https://wordpress.com). The shop sells leather and fabric on the [Pimlico Road](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).
 
 ### Can I see it?
 

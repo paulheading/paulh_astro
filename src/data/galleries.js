@@ -1,5 +1,12 @@
-import JuniorDesigner from "~data/galleries/JuniorDesigner";
-import DesignManager from "~data/galleries/DesignManager";
-import FrontendDesignerDeveloper from "~data/galleries/FrontendDesignerDeveloper";
+import JuniorDesigner from "~data/galleries/roles/JuniorDesigner";
+import DesignManager from "~data/galleries/roles/DesignManager";
+import FrontendDesignerDeveloper from "~data/galleries/roles/FrontendDesignerDeveloper";
 
-export default { JuniorDesigner, DesignManager, FrontendDesignerDeveloper };
+import MovingorchestraswithAfterEffects from "~data/galleries/projects/MovingorchestraswithAfterEffects";
+
+export default {
+  JuniorDesigner,
+  DesignManager,
+  FrontendDesignerDeveloper,
+  MovingorchestraswithAfterEffects,
+};
