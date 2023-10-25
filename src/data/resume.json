@@ -1,6 +1,258 @@
 {
   "learning": [
     {
+      "id": "6536ec32963aacd62d98943c",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2023-08-14T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-10-25T09:00:36.159Z",
+      "desc": "```\n<a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n---\n\n# The Git and Github Bootcamp\n\n<a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n### Why did I learn it?\n\nI use git everyday and until recently always went through a GUI. I feel this prevented me from building a concrete understanding of how the technology really works. Im now much more comfortable working with git through a command line, as it was intended to be used.\n\n[##] 20% Complete\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2640a3e5fc6395c87a038",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 33,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6536ece7ba06209fab3d3b81",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Udemy",
+          "color": "blue",
+          "uses": 4
+        }
+      ],
+      "idLabels": [
+        "6536ece7ba06209fab3d3b81"
+      ],
+      "manualCoverAttachment": false,
+      "name": "The Git & Github Bootcamp",
+      "pos": 32767.5,
+      "shortLink": "zVmZy8fg",
+      "shortUrl": "https://trello.com/c/zVmZy8fg",
+      "start": "2023-08-14T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/zVmZy8fg/33-the-git-github-bootcamp",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "The Git & Github Bootcamp",
+      "hero": false,
+      "type": "learning",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Master the essentials and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!",
+        "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidilearnit\">Why did I learn it?</h3>\n<p>I use git everyday and until recently always went through a GUI. I feel this prevented me from building a concrete understanding of how the technology really works. Im now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
+        "pathname": "the-git-github-bootcamp",
+        "url": "/learning/the-git-github-bootcamp"
+      }
+    },
+    {
+      "id": "6536eec524c417764a9d00bb",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2022-09-19T11:00:00.000Z",
+        "dueComplete": true,
+        "start": "2021-09-19T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-10-25T09:18:05.216Z",
+      "desc": "```\n<a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.\n\n---\n\n# The complete guide to testing javascript & node applications\n\n<a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.\n\n### Why did I learn it?\n\nThe more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!\n\n[##########] 100% Complete\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2022-09-19T11:00:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2640a3e5fc6395c87a038",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 35,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6536ece7ba06209fab3d3b81",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Udemy",
+          "color": "blue",
+          "uses": 4
+        }
+      ],
+      "idLabels": [
+        "6536ece7ba06209fab3d3b81"
+      ],
+      "manualCoverAttachment": false,
+      "name": "The complete guide to testing javascript & node applications",
+      "pos": 40959.375,
+      "shortLink": "MMCKi36K",
+      "shortUrl": "https://trello.com/c/MMCKi36K",
+      "start": "2021-09-19T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/MMCKi36K/35-the-complete-guide-to-testing-javascript-node-applications",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "The complete guide to testing javascript & node applications",
+      "hero": false,
+      "type": "learning",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Become job ready for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.",
+        "desc": "<h1 id=\"thecompleteguidetotestingjavascriptnodeapplications\">The complete guide to testing javascript &amp; node applications</h1>\n<p><a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.</p>\n<h3 id=\"whydidilearnit\">Why did I learn it?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>",
+        "pathname": "the-complete-guide-to-testing-javascript-node-applications",
+        "url": "/learning/the-complete-guide-to-testing-javascript-node-applications"
+      }
+    },
+    {
+      "id": "6536edf85ef64e7bba016992",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2021-02-28T12:00:00.000Z",
+        "dueComplete": true,
+        "start": "2020-02-28T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-10-25T09:00:10.712Z",
+      "desc": "```\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n---\n\n# Javascript: Understanding the Weird Parts\n\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n### Why did I learn it?\n\nTo build an understanding of the core concepts that shape the language.\n\n[#########] 90% Complete\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2021-02-28T12:00:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2640a3e5fc6395c87a038",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 34,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6536ece7ba06209fab3d3b81",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Udemy",
+          "color": "blue",
+          "uses": 4
+        }
+      ],
+      "idLabels": [
+        "6536ece7ba06209fab3d3b81"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Javascript: Understanding the Weird Parts",
+      "pos": 49151.25,
+      "shortLink": "CWS6pYLb",
+      "shortUrl": "https://trello.com/c/CWS6pYLb",
+      "start": "2020-02-28T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/CWS6pYLb/34-javascript-understanding-the-weird-parts",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Javascript: Understanding the Weird Parts",
+      "hero": false,
+      "type": "learning",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
+        "desc": "<h1 id=\"javascriptunderstandingtheweirdparts\">Javascript: Understanding the Weird Parts</h1>\n<p>An <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.</p>\n<h3 id=\"whydidilearnit\">Why did I learn it?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[#########] 90% Complete</p>",
+        "pathname": "javascript-understanding-the-weird-parts",
+        "url": "/learning/javascript-understanding-the-weird-parts"
+      }
+    },
+    {
       "id": "5fb2641a2db4d70a004f4556",
       "badges": {
         "attachmentsByType": {
@@ -82,6 +334,90 @@
         "desc": "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<p>In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.</p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:</p>\n<ul>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a></li>\n</ul>\n<h3 id=\"whydididoit\">Why did I do it?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>",
         "pathname": "full-stack-javascript-techdegree",
         "url": "/learning/full-stack-javascript-techdegree"
+      }
+    },
+    {
+      "id": "6536eef09c26c6e1eb245536",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2019-01-06T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-10-25T09:12:07.589Z",
+      "desc": "```\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n---\n\n# HTML5 Game from scratch step by step learning JavaScript\n\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n### Why did I learn it?\n\nMaking games is fun! And this is a great way to learn the language.\n\n[########] 80% Complete\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2640a3e5fc6395c87a038",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 36,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "6536ece7ba06209fab3d3b81",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Udemy",
+          "color": "blue",
+          "uses": 4
+        }
+      ],
+      "idLabels": [
+        "6536ece7ba06209fab3d3b81"
+      ],
+      "manualCoverAttachment": false,
+      "name": "HTML5 Game from scratch step by step learning JavaScript",
+      "pos": 98303,
+      "shortLink": "Bwy1DOtA",
+      "shortUrl": "https://trello.com/c/Bwy1DOtA",
+      "start": "2019-01-06T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/Bwy1DOtA/36-html5-game-from-scratch-step-by-step-learning-javascript",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "HTML5 Game from scratch step by step learning JavaScript",
+      "hero": false,
+      "type": "learning",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Learn how to create HTML5 and JavaScript games from scratch Step by step tutorials with real HTML5 code examples.",
+        "desc": "<h1 id=\"html5gamefromscratchstepbysteplearningjavascript\">HTML5 Game from scratch step by step learning JavaScript</h1>\n<p>Learn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.</p>\n<h3 id=\"whydidilearnit\">Why did I learn it?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[########] 80% Complete</p>",
+        "pathname": "html5-game-from-scratch-step-by-step-learning-javascript",
+        "url": "/learning/html5-game-from-scratch-step-by-step-learning-javascript"
       }
     },
     {

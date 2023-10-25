@@ -1,10 +1,11 @@
 ---
 import { DateTime } from "luxon";
+import { calc } from "~scripts/helpers";
 
 import Labels from "~components/Labels.astro";
 import Label from "~components/Label.astro";
-import { calc } from "~scripts/helpers";
-import { parse } from "node-html-parser";
+import Name from "~components/Page/Card/Name.astro";
+import Summary from "~components/Page/Card/Summary.astro";
 
 let { card, index } = Astro.props;
 let { name, labels, dueComplete, local, start, due } = card;
@@ -22,42 +23,14 @@ due = DateTime.fromISO(due);
 
 const length = calc.summary_length(dueComplete, due, start);
 
-const nameProps = {
+let nameProps = {
   href: local.url,
-  class: "name",
+  name,
 };
 
-function processSummary(content) {
-  let max = 15;
-
-  let words = content.split(" ");
-
-  let short = words.filter((word, index) => index <= max);
-
-  let extra = words.filter((word, index) => index > max);
-
-  let button = "<button class='readmore'>more</button>";
-
-  short = short.join(" ");
-
-  short = "<span class='short'>" + short + "</span>";
-
-  let result = short;
-
-  if (extra.length) {
-    extra = extra.join(" ");
-
-    extra = "<span class='extra' style='display:none;'>" + extra + "</span>";
-
-    result += " " + extra;
-
-    result += " " + button;
-  }
-
-  return parse(result);
-}
-
-const summary = processSummary(local.summary);
+let summaryProps = {
+  content: local.summary,
+};
 ---
 
 <script src="~scripts/components/page/card.js"></script>
@@ -84,13 +57,11 @@ const summary = processSummary(local.summary);
       </Label>
     </Labels>
   </div>
-  <a {...nameProps}>{name}</a>
+  <Name {...nameProps} />
   <div class="due">
     {dueComplete ? due.toFormat("MMM yyyy") : "Ongoing"}
   </div>
-  <div class="summary">
-    {summary}
-  </div>
+  <Summary {...summaryProps} />
 </div>
 
 <style lang="scss">
@@ -112,34 +83,5 @@ const summary = processSummary(local.summary);
     margin-bottom: 0.5rem;
     font-style: italic;
     color: $c-gray-7;
-  }
-
-  .summary {
-    font-size: $font-size-summary;
-    color: $c-gray-7;
-  }
-
-  .name {
-    font-size: $h4-font-size;
-  }
-</style>
-
-<style lang="scss" is:global>
-  @import "~styles/mixins";
-
-  .summary .readmore {
-    padding: toRem(3) toRem(6) toRem(5) toRem(6);
-    border-radius: $border-radius-sm;
-    border: 1px solid currentColor;
-    font-size: $h6-font-size;
-    background-color: white;
-    font-weight: bold;
-    color: inherit;
-    line-height: 1;
-
-    @include focus {
-      background-color: $c-gray-7;
-      color: white;
-    }
   }
 </style>

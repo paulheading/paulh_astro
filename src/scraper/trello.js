@@ -80,6 +80,7 @@ async function processCard(card, list) {
     .replace(/[.]/g, "")
     .replace(/&/g, "")
     .replace("--", "-")
+    .replace(/:/g, "")
     .toLowerCase();
   card.local.url = "/" + card.type + "/" + card.local.pathname;
 

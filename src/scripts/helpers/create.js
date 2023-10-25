@@ -20,6 +20,8 @@ class person {
 }
 
 function sections(content, element) {
+  if (!content) return [];
+
   let sections = content.split(element);
 
   return sections.map(function (section, index) {
