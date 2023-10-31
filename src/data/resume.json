@@ -27,8 +27,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-10-25T09:00:36.159Z",
-      "desc": "```\n<a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n---\n\n# The Git and Github Bootcamp\n\n<a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n### Why did I learn it?\n\nI use git everyday and until recently always went through a GUI. I feel this prevented me from building a concrete understanding of how the technology really works. Im now much more comfortable working with git through a command line, as it was intended to be used.\n\n[##] 20% Complete\n```",
+      "dateLastActivity": "2023-10-31T17:02:32.378Z",
+      "desc": "```\n<a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n---\n\n# The Git and Github Bootcamp\n\n<a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n### Why did I sign-up?\n\nI use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.\n\n[##] 20% Complete\n```",
       "descData": {
         "emoji": {}
       },
@@ -79,7 +79,7 @@
       "actions": [],
       "local": {
         "summary": "Master the essentials and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!",
-        "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidilearnit\">Why did I learn it?</h3>\n<p>I use git everyday and until recently always went through a GUI. I feel this prevented me from building a concrete understanding of how the technology really works. Im now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
+        "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidisignup\">Why did I sign-up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
         "pathname": "the-git-github-bootcamp",
         "url": "/learning/the-git-github-bootcamp"
       }
@@ -111,8 +111,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": true,
-      "dateLastActivity": "2023-10-25T09:18:05.216Z",
-      "desc": "```\n<a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.\n\n---\n\n# The complete guide to testing javascript & node applications\n\n<a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.\n\n### Why did I learn it?\n\nThe more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!\n\n[##########] 100% Complete\n```",
+      "dateLastActivity": "2023-10-31T17:01:11.895Z",
+      "desc": "```\n<a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.\n\n---\n\n# The complete guide to testing javascript & node applications\n\n<a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.\n\n### Why did I sign-up?\n\nThe more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!\n\n[##########] 100% Complete\n```",
       "descData": {
         "emoji": {}
       },
@@ -163,7 +163,7 @@
       "actions": [],
       "local": {
         "summary": "Become job ready for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.",
-        "desc": "<h1 id=\"thecompleteguidetotestingjavascriptnodeapplications\">The complete guide to testing javascript &amp; node applications</h1>\n<p><a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.</p>\n<h3 id=\"whydidilearnit\">Why did I learn it?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>",
+        "desc": "<h1 id=\"thecompleteguidetotestingjavascriptnodeapplications\">The complete guide to testing javascript &amp; node applications</h1>\n<p><a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.</p>\n<h3 id=\"whydidisignup\">Why did I sign-up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>",
         "pathname": "the-complete-guide-to-testing-javascript-node-applications",
         "url": "/learning/the-complete-guide-to-testing-javascript-node-applications"
       }
@@ -279,8 +279,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": true,
-      "dateLastActivity": "2023-10-25T09:00:10.712Z",
-      "desc": "```\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n---\n\n# Javascript: Understanding the Weird Parts\n\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n### Why did I learn it?\n\nTo build an understanding of the core concepts that shape the language.\n\n[#########] 90% Complete\n```",
+      "dateLastActivity": "2023-10-31T17:00:36.639Z",
+      "desc": "```\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n---\n\n# Javascript: Understanding the Weird Parts\n\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n### Why did I sign-up?\n\nTo build an understanding of the core concepts that shape the language.\n\n[#########] 90% Complete\n```",
       "descData": {
         "emoji": {}
       },
@@ -331,7 +331,7 @@
       "actions": [],
       "local": {
         "summary": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
-        "desc": "<h1 id=\"javascriptunderstandingtheweirdparts\">Javascript: Understanding the Weird Parts</h1>\n<p>An <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.</p>\n<h3 id=\"whydidilearnit\">Why did I learn it?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[#########] 90% Complete</p>",
+        "desc": "<h1 id=\"javascriptunderstandingtheweirdparts\">Javascript: Understanding the Weird Parts</h1>\n<p>An <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.</p>\n<h3 id=\"whydidisignup\">Why did I sign-up?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[#########] 90% Complete</p>",
         "pathname": "javascript-understanding-the-weird-parts",
         "url": "/learning/javascript-understanding-the-weird-parts"
       }
@@ -363,8 +363,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": true,
-      "dateLastActivity": "2023-10-22T18:13:46.310Z",
-      "desc": "```\nIn early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.\n\n---\n\n# Full-Stack Javascript Techdegree\n\nIn early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.\n\n### What did I learn?\n\n<a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:\n\n- <a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a>\n\n### Why did I do it?\n\nI retrained for 2 reasons:\n\n- More control in the design/build process\n- Career opportunities\n```",
+      "dateLastActivity": "2023-10-31T16:59:31.670Z",
+      "desc": "```\nIn early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.\n\n---\n\n# Full-Stack Javascript Techdegree\n\nIn early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.\n\n### What did I learn?\n\n<a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:\n\n- <a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a>\n\n### Why did I sign-up?\n\nI retrained for 2 reasons:\n\n- More control in the design/build process\n- Career opportunities\n```",
       "descData": {
         "emoji": {}
       },
@@ -415,7 +415,7 @@
       "actions": [],
       "local": {
         "summary": "In early 2018 I decided to retrain as a developer, studying alongside my full-time job as Digital Design Manager. I enrolled in the Full-Stack Javascript Techdegree at teamtreehouse.com.",
-        "desc": "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<p>In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.</p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:</p>\n<ul>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a></li>\n</ul>\n<h3 id=\"whydididoit\">Why did I do it?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>",
+        "desc": "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<p>In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.</p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:</p>\n<ul>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a></li>\n</ul>\n<h3 id=\"whydidisignup\">Why did I sign-up?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>",
         "pathname": "full-stack-javascript-techdegree",
         "url": "/learning/full-stack-javascript-techdegree"
       }
@@ -447,8 +447,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-10-25T09:12:07.589Z",
-      "desc": "```\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n---\n\n# HTML5 Game from scratch step by step learning JavaScript\n\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n### Why did I learn it?\n\nMaking games is fun! And this is a great way to learn the language.\n\n[########] 80% Complete\n```",
+      "dateLastActivity": "2023-10-31T17:00:06.473Z",
+      "desc": "```\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n---\n\n# HTML5 Game from scratch step by step learning JavaScript\n\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n### Why did I sign-up?\n\nMaking games is fun! And this is a great way to learn the language.\n\n[########] 80% Complete\n```",
       "descData": {
         "emoji": {}
       },
@@ -499,7 +499,7 @@
       "actions": [],
       "local": {
         "summary": "Learn how to create HTML5 and JavaScript games from scratch Step by step tutorials with real HTML5 code examples.",
-        "desc": "<h1 id=\"html5gamefromscratchstepbysteplearningjavascript\">HTML5 Game from scratch step by step learning JavaScript</h1>\n<p>Learn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.</p>\n<h3 id=\"whydidilearnit\">Why did I learn it?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[########] 80% Complete</p>",
+        "desc": "<h1 id=\"html5gamefromscratchstepbysteplearningjavascript\">HTML5 Game from scratch step by step learning JavaScript</h1>\n<p>Learn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.</p>\n<h3 id=\"whydidisignup\">Why did I sign-up?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[########] 80% Complete</p>",
         "pathname": "html5-game-from-scratch-step-by-step-learning-javascript",
         "url": "/learning/html5-game-from-scratch-step-by-step-learning-javascript"
       }

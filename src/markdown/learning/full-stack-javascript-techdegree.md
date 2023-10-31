@@ -10,7 +10,7 @@ In early 2018 I decided to retrain as a developer, studying alongside my full-ti
 
 <a href="https://teamtreehouse.com/techdegree/full-stack-javascript">The course</a> is comprised of 10 units:
 
-- <a href="https://github.com/paulheading/TreehouseTaskOne">A Random Quote Generator</a> 
+- <a href="https://github.com/paulheading/TreehouseTaskOne">A Random Quote Generator</a>
 - <a href="https://github.com/paulheading/TreehouseTaskTwo">Data Pagination and Filtering</a>
 - <a href="https://github.com/paulheading/TreehouseTaskThree">Interactive Form</a>
 - <a href="https://github.com/paulheading/TreehouseTaskFour">OOP Game Show App</a>
@@ -21,7 +21,7 @@ In early 2018 I decided to retrain as a developer, studying alongside my full-ti
 - <a href="https://github.com/paulheading/TreehouseTaskNine">REST API</a>
 - <a href="https://github.com/paulheading/TreehouseTaskTen">Full Stack App with React and REST API</a>
 
-### Why did I do it?
+### Why did I sign-up?
 
 I retrained for 2 reasons:
 
