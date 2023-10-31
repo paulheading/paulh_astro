@@ -2,6 +2,7 @@
 /// This is the global scss file
 
 @import "~styles/mixins";
+@import "~styles/global/page-content";
 
 * {
   box-sizing: border-box;
@@ -177,15 +178,5 @@ button:not(:disabled) {
 .overlay a {
   @include focus {
     @include white-box;
-  }
-}
-
-.page-content h1 {
-  &:only-child {
-    margin-bottom: 0;
-  }
-
-  @include small-down {
-    font-size: $h2-font-size;
   }
 }

@@ -169,6 +169,90 @@
       }
     },
     {
+      "id": "65412d237c24936104ffad7e",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2023-05-03T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-10-31T16:53:25.819Z",
+      "desc": "```\n<a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.\n\n---\n\n# Professional Learning Path\n\n<a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.\n\n### What did I learn?\n\n<a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:\n\n- <a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a>\n- <a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a>\n- <a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a>\n\nStill in progress:\n\n- <a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a>\n- <a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a>\n- <a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a>\n- <a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a>\n- <a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a>\n- <a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a>\n\n### Why did I sign-up?\n\nBecause I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.\n\n[#####] 50% Complete\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "5fb2640a3e5fc6395c87a038",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 37,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "65412d5a15e62081a8a2338f",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Frontend Masters",
+          "color": "blue",
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "65412d5a15e62081a8a2338f"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Professional Learning Path",
+      "pos": 45055.3125,
+      "shortLink": "u0NiT1F2",
+      "shortUrl": "https://trello.com/c/u0NiT1F2",
+      "start": "2023-05-03T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/u0NiT1F2/37-professional-learning-path",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Professional Learning Path",
+      "hero": false,
+      "type": "learning",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Frontend Masters hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.",
+        "desc": "<h1 id=\"professionallearningpath\">Professional Learning Path</h1>\n<p><a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.</p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a></li>\n</ul>\n<p>Still in progress:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a></li>\n<li><a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a></li>\n<li><a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a></li>\n</ul>\n<h3 id=\"whydidisignup\">Why did I sign-up?</h3>\n<p>Because I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.</p>\n<p>[#####] 50% Complete</p>",
+        "pathname": "professional-learning-path",
+        "url": "/learning/professional-learning-path"
+      }
+    },
+    {
       "id": "6536edf85ef64e7bba016992",
       "badges": {
         "attachmentsByType": {
@@ -421,90 +505,6 @@
       }
     },
     {
-      "id": "5fb26426e1197e5fe581b27c",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
-        "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": "2009-07-03T10:36:00.000Z",
-        "dueComplete": true,
-        "start": "2009-06-01T07:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": true,
-      "dateLastActivity": "2023-10-18T22:21:39.358Z",
-      "desc": "```\nRealised how I could get paid to design things. Learnt how to use InDesign.\n\n---\n\n# Work Experience\n\n### What did I learn?\n\nRealised how I could get paid to design things. Learnt how to use InDesign.\n\n<!-- https://www.publicisgroupe.com/en/services/services-publicis-media-en -->\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2009-07-03T10:36:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fb2640a3e5fc6395c87a038",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 12,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "id": "6214cc70ee494a045f6adf36",
-          "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "Publicis",
-          "color": "blue",
-          "uses": 1
-        }
-      ],
-      "idLabels": [
-        "6214cc70ee494a045f6adf36"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Work Experience",
-      "pos": 131071,
-      "shortLink": "V9eseLCV",
-      "shortUrl": "https://trello.com/c/V9eseLCV",
-      "start": "2009-06-01T07:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/V9eseLCV/12-work-experience",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
-      },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Work Experience",
-      "hero": false,
-      "type": "learning",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "Realised how I could get paid to design things. Learnt how to use InDesign.",
-        "desc": "<h1 id=\"workexperience\">Work Experience</h1>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>Realised how I could get paid to design things. Learnt how to use InDesign.</p>\n<!-- https://www.publicisgroupe.com/en/services/services-publicis-media-en -->",
-        "pathname": "work-experience",
-        "url": "/learning/work-experience"
-      }
-    },
-    {
       "id": "5fb26430a9be1e2de6e583b7",
       "badges": {
         "attachmentsByType": {
@@ -531,8 +531,8 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": true,
-      "dateLastActivity": "2023-10-18T22:24:08.472Z",
-      "desc": "```\nRealised I wanted to design things for a living. Learnt how to use Photoshop.\n\n---\n\n# BA History\n\n### What did I learn?\n\nRealised I wanted to design things for a living. Learnt how to use Photoshop.\n\n<!-- https://gold.ac.uk -->\n```",
+      "dateLastActivity": "2023-10-26T15:18:03.159Z",
+      "desc": "```\nI began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show.\n\n---\n\n# BA History\n\nI began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.\n\n### What did I learn?\n\nI learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.\n```",
       "descData": {
         "emoji": {}
       },
@@ -582,8 +582,8 @@
       "attachments": [],
       "actions": [],
       "local": {
-        "summary": "Realised I wanted to design things for a living. Learnt how to use Photoshop.",
-        "desc": "<h1 id=\"bahistory\">BA History</h1>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>Realised I wanted to design things for a living. Learnt how to use Photoshop.</p>\n<!-- https://gold.ac.uk -->",
+        "summary": "I began creating design work for friends projects while studying History at Goldsmiths University. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show.",
+        "desc": "<h1 id=\"bahistory\">BA History</h1>\n<p>I began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.</p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>I learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.</p>",
         "pathname": "ba-history",
         "url": "/learning/ba-history"
       }

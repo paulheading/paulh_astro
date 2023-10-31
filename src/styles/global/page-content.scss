@@ -1,0 +1,15 @@
+.page-content {
+  h1 {
+    @include small-down {
+      font-size: $h2-font-size;
+    }
+  }
+
+  h1:only-child {
+    margin-bottom: 0;
+  }
+
+  ul+p {
+    margin-top: 1.25rem;
+  }
+}
