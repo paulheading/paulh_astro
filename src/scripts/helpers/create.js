@@ -99,13 +99,8 @@ function hpu({ src = "", info = "" }) {
 }
 
 function filename(value) {
-  value = value.replace("-", "");
-
-  value = value.replace("&", "");
-
-  value = value.replace(/ /g, "");
-
-  return value;
+  let regex = new RegExp("-", "g");
+  return value.replace(regex, "_");
 }
 
 export default {

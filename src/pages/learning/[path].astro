@@ -25,7 +25,7 @@ const layoutProps = {
   description: local.summary,
 };
 
-let filename = create.filename(name);
+let filename = create.filename(local.pathname);
 
 // @ts-ignore
 const content = galleries[filename];
