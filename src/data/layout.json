@@ -2975,7 +2975,7 @@
             "url": "https://open.spotify.com/artist/3uOdNUjwD6hhOh1z2dQEIn",
             "name": "lau.ra"
           },
-          "popularity": 18,
+          "popularity": 17,
           "release_date": "2020-02-07",
           "url": "https://open.spotify.com/track/5rtAx0XN2V6P0RCkJSAXZ5",
           "name": "Sideways"
@@ -3229,7 +3229,7 @@
             "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
             "name": "Superpoze"
           },
-          "popularity": 23,
+          "popularity": 24,
           "release_date": "2022-03-25",
           "url": "https://open.spotify.com/track/5YKffOovP69vePWQunFDdW",
           "name": "Geneva"
@@ -3275,13 +3275,13 @@
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 182422,
+    "downloads": 182538,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
     "version": "2.17.0",
-    "downloads": 10854,
+    "downloads": 10853,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }
