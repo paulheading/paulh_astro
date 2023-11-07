@@ -4,6 +4,7 @@ import front_end_designer_developer from "~data/galleries/roles/front_end_design
 
 import organising_spaces_with_graphql from "~data/galleries/projects/organising_spaces_with_graphql";
 import moving_orchestras_with_after_effects from "~data/galleries/projects/moving_orchestras_with_after_effects";
+import selling_designer_fabric_with_wordpress from "~data/galleries/projects/selling_designer_fabric_with_wordpress";
 
 export default {
   junior_designer,
@@ -11,4 +12,5 @@ export default {
   front_end_designer_developer,
   moving_orchestras_with_after_effects,
   organising_spaces_with_graphql,
+  selling_designer_fabric_with_wordpress,
 };
