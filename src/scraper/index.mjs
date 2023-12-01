@@ -4,11 +4,11 @@ import getTrelloData from "./trello.js";
 import getSpotifyData from "./spotify.js";
 import getGemData from "./gem.js";
 import getNpmData from "./npm.js";
-import getHashnodeData from "./hashnode.js";
+// import getHashnodeData from "./hashnode.js";
 import getPocketcastsData from "./pocketcasts.js";
 
 async function getLayoutData() {
-  const hashnode = await getHashnodeData();
+  // const hashnode = await getHashnodeData();
   const projects = await getTrelloData("projects");
   const gem = await getGemData();
   const npm = await getNpmData();
@@ -17,7 +17,7 @@ async function getLayoutData() {
 
   return {
     pocketcasts,
-    hashnode,
+    // hashnode,
     projects,
     spotify,
     gem,

@@ -3,6 +3,406 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "8cf48b23-42e6-491e-afc6-c994259fc371",
+        "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/radiolab_podcast/radiolab_podcast120123_boyman.mp3?awCollectionId=15957&awEpisodeId=1388304",
+        "published": "2023-12-01T15:00:00Z",
+        "duration": 3275,
+        "fileType": "audio/mpeg",
+        "title": "Boy Man",
+        "size": "51008000",
+        "playingStatus": 3,
+        "playedUpTo": 3275,
+        "starred": false,
+        "podcastUuid": "f5b97290-0422-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Radiolab",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "WNYC Studios",
+        "bookmarks": []
+      },
+      {
+        "uuid": "a76a4b01-287b-4d33-85ff-5ce8d04c289a",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/11/30-44177-gnl.fw.20231130.jg.a_classic_in_istanbul.mp3",
+        "published": "2023-11-30T12:26:12Z",
+        "duration": 3349,
+        "fileType": "audio/mp3",
+        "title": "A chaotic Istanbul classic and Arsenal’s easy night – Football Weekly Extra",
+        "size": "94468875",
+        "playingStatus": 2,
+        "playedUpTo": 2515,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
+        "uuid": "4a56565b-f50e-4bec-8d36-e0b37d81789b",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/11/27-43722-gnl.fw.20231127.jg.terry_venables_tribute.mp3",
+        "published": "2023-11-27T12:21:17Z",
+        "duration": 3710,
+        "fileType": "audio/mp3",
+        "title": "Arsenal go top and a tribute to Terry Venables – Football Weekly",
+        "size": "102402315",
+        "playingStatus": 2,
+        "playedUpTo": 2819,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
+        "uuid": "61596d64-0539-4b83-950f-6f5777e504c6",
+        "url": "https://sphinx.acast.com/p/acast/s/adambuxton/e/6548a1556905da00123162a2/media.mp3",
+        "published": "2023-11-06T08:18:29Z",
+        "duration": 4898,
+        "fileType": "audio/mp3",
+        "title": "EP.212 - KIRSTY YOUNG",
+        "size": "188970216",
+        "playingStatus": 2,
+        "playedUpTo": 4898,
+        "starred": false,
+        "podcastUuid": "a862d790-3ea8-0133-bdc8-0d11918ab357",
+        "podcastTitle": "THE ADAM BUXTON PODCAST",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "ADAM BUXTON",
+        "bookmarks": []
+      },
+      {
+        "uuid": "71161e1d-1294-4015-85b5-f5f57de6383a",
+        "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/http/vpid/p0gvsp3d.mp3",
+        "published": "2023-11-24T21:20:00Z",
+        "duration": 2802,
+        "fileType": "audio/mp3",
+        "title": "AQ: Guto Harri, Nigel Huddleston MP, Delyth Jewell MS, Jo Stevens MP",
+        "size": "44832000",
+        "playingStatus": 2,
+        "playedUpTo": 1694,
+        "starred": false,
+        "podcastUuid": "66fd3830-b8e3-012e-61d2-00163e1b201c",
+        "podcastTitle": "Any Questions? and Any Answers?",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "BBC Radio 4",
+        "bookmarks": []
+      },
+      {
+        "uuid": "da53886d-8441-4255-850e-48037a5664c6",
+        "url": "https://cdn.simplecast.com/audio/cae8b0eb-d9a9-480d-a652-0defcbe047f4/episodes/ceb38962-9190-4367-a636-cf6e6e454895/audio/d25ff10b-ff24-471a-aa24-550f518607f6/default_tc.mp3?aid=rss_feed&feed=hq7M2S7s",
+        "published": "2023-11-16T06:00:00Z",
+        "duration": 3212,
+        "fileType": "audio/mpeg",
+        "title": "158 | Going Headless with Astro",
+        "size": "38779889",
+        "playingStatus": 2,
+        "playedUpTo": 2634,
+        "starred": false,
+        "podcastUuid": "d488c8e0-7c29-0139-3488-0acc26574db2",
+        "podcastTitle": "COMPRESSEDfm",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 158,
+        "isDeleted": false,
+        "author": "James Q. Quick, Amy Dutton",
+        "bookmarks": []
+      },
+      {
+        "uuid": "ae0032c2-e80f-48d4-9382-82de4b301e7f",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/9f43c700-8321-47d0-a635-c55a167e6734/audio/128/default.mp3?aid=rss_feed&awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&awEpisodeId=9f43c700-8321-47d0-a635-c55a167e6734&feed=xl36XBC2",
+        "published": "2023-11-16T11:10:00Z",
+        "duration": 2930,
+        "fileType": "audio/mpeg",
+        "title": "The Kids of Rutherford County - Ep. 3: Would You Like to Sue the Government?",
+        "size": "45994842",
+        "playingStatus": 3,
+        "playedUpTo": 2930,
+        "starred": false,
+        "podcastUuid": "2f31dfb0-2249-0132-b5ae-5f4c86fd3263",
+        "podcastTitle": "Serial",
+        "episodeType": "full",
+        "episodeSeason": 11,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "Serial Productions & The New York Times",
+        "bookmarks": []
+      },
+      {
+        "uuid": "0d62d3e7-36ef-4e11-a1ae-6f8b873e88b5",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/2ab6d93c-e654-4d23-8477-91928988a90d/audio/128/default.mp3?aid=rss_feed&awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&awEpisodeId=2ab6d93c-e654-4d23-8477-91928988a90d&feed=xl36XBC2",
+        "published": "2023-11-16T11:05:00Z",
+        "duration": 2003,
+        "fileType": "audio/mpeg",
+        "title": "The Kids of Rutherford County - Ep. 2: What the Hell Are You People Doing?",
+        "size": "31536380",
+        "playingStatus": 3,
+        "playedUpTo": 2003,
+        "starred": false,
+        "podcastUuid": "2f31dfb0-2249-0132-b5ae-5f4c86fd3263",
+        "podcastTitle": "Serial",
+        "episodeType": "full",
+        "episodeSeason": 11,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "Serial Productions & The New York Times",
+        "bookmarks": []
+      },
+      {
+        "uuid": "2f22bfa1-8ac5-49a8-9941-c47a5a1d4a7a",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/521189a6-a4f6-404d-85cf-455a989a10a4/episodes/312bc538-452e-40d0-b4dd-86ecde12db65/audio/128/default.mp3?aid=rss_feed&awCollectionId=521189a6-a4f6-404d-85cf-455a989a10a4&awEpisodeId=312bc538-452e-40d0-b4dd-86ecde12db65&feed=xl36XBC2",
+        "published": "2023-11-16T11:00:00Z",
+        "duration": 1766,
+        "fileType": "audio/mpeg",
+        "title": "The Kids of Rutherford County - Ep. 1: The Egregious Video",
+        "size": "26752835",
+        "playingStatus": 2,
+        "playedUpTo": 1661,
+        "starred": false,
+        "podcastUuid": "2f31dfb0-2249-0132-b5ae-5f4c86fd3263",
+        "podcastTitle": "Serial",
+        "episodeType": "full",
+        "episodeSeason": 11,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Serial Productions & The New York Times",
+        "bookmarks": []
+      },
+      {
+        "uuid": "78e8e9a8-1579-41b1-bd2e-590b9c66a15a",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/11/16-51730-gfw161123.mp3",
+        "published": "2023-11-16T14:40:39Z",
+        "duration": 3145,
+        "fileType": "audio/mp3",
+        "title": "Euro 2024 qualifying preview and Man Utd shake-up – Football Weekly Extra",
+        "size": "72306568",
+        "playingStatus": 2,
+        "playedUpTo": 4,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
+        "uuid": "33aa796b-4456-4642-883e-dc2798cda0fb",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/cc4fe808-51bb-489a-9fa7-cf82e0eecd28/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=cc4fe808-51bb-489a-9fa7-cf82e0eecd28&feed=BqbsxVfO",
+        "published": "2023-11-15T02:10:28Z",
+        "duration": 2340,
+        "fileType": "audio/mpeg",
+        "title": "560- Home on the Range",
+        "size": "37546706",
+        "playingStatus": 3,
+        "playedUpTo": 2340,
+        "starred": false,
+        "podcastUuid": "0cc43410-1d2f-012e-0175-00163e1b201c",
+        "podcastTitle": "99% Invisible",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "Roman Mars",
+        "bookmarks": []
+      },
+      {
+        "uuid": "021c17d3-12c4-4035-8c5d-4cf75f2510ac",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP4038112836.mp3?updated=1699998288",
+        "published": "2023-11-15T09:00:00Z",
+        "duration": 1904,
+        "fileType": "audio/mpeg",
+        "title": "The ice cream effect",
+        "size": "0",
+        "playingStatus": 2,
+        "playedUpTo": 962,
+        "starred": false,
+        "podcastUuid": "e7f5ba60-584b-0139-33c5-0acc26574db2",
+        "podcastTitle": "Unexplainable",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Vox",
+        "bookmarks": []
+      },
+      {
+        "uuid": "7362f1e7-217a-4a68-aadc-76dfc3ef9bd3",
+        "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/otm/otm111023_cms1380664_pod.mp3?awCollectionId=398&awEpisodeId=1380664",
+        "published": "2023-11-10T17:00:00Z",
+        "duration": 3167,
+        "fileType": "audio/mpeg",
+        "title": "Trump Coverage is Still Terrible. Plus, Podcasting’s First Boom and Bust",
+        "size": "49696000",
+        "playingStatus": 3,
+        "playedUpTo": 3167,
+        "starred": false,
+        "podcastUuid": "34b07760-0cc4-012e-fb69-00163e1b201c",
+        "podcastTitle": "On the Media",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "WNYC Studios",
+        "bookmarks": []
+      },
+      {
+        "uuid": "5008cd82-de82-4253-9af3-84b467e91bc6",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/11/06-50782-gfw061123.mp3",
+        "published": "2023-11-06T15:34:36Z",
+        "duration": 3561,
+        "fileType": "audio/mp3",
+        "title": "Arsenal feel hard done by and Luton hold Liverpool – Football Weekly",
+        "size": "84739931",
+        "playingStatus": 2,
+        "playedUpTo": 3393,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
+        "uuid": "0911cafd-22af-44e7-b3f3-b214e913faf1",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP1243049328.mp3?updated=1692766581",
+        "published": "2023-08-23T08:00:00Z",
+        "duration": 2234,
+        "fileType": "audio/mpeg",
+        "title": "The Self-Driving Experiment",
+        "size": "0",
+        "playingStatus": 2,
+        "playedUpTo": 1849,
+        "starred": false,
+        "podcastUuid": "2b428d30-65eb-0137-f267-1d245fc5f9cf",
+        "podcastTitle": "Land of the Giants",
+        "episodeType": "full",
+        "episodeSeason": 8,
+        "episodeNumber": 5,
+        "isDeleted": false,
+        "author": "Vox",
+        "bookmarks": []
+      },
+      {
+        "uuid": "dda85bc4-d182-4a84-aa7f-254aa7e85eb0",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP1418893458.mp3?updated=1693363968",
+        "published": "2023-08-30T12:36:00Z",
+        "duration": 1987,
+        "fileType": "audio/mpeg",
+        "title": "The Global Race for EV Adoption",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 1987,
+        "starred": false,
+        "podcastUuid": "2b428d30-65eb-0137-f267-1d245fc5f9cf",
+        "podcastTitle": "Land of the Giants",
+        "episodeType": "full",
+        "episodeSeason": 8,
+        "episodeNumber": 6,
+        "isDeleted": true,
+        "author": "Vox",
+        "bookmarks": []
+      },
+      {
+        "uuid": "720ada6d-94b2-41fb-ba34-23bd3910a795",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP6789431808.mp3?updated=1697566905",
+        "published": "2023-10-17T22:30:00Z",
+        "duration": 177,
+        "fileType": "audio/mpeg",
+        "title": "The Twitter Fantasy",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 177,
+        "starred": false,
+        "podcastUuid": "2b428d30-65eb-0137-f267-1d245fc5f9cf",
+        "podcastTitle": "Land of the Giants",
+        "episodeType": "trailer",
+        "episodeSeason": 9,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "Vox",
+        "bookmarks": []
+      },
+      {
+        "uuid": "1232d96c-c162-47af-8388-c0d7eae7a3df",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP3998816895.mp3?updated=1698208355",
+        "published": "2023-10-25T08:00:00Z",
+        "duration": 2571,
+        "fileType": "audio/mpeg",
+        "title": "What We All Got Wrong About Twitter",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 2571,
+        "starred": false,
+        "podcastUuid": "2b428d30-65eb-0137-f267-1d245fc5f9cf",
+        "podcastTitle": "Land of the Giants",
+        "episodeType": "full",
+        "episodeSeason": 9,
+        "episodeNumber": 1,
+        "isDeleted": true,
+        "author": "Vox",
+        "bookmarks": []
+      },
+      {
+        "uuid": "939cb847-d8d7-4d2c-931c-a416718e9b22",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP4684573121.mp3?updated=1698801157",
+        "published": "2023-11-01T08:00:00Z",
+        "duration": 3006,
+        "fileType": "audio/mpeg",
+        "title": "A Million Different Twitters",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 3006,
+        "starred": false,
+        "podcastUuid": "2b428d30-65eb-0137-f267-1d245fc5f9cf",
+        "podcastTitle": "Land of the Giants",
+        "episodeType": "full",
+        "episodeSeason": 9,
+        "episodeNumber": 2,
+        "isDeleted": true,
+        "author": "Vox",
+        "bookmarks": []
+      },
+      {
+        "uuid": "61fcf6a4-ee74-41b4-bc63-a796943a56d8",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/11/02-46446-gnl.fw.20231102.jg.manchester_united_league_cup_loss.mp3",
+        "published": "2023-11-02T13:02:34Z",
+        "duration": 3357,
+        "fileType": "audio/mp3",
+        "title": "Manchester United and Arsenal crash out of Carabao Cup – Football Weekly Extra",
+        "size": "95784375",
+        "playingStatus": 2,
+        "playedUpTo": 2627,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
         "uuid": "38939fda-5f4a-4aa4-ac0d-c4fe7266201a",
         "url": "https://flex.acast.com/audio.guim.co.uk/2023/10/30-46406-fw.jg.20231030.jg.manchester_city_derby_winners.mp3",
         "published": "2023-10-30T13:22:09Z",
@@ -69,7 +469,7 @@
         "duration": 3855,
         "fileType": "audio/mpeg",
         "title": "563. How to Succeed at Failing, Part 3: Grit vs. Quit",
-        "size": "60705478",
+        "size": "61073282",
         "playingStatus": 3,
         "playedUpTo": 3855,
         "starred": false,
@@ -324,7 +724,7 @@
       },
       {
         "uuid": "e1483f4f-92c9-44d4-89ea-0d96981d88fe",
-        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/21283G/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/c55b2fe5-b673-49d7-82bb-b3dcfad318b0/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=c55b2fe5-b673-49d7-82bb-b3dcfad318b0&feed=kwWc0lhf",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/c55b2fe5-b673-49d7-82bb-b3dcfad318b0/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=c55b2fe5-b673-49d7-82bb-b3dcfad318b0&feed=kwWc0lhf",
         "published": "2023-10-16T19:00:00Z",
         "duration": 2991,
         "fileType": "audio/mpeg",
@@ -1205,7 +1605,7 @@
       {
         "uuid": "e314bf31-41b2-4bd0-8849-cf25bc54f52d",
         "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP8102809630.mp3?updated=1693920621",
-        "published": "2023-09-05T13:58:30Z",
+        "published": "2023-09-05T13:58:00Z",
         "duration": 2868,
         "fileType": "audio/mpeg",
         "title": "All Aboard the Tuna Rollercoaster! Join the King of Fish for a Wild Ride that Involves Ernest Hemingway and (of course) Jane Fonda",
@@ -1244,7 +1644,7 @@
       },
       {
         "uuid": "34fd0e7d-04d1-450b-ba26-0732dfd56e88",
-        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/21283G/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/33a68f76-efe4-4c0b-9182-ab78d00a6c44/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=33a68f76-efe4-4c0b-9182-ab78d00a6c44&feed=kwWc0lhf",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/33a68f76-efe4-4c0b-9182-ab78d00a6c44/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=33a68f76-efe4-4c0b-9182-ab78d00a6c44&feed=kwWc0lhf",
         "published": "2023-09-04T19:00:00Z",
         "duration": 3079,
         "fileType": "audio/mpeg",
@@ -1601,421 +2001,9 @@
         "isDeleted": true,
         "author": "The Guardian",
         "bookmarks": []
-      },
-      {
-        "uuid": "082567e6-44c7-4194-9cd3-6956fda324e0",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP1938070849.mp3?updated=1634778808",
-        "published": "2021-10-21T08:00:00Z",
-        "duration": 1784,
-        "fileType": "audio/mpeg",
-        "title": "The Vacuum",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 1784,
-        "starred": false,
-        "podcastUuid": "b6274870-503c-0137-f266-1d245fc5f9cf",
-        "podcastTitle": "Nice Try!",
-        "episodeType": "full",
-        "episodeSeason": 2,
-        "episodeNumber": 2,
-        "isDeleted": false,
-        "author": "Curbed",
-        "bookmarks": []
-      },
-      {
-        "uuid": "24c42c3d-0350-4df5-abed-5c842179742e",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/14-42586-gnl.fw.20230814.jg.premier_league_returns.mp3",
-        "published": "2023-08-14T12:33:15Z",
-        "duration": 3669,
-        "fileType": "audio/mp3",
-        "title": "Premier League returns with a bang and sanitation issues – Football Weekly",
-        "size": "101658138",
-        "playingStatus": 2,
-        "playedUpTo": 2604,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "25b85f59-a8b6-4485-8134-023cb2fd8528",
-        "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/http/vpid/p0g69b6f.mp3",
-        "published": "2023-08-11T23:02:00Z",
-        "duration": 2791,
-        "fileType": "audio/mp3",
-        "title": "AQ: Sir Ben Bradshaw MP, George Monbiot, Selaine Saxby MP, Olivia Utley",
-        "size": "44656000",
-        "playingStatus": 3,
-        "playedUpTo": 2791,
-        "starred": false,
-        "podcastUuid": "66fd3830-b8e3-012e-61d2-00163e1b201c",
-        "podcastTitle": "Any Questions? and Any Answers?",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "BBC Radio 4",
-        "bookmarks": []
-      },
-      {
-        "uuid": "bb822054-5875-4a08-bc7d-6c68ff07b368",
-        "url": "http://dts.podtrac.com/redirect.mp3/static1.squarespace.com/static/594027566b8f5b6f0abad495/t/5bec5084562fa7b00abddd12/1542213815558/Anna-Katrina+Shedletsky_mixdown.mp3/original/Anna-Katrina+Shedletsky_mixdown.mp3",
-        "published": "2018-11-16T16:52:23Z",
-        "duration": 3635,
-        "fileType": "audio/mp3",
-        "title": "s02e09 - Anna Shedletsky, Instrumental",
-        "size": "28959939",
-        "playingStatus": 2,
-        "playedUpTo": 57,
-        "starred": false,
-        "podcastUuid": "47e14270-34dc-0135-52f9-452518e2d253",
-        "podcastTitle": "The Prepared",
-        "episodeType": "full",
-        "episodeSeason": 2,
-        "episodeNumber": 9,
-        "isDeleted": false,
-        "author": "theprepared.org",
-        "bookmarks": []
-      },
-      {
-        "uuid": "06e81e9a-ca38-4b41-af65-4b1b9e1fee1c",
-        "url": "https://feeds.soundcloud.com/stream/1592392827-front-end-happy-hour-episode-177-css-cascading-sips-of-sangria.mp3",
-        "published": "2023-08-14T00:12:02Z",
-        "duration": 3772,
-        "fileType": "audio/mp3",
-        "title": "Episode 177 - CSS - Cascading Sips of Sangria",
-        "size": "60352887",
-        "playingStatus": 2,
-        "playedUpTo": 3546,
-        "starred": false,
-        "podcastUuid": "019e5770-c346-0133-2e8b-6dc413d6d41d",
-        "podcastTitle": "Front End Happy Hour",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Front End Happy Hour",
-        "bookmarks": []
-      },
-      {
-        "uuid": "4df72432-aad9-4079-bb7d-53f2f632fce1",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/11-74572-Tifchannel.mp3",
-        "published": "2023-08-14T02:00:02Z",
-        "duration": 1984,
-        "fileType": "audio/mp3",
-        "title": "Uncovering the truth of the Nazi occupation of the Channel Islands",
-        "size": "44046232",
-        "playingStatus": 2,
-        "playedUpTo": 8,
-        "starred": false,
-        "podcastUuid": "4064a170-ba4a-0136-7b93-27f978dac4db",
-        "podcastTitle": "Today in Focus",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "ef71536f-3bd6-4036-beab-239aa90e71e5",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP2414867561.mp3?updated=1691699570",
-        "published": "2023-08-14T05:00:00Z",
-        "duration": 1665,
-        "fileType": "audio/mpeg",
-        "title": "Esther Calling- I Want Her to Like Me Less",
-        "size": "0",
-        "playingStatus": 3,
-        "playedUpTo": 1665,
-        "starred": false,
-        "podcastUuid": "7be8e0e0-1e33-0135-52f8-452518e2d253",
-        "podcastTitle": "Where Should We Begin? with Esther Perel",
-        "episodeType": "full",
-        "episodeSeason": 6,
-        "episodeNumber": 6,
-        "isDeleted": true,
-        "author": "Esther Perel Global Media",
-        "bookmarks": []
-      },
-      {
-        "uuid": "2d8a1e56-8cfb-4646-ab9b-3cb5f45f8bdd",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/12-70531-gdn.fw.230812.ds.feed_drop_Lionesses_meet_Matildas.mp3",
-        "published": "2023-08-12T20:17:59Z",
-        "duration": 2778,
-        "fileType": "audio/mp3",
-        "title": "Women’s Football Weekly: Lionesses to face Matildas in semi-final clash",
-        "size": "64512001",
-        "playingStatus": 2,
-        "playedUpTo": 158,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "40dbea18-f5e7-40b8-85c9-7cb07630bfd2",
-        "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/radiolab_podcast/radiolab_podcast081123_internetdilemmav2.mp3?awCollectionId=15957&awEpisodeId=1350836",
-        "published": "2023-08-11T14:00:00Z",
-        "duration": 2316,
-        "fileType": "audio/mpeg",
-        "title": "The Internet Dilemma",
-        "size": "35664000",
-        "playingStatus": 2,
-        "playedUpTo": 2291,
-        "starred": false,
-        "podcastUuid": "f5b97290-0422-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Radiolab",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "WNYC Studios",
-        "bookmarks": []
-      },
-      {
-        "uuid": "74de9af2-fe6b-4f72-9385-1f7db4e798fc",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/verifi.podscribe.com/rss/p/chtbl.com/track/28D492/traffic.megaphone.fm/SLT1524903719.mp3?updated=1691536306",
-        "published": "2023-08-09T07:00:00Z",
-        "duration": 2497,
-        "fileType": "audio/mpeg",
-        "title": "Think Catchphrases Are Dead? Eat My Shorts.",
-        "size": "0",
-        "playingStatus": 3,
-        "playedUpTo": 2497,
-        "starred": false,
-        "podcastUuid": "c782b050-2bb7-0136-c266-7d73a919276a",
-        "podcastTitle": "Decoder Ring",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "Slate Podcasts",
-        "bookmarks": []
-      },
-      {
-        "uuid": "3129b593-3808-41e9-9c9b-049581104cd0",
-        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/8f14d0e1-b1ec-4acf-b9d7-08dcac6295f2/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=8f14d0e1-b1ec-4acf-b9d7-08dcac6295f2&feed=BqbsxVfO",
-        "published": "2023-08-08T22:02:09Z",
-        "duration": 2106,
-        "fileType": "audio/mpeg",
-        "title": "548- Trail Mix",
-        "size": "33822272",
-        "playingStatus": 3,
-        "playedUpTo": 2106,
-        "starred": false,
-        "podcastUuid": "0cc43410-1d2f-012e-0175-00163e1b201c",
-        "podcastTitle": "99% Invisible",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "Roman Mars",
-        "bookmarks": []
-      },
-      {
-        "uuid": "0c5c6e40-ecc6-4a11-9ea8-b9eef492237e",
-        "url": "https://pdst.fm/e/chtbl.com/track/1F1B1F/traffic.megaphone.fm/WSJ7320932237.mp3?updated=1691526966",
-        "published": "2023-08-08T20:24:00Z",
-        "duration": 846,
-        "fileType": "audio/mpeg",
-        "title": "Why Millions of Chinese Young People Are Unemployed",
-        "size": "0",
-        "playingStatus": 3,
-        "playedUpTo": 846,
-        "starred": false,
-        "podcastUuid": "472f9970-773b-0137-f268-1d245fc5f9cf",
-        "podcastTitle": "The Journal.",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Wall Street Journal & Gimlet",
-        "bookmarks": []
-      },
-      {
-        "uuid": "c8051d6a-f0fa-4cdb-ba55-fb43989e6b83",
-        "url": "https://chtbl.com/track/39E17/podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/0f1283e2-80fe-460b-b157-ae3900375d38/a182689c-1e5c-4df8-a053-b03f0121542b/audio.mp3?utm_source=Podcast&in_playlist=d548f2c1-d522-4aa8-9ff3-ae3900375d41",
-        "published": "2023-08-08T04:00:00Z",
-        "duration": 2846,
-        "fileType": "audio/mpeg",
-        "title": "Best Of: Amanda Knox Wants Us to Move On",
-        "size": "42711889",
-        "playingStatus": 2,
-        "playedUpTo": 76,
-        "starred": false,
-        "podcastUuid": "91ad2930-8b18-0139-34f1-0acc26574db2",
-        "podcastTitle": "A Slight Change of Plans",
-        "episodeType": "bonus",
-        "episodeSeason": 1,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Pushkin Industries",
-        "bookmarks": []
-      },
-      {
-        "uuid": "54bb15b6-e17b-4e3a-964c-c9b9d3a011c7",
-        "url": "https://sphinx.acast.com/p/acast/s/the-tortoise-podcast/e/64d10a162c5bd600129a4174/media.mp3",
-        "published": "2023-08-08T05:00:14Z",
-        "duration": 2661,
-        "fileType": "audio/mp3",
-        "title": "Johnny Depp: the great uncancelling",
-        "size": "101979440",
-        "playingStatus": 3,
-        "playedUpTo": 2661,
-        "starred": false,
-        "podcastUuid": "459c40a0-e7a0-0137-b6e4-0acc26574db2",
-        "podcastTitle": "The Slow Newscast",
-        "episodeType": "full",
-        "episodeSeason": 1,
-        "episodeNumber": 220,
-        "isDeleted": true,
-        "author": "Tortoise Media",
-        "bookmarks": []
-      },
-      {
-        "uuid": "83034cac-d19e-4342-88ca-414b76f5ea71",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/04-66310-20230807TIFburnout.mp3",
-        "published": "2023-08-07T02:00:27Z",
-        "duration": 1585,
-        "fileType": "audio/mp3",
-        "title": "How can we escape burnout? | Podcast",
-        "size": "42299808",
-        "playingStatus": 2,
-        "playedUpTo": 1555,
-        "starred": false,
-        "podcastUuid": "4064a170-ba4a-0136-7b93-27f978dac4db",
-        "podcastTitle": "Today in Focus",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "2fda979f-9cb3-4923-9f54-6ded886fb406",
-        "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/http/vpid/p0g4y4n9.mp3",
-        "published": "2023-08-04T20:20:00Z",
-        "duration": 2790,
-        "fileType": "audio/mp3",
-        "title": "AQ: Jamie Driscoll, Richard Holden MP, Alison McGovern MP, Jill Rutter",
-        "size": "44640000",
-        "playingStatus": 3,
-        "playedUpTo": 2790,
-        "starred": false,
-        "podcastUuid": "66fd3830-b8e3-012e-61d2-00163e1b201c",
-        "podcastTitle": "Any Questions? and Any Answers?",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "BBC Radio 4",
-        "bookmarks": []
-      },
-      {
-        "uuid": "5117eb58-0410-4d83-9706-04400f21bf35",
-        "url": "https://pdst.fm/e/chtbl.com/track/1F1B1F/traffic.megaphone.fm/WSJ3599565524.mp3?updated=1691179522",
-        "published": "2023-08-04T20:00:00Z",
-        "duration": 1052,
-        "fileType": "audio/mpeg",
-        "title": "After 99 Years, Yellow Heads for Bankruptcy. What Went Wrong?",
-        "size": "0",
-        "playingStatus": 3,
-        "playedUpTo": 1052,
-        "starred": false,
-        "podcastUuid": "472f9970-773b-0137-f268-1d245fc5f9cf",
-        "podcastTitle": "The Journal.",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Wall Street Journal & Gimlet",
-        "bookmarks": []
-      },
-      {
-        "uuid": "82c21f0b-7e64-44ba-9ac7-a2d435ba92cd",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/02-70804-TIFSunak.mp3",
-        "published": "2023-08-03T02:00:31Z",
-        "duration": 1894,
-        "fileType": "audio/mp3",
-        "title": "Rishi Sunak’s anti-green gamble",
-        "size": "39615339",
-        "playingStatus": 3,
-        "playedUpTo": 1894,
-        "starred": false,
-        "podcastUuid": "4064a170-ba4a-0136-7b93-27f978dac4db",
-        "podcastTitle": "Today in Focus",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "a25c5e27-1b49-4a51-98f9-bbb17631b78a",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP5639094893.mp3?updated=1691077621",
-        "published": "2023-08-04T08:00:00Z",
-        "duration": 2941,
-        "fileType": "audio/mpeg",
-        "title": "Episode 230: The Perfectionists",
-        "size": "0",
-        "playingStatus": 3,
-        "playedUpTo": 2941,
-        "starred": false,
-        "podcastUuid": "39897570-6d94-0131-7809-723c91aeae46",
-        "podcastTitle": "Criminal",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "Vox Media Podcast Network",
-        "bookmarks": []
-      },
-      {
-        "uuid": "ea2d84ec-9b86-473e-b08b-8feee1045299",
-        "url": "https://pdst.fm/e/chtbl.com/track/1F1B1F/traffic.megaphone.fm/WSJ3790300865.mp3?updated=1691093123",
-        "published": "2023-08-03T20:00:00Z",
-        "duration": 1026,
-        "fileType": "audio/mpeg",
-        "title": "How Allbirds Lost Its Footing",
-        "size": "0",
-        "playingStatus": 3,
-        "playedUpTo": 1026,
-        "starred": false,
-        "podcastUuid": "472f9970-773b-0137-f268-1d245fc5f9cf",
-        "podcastTitle": "The Journal.",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Wall Street Journal & Gimlet",
-        "bookmarks": []
       }
     ]
   },
-  "hashnode": [
-    {
-      "title": "Designing account areas in Vue.js",
-      "brief": "I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the Barbican, an arts centre in London.\n\nThe Project\nIn February 2020, we redesigned the account dashboard for users of the Barbican t...",
-      "slug": "designing-account-areas-in-vuejs"
-    },
-    {
-      "title": "Organising spaces with GraphQL [1]",
-      "brief": "I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the Barbican, an arts centre in London.\n\nThe Project\nMake a browser-based app for people who work at the Barbican and want to book/see...",
-      "slug": "organising-spaces-with-graphql-1"
-    }
-  ],
   "projects": [
     {
       "id": "606d70215309533eec28564a",
@@ -2883,11 +2871,11 @@
       ],
       "name": "2020 => 10",
       "owner": {
-        "name": "pheading86",
+        "name": "Paul Heading",
         "url": "https://open.spotify.com/user/pheading86"
       },
       "primary_color": null,
-      "public": false,
+      "public": true,
       "snapshot_id": "NTYsMjBhZDMzZDZkYjFlYzliNGVhZDU0YWNkMWYxNTY0NWMzNjRkYjY3Mw==",
       "tracks": [
         {
@@ -2915,7 +2903,7 @@
             "url": "https://open.spotify.com/artist/1GFkwGetxvXluztDxPShGo",
             "name": "Rina Mushonga"
           },
-          "popularity": 42,
+          "popularity": 40,
           "release_date": "2019-02-15",
           "url": "https://open.spotify.com/track/3OyedWlIaMQWvx1qAiILAA",
           "name": "Narcisc0"
@@ -2925,7 +2913,7 @@
             "url": "https://open.spotify.com/artist/7LTSTQkL7iK7zndjFQgHQo",
             "name": "O'Flynn"
           },
-          "popularity": 31,
+          "popularity": 30,
           "release_date": "2019-09-06",
           "url": "https://open.spotify.com/track/1SMLoRfenhQJjL4fbimctZ",
           "name": "Aletheia"
@@ -2945,7 +2933,7 @@
             "url": "https://open.spotify.com/artist/1ooAqaFu4Ac3BO2HpL4V2R",
             "name": "Henrik Schwarz"
           },
-          "popularity": 30,
+          "popularity": 29,
           "release_date": "2020-03-20",
           "url": "https://open.spotify.com/track/7GA49BEANCELzwyBxQVxU1",
           "name": "Come Together"
@@ -2965,7 +2953,7 @@
             "url": "https://open.spotify.com/artist/6aRJP31fKBf0jbvb6qYAGt",
             "name": "Iftin Band"
           },
-          "popularity": 14,
+          "popularity": 15,
           "release_date": "2019-12-13",
           "url": "https://open.spotify.com/track/2l8davPIbbdn8BxYgbkwtP",
           "name": "Sirmaqabe - No Secrets"
@@ -2975,7 +2963,7 @@
             "url": "https://open.spotify.com/artist/3uOdNUjwD6hhOh1z2dQEIn",
             "name": "lau.ra"
           },
-          "popularity": 17,
+          "popularity": 16,
           "release_date": "2020-02-07",
           "url": "https://open.spotify.com/track/5rtAx0XN2V6P0RCkJSAXZ5",
           "name": "Sideways"
@@ -2993,7 +2981,7 @@
       ],
       "type": "playlist",
       "uri": "spotify:playlist:3BlVHgMeYX01HMh4eIe5n3",
-      "profile": "https://open.spotify.com/user/pheading86",
+      "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/3BlVHgMeYX01HMh4eIe5n3",
       "image": "https://mosaic.scdn.co/640/ab67616d0000b27313d6c82dec0fb2b710ad4d27ab67616d0000b2734eb5d168c3d3fbb96ba6ec8fab67616d0000b2739bb74b4058c40a59fd33bf26ab67616d0000b273eec05a19db1f69581760fb88"
     },
@@ -3009,27 +2997,27 @@
       "images": [
         {
           "height": 640,
-          "url": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273c45d9bd6bb6ff4075fdbe5e0",
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273e46072802ddb3fd6c4793722",
           "width": 640
         },
         {
           "height": 300,
-          "url": "https://mosaic.scdn.co/300/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273c45d9bd6bb6ff4075fdbe5e0",
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273e46072802ddb3fd6c4793722",
           "width": 300
         },
         {
           "height": 60,
-          "url": "https://mosaic.scdn.co/60/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273c45d9bd6bb6ff4075fdbe5e0",
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273e46072802ddb3fd6c4793722",
           "width": 60
         }
       ],
       "name": "2021 => 10",
       "owner": {
-        "name": "pheading86",
+        "name": "Paul Heading",
         "url": "https://open.spotify.com/user/pheading86"
       },
       "primary_color": null,
-      "public": false,
+      "public": true,
       "snapshot_id": "MTQxLDE4NmViMjhlYjdlYmI3Yjc0MDlmMWViODI1MDU0ZjFiZTk0MzQzZTc=",
       "tracks": [
         {
@@ -3037,7 +3025,7 @@
             "url": "https://open.spotify.com/artist/6nbtlXRy0S6adYpDVoRdNi",
             "name": "Anna B Savage"
           },
-          "popularity": 22,
+          "popularity": 21,
           "release_date": "2021-01-29",
           "url": "https://open.spotify.com/track/4oUBPVqmxoP5u9HeXLU6To",
           "name": "Corncrakes"
@@ -3067,7 +3055,7 @@
             "url": "https://open.spotify.com/artist/4GZ18L0i6k1mxAjo3GzINM",
             "name": "Lou Hayter"
           },
-          "popularity": 19,
+          "popularity": 10,
           "release_date": "2021-05-28",
           "url": "https://open.spotify.com/track/2nJGzWo4AL574tQCvPaS9z",
           "name": "My Baby Just Cares for Me"
@@ -3077,7 +3065,7 @@
             "url": "https://open.spotify.com/artist/6SsTlCsuCYleNza6xGwynu",
             "name": "Agnes"
           },
-          "popularity": 47,
+          "popularity": 46,
           "release_date": "2021-10-22",
           "url": "https://open.spotify.com/track/7f0SiAYG8XjOoQyfGvgbLA",
           "name": "Fingers Crossed"
@@ -3097,7 +3085,7 @@
             "url": "https://open.spotify.com/artist/0Dy94lW3txJhWQHqNXP1BT",
             "name": "Laura Mvula"
           },
-          "popularity": 39,
+          "popularity": 37,
           "release_date": "2021-07-02",
           "url": "https://open.spotify.com/track/32YlBIj8qDpyXgsLJ4MfwR",
           "name": "Got Me"
@@ -3107,7 +3095,7 @@
             "url": "https://open.spotify.com/artist/4gQsGkfdB4uVrNBqo4MhmI",
             "name": "LUMP"
           },
-          "popularity": 19,
+          "popularity": 18,
           "release_date": "2021-05-05",
           "url": "https://open.spotify.com/track/6fcJI9qrH0vr9EYxjpQdaM",
           "name": "Animal - Edit"
@@ -3127,7 +3115,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 30,
+          "popularity": 29,
           "release_date": "2021-10-01",
           "url": "https://open.spotify.com/track/56CpzZPbczcpj3WGu2KYZ9",
           "name": "The Doll"
@@ -3135,9 +3123,9 @@
       ],
       "type": "playlist",
       "uri": "spotify:playlist:50LzfPmB6f0wAZULsP8wzp",
-      "profile": "https://open.spotify.com/user/pheading86",
+      "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/50LzfPmB6f0wAZULsP8wzp",
-      "image": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273c45d9bd6bb6ff4075fdbe5e0"
+      "image": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273e46072802ddb3fd6c4793722"
     },
     "_2022": {
       "collaborative": false,
@@ -3157,11 +3145,11 @@
       ],
       "name": "2022 => 10",
       "owner": {
-        "name": "pheading86",
+        "name": "Paul Heading",
         "url": "https://open.spotify.com/user/pheading86"
       },
       "primary_color": null,
-      "public": false,
+      "public": true,
       "snapshot_id": "ODAsYjMyMzczYWY2NzkxMTgxMzNkMWY4OTU1ZWQxM2FhNTFlZGVlNzNkZg==",
       "tracks": [
         {
@@ -3169,7 +3157,7 @@
             "url": "https://open.spotify.com/artist/4rqegcqfzES4oBRh4n8TM1",
             "name": "Ezéchiel Pailhès"
           },
-          "popularity": 44,
+          "popularity": 42,
           "release_date": "2022-10-07",
           "url": "https://open.spotify.com/track/2k9B3ifvsmef8V8L73BawX",
           "name": "Mélopée"
@@ -3179,7 +3167,7 @@
             "url": "https://open.spotify.com/artist/370nbSkMB9kDWyTypwWYak",
             "name": "Haruomi Hosono"
           },
-          "popularity": 30,
+          "popularity": 29,
           "release_date": "1978",
           "url": "https://open.spotify.com/track/6EN8xSFfwNPy3W3BD4hCLH",
           "name": "SPORTS MEN (2018 Yoshinori Sunahara Remastering)"
@@ -3219,7 +3207,7 @@
             "url": "https://open.spotify.com/artist/0uAnwMXg0tsGQsOdVwudkb",
             "name": "Colourbox"
           },
-          "popularity": 32,
+          "popularity": 34,
           "release_date": "1985-08-12",
           "url": "https://open.spotify.com/track/3RlGLTcM9OwrAA0ErwJ2rA",
           "name": "The Moon Is Blue"
@@ -3229,7 +3217,7 @@
             "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
             "name": "Superpoze"
           },
-          "popularity": 24,
+          "popularity": 23,
           "release_date": "2022-03-25",
           "url": "https://open.spotify.com/track/5YKffOovP69vePWQunFDdW",
           "name": "Geneva"
@@ -3239,7 +3227,7 @@
             "url": "https://open.spotify.com/artist/6Jrxnp0JgqmeUX1veU591p",
             "name": "Santigold"
           },
-          "popularity": 46,
+          "popularity": 45,
           "release_date": "2022-09-09",
           "url": "https://open.spotify.com/track/1vbayZm5FgNe4ou8BRNiDq",
           "name": "High Priestess"
@@ -3249,7 +3237,7 @@
             "url": "https://open.spotify.com/artist/0RwXnFrEoI8tltFvYpJgP6",
             "name": "Confidence Man"
           },
-          "popularity": 51,
+          "popularity": 49,
           "release_date": "2022-04-01",
           "url": "https://open.spotify.com/track/53wnscuzFnH8jaGymzqgfi",
           "name": "Holiday"
@@ -3259,7 +3247,7 @@
             "url": "https://open.spotify.com/artist/6RQoLyY1nkArRcNc3sE86m",
             "name": "Ora the Molecule"
           },
-          "popularity": 26,
+          "popularity": 24,
           "release_date": "2021-07-23",
           "url": "https://open.spotify.com/track/0vydtoDOsW0qRhmFEHdyTT",
           "name": "Creator"
@@ -3267,21 +3255,223 @@
       ],
       "type": "playlist",
       "uri": "spotify:playlist:2uGfm83zVuJGUfUFy8xnq7",
-      "profile": "https://open.spotify.com/user/pheading86",
+      "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/2uGfm83zVuJGUfUFy8xnq7",
       "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbaec19d00d18a627f927663d1"
-    }
+    },
+    "_2023": {
+      "collaborative": false,
+      "description": "some songs i discovered this year. thems the rules.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/62m9CBpzOUaVbRU9UAbiaY"
+      },
+      "followers": 2,
+      "href": "https://api.spotify.com/v1/playlists/62m9CBpzOUaVbRU9UAbiaY",
+      "id": "62m9CBpzOUaVbRU9UAbiaY",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2bfb13aaa9ae0871b9bf5fd1",
+          "width": null
+        }
+      ],
+      "name": "2023 => 10",
+      "owner": {
+        "name": "Paul Heading",
+        "url": "https://open.spotify.com/user/pheading86"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NTEsOTU5OTUzZmIzNmJkYWM5YzU2NjIyMmI5NDJhNTJiZjA2MmYxM2ExYg==",
+      "tracks": [
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/5gMXwFotLyxnc0usqNgk5J",
+            "name": "Stephen Shannon"
+          },
+          "popularity": 34,
+          "release_date": "2023-05-19",
+          "url": "https://open.spotify.com/track/2ieQh3HGdx34e6tvfKvobi",
+          "name": "Eyot"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/1HvH97rzvCH6lfnLlgyfke",
+            "name": "Genesis Owusu"
+          },
+          "popularity": 50,
+          "release_date": "2022-10-22",
+          "url": "https://open.spotify.com/track/4Og0uXMYqouN7xOQ7u8jiW",
+          "name": "Get Inspired"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
+            "name": "audiobooks"
+          },
+          "popularity": 23,
+          "release_date": "2023-02-20",
+          "url": "https://open.spotify.com/track/46PG96cJ6QF9Agy7Pu5BQb",
+          "name": "Burnt Pictures"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/2d2ElnqC2cMPp7zcSyv3yG",
+            "name": "PVA"
+          },
+          "popularity": 34,
+          "release_date": "2022-10-14",
+          "url": "https://open.spotify.com/track/1mfv1mksVTGW1Nroabjt1u",
+          "name": "Hero Man"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/3QX8CTn1znpY0HF3hbnNye",
+            "name": "Haiku Hands"
+          },
+          "popularity": 31,
+          "release_date": "2023-05-08",
+          "url": "https://open.spotify.com/track/5eGOxe4PEFgSZFcwB8GEUI",
+          "name": "Nunchucka"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/0U8TMcc0dtsUMFjft5DcGG",
+            "name": "Will Powers"
+          },
+          "popularity": 24,
+          "release_date": "1983-01-01",
+          "url": "https://open.spotify.com/track/5TJg8fY39cD0RNh1JfKmvh",
+          "name": "Dancing For Mental Health"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/5QsqiLFA5Z2gmpKBbxQB2j",
+            "name": "Hak Baker"
+          },
+          "popularity": 38,
+          "release_date": "2023-06-09",
+          "url": "https://open.spotify.com/track/5C8EA3slynaIYe65TGltEg",
+          "name": "DOOLALLY"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/0vsByTdAyygALhiGzUGVab",
+            "name": "Baby Dave"
+          },
+          "popularity": 28,
+          "release_date": "2022-04-22",
+          "url": "https://open.spotify.com/track/0PX6sHmMFFOpqkysQlvwRV",
+          "name": "Gen Z Baby"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/3cePP77CX6XY9b0aigzrqh",
+            "name": "BC Camplight"
+          },
+          "popularity": 38,
+          "release_date": "2023-05-12",
+          "url": "https://open.spotify.com/track/0AyKKF4K1lV33LtP40tYlV",
+          "name": "Kicking Up A Fuss"
+        },
+        {
+          "artist": {
+            "url": "https://open.spotify.com/artist/0Cc6v6tsUT1FktqPQYXME3",
+            "name": "Virginia Astley"
+          },
+          "popularity": 21,
+          "release_date": "1986-01-01",
+          "url": "https://open.spotify.com/track/6EcATCFBm1bRBdsQNfwdHT",
+          "name": "Some Small Hope"
+        }
+      ],
+      "type": "playlist",
+      "uri": "spotify:playlist:62m9CBpzOUaVbRU9UAbiaY",
+      "profile": "https://open.spotify.com/user/Paul Heading",
+      "url": "https://open.spotify.com/playlist/62m9CBpzOUaVbRU9UAbiaY",
+      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2bfb13aaa9ae0871b9bf5fd1"
+    },
+    "_year": [
+      {
+        "artist": "Phoria",
+        "name": "S.U.Y.B"
+      },
+      {
+        "artist": "abracadabra",
+        "name": "at the zoo"
+      },
+      {
+        "artist": "audiobooks",
+        "name": "Burnt Pictures"
+      },
+      {
+        "artist": "Stephen Shannon",
+        "name": "Eyot"
+      },
+      {
+        "artist": "Oracle Sisters",
+        "name": "RBH"
+      },
+      {
+        "artist": "Hak Baker",
+        "name": "DOOLALLY"
+      },
+      {
+        "artist": "Haiku Hands",
+        "name": "Nunchucka"
+      },
+      {
+        "artist": "HÆLOS",
+        "name": "Quietus"
+      },
+      {
+        "artist": "A Winged Victory for the Sullen",
+        "name": "The Slow Descent Has Begun"
+      },
+      {
+        "artist": "BC Camplight",
+        "name": "Kicking Up A Fuss"
+      },
+      {
+        "artist": "En Attendant Ana",
+        "name": "Wonder"
+      },
+      {
+        "artist": "Blur",
+        "name": "The Narcissist"
+      },
+      {
+        "artist": "Jessie Ware",
+        "name": "Free Yourself"
+      },
+      {
+        "artist": "The Orb",
+        "name": "living in recycled times"
+      },
+      {
+        "artist": "James Yorkston",
+        "name": "Hold Out For Love"
+      },
+      {
+        "artist": "The Chemical Brothers",
+        "name": "No Reason"
+      },
+      {
+        "artist": "Jungle",
+        "name": "Candle Flame"
+      }
+    ]
   },
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 182538,
+    "downloads": 183723,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
     "version": "2.17.0",
-    "downloads": 10853,
+    "downloads": 10598,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

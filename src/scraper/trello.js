@@ -87,7 +87,7 @@ async function processCard(card, list) {
   return card;
 }
 
-getTrello.cards = async (list, type) => {
+getTrello.cards = async function (list, type) {
   var cards = await getTrello.JSON(string.cards(list), type);
 
   if (!cards.length) return [];

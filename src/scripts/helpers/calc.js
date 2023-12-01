@@ -25,12 +25,16 @@ function summary_length(dueComplete, due, start) {
   return months + " " + label;
 }
 
+function trim_pixels(value) {
+  return value.slice(0, -2);
+}
+
 function inner_width(styles) {
   let { width, paddingLeft, paddingRight } = styles;
 
-  let trimPx = (value) => value.slice(0, -2);
-
-  return trimPx(width) - trimPx(paddingLeft) - trimPx(paddingRight);
+  return (
+    trim_pixels(width) - trim_pixels(paddingLeft) - trim_pixels(paddingRight)
+  );
 }
 
 export default { summary_length, inner_width };
