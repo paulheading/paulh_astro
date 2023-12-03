@@ -21,7 +21,7 @@ In early 2018 I decided to retrain as a developer, studying alongside my full-ti
 - <a href="https://github.com/paulheading/TreehouseTaskNine">REST API</a>
 - <a href="https://github.com/paulheading/TreehouseTaskTen">Full Stack App with React and REST API</a>
 
-### Why did I sign-up?
+### Why did I sign up?
 
 I retrained for 2 reasons:
 

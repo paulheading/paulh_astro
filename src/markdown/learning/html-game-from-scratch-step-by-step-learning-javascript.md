@@ -6,8 +6,8 @@ Learn how to <a href="https://www.udemy.com/course/understand-javascript/">creat
 
 Learn how to <a href="https://www.udemy.com/course/understand-javascript/">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.
 
-### Why did I sign-up?
+### Why did I sign up?
 
 Making games is fun! And this is a great way to learn the language.
 
-[########] 80% Complete
+[##########] 100% Complete

@@ -3,6 +3,46 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "c1db1da2-e44b-44b2-8bd3-7c8bafb2a974",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP4793032921.mp3?updated=1701380558",
+        "published": "2023-12-01T09:00:00Z",
+        "duration": 3279,
+        "fileType": "audio/mpeg",
+        "title": "Episode 246: The Kit",
+        "size": "0",
+        "playingStatus": 2,
+        "playedUpTo": 2693,
+        "starred": false,
+        "podcastUuid": "39897570-6d94-0131-7809-723c91aeae46",
+        "podcastTitle": "Criminal",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Vox Media Podcast Network",
+        "bookmarks": []
+      },
+      {
+        "uuid": "9a195020-3cfd-41e7-bb3a-fcb83a425037",
+        "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/http/vpid/p0gx5kxz.mp3",
+        "published": "2023-12-01T21:20:00Z",
+        "duration": 2807,
+        "fileType": "audio/mp3",
+        "title": "AQ: John Caudwell, Jess Phillips MP, Graham Stuart MP, Jeanette Winterson",
+        "size": "44912000",
+        "playingStatus": 3,
+        "playedUpTo": 2807,
+        "starred": false,
+        "podcastUuid": "66fd3830-b8e3-012e-61d2-00163e1b201c",
+        "podcastTitle": "Any Questions? and Any Answers?",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "BBC Radio 4",
+        "bookmarks": []
+      },
+      {
         "uuid": "8cf48b23-42e6-491e-afc6-c994259fc371",
         "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/radiolab_podcast/radiolab_podcast120123_boyman.mp3?awCollectionId=15957&awEpisodeId=1388304",
         "published": "2023-12-01T15:00:00Z",
@@ -18,7 +58,7 @@
         "episodeType": "full",
         "episodeSeason": 0,
         "episodeNumber": 0,
-        "isDeleted": false,
+        "isDeleted": true,
         "author": "WNYC Studios",
         "bookmarks": []
       },
@@ -1961,46 +2001,6 @@
         "isDeleted": true,
         "author": "Slate Podcasts",
         "bookmarks": []
-      },
-      {
-        "uuid": "6df6e68e-4385-43fa-b29e-21460e971bdf",
-        "url": "https://dts.podtrac.com/redirect.mp3/static1.squarespace.com/static/594027566b8f5b6f0abad495/t/5be9e15b4d7a9c5e1e0182c6/1542054259642/Toyota+City+with+Lucas+Lappe_mixdown.mp3/original/Toyota+City+with+Lucas+Lappe_mixdown.mp3",
-        "published": "2018-11-12T20:30:42Z",
-        "duration": 1983,
-        "fileType": "audio/mp3",
-        "title": "A visit to Toyota City",
-        "size": "15806103",
-        "playingStatus": 2,
-        "playedUpTo": 97,
-        "starred": false,
-        "podcastUuid": "47e14270-34dc-0135-52f9-452518e2d253",
-        "podcastTitle": "The Prepared",
-        "episodeType": "full",
-        "episodeSeason": 2,
-        "episodeNumber": 8,
-        "isDeleted": false,
-        "author": "theprepared.org",
-        "bookmarks": []
-      },
-      {
-        "uuid": "ab68284d-28f2-46fa-9b6c-0cf684da262d",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/21-41463-gnl.fw.20230821.jg.heartbreak_for_england_angeball_the_real_deal.mp3",
-        "published": "2023-08-21T13:12:34Z",
-        "duration": 3736,
-        "fileType": "audio/mp3",
-        "title": "Lionesses fly home while Spurs 2.0 blossom under Angeball - Football Weekly podcast",
-        "size": "105007195",
-        "playingStatus": 3,
-        "playedUpTo": 3736,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
       }
     ]
   },
@@ -3197,7 +3197,7 @@
             "url": "https://open.spotify.com/artist/6CZhbpXpR3VJNQWFkwd2Ic",
             "name": "Noé Preszow"
           },
-          "popularity": 33,
+          "popularity": 34,
           "release_date": "2022-03-18",
           "url": "https://open.spotify.com/track/6sqYnu5QuI8e1JwxlbwFs4",
           "name": "Faire les choses bien - Version alternative"
@@ -3217,7 +3217,7 @@
             "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
             "name": "Superpoze"
           },
-          "popularity": 23,
+          "popularity": 24,
           "release_date": "2022-03-25",
           "url": "https://open.spotify.com/track/5YKffOovP69vePWQunFDdW",
           "name": "Geneva"
@@ -3237,7 +3237,7 @@
             "url": "https://open.spotify.com/artist/0RwXnFrEoI8tltFvYpJgP6",
             "name": "Confidence Man"
           },
-          "popularity": 49,
+          "popularity": 50,
           "release_date": "2022-04-01",
           "url": "https://open.spotify.com/track/53wnscuzFnH8jaGymzqgfi",
           "name": "Holiday"
@@ -3299,7 +3299,7 @@
             "url": "https://open.spotify.com/artist/1HvH97rzvCH6lfnLlgyfke",
             "name": "Genesis Owusu"
           },
-          "popularity": 50,
+          "popularity": 51,
           "release_date": "2022-10-22",
           "url": "https://open.spotify.com/track/4Og0uXMYqouN7xOQ7u8jiW",
           "name": "Get Inspired"
@@ -3319,7 +3319,7 @@
             "url": "https://open.spotify.com/artist/2d2ElnqC2cMPp7zcSyv3yG",
             "name": "PVA"
           },
-          "popularity": 34,
+          "popularity": 35,
           "release_date": "2022-10-14",
           "url": "https://open.spotify.com/track/1mfv1mksVTGW1Nroabjt1u",
           "name": "Hero Man"
@@ -3349,7 +3349,7 @@
             "url": "https://open.spotify.com/artist/5QsqiLFA5Z2gmpKBbxQB2j",
             "name": "Hak Baker"
           },
-          "popularity": 38,
+          "popularity": 39,
           "release_date": "2023-06-09",
           "url": "https://open.spotify.com/track/5C8EA3slynaIYe65TGltEg",
           "name": "DOOLALLY"
@@ -3359,7 +3359,7 @@
             "url": "https://open.spotify.com/artist/0vsByTdAyygALhiGzUGVab",
             "name": "Baby Dave"
           },
-          "popularity": 28,
+          "popularity": 29,
           "release_date": "2022-04-22",
           "url": "https://open.spotify.com/track/0PX6sHmMFFOpqkysQlvwRV",
           "name": "Gen Z Baby"
@@ -3465,13 +3465,13 @@
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 183723,
+    "downloads": 183862,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
     "version": "2.17.0",
-    "downloads": 10598,
+    "downloads": 10601,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }
