@@ -2,16 +2,29 @@
 import Windows from "~components/Desktop/Windows.astro";
 import Folders from "~components/Desktop/Folders.astro";
 
-const group = (title, folders = [], state = false) => ({
-  state: state ? "open" : "closed",
-  folders,
-  title,
-});
+interface Folder {
+  state: String;
+  title: String;
+}
 
-const folder = (title, state = false) => ({
-  state: state ? "open" : "closed",
-  title,
-});
+function folder(title: String, state = false): Folder {
+  return {
+    state: state ? "open" : "closed",
+    title,
+  };
+}
+
+interface Group extends Folder {
+  folders: Array<Group>;
+}
+
+function group(title: String, folders = [], state = false): Group {
+  return {
+    state: state ? "open" : "closed",
+    folders,
+    title,
+  };
+}
 
 const folders = [
   group("trello", [], true),
