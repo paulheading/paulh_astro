@@ -24,19 +24,19 @@ function draggableSubfolder(folder) {
 }
 
 function draggableWindow(window) {
-  // let isSpotify = window.getAttribute("data-group") == "spotify";
+  let isSpotify = window.getAttribute("data-group") == "spotify";
 
-  // if (isSpotify) {
-  //   let target = window.querySelector("header");
+  if (isSpotify) {
+    let trigger = window.querySelector("header");
 
-  //   return Draggable.create(target);
-  // }
+    return Draggable.create(window, { trigger });
+  }
 
   return Draggable.create(window);
 }
 
 function setupDraggables() {
-  // forEach($.windows, draggableWindow);
+  forEach($.windows, draggableWindow);
 
   forEach($.folders, draggableSubfolder);
 }
