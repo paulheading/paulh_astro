@@ -36,7 +36,7 @@ function draggableWindow(window) {
 }
 
 function setupDraggables() {
-  forEach($.windows, draggableWindow);
+  // forEach($.windows, draggableWindow);
 
   forEach($.folders, draggableSubfolder);
 }
