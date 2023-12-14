@@ -44,12 +44,18 @@ create.summary = function (target) {
  */
 create.desc = (target) => create.snippet(target, 1);
 
-create.type = (target) => {
-  const { pages, roles, projects, learning } = list;
-  if (target == pages) return "page";
-  if (target == roles) return "role";
+/**
+ * @todo streamline process below
+ */
+
+create.type = function (target) {
+  const { projects, roles, learning, articles } = list;
+
   if (target == projects) return "project";
+  if (target == roles) return "role";
   if (target == learning) return "learning";
+  if (target == articles) return "article";
+
   return "unknown";
 };
 
