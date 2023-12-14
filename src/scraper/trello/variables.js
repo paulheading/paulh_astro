@@ -4,11 +4,10 @@ const id = {
 };
 
 const list = {
-  pages: process.env.TRELLO_LIST_PAGES,
-  hero: process.env.TRELLO_LIST_HERO,
   projects: process.env.TRELLO_LIST_PROJECTS,
   roles: process.env.TRELLO_LIST_ROLES,
   learning: process.env.TRELLO_LIST_LEARNING,
+  articles: process.env.TRELLO_LIST_ARTICLES,
 };
 
 const api = {

@@ -3,6 +3,186 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "f3041371-660f-42d3-a31b-e9aea92688e1",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/efa6fbd6-80b7-4cba-b844-e4f8abcda213/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=efa6fbd6-80b7-4cba-b844-e4f8abcda213&feed=BqbsxVfO",
+        "published": "2023-12-13T01:09:58Z",
+        "duration": 2191,
+        "fileType": "audio/mpeg",
+        "title": "563- Empire of the Sum",
+        "size": "32460987",
+        "playingStatus": 2,
+        "playedUpTo": 1908,
+        "starred": false,
+        "podcastUuid": "0cc43410-1d2f-012e-0175-00163e1b201c",
+        "podcastTitle": "99% Invisible",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Roman Mars",
+        "bookmarks": []
+      },
+      {
+        "uuid": "2666eb70-a83a-4ff8-8ee1-280f75ca6145",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/12/11-43821-gnl.fw.20231211.jg.cherries_sound_crisis_klaxon.mp3",
+        "published": "2023-12-11T12:19:52Z",
+        "duration": 3932,
+        "fileType": "audio/mp3",
+        "title": "Manchester United lurch back into crisis and are Villa in title race? - Football Weekly",
+        "size": "104929146",
+        "playingStatus": 2,
+        "playedUpTo": 1611,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
+        "uuid": "ea71daa5-8d68-4716-8caf-5d64f64d0570",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP1703449749.mp3?updated=1701983816",
+        "published": "2023-12-08T09:00:00Z",
+        "duration": 2023,
+        "fileType": "audio/mpeg",
+        "title": "Episode 247: Send Her to the Island",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 2023,
+        "starred": false,
+        "podcastUuid": "39897570-6d94-0131-7809-723c91aeae46",
+        "podcastTitle": "Criminal",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "Vox Media Podcast Network",
+        "bookmarks": []
+      },
+      {
+        "uuid": "ebf15664-127b-4ef8-acca-46bec7cf5564",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/8fa63ecf-1c46-4794-8b67-e218f4b12d4c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=8fa63ecf-1c46-4794-8b67-e218f4b12d4c&feed=BqbsxVfO",
+        "published": "2023-12-05T21:53:57Z",
+        "duration": 2897,
+        "fileType": "audio/mpeg",
+        "title": "562- Breaking Down The Power Broker (with Conan O'Brien)",
+        "size": "44307510",
+        "playingStatus": 2,
+        "playedUpTo": 2897,
+        "starred": false,
+        "podcastUuid": "0cc43410-1d2f-012e-0175-00163e1b201c",
+        "podcastTitle": "99% Invisible",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Roman Mars",
+        "bookmarks": []
+      },
+      {
+        "uuid": "0bc7240d-f4ba-4fd2-bbbd-bb2f4faefeaa",
+        "url": "https://sphinx.acast.com/p/acast/s/adambuxton/e/656f675bf43b7c0011596951/media.mp3",
+        "published": "2023-12-05T18:09:31Z",
+        "duration": 5225,
+        "fileType": "audio/mp3",
+        "title": "EP.216 - JOE LYCETT",
+        "size": "197217579",
+        "playingStatus": 2,
+        "playedUpTo": 4995,
+        "starred": false,
+        "podcastUuid": "a862d790-3ea8-0133-bdc8-0d11918ab357",
+        "podcastTitle": "THE ADAM BUXTON PODCAST",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "ADAM BUXTON",
+        "bookmarks": []
+      },
+      {
+        "uuid": "b1b2eb77-daf2-4a03-8660-763a9e6ea884",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/636863f7-ddad-494d-b49f-5d7d0410cba8/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=636863f7-ddad-494d-b49f-5d7d0410cba8&feed=kwWc0lhf",
+        "published": "2023-12-04T20:00:00Z",
+        "duration": 2964,
+        "fileType": "audio/mpeg",
+        "title": "The Mystery of Beauty",
+        "size": "47110957",
+        "playingStatus": 2,
+        "playedUpTo": 2964,
+        "starred": false,
+        "podcastUuid": "7868f900-21de-0133-2464-059c869cc4eb",
+        "podcastTitle": "Hidden Brain",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Hidden Brain, Shankar Vedantam",
+        "bookmarks": []
+      },
+      {
+        "uuid": "a3c8e8a2-35ac-464c-bf09-ff8121cb1d1c",
+        "url": "https://pfx.vpixl.com/6qj4J/dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/bbbcc290-ed3b-44a2-8e5d-5513e38cfe20/episodes/ab6d4bf5-4935-4f1a-9ff9-075f23b14f47/audio/128/default.mp3?awCollectionId=bbbcc290-ed3b-44a2-8e5d-5513e38cfe20&awEpisodeId=ab6d4bf5-4935-4f1a-9ff9-075f23b14f47",
+        "published": "2023-12-03T23:00:00Z",
+        "duration": 3574,
+        "fileType": "audio/mpeg",
+        "title": "817: The Cavalry Is Not Coming",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 3830,
+        "starred": false,
+        "podcastUuid": "3782b780-0bc5-012e-fb02-00163e1b201c",
+        "podcastTitle": "This American Life",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "This American Life",
+        "bookmarks": []
+      },
+      {
+        "uuid": "5e584f78-2d18-4941-8a49-19fa5462639a",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/12/04-53803-gfw041223.mp3",
+        "published": "2023-12-04T15:15:07Z",
+        "duration": 3494,
+        "fileType": "audio/mp3",
+        "title": "Goals galore on a thrilling weekend in the Premier League – Football Weekly",
+        "size": "81315611",
+        "playingStatus": 2,
+        "playedUpTo": 2639,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
+        "uuid": "88bf1b65-ae45-4716-86d5-1387724c42a7",
+        "url": "https://play.podtrac.com/npr-510298/traffic.megaphone.fm/NPR8315780226.mp3?d=3057&size=48927182&e=1198908266&t=podcast&p=510298",
+        "published": "2023-12-01T08:00:59Z",
+        "duration": 3124,
+        "fileType": "audio/mpeg",
+        "title": "For All Eternity",
+        "size": "48927182",
+        "playingStatus": 2,
+        "playedUpTo": 900,
+        "starred": false,
+        "podcastUuid": "052df5e0-72b8-012f-1d57-525400c11844",
+        "podcastTitle": "TED Radio Hour",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 563,
+        "isDeleted": false,
+        "author": "NPR",
+        "bookmarks": []
+      },
+      {
         "uuid": "c1db1da2-e44b-44b2-8bd3-7c8bafb2a974",
         "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP4793032921.mp3?updated=1701380558",
         "published": "2023-12-01T09:00:00Z",
@@ -11,7 +191,7 @@
         "title": "Episode 246: The Kit",
         "size": "0",
         "playingStatus": 2,
-        "playedUpTo": 2693,
+        "playedUpTo": 2796,
         "starred": false,
         "podcastUuid": "39897570-6d94-0131-7809-723c91aeae46",
         "podcastTitle": "Criminal",
@@ -1821,186 +2001,6 @@
         "isDeleted": true,
         "author": "Vox",
         "bookmarks": []
-      },
-      {
-        "uuid": "eef83fa2-bcc9-4560-aded-6d136a184b7a",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/29-42732-gnl.fw.20230829.jg.luis_rubiales_what_now.mp3",
-        "published": "2023-08-29T12:03:02Z",
-        "duration": 3399,
-        "fileType": "audio/mp3",
-        "title": "Luis Rubiales and Spain: what happens now? – Football Weekly",
-        "size": "97097596",
-        "playingStatus": 2,
-        "playedUpTo": 3397,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "cbddf298-432c-48a9-b8b5-ea3cd131ffda",
-        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/ee64761e-2cc7-4a58-a06a-ec353feac2be/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=ee64761e-2cc7-4a58-a06a-ec353feac2be&feed=BqbsxVfO",
-        "published": "2023-08-22T23:45:23Z",
-        "duration": 3086,
-        "fileType": "audio/mpeg",
-        "title": "550- Melanie Speaks",
-        "size": "48536948",
-        "playingStatus": 2,
-        "playedUpTo": 3086,
-        "starred": false,
-        "podcastUuid": "0cc43410-1d2f-012e-0175-00163e1b201c",
-        "podcastTitle": "99% Invisible",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "Roman Mars",
-        "bookmarks": []
-      },
-      {
-        "uuid": "da351d7c-9d47-42d0-b183-9bbcf006bf57",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/28-40129-gnl.fw.20230828.jg.darwin_at_the_double.mp3",
-        "published": "2023-08-28T11:26:52Z",
-        "duration": 3695,
-        "fileType": "audio/mp3",
-        "title": "Darwin at the double and Everton already in trouble – Football Weekly",
-        "size": "104559913",
-        "playingStatus": 3,
-        "playedUpTo": 3695,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "1cc05b06-db1a-4211-a42e-c1f393d375b1",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP5092797032.mp3?updated=1692900656",
-        "published": "2023-08-25T08:00:00Z",
-        "duration": 1922,
-        "fileType": "audio/mpeg",
-        "title": "Episode 233: Iceland Noir",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 712,
-        "starred": false,
-        "podcastUuid": "39897570-6d94-0131-7809-723c91aeae46",
-        "podcastTitle": "Criminal",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Vox Media Podcast Network",
-        "bookmarks": []
-      },
-      {
-        "uuid": "70ab1592-f8bb-4d2a-857e-ce5b62b3c151",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP1069988022.mp3?updated=1692737959",
-        "published": "2023-08-23T08:00:00Z",
-        "duration": 2038,
-        "fileType": "audio/mpeg",
-        "title": "Jumping the gun",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 1278,
-        "starred": false,
-        "podcastUuid": "e7f5ba60-584b-0139-33c5-0acc26574db2",
-        "podcastTitle": "Unexplainable",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Vox",
-        "bookmarks": []
-      },
-      {
-        "uuid": "afb6239c-b398-4036-a48e-e5cc4e720f21",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/08/18-58268-20230818TIFconspiracy.mp3",
-        "published": "2023-08-18T02:00:36Z",
-        "duration": 2157,
-        "fileType": "audio/mp3",
-        "title": "The wellness-to-conspiracy pipeline",
-        "size": "52957540",
-        "playingStatus": 3,
-        "playedUpTo": 2157,
-        "starred": false,
-        "podcastUuid": "4064a170-ba4a-0136-7b93-27f978dac4db",
-        "podcastTitle": "Today in Focus",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "e4bdfed3-1422-4a44-a877-6b50d85350ad",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/verifi.podscribe.com/rss/p/chtbl.com/track/28D492/traffic.megaphone.fm/SLT7780200446.mp3?updated=1683670311",
-        "published": "2023-05-10T07:00:00Z",
-        "duration": 2358,
-        "fileType": "audio/mpeg",
-        "title": "Who Owns the Tooth Fairy?",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 77,
-        "starred": false,
-        "podcastUuid": "c782b050-2bb7-0136-c266-7d73a919276a",
-        "podcastTitle": "Decoder Ring",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Slate Podcasts",
-        "bookmarks": []
-      },
-      {
-        "uuid": "34eb15f9-6c9c-4553-92db-32ff077db8d8",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/verifi.podscribe.com/rss/p/chtbl.com/track/28D492/traffic.megaphone.fm/SLT4564455697.mp3?updated=1690830124",
-        "published": "2023-08-02T07:00:00Z",
-        "duration": 2617,
-        "fileType": "audio/mpeg",
-        "title": "The Quest for a Homemade Hovercraft",
-        "size": "0",
-        "playingStatus": 3,
-        "playedUpTo": 2617,
-        "starred": false,
-        "podcastUuid": "c782b050-2bb7-0136-c266-7d73a919276a",
-        "podcastTitle": "Decoder Ring",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "Slate Podcasts",
-        "bookmarks": []
-      },
-      {
-        "uuid": "e200e77e-0f73-4d23-a404-9e7c6abaaaf4",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/verifi.podscribe.com/rss/p/chtbl.com/track/28D492/traffic.megaphone.fm/SLT1264102102.mp3?updated=1689115757",
-        "published": "2023-07-12T07:00:00Z",
-        "duration": 2609,
-        "fileType": "audio/mpeg",
-        "title": "The Great Parmesan Cheese Debate",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 30,
-        "starred": false,
-        "podcastUuid": "c782b050-2bb7-0136-c266-7d73a919276a",
-        "podcastTitle": "Decoder Ring",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "Slate Podcasts",
-        "bookmarks": []
       }
     ]
   },
@@ -2032,7 +2032,7 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-10-19T21:42:47.630Z",
+      "dateLastActivity": "2023-12-14T00:15:19.872Z",
       "desc": "```\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n---\n\n# Organising Spaces with GraphQL\n\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n### Can I see it?\n\nUnfortunately not, it's only available for Barbican staff at [dev.event.barbican.org.uk](https://dev.event.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paulh.biz/organising-spaces-with-graphql-1) on [my blog](https://blog.paulh.biz).\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue 3](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 💾 Consuming data from the [Barbican](https://barbican.org.uk) [GraphQL](https://graphql.org) feed.\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThis project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the [Barbican](https://barbican.org.uk) to use.\n\nWe're using [GraphQL](https://graphql.org) to pull data from the original system, and are using [Vue.js](https://vuejs.org) to present a more intuitive view of everything that is happening at the centre.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
       "descData": {
         "emoji": {}
@@ -2056,13 +2056,6 @@
           "uses": 8
         },
         {
-          "id": "64b80eedd3cb846ab0943db4",
-          "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "Vue.js",
-          "color": null,
-          "uses": 2
-        },
-        {
           "id": "64b80f73bdf98a4131949e44",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "GraphQL",
@@ -2072,7 +2065,6 @@
       ],
       "idLabels": [
         "5fb002b2cdabcf46c03cf423",
-        "64b80eedd3cb846ab0943db4",
         "64b80f73bdf98a4131949e44"
       ],
       "manualCoverAttachment": false,
@@ -2344,7 +2336,7 @@
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Node.js",
           "color": null,
-          "uses": 1
+          "uses": 2
         }
       ],
       "idLabels": [
@@ -2620,7 +2612,7 @@
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Vue.js",
           "color": null,
-          "uses": 2
+          "uses": 1
         }
       ],
       "idLabels": [
@@ -2769,19 +2761,19 @@
         "comments": 0,
         "attachments": 0,
         "description": true,
-        "due": null,
-        "dueComplete": false,
+        "due": "2023-11-01T00:13:00.000Z",
+        "dueComplete": true,
         "start": "2017-01-01T08:00:00.000Z"
       },
       "checkItemStates": [],
       "closed": false,
-      "dueComplete": false,
-      "dateLastActivity": "2023-10-23T07:20:44.805Z",
+      "dueComplete": true,
+      "dateLastActivity": "2023-12-14T00:13:43.038Z",
       "desc": "```\nCreate & brand an online shop for [36 Bourne Street](https://36bournestreet.com) in [Wordpress](https://wordpress.com). The shop sells leather and fabric on the [Pimlico Road](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).\n\n---\n\n# Selling designer fabric with Wordpress\n\nCreate & brand an online shop for [36 Bourne Street](https://36bournestreet.com) in [Wordpress](https://wordpress.com). The shop sells leather and fabric on the [Pimlico Road](https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district).\n\n### Can I see it?\n\nSure, it's at [36bournestreet.com](https://www.36bournestreet.com)\n\nThe code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/BourneSt).\n\n### How much did you do?\n\nPretty much everything, which includes:\n\n- 💻 Building a child theme for [Wordpress](https://wordpress.com/)\n- 🎨 Designing the layouts with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThe handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a [CMS](https://www.wpbeginner.com/glossary/content-management-system-cms), using [template partials in Wordpress](https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps) and building functionality with the [Advanced Custom Fields](https://www.advancedcustomfields.com) plugin.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
       "descData": {
         "emoji": {}
       },
-      "due": null,
+      "due": "2023-11-01T00:13:00.000Z",
       "dueReminder": -1,
       "email": null,
       "idBoard": "5fb002b217fa6a2ca13512f7",
@@ -2839,6 +2831,306 @@
         "desc": "<h1 id=\"sellingdesignerfabricwithwordpress\">Selling designer fabric with Wordpress</h1>\n<p>Create &amp; brand an online shop for <a href=\"https://36bournestreet.com\">36 Bourne Street</a> in <a href=\"https://wordpress.com\">Wordpress</a>. The shop sells leather and fabric on the <a href=\"https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district\">Pimlico Road</a>.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.36bournestreet.com\">36bournestreet.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/BourneSt\">repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building a child theme for <a href=\"https://wordpress.com/\">Wordpress</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a <a href=\"https://www.wpbeginner.com/glossary/content-management-system-cms\">CMS</a>, using <a href=\"https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps\">template partials in Wordpress</a> and building functionality with the <a href=\"https://www.advancedcustomfields.com\">Advanced Custom Fields</a> plugin.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
         "pathname": "selling-designer-fabric-with-wordpress",
         "url": "/project/selling-designer-fabric-with-wordpress"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "6578ecd13b9fa1a8e46d32a5",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2023-08-14T07:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-12-13T23:22:57.731Z",
+      "desc": "```\n<a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n---\n\n# The Git and Github Bootcamp\n\n<a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n### Why did I sign up?\n\nI use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.\n\n[##] 20% Complete\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "6578dd2b55a9d13ed2e4417a",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 40,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "657a3bf3e732229c71b93de4",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Politics",
+          "color": "#6dc4e0",
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "657a3bf3e732229c71b93de4"
+      ],
+      "manualCoverAttachment": false,
+      "name": "The Git & Github Bootcamp",
+      "pos": 98304,
+      "shortLink": "ZnuBQ03R",
+      "shortUrl": "https://trello.com/c/ZnuBQ03R",
+      "start": "2023-08-14T07:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/ZnuBQ03R/40-the-git-github-bootcamp",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "The Git & Github Bootcamp",
+      "hero": false,
+      "type": "unknown",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Master the essentials and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!",
+        "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
+        "pathname": "the-git-github-bootcamp",
+        "url": "/unknown/the-git-github-bootcamp"
+      }
+    },
+    {
+      "id": "6578ecd9573ab2c9b71a7a0c",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2016-03-11T13:19:00.000Z",
+        "dueComplete": true,
+        "start": "2013-03-13T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": true,
+      "dateLastActivity": "2023-12-13T23:23:12.860Z",
+      "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n---\n\n# Junior Designer\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 📺 Creating plasma trailers with Adobe After Effects\n- 🚀 Animating online advertising with Adobe Photoshop\n- 🎨 Designing layouts and concepts with Sketch\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": "2016-03-11T13:19:00.000Z",
+      "dueReminder": -1,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "6578dd2b55a9d13ed2e4417a",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 41,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "657a3c7a286f4a101c6447e8",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Ideas",
+          "color": "#94c749",
+          "uses": 1
+        }
+      ],
+      "idLabels": [
+        "657a3c7a286f4a101c6447e8"
+      ],
+      "manualCoverAttachment": false,
+      "name": "Junior Designer",
+      "pos": 163840,
+      "shortLink": "DnIvulhs",
+      "shortUrl": "https://trello.com/c/DnIvulhs",
+      "start": "2013-03-13T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/DnIvulhs/41-junior-designer",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Junior Designer",
+      "hero": false,
+      "type": "unknown",
+      "attachments": [],
+      "actions": [
+        {
+          "id": "6578ece2ee9b1abf8f04826d",
+          "idMemberCreator": "5574934f557c7e43e5d2e79d",
+          "data": {
+            "card": {
+              "idList": "6578dd2b55a9d13ed2e4417a",
+              "id": "6578ecd9573ab2c9b71a7a0c",
+              "name": "Junior Designer",
+              "idShort": 41,
+              "shortLink": "DnIvulhs"
+            },
+            "old": {
+              "idList": "5fcfcf0ce3266a31c9d16d38"
+            },
+            "board": {
+              "id": "5fb002b217fa6a2ca13512f7",
+              "name": "paulhbiz",
+              "shortLink": "8vcIHf18"
+            },
+            "listBefore": {
+              "id": "5fcfcf0ce3266a31c9d16d38",
+              "name": "Roles"
+            },
+            "listAfter": {
+              "id": "6578dd2b55a9d13ed2e4417a",
+              "name": "Articles"
+            }
+          },
+          "appCreator": null,
+          "type": "updateCard",
+          "date": "2023-12-12T23:29:38.760Z",
+          "limits": null,
+          "memberCreator": {
+            "id": "5574934f557c7e43e5d2e79d",
+            "activityBlocked": false,
+            "avatarHash": "28b9c186889ae1176a9aea1068476541",
+            "avatarUrl": "https://trello-members.s3.amazonaws.com/5574934f557c7e43e5d2e79d/28b9c186889ae1176a9aea1068476541",
+            "fullName": "paulheading",
+            "idMemberReferrer": null,
+            "initials": "P",
+            "nonPublic": {},
+            "nonPublicAvailable": true,
+            "username": "2943b0d3aebcc533c0762432a742d0d7"
+          }
+        }
+      ],
+      "local": {
+        "summary": "I worked in the Barbican Design Studio designing digital content for marketing campaigns.",
+        "desc": "<h1 id=\"juniordesigner\">Junior Designer</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/paul-heading\">Barbican Design Studio</a> designing digital content for marketing campaigns.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>",
+        "pathname": "junior-designer",
+        "url": "/unknown/junior-designer"
+      }
+    },
+    {
+      "id": "6578ecf1a1612cb39d9efd18",
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": "2020-11-02T08:00:00.000Z"
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2023-12-13T17:49:39.847Z",
+      "desc": "```\nBuild the [Barbican Reset](https://www.npmjs.com/package/barbican-reset). An [NPM package](https://docs.npmjs.com/about-packages-and-modules) that can be used across the [Barbican's](https://barbican.org.uk) many digital products to provide consistent styling and functionality.\n\n---\n\n# Resetting the Barbican with Node.js\n\nBuild the [Barbican Reset](https://www.npmjs.com/package/barbican-reset). An [NPM package](https://docs.npmjs.com/about-packages-and-modules) that can be used across the [Barbican's](https://barbican.org.uk) many digital products to provide consistent styling and functionality.\n\n### Can I see it?\n\nSure, it's at [npmjs.com/package/barbican-reset](https://www.npmjs.com/package/barbican-reset)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly. But feel free to download the [Barbican Reset](https://www.npmjs.com/package/barbican-reset) and review the production code.\n\n### How much did you do?\n\nPretty much everything, which includes:\n\n- 💻 Building the package for [NPM](https://www.npmjs.com/)\n- 💡 Creating components for [Vue.js](https://vuejs.org)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThis was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.\n\n### What needs improving?\n\n- **Compatibility** 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": null,
+      "idBoard": "5fb002b217fa6a2ca13512f7",
+      "idChecklists": [],
+      "idList": "6578dd2b55a9d13ed2e4417a",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 42,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "64b80fa76e02b0365160d280",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Node.js",
+          "color": null,
+          "uses": 2
+        }
+      ],
+      "idLabels": [
+        "64b80fa76e02b0365160d280"
+      ],
+      "manualCoverAttachment": true,
+      "name": "Resetting the Barbican with Node.js",
+      "pos": 180224,
+      "shortLink": "JoOSdyiV",
+      "shortUrl": "https://trello.com/c/JoOSdyiV",
+      "start": "2020-11-02T08:00:00.000Z",
+      "subscribed": false,
+      "url": "https://trello.com/c/JoOSdyiV/42-resetting-the-barbican-with-nodejs",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "marquee": "Resetting the Barbican with Node.js",
+      "hero": false,
+      "type": "unknown",
+      "attachments": [],
+      "actions": [],
+      "local": {
+        "summary": "Build the Barbican Reset. An NPM package that can be used across the Barbican's many digital products to provide consistent styling and functionality.",
+        "desc": "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building the package for <a href=\"https://www.npmjs.com/\">NPM</a></li>\n<li>💡 Creating components for <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "pathname": "resetting-the-barbican-with-nodejs",
+        "url": "/unknown/resetting-the-barbican-with-nodejs"
       }
     }
   ],
@@ -2903,7 +3195,7 @@
             "url": "https://open.spotify.com/artist/1GFkwGetxvXluztDxPShGo",
             "name": "Rina Mushonga"
           },
-          "popularity": 40,
+          "popularity": 43,
           "release_date": "2019-02-15",
           "url": "https://open.spotify.com/track/3OyedWlIaMQWvx1qAiILAA",
           "name": "Narcisc0"
@@ -3055,7 +3347,7 @@
             "url": "https://open.spotify.com/artist/4GZ18L0i6k1mxAjo3GzINM",
             "name": "Lou Hayter"
           },
-          "popularity": 10,
+          "popularity": 8,
           "release_date": "2021-05-28",
           "url": "https://open.spotify.com/track/2nJGzWo4AL574tQCvPaS9z",
           "name": "My Baby Just Cares for Me"
@@ -3157,7 +3449,7 @@
             "url": "https://open.spotify.com/artist/4rqegcqfzES4oBRh4n8TM1",
             "name": "Ezéchiel Pailhès"
           },
-          "popularity": 42,
+          "popularity": 43,
           "release_date": "2022-10-07",
           "url": "https://open.spotify.com/track/2k9B3ifvsmef8V8L73BawX",
           "name": "Mélopée"
@@ -3177,10 +3469,10 @@
             "url": "https://open.spotify.com/artist/3I3Fz1DeUY0icXFvOjbXm7",
             "name": "Methyl Ethel"
           },
-          "popularity": 35,
+          "popularity": 36,
           "release_date": "2022-02-18",
           "url": "https://open.spotify.com/track/4QI59IbUG9W8oUo4gWoBxw",
-          "name": "Proof (feat. Stella Donnelly)"
+          "name": "Proof"
         },
         {
           "artist": {
@@ -3197,7 +3489,7 @@
             "url": "https://open.spotify.com/artist/6CZhbpXpR3VJNQWFkwd2Ic",
             "name": "Noé Preszow"
           },
-          "popularity": 34,
+          "popularity": 35,
           "release_date": "2022-03-18",
           "url": "https://open.spotify.com/track/6sqYnu5QuI8e1JwxlbwFs4",
           "name": "Faire les choses bien - Version alternative"
@@ -3217,7 +3509,7 @@
             "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
             "name": "Superpoze"
           },
-          "popularity": 24,
+          "popularity": 23,
           "release_date": "2022-03-25",
           "url": "https://open.spotify.com/track/5YKffOovP69vePWQunFDdW",
           "name": "Geneva"
@@ -3282,14 +3574,14 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTEsOTU5OTUzZmIzNmJkYWM5YzU2NjIyMmI5NDJhNTJiZjA2MmYxM2ExYg==",
+      "snapshot_id": "NTQsY2M1MzBkMzBiMGJhNTA5YzNiYjFhNzIxMTExYzNjNDU0NDJjYzA0MQ==",
       "tracks": [
         {
           "artist": {
             "url": "https://open.spotify.com/artist/5gMXwFotLyxnc0usqNgk5J",
             "name": "Stephen Shannon"
           },
-          "popularity": 34,
+          "popularity": 33,
           "release_date": "2023-05-19",
           "url": "https://open.spotify.com/track/2ieQh3HGdx34e6tvfKvobi",
           "name": "Eyot"
@@ -3329,7 +3621,7 @@
             "url": "https://open.spotify.com/artist/3QX8CTn1znpY0HF3hbnNye",
             "name": "Haiku Hands"
           },
-          "popularity": 31,
+          "popularity": 30,
           "release_date": "2023-05-08",
           "url": "https://open.spotify.com/track/5eGOxe4PEFgSZFcwB8GEUI",
           "name": "Nunchucka"
@@ -3359,20 +3651,20 @@
             "url": "https://open.spotify.com/artist/0vsByTdAyygALhiGzUGVab",
             "name": "Baby Dave"
           },
-          "popularity": 29,
+          "popularity": 30,
           "release_date": "2022-04-22",
           "url": "https://open.spotify.com/track/0PX6sHmMFFOpqkysQlvwRV",
           "name": "Gen Z Baby"
         },
         {
           "artist": {
-            "url": "https://open.spotify.com/artist/3cePP77CX6XY9b0aigzrqh",
-            "name": "BC Camplight"
+            "url": "https://open.spotify.com/artist/1iX0eIvL5iHnaDny7BBtWH",
+            "name": "Headache"
           },
-          "popularity": 38,
-          "release_date": "2023-05-12",
-          "url": "https://open.spotify.com/track/0AyKKF4K1lV33LtP40tYlV",
-          "name": "Kicking Up A Fuss"
+          "popularity": 44,
+          "release_date": "2023-05-31",
+          "url": "https://open.spotify.com/track/1MPtLlyuB1X78TeammWxy9",
+          "name": "The Beginning of the End"
         },
         {
           "artist": {
@@ -3465,13 +3757,13 @@
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 183862,
+    "downloads": 184379,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
-    "version": "2.17.0",
-    "downloads": 10601,
+    "version": "2.16.1",
+    "downloads": 11704,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

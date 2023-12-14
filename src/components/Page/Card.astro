@@ -7,21 +7,22 @@ import Label from "~components/Label.astro";
 import Name from "~components/Page/Card/Name.astro";
 import Summary from "~components/Page/Card/Summary.astro";
 
-let { card, index } = Astro.props;
+import type { label } from "~types/card";
+
+let { card, index, countTime = false } = Astro.props;
+
 let { name, labels, dueComplete, local, start, due } = card;
-let primary = labels.filter(({ color }) => color)[0].color;
+
+let primary = labels.filter(({ color }: label) => color);
+
+primary = primary.length ? primary[0].color : "black";
 
 const containerProps = {
   class: "container",
+  style: {},
 };
 
 if (index >= 3) containerProps.style = { display: "none" };
-
-start = DateTime.fromISO(start);
-
-due = DateTime.fromISO(due);
-
-const length = calc.summary_length(dueComplete, due, start);
 
 let nameProps = {
   href: local.url,
@@ -31,6 +32,12 @@ let nameProps = {
 let summaryProps = {
   content: local.summary,
 };
+
+start = DateTime.fromISO(start);
+
+due = DateTime.fromISO(due);
+
+let length = countTime ? calc.summary_length(dueComplete, due, start) : null;
 ---
 
 <script src="~scripts/components/page/card.js"></script>
@@ -39,8 +46,8 @@ let summaryProps = {
   <div class="label_wrap">
     <Labels>
       {
-        labels.map(function ({ name, color }) {
-          const style = color ? "solid" : "outline";
+        labels.map(({ name, color }: label, index: number) => {
+          const style = index == 0 ? "solid" : "outline";
 
           color = color ? color : primary;
 
@@ -52,9 +59,13 @@ let summaryProps = {
           return <Label {...props}>{name}</Label>;
         })
       }
-      <Label color={primary} style="outline">
-        {length}
-      </Label>
+      {
+        countTime && (
+          <Label color={primary} style="outline">
+            {length}
+          </Label>
+        )
+      }
     </Labels>
   </div>
   <Name {...nameProps} />

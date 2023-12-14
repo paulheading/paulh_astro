@@ -1,28 +1,28 @@
 ---
-import Controls from '~components/Page/Controls.astro'
+import Controls from "~components/Page/Controls.astro";
 
-const { title, mode, controls = false } = Astro.props
+const { title, mode, controls = false } = Astro.props;
 
 const rowProps = {
-  class: 'page-row',
-}
+  class: "page-row",
+};
 
 const contentProps = {
-  class: 'page-content',
-}
+  class: "page-content",
+};
 
 const titleProps = {
-  class: 'title',
-}
+  class: "title",
+};
 
-if (mode) contentProps.class += ' ' + mode
+if (mode) contentProps.class += " " + mode;
 
 if (controls) {
-  rowProps.class += ' has-controls'
-  titleProps.class += ' has-controls'
+  rowProps.class += " has-controls";
+  titleProps.class += " has-controls";
 }
 
-if (title) rowProps.id = title.toLowerCase() + '_row'
+if (title) rowProps.id = title.toLowerCase() + "_row";
 ---
 
 <div {...rowProps}>
@@ -43,7 +43,7 @@ if (title) rowProps.id = title.toLowerCase() + '_row'
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   @mixin page-content {
     min-height: 3.5rem;

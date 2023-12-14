@@ -66,13 +66,28 @@ const learningProps = {
         <div>{paul.platforms.map(({ link }) => <div>{parse(link)}</div>)}</div>
       </Row>
       <Row {...projectProps}>
-        {projects.map((card, index) => <Card card={card} index={index} />)}
+        {
+          projects.map(function (card, index) {
+            let props = { card, index, countTime: true };
+            return <Card {...props} />;
+          })
+        }
       </Row>
       <Row {...rolesProps}>
-        {roles.map((card, index) => <Card card={card} index={index} />)}
+        {
+          roles.map(function (card, index) {
+            let props = { card, index, countTime: true };
+            return <Card {...props} />;
+          })
+        }
       </Row>
       <Row {...learningProps}>
-        {learning.map((card, index) => <Card card={card} index={index} />)}
+        {
+          learning.map(function (card, index) {
+            let props = { card, index, countTime: true };
+            return <Card {...props} />;
+          })
+        }
       </Row>
     </Page>
   </Content>

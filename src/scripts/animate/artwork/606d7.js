@@ -1,64 +1,70 @@
-import { gsap } from 'gsap'
-import { MorphSVGPlugin } from 'gsap/dist/MorphSVGPlugin'
-import { start, end } from '~data/timings'
+import { gsap } from "gsap";
+import { MorphSVGPlugin } from "gsap/dist/MorphSVGPlugin";
+import { start, end } from "~data/timings";
 
-gsap.registerPlugin(MorphSVGPlugin)
+gsap.registerPlugin(MorphSVGPlugin);
 
-const display = 'block'
-const transformOrigin = 'center'
-const duration = 0.5
-const opacity = 0
-const scale = 1.5
-const clearProps = 'all'
-const x = 35
+const display = "block";
+const transformOrigin = "center";
+const duration = 0.5;
+const opacity = 0;
+const scale = 1.5;
+const clearProps = "all";
+const x = 35;
 
-const reset = { clearProps, delay: duration }
+const reset = { clearProps, delay: duration };
 
 const explode = {
   display,
   opacity,
   scale,
-}
+};
 
-const settings = { defaults: { transformOrigin, duration } }
+const settings = { defaults: { transformOrigin, duration } };
+
+/**
+ * @name animation
+ * @param {string} target - element ID reference
+ */
 
 function animation(target) {
-  const $ = (selector) => target.querySelector('#' + selector)
+  const $ = (selector) => target.querySelector("#" + selector);
 
-  const $lobby = $('lobby')
-  const $hall = $('hall')
-  const $stage = $('stage')
-  const $garden = $('garden')
+  const $lobby = $("lobby");
+  const $hall = $("hall");
+  const $stage = $("stage");
+  const $garden = $("garden");
 
-  const $bar_1 = $('bar_1')
-  const $bar_2 = $('bar_2')
-  const $bar_3 = $('bar_3')
-  const $bar_4 = $('bar_4')
+  const $bar_1 = $("bar_1");
+  const $bar_2 = $("bar_2");
+  const $bar_3 = $("bar_3");
+  const $bar_4 = $("bar_4");
 
-  const $sound = $('sound')
-  const $marker = $('marker')
+  const $sound = $("sound");
+  const $marker = $("marker");
 
-  const rooms = [$lobby, $hall, $stage, $garden]
-  const bars = [$bar_1, $bar_2, $bar_3, $bar_4]
+  const rooms = [$lobby, $hall, $stage, $garden];
+  const bars = [$bar_1, $bar_2, $bar_3, $bar_4];
 
-  const all = [...rooms, ...bars, $sound, $marker]
+  const all = [...rooms, ...bars, $sound, $marker];
 
-  const tl = gsap.timeline(settings)
+  const tl = gsap.timeline(settings);
 
   function resetRooms(tl, label) {
-    const reset = (room) => tl.set(room, { morphSVG: room }, label)
+    const reset = (room) => tl.set(room, { morphSVG: room }, label);
 
-    rooms.forEach(reset)
+    rooms.forEach(reset);
 
-    return tl
+    return tl;
   }
 
   function morphRooms(tl, label) {
-    const morph = (room, index) => tl.to(room, { morphSVG: bars[index] }, label)
+    const morph = (room, index) =>
+      tl.to(room, { morphSVG: bars[index] }, label);
 
-    rooms.forEach(morph)
+    rooms.forEach(morph);
 
-    return tl
+    return tl;
   }
 
   // prettier-ignore
@@ -73,7 +79,7 @@ function animation(target) {
     .to($marker, { display, x, duration: duration * 2, delay: duration })
     .set(all, { clearProps }, end);
 
-  return tl
+  return tl;
 }
 
-export default animation
+export default animation;

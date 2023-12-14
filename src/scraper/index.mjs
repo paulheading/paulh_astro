@@ -10,6 +10,7 @@ import getPocketcastsData from "./pocketcasts.js";
 async function getLayoutData() {
   // const hashnode = await getHashnodeData();
   const projects = await getTrelloData("projects");
+  const articles = await getTrelloData("articles");
   const gem = await getGemData();
   const npm = await getNpmData();
   const spotify = await getSpotifyData();
@@ -19,6 +20,7 @@ async function getLayoutData() {
     pocketcasts,
     // hashnode,
     projects,
+    articles,
     spotify,
     gem,
     npm,

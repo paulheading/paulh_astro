@@ -1,4 +1,4 @@
-import { create, remove } from "./trello/helpers.js";
+import { create, remove, convert } from "./trello/helpers.js";
 import { string, list } from "./trello/variables.js";
 import { contains, get } from "../scripts/helpers.js";
 
@@ -35,11 +35,12 @@ getTrello.attachments = async (target) => {
  * @param {string} target - Trello path
  * @returns {object}
  */
+
 getTrello.actions = async function (target) {
   if (!target) return;
 
   // string.attachments is the default trello actions path
-  return await await getTrello.JSON(string.actions(target));
+  return await getTrello.JSON(string.actions(target));
 };
 
 /**
@@ -68,8 +69,12 @@ async function processCard(card, list) {
   card.marquee = card.name;
   card.hero = isHero;
   card.type = create.type(list);
+
   card.attachments = card.id ? await getTrello.attachments(card.id) : null;
   card.actions = card.id ? await getTrello.actions(card.id) : null;
+
+  card.labels = convert.labelColors(card.labels);
+
   card.local = {}; // locally interpreted formatting of data
   card.local.summary = card.desc ? create.summary(card.desc) : null;
   card.local.desc = card.desc ? create.desc(card.desc) : null;
@@ -87,8 +92,8 @@ async function processCard(card, list) {
   return card;
 }
 
-getTrello.cards = async function (list, type) {
-  var cards = await getTrello.JSON(string.cards(list), type);
+getTrello.cards = async function (list) {
+  var cards = await getTrello.JSON(string.cards(list));
 
   if (!cards.length) return [];
 
@@ -98,17 +103,11 @@ getTrello.cards = async function (list, type) {
 };
 
 getTrello.data = async function (type) {
-  if (type == "projects") {
-    var cards = await getTrello.cards(list.projects);
+  let cards = await getTrello.cards(list[type]);
 
-    cards = cards.filter(({ labels }) => !contains.label(labels, "Local")); // remove local projects in production
+  cards = cards.filter(({ labels }) => !contains.label(labels, "Local")); // remove local projects in production
 
-    return cards;
-  }
-
-  if (type === "roles") return await getTrello.cards(list.roles);
-
-  if (type === "learning") return await getTrello.cards(list.learning);
+  return cards;
 };
 
 export default getTrello.data;

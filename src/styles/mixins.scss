@@ -32,6 +32,13 @@
   overflow: hidden;
 }
 
+@mixin line-overflow($lines: 2) {
+  -webkit-box-orient: vertical;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+}
+
 @mixin wrap {
   max-width: $max-width-wrap;
   margin-right: auto;

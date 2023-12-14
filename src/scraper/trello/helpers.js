@@ -57,4 +57,17 @@ const remove = {};
 
 remove.hero = (name) => name.replace("Hero: ", "");
 
-export { remove, create };
+const convert = {};
+
+convert.labelColors = function (labels) {
+  return labels.map((label) => {
+    let { color } = label;
+
+    if (color == "lime") color = "#94c749";
+    if (color == "sky") color = "#6dc4e0";
+
+    return { ...label, color };
+  });
+};
+
+export { remove, create, convert };

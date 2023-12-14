@@ -20,7 +20,11 @@ function draggableSubfolder(folder) {
 
   const subfolder = parent.querySelector(".window");
 
-  if (subfolder) Draggable.create(subfolder);
+  if (subfolder) {
+    let trigger = subfolder.querySelector(".topbar");
+
+    Draggable.create(subfolder, { trigger });
+  }
 }
 
 function draggableWindow(window) {
@@ -29,10 +33,26 @@ function draggableWindow(window) {
   if (isSpotify) {
     let trigger = window.querySelector("header");
 
-    return Draggable.create(window, { trigger });
-  }
+    // window.addEventListener("click", function (event) {
+    //   let activeIndex = window.style.zIndex;
 
-  return Draggable.create(window);
+    //   if (!activeIndex) activeIndex = "1";
+
+    //   console.log("clicked: ", event.target, activeIndex);
+
+    //   forEach($.windows, function (window) {
+    //     let zIndex = window.style.zIndex;
+
+    //     if (zIndex && zIndex >= activeIndex) activeIndex = Number(zIndex) + 1;
+    //   });
+
+    //   window.style.zIndex = String(activeIndex);
+    // });
+
+    Draggable.create(window, { trigger });
+  } else {
+    Draggable.create(window);
+  }
 }
 
 function setupDraggables() {

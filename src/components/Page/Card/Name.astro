@@ -1,36 +1,22 @@
 ---
-let { name, href } = Astro.props;
+const { name, href } = Astro.props;
 
 const props = {
   class: "name",
   href,
 };
-
-function process(value) {
-  if (!value) return ""
-
-  let max = 6;
-
-  let words = value.split(" ");
-
-  let short = words.filter((word, index) => index <= max);
-
-  let extra = words.filter((word, index) => index > max);
-
-  short = short.join(" ");
-
-  if (extra.length) short += " ...";
-
-  return short;
-}
-
-name = process(name);
 ---
 
-<a {...props}>{name}</a>
+<div class="wrap">
+  <a {...props}>{name}</a>
+</div>
 
 <style lang="scss">
   @import "~styles/mixins";
+
+  .wrap {
+    @include line-overflow;
+  }
 
   .name {
     font-size: $h4-font-size;
