@@ -1,0 +1,101 @@
+---
+import Layout from "~layouts/Main.astro";
+import Content from "~components/Content.astro";
+import Page from "~components/Page.astro";
+import Row from "~components/Page/Row.astro";
+import Card from "~components/Page/Card.astro";
+import Back from "~components/Page/Back.astro";
+
+import seo from "~data/seo.js";
+import { articles } from "~data/layout.json";
+
+function createPages(articles: Array<object>) {
+  let pages: Array<Array<object>> = [[]];
+  let position = 0;
+
+  function placeArticle(article: object, index: number) {
+    let remainder = index % 3;
+    if (index > 0) {
+      if (!remainder) {
+        pages.push([]);
+        position++;
+      }
+    }
+    pages[position].push(article);
+  }
+
+  articles.forEach(placeArticle);
+
+  return pages;
+}
+
+let pages = createPages(articles);
+
+const layoutProps = {
+  title: seo.title("Articles"),
+};
+
+const props = {
+  mode: "triple",
+  controls: false,
+};
+---
+
+<Layout {...layoutProps}>
+  <Content>
+    <Page>
+      <Row>
+        <div class="title">Bloggy McBlogface</div>
+        <div class="copy">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+          repellendus ipsa autem quo molestias soluta repellat aperiam corrupti
+          deleniti eaque aliquid laboriosam dolores repudiandae delectus, optio
+          ipsum. Ratione, inventore sit.
+        </div>
+      </Row>
+      {
+        pages.map(function (page) {
+          return (
+            <Row {...props}>
+              {page.map(function (card, index) {
+                let props = {
+                  card,
+                  index,
+                  countWords: true,
+                };
+                return <Card {...props} />;
+              })}
+            </Row>
+          );
+        })
+      }
+    </Page>
+    <div class="wrap-back">
+      <Back>Resume</Back>
+    </div>
+  </Content>
+</Layout>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  @mixin mobile-bump {
+    @include medium-down {
+      margin-bottom: $padding-row * 0.5;
+    }
+  }
+
+  .title {
+    margin-bottom: $padding-row * 0.5;
+    font-size: $h3-font-size;
+  }
+
+  .copy {
+    @include mobile-bump;
+    font-weight: normal;
+  }
+
+  .wrap-back {
+    margin-top: $padding-row * 2;
+  }
+</style>
