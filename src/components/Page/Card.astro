@@ -18,6 +18,8 @@ let primary = labels.filter(({ color }: label) => color);
 primary = primary.length ? primary[0].color : "black";
 
 const containerProps = {
+  "data-article": "true",
+  "data-id": card.id,
   class: "container",
   style: {},
 };

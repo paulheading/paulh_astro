@@ -1,28 +1,36 @@
 ---
 import Controls from "~components/Page/Controls.astro";
 
-const { title, mode, controls = false } = Astro.props;
+const { data, title, mode, controls = false } = Astro.props;
 
-const rowProps = {
+interface rowProps {
+  class: String;
+  data?: String;
+  id?: String;
+}
+
+const rowProps: rowProps = {
   class: "page-row",
 };
+
+if (title) rowProps.id = title.toLowerCase() + "_row";
+
+if (data) rowProps.data = data;
 
 const contentProps = {
   class: "page-content",
 };
 
+if (mode) contentProps.class += " " + mode;
+
 const titleProps = {
   class: "title",
 };
-
-if (mode) contentProps.class += " " + mode;
 
 if (controls) {
   rowProps.class += " has-controls";
   titleProps.class += " has-controls";
 }
-
-if (title) rowProps.id = title.toLowerCase() + "_row";
 ---
 
 <div {...rowProps}>

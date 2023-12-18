@@ -5,6 +5,7 @@ import Page from "~components/Page.astro";
 import Row from "~components/Page/Row.astro";
 import Card from "~components/Page/Card.astro";
 import Back from "~components/Page/Back.astro";
+import SearchBar from "~components/SearchBar.astro";
 
 import seo from "~data/seo.js";
 import { articles } from "~data/layout.json";
@@ -36,16 +37,20 @@ const layoutProps = {
 };
 
 const props = {
-  mode: "triple",
+  data: "articles",
   controls: false,
+  mode: "triple",
 };
 ---
 
 <Layout {...layoutProps}>
   <Content>
-    <Page>
+    <Page data="search">
       <Row>
-        <div class="title">Bloggy McBlogface</div>
+        <div class="title-wrap">
+          <div class="title">Bloggy McBlogface</div>
+          <SearchBar />
+        </div>
         <div class="copy">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
           repellendus ipsa autem quo molestias soluta repellat aperiam corrupti
@@ -85,8 +90,13 @@ const props = {
     }
   }
 
+  .title-wrap {
+    margin-bottom: $padding-row;
+    justify-content: space-between;
+    display: flex;
+  }
+
   .title {
-    margin-bottom: $padding-row * 0.5;
     font-size: $h3-font-size;
   }
 

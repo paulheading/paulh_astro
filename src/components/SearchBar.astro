@@ -1,0 +1,89 @@
+---
+const formProps = {
+  onsubmit: "return false",
+};
+
+const inputProps = {
+  placeholder: "Search...",
+  name: "search",
+};
+
+const submitProps = {
+  id: "search-submit",
+};
+
+const clearProps = {
+  id: "search-clear",
+  style: {
+    display: "none",
+  },
+};
+---
+
+<script src="~scripts/components/searchbar.js"></script>
+
+<div class="search-wrap">
+  <form {...formProps}>
+    <input {...inputProps} />
+    <button {...submitProps}>Submit</button>
+  </form>
+  <button {...clearProps}>Clear</button>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  $color: dimgray;
+
+  .search-wrap {
+    font-size: 1rem;
+    display: flex;
+  }
+
+  form {
+    grid-template-columns: auto auto;
+    display: inline-grid;
+    font-size: inherit;
+  }
+
+  input {
+    border: 1px solid $color;
+    font-size: inherit;
+    border-radius: 0;
+    padding: 0.5rem;
+    color: $color;
+  }
+
+  input:focus {
+    outline: 1px solid blue;
+    outline-offset: -1px;
+    position: relative;
+    z-index: 2;
+  }
+
+  input::placeholder {
+    color: $color;
+    opacity: 1; /* Firefox */
+  }
+
+  input::-ms-input-placeholder {
+    color: $color; /* Edge 12 -18 */
+  }
+
+  button {
+    font-size: inherit;
+    border-radius: 0;
+    border: none;
+    width: 70px;
+  }
+
+  button#search-submit {
+    background-color: $color;
+    color: white;
+  }
+
+  button#search-clear {
+    background-color: $c-body-bg;
+    color: $color;
+  }
+</style>

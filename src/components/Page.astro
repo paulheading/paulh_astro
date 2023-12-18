@@ -1,9 +1,18 @@
-<div class="container">
+---
+const { data } = Astro.props;
+
+const props = {
+  class: "container",
+  data,
+};
+---
+
+<div {...props}>
   <slot />
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .container {
     @include wrap;
