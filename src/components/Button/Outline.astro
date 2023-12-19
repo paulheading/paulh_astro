@@ -1,0 +1,72 @@
+---
+const { size = 20, onClick, id } = Astro.props;
+
+/**
+ * @name toRems
+ * @prop {Number} value
+ * @returns {String}
+ */
+
+const toRems = (value = 1) => String(value * 0.0625 + "rem");
+
+const buttonProps = {
+  class: "button",
+  onClick,
+  id,
+};
+
+const padding = size * 0.5;
+
+const radius = padding * 0.5;
+
+const vars = {
+  padding: toRems(padding),
+  radius: toRems(radius),
+  size: toRems(size),
+};
+---
+
+<div class="link outline">
+  <button {...buttonProps}>
+    <slot name="icon" />
+    <div class="content">
+      <slot />
+    </div>
+    <slot name="count" />
+  </button>
+</div>
+
+<style lang="scss" define:vars={vars}>
+  @import "~styles/mixins";
+
+  .outline {
+    text-align: center;
+  }
+
+  .button {
+    border-radius: var(--radius);
+    background-color: white;
+    border: black 1px solid;
+    padding: var(--padding);
+    font-size: var(--size);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--padding);
+    margin-right: auto;
+    fill: currentColor;
+    margin-left: auto;
+    font-weight: bold;
+    line-height: 1;
+    color: black;
+
+    &:active {
+      transform: scale(0.95);
+    }
+
+    @include focus {
+      background-color: black;
+      color: white;
+    }
+  }
+</style>

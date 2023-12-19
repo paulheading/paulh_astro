@@ -4,7 +4,7 @@ import Content from "~components/Content.astro";
 import Page from "~components/Page.astro";
 import Row from "~components/Page/Row.astro";
 import Card from "~components/Page/Card.astro";
-import Back from "~components/Page/Back.astro";
+import Outline from "~components/Button/Outline.astro";
 import SearchBar from "~components/SearchBar.astro";
 
 import seo from "~data/seo.js";
@@ -41,6 +41,19 @@ const props = {
   controls: false,
   mode: "triple",
 };
+
+let articlesPerRow = 3;
+
+let moreArticles = articles.length - articlesPerRow;
+
+let articlesRemaining = articles.length - articlesPerRow;
+
+let moreProps = {
+  class: "wrap-more",
+  style: {
+    display: "none",
+  },
+};
 ---
 
 <Layout {...layoutProps}>
@@ -75,8 +88,12 @@ const props = {
         })
       }
     </Page>
-    <div class="wrap-back">
-      <Back>Resume</Back>
+    <div {...moreProps}>
+      <Outline id="see-more">
+        See more <div class="count" slot="count">
+          [{articlesRemaining}]
+        </div>
+      </Outline>
     </div>
   </Content>
 </Layout>
@@ -92,8 +109,14 @@ const props = {
 
   .title-wrap {
     margin-bottom: $padding-row;
-    justify-content: space-between;
-    display: flex;
+    display: grid;
+    gap: 1rem;
+
+    @include medium-up {
+      justify-content: space-between;
+      grid-auto-flow: column;
+      align-items: center;
+    }
   }
 
   .title {
@@ -105,7 +128,11 @@ const props = {
     font-weight: normal;
   }
 
-  .wrap-back {
+  .wrap-more {
     margin-top: $padding-row * 2;
+  }
+
+  .count {
+    font-weight: 400;
   }
 </style>

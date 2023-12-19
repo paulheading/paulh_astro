@@ -1,52 +1,49 @@
 ---
-const { size = 20, href = "/resume" } = Astro.props;
+const { size = 20, href = "/resume", id } = Astro.props;
 
-const toRems = (value = 1) => value * 0.0625 + "rem";
+/**
+ * @name toRems
+ * @prop {Number} value
+ * @returns {String}
+ */
 
-const linkProps = {
-  class: "link",
+const toRems = (value = 1) => String(value * 0.0625 + "rem");
+
+const anchorProps = {
+  class: "anchor",
   href,
+  id
 };
-
-const height = size * 0.75;
 
 const padding = size * 0.5;
 
 const radius = padding * 0.5;
 
-const svgProps = {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewbox: "0 0 18 12",
-  width: size,
-  height,
-};
-
 const vars = {
-  size: toRems(size),
   padding: toRems(padding),
   radius: toRems(radius),
+  size: toRems(size),
 };
 ---
 
-<div class="back">
-  <a {...linkProps}>
-    <svg {...svgProps}>
-      <path d="M6,12L0,6l6-6l1.4,1.4L3.8,5H18v2H3.8l3.6,3.6L6,12z"></path>
-    </svg>
+<div class="link outline">
+  <a {...anchorProps}>
+    <slot name="icon" />
     <div class="content">
       <slot />
     </div>
+    <slot name="count" />
   </a>
 </div>
 
 <style lang="scss" define:vars={vars}>
   @import "~styles/mixins";
 
-  .back {
+  .outline {
     text-align: center;
   }
 
-  .link {
+  .anchor {
     border-radius: var(--radius);
     background-color: white;
     border: black 1px solid;

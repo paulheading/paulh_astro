@@ -13,6 +13,8 @@ const rowProps: rowProps = {
   class: "page-row",
 };
 
+const hasColumns = mode == "triple" || mode == "double";
+
 if (title) rowProps.id = title.toLowerCase() + "_row";
 
 if (data) rowProps.data = data;
@@ -30,6 +32,10 @@ const titleProps = {
 if (controls) {
   rowProps.class += " has-controls";
   titleProps.class += " has-controls";
+}
+
+if (!controls && hasColumns) {
+  rowProps.class += " has-columns";
 }
 ---
 
@@ -69,6 +75,12 @@ if (controls) {
 
     @include medium-down {
       box-shadow: $box-shadow-page;
+    }
+  }
+
+  .page-row.has-columns {
+    @include medium-down {
+      padding: 0;
     }
   }
 
