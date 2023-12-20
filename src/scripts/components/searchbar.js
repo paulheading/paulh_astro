@@ -12,19 +12,63 @@ search.addIndex(["local", "pathname"]);
 search.addIndex(["local", "summary"]);
 search.addIndex(["local", "url"]);
 
-let submit = document.querySelector("#search-submit");
+/**
+ * Dynamic Selectors
+ * @description Returns a selector on execution, not during setup
+ * @returns {HTMLElement}
+ */
 
-let form = submit.parentElement;
+/**
+ * @name $rows
+ * @param {string} type - Option to filter via the data attribute
+ * @returns {HTMLElement}
+ */
 
-let clear = form.nextSibling;
+const $rows = function (type) {
+  let query = ".page-row";
+
+  if (type) query += `[data=${type}]`;
+
+  return document.querySelectorAll(query);
+};
+
+const $articles = () => document.querySelectorAll("[data-article=true]");
+
+const $input = () => $submit.previousSibling;
+
+const $moreCount = () => $more.querySelector(".count");
+
+/**
+ * Static Selectors
+ */
+
+const $submit = document.querySelector("#search-submit");
+
+const $form = $submit.parentElement;
+
+const $clear = $form.nextSibling;
+
+const $more = document.querySelector("#see-more");
+
+const $moreWrap = $more.closest(".wrap");
 
 let articlesPerRow = 3;
 
-let seeMore = document.querySelector("#see-more");
+let state = {
+  mode: "article",
+};
 
-let wrapMore = seeMore.closest(".wrap-more");
+/**
+ * @name dataIs
+ * @param {HTMLElement} element
+ * @param {string} query
+ * @returns {boolean} Indicating whether the data attribute matches the string query
+ */
 
-let seeMoreCount = seeMore.querySelector(".count");
+function dataIs(element, query) {
+  let data = element.getAttribute("data");
+  return data == query;
+}
 
 /**
  * @name createEmptyRow
@@ -37,7 +81,7 @@ function createEmptyRow(row) {
 
   let content = clone.querySelector(".page-content");
 
-  clone.setAttribute("data", "search-results");
+  clone.setAttribute("data", "search");
 
   /**
    * @see {@link https://stackoverflow.com/questions/3955229/remove-all-child-elements-of-a-dom-node-in-javascript} for details on loop
@@ -55,8 +99,6 @@ function createEmptyRow(row) {
  */
 
 function collectResults(results) {
-  let articles = document.querySelectorAll("[data-article=true]");
-
   let elements = [];
 
   function getID(article) {
@@ -81,7 +123,7 @@ function collectResults(results) {
     results.forEach(matchID);
   }
 
-  articles.forEach(getID);
+  $articles().forEach(getID);
 
   return elements;
 }
@@ -94,9 +136,7 @@ function collectResults(results) {
 function printResults(results) {
   results = collectResults(results);
 
-  let test = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
-
-  let rows = document.querySelectorAll(".page-row[data=articles]");
+  let rows = document.querySelectorAll(".page-row[data=article]");
 
   let empty = createEmptyRow(rows[0]);
 
@@ -122,13 +162,15 @@ function printResults(results) {
     lastContent.append(result);
   }
 
-  test.forEach(assignRow);
+  results.forEach(assignRow);
 
-  let articlesRemaining = test.length - articlesPerRow;
+  let articlesRemaining = results.length - articlesPerRow;
+
+  if (articlesRemaining <= 0) $moreWrap.style.display = "none";
 
   if (articlesRemaining > 0) {
-    wrapMore.removeAttribute("style", "display");
-    seeMoreCount.innerHTML = `[${articlesRemaining}]`;
+    $moreWrap.removeAttribute("style", "display");
+    $moreCount().innerText = `[${articlesRemaining}]`;
   }
 
   let container = document.querySelector(".container[data=search]");
@@ -144,37 +186,48 @@ function printResults(results) {
 function searchArticles(event) {
   event.preventDefault;
 
-  let { target } = event;
+  let value = $input().value;
 
-  let input = target.previousSibling;
+  if (value == "") return clearSearchResults();
 
-  if (input.value == "") return clearSearchResults(clear);
+  $clear.removeAttribute("style", "display");
 
-  clear.removeAttribute("style", "display");
-
-  let results = search.search(input.value);
+  let results = search.search(value);
 
   if (results.length) printResults(results);
+
+  state.mode == "search";
 }
 
-function clearSearchResults(target) {
-  let input = submit.previousSibling;
+function resetMoreButton() {
+  let articlesRemaining = $articles().length - articlesPerRow;
 
-  let rows = document.querySelectorAll(".page-row");
+  $moreWrap.removeAttribute("style", "display");
 
-  function removeOrDisplay(row) {
-    let rowData = row.getAttribute("data");
+  $moreCount().innerText = `[${articlesRemaining}]`;
+}
 
-    let isSearchResult = rowData == "search-results";
-
-    isSearchResult ? row.remove() : row.removeAttribute("style", "display");
+function clearSearchResults() {
+  function removeSearchRows(row) {
+    if (dataIs(row, "search")) row.remove();
   }
 
-  rows.forEach(removeOrDisplay);
+  $rows().forEach(removeSearchRows);
 
-  input.value = "";
+  for (let index = 0; index < $rows().length; index++) {
+    const $row = $rows()[index];
 
-  target.style.display = "none";
+    if (dataIs($row, "article")) {
+      $row.removeAttribute("style", "display");
+      break;
+    }
+  }
+
+  $input().value = "";
+
+  $clear.setAttribute("style", "display:none");
+
+  resetMoreButton();
 }
 
 /**
@@ -183,32 +236,30 @@ function clearSearchResults(target) {
  */
 
 function decreaseMoreCount() {
-  let currentCount = seeMoreCount.innerHTML;
+  let { innerText } = $moreCount();
 
-  currentCount = Number(currentCount.slice(1, -1));
+  innerText = Number(innerText.slice(1, -1));
 
-  currentCount = currentCount - articlesPerRow;
+  innerText = innerText - articlesPerRow;
 
-  seeMoreCount.innerHTML = `[${currentCount}]`;
+  $moreCount().innerText = `[${innerText}]`;
 
-  if (currentCount <= 0) seeMore.style.display = "none";
+  if (innerText <= 0) $moreWrap.style.display = "none";
 }
 
 /**
- * @name loadNewRow
+ * @name loadNextRow
  * @description Display the next remaining row
  */
 
-function loadNewRow() {
-  let rows = document.querySelectorAll(".page-row[data=search-results]");
+function loadNextRow() {
+  for (let index = 0; index < $rows(state.mode).length; index++) {
+    const $row = $rows(state.mode)[index];
 
-  for (let index = 0; index < rows.length; index++) {
-    const row = rows[index];
-
-    const hidden = row.style.display == "none";
+    const hidden = $row.style.display == "none";
 
     if (hidden) {
-      row.removeAttribute("style", "display");
+      $row.removeAttribute("style", "display");
       break;
     }
   }
@@ -216,8 +267,8 @@ function loadNewRow() {
   decreaseMoreCount();
 }
 
-submit.addEventListener("click", searchArticles);
+$submit.addEventListener("click", searchArticles);
 
-clear.addEventListener("click", ({ target }) => clearSearchResults(target));
+$clear.addEventListener("click", clearSearchResults);
 
-seeMore.addEventListener("click", loadNewRow);
+$more.addEventListener("click", loadNextRow);

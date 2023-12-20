@@ -1,12 +1,13 @@
 ---
 import Controls from "~components/Page/Controls.astro";
 
-const { data, title, mode, controls = false } = Astro.props;
+const { data, title, mode, controls = false, style } = Astro.props;
 
 interface rowProps {
   class: String;
   data?: String;
   id?: String;
+  style?: Object;
 }
 
 const rowProps: rowProps = {
@@ -37,6 +38,8 @@ if (controls) {
 if (!controls && hasColumns) {
   rowProps.class += " has-columns";
 }
+
+if (style) rowProps.style = style;
 ---
 
 <div {...rowProps}>

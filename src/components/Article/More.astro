@@ -1,0 +1,36 @@
+---
+import Outline from "~components/Button/Outline.astro";
+
+let { articles } = Astro.props;
+
+interface wrapProps {
+  class?: string;
+  style?: object;
+}
+
+let wrapProps: wrapProps = {
+  class: "wrap",
+};
+
+if (!articles) wrapProps.style = { display: "none" };
+---
+
+<div {...wrapProps}>
+  <Outline id="see-more">
+    See more <div class="count" slot="count">
+      [{articles}]
+    </div>
+  </Outline>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .wrap {
+    margin-top: $padding-row * 2;
+  }
+
+  .count {
+    font-weight: 400;
+  }
+</style>

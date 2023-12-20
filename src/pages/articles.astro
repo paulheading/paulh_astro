@@ -3,15 +3,15 @@ import Layout from "~layouts/Main.astro";
 import Content from "~components/Content.astro";
 import Page from "~components/Page.astro";
 import Row from "~components/Page/Row.astro";
-import Card from "~components/Page/Card.astro";
-import Outline from "~components/Button/Outline.astro";
 import SearchBar from "~components/SearchBar.astro";
+import ArticleRows from "~components/Article/Rows.astro";
+import ArticleMore from "~components/Article/More.astro";
 
 import seo from "~data/seo.js";
 import { articles } from "~data/layout.json";
 
-function createPages(articles: Array<object>) {
-  let pages: Array<Array<object>> = [[]];
+function createPages(articles: [object]) {
+  let pages: [[] | [object]] = [[]];
   let position = 0;
 
   function placeArticle(article: object, index: number) {
@@ -36,24 +36,9 @@ const layoutProps = {
   title: seo.title("Articles"),
 };
 
-const props = {
-  data: "articles",
-  controls: false,
-  mode: "triple",
-};
-
 let articlesPerRow = 3;
 
 let moreArticles = articles.length - articlesPerRow;
-
-let articlesRemaining = articles.length - articlesPerRow;
-
-let moreProps = {
-  class: "wrap-more",
-  style: {
-    display: "none",
-  },
-};
 ---
 
 <Layout {...layoutProps}>
@@ -71,30 +56,9 @@ let moreProps = {
           ipsum. Ratione, inventore sit.
         </div>
       </Row>
-      {
-        pages.map(function (page) {
-          return (
-            <Row {...props}>
-              {page.map(function (card, index) {
-                let props = {
-                  card,
-                  index,
-                  countWords: true,
-                };
-                return <Card {...props} />;
-              })}
-            </Row>
-          );
-        })
-      }
+      <ArticleRows rows={pages} />
     </Page>
-    <div {...moreProps}>
-      <Outline id="see-more">
-        See more <div class="count" slot="count">
-          [{articlesRemaining}]
-        </div>
-      </Outline>
-    </div>
+    <ArticleMore articles={moreArticles} />
   </Content>
 </Layout>
 
@@ -126,13 +90,5 @@ let moreProps = {
   .copy {
     @include mobile-bump;
     font-weight: normal;
-  }
-
-  .wrap-more {
-    margin-top: $padding-row * 2;
-  }
-
-  .count {
-    font-weight: 400;
   }
 </style>

@@ -1,0 +1,48 @@
+---
+import Card from "~components/Page/Card.astro";
+import Row from "~components/Page/Row.astro";
+
+let { rows } = Astro.props;
+
+interface rowProps {
+  data: string;
+  controls: boolean;
+  mode: string;
+  style?: object;
+}
+
+interface cardProps {
+  countWords?: boolean;
+  index: number;
+  card: object;
+}
+---
+
+{
+  rows.map(function (row: [object], index: number) {
+    let rowProps: rowProps = {
+      controls: false,
+      data: "article",
+      mode: "triple",
+    };
+
+    if (index > 0) {
+      rowProps.style = {
+        display: "none",
+      };
+    }
+
+    return (
+      <Row {...rowProps}>
+        {row.map(function (card: object, index: number) {
+          let cardProps: cardProps = {
+            countWords: true,
+            index,
+            card,
+          };
+          return <Card {...cardProps} />;
+        })}
+      </Row>
+    );
+  })
+}
