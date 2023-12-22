@@ -15,12 +15,16 @@ const anchorProps = {
   {name}
   <div class="labels">
     {
-      labels.map(function ({ name, color }) {
+      labels.map(function ({ name, color }, index) {
         const props = {
           size: "sm",
-          primary,
           color,
         };
+
+        if (index > 0) {
+          props.style = "outline";
+          props.color = primary;
+        }
 
         return <Label {...props}>{name}</Label>;
       })

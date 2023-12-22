@@ -47,7 +47,11 @@
           "id": "6536ece7ba06209fab3d3b81",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Udemy",
-          "color": "blue",
+          "color": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
           "uses": 5
         }
       ],
@@ -131,7 +135,11 @@
           "id": "6536ece7ba06209fab3d3b81",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Udemy",
-          "color": "blue",
+          "color": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
           "uses": 5
         }
       ],
@@ -215,7 +223,11 @@
           "id": "65412d5a15e62081a8a2338f",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Frontend Masters",
-          "color": "blue",
+          "color": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
           "uses": 1
         }
       ],
@@ -299,7 +311,11 @@
           "id": "6536ece7ba06209fab3d3b81",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Udemy",
-          "color": "blue",
+          "color": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
           "uses": 5
         }
       ],
@@ -383,7 +399,11 @@
           "id": "6214cc8307e4ec530e71135d",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Treehouse",
-          "color": "blue",
+          "color": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
           "uses": 1
         }
       ],
@@ -467,7 +487,11 @@
           "id": "6536ece7ba06209fab3d3b81",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Udemy",
-          "color": "blue",
+          "color": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
           "uses": 5
         }
       ],
@@ -551,7 +575,11 @@
           "id": "6214cc35d8fa632b682f3e9e",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Goldsmiths",
-          "color": "blue",
+          "color": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
           "uses": 1
         }
       ],
@@ -637,7 +665,11 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         }
       ],
@@ -721,7 +753,11 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         }
       ],
@@ -805,7 +841,11 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         }
       ],

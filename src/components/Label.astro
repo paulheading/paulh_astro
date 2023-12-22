@@ -1,19 +1,29 @@
 ---
-let { color, style = "solid", size, primary } = Astro.props;
+import Color from "color";
 
-if (!color) {
-  style = "outline";
-  color = primary;
+let { color, style = "solid", size } = Astro.props;
+
+let { text, fill } = color;
+
+let isOutline = style == "outline";
+
+let dark = color.name.includes("dark");
+
+if (isOutline && dark) {
+  fill = Color(fill).darken(0.1);
+  text = Color(fill).alpha(0.1);
 }
 
-if (color == "red") color = "darkred";
+if (isOutline && !dark) {
+  fill = Color(fill).alpha(0.1);
+}
 ---
 
-<div class:list={["label", style, size]}>
+<div class:list={["label", style, size, dark && "dark"]}>
   <slot />
 </div>
 
-<style lang="scss" define:vars={{ color }}>
+<style lang="scss" define:vars={{ text, fill }}>
   @import "~styles/mixins";
 
   .label {
@@ -33,14 +43,20 @@ if (color == "red") color = "darkred";
   }
 
   .label.solid {
-    background-color: var(--color);
-    border-color: var(--color);
-    color: white;
+    background-color: var(--fill);
+    border-color: var(--fill);
+    color: var(--text);
   }
 
   .label.outline {
-    border-color: currentColor;
-    background-color: white;
-    color: var(--color);
+    background-color: var(--fill);
+    border-color: var(--text);
+    color: var(--text);
+  }
+
+  .label.outline.dark {
+    background-color: var(--text);
+    border-color: var(--fill);
+    color: var(--fill);
   }
 </style>

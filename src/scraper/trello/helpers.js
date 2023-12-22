@@ -69,10 +69,51 @@ convert.labelColors = function (labels) {
   return labels.map((label) => {
     let { color } = label;
 
-    if (color == "lime") color = "#94c749";
-    if (color == "sky") color = "#6dc4e0";
+    let name = color;
+    let text = "white";
+    let fill = "#626f86";
 
-    return { ...label, color };
+    if (!name) name = "black_dark";
+
+    if (name == "green") {
+      text = "#174b35";
+      fill = "#4cce97";
+    }
+
+    if (name == "green_dark") {
+      fill = "#1f845a";
+    }
+
+    if (name == "red") {
+      text = "#5d1f1a";
+      fill = "#f87169";
+    }
+
+    if (name == "purple") {
+      text = "#352c63";
+      fill = "#9f8fef";
+    }
+
+    if (name == "blue") {
+      text = "#08336c";
+      fill = "#579dff";
+    }
+
+    if (name == "blue_dark") {
+      fill = "#0c66e4";
+    }
+
+    color = {
+      name,
+      text,
+      fill,
+    };
+
+    let result = { ...label, color };
+
+    console.log("label: ", result);
+
+    return result;
   });
 };
 

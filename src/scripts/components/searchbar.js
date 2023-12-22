@@ -1,4 +1,5 @@
 import * as JsSearch from "js-search";
+import { gsap } from "gsap";
 
 import { articles } from "~data/layout.json";
 
@@ -44,9 +45,9 @@ const $moreCount = () => $more.querySelector(".count");
 
 const $submit = document.querySelector("#search-submit");
 
-const $form = $submit.parentElement;
+const $form = $submit.closest("form");
 
-const $clear = $form.nextSibling;
+const $clear = $form.querySelector("#search-clear");
 
 const $more = document.querySelector("#see-more");
 
@@ -188,15 +189,41 @@ function searchArticles(event) {
 
   let value = $input().value;
 
-  if (value == "") return clearSearchResults();
+  if (!value.length) {
+    clearSearchResults();
+    $form.removeAttribute("data-error");
+    return;
+  }
 
-  $clear.removeAttribute("style", "display");
+  if (value.length) {
+    $clear.removeAttribute("style", "display");
+  }
 
   let results = search.search(value);
 
-  if (results.length) printResults(results);
+  if (results.length) {
+    printResults(results);
+    $form.removeAttribute("data-error");
+    state.mode == "search";
+  }
 
-  state.mode == "search";
+  if (!results.length) {
+    $form.setAttribute("data-error", "true");
+
+    const defaults = {
+      duration: 0.1,
+    };
+
+    const tl = gsap.timeline({
+      defaults,
+      yoyo: true,
+      repeat: 2,
+    });
+
+    // prettier-ignore
+    tl.to($form, { x: "+=10" })
+      .to($form, { x: "-=10" });
+  }
 }
 
 function resetMoreButton() {
@@ -225,7 +252,9 @@ function clearSearchResults() {
 
   $input().value = "";
 
-  $clear.setAttribute("style", "display:none");
+  $form.removeAttribute("data-error");
+
+  $clear.setAttribute("style", "display:none;");
 
   resetMoreButton();
 }

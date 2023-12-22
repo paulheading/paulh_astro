@@ -22,32 +22,59 @@ const clearProps = {
 
 <script src="~scripts/components/searchbar.js"></script>
 
-<div class="search-wrap">
-  <form {...formProps}>
+<form {...formProps}>
+  <div class="dialog">
     <input {...inputProps} />
     <button {...submitProps}>Filter</button>
-  </form>
+  </div>
   <button {...clearProps}>Clear</button>
-</div>
+</form>
 
 <style lang="scss">
   @import "~styles/mixins";
 
-  $color: dimgray;
+  $color: black;
+  $error: #eb0000;
+  $focus: blue;
 
-  .search-wrap {
+  @mixin button-focus {
+    background-color: $focus;
+    outline: none;
+    color: white;
+  }
+
+  form {
     font-size: 1rem;
     display: flex;
   }
 
-  form {
-    grid-template-columns: auto auto;
+  form[data-error] {
+    input {
+      border-color: $error;
+      color: $error;
+    }
+    input:focus {
+      outline-color: $error;
+    }
+
+    button#search-submit,
+    button#search-clear {
+      background-color: $error;
+      color: white;
+
+      &:focus {
+        @include button-focus;
+      }
+    }
+  }
+
+  .dialog {
+    grid-auto-flow: column;
     display: inline-grid;
-    font-size: inherit;
   }
 
   input {
-    border: 1px solid $color;
+    border: toRem(2) solid $color;
     font-size: inherit;
     border-radius: 0;
     padding: 0.5rem;
@@ -55,9 +82,9 @@ const clearProps = {
   }
 
   input:focus {
-    outline: 1px solid blue;
-    outline-offset: -1px;
+    border-color: $focus;
     position: relative;
+    outline: none;
     z-index: 2;
   }
 
@@ -73,17 +100,26 @@ const clearProps = {
   button {
     font-size: inherit;
     border-radius: 0;
+    width: toRem(70);
     border: none;
-    width: 70px;
   }
 
   button#search-submit {
     background-color: $color;
     color: white;
+
+    &:focus {
+      @include button-focus;
+    }
   }
 
   button#search-clear {
     background-color: $c-body-bg;
+    margin-left: toRem(2);
     color: $color;
+
+    &:focus {
+      @include button-focus;
+    }
   }
 </style>

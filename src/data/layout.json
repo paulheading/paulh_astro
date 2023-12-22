@@ -2032,7 +2032,7 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-12-14T00:15:19.872Z",
+      "dateLastActivity": "2023-12-22T14:45:58.876Z",
       "desc": "```\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n---\n\n# Organising Spaces with GraphQL\n\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n### Can I see it?\n\nUnfortunately not, it's only available for Barbican staff at [dev.event.barbican.org.uk](https://dev.event.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paulh.biz/organising-spaces-with-graphql-1) on [my blog](https://blog.paulh.biz).\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue 3](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 💾 Consuming data from the [Barbican](https://barbican.org.uk) [GraphQL](https://graphql.org) feed.\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThis project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the [Barbican](https://barbican.org.uk) to use.\n\nWe're using [GraphQL](https://graphql.org) to pull data from the original system, and are using [Vue.js](https://vuejs.org) to present a more intuitive view of everything that is happening at the centre.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
       "descData": {
         "emoji": {}
@@ -2052,14 +2052,22 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         },
         {
           "id": "64b80f73bdf98a4131949e44",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "GraphQL",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 1
         }
       ],
@@ -2144,14 +2152,22 @@
           "id": "6491c7d859cf65f7b465cf91",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Freelance",
-          "color": "purple",
+          "color": {
+            "name": "purple",
+            "text": "#352c63",
+            "fill": "#9f8fef"
+          },
           "uses": 4
         },
         {
           "id": "64b80f8953c59efd3011ee02",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Next.js",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 3
         }
       ],
@@ -2236,14 +2252,22 @@
           "id": "6491c7d859cf65f7b465cf91",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Freelance",
-          "color": "purple",
+          "color": {
+            "name": "purple",
+            "text": "#352c63",
+            "fill": "#9f8fef"
+          },
           "uses": 4
         },
         {
           "id": "64b80f8953c59efd3011ee02",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Next.js",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 3
         }
       ],
@@ -2328,14 +2352,22 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         },
         {
           "id": "64b80fa76e02b0365160d280",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Node.js",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 2
         }
       ],
@@ -2420,14 +2452,22 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         },
         {
           "id": "64b80fbffbbbe0940125f1a4",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Nuxt",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 2
         }
       ],
@@ -2512,14 +2552,22 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         },
         {
           "id": "64b80fbffbbbe0940125f1a4",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Nuxt",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 2
         }
       ],
@@ -2604,14 +2652,22 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         },
         {
           "id": "64b80eedd3cb846ab0943db4",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Vue.js",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 1
         }
       ],
@@ -2696,14 +2752,22 @@
           "id": "6491c7d859cf65f7b465cf91",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Freelance",
-          "color": "purple",
+          "color": {
+            "name": "purple",
+            "text": "#352c63",
+            "fill": "#9f8fef"
+          },
           "uses": 4
         },
         {
           "id": "65361f1593cafe728614fc83",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Video",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 1
         }
       ],
@@ -2788,14 +2852,22 @@
           "id": "5fb002b2cdabcf46c03cf428",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Bourne St",
-          "color": "red",
+          "color": {
+            "name": "red",
+            "text": "#5d1f1a",
+            "fill": "#f87169"
+          },
           "uses": 1
         },
         {
           "id": "64b80fdfe485c8ac9019185e",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Wordpress",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 1
         }
       ],
@@ -2882,7 +2954,11 @@
           "id": "657a3bf3e732229c71b93de4",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Politics",
-          "color": "#6dc4e0",
+          "color": {
+            "name": "blue_dark",
+            "text": "white",
+            "fill": "#0c66e4"
+          },
           "uses": 1
         }
       ],
@@ -2966,7 +3042,11 @@
           "id": "657a3c7a286f4a101c6447e8",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Ideas",
-          "color": "#94c749",
+          "color": {
+            "name": "green_dark",
+            "text": "white",
+            "fill": "#1f845a"
+          },
           "uses": 1
         }
       ],
@@ -3096,7 +3176,11 @@
           "id": "64b80fa76e02b0365160d280",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Node.js",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 2
         }
       ],
@@ -3180,7 +3264,11 @@
           "id": "6536ece7ba06209fab3d3b81",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Udemy",
-          "color": "blue",
+          "color": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
           "uses": 5
         }
       ],
@@ -3264,7 +3352,11 @@
           "id": "5fb002b2cdabcf46c03cf423",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Barbican",
-          "color": "green",
+          "color": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
           "uses": 9
         }
       ],
@@ -3348,14 +3440,22 @@
           "id": "6491c7d859cf65f7b465cf91",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Freelance",
-          "color": "purple",
+          "color": {
+            "name": "purple",
+            "text": "#352c63",
+            "fill": "#9f8fef"
+          },
           "uses": 4
         },
         {
           "id": "64b80f8953c59efd3011ee02",
           "idBoard": "5fb002b217fa6a2ca13512f7",
           "name": "Next.js",
-          "color": null,
+          "color": {
+            "name": "black_dark",
+            "text": "white",
+            "fill": "#626f86"
+          },
           "uses": 3
         }
       ],
@@ -3495,7 +3595,7 @@
             "url": "https://open.spotify.com/artist/0uo6UbyUYXbG4xBT7vBGSx",
             "name": "Wilma Archer"
           },
-          "popularity": 21,
+          "popularity": 20,
           "release_date": "2020-04-03",
           "url": "https://open.spotify.com/track/2C5Q2WNxzaW6NTucwChrAr",
           "name": "Cheater"
@@ -3505,7 +3605,7 @@
             "url": "https://open.spotify.com/artist/6aRJP31fKBf0jbvb6qYAGt",
             "name": "Iftin Band"
           },
-          "popularity": 15,
+          "popularity": 14,
           "release_date": "2019-12-13",
           "url": "https://open.spotify.com/track/2l8davPIbbdn8BxYgbkwtP",
           "name": "Sirmaqabe - No Secrets"
@@ -3607,7 +3707,7 @@
             "url": "https://open.spotify.com/artist/4GZ18L0i6k1mxAjo3GzINM",
             "name": "Lou Hayter"
           },
-          "popularity": 6,
+          "popularity": 5,
           "release_date": "2021-05-28",
           "url": "https://open.spotify.com/track/2nJGzWo4AL574tQCvPaS9z",
           "name": "My Baby Just Cares for Me"
@@ -3637,7 +3737,7 @@
             "url": "https://open.spotify.com/artist/0Dy94lW3txJhWQHqNXP1BT",
             "name": "Laura Mvula"
           },
-          "popularity": 37,
+          "popularity": 36,
           "release_date": "2021-07-02",
           "url": "https://open.spotify.com/track/32YlBIj8qDpyXgsLJ4MfwR",
           "name": "Got Me"
@@ -3729,7 +3829,7 @@
             "url": "https://open.spotify.com/artist/3I3Fz1DeUY0icXFvOjbXm7",
             "name": "Methyl Ethel"
           },
-          "popularity": 33,
+          "popularity": 32,
           "release_date": "2022-02-18",
           "url": "https://open.spotify.com/track/4QI59IbUG9W8oUo4gWoBxw",
           "name": "Proof"
@@ -3739,7 +3839,7 @@
             "url": "https://open.spotify.com/artist/3v8mFhjLFa50QK8zDvAMYN",
             "name": "Amanda Miguel"
           },
-          "popularity": 72,
+          "popularity": 71,
           "release_date": "1981-01-01",
           "url": "https://open.spotify.com/track/0hTao6s03MkTStWfxAmnGk",
           "name": "Así No Te Amará Jamás"
@@ -3799,7 +3899,7 @@
             "url": "https://open.spotify.com/artist/6RQoLyY1nkArRcNc3sE86m",
             "name": "Ora the Molecule"
           },
-          "popularity": 23,
+          "popularity": 22,
           "release_date": "2021-07-23",
           "url": "https://open.spotify.com/track/0vydtoDOsW0qRhmFEHdyTT",
           "name": "Creator"
@@ -3817,7 +3917,7 @@
       "external_urls": {
         "spotify": "https://open.spotify.com/playlist/62m9CBpzOUaVbRU9UAbiaY"
       },
-      "followers": 2,
+      "followers": 3,
       "href": "https://api.spotify.com/v1/playlists/62m9CBpzOUaVbRU9UAbiaY",
       "id": "62m9CBpzOUaVbRU9UAbiaY",
       "images": [
@@ -3871,7 +3971,7 @@
             "url": "https://open.spotify.com/artist/2d2ElnqC2cMPp7zcSyv3yG",
             "name": "PVA"
           },
-          "popularity": 34,
+          "popularity": 33,
           "release_date": "2022-10-14",
           "url": "https://open.spotify.com/track/1mfv1mksVTGW1Nroabjt1u",
           "name": "Hero Man"
@@ -3881,7 +3981,7 @@
             "url": "https://open.spotify.com/artist/3QX8CTn1znpY0HF3hbnNye",
             "name": "Haiku Hands"
           },
-          "popularity": 29,
+          "popularity": 28,
           "release_date": "2023-05-08",
           "url": "https://open.spotify.com/track/5eGOxe4PEFgSZFcwB8GEUI",
           "name": "Nunchucka"
@@ -3931,7 +4031,7 @@
             "url": "https://open.spotify.com/artist/0Cc6v6tsUT1FktqPQYXME3",
             "name": "Virginia Astley"
           },
-          "popularity": 23,
+          "popularity": 24,
           "release_date": "1986-01-01",
           "url": "https://open.spotify.com/track/6EcATCFBm1bRBdsQNfwdHT",
           "name": "Some Small Hope"
@@ -4017,13 +4117,13 @@
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 184612,
+    "downloads": 184728,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
     "version": "2.16.3",
-    "downloads": 12010,
+    "downloads": 12007,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

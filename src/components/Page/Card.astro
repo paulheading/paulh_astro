@@ -13,9 +13,7 @@ let { card, index, countTime = false } = Astro.props;
 
 let { name, labels, dueComplete, local, start, due } = card;
 
-let primary = labels.filter(({ color }: label) => color);
-
-primary = primary.length ? primary[0].color : "black";
+let primary = labels[0].color;
 
 const containerProps = {
   "data-article": "true",
@@ -48,15 +46,16 @@ let length = countTime ? calc.summary_length(dueComplete, due, start) : null;
   <div class="label_wrap">
     <Labels>
       {
-        labels.map(({ name, color }: label, index: number) => {
-          const style = index == 0 ? "solid" : "outline";
-
-          color = color ? color : primary;
-
+        labels.map(function ({ name, color }: label, index: number) {
           const props = {
+            style: "solid",
             color,
-            style,
           };
+
+          if (index > 0) {
+            props.style = "outline";
+            props.color = primary;
+          }
 
           return <Label {...props}>{name}</Label>;
         })
