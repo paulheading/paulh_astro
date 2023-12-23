@@ -1,6 +1,7 @@
 import { stripHtml } from "string-strip-html";
 import showdown from "showdown";
 import { list } from "./variables.js";
+import colors from "./colors.js";
 
 const create = {};
 
@@ -65,55 +66,28 @@ remove.hero = (name) => name.replace("Hero: ", "");
 
 const convert = {};
 
+/**
+ * @name convert.labelColors
+ * @param {[object]} labels
+ * @returns Label with a modified color object that contains trello hex values
+ */
+
 convert.labelColors = function (labels) {
   return labels.map((label) => {
     let { color } = label;
 
-    let name = color;
-    let text = "white";
-    let fill = "#626f86";
+    let name = color ? color : "black_dark";
 
-    if (!name) name = "black_dark";
+    for (let index = 0; index < colors.length; index++) {
+      let item = colors[index];
 
-    if (name == "green") {
-      text = "#174b35";
-      fill = "#4cce97";
+      if (name == item.name) {
+        color = item;
+        break;
+      }
     }
 
-    if (name == "green_dark") {
-      fill = "#1f845a";
-    }
-
-    if (name == "red") {
-      text = "#5d1f1a";
-      fill = "#f87169";
-    }
-
-    if (name == "purple") {
-      text = "#352c63";
-      fill = "#9f8fef";
-    }
-
-    if (name == "blue") {
-      text = "#08336c";
-      fill = "#579dff";
-    }
-
-    if (name == "blue_dark") {
-      fill = "#0c66e4";
-    }
-
-    color = {
-      name,
-      text,
-      fill,
-    };
-
-    let result = { ...label, color };
-
-    console.log("label: ", result);
-
-    return result;
+    return { ...label, color };
   });
 };
 

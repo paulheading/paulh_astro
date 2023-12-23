@@ -3,10 +3,30 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "d60c0e2f-3713-4573-b311-0b1e764d5c2b",
+        "url": "https://sphinx.acast.com/p/acast/s/sentimentalgarbage/e/6570a48ed2951200123855f3/media.mp3",
+        "published": "2023-12-07T01:09:21Z",
+        "duration": 4390,
+        "fileType": "audio/mp3",
+        "title": "While You Were Sleeping with Sam Sedgman",
+        "size": "170437811",
+        "playingStatus": 3,
+        "playedUpTo": 4390,
+        "starred": false,
+        "podcastUuid": "f18efe70-d5eb-0136-3249-08b04944ede4",
+        "podcastTitle": "Sentimental Garbage",
+        "episodeType": "full",
+        "episodeSeason": 11,
+        "episodeNumber": 11,
+        "isDeleted": true,
+        "author": "Justice for Dumb Women",
+        "bookmarks": []
+      },
+      {
         "uuid": "474bdee4-6bb1-42dd-b29d-7bc1af527f0a",
         "url": "https://chtbl.com/track/4E942/pscrb.fm/rss/p/pdst.fm/e/arttrk.com/p/ABMA5/pfx.vpixl.com/ejC8r/clrtpod.com/m/audioboom.com/posts/8398007.mp3?modified=1699742958&sid=4278829&source=rss",
         "published": "2023-11-12T05:00:00Z",
-        "duration": 11647,
+        "duration": 11667,
         "fileType": "audio/mpeg",
         "title": "Gone Girl with Esther Zuckerman",
         "size": "0",
@@ -1981,26 +2001,6 @@
         "isDeleted": false,
         "author": "Pushkin Industries",
         "bookmarks": []
-      },
-      {
-        "uuid": "fec79b5e-e393-4f6b-a83d-c2a20645be50",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/chtbl.com/track/28D492/traffic.megaphone.fm/SLT6393632724.mp3?updated=1693603666",
-        "published": "2023-09-02T07:00:00Z",
-        "duration": 2897,
-        "fileType": "audio/mpeg",
-        "title": "Slate Money: You Better Not Be Working",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 29,
-        "starred": false,
-        "podcastUuid": "5c2afaf0-83c4-0136-7b90-27f978dac4db",
-        "podcastTitle": "Slate Technology",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Slate Podcasts",
-        "bookmarks": []
       }
     ]
   },
@@ -2065,7 +2065,7 @@
           "name": "GraphQL",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 1
@@ -2165,7 +2165,7 @@
           "name": "Next.js",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 3
@@ -2265,7 +2265,7 @@
           "name": "Next.js",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 3
@@ -2365,7 +2365,7 @@
           "name": "Node.js",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 2
@@ -2465,7 +2465,7 @@
           "name": "Nuxt",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 2
@@ -2565,7 +2565,7 @@
           "name": "Nuxt",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 2
@@ -2665,7 +2665,7 @@
           "name": "Vue.js",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 1
@@ -2765,7 +2765,7 @@
           "name": "Video",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 1
@@ -2865,7 +2865,7 @@
           "name": "Wordpress",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 1
@@ -2956,7 +2956,7 @@
           "name": "Politics",
           "color": {
             "name": "blue_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#0c66e4"
           },
           "uses": 1
@@ -3044,7 +3044,7 @@
           "name": "Ideas",
           "color": {
             "name": "green_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#1f845a"
           },
           "uses": 1
@@ -3178,7 +3178,7 @@
           "name": "Node.js",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 2
@@ -3453,7 +3453,7 @@
           "name": "Next.js",
           "color": {
             "name": "black_dark",
-            "text": "white",
+            "text": "#ffffff",
             "fill": "#626f86"
           },
           "uses": 3
@@ -3565,7 +3565,7 @@
             "url": "https://open.spotify.com/artist/7LTSTQkL7iK7zndjFQgHQo",
             "name": "O'Flynn"
           },
-          "popularity": 30,
+          "popularity": 29,
           "release_date": "2019-09-06",
           "url": "https://open.spotify.com/track/1SMLoRfenhQJjL4fbimctZ",
           "name": "Aletheia"
@@ -3575,7 +3575,7 @@
             "url": "https://open.spotify.com/artist/2dOnTAoXrpBwYAo1qIbemO",
             "name": "Steam Down"
           },
-          "popularity": 27,
+          "popularity": 26,
           "release_date": "2019-11-08",
           "url": "https://open.spotify.com/track/3a9BypAqVxHNCZgHQXfeG7",
           "name": "Free My Skin"
@@ -3585,7 +3585,7 @@
             "url": "https://open.spotify.com/artist/1ooAqaFu4Ac3BO2HpL4V2R",
             "name": "Henrik Schwarz"
           },
-          "popularity": 29,
+          "popularity": 28,
           "release_date": "2020-03-20",
           "url": "https://open.spotify.com/track/7GA49BEANCELzwyBxQVxU1",
           "name": "Come Together"
@@ -3615,7 +3615,7 @@
             "url": "https://open.spotify.com/artist/3uOdNUjwD6hhOh1z2dQEIn",
             "name": "lau.ra"
           },
-          "popularity": 16,
+          "popularity": 15,
           "release_date": "2020-02-07",
           "url": "https://open.spotify.com/track/5rtAx0XN2V6P0RCkJSAXZ5",
           "name": "Sideways"
@@ -3677,7 +3677,7 @@
             "url": "https://open.spotify.com/artist/6nbtlXRy0S6adYpDVoRdNi",
             "name": "Anna B Savage"
           },
-          "popularity": 21,
+          "popularity": 20,
           "release_date": "2021-01-29",
           "url": "https://open.spotify.com/track/4oUBPVqmxoP5u9HeXLU6To",
           "name": "Corncrakes"
@@ -3687,7 +3687,7 @@
             "url": "https://open.spotify.com/artist/5K9Px0eeCuYatmBGFfhSOA",
             "name": "Orlando Weeks"
           },
-          "popularity": 18,
+          "popularity": 17,
           "release_date": "2021-06-16",
           "url": "https://open.spotify.com/track/0Zga9iWiTp760vRHHLNxFF",
           "name": "Big Skies, Silly Faces"
@@ -3829,7 +3829,7 @@
             "url": "https://open.spotify.com/artist/3I3Fz1DeUY0icXFvOjbXm7",
             "name": "Methyl Ethel"
           },
-          "popularity": 32,
+          "popularity": 31,
           "release_date": "2022-02-18",
           "url": "https://open.spotify.com/track/4QI59IbUG9W8oUo4gWoBxw",
           "name": "Proof"
@@ -4011,7 +4011,7 @@
             "url": "https://open.spotify.com/artist/0vsByTdAyygALhiGzUGVab",
             "name": "Baby Dave"
           },
-          "popularity": 30,
+          "popularity": 29,
           "release_date": "2022-04-22",
           "url": "https://open.spotify.com/track/0PX6sHmMFFOpqkysQlvwRV",
           "name": "Gen Z Baby"
@@ -4031,7 +4031,7 @@
             "url": "https://open.spotify.com/artist/0Cc6v6tsUT1FktqPQYXME3",
             "name": "Virginia Astley"
           },
-          "popularity": 24,
+          "popularity": 23,
           "release_date": "1986-01-01",
           "url": "https://open.spotify.com/track/6EcATCFBm1bRBdsQNfwdHT",
           "name": "Some Small Hope"
@@ -4117,13 +4117,13 @@
   "gem": {
     "name": "futuro",
     "version": "1.1.8",
-    "downloads": 184728,
+    "downloads": 184844,
     "url": "https://rubygems.org/gems/futuro"
   },
   "npm": {
     "name": "barbican-reset",
     "version": "2.16.3",
-    "downloads": 12007,
+    "downloads": 12014,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

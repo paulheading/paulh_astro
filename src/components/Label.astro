@@ -19,7 +19,7 @@ if (isOutline && !dark) {
 }
 ---
 
-<div class:list={["label", style, size, dark && "dark"]}>
+<div class:list={["label", style, size, dark && "dark", !dark && "light"]}>
   <slot />
 </div>
 
@@ -46,6 +46,10 @@ if (isOutline && !dark) {
     background-color: var(--fill);
     border-color: var(--fill);
     color: var(--text);
+  }
+
+  .label.solid.light {
+    border-color: var(--text);
   }
 
   .label.outline {

@@ -34,8 +34,8 @@ const clearProps = {
   @import "~styles/mixins";
 
   $color: black;
-  $error: #eb0000;
-  $focus: blue;
+  $error: darkred;
+  $focus: mediumblue;
 
   @mixin button-focus {
     background-color: $focus;
@@ -53,16 +53,13 @@ const clearProps = {
       border-color: $error;
       color: $error;
     }
-    input:focus {
-      outline-color: $error;
-    }
 
     button#search-submit,
     button#search-clear {
       background-color: $error;
       color: white;
 
-      &:focus {
+      &:active {
         @include button-focus;
       }
     }
@@ -75,9 +72,10 @@ const clearProps = {
 
   input {
     border: toRem(2) solid $color;
+    border-right: none;
     font-size: inherit;
+    padding: 0.625rem;
     border-radius: 0;
-    padding: 0.5rem;
     color: $color;
   }
 
@@ -108,7 +106,7 @@ const clearProps = {
     background-color: $color;
     color: white;
 
-    &:focus {
+    &:active {
       @include button-focus;
     }
   }
@@ -118,7 +116,7 @@ const clearProps = {
     margin-left: toRem(2);
     color: $color;
 
-    &:focus {
+    &:active {
       @include button-focus;
     }
   }
