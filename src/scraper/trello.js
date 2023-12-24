@@ -78,6 +78,7 @@ async function processCard(card, list) {
   card.local = {}; // locally interpreted formatting of data
   card.local.summary = card.desc ? create.summary(card.desc) : null;
   card.local.desc = card.desc ? create.desc(card.desc) : null;
+  card.local.labels = card.labels.map(({ name }) => name);
 
   card.local.pathname = card.name
     .replace(/\s+/g, "-")

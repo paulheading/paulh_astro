@@ -3,6 +3,26 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "8d4588ee-58b9-4d79-bb2e-b36a284159f9",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/cc7e53f7-0484-4b46-be20-27d482e3b099/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=cc7e53f7-0484-4b46-be20-27d482e3b099&feed=BqbsxVfO",
+        "published": "2023-12-20T00:46:48Z",
+        "duration": 3038,
+        "fileType": "audio/mpeg",
+        "title": "564- Mini-Stories: Volume 17",
+        "size": "46268385",
+        "playingStatus": 3,
+        "playedUpTo": 3038,
+        "starred": false,
+        "podcastUuid": "0cc43410-1d2f-012e-0175-00163e1b201c",
+        "podcastTitle": "99% Invisible",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "Roman Mars",
+        "bookmarks": []
+      },
+      {
         "uuid": "d60c0e2f-3713-4573-b311-0b1e764d5c2b",
         "url": "https://sphinx.acast.com/p/acast/s/sentimentalgarbage/e/6570a48ed2951200123855f3/media.mp3",
         "published": "2023-12-07T01:09:21Z",
@@ -1981,26 +2001,6 @@
         "isDeleted": false,
         "author": "The Guardian",
         "bookmarks": []
-      },
-      {
-        "uuid": "3e9608d8-d717-4ce6-983d-0e93e5279420",
-        "url": "https://chtbl.com/track/39E17/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/c0ae8c6e-22f0-4e9b-ac1c-ae390037ac53/59b42595-c0be-45a7-b931-b06e00ff76e8/audio.mp3?utm_source=Podcast&in_playlist=7f5a4714-6b10-4ccf-a424-ae390037ac70",
-        "published": "2023-09-01T04:01:00Z",
-        "duration": 2357,
-        "fileType": "audio/mpeg",
-        "title": "The City That Sold Itself To Wall Street",
-        "size": "36990448",
-        "playingStatus": 2,
-        "playedUpTo": 2357,
-        "starred": false,
-        "podcastUuid": "ba993300-d71c-0137-1e26-0acc26574db2",
-        "podcastTitle": "Cautionary Tales with Tim Harford",
-        "episodeType": "full",
-        "episodeSeason": 4,
-        "episodeNumber": 25,
-        "isDeleted": false,
-        "author": "Pushkin Industries",
-        "bookmarks": []
       }
     ]
   },
@@ -2101,6 +2101,10 @@
       "local": {
         "summary": "Build a website/app for staff at the Barbican to see which spaces are available to book.",
         "desc": "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "labels": [
+          "Barbican",
+          "GraphQL"
+        ],
         "pathname": "organising-spaces-with-graphql",
         "url": "/project/organising-spaces-with-graphql"
       }
@@ -2201,6 +2205,10 @@
       "local": {
         "summary": "Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.",
         "desc": "<h1 id=\"buildingaportfolioinnextjs\">Building a Portfolio in Next.js</h1>\n<p>Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, you're looking at it 😉</p>\n<p>The code is in my public <a href=\"https://github.com/paulheading/paulh3\">Github repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layout with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.</p>\n<p>It also makes use of <a href=\"https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes\">Next.js dynamic routing</a>, <a href=\"https://www.npmjs.com/package/raw-loader\">markdown for content generation</a> and <a href=\"https://greensock.com/gsap\">GSAP</a> for web animation.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "labels": [
+          "Freelance",
+          "Next.js"
+        ],
         "pathname": "building-a-portfolio-in-nextjs",
         "url": "/project/building-a-portfolio-in-nextjs"
       }
@@ -2301,6 +2309,10 @@
       "local": {
         "summary": "Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.",
         "desc": "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>",
+        "labels": [
+          "Freelance",
+          "Next.js"
+        ],
         "pathname": "sparking-the-cannon-with-nextjs",
         "url": "/project/sparking-the-cannon-with-nextjs"
       }
@@ -2368,7 +2380,7 @@
             "text": "#ffffff",
             "fill": "#626f86"
           },
-          "uses": 2
+          "uses": 1
         }
       ],
       "idLabels": [
@@ -2401,6 +2413,10 @@
       "local": {
         "summary": "Build the Barbican Reset. An NPM package that can be used across the Barbican's many digital products to provide consistent styling and functionality.",
         "desc": "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building the package for <a href=\"https://www.npmjs.com/\">NPM</a></li>\n<li>💡 Creating components for <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "labels": [
+          "Barbican",
+          "Node.js"
+        ],
         "pathname": "resetting-the-barbican-with-nodejs",
         "url": "/project/resetting-the-barbican-with-nodejs"
       }
@@ -2501,6 +2517,10 @@
       "local": {
         "summary": "Build and animate the website for a community festival called Leytonstone Loves Film.",
         "desc": "<h1 id=\"leytonstonelovesfilm\">Leytonstone Loves Film</h1>\n<p>Build and animate the website for a community festival called Leytonstone Loves Film.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://leytonstonelovesfilm.com\">leytonstonelovesfilm.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nuxt.com\">Nuxt.js</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>I'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>",
+        "labels": [
+          "Barbican",
+          "Nuxt"
+        ],
         "pathname": "leytonstone-loves-film",
         "url": "/project/leytonstone-loves-film"
       }
@@ -2601,6 +2621,10 @@
       "local": {
         "summary": "Build and animate the website for a community festival called Walthamstow Garden Party.",
         "desc": "<h1 id=\"walthamstowgardenparty\">Walthamstow Garden Party</h1>\n<p>Build and animate the website for a community festival called Walthamstow Garden Party.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://walthamstowgardenparty.com\">walthamstowgardenparty.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nuxt.com\">Nuxt.js</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>I'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>",
+        "labels": [
+          "Barbican",
+          "Nuxt"
+        ],
         "pathname": "walthamstow-garden-party",
         "url": "/project/walthamstow-garden-party"
       }
@@ -2701,6 +2725,10 @@
       "local": {
         "summary": "Update the Barbican ticketing platform with a modular design that better reflects the brand and offers a wider range of functionality.",
         "desc": "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "labels": [
+          "Barbican",
+          "Vue.js"
+        ],
         "pathname": "designing-account-areas-in-vuejs",
         "url": "/project/designing-account-areas-in-vuejs"
       }
@@ -2801,6 +2829,10 @@
       "local": {
         "summary": "Animate a brand moment for the NYO, which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.",
         "desc": "<h1 id=\"movingorchestraswithaftereffects\">Moving orchestras with After Effects</h1>\n<p>Animate a brand moment for the <a href=\"https://www.nyo.org.uk/\">NYO</a>, which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>I worked on this project with Chloe Ings. We both developed creative routes, from which I ultimately supplied the final brand animations.</p>\n<ul>\n<li>🎨 Creating concepts with <a href=\"https://www.adobe.com/uk/products/indesign.html\">Adobe InDesign</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://www.adobe.com/uk/products/aftereffects.html\">Adobe After Effects</a></li>\n</ul>",
+        "labels": [
+          "Freelance",
+          "Video"
+        ],
         "pathname": "moving-orchestras-with-after-effects",
         "url": "/project/moving-orchestras-with-after-effects"
       }
@@ -2901,6 +2933,10 @@
       "local": {
         "summary": "Create & brand an online shop for 36 Bourne Street in Wordpress. The shop sells leather and fabric on the Pimlico Road.",
         "desc": "<h1 id=\"sellingdesignerfabricwithwordpress\">Selling designer fabric with Wordpress</h1>\n<p>Create &amp; brand an online shop for <a href=\"https://36bournestreet.com\">36 Bourne Street</a> in <a href=\"https://wordpress.com\">Wordpress</a>. The shop sells leather and fabric on the <a href=\"https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district\">Pimlico Road</a>.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.36bournestreet.com\">36bournestreet.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/BourneSt\">repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building a child theme for <a href=\"https://wordpress.com/\">Wordpress</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a <a href=\"https://www.wpbeginner.com/glossary/content-management-system-cms\">CMS</a>, using <a href=\"https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps\">template partials in Wordpress</a> and building functionality with the <a href=\"https://www.advancedcustomfields.com\">Advanced Custom Fields</a> plugin.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "labels": [
+          "Bourne St",
+          "Wordpress"
+        ],
         "pathname": "selling-designer-fabric-with-wordpress",
         "url": "/project/selling-designer-fabric-with-wordpress"
       }
@@ -2991,6 +3027,9 @@
       "local": {
         "summary": "Master the essentials and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!",
         "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
+        "labels": [
+          "Politics"
+        ],
         "pathname": "the-git-github-bootcamp",
         "url": "/article/the-git-github-bootcamp"
       }
@@ -3015,19 +3054,19 @@
         "comments": 0,
         "attachments": 0,
         "description": true,
-        "due": "2016-03-11T13:19:00.000Z",
-        "dueComplete": true,
-        "start": "2013-03-13T08:00:00.000Z"
+        "due": null,
+        "dueComplete": false,
+        "start": null
       },
       "checkItemStates": [],
       "closed": false,
-      "dueComplete": true,
-      "dateLastActivity": "2023-12-13T23:23:12.860Z",
-      "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n---\n\n# Junior Designer\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 📺 Creating plasma trailers with Adobe After Effects\n- 🚀 Animating online advertising with Adobe Photoshop\n- 🎨 Designing layouts and concepts with Sketch\n```",
+      "dueComplete": false,
+      "dateLastActivity": "2023-12-24T23:08:10.747Z",
+      "desc": "```\n# Problem solving basics\n\n### What does \"design mindset\" mean?\n\nWell, design is primarily about **communicating ideas and problem solving**. There are some concepts we can use to help us do this. By implementing these concepts in your critical thinking, you will develop a design mindset.\n\n### And what are good ideas?\n\nA good idea is one which contributes to your desired outcome.\n\n### So what is a good outcome?\n\nOutcomes justify the existence of your product. They can be anything from \"raising awareness of your product\", \"creating excitement around your product\" or \"making your product easier to use\". **You define your outcomes** and acheiving them is your measure of success.\n\n### Can outcomes ever be bad then?\n\nOf course, that's why its always important to understand the detail:\n\n1. Vague outcomes are common and can waste your time; acheiving something unspecific or unuseful.\n\n2. Unintended outcomes can create more problems than they solve.\n\n### So what concepts are useful?\n\nHere's a list of concepts that I find useful in my own design process:\n\n1. Combine simple ideas to create complex outcomes: When writing code you should create functions with very specific outcomes. This will be easier to read and understand. It will be easier to debug and understand. It will be easier to see where your assertions are incorrect, and where the gaps in your understanding exist.\n\n2. To find correct solutions, you need to ask the correct questions:\n\n3. The three types of knowledge:\n```",
       "descData": {
         "emoji": {}
       },
-      "due": "2016-03-11T13:19:00.000Z",
+      "due": null,
       "dueReminder": -1,
       "email": null,
       "idBoard": "5fb002b217fa6a2ca13512f7",
@@ -3054,13 +3093,13 @@
         "657a3c7a286f4a101c6447e8"
       ],
       "manualCoverAttachment": false,
-      "name": "Junior Designer",
+      "name": "Problem solving basics",
       "pos": 163840,
       "shortLink": "DnIvulhs",
       "shortUrl": "https://trello.com/c/DnIvulhs",
-      "start": "2013-03-13T08:00:00.000Z",
+      "start": null,
       "subscribed": false,
-      "url": "https://trello.com/c/DnIvulhs/41-junior-designer",
+      "url": "https://trello.com/c/DnIvulhs/41-problem-solving-basics",
       "cover": {
         "idAttachment": null,
         "color": null,
@@ -3071,7 +3110,7 @@
       },
       "isTemplate": false,
       "cardRole": null,
-      "marquee": "Junior Designer",
+      "marquee": "Problem solving basics",
       "hero": false,
       "type": "article",
       "attachments": [],
@@ -3123,10 +3162,13 @@
         }
       ],
       "local": {
-        "summary": "I worked in the Barbican Design Studio designing digital content for marketing campaigns.",
-        "desc": "<h1 id=\"juniordesigner\">Junior Designer</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/paul-heading\">Barbican Design Studio</a> designing digital content for marketing campaigns.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>",
-        "pathname": "junior-designer",
-        "url": "/article/junior-designer"
+        "summary": "Problem solving basics\nWhat does \"design mindset\" mean?\nWell, design is primarily about communicating ideas and problem solving. There are some concepts we can use to help us do this. By implementing these concepts in your critical thinking, you will develop a design mindset.\nAnd what are good ideas?\nA good idea is one which contributes to your desired outcome.\nSo what is a good outcome?\nOutcomes justify the existence of your product. They can be anything from \"raising awareness of your product\", \"creating excitement around your product\" or \"making your product easier to use\". You define your outcomes and acheiving them is your measure of success.\nCan outcomes ever be bad then?\nOf course, that's why its always important to understand the detail:\n\nVague outcomes are common and can waste your time; acheiving something unspecific or unuseful.\nUnintended outcomes can create more problems than they solve.\n\nSo what concepts are useful?\nHere's a list of concepts that I find useful in my own design process:\n\nCombine simple ideas to create complex outcomes: When writing code you should create functions with very specific outcomes. This will be easier to read and understand. It will be easier to debug and understand. It will be easier to see where your assertions are incorrect, and where the gaps in your understanding exist.\nTo find correct solutions, you need to ask the correct questions:\nThe three types of knowledge:",
+        "desc": "<h1 id=\"problemsolvingbasics\">Problem solving basics</h1>\n<h3 id=\"whatdoesdesignmindsetmean\">What does \"design mindset\" mean?</h3>\n<p>Well, design is primarily about <strong>communicating ideas and problem solving</strong>. There are some concepts we can use to help us do this. By implementing these concepts in your critical thinking, you will develop a design mindset.</p>\n<h3 id=\"andwhataregoodideas\">And what are good ideas?</h3>\n<p>A good idea is one which contributes to your desired outcome.</p>\n<h3 id=\"sowhatisagoodoutcome\">So what is a good outcome?</h3>\n<p>Outcomes justify the existence of your product. They can be anything from \"raising awareness of your product\", \"creating excitement around your product\" or \"making your product easier to use\". <strong>You define your outcomes</strong> and acheiving them is your measure of success.</p>\n<h3 id=\"canoutcomeseverbebadthen\">Can outcomes ever be bad then?</h3>\n<p>Of course, that's why its always important to understand the detail:</p>\n<ol>\n<li><p>Vague outcomes are common and can waste your time; acheiving something unspecific or unuseful.</p></li>\n<li><p>Unintended outcomes can create more problems than they solve.</p></li>\n</ol>\n<h3 id=\"sowhatconceptsareuseful\">So what concepts are useful?</h3>\n<p>Here's a list of concepts that I find useful in my own design process:</p>\n<ol>\n<li><p>Combine simple ideas to create complex outcomes: When writing code you should create functions with very specific outcomes. This will be easier to read and understand. It will be easier to debug and understand. It will be easier to see where your assertions are incorrect, and where the gaps in your understanding exist.</p></li>\n<li><p>To find correct solutions, you need to ask the correct questions:</p></li>\n<li><p>The three types of knowledge:</p></li>\n</ol>",
+        "labels": [
+          "Ideas"
+        ],
+        "pathname": "problem-solving-basics",
+        "url": "/article/problem-solving-basics"
       }
     },
     {
@@ -3156,7 +3198,7 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-12-13T17:49:39.847Z",
+      "dateLastActivity": "2023-12-24T22:36:15.108Z",
       "desc": "```\nBuild the [Barbican Reset](https://www.npmjs.com/package/barbican-reset). An [NPM package](https://docs.npmjs.com/about-packages-and-modules) that can be used across the [Barbican's](https://barbican.org.uk) many digital products to provide consistent styling and functionality.\n\n---\n\n# Resetting the Barbican with Node.js\n\nBuild the [Barbican Reset](https://www.npmjs.com/package/barbican-reset). An [NPM package](https://docs.npmjs.com/about-packages-and-modules) that can be used across the [Barbican's](https://barbican.org.uk) many digital products to provide consistent styling and functionality.\n\n### Can I see it?\n\nSure, it's at [npmjs.com/package/barbican-reset](https://www.npmjs.com/package/barbican-reset)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly. But feel free to download the [Barbican Reset](https://www.npmjs.com/package/barbican-reset) and review the production code.\n\n### How much did you do?\n\nPretty much everything, which includes:\n\n- 💻 Building the package for [NPM](https://www.npmjs.com/)\n- 💡 Creating components for [Vue.js](https://vuejs.org)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThis was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.\n\n### What needs improving?\n\n- **Compatibility** 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
       "descData": {
         "emoji": {}
@@ -3173,19 +3215,19 @@
       "idAttachmentCover": null,
       "labels": [
         {
-          "id": "64b80fa76e02b0365160d280",
+          "id": "6588b24a2e44859885d72024",
           "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "Node.js",
+          "name": "Projects",
           "color": {
-            "name": "black_dark",
+            "name": "red_dark",
             "text": "#ffffff",
-            "fill": "#626f86"
+            "fill": "#c9372c"
           },
-          "uses": 2
+          "uses": 1
         }
       ],
       "idLabels": [
-        "64b80fa76e02b0365160d280"
+        "6588b24a2e44859885d72024"
       ],
       "manualCoverAttachment": true,
       "name": "Resetting the Barbican with Node.js",
@@ -3213,6 +3255,9 @@
       "local": {
         "summary": "Build the Barbican Reset. An NPM package that can be used across the Barbican's many digital products to provide consistent styling and functionality.",
         "desc": "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building the package for <a href=\"https://www.npmjs.com/\">NPM</a></li>\n<li>💡 Creating components for <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "labels": [
+          "Projects"
+        ],
         "pathname": "resetting-the-barbican-with-nodejs",
         "url": "/article/resetting-the-barbican-with-nodejs"
       }
@@ -3301,6 +3346,9 @@
       "local": {
         "summary": "Become job ready for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.",
         "desc": "<h1 id=\"thecompleteguidetotestingjavascriptnodeapplications\">The complete guide to testing javascript &amp; node applications</h1>\n<p><a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>",
+        "labels": [
+          "Udemy"
+        ],
         "pathname": "the-complete-guide-to-testing-javascript-node-applications",
         "url": "/article/the-complete-guide-to-testing-javascript-node-applications"
       }
@@ -3389,6 +3437,9 @@
       "local": {
         "summary": "I worked in the Barbican Design Studio, designing digital content for marketing campaigns, as well as managing one other Designer.",
         "desc": "<h1 id=\"designmanager\">Design Manager</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/barbican\">Barbican Design Studio</a>, designing digital content for marketing campaigns, as well as managing one other Designer.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>",
+        "labels": [
+          "Barbican"
+        ],
         "pathname": "design-manager",
         "url": "/article/design-manager"
       }
@@ -3489,6 +3540,10 @@
       "local": {
         "summary": "Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.",
         "desc": "<h1 id=\"buildingaportfolioinnextjs\">Building a Portfolio in Next.js</h1>\n<p>Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, you're looking at it 😉</p>\n<p>The code is in my public <a href=\"https://github.com/paulheading/paulh3\">Github repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layout with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.</p>\n<p>It also makes use of <a href=\"https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes\">Next.js dynamic routing</a>, <a href=\"https://www.npmjs.com/package/raw-loader\">markdown for content generation</a> and <a href=\"https://greensock.com/gsap\">GSAP</a> for web animation.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+        "labels": [
+          "Freelance",
+          "Next.js"
+        ],
         "pathname": "building-a-portfolio-in-nextjs",
         "url": "/article/building-a-portfolio-in-nextjs"
       }
@@ -3727,7 +3782,7 @@
             "url": "https://open.spotify.com/artist/6aDX1jzNVAI9enlQzW0Pgw",
             "name": "Moonchild Sanelly"
           },
-          "popularity": 14,
+          "popularity": 13,
           "release_date": "2021-09-02",
           "url": "https://open.spotify.com/track/5pDJ0QhZMlcUldSFQqFdNM",
           "name": "Undumpable"
@@ -3747,7 +3802,7 @@
             "url": "https://open.spotify.com/artist/4gQsGkfdB4uVrNBqo4MhmI",
             "name": "LUMP"
           },
-          "popularity": 18,
+          "popularity": 17,
           "release_date": "2021-05-05",
           "url": "https://open.spotify.com/track/6fcJI9qrH0vr9EYxjpQdaM",
           "name": "Animal - Edit"
@@ -3757,7 +3812,7 @@
             "url": "https://open.spotify.com/artist/5R9d1YP5jtBw2IrQItGzQI",
             "name": "Michael Mayer"
           },
-          "popularity": 21,
+          "popularity": 20,
           "release_date": "2021-06-04",
           "url": "https://open.spotify.com/track/0x1eIudX2mUXc28RujjNl5",
           "name": "Brainwave Technology"
@@ -3849,7 +3904,7 @@
             "url": "https://open.spotify.com/artist/6CZhbpXpR3VJNQWFkwd2Ic",
             "name": "Noé Preszow"
           },
-          "popularity": 36,
+          "popularity": 35,
           "release_date": "2022-03-18",
           "url": "https://open.spotify.com/track/6sqYnu5QuI8e1JwxlbwFs4",
           "name": "Faire les choses bien - Version alternative"
@@ -3859,7 +3914,7 @@
             "url": "https://open.spotify.com/artist/0uAnwMXg0tsGQsOdVwudkb",
             "name": "Colourbox"
           },
-          "popularity": 33,
+          "popularity": 32,
           "release_date": "1985-08-12",
           "url": "https://open.spotify.com/track/3RlGLTcM9OwrAA0ErwJ2rA",
           "name": "The Moon Is Blue"
@@ -3869,7 +3924,7 @@
             "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
             "name": "Superpoze"
           },
-          "popularity": 23,
+          "popularity": 22,
           "release_date": "2022-03-25",
           "url": "https://open.spotify.com/track/5YKffOovP69vePWQunFDdW",
           "name": "Geneva"
@@ -3879,7 +3934,7 @@
             "url": "https://open.spotify.com/artist/6Jrxnp0JgqmeUX1veU591p",
             "name": "Santigold"
           },
-          "popularity": 44,
+          "popularity": 43,
           "release_date": "2022-09-09",
           "url": "https://open.spotify.com/track/1vbayZm5FgNe4ou8BRNiDq",
           "name": "High Priestess"
@@ -3889,7 +3944,7 @@
             "url": "https://open.spotify.com/artist/0RwXnFrEoI8tltFvYpJgP6",
             "name": "Confidence Man"
           },
-          "popularity": 49,
+          "popularity": 48,
           "release_date": "2022-04-01",
           "url": "https://open.spotify.com/track/53wnscuzFnH8jaGymzqgfi",
           "name": "Holiday"
@@ -3941,7 +3996,7 @@
             "url": "https://open.spotify.com/artist/5gMXwFotLyxnc0usqNgk5J",
             "name": "Stephen Shannon"
           },
-          "popularity": 32,
+          "popularity": 31,
           "release_date": "2023-05-19",
           "url": "https://open.spotify.com/track/2ieQh3HGdx34e6tvfKvobi",
           "name": "Eyot"
@@ -3951,7 +4006,7 @@
             "url": "https://open.spotify.com/artist/1HvH97rzvCH6lfnLlgyfke",
             "name": "Genesis Owusu"
           },
-          "popularity": 51,
+          "popularity": 50,
           "release_date": "2022-10-22",
           "url": "https://open.spotify.com/track/4Og0uXMYqouN7xOQ7u8jiW",
           "name": "Get Inspired"
@@ -3961,7 +4016,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 23,
+          "popularity": 22,
           "release_date": "2023-02-20",
           "url": "https://open.spotify.com/track/46PG96cJ6QF9Agy7Pu5BQb",
           "name": "Burnt Pictures"
@@ -3991,7 +4046,7 @@
             "url": "https://open.spotify.com/artist/0U8TMcc0dtsUMFjft5DcGG",
             "name": "Will Powers"
           },
-          "popularity": 24,
+          "popularity": 23,
           "release_date": "1983-01-01",
           "url": "https://open.spotify.com/track/5TJg8fY39cD0RNh1JfKmvh",
           "name": "Dancing For Mental Health"
@@ -4001,7 +4056,7 @@
             "url": "https://open.spotify.com/artist/5QsqiLFA5Z2gmpKBbxQB2j",
             "name": "Hak Baker"
           },
-          "popularity": 38,
+          "popularity": 37,
           "release_date": "2023-06-09",
           "url": "https://open.spotify.com/track/5C8EA3slynaIYe65TGltEg",
           "name": "DOOLALLY"
@@ -4123,7 +4178,7 @@
   "npm": {
     "name": "barbican-reset",
     "version": "2.16.3",
-    "downloads": 12014,
+    "downloads": 12013,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

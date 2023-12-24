@@ -3,14 +3,12 @@ import { parse } from "node-html-parser";
 
 import Layout from "~layouts/Main.astro";
 import Content from "~components/Content.astro";
-import Gallery from "~components/Gallery.astro";
 import Page from "~components/Page.astro";
 import Row from "~components/Page/Row.astro";
 import Back from "~components/Anchor/Back.astro";
 
 import { articles } from "~data/layout.json";
 import { get, create } from "~scripts/helpers";
-import galleries from "~data/galleries";
 
 export function getStaticPaths() {
   return get.StaticPaths(articles);
@@ -32,30 +30,18 @@ const { name, local }: Props = Astro.props;
 const sections = create.sections(local.desc, "<h3");
 
 const layoutProps = {
-  title: "Paul Heading | Project | " + name,
+  title: "Paul Heading | Article | " + name,
   description: local.summary,
 };
-
-let filename = create.filename(local.pathname);
-
-// @ts-ignore
-const content = galleries[filename];
 ---
 
 <Layout {...layoutProps}>
   <Content>
     <Page>
       {sections.map((section: string) => <Row>{parse(section)}</Row>)}
-      {
-        content && (
-          <Row>
-            <Gallery content={content} />
-          </Row>
-        )
-      }
     </Page>
     <div class="wrap-back">
-      <Back>Resume</Back>
+      <Back href="/articles">Articles</Back>
     </div>
   </Content>
 </Layout>

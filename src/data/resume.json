@@ -84,6 +84,9 @@
       "local": {
         "summary": "Master the essentials and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!",
         "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
+        "labels": [
+          "Udemy"
+        ],
         "pathname": "the-git-github-bootcamp",
         "url": "/learning/the-git-github-bootcamp"
       }
@@ -172,6 +175,9 @@
       "local": {
         "summary": "Become job ready for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.",
         "desc": "<h1 id=\"thecompleteguidetotestingjavascriptnodeapplications\">The complete guide to testing javascript &amp; node applications</h1>\n<p><a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>",
+        "labels": [
+          "Udemy"
+        ],
         "pathname": "the-complete-guide-to-testing-javascript-node-applications",
         "url": "/learning/the-complete-guide-to-testing-javascript-node-applications"
       }
@@ -260,6 +266,9 @@
       "local": {
         "summary": "Frontend Masters hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.",
         "desc": "<h1 id=\"professionallearningpath\">Professional Learning Path</h1>\n<p><a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.</p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a></li>\n<li><a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a></li>\n<li><a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a></li>\n<li><a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a></li>\n</ul>\n<p>Still in progress:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a></li>\n</ul>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Because I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.</p>\n<p>[########] 80% Complete</p>",
+        "labels": [
+          "Frontend Masters"
+        ],
         "pathname": "professional-learning-path",
         "url": "/learning/professional-learning-path"
       }
@@ -348,6 +357,9 @@
       "local": {
         "summary": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
         "desc": "<h1 id=\"javascriptunderstandingtheweirdparts\">Javascript: Understanding the Weird Parts</h1>\n<p>An <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[##########] 100% Complete</p>",
+        "labels": [
+          "Udemy"
+        ],
         "pathname": "javascript-understanding-the-weird-parts",
         "url": "/learning/javascript-understanding-the-weird-parts"
       }
@@ -436,6 +448,9 @@
       "local": {
         "summary": "In early 2018 I decided to retrain as a developer, studying alongside my full-time job as Digital Design Manager. I enrolled in the Full-Stack Javascript Techdegree at teamtreehouse.com.",
         "desc": "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<p>In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.</p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:</p>\n<ul>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a></li>\n</ul>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>",
+        "labels": [
+          "Treehouse"
+        ],
         "pathname": "full-stack-javascript-techdegree",
         "url": "/learning/full-stack-javascript-techdegree"
       }
@@ -524,6 +539,9 @@
       "local": {
         "summary": "Learn how to create HTML5 and JavaScript games from scratch Step by step tutorials with real HTML5 code examples.",
         "desc": "<h1 id=\"html5gamefromscratchstepbysteplearningjavascript\">HTML5 Game from scratch step by step learning JavaScript</h1>\n<p>Learn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[##########] 100% Complete</p>",
+        "labels": [
+          "Udemy"
+        ],
         "pathname": "html5-game-from-scratch-step-by-step-learning-javascript",
         "url": "/learning/html5-game-from-scratch-step-by-step-learning-javascript"
       }
@@ -612,6 +630,9 @@
       "local": {
         "summary": "I began creating design work for friends projects while studying History at Goldsmiths University. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show.",
         "desc": "<h1 id=\"bahistory\">BA History</h1>\n<p>I began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.</p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>I learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.</p>",
+        "labels": [
+          "Goldsmiths"
+        ],
         "pathname": "ba-history",
         "url": "/learning/ba-history"
       }
@@ -645,7 +666,7 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-10-19T21:40:42.048Z",
+      "dateLastActivity": "2023-12-24T22:35:57.569Z",
       "desc": "```\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer & Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org). Outside of this role, I also like to build in [Next.js](https://nextjs.org)\n\n---\n\n# Front-end Designer & Developer\n\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer & Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org).\n\n### What does this include?\n\n- ⏱️ Working within an Agile team and estimating deadlines every fortnight\n- 🗣️ Presenting at fortnightly demos to people across the organisation\n- 🗣️ Testing and responding to user feedback\n- 👨‍🔬 Designing more inclusive and accessible experiences\n- 🎨 Wireframing and prototyping with Figma\n- 💻 Building with Vue.js\n- 🚀 Animating with GSAP\n- 📝 Styling layouts with SCSS\n```",
       "descData": {
         "emoji": {}
@@ -702,6 +723,9 @@
       "local": {
         "summary": "Front-end Designer & Developer working for the Barbican in London. I create wireframes and prototypes in Figma, and build things in Vue.js. Outside of this role, I also like to build in Next.js",
         "desc": "<h1 id=\"frontenddesignerdeveloper\">Front-end Designer &amp; Developer</h1>\n<p><a href=\"https://en.wikipedia.org/wiki/Front-end_web_development\">Front-end</a> Designer &amp; Developer working for the <a href=\"https://barbican.org.uk\">Barbican</a> in London. I create <a href=\"https://www.figma.com/blog/how-to-wireframe/\">wireframes</a> and <a href=\"https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma\">prototypes</a> in <a href=\"https://figma.com\">Figma</a>, and build things in <a href=\"https://vuejs.org\">Vue.js</a>.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working within an Agile team and estimating deadlines every fortnight</li>\n<li>🗣️ Presenting at fortnightly demos to people across the organisation</li>\n<li>🗣️ Testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible experiences</li>\n<li>🎨 Wireframing and prototyping with Figma</li>\n<li>💻 Building with Vue.js</li>\n<li>🚀 Animating with GSAP</li>\n<li>📝 Styling layouts with SCSS</li>\n</ul>",
+        "labels": [
+          "Barbican"
+        ],
         "pathname": "front-end-designer-developer",
         "url": "/role/front-end-designer-developer"
       }
@@ -790,6 +814,9 @@
       "local": {
         "summary": "I worked in the Barbican Design Studio, designing digital content for marketing campaigns, as well as managing one other Designer.",
         "desc": "<h1 id=\"designmanager\">Design Manager</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/barbican\">Barbican Design Studio</a>, designing digital content for marketing campaigns, as well as managing one other Designer.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>",
+        "labels": [
+          "Barbican"
+        ],
         "pathname": "design-manager",
         "url": "/role/design-manager"
       }
@@ -878,6 +905,9 @@
       "local": {
         "summary": "I worked in the Barbican Design Studio designing digital content for marketing campaigns.",
         "desc": "<h1 id=\"juniordesigner\">Junior Designer</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/paul-heading\">Barbican Design Studio</a> designing digital content for marketing campaigns.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>",
+        "labels": [
+          "Barbican"
+        ],
         "pathname": "junior-designer",
         "url": "/role/junior-designer"
       }

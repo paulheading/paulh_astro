@@ -12,6 +12,7 @@ search.addIndex(["local", "desc"]);
 search.addIndex(["local", "pathname"]);
 search.addIndex(["local", "summary"]);
 search.addIndex(["local", "url"]);
+search.addIndex(["local", "labels"]);
 
 /**
  * Dynamic Selectors
@@ -56,6 +57,7 @@ const $moreWrap = $more.closest(".wrap");
 let articlesPerRow = 3;
 
 let state = {
+  search: "",
   mode: "article",
 };
 
@@ -196,6 +198,16 @@ function searchArticles(event) {
   }
 
   if (value.length) {
+    if (state.search == value) {
+      return;
+    } else {
+      if (state.search.length) {
+        clearSearchResults();
+      }
+
+      state.search = value;
+    }
+
     $clear.removeAttribute("style", "display");
   }
 
@@ -257,6 +269,8 @@ function clearSearchResults() {
   $clear.setAttribute("style", "display:none;");
 
   resetMoreButton();
+
+  state.search = "";
 }
 
 /**
