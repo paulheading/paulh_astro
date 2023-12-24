@@ -9,11 +9,11 @@ const inputProps = {
 };
 
 const submitProps = {
-  id: "search-submit",
+  id: "submit-search",
 };
 
 const clearProps = {
-  id: "search-clear",
+  id: "clear-search",
   style: {
     display: "none",
   },
@@ -37,8 +37,9 @@ const clearProps = {
   $error: darkred;
   $focus: mediumblue;
 
-  @mixin button-focus {
+  @mixin focus-styles {
     background-color: $focus;
+    border-color: $focus;
     outline: none;
     color: white;
   }
@@ -54,13 +55,21 @@ const clearProps = {
       color: $error;
     }
 
-    button#search-submit,
-    button#search-clear {
+    button#submit-search {
       background-color: $error;
       color: white;
 
-      &:active {
-        @include button-focus;
+      @include focus {
+        @include focus-styles;
+      }
+    }
+
+    button#clear-search {
+      border-color: $error;
+      color: $error;
+
+      @include focus {
+        @include focus-styles;
       }
     }
   }
@@ -102,22 +111,23 @@ const clearProps = {
     border: none;
   }
 
-  button#search-submit {
+  button#submit-search {
     background-color: $color;
     color: white;
 
-    &:active {
-      @include button-focus;
+    @include focus {
+      @include focus-styles;
     }
   }
 
-  button#search-clear {
-    background-color: $c-body-bg;
-    margin-left: toRem(2);
+  button#clear-search {
+    background-color: white;
+    border: 2px solid $color;
+    border-left: none;
     color: $color;
 
-    &:active {
-      @include button-focus;
+    @include focus {
+      @include focus-styles;
     }
   }
 </style>

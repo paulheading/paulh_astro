@@ -43,11 +43,11 @@ const $moreCount = () => $more.querySelector(".count");
  * Static Selectors
  */
 
-const $submit = document.querySelector("#search-submit");
+const $submit = document.querySelector("#submit-search");
 
 const $form = $submit.closest("form");
 
-const $clear = $form.querySelector("#search-clear");
+const $clear = $form.querySelector("#clear-search");
 
 const $more = document.querySelector("#see-more");
 

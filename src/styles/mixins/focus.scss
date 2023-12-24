@@ -4,7 +4,7 @@
   }
 }
 
-@mixin focus($hide_outline: true) {
+@mixin focus($outline: false) {
   @media (hover: hover) {
     &:hover {
       @content;
@@ -19,7 +19,7 @@
     @content;
   }
 
-  @if ($hide_outline) {
+  @if not ($outline) {
     outline: rgba(0, 0, 0, 0);
   }
 }
