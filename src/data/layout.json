@@ -11,7 +11,7 @@
         "title": "EP.217 - ADAM AND JOE LIVE @ ROYAL FESTIVAL HALL",
         "size": "256511367",
         "playingStatus": 2,
-        "playedUpTo": 5652,
+        "playedUpTo": 6420,
         "starred": false,
         "podcastUuid": "a862d790-3ea8-0133-bdc8-0d11918ab357",
         "podcastTitle": "THE ADAM BUXTON PODCAST",
@@ -3691,7 +3691,7 @@
       "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/3BlVHgMeYX01HMh4eIe5n3",
       "image": "https://mosaic.scdn.co/640/ab67616d0000b27313d6c82dec0fb2b710ad4d27ab67616d0000b2734eb5d168c3d3fbb96ba6ec8fab67616d0000b2739bb74b4058c40a59fd33bf26ab67616d0000b273eec05a19db1f69581760fb88",
-      "thumbnail": "thumbnails/spotify/3BlVHgMeYX01HMh4eIe5n3.jpg"
+      "thumbnail": "/thumbnails/spotify/3BlVHgMeYX01HMh4eIe5n3.jpg"
     },
     "_2021": {
       "collaborative": false,
@@ -3834,7 +3834,7 @@
       "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/50LzfPmB6f0wAZULsP8wzp",
       "image": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273e46072802ddb3fd6c4793722",
-      "thumbnail": "thumbnails/spotify/50LzfPmB6f0wAZULsP8wzp.jpg"
+      "thumbnail": "/thumbnails/spotify/50LzfPmB6f0wAZULsP8wzp.jpg"
     },
     "_2022": {
       "collaborative": false,
@@ -3967,7 +3967,7 @@
       "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/2uGfm83zVuJGUfUFy8xnq7",
       "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbaec19d00d18a627f927663d1",
-      "thumbnail": "thumbnails/spotify/2uGfm83zVuJGUfUFy8xnq7.jpg"
+      "thumbnail": "/thumbnails/spotify/2uGfm83zVuJGUfUFy8xnq7.jpg"
     },
     "_2023": {
       "collaborative": false,
@@ -4100,7 +4100,7 @@
       "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/62m9CBpzOUaVbRU9UAbiaY",
       "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2bfb13aaa9ae0871b9bf5fd1",
-      "thumbnail": "thumbnails/spotify/62m9CBpzOUaVbRU9UAbiaY.jpg"
+      "thumbnail": "/thumbnails/spotify/62m9CBpzOUaVbRU9UAbiaY.jpg"
     },
     "_year": [
       {
