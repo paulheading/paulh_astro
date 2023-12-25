@@ -81,9 +81,9 @@ getSpotify.playlist = async function (target) {
   }
 
   function writeFile({ buffer, type }) {
-    data.thumbnail = `thumbnails/spotify/${data.id}.${type.ext}`;
+    data.thumbnail = `/thumbnails/spotify/${data.id}.${type.ext}`;
 
-    const filepath = "../../public/" + data.thumbnail;
+    const filepath = "../../public" + data.thumbnail;
 
     fs.writeFile(filepath, buffer, function (error) {
       if (error) console.log("there was an error: ", error);
