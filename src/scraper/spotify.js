@@ -1,6 +1,10 @@
 import { string, playlist, id, secret, base } from "./spotify/variables.js";
 import { get } from "../scripts/helpers.js";
 
+import fs from "fs";
+import imageDownload from "image-download";
+import imageResize from "resize-img";
+
 const getSpotify = {};
 
 const client = {
@@ -52,14 +56,44 @@ getSpotify.playlist = async function (target) {
   });
 
   data.profile = "https://open.spotify.com/user/" + data.owner.display_name;
+
   data.url = data.external_urls.spotify;
+
   data.followers = data.followers.total;
+
   data.image = data.images[0].url;
+
   data.owner = {
     name: data.owner.display_name,
     url: data.owner.external_urls.spotify,
   };
+
   data.tracks = data.tracks.items.map(usefulTrackData);
+
+  async function resizeFile(path) {
+    const width = 160;
+
+    const height = 160;
+
+    const image = await imageResize(fs.readFileSync(path), { width, height });
+
+    fs.writeFileSync(path, image);
+  }
+
+  function writeFile({ buffer, type }) {
+    data.thumbnail = `thumbnails/spotify/${data.id}.${type.ext}`;
+
+    const filepath = "../../public/" + data.thumbnail;
+
+    fs.writeFile(filepath, buffer, function (error) {
+      if (error) console.log("there was an error: ", error);
+      else resizeFile(filepath);
+    });
+  }
+
+  const download = await imageDownload.withType(data.image);
+
+  writeFile(download);
 
   return data;
 };

@@ -6,20 +6,18 @@ import { parse } from "node-html-parser";
 
 const { year } = Astro.props;
 
-const { name, images, owner, url } = spotify["_" + year];
+const { name, owner, url, thumbnail } = spotify["_" + year];
 
 const alt = `Artwork for my ${year} playlist.`;
 
 const size = 80;
 
-const src = images[1] ? images[1].url : images[0].url;
-
 const imageProps = {
+  src: thumbnail,
   format: "webp",
   class: "image",
   height: size,
   width: size,
-  src,
   alt,
 };
 ---

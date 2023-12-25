@@ -29,6 +29,7 @@ async function getLayoutData() {
 
 async function getResumeData() {
   const learning = await getTrelloData("learning");
+
   const roles = await getTrelloData("roles");
 
   return {
@@ -54,4 +55,5 @@ const resume = [
 ];
 
 fs.writeFile(...layout);
+
 fs.writeFile(...resume);

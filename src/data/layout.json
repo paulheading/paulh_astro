@@ -3,6 +3,66 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "8cf4971d-e3d5-4aa1-b83a-2c3501d6ecff",
+        "url": "https://sphinx.acast.com/p/acast/s/adambuxton/e/6588c157af0342001558457e/media.mp3",
+        "published": "2023-12-25T00:00:00Z",
+        "duration": 6651,
+        "fileType": "audio/mp3",
+        "title": "EP.217 - ADAM AND JOE LIVE @ ROYAL FESTIVAL HALL",
+        "size": "256511367",
+        "playingStatus": 2,
+        "playedUpTo": 5652,
+        "starred": false,
+        "podcastUuid": "a862d790-3ea8-0133-bdc8-0d11918ab357",
+        "podcastTitle": "THE ADAM BUXTON PODCAST",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "ADAM BUXTON",
+        "bookmarks": []
+      },
+      {
+        "uuid": "e105b60c-ba48-435b-a8ae-1ba74774f247",
+        "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/radiolab_podcast/radiolab_podcast122223_numbers.mp3?awCollectionId=15957&awEpisodeId=1396653",
+        "published": "2023-12-22T15:00:00Z",
+        "duration": 3651,
+        "fileType": "audio/mpeg",
+        "title": "Numbers",
+        "size": "57456000",
+        "playingStatus": 2,
+        "playedUpTo": 2415,
+        "starred": false,
+        "podcastUuid": "f5b97290-0422-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Radiolab",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "WNYC Studios",
+        "bookmarks": []
+      },
+      {
+        "uuid": "be674e47-4e45-408e-b045-b986c154f7ec",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2023/12/24-46070-gfw241223.mp3",
+        "published": "2023-12-24T13:18:16Z",
+        "duration": 3671,
+        "fileType": "audio/mp3",
+        "title": "Arsenal top at Christmas and a big win for Luton – Football Weekly podcast",
+        "size": "84917915",
+        "playingStatus": 3,
+        "playedUpTo": 3671,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
         "uuid": "8d4588ee-58b9-4d79-bb2e-b36a284159f9",
         "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/cc7e53f7-0484-4b46-be20-27d482e3b099/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=cc7e53f7-0484-4b46-be20-27d482e3b099&feed=BqbsxVfO",
         "published": "2023-12-20T00:46:48Z",
@@ -1941,66 +2001,6 @@
         "isDeleted": true,
         "author": "Cynthia Graber and Nicola Twilley",
         "bookmarks": []
-      },
-      {
-        "uuid": "99be674b-a7c8-4b77-ade5-ab2286338312",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/09/05-43484-gnl.fw.20230905.jg.first_henderson_interview_since_move.mp3",
-        "published": "2023-09-05T12:14:55Z",
-        "duration": 3381,
-        "fileType": "audio/mp3",
-        "title": "Bellingham, Henderson and your questions answered – Football Weekly",
-        "size": "97806548",
-        "playingStatus": 2,
-        "playedUpTo": 2864,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "34fd0e7d-04d1-450b-ba26-0732dfd56e88",
-        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/33a68f76-efe4-4c0b-9182-ab78d00a6c44/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=33a68f76-efe4-4c0b-9182-ab78d00a6c44&feed=kwWc0lhf",
-        "published": "2023-09-04T19:00:00Z",
-        "duration": 3079,
-        "fileType": "audio/mpeg",
-        "title": "Being Kind to Yourself",
-        "size": "49264283",
-        "playingStatus": 2,
-        "playedUpTo": 1493,
-        "starred": false,
-        "podcastUuid": "7868f900-21de-0133-2464-059c869cc4eb",
-        "podcastTitle": "Hidden Brain",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Hidden Brain, Shankar Vedantam",
-        "bookmarks": []
-      },
-      {
-        "uuid": "eb79f626-c842-4a55-ae33-9eb980fca1c2",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/09/04-41584-gnl.fw.20230904.jg.late_drama_at_arsenal_v2.mp3",
-        "published": "2023-09-04T11:37:42Z",
-        "duration": 3643,
-        "fileType": "audio/mp3",
-        "title": "Arsenal leave it late, but Newcastle and Chelsea slip up again – Football Weekly",
-        "size": "103258833",
-        "playingStatus": 2,
-        "playedUpTo": 3417,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "The Guardian",
-        "bookmarks": []
       }
     ]
   },
@@ -3610,7 +3610,7 @@
             "url": "https://open.spotify.com/artist/1GFkwGetxvXluztDxPShGo",
             "name": "Rina Mushonga"
           },
-          "popularity": 42,
+          "popularity": 41,
           "release_date": "2019-02-15",
           "url": "https://open.spotify.com/track/3OyedWlIaMQWvx1qAiILAA",
           "name": "Narcisc0"
@@ -3620,7 +3620,7 @@
             "url": "https://open.spotify.com/artist/7LTSTQkL7iK7zndjFQgHQo",
             "name": "O'Flynn"
           },
-          "popularity": 29,
+          "popularity": 28,
           "release_date": "2019-09-06",
           "url": "https://open.spotify.com/track/1SMLoRfenhQJjL4fbimctZ",
           "name": "Aletheia"
@@ -3650,7 +3650,7 @@
             "url": "https://open.spotify.com/artist/0uo6UbyUYXbG4xBT7vBGSx",
             "name": "Wilma Archer"
           },
-          "popularity": 20,
+          "popularity": 19,
           "release_date": "2020-04-03",
           "url": "https://open.spotify.com/track/2C5Q2WNxzaW6NTucwChrAr",
           "name": "Cheater"
@@ -3660,7 +3660,7 @@
             "url": "https://open.spotify.com/artist/6aRJP31fKBf0jbvb6qYAGt",
             "name": "Iftin Band"
           },
-          "popularity": 14,
+          "popularity": 13,
           "release_date": "2019-12-13",
           "url": "https://open.spotify.com/track/2l8davPIbbdn8BxYgbkwtP",
           "name": "Sirmaqabe - No Secrets"
@@ -3690,7 +3690,8 @@
       "uri": "spotify:playlist:3BlVHgMeYX01HMh4eIe5n3",
       "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/3BlVHgMeYX01HMh4eIe5n3",
-      "image": "https://mosaic.scdn.co/640/ab67616d0000b27313d6c82dec0fb2b710ad4d27ab67616d0000b2734eb5d168c3d3fbb96ba6ec8fab67616d0000b2739bb74b4058c40a59fd33bf26ab67616d0000b273eec05a19db1f69581760fb88"
+      "image": "https://mosaic.scdn.co/640/ab67616d0000b27313d6c82dec0fb2b710ad4d27ab67616d0000b2734eb5d168c3d3fbb96ba6ec8fab67616d0000b2739bb74b4058c40a59fd33bf26ab67616d0000b273eec05a19db1f69581760fb88",
+      "thumbnail": "thumbnails/spotify/3BlVHgMeYX01HMh4eIe5n3.jpg"
     },
     "_2021": {
       "collaborative": false,
@@ -3762,7 +3763,7 @@
             "url": "https://open.spotify.com/artist/4GZ18L0i6k1mxAjo3GzINM",
             "name": "Lou Hayter"
           },
-          "popularity": 5,
+          "popularity": 4,
           "release_date": "2021-05-28",
           "url": "https://open.spotify.com/track/2nJGzWo4AL574tQCvPaS9z",
           "name": "My Baby Just Cares for Me"
@@ -3772,7 +3773,7 @@
             "url": "https://open.spotify.com/artist/6SsTlCsuCYleNza6xGwynu",
             "name": "Agnes"
           },
-          "popularity": 45,
+          "popularity": 44,
           "release_date": "2021-10-22",
           "url": "https://open.spotify.com/track/7f0SiAYG8XjOoQyfGvgbLA",
           "name": "Fingers Crossed"
@@ -3792,7 +3793,7 @@
             "url": "https://open.spotify.com/artist/0Dy94lW3txJhWQHqNXP1BT",
             "name": "Laura Mvula"
           },
-          "popularity": 36,
+          "popularity": 35,
           "release_date": "2021-07-02",
           "url": "https://open.spotify.com/track/32YlBIj8qDpyXgsLJ4MfwR",
           "name": "Got Me"
@@ -3822,7 +3823,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 28,
+          "popularity": 27,
           "release_date": "2021-10-01",
           "url": "https://open.spotify.com/track/56CpzZPbczcpj3WGu2KYZ9",
           "name": "The Doll"
@@ -3832,7 +3833,8 @@
       "uri": "spotify:playlist:50LzfPmB6f0wAZULsP8wzp",
       "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/50LzfPmB6f0wAZULsP8wzp",
-      "image": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273e46072802ddb3fd6c4793722"
+      "image": "https://mosaic.scdn.co/640/ab67616d0000b2731c750678a66148e7b191a493ab67616d0000b2731d98009477885112499d615bab67616d0000b2732bb4342cb575f914e2573ae4ab67616d0000b273e46072802ddb3fd6c4793722",
+      "thumbnail": "thumbnails/spotify/50LzfPmB6f0wAZULsP8wzp.jpg"
     },
     "_2022": {
       "collaborative": false,
@@ -3864,7 +3866,7 @@
             "url": "https://open.spotify.com/artist/4rqegcqfzES4oBRh4n8TM1",
             "name": "Ezéchiel Pailhès"
           },
-          "popularity": 42,
+          "popularity": 41,
           "release_date": "2022-10-07",
           "url": "https://open.spotify.com/track/2k9B3ifvsmef8V8L73BawX",
           "name": "Mélopée"
@@ -3874,7 +3876,7 @@
             "url": "https://open.spotify.com/artist/370nbSkMB9kDWyTypwWYak",
             "name": "Haruomi Hosono"
           },
-          "popularity": 28,
+          "popularity": 27,
           "release_date": "1978",
           "url": "https://open.spotify.com/track/6EN8xSFfwNPy3W3BD4hCLH",
           "name": "SPORTS MEN (2018 Yoshinori Sunahara Remastering)"
@@ -3884,7 +3886,7 @@
             "url": "https://open.spotify.com/artist/3I3Fz1DeUY0icXFvOjbXm7",
             "name": "Methyl Ethel"
           },
-          "popularity": 31,
+          "popularity": 30,
           "release_date": "2022-02-18",
           "url": "https://open.spotify.com/track/4QI59IbUG9W8oUo4gWoBxw",
           "name": "Proof"
@@ -3894,7 +3896,7 @@
             "url": "https://open.spotify.com/artist/3v8mFhjLFa50QK8zDvAMYN",
             "name": "Amanda Miguel"
           },
-          "popularity": 71,
+          "popularity": 70,
           "release_date": "1981-01-01",
           "url": "https://open.spotify.com/track/0hTao6s03MkTStWfxAmnGk",
           "name": "Así No Te Amará Jamás"
@@ -3954,7 +3956,7 @@
             "url": "https://open.spotify.com/artist/6RQoLyY1nkArRcNc3sE86m",
             "name": "Ora the Molecule"
           },
-          "popularity": 22,
+          "popularity": 21,
           "release_date": "2021-07-23",
           "url": "https://open.spotify.com/track/0vydtoDOsW0qRhmFEHdyTT",
           "name": "Creator"
@@ -3964,7 +3966,8 @@
       "uri": "spotify:playlist:2uGfm83zVuJGUfUFy8xnq7",
       "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/2uGfm83zVuJGUfUFy8xnq7",
-      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbaec19d00d18a627f927663d1"
+      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbaec19d00d18a627f927663d1",
+      "thumbnail": "thumbnails/spotify/2uGfm83zVuJGUfUFy8xnq7.jpg"
     },
     "_2023": {
       "collaborative": false,
@@ -4026,7 +4029,7 @@
             "url": "https://open.spotify.com/artist/2d2ElnqC2cMPp7zcSyv3yG",
             "name": "PVA"
           },
-          "popularity": 33,
+          "popularity": 32,
           "release_date": "2022-10-14",
           "url": "https://open.spotify.com/track/1mfv1mksVTGW1Nroabjt1u",
           "name": "Hero Man"
@@ -4036,7 +4039,7 @@
             "url": "https://open.spotify.com/artist/3QX8CTn1znpY0HF3hbnNye",
             "name": "Haiku Hands"
           },
-          "popularity": 28,
+          "popularity": 27,
           "release_date": "2023-05-08",
           "url": "https://open.spotify.com/track/5eGOxe4PEFgSZFcwB8GEUI",
           "name": "Nunchucka"
@@ -4066,7 +4069,7 @@
             "url": "https://open.spotify.com/artist/0vsByTdAyygALhiGzUGVab",
             "name": "Baby Dave"
           },
-          "popularity": 29,
+          "popularity": 28,
           "release_date": "2022-04-22",
           "url": "https://open.spotify.com/track/0PX6sHmMFFOpqkysQlvwRV",
           "name": "Gen Z Baby"
@@ -4076,7 +4079,7 @@
             "url": "https://open.spotify.com/artist/1iX0eIvL5iHnaDny7BBtWH",
             "name": "Headache"
           },
-          "popularity": 45,
+          "popularity": 44,
           "release_date": "2023-05-31",
           "url": "https://open.spotify.com/track/1MPtLlyuB1X78TeammWxy9",
           "name": "The Beginning of the End"
@@ -4096,7 +4099,8 @@
       "uri": "spotify:playlist:62m9CBpzOUaVbRU9UAbiaY",
       "profile": "https://open.spotify.com/user/Paul Heading",
       "url": "https://open.spotify.com/playlist/62m9CBpzOUaVbRU9UAbiaY",
-      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2bfb13aaa9ae0871b9bf5fd1"
+      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2bfb13aaa9ae0871b9bf5fd1",
+      "thumbnail": "thumbnails/spotify/62m9CBpzOUaVbRU9UAbiaY.jpg"
     },
     "_year": [
       {
@@ -4178,7 +4182,7 @@
   "npm": {
     "name": "barbican-reset",
     "version": "2.16.3",
-    "downloads": 12013,
+    "downloads": 11795,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }
