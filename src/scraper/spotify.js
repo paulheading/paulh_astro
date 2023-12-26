@@ -80,20 +80,19 @@ getSpotify.playlist = async function (target) {
     fs.writeFileSync(path, image);
   }
 
-  function writeFile({ buffer, type }) {
-    data.thumbnail = `/thumbnails/spotify/${data.id}.${type.ext}`;
+  function writeAndResize({ buffer }) {
+    data.thumbnail = `/thumbnails/spotify/${data.id}.webp`;
 
     const filepath = "../../public" + data.thumbnail;
 
     fs.writeFile(filepath, buffer, function (error) {
-      if (error) console.log("there was an error: ", error);
-      else resizeFile(filepath);
+      error ? console.log("there was an error: ", error) : resizeFile(filepath);
     });
   }
 
   const download = await imageDownload.withType(data.image);
 
-  writeFile(download);
+  writeAndResize(download);
 
   return data;
 };
