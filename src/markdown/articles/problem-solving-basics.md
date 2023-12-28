@@ -1,12 +1,6 @@
 # Problem solving basics
 
-### What does "design mindset" mean?
-
-Well, design is primarily about **communicating ideas and problem solving**. There are some concepts we can use to help us do this. By implementing these concepts in your critical thinking, you will develop a design mindset.
-
-### And what are good ideas?
-
-A good idea is one which contributes to your desired outcome.
+I think most problems can be solved with design mindset... design is primarily about **communicating ideas and problem solving**. There are some useful concepts that help us do this... a good idea is any idea which contributes to your desired outcome.
 
 ### So what is a good outcome?
 
@@ -14,7 +8,7 @@ Outcomes justify the existence of your product. They can be anything from "raisi
 
 ### Can outcomes ever be bad then?
 
-Of course, that's why its always important to understand the detail:
+Of course, that's why its important to understand the details:
 
 1. Vague outcomes are common and can waste your time; acheiving something unspecific or unuseful.
 
@@ -24,14 +18,16 @@ Of course, that's why its always important to understand the detail:
 
 Here's a list of concepts that I find useful in my own design process:
 
-1. Combine simple ideas to create complex outcomes: When writing code you should create functions with very specific outcomes. This will be easier to read and understand. It will be easier to debug and understand. It will be easier to see where your assertions are incorrect, and where the gaps in your understanding exist.
+1. By combining simple ideas, we can create complex outcomes: When writing code you should create functions with very specific outcomes. This will be easier to read, understand and debug. It will be easier to see which assertions are incorrect and where there are gaps in your understanding.
 
-2. To find correct solutions, you need to ask the correct questions:
+2. To find correct solutions, you need to ask the correct questions: It seems obvious to focus on solutions, but understanding the specifics of your problem is also important. After all, it's not much use solving a problem that you never really had, or worse, creating an entirely new one. Also see "GIGO" computing concept
 
-3. The three types of knowledge:
+3. The three types of knowledge: The stuff "you know you know" (a), the stuff "you know you dont know" (b) and the stuff "you dont know you dont know" (c). In my experience, its virtually impossible to work solely in (a). By growing (b) and reducing (c) you will grow your awareness and empathy and become a better problem solver.
 
-be verbose
+### Got anything more specific?
 
-DRY
+Sure, here's a couple more concepts I picked up writing javascript:
 
-the beauty of less code
+be verbose, be a good storyteller, good code should read like a fun 90s movie. predictable, enjoyable. definitely not a mystery, no plot twists.
+
+DRY, repetition introduces variation and reducs consistency => the beauty of less code

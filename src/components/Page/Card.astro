@@ -11,7 +11,8 @@ import type { label } from "~types/card";
 
 let { card, index, countTime = false } = Astro.props;
 
-let { name, labels, dueComplete, local, start, due } = card;
+let { name, labels, dueComplete, local, start, due, type, dateLastActivity } =
+  card;
 
 let primary = labels[0].color;
 
@@ -33,11 +34,25 @@ let summaryProps = {
   content: local.summary,
 };
 
-start = DateTime.fromISO(start);
+let lengthSettings = {
+  dueComplete,
+  due: DateTime.fromISO(due),
+  start: DateTime.fromISO(start),
+};
 
-due = DateTime.fromISO(due);
+let length = countTime ? calc.summary_length(lengthSettings) : null;
 
-let length = countTime ? calc.summary_length(dueComplete, due, start) : null;
+function processDue() {
+  let isArticle = type == "article";
+
+  let date = DateTime.fromISO(isArticle ? dateLastActivity : due);
+
+  date = date.toFormat("MMM yyyy");
+
+  if (isArticle) return date;
+
+  return dueComplete ? date : "Ongoing";
+}
 ---
 
 <script src="~scripts/components/page/card.js"></script>
@@ -71,7 +86,7 @@ let length = countTime ? calc.summary_length(dueComplete, due, start) : null;
   </div>
   <Name {...nameProps} />
   <div class="due">
-    {dueComplete ? due.toFormat("MMM yyyy") : "Ongoing"}
+    {processDue}
   </div>
   <Summary {...summaryProps} />
 </div>

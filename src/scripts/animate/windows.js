@@ -33,22 +33,6 @@ function draggableWindow(window) {
   if (isSpotify) {
     let trigger = window.querySelector("header");
 
-    // window.addEventListener("click", function (event) {
-    //   let activeIndex = window.style.zIndex;
-
-    //   if (!activeIndex) activeIndex = "1";
-
-    //   console.log("clicked: ", event.target, activeIndex);
-
-    //   forEach($.windows, function (window) {
-    //     let zIndex = window.style.zIndex;
-
-    //     if (zIndex && zIndex >= activeIndex) activeIndex = Number(zIndex) + 1;
-    //   });
-
-    //   window.style.zIndex = String(activeIndex);
-    // });
-
     Draggable.create(window, { trigger });
   } else {
     Draggable.create(window);

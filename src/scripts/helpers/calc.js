@@ -1,6 +1,6 @@
 import { DateTime } from "luxon";
 
-function summary_length(dueComplete, due, start) {
+function summary_length({ dueComplete, due, start }) {
   if (!dueComplete) due = DateTime.fromJSDate(new Date());
 
   const diff = due.diff(start, ["year", "month"]);
