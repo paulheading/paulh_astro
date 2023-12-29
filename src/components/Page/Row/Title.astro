@@ -1,0 +1,22 @@
+---
+
+---
+
+<div class="row-title">
+  <slot />
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .row-title {
+    padding-right: $padding-row;
+    padding-left: $padding-row;
+    padding-top: $padding-row;
+    font-size: $h3-font-size;
+
+    @include medium-down {
+      padding-bottom: $padding-row;
+    }
+  }
+</style>

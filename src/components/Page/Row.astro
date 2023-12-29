@@ -1,60 +1,33 @@
 ---
-import Controls from "~components/Page/Controls.astro";
+import RowTitle from "~components/Page/Row/Title.astro";
+import RowControls from "~components/Page/Row/Controls.astro";
+import RowContent from "~components/Page/Row/Content.astro";
 
-const { data, title, mode, controls = false, style } = Astro.props;
+const { title, controls = false, content } = Astro.props;
 
-interface rowProps {
-  class: String;
-  data?: String;
-  id?: String;
-  style?: Object;
+interface props {
+  class: string;
+  id?: string;
 }
 
-const rowProps: rowProps = {
+const props: props = {
   class: "page-row",
 };
 
-const hasColumns = mode == "triple" || mode == "double";
-
-if (title) rowProps.id = title.toLowerCase() + "_row";
-
-if (data) rowProps.data = data;
-
-const contentProps = {
-  class: "page-content",
-};
-
-if (mode) contentProps.class += " " + mode;
-
-const titleProps = {
-  class: "title",
-};
-
-if (controls) {
-  rowProps.class += " has-controls";
-  titleProps.class += " has-controls";
-}
-
-if (!controls && hasColumns) {
-  rowProps.class += " has-columns";
-}
-
-if (style) rowProps.style = style;
+if (title) props.id = title.toLowerCase() + "_row";
 ---
 
-<div {...rowProps}>
-  {title && <div {...titleProps}>{title}</div>}
+<div {...props}>
+  {title && <RowTitle>{title}</RowTitle>}
   {
     controls ? (
-      <Controls>
-        <div {...contentProps}>
-          <slot />
-        </div>
-      </Controls>
-    ) : (
-      <div {...contentProps}>
+      <RowControls content={content}>
         <slot />
-      </div>
+      </RowControls>
+    ) : (
+      <RowContent {...content}>
+        <slot />
+      </RowContent>
     )
   }
 </div>
@@ -62,73 +35,21 @@ if (style) rowProps.style = style;
 <style lang="scss">
   @import "~styles/mixins";
 
-  @mixin page-content {
-    min-height: 3.5rem;
-
-    @include medium-up {
-      align-items: flex-start;
-      gap: $padding-row;
-      display: grid;
-    }
-  }
-
   .page-row {
     background-color: white;
-    padding: $padding-row;
 
     @include medium-down {
       box-shadow: $box-shadow-page;
     }
   }
 
-  .page-row.has-columns {
-    @include medium-down {
-      padding: 0;
-    }
-  }
-
-  .page-row.has-controls {
-    padding-right: 0;
-    padding-left: 0;
-
-    @include medium-down {
-      padding-bottom: 0;
-    }
-  }
-
   .page-row + .page-row {
     @include medium-down {
-      margin-top: $padding-row * 1.5;
+      margin-top: $margin-row;
     }
 
     @include medium-up {
       border-top: $border-dashed;
-    }
-  }
-
-  .title {
-    padding-bottom: $padding-row;
-    font-size: $h3-font-size;
-  }
-
-  .title.has-controls {
-    padding-right: $padding-row;
-    padding-left: $padding-row;
-  }
-
-  .page-content.double {
-    @include page-content;
-
-    @include medium-up {
-      grid-template-columns: 2fr 1fr;
-    }
-  }
-
-  .page-content.triple {
-    @include page-content;
-
-    @include medium-up {
-      grid-template-columns: repeat(3, 1fr);
     }
   }
 </style>

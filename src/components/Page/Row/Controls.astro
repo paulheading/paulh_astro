@@ -1,0 +1,50 @@
+---
+import RowContent from "~components/Page/Row/Content.astro";
+import RowButton from "~components/Page/Row/Button.astro";
+
+const { content } = Astro.props;
+
+const nudgeSvg = (value = {}) => ({ position: "relative", ...value });
+---
+
+<div class="row-controls">
+  <RowButton type="prev">
+    <svg
+      style={nudgeSvg({ left: "-1px" })}
+      xmlns="http://www.w3.org/2000/svg"
+      width="14"
+      height="21"
+      viewBox="0 0 74.7 116.7"
+      ><path
+        d="M58.5 116.7L74.3 101 39.9 68.8l-7.2-6.6-4.4-3.9L40 47.7l34.7-31.4L58.5 0 0 58.9z"
+      ></path></svg
+    >
+  </RowButton>
+  <RowContent {...content}>
+    <slot />
+  </RowContent>
+  <RowButton type="next">
+    <svg
+      style={nudgeSvg({ right: "-1px" })}
+      xmlns="http://www.w3.org/2000/svg"
+      width="14"
+      height="21"
+      viewBox="0 0 74.7 116.7"
+      ><path
+        d="M16.2 0L.3 15.7l34.4 32.1 7.3 6.7 4.3 3.8L34.7 69 0 100.3l16.2 16.4 58.5-58.9z"
+      ></path></svg
+    >
+  </RowButton>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .row-controls {
+    position: relative;
+
+    @include medium-down {
+      border-top: $border-dashed;
+    }
+  }
+</style>

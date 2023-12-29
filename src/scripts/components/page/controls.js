@@ -19,8 +19,8 @@ function update(args) {
 }
 
 function setup($selector, $cards) {
-  const $prev = $selector.querySelector(".prev-page");
-  const $next = $selector.querySelector(".next-page");
+  const $prev = $selector.querySelector(".row-button.prev");
+  const $next = $selector.querySelector(".row-button.next");
 
   let current = 0;
   let page = 3;

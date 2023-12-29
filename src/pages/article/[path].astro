@@ -38,7 +38,11 @@ const layoutProps = {
 <Layout {...layoutProps}>
   <Content>
     <Page>
-      {sections.map((section: string) => <Row>{parse(section)}</Row>)}
+      {
+        sections.map((section: string) => (
+          <Row content={{ padding: true }}>{parse(section)}</Row>
+        ))
+      }
     </Page>
     <div class="wrap-back">
       <Back href="/articles">Articles</Back>

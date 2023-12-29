@@ -2989,7 +2989,7 @@
         {
           "id": "657a3bf3e732229c71b93de4",
           "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "Politics",
+          "name": "Opinions",
           "color": {
             "name": "blue_dark",
             "text": "#ffffff",
@@ -3028,7 +3028,7 @@
         "summary": "Master the essentials and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, & more!",
         "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
         "labels": [
-          "Politics"
+          "Opinions"
         ],
         "pathname": "the-git-github-bootcamp",
         "url": "/article/the-git-github-bootcamp"
@@ -3261,292 +3261,6 @@
         "pathname": "resetting-the-barbican-with-nodejs",
         "url": "/article/resetting-the-barbican-with-nodejs"
       }
-    },
-    {
-      "id": "6582e07741ecae41f6978f61",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
-        "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": "2022-09-19T11:00:00.000Z",
-        "dueComplete": false,
-        "start": "2021-09-19T07:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": false,
-      "dateLastActivity": "2023-12-20T12:39:19.578Z",
-      "desc": "```\n<a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.\n\n---\n\n# The complete guide to testing javascript & node applications\n\n<a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.\n\n### Why did I sign up?\n\nThe more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!\n\n[##########] 100% Complete\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2022-09-19T11:00:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "6578dd2b55a9d13ed2e4417a",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 43,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "id": "6536ece7ba06209fab3d3b81",
-          "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "Udemy",
-          "color": {
-            "name": "blue",
-            "text": "#08336c",
-            "fill": "#579dff"
-          },
-          "uses": 5
-        }
-      ],
-      "idLabels": [
-        "6536ece7ba06209fab3d3b81"
-      ],
-      "manualCoverAttachment": false,
-      "name": "The complete guide to testing javascript & node applications",
-      "pos": 196608,
-      "shortLink": "07DhUpPj",
-      "shortUrl": "https://trello.com/c/07DhUpPj",
-      "start": "2021-09-19T07:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/07DhUpPj/43-the-complete-guide-to-testing-javascript-node-applications",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
-      },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "The complete guide to testing javascript & node applications",
-      "hero": false,
-      "type": "article",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "Become job ready for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.",
-        "desc": "<h1 id=\"thecompleteguidetotestingjavascriptnodeapplications\">The complete guide to testing javascript &amp; node applications</h1>\n<p><a href=\"https://www.udemy.com/course/the-complete-guide-to-testing-javascript-node-applications/\">Become job ready</a> for advanced nodejs development by mastering testing from scratch, jest, cypress, mocha and more.</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>",
-        "labels": [
-          "Udemy"
-        ],
-        "pathname": "the-complete-guide-to-testing-javascript-node-applications",
-        "url": "/article/the-complete-guide-to-testing-javascript-node-applications"
-      }
-    },
-    {
-      "id": "6582e0843b7d81eb633db2e6",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
-        "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": "2019-12-02T13:19:00.000Z",
-        "dueComplete": false,
-        "start": "2016-03-14T08:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": false,
-      "dateLastActivity": "2023-12-20T12:39:32.331Z",
-      "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican), designing digital content for marketing campaigns, as well as managing one other Designer.\n\n---\n\n# Design Manager\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican), designing digital content for marketing campaigns, as well as managing one other Designer.\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 🎞️ Creating cinema trailers with Adobe After Effects\n- 🚀 Animating HTML 5 advertising with GSAP\n- 🎨 Designing layouts and concepts with Sketch\n- 👨‍💻 Managing workflow with Trello\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2019-12-02T13:19:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "6578dd2b55a9d13ed2e4417a",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 44,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "id": "5fb002b2cdabcf46c03cf423",
-          "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "Barbican",
-          "color": {
-            "name": "green",
-            "text": "#174b35",
-            "fill": "#4cce97"
-          },
-          "uses": 9
-        }
-      ],
-      "idLabels": [
-        "5fb002b2cdabcf46c03cf423"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Design Manager",
-      "pos": 212992,
-      "shortLink": "aZVfBUfl",
-      "shortUrl": "https://trello.com/c/aZVfBUfl",
-      "start": "2016-03-14T08:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/aZVfBUfl/44-design-manager",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
-      },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Design Manager",
-      "hero": false,
-      "type": "article",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "I worked in the Barbican Design Studio, designing digital content for marketing campaigns, as well as managing one other Designer.",
-        "desc": "<h1 id=\"designmanager\">Design Manager</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/barbican\">Barbican Design Studio</a>, designing digital content for marketing campaigns, as well as managing one other Designer.</p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>",
-        "labels": [
-          "Barbican"
-        ],
-        "pathname": "design-manager",
-        "url": "/article/design-manager"
-      }
-    },
-    {
-      "id": "6582e091b3b808091015adb0",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
-        "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 1,
-        "attachments": 0,
-        "description": true,
-        "due": "2023-03-01T10:41:00.000Z",
-        "dueComplete": false,
-        "start": "2022-09-01T07:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": false,
-      "dateLastActivity": "2023-12-20T12:39:45.494Z",
-      "desc": "```\nBuild a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.\n\n---\n\n# Building a Portfolio in Next.js\n\nBuild a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.\n\n### Can I see it?\n\nSure, you're looking at it 😉\n\nThe code is in my public [Github repository](https://github.com/paulheading/paulh3).\n\n### How much did you do?\n\nEverything! Which includes:\n\n- 💻 Building the app in [Next.js](https://nextjs.org)\n- 🎨 Designing the layout with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n### What are the interesting parts?\n\nThis website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.\n\nIt also makes use of [Next.js dynamic routing](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes), [markdown for content generation](https://www.npmjs.com/package/raw-loader) and [GSAP](https://greensock.com/gsap) for web animation.\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2023-03-01T10:41:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "6578dd2b55a9d13ed2e4417a",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 45,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "id": "6491c7d859cf65f7b465cf91",
-          "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "Freelance",
-          "color": {
-            "name": "purple",
-            "text": "#352c63",
-            "fill": "#9f8fef"
-          },
-          "uses": 4
-        },
-        {
-          "id": "64b80f8953c59efd3011ee02",
-          "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "Next.js",
-          "color": {
-            "name": "black_dark",
-            "text": "#ffffff",
-            "fill": "#626f86"
-          },
-          "uses": 3
-        }
-      ],
-      "idLabels": [
-        "6491c7d859cf65f7b465cf91",
-        "64b80f8953c59efd3011ee02"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Building a Portfolio in Next.js",
-      "pos": 229376,
-      "shortLink": "CwX93xPo",
-      "shortUrl": "https://trello.com/c/CwX93xPo",
-      "start": "2022-09-01T07:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/CwX93xPo/45-building-a-portfolio-in-nextjs",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
-      },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Building a Portfolio in Next.js",
-      "hero": false,
-      "type": "article",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.",
-        "desc": "<h1 id=\"buildingaportfolioinnextjs\">Building a Portfolio in Next.js</h1>\n<p>Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, you're looking at it 😉</p>\n<p>The code is in my public <a href=\"https://github.com/paulheading/paulh3\">Github repository</a>.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layout with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.</p>\n<p>It also makes use of <a href=\"https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes\">Next.js dynamic routing</a>, <a href=\"https://www.npmjs.com/package/raw-loader\">markdown for content generation</a> and <a href=\"https://greensock.com/gsap\">GSAP</a> for web animation.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
-        "labels": [
-          "Freelance",
-          "Next.js"
-        ],
-        "pathname": "building-a-portfolio-in-nextjs",
-        "url": "/article/building-a-portfolio-in-nextjs"
-      }
     }
   ],
   "spotify": {
@@ -3610,7 +3324,7 @@
             "url": "https://open.spotify.com/artist/1GFkwGetxvXluztDxPShGo",
             "name": "Rina Mushonga"
           },
-          "popularity": 41,
+          "popularity": 39,
           "release_date": "2019-02-15",
           "url": "https://open.spotify.com/track/3OyedWlIaMQWvx1qAiILAA",
           "name": "Narcisc0"
@@ -3620,7 +3334,7 @@
             "url": "https://open.spotify.com/artist/7LTSTQkL7iK7zndjFQgHQo",
             "name": "O'Flynn"
           },
-          "popularity": 28,
+          "popularity": 27,
           "release_date": "2019-09-06",
           "url": "https://open.spotify.com/track/1SMLoRfenhQJjL4fbimctZ",
           "name": "Aletheia"
@@ -3630,7 +3344,7 @@
             "url": "https://open.spotify.com/artist/2dOnTAoXrpBwYAo1qIbemO",
             "name": "Steam Down"
           },
-          "popularity": 26,
+          "popularity": 24,
           "release_date": "2019-11-08",
           "url": "https://open.spotify.com/track/3a9BypAqVxHNCZgHQXfeG7",
           "name": "Free My Skin"
@@ -3640,7 +3354,7 @@
             "url": "https://open.spotify.com/artist/1ooAqaFu4Ac3BO2HpL4V2R",
             "name": "Henrik Schwarz"
           },
-          "popularity": 28,
+          "popularity": 26,
           "release_date": "2020-03-20",
           "url": "https://open.spotify.com/track/7GA49BEANCELzwyBxQVxU1",
           "name": "Come Together"
@@ -3650,7 +3364,7 @@
             "url": "https://open.spotify.com/artist/0uo6UbyUYXbG4xBT7vBGSx",
             "name": "Wilma Archer"
           },
-          "popularity": 19,
+          "popularity": 18,
           "release_date": "2020-04-03",
           "url": "https://open.spotify.com/track/2C5Q2WNxzaW6NTucwChrAr",
           "name": "Cheater"
@@ -3660,7 +3374,7 @@
             "url": "https://open.spotify.com/artist/6aRJP31fKBf0jbvb6qYAGt",
             "name": "Iftin Band"
           },
-          "popularity": 13,
+          "popularity": 12,
           "release_date": "2019-12-13",
           "url": "https://open.spotify.com/track/2l8davPIbbdn8BxYgbkwtP",
           "name": "Sirmaqabe - No Secrets"
@@ -3670,7 +3384,7 @@
             "url": "https://open.spotify.com/artist/3uOdNUjwD6hhOh1z2dQEIn",
             "name": "lau.ra"
           },
-          "popularity": 15,
+          "popularity": 14,
           "release_date": "2020-02-07",
           "url": "https://open.spotify.com/track/5rtAx0XN2V6P0RCkJSAXZ5",
           "name": "Sideways"
@@ -3733,7 +3447,7 @@
             "url": "https://open.spotify.com/artist/6nbtlXRy0S6adYpDVoRdNi",
             "name": "Anna B Savage"
           },
-          "popularity": 20,
+          "popularity": 18,
           "release_date": "2021-01-29",
           "url": "https://open.spotify.com/track/4oUBPVqmxoP5u9HeXLU6To",
           "name": "Corncrakes"
@@ -3743,7 +3457,7 @@
             "url": "https://open.spotify.com/artist/5K9Px0eeCuYatmBGFfhSOA",
             "name": "Orlando Weeks"
           },
-          "popularity": 17,
+          "popularity": 15,
           "release_date": "2021-06-16",
           "url": "https://open.spotify.com/track/0Zga9iWiTp760vRHHLNxFF",
           "name": "Big Skies, Silly Faces"
@@ -3753,7 +3467,7 @@
             "url": "https://open.spotify.com/artist/4BSjlnV6ZYrkMLPm55Wrfm",
             "name": "Deep Throat Choir"
           },
-          "popularity": 3,
+          "popularity": 2,
           "release_date": "2021-09-27",
           "url": "https://open.spotify.com/track/4GC8pzLgJSqp1gD55ddTaz",
           "name": "In Order to Know You"
@@ -3763,7 +3477,7 @@
             "url": "https://open.spotify.com/artist/4GZ18L0i6k1mxAjo3GzINM",
             "name": "Lou Hayter"
           },
-          "popularity": 4,
+          "popularity": 3,
           "release_date": "2021-05-28",
           "url": "https://open.spotify.com/track/2nJGzWo4AL574tQCvPaS9z",
           "name": "My Baby Just Cares for Me"
@@ -3773,7 +3487,7 @@
             "url": "https://open.spotify.com/artist/6SsTlCsuCYleNza6xGwynu",
             "name": "Agnes"
           },
-          "popularity": 44,
+          "popularity": 42,
           "release_date": "2021-10-22",
           "url": "https://open.spotify.com/track/7f0SiAYG8XjOoQyfGvgbLA",
           "name": "Fingers Crossed"
@@ -3783,7 +3497,7 @@
             "url": "https://open.spotify.com/artist/6aDX1jzNVAI9enlQzW0Pgw",
             "name": "Moonchild Sanelly"
           },
-          "popularity": 13,
+          "popularity": 12,
           "release_date": "2021-09-02",
           "url": "https://open.spotify.com/track/5pDJ0QhZMlcUldSFQqFdNM",
           "name": "Undumpable"
@@ -3793,7 +3507,7 @@
             "url": "https://open.spotify.com/artist/0Dy94lW3txJhWQHqNXP1BT",
             "name": "Laura Mvula"
           },
-          "popularity": 35,
+          "popularity": 34,
           "release_date": "2021-07-02",
           "url": "https://open.spotify.com/track/32YlBIj8qDpyXgsLJ4MfwR",
           "name": "Got Me"
@@ -3803,7 +3517,7 @@
             "url": "https://open.spotify.com/artist/4gQsGkfdB4uVrNBqo4MhmI",
             "name": "LUMP"
           },
-          "popularity": 17,
+          "popularity": 16,
           "release_date": "2021-05-05",
           "url": "https://open.spotify.com/track/6fcJI9qrH0vr9EYxjpQdaM",
           "name": "Animal - Edit"
@@ -3813,7 +3527,7 @@
             "url": "https://open.spotify.com/artist/5R9d1YP5jtBw2IrQItGzQI",
             "name": "Michael Mayer"
           },
-          "popularity": 20,
+          "popularity": 18,
           "release_date": "2021-06-04",
           "url": "https://open.spotify.com/track/0x1eIudX2mUXc28RujjNl5",
           "name": "Brainwave Technology"
@@ -3823,7 +3537,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 27,
+          "popularity": 25,
           "release_date": "2021-10-01",
           "url": "https://open.spotify.com/track/56CpzZPbczcpj3WGu2KYZ9",
           "name": "The Doll"
@@ -3866,7 +3580,7 @@
             "url": "https://open.spotify.com/artist/4rqegcqfzES4oBRh4n8TM1",
             "name": "Ezéchiel Pailhès"
           },
-          "popularity": 41,
+          "popularity": 40,
           "release_date": "2022-10-07",
           "url": "https://open.spotify.com/track/2k9B3ifvsmef8V8L73BawX",
           "name": "Mélopée"
@@ -3876,7 +3590,7 @@
             "url": "https://open.spotify.com/artist/370nbSkMB9kDWyTypwWYak",
             "name": "Haruomi Hosono"
           },
-          "popularity": 27,
+          "popularity": 26,
           "release_date": "1978",
           "url": "https://open.spotify.com/track/6EN8xSFfwNPy3W3BD4hCLH",
           "name": "SPORTS MEN (2018 Yoshinori Sunahara Remastering)"
@@ -3886,7 +3600,7 @@
             "url": "https://open.spotify.com/artist/3I3Fz1DeUY0icXFvOjbXm7",
             "name": "Methyl Ethel"
           },
-          "popularity": 30,
+          "popularity": 28,
           "release_date": "2022-02-18",
           "url": "https://open.spotify.com/track/4QI59IbUG9W8oUo4gWoBxw",
           "name": "Proof"
@@ -3896,7 +3610,7 @@
             "url": "https://open.spotify.com/artist/3v8mFhjLFa50QK8zDvAMYN",
             "name": "Amanda Miguel"
           },
-          "popularity": 70,
+          "popularity": 69,
           "release_date": "1981-01-01",
           "url": "https://open.spotify.com/track/0hTao6s03MkTStWfxAmnGk",
           "name": "Así No Te Amará Jamás"
@@ -3906,7 +3620,7 @@
             "url": "https://open.spotify.com/artist/6CZhbpXpR3VJNQWFkwd2Ic",
             "name": "Noé Preszow"
           },
-          "popularity": 35,
+          "popularity": 34,
           "release_date": "2022-03-18",
           "url": "https://open.spotify.com/track/6sqYnu5QuI8e1JwxlbwFs4",
           "name": "Faire les choses bien - Version alternative"
@@ -3916,7 +3630,7 @@
             "url": "https://open.spotify.com/artist/0uAnwMXg0tsGQsOdVwudkb",
             "name": "Colourbox"
           },
-          "popularity": 32,
+          "popularity": 30,
           "release_date": "1985-08-12",
           "url": "https://open.spotify.com/track/3RlGLTcM9OwrAA0ErwJ2rA",
           "name": "The Moon Is Blue"
@@ -3926,7 +3640,7 @@
             "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
             "name": "Superpoze"
           },
-          "popularity": 22,
+          "popularity": 20,
           "release_date": "2022-03-25",
           "url": "https://open.spotify.com/track/5YKffOovP69vePWQunFDdW",
           "name": "Geneva"
@@ -3936,7 +3650,7 @@
             "url": "https://open.spotify.com/artist/6Jrxnp0JgqmeUX1veU591p",
             "name": "Santigold"
           },
-          "popularity": 43,
+          "popularity": 41,
           "release_date": "2022-09-09",
           "url": "https://open.spotify.com/track/1vbayZm5FgNe4ou8BRNiDq",
           "name": "High Priestess"
@@ -3946,7 +3660,7 @@
             "url": "https://open.spotify.com/artist/0RwXnFrEoI8tltFvYpJgP6",
             "name": "Confidence Man"
           },
-          "popularity": 48,
+          "popularity": 46,
           "release_date": "2022-04-01",
           "url": "https://open.spotify.com/track/53wnscuzFnH8jaGymzqgfi",
           "name": "Holiday"
@@ -3956,7 +3670,7 @@
             "url": "https://open.spotify.com/artist/6RQoLyY1nkArRcNc3sE86m",
             "name": "Ora the Molecule"
           },
-          "popularity": 21,
+          "popularity": 20,
           "release_date": "2021-07-23",
           "url": "https://open.spotify.com/track/0vydtoDOsW0qRhmFEHdyTT",
           "name": "Creator"
@@ -3999,7 +3713,7 @@
             "url": "https://open.spotify.com/artist/5gMXwFotLyxnc0usqNgk5J",
             "name": "Stephen Shannon"
           },
-          "popularity": 31,
+          "popularity": 29,
           "release_date": "2023-05-19",
           "url": "https://open.spotify.com/track/2ieQh3HGdx34e6tvfKvobi",
           "name": "Eyot"
@@ -4009,7 +3723,7 @@
             "url": "https://open.spotify.com/artist/1HvH97rzvCH6lfnLlgyfke",
             "name": "Genesis Owusu"
           },
-          "popularity": 50,
+          "popularity": 48,
           "release_date": "2022-10-22",
           "url": "https://open.spotify.com/track/4Og0uXMYqouN7xOQ7u8jiW",
           "name": "Get Inspired"
@@ -4019,7 +3733,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 22,
+          "popularity": 21,
           "release_date": "2023-02-20",
           "url": "https://open.spotify.com/track/46PG96cJ6QF9Agy7Pu5BQb",
           "name": "Burnt Pictures"
@@ -4029,7 +3743,7 @@
             "url": "https://open.spotify.com/artist/2d2ElnqC2cMPp7zcSyv3yG",
             "name": "PVA"
           },
-          "popularity": 32,
+          "popularity": 30,
           "release_date": "2022-10-14",
           "url": "https://open.spotify.com/track/1mfv1mksVTGW1Nroabjt1u",
           "name": "Hero Man"
@@ -4039,7 +3753,7 @@
             "url": "https://open.spotify.com/artist/3QX8CTn1znpY0HF3hbnNye",
             "name": "Haiku Hands"
           },
-          "popularity": 27,
+          "popularity": 25,
           "release_date": "2023-05-08",
           "url": "https://open.spotify.com/track/5eGOxe4PEFgSZFcwB8GEUI",
           "name": "Nunchucka"
@@ -4049,7 +3763,7 @@
             "url": "https://open.spotify.com/artist/0U8TMcc0dtsUMFjft5DcGG",
             "name": "Will Powers"
           },
-          "popularity": 23,
+          "popularity": 21,
           "release_date": "1983-01-01",
           "url": "https://open.spotify.com/track/5TJg8fY39cD0RNh1JfKmvh",
           "name": "Dancing For Mental Health"
@@ -4059,7 +3773,7 @@
             "url": "https://open.spotify.com/artist/5QsqiLFA5Z2gmpKBbxQB2j",
             "name": "Hak Baker"
           },
-          "popularity": 37,
+          "popularity": 35,
           "release_date": "2023-06-09",
           "url": "https://open.spotify.com/track/5C8EA3slynaIYe65TGltEg",
           "name": "DOOLALLY"
@@ -4069,7 +3783,7 @@
             "url": "https://open.spotify.com/artist/0vsByTdAyygALhiGzUGVab",
             "name": "Baby Dave"
           },
-          "popularity": 28,
+          "popularity": 27,
           "release_date": "2022-04-22",
           "url": "https://open.spotify.com/track/0PX6sHmMFFOpqkysQlvwRV",
           "name": "Gen Z Baby"
@@ -4079,7 +3793,7 @@
             "url": "https://open.spotify.com/artist/1iX0eIvL5iHnaDny7BBtWH",
             "name": "Headache"
           },
-          "popularity": 44,
+          "popularity": 43,
           "release_date": "2023-05-31",
           "url": "https://open.spotify.com/track/1MPtLlyuB1X78TeammWxy9",
           "name": "The Beginning of the End"
@@ -4089,7 +3803,7 @@
             "url": "https://open.spotify.com/artist/0Cc6v6tsUT1FktqPQYXME3",
             "name": "Virginia Astley"
           },
-          "popularity": 23,
+          "popularity": 22,
           "release_date": "1986-01-01",
           "url": "https://open.spotify.com/track/6EcATCFBm1bRBdsQNfwdHT",
           "name": "Some Small Hope"
@@ -4182,7 +3896,7 @@
   "npm": {
     "name": "barbican-reset",
     "version": "2.16.3",
-    "downloads": 11786,
+    "downloads": 11789,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

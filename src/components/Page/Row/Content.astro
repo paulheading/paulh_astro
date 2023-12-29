@@ -1,0 +1,63 @@
+---
+const { columns = 0, padding = false } = Astro.props;
+
+function createColumnClass(columns: number) {
+  if (columns == 2) return "double";
+  if (columns == 3) return "triple";
+  return "";
+}
+
+function createPropClasses(columns: number, padding: boolean) {
+  let classNames = "row-content";
+
+  classNames = classNames += " " + createColumnClass(columns);
+
+  if (padding) classNames += " padding";
+
+  return classNames;
+}
+
+const props = {
+  class: createPropClasses(columns, padding),
+};
+---
+
+<div {...props}>
+  <slot />
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  @mixin row-content {
+    min-height: 3.5rem;
+
+    @include medium-up {
+      align-items: flex-start;
+      gap: $padding-row;
+      display: grid;
+    }
+  }
+
+  .row-content.double {
+    @include row-content;
+
+    @include medium-up {
+      grid-template-columns: 2fr 1fr;
+      padding: $padding-row;
+    }
+  }
+
+  .row-content.triple {
+    @include row-content;
+
+    @include medium-up {
+      grid-template-columns: repeat(3, 1fr);
+      padding: $padding-row;
+    }
+  }
+
+  .row-content.padding {
+    padding: $padding-row;
+  }
+</style>

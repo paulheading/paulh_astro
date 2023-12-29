@@ -34,10 +34,14 @@ const content = galleries[filename];
 <Layout {...layoutProps}>
   <Content>
     <Page>
-      {sections.map((section: string) => <Row>{parse(section)}</Row>)}
+      {
+        sections.map((section: string) => (
+          <Row content={{ padding: true }}>{parse(section)}</Row>
+        ))
+      }
       {
         content && (
-          <Row>
+          <Row content={{ padding: true }}>
             <Gallery content={content} />
           </Row>
         )

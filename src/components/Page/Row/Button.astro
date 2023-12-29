@@ -1,0 +1,49 @@
+---
+const { type = "" } = Astro.props;
+---
+
+<button class=`row-button ${type}`>
+  <slot />
+</button>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  $horizontal-offset: $page-button-size * 0.575;
+
+  .row-button {
+    @include page-button;
+    position: absolute;
+
+    @include medium-down {
+      transform: rotate(90deg);
+      margin: auto;
+      right: 0;
+      left: 0;
+    }
+
+    @include medium-up {
+      top: 7.5rem;
+    }
+  }
+
+  @include medium-down {
+    .row-button.prev {
+      top: -$page-button-size * 0.5;
+    }
+
+    .row-button.next {
+      bottom: -$page-button-size * 0.5;
+    }
+  }
+
+  @include medium-up {
+    .row-button.prev {
+      left: -$horizontal-offset;
+    }
+
+    .row-button.next {
+      right: -$horizontal-offset;
+    }
+  }
+</style>

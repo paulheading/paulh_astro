@@ -4,10 +4,15 @@ import Row from "~components/Page/Row.astro";
 
 let { rows } = Astro.props;
 
+interface content {
+  padding?: boolean;
+  columns?: number;
+}
+
 interface rowProps {
   data: string;
-  controls: boolean;
-  mode: string;
+  controls?: boolean;
+  content?: content;
   style?: object;
 }
 
@@ -23,7 +28,10 @@ interface cardProps {
     let rowProps: rowProps = {
       controls: false,
       data: "article",
-      mode: "triple",
+      content: {
+        // padding: true,
+        columns: 3,
+      },
     };
 
     if (index > 0) {

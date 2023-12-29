@@ -108,14 +108,14 @@
 }
 
 @mixin page-button-setup {
+  height: $page-button-size;
+  width: $page-button-size;
   justify-content: center;
   display: inline-flex;
   align-items: center;
   border-radius: 50%;
   padding: 0.375rem;
   border: 1px solid;
-  height: 2.125rem;
-  width: 2.125rem;
 
   &:disabled {
     opacity: 0;

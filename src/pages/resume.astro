@@ -24,23 +24,21 @@ const layoutProps = {
 
 const paul = new create.person(details);
 
-const mode = "triple";
-const controls = true;
-const defaults = { mode, controls };
+const defaultProps = { controls: true, content: { columns: 3 } };
 
 const projectProps = {
   title: "Projects",
-  ...defaults,
+  ...defaultProps,
 };
 
 const rolesProps = {
   title: "Roles",
-  ...defaults,
+  ...defaultProps,
 };
 
 const learningProps = {
   title: "Learning",
-  ...defaults,
+  ...defaultProps,
 };
 ---
 
@@ -49,14 +47,14 @@ const learningProps = {
 <Layout {...layoutProps}>
   <Content>
     <Page>
-      <Row mode="double">
+      <Row content={{ padding: true, columns: 2 }}>
         <div class="name">{paul.name}</div>
         <div>
           <div>{paul.location}</div>
           <div>{parse(paul.email.link)}</div>
         </div>
       </Row>
-      <Row mode="double">
+      <Row content={{ padding: true, columns: 2 }}>
         <div>
           <div class="title">Biography</div>
           <div class="copy">

@@ -55,8 +55,6 @@ function processDue() {
 }
 ---
 
-<script src="~scripts/components/page/card.js"></script>
-
 <div {...containerProps}>
   <div class="label_wrap">
     <Labels>
@@ -96,7 +94,12 @@ function processDue() {
 
   .container {
     @include medium-down {
-      padding: ($padding-row * 1.5) $padding-row;
+      padding: ($padding-row * 1.25) $padding-row ($padding-row * 0.75);
+    }
+  }
+
+  .container + .container {
+    @include medium-down {
       border-top: $border-dashed;
     }
   }

@@ -44,7 +44,7 @@ let moreArticles = articles.length - articlesPerRow;
 <Layout {...layoutProps}>
   <Content>
     <Page data="search">
-      <Row>
+      <Row content={{ padding: true }}>
         <div class="title-wrap">
           <div class="title">Bloggy McBlogface</div>
           <SearchBar />
@@ -93,7 +93,6 @@ let moreArticles = articles.length - articlesPerRow;
   }
 
   .copy {
-    @include mobile-bump;
     font-weight: normal;
   }
 </style>
