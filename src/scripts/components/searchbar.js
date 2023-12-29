@@ -5,6 +5,8 @@ import { articles } from "~data/layout.json";
 
 var search = new JsSearch.Search("id");
 
+console.log("search: ", search);
+
 search.addDocuments(articles);
 
 search.addIndex("name");
@@ -82,7 +84,7 @@ function dataIs(element, query) {
 function createEmptyRow(row) {
   let clone = row.cloneNode(true);
 
-  let content = clone.querySelector(".page-content");
+  let content = clone.querySelector(".row-content");
 
   clone.setAttribute("data", "search");
 
@@ -160,7 +162,7 @@ function printResults(results) {
 
     let lastRow = output[output.length - 1];
 
-    let lastContent = lastRow.querySelector(".page-content");
+    let lastContent = lastRow.querySelector(".row-content");
 
     lastContent.append(result);
   }
@@ -212,6 +214,8 @@ function searchArticles(event) {
   }
 
   let results = search.search(value);
+
+  console.log("results: ", results);
 
   if (results.length) {
     printResults(results);
