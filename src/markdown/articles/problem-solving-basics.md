@@ -2,42 +2,50 @@
 
 Design is primarily about **communicating ideas and solving problems**. The ideas you communicate should in turn contribute to your desired outcome.
 
-Over time it becomes easier (through some generic concepts) to identify bad assumptions in this process. I've listed some of the concepts (below) which will make you more productive with your time.
+Over time it becomes easier to identify bad assumptions in the process. I've listed some concepts below which will help make you a more productive problem solver.
+
+<br>
 
 ### What is a good outcome?
 
 Outcomes justify the existence of your product. They can be anything from "raising awareness of your product", "creating excitement around your product" or "making your product easier to use". **You define your outcomes** and acheiving them is **your measure of success**.
 
+<br>
+
 ### Can outcomes ever be bad then?
 
-Of course, that's why its important to understand the details:
+Yes, that's why its important to understand the details:
 
 1. Vague outcomes are common and can waste your time; acheiving something unspecific or unuseful.
 
 2. Unintended outcomes can create more problems than they solve.
 
+<br>
+
 ### So what concepts are useful?
 
-Here's a list of concepts that I find useful in my design process:
+Here's some concepts that I find useful in my design process:
 
-1. By combining simple ideas, we can create complex outcomes: When writing code create functions with very specific outcomes. This is easier to read, understand and debug. Its also easier to see which assertions are incorrect and where there are gaps in your understanding.
+#### Combine simple ideas to create complex outcomes:
 
-2. To find correct solutions, you need to ask the correct questions: It seems obvious to focus on solutions, but understanding the specifics of your problem is also important. After all it's not much use solving the wrong problem, or worse, creating an entirely new one.
+In javascript this means; write functions with specific inputs/outputs. This is easier to read, understand and debug. It creates less room for incorrect assumptions and gaps in your understanding.
 
-3. The three types of knowledge:
+Beyond javascript this means; break down your problems and spend time prioritising what outcomes are important. This will give you a stronger sense of self and give you a more flexible mindset.
 
-a) The stuff "you know you know"
+<br>
 
-b) the stuff "you know you dont know"
+#### To find correct solutions, ask the correct questions:
 
-c) the stuff "you dont know you dont know"
+When solving problems it feels intuitive to focus on solutions, but it's also important to understand the specifics of your problem. After all it's not much use solving the wrong problem, or worse, creating an entirely new one.
 
-In my experience its virtually impossible to work solely in (a). Instead, by growing (b) and reducing (c) you will improve your awareness, becoming a better problem solver, and a more empathetic person.
+<br>
 
-### Got anything more specific?
+#### There are three types of knowledge:
 
-Sure, here's a couple more concepts I picked up writing javascript:
+a) The stuff "you know, you know"
 
-be verbose, be a good storyteller, good code should read like a fun 90s movie. predictable, enjoyable. definitely not a mystery, no plot twists.
+b) the stuff "you know, you dont know"
 
-DRY, repetition introduces variation and reducs consistency => the beauty of less code
+c) the stuff "you dont know, you dont know"
+
+In my experience its almost impossible to work solely in (a). Instead, by growing (b) and reducing (c) you will improve your awareness, becoming a better problem solver, and a more empathetic person.

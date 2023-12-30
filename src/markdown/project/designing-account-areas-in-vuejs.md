@@ -6,6 +6,8 @@ Update the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a
 
 Update the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a modular design that better reflects the brand and offers a wider range of functionality.
 
+<br>
+
 ### Can I see it?
 
 Sure, it's at [tickets.barbican.org.uk](https://tickets.barbican.org.uk)
@@ -13,6 +15,8 @@ Sure, it's at [tickets.barbican.org.uk](https://tickets.barbican.org.uk)
 The code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.
 
 I have started writing about [this project](https://blog.paulh.biz/designing-account-areas-in-vuejs) on [my blog](https://blog.paulh.biz).
+
+<br>
 
 ### How much did you do?
 
@@ -22,9 +26,13 @@ Most things on the frontend, which includes:
 - 🎨 Designing the user journey with [Figma](https://figma.com)
 - 📝 Writing the [SCSS](https://sass-lang.com)
 
+<br>
+
 ### What are the interesting parts?
 
 The platform is built in [Vue.js](https://vuejs.org) and combines [Drupal](https://drupal.org) data from the [main website](https://barbican.org.uk) with ticketing data from [Spektrix](https://spektrix.com). It's been at the centre of user-focussed innovation at the [Barbican](https://barbican.org.uk) for the last 3 years.
+
+<br>
 
 ### What needs improving?
 

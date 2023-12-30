@@ -6,6 +6,8 @@ Build and animate the website for Stephanie Cannon, a professional Voice-over Ar
 
 Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.
 
+<br>
+
 ### Can I see it?
 
 Sure, it's at [sparkthecannon.com](https://sparkthecannon.com)
@@ -13,6 +15,8 @@ Sure, it's at [sparkthecannon.com](https://sparkthecannon.com)
 The code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/steph23).
 
 I've started writing about [this project](https://blog.paulh.biz/preview/64908a776fdc99000f5daf42) on [my blog](https://blog.paulh.biz).
+
+<br>
 
 ### How much did you do?
 
@@ -23,9 +27,13 @@ Everything! Except the wonderful illustration. This includes:
 - 🚀 Animating the brand artwork in [GSAP](https://greensock.com)
 - 📝 Writing the [SCSS](https://sass-lang.com)
 
+<br>
+
 ### What are the interesting parts?
 
 Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.
+
+<br>
 
 ### What needs improving?
 

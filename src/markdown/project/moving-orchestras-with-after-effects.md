@@ -6,6 +6,8 @@ Animate a brand moment for the [NYO](https://www.nyo.org.uk/), which expresses i
 
 Animate a brand moment for the [NYO](https://www.nyo.org.uk/), which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.
 
+<br>
+
 ### How much did you do?
 
 I worked on this project with Chloe Ings. We both developed creative routes, from which I ultimately supplied the final brand animations.

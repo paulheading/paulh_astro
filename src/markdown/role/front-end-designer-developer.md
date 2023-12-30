@@ -6,6 +6,8 @@
 
 [Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer & Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org).
 
+<br>
+
 ### What does this include?
 
 - ⏱️ Working within an Agile team and estimating deadlines every fortnight

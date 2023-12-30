@@ -6,6 +6,8 @@ In early 2018 I decided to retrain as a developer, studying alongside my full-ti
 
 In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href="/role/design-manager">Digital Design Manager</a>. I enrolled in the <a href="https://teamtreehouse.com/techdegree/full-stack-javascript">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.
 
+<br>
+
 ### What did I learn?
 
 <a href="https://teamtreehouse.com/techdegree/full-stack-javascript">The course</a> is comprised of 10 units:
@@ -20,6 +22,8 @@ In early 2018 I decided to retrain as a developer, studying alongside my full-ti
 - <a href="https://github.com/paulheading/TreehouseTaskEight">SQL Library Manager</a>
 - <a href="https://github.com/paulheading/TreehouseTaskNine">REST API</a>
 - <a href="https://github.com/paulheading/TreehouseTaskTen">Full Stack App with React and REST API</a>
+
+<br>
 
 ### Why did I sign up?
 

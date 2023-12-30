@@ -6,6 +6,8 @@
 
 <a href="https://frontendmasters.com">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.
 
+<br>
+
 ### What did I learn?
 
 <a href="https://frontendmasters.com/learn/professional/">The course</a> is comprised of 9 core units:
@@ -22,6 +24,8 @@ Still in progress:
 
 - <a href="https://frontendmasters.com/courses/fullstack-v3/">Full Stack for Front-End Engineers, v3</a>
 - <a href="https://frontendmasters.com/courses/typescript-v3/">TypeScript Fundamentals, v3</a>
+
+<br>
 
 ### Why did I sign up?
 

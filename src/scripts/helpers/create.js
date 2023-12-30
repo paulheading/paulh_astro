@@ -19,18 +19,6 @@ class person {
   }
 }
 
-function sections(content, element) {
-  if (!content) return [];
-
-  let sections = content.split(element);
-
-  return sections.map(function (section, index) {
-    if (section == "") return;
-    if (index > 0) section = element + section;
-    return section;
-  });
-}
-
 function content({
   src = "",
   title = "",
@@ -105,7 +93,6 @@ function filename(value) {
 
 export default {
   person,
-  sections,
   content,
   billboard,
   mpu,

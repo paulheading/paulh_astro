@@ -47,49 +47,49 @@ h2 {
   font-family: $font-family-headings;
   font-size: $h2-font-size;
   line-height: 1.2;
-  margin: 0 0 1rem;
+  margin: 0 0 $margin-paragraph;
 }
 
 h3 {
   font-family: $font-family-headings;
   font-size: $h3-font-size;
   line-height: 1.2;
-  margin: 0 0 1rem;
+  margin: 0 0 $margin-paragraph;
 }
 
 h4 {
   font-family: $font-family-headings;
   font-size: $h4-font-size;
   line-height: 1.2;
-  margin: 0 0 1rem;
+  margin: 0 0 $margin-paragraph;
 }
 
 h5 {
   font-family: $font-family-headings;
   font-size: $h5-font-size;
   line-height: 1.2;
-  margin: 0 0 1rem;
+  margin: 0 0 $margin-paragraph;
 }
 
 h6 {
   font-size: $h6-font-size;
   line-height: 1.2;
-  margin: 0 0 1rem;
+  margin: 0 0 $margin-paragraph;
 }
 
 blockquote {
+  margin: 0 0 $margin-paragraph * 2;
+  padding: $margin-paragraph;
   background-color: white;
   display: inline-block;
-  margin: 0 0 2rem;
-  padding: 1rem;
-}
 
-blockquote p {
-  margin-bottom: 0;
+  p {
+    margin-bottom: 0;
+  }
 }
 
 p {
-  margin: 0 0 1.25rem;
+  margin: 0 0 $margin-paragraph;
   font-weight: 400;
 
   &:last-child {
@@ -97,24 +97,30 @@ p {
   }
 
   +blockquote {
-    margin-top: 0.75rem;
+    margin-top: $margin-paragraph * 0.5;
   }
 
-  +h3,
-  +h4 {
-    margin-top: 3rem;
+  +h3 {
+    margin-top: $margin-paragraph * 2;
+  }
+}
+
+@mixin list-styles {
+  padding-left: $margin-paragraph;
+  margin: 0 0 $margin-paragraph;
+  font-weight: 400;
+
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 ul {
-  padding-left: 1.25rem;
-  font-weight: 400;
-  margin: 0;
+  @include list-styles;
+}
 
-  +h3,
-  +h4 {
-    margin-top: 3rem;
-  }
+ol {
+  @include list-styles;
 }
 
 li+li {
@@ -147,18 +153,19 @@ iframe {
 }
 
 pre {
-  margin: 0;
-}
+  margin: 0 0 $margin-paragraph;
 
-pre+pre {
-  margin-top: 1.25rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 code {
-  font-size: $h5-font-size;
   background: $c-body-bg;
+  white-space: pre-wrap;
   display: inline-block;
-  padding: 0.875rem;
+  padding: $padding-row;
+  font-size: 80%;
 }
 
 .artwork svg {

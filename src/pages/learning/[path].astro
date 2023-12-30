@@ -8,15 +8,26 @@ import Row from "~components/Page/Row.astro";
 import Back from "~components/Anchor/Back.astro";
 
 import { learning } from "~data/resume.json";
-import { get, create } from "~scripts/helpers";
+import { get } from "~scripts/helpers";
 
 export function getStaticPaths() {
   return get.StaticPaths(learning);
 }
 
-const { name, local } = Astro.props;
+interface local {
+  summary: string;
+  sections: [string];
+  pathname: string;
+}
 
-const sections = create.sections(local.desc, "<h3");
+interface props {
+  name: string;
+  local: local;
+}
+
+export type { local, props };
+
+const { name, local }: props = Astro.props;
 
 const layoutProps = {
   title: "Paul Heading | Learning | " + name,
@@ -28,7 +39,7 @@ const layoutProps = {
   <Content>
     <Page>
       {
-        sections.map((section: string) => (
+        local.sections.map((section) => (
           <Row content={{ padding: true }}>{parse(section)}</Row>
         ))
       }

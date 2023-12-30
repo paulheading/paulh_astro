@@ -12,13 +12,13 @@ import { projects } from "~data/layout.json";
 import { get, create } from "~scripts/helpers";
 import galleries from "~data/galleries";
 
+import type { props } from "~pages/learning/[path].astro";
+
 export function getStaticPaths() {
   return get.StaticPaths(projects);
 }
 
-const { name, local } = Astro.props;
-
-const sections = create.sections(local.desc, "<h3");
+const { name, local }: props = Astro.props;
 
 const layoutProps = {
   title: "Paul Heading | Project | " + name,
@@ -35,7 +35,7 @@ const content = galleries[filename];
   <Content>
     <Page>
       {
-        sections.map((section: string) => (
+        local.sections.map((section) => (
           <Row content={{ padding: true }}>{parse(section)}</Row>
         ))
       }

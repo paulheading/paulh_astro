@@ -10,11 +10,13 @@ const create = {};
  * @param {string} target
  * @returns {array} Array of HTML markup
  */
+
 create.html = (target) => new showdown.Converter().makeHtml(target);
 
 /**
  * @summary Create text snippet. Either summary or description html markup
  */
+
 create.snippet = function (target, position) {
   var hr = "---";
 
@@ -34,6 +36,7 @@ create.snippet = function (target, position) {
  * @summary If possible, create text snippet from array position 0
  * @param {string} target - Trello markup
  */
+
 create.summary = function (target) {
   target = create.snippet(target, 0);
   return stripHtml(target).result;
@@ -43,6 +46,7 @@ create.summary = function (target) {
  * @summary If possible, create text snippet from array position 1
  * @param {string} target - Trello markup
  */
+
 create.desc = (target) => create.snippet(target, 1);
 
 /**
@@ -58,6 +62,17 @@ create.type = function (target) {
   if (target == articles) return "article";
 
   return "unknown";
+};
+
+/**
+ * @name create.sections
+ * @param {string} content
+ * @returns {[string]} An array of html strings
+ */
+
+create.sections = function (content) {
+  if (!content) return [];
+  return content.split("<p><br></p>");
 };
 
 const remove = {};

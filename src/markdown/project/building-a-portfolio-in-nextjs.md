@@ -6,11 +6,15 @@ Build a portfolio site that is fast, engaging and showcases my abilities as a De
 
 Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.
 
+<br>
+
 ### Can I see it?
 
 Sure, you're looking at it 😉
 
 The code is in my public [Github repository](https://github.com/paulheading/paulh3).
+
+<br>
 
 ### How much did you do?
 
@@ -21,11 +25,15 @@ Everything! Which includes:
 - 🚀 Animating the brand artwork in [GSAP](https://greensock.com)
 - 📝 Writing the [SCSS](https://sass-lang.com)
 
+<br>
+
 ### What are the interesting parts?
 
 This website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.
 
 It also makes use of [Next.js dynamic routing](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes), [markdown for content generation](https://www.npmjs.com/package/raw-loader) and [GSAP](https://greensock.com/gsap) for web animation.
+
+<br>
 
 ### What needs improving?
 

@@ -8,26 +8,15 @@ import Row from "~components/Page/Row.astro";
 import Back from "~components/Anchor/Back.astro";
 
 import { articles } from "~data/layout.json";
-import { get, create } from "~scripts/helpers";
+import { get } from "~scripts/helpers";
+
+import type { props } from "~pages/learning/[path].astro";
 
 export function getStaticPaths() {
   return get.StaticPaths(articles);
 }
 
-interface Local {
-  desc: String;
-  summary: String;
-  pathname: String;
-}
-
-interface Props {
-  name: String;
-  local: Local;
-}
-
-const { name, local }: Props = Astro.props;
-
-const sections = create.sections(local.desc, "<h3");
+const { name, local }: props = Astro.props;
 
 const layoutProps = {
   title: "Paul Heading | Article | " + name,
@@ -39,7 +28,7 @@ const layoutProps = {
   <Content>
     <Page>
       {
-        sections.map((section: string) => (
+        local.sections.map((section: string) => (
           <Row content={{ padding: true }}>{parse(section)}</Row>
         ))
       }

@@ -10,6 +10,7 @@ const getTrello = {};
  * @param {string} target - Trello path
  * @returns {object}
  */
+
 getTrello.JSON = async (target) => await get.JSON(string.url(target)); // string.url is the default trello url path
 
 /**
@@ -18,6 +19,7 @@ getTrello.JSON = async (target) => await get.JSON(string.url(target)); // string
  * @param {string} target - Trello path
  * @returns {object}
  */
+
 getTrello.attachments = async (target) => {
   if (!target) return;
 
@@ -79,6 +81,10 @@ async function processCard(card, list) {
   card.local.summary = card.desc ? create.summary(card.desc) : null;
   card.local.desc = card.desc ? create.desc(card.desc) : null;
   card.local.labels = card.labels.map(({ name }) => name);
+
+  card.local.sections = card.local.desc
+    ? create.sections(card.local.desc)
+    : null;
 
   card.local.pathname = card.name
     .replace(/\s+/g, "-")
