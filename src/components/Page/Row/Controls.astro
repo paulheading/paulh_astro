@@ -44,7 +44,9 @@ const nudgeSvg = (value = {}) => ({ position: "relative", ...value });
     position: relative;
 
     @include medium-down {
+      padding-bottom: $padding-row;
       border-top: $border-dashed;
+      padding-top: $padding-row;
     }
   }
 </style>

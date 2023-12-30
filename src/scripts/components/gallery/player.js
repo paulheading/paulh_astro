@@ -89,7 +89,7 @@ function loaded(event) {
     $.overlay_play.removeAttribute("style");
 
     if (contains.audio(target)) $.overlay_mute.removeAttribute("style");
-    else $.overlay_mute.style.display = "none";
+    else $.overlay_mute.setAttribute("style", "display:none;");
 
     set.playing();
   }

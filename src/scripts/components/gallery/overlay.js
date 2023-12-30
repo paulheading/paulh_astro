@@ -22,7 +22,7 @@ function update(target) {
 
   context
     ? $.overlay_info.style.removeProperty("display")
-    : ($.overlay_info.style.display = "none");
+    : $.overlay_info.setAttribute("style", "display:none;");
 
   if (type == "video") set.video(settings);
 

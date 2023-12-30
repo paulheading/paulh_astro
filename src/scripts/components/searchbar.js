@@ -145,7 +145,7 @@ function printResults(results) {
 
   let empty = createEmptyRow(rows[0]);
 
-  rows.forEach((row) => (row.style.display = "none"));
+  rows.forEach((row) => row.setAttribute("style", "display:none;"));
 
   let output = [];
 
@@ -155,7 +155,7 @@ function printResults(results) {
     if (newRow) {
       let clone = empty.cloneNode(true);
 
-      if (index > 0) clone.style.display = "none";
+      if (index > 0) clone.setAttribute("style", "display:none;");
 
       output.push(clone);
     }
@@ -171,7 +171,7 @@ function printResults(results) {
 
   let articlesRemaining = results.length - articlesPerRow;
 
-  if (articlesRemaining <= 0) $moreWrap.style.display = "none";
+  if (articlesRemaining <= 0) $moreWrap.setAttribute("style", "display:none;");
 
   if (articlesRemaining > 0) {
     $moreWrap.removeAttribute("style", "display");
@@ -291,7 +291,7 @@ function decreaseMoreCount() {
 
   $moreCount().innerText = `[${innerText}]`;
 
-  if (innerText <= 0) $moreWrap.style.display = "none";
+  if (innerText <= 0) $moreWrap.setAttribute("style", "display:none;");
 }
 
 /**

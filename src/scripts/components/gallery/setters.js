@@ -176,7 +176,10 @@ function controls() {
 
   !playerIsTiny ? right.classList.add(adjust) : right.classList.remove(adjust);
 
-  $.overlay_controls.style.height = player.offsetHeight + "px";
+  $.overlay_controls.setAttribute(
+    "style",
+    `height: ${player.offsetHeight + "px"}`
+  );
 }
 
 function build(element, data) {
@@ -194,9 +197,7 @@ function build(element, data) {
 
   element.setAttribute("data-index", index);
 
-  element.style.outline = "1px solid white";
-
-  element.style.zIndex = 2;
+  element.setAttribute("style", "outline: 1px solid white; z-index: 2;");
 
   return element;
 }
@@ -210,9 +211,7 @@ function video(data) {
 
   element = build(...settings);
 
-  element.style.maxWidth = "100%";
-
-  element.style.height = "auto";
+  element.setAttribute("style", "max-width: 100%; height: auto;");
 
   element.muted = player.muted;
 
@@ -248,7 +247,7 @@ function iframe(data) {
 
   let controls = [$.overlay_play, $.overlay_mute];
 
-  controls.forEach((control) => (control.style.display = "none"));
+  controls.forEach((control) => control.setAttribute("style", "display:none;"));
 }
 
 export default {

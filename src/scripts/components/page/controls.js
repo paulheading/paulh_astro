@@ -9,11 +9,11 @@ function update(args) {
     const $card = $cards[index];
 
     if (index < current) {
-      $card.style.display = "none";
+      $card.setAttribute("style", "display:none;");
     } else if (index < limit) {
       $card.removeAttribute("style");
     } else {
-      $card.style.display = "none";
+      $card.setAttribute("style", "display:none;");
     }
   }
 }

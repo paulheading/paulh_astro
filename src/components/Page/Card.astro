@@ -98,7 +98,7 @@ function processDue() {
     }
   }
 
-  .container + .container {
+  .container:not([style*="display:none;"]) + .container {
     @include medium-down {
       border-top: $border-dashed;
     }
