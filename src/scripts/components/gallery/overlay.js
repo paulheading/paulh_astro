@@ -21,8 +21,8 @@ function update(target) {
   if (context) $.context_copy.innerHTML = context;
 
   context
-    ? $.overlay_info.style.removeProperty("display")
-    : $.overlay_info.setAttribute("style", "display:none;");
+    ? $.overlay_info.removeAttribute("style", "display")
+    : $.overlay_info.setAttribute("style", "display: none;");
 
   if (type == "video") set.video(settings);
 

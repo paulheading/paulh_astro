@@ -247,7 +247,9 @@ function iframe(data) {
 
   let controls = [$.overlay_play, $.overlay_mute];
 
-  controls.forEach((control) => control.setAttribute("style", "display:none;"));
+  controls.forEach((control) =>
+    control.setAttribute("style", "display: none;")
+  );
 }
 
 export default {

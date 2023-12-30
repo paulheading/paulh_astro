@@ -22,7 +22,7 @@ function displayPage(page, index) {
   const match = id == active;
 
   match
-    ? page.setAttribute("style", "display:block;")
+    ? page.setAttribute("style", "display: block;")
     : page.removeAttribute("style");
 }
 

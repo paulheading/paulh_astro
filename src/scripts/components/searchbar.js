@@ -5,8 +5,6 @@ import { articles } from "~data/layout.json";
 
 var search = new JsSearch.Search("id");
 
-console.log("search: ", search);
-
 search.addDocuments(articles);
 
 search.addIndex("name");
@@ -145,7 +143,7 @@ function printResults(results) {
 
   let empty = createEmptyRow(rows[0]);
 
-  rows.forEach((row) => row.setAttribute("style", "display:none;"));
+  rows.forEach((row) => row.setAttribute("style", "display: none;"));
 
   let output = [];
 
@@ -155,7 +153,7 @@ function printResults(results) {
     if (newRow) {
       let clone = empty.cloneNode(true);
 
-      if (index > 0) clone.setAttribute("style", "display:none;");
+      if (index > 0) clone.setAttribute("style", "display: none;");
 
       output.push(clone);
     }
@@ -171,7 +169,7 @@ function printResults(results) {
 
   let articlesRemaining = results.length - articlesPerRow;
 
-  if (articlesRemaining <= 0) $moreWrap.setAttribute("style", "display:none;");
+  if (articlesRemaining <= 0) $moreWrap.setAttribute("style", "display: none;");
 
   if (articlesRemaining > 0) {
     $moreWrap.removeAttribute("style", "display");
@@ -214,8 +212,6 @@ function searchArticles(event) {
   }
 
   let results = search.search(value);
-
-  console.log("results: ", results);
 
   if (results.length) {
     printResults(results);
@@ -270,7 +266,7 @@ function clearSearchResults() {
 
   $form.removeAttribute("data-error");
 
-  $clear.setAttribute("style", "display:none;");
+  $clear.setAttribute("style", "display: none;");
 
   resetMoreButton();
 
@@ -291,7 +287,7 @@ function decreaseMoreCount() {
 
   $moreCount().innerText = `[${innerText}]`;
 
-  if (innerText <= 0) $moreWrap.setAttribute("style", "display:none;");
+  if (innerText <= 0) $moreWrap.setAttribute("style", "display: none;");
 }
 
 /**
@@ -303,7 +299,7 @@ function loadNextRow() {
   for (let index = 0; index < $rows(state.mode).length; index++) {
     const $row = $rows(state.mode)[index];
 
-    const hidden = $row.style.display == "none";
+    const hidden = $row.getAttribute("style", "display") == "none";
 
     if (hidden) {
       $row.removeAttribute("style", "display");

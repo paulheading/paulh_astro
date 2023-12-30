@@ -29,13 +29,13 @@ function info(state) {
   if (open) {
     if (isVideo) player.pause();
 
-    previous.forEach((item) => item.setAttribute("style", "display:none;"));
+    previous.forEach((item) => item.setAttribute("style", "display: none;"));
 
     $.overlay_context.setAttribute("data-state", "visible");
   } else {
     if (isVideo) player.play();
 
-    previous.forEach((item) => item.style.removeProperty("display"));
+    previous.forEach((item) => item.removeAttribute("style", "display"));
 
     $.overlay_context.setAttribute("data-state", "hidden");
 

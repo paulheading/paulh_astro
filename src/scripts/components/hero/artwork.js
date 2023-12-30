@@ -8,7 +8,7 @@ function toggle(svgs, loop) {
     if (data != loop) {
       svg.removeAttribute("style");
     } else {
-      svg.setAttribute("style", "display:block;");
+      svg.setAttribute("style", "display: block;");
       animate["artwork" + loop](svg);
     }
   }

@@ -1,43 +1,43 @@
-import $ from '~scripts/selectors'
-import animate from '~scripts/animate/marquee'
+import $ from "~scripts/selectors";
+import animate from "~scripts/animate/marquee";
 
-function spanWrap(content, className, style) {
-  let span = `<span`
+function spanWrap({ content, className, style }) {
+  let span = `<span`;
 
-  if (className) span += ` class="${className}"`
+  if (className) span += ` class="${className}"`;
 
-  if (style) span += ` style="${style}"`
+  if (style) span += ` style="${style}"`;
 
-  span += `>${content}</span>`
+  span += `>${content}</span>`;
 
-  return span
+  return span;
 }
 
 function prepWords(words) {
-  words = words
-    .split(' ')
-    .map((word) => spanWrap(word, 'word', 'opacity: 0;'))
-    .join(' ')
+  const wordWraps = (content) =>
+    spanWrap({ content, className: "word", style: "opacity: 0;" });
 
-  let sentence = spanWrap(words, 'sentence')
+  words = words.split(" ").map(wordWraps).join(" ");
 
-  let sentences = ''
+  let sentence = spanWrap({ content: words, className: "sentence" });
 
-  for (let index = 0; index < 10; index++) sentences += sentence
+  let sentences = "";
 
-  return sentences
+  for (let index = 0; index < 10; index++) sentences += sentence;
+
+  return sentences;
 }
 
 function setup(name, url) {
-  if ($.marquee_tab_link) $.marquee_tab_link.setAttribute('href', url)
+  if ($.marquee_tab_link) $.marquee_tab_link.setAttribute("href", url);
 
   if ($.marquee_row_link) {
-    $.marquee_row_link.setAttribute('href', url)
-    $.marquee_link_content.innerHTML = prepWords(name)
+    $.marquee_row_link.setAttribute("href", url);
+    $.marquee_link_content.innerHTML = prepWords(name);
 
-    animate.stagger($.marquee_row_link).restart()
-    animate.scroll($.marquee_link_content).restart()
+    animate.stagger($.marquee_row_link).restart();
+    animate.scroll($.marquee_link_content).restart();
   }
 }
 
-export default { setup }
+export default { setup };

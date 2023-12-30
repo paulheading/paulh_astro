@@ -7,13 +7,14 @@ const $player = () => $.overlay_controls.nextElementSibling;
 const data = (target, value) => target.getAttribute("data-" + value);
 
 player.data = function (target) {
-  const result = {
-    src: data(target, "src"),
-    width: data(target, "width"),
-    height: data(target, "height"),
-    index: data(target, "index"),
-    type: data(target, "type"),
-  };
+  const attributes = ["src", "width", "height", "index", "type"];
+
+  const result = {};
+
+  const attachAttribute = (attribute) =>
+    (result[attribute] = data(target, attribute));
+
+  attributes.forEach(attachAttribute);
 
   return result;
 };
