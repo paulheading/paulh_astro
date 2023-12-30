@@ -1,0 +1,66 @@
+---
+import { parse } from "node-html-parser";
+
+import Layout from "~layouts/Main.astro";
+import Content from "~components/Content.astro";
+import Gallery from "~components/Gallery.astro";
+import Page from "~components/Page.astro";
+import Row from "~components/Page/Row.astro";
+import Back from "~components/Anchor/Back.astro";
+
+interface layout {
+  title: string;
+  description: string;
+}
+
+interface local {
+  summary: string;
+  sections: [string];
+  pathname: string;
+}
+
+interface back {
+  title: string;
+  href: string;
+}
+
+interface props {
+  layout: layout;
+  local: local;
+  back: back;
+}
+
+export type { layout, local, back, props };
+
+const { layout, local = false, gallery = false, back } = Astro.props;
+---
+
+<Layout {...layout}>
+  <Content>
+    <Page>
+      {
+        local.sections.map((section: string) => (
+          <Row content={{ padding: true }}>{parse(section)}</Row>
+        ))
+      }
+      {
+        gallery && (
+          <Row content={{ padding: true }}>
+            <Gallery content={gallery} />
+          </Row>
+        )
+      }
+    </Page>
+    <div class="wrap-back">
+      <Back href={back.href}>{back.title}</Back>
+    </div>
+  </Content>
+</Layout>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .wrap-back {
+    margin-top: $padding-row * 2;
+  }
+</style>

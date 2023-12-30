@@ -1,48 +1,30 @@
 ---
-import { parse } from "node-html-parser";
-
-import Layout from "~layouts/Main.astro";
-import Content from "~components/Content.astro";
-import Page from "~components/Page.astro";
-import Row from "~components/Page/Row.astro";
-import Back from "~components/Anchor/Back.astro";
+import Layout from "~layouts/Page.astro";
 
 import { articles } from "~data/layout.json";
 import { get } from "~scripts/helpers";
-
-import type { props } from "~pages/learning/[path].astro";
 
 export function getStaticPaths() {
   return get.StaticPaths(articles);
 }
 
-const { name, local }: props = Astro.props;
+const { name, local } = Astro.props;
 
-const layoutProps = {
+const back = {
+  href: "/articles",
+  title: "Articles",
+};
+
+const layout = {
   title: "Paul Heading | Article | " + name,
   description: local.summary,
 };
+
+const props = {
+  layout,
+  local,
+  back,
+};
 ---
 
-<Layout {...layoutProps}>
-  <Content>
-    <Page>
-      {
-        local.sections.map((section: string) => (
-          <Row content={{ padding: true }}>{parse(section)}</Row>
-        ))
-      }
-    </Page>
-    <div class="wrap-back">
-      <Back href="/articles">Articles</Back>
-    </div>
-  </Content>
-</Layout>
-
-<style lang="scss">
-  @import "~styles/mixins";
-
-  .wrap-back {
-    margin-top: $padding-row * 2;
-  }
-</style>
+<Layout {...props} />

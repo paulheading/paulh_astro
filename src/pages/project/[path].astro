@@ -1,62 +1,36 @@
 ---
-import { parse } from "node-html-parser";
-
-import Layout from "~layouts/Main.astro";
-import Content from "~components/Content.astro";
-import Gallery from "~components/Gallery.astro";
-import Page from "~components/Page.astro";
-import Row from "~components/Page/Row.astro";
-import Back from "~components/Anchor/Back.astro";
+import Layout from "~layouts/Page.astro";
 
 import { projects } from "~data/layout.json";
 import { get, create } from "~scripts/helpers";
 import galleries from "~data/galleries";
 
-import type { props } from "~pages/learning/[path].astro";
-
 export function getStaticPaths() {
   return get.StaticPaths(projects);
 }
 
-const { name, local }: props = Astro.props;
+const { name, local } = Astro.props;
 
-const layoutProps = {
+const back = {
+  href: "/resume",
+  title: "Resume",
+};
+
+const layout = {
   title: "Paul Heading | Project | " + name,
   description: local.summary,
 };
 
-let filename = create.filename(local.pathname);
+const filename = create.filename(local.pathname);
 
-// @ts-ignore
-const content = galleries[filename];
+const gallery = galleries[filename];
+
+const props = {
+  layout,
+  local,
+  gallery,
+  back,
+};
 ---
 
-<Layout {...layoutProps}>
-  <Content>
-    <Page>
-      {
-        local.sections.map((section) => (
-          <Row content={{ padding: true }}>{parse(section)}</Row>
-        ))
-      }
-      {
-        content && (
-          <Row content={{ padding: true }}>
-            <Gallery content={content} />
-          </Row>
-        )
-      }
-    </Page>
-    <div class="wrap-back">
-      <Back>Resume</Back>
-    </div>
-  </Content>
-</Layout>
-
-<style lang="scss">
-  @import "~styles/mixins";
-
-  .wrap-back {
-    margin-top: $padding-row * 2;
-  }
-</style>
+<Layout {...props} />
