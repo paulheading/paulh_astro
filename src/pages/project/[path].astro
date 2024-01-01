@@ -2,8 +2,7 @@
 import Layout from "~layouts/Page.astro";
 
 import { projects } from "~data/layout.json";
-import { get, create } from "~scripts/helpers";
-import galleries from "~data/galleries";
+import { get } from "~scripts/helpers";
 
 export function getStaticPaths() {
   return get.StaticPaths(projects);
@@ -21,14 +20,9 @@ const layout = {
   description: local.summary,
 };
 
-const filename = create.filename(local.pathname);
-
-const gallery = galleries[filename];
-
 const props = {
   layout,
   local,
-  gallery,
   back,
 };
 ---

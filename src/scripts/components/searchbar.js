@@ -241,6 +241,8 @@ function searchArticles(event) {
 function resetMoreButton() {
   let articlesRemaining = $articles().length - articlesPerRow;
 
+  if (articlesRemaining <= 0) return;
+
   $moreWrap.removeAttribute("style", "display");
 
   $moreCount().innerText = `[${articlesRemaining}]`;

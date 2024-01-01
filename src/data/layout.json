@@ -3,6 +3,46 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "656146c6-94c1-47ef-9ae2-0c84f0f7ff5c",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/038ff7c5-b5b2-4f7e-b46c-5bb0502eaf5a/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=038ff7c5-b5b2-4f7e-b46c-5bb0502eaf5a&feed=kwWc0lhf",
+        "published": "2023-12-25T04:55:00Z",
+        "duration": 3148,
+        "fileType": "audio/mpeg",
+        "title": "What Would Socrates Do?",
+        "size": "48448008",
+        "playingStatus": 2,
+        "playedUpTo": 3101,
+        "starred": false,
+        "podcastUuid": "7868f900-21de-0133-2464-059c869cc4eb",
+        "podcastTitle": "Hidden Brain",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Hidden Brain, Shankar Vedantam",
+        "bookmarks": []
+      },
+      {
+        "uuid": "0b80b1b5-7477-44d2-abb8-632b12486c6a",
+        "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/otm/otm122923_cms1395919_pod2.mp3?awCollectionId=398&awEpisodeId=1395919",
+        "published": "2023-12-29T17:00:00Z",
+        "duration": 3189,
+        "fileType": "audio/mpeg",
+        "title": "What a Year",
+        "size": "50128000",
+        "playingStatus": 2,
+        "playedUpTo": 3188,
+        "starred": false,
+        "podcastUuid": "34b07760-0cc4-012e-fb69-00163e1b201c",
+        "podcastTitle": "On the Media",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "WNYC Studios",
+        "bookmarks": []
+      },
+      {
         "uuid": "b8f89440-f8a3-409f-95e7-78a8efba2ac7",
         "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/radiolab_podcast/radiolab_podcast122923_zeroworld.mp3?awCollectionId=15957&awEpisodeId=1399229",
         "published": "2023-12-29T15:00:00Z",
@@ -11,7 +51,7 @@
         "title": "Zeroworld",
         "size": "32352000",
         "playingStatus": 2,
-        "playedUpTo": 1921,
+        "playedUpTo": 1986,
         "starred": false,
         "podcastUuid": "f5b97290-0422-012e-f9a0-00163e1b201c",
         "podcastTitle": "Radiolab",
@@ -1961,46 +2001,6 @@
         "isDeleted": true,
         "author": "The Guardian",
         "bookmarks": []
-      },
-      {
-        "uuid": "e55d6524-1f99-4efd-9ba2-8b6701f40456",
-        "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/http/vpid/p0gckh7v.mp3",
-        "published": "2023-09-08T20:53:00Z",
-        "duration": 2818,
-        "fileType": "audio/mp3",
-        "title": "AQ: Sir John Hayes MP, Dame Diana Johnson MP, Christina McAnea and Anne McElvoy",
-        "size": "45088000",
-        "playingStatus": 3,
-        "playedUpTo": 2818,
-        "starred": false,
-        "podcastUuid": "66fd3830-b8e3-012e-61d2-00163e1b201c",
-        "podcastTitle": "Any Questions? and Any Answers?",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "BBC Radio 4",
-        "bookmarks": []
-      },
-      {
-        "uuid": "5e9b4b3b-eaf0-462c-b8b6-9238afd254b1",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/09/07-41449-gnl.fw.20230907.jg.international_break_september.mp3",
-        "published": "2023-09-07T11:54:25Z",
-        "duration": 2885,
-        "fileType": "audio/mp3",
-        "title": "Scotland shining and Maguire makes the England squad - Football Weekly Extra",
-        "size": "81908344",
-        "playingStatus": 3,
-        "playedUpTo": 2883,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
       }
     ]
   },
@@ -2113,7 +2113,8 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "organising-spaces-with-graphql",
-        "url": "/project/organising-spaces-with-graphql"
+        "url": "/project/organising-spaces-with-graphql",
+        "filename": "organising_spaces_with_graphql"
       }
     },
     {
@@ -2224,7 +2225,8 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "building-a-portfolio-in-nextjs",
-        "url": "/project/building-a-portfolio-in-nextjs"
+        "url": "/project/building-a-portfolio-in-nextjs",
+        "filename": "building_a_portfolio_in_nextjs"
       }
     },
     {
@@ -2335,7 +2337,8 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>"
         ],
         "pathname": "sparking-the-cannon-with-nextjs",
-        "url": "/project/sparking-the-cannon-with-nextjs"
+        "url": "/project/sparking-the-cannon-with-nextjs",
+        "filename": "sparking_the_cannon_with_nextjs"
       }
     },
     {
@@ -2446,7 +2449,8 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "resetting-the-barbican-with-nodejs",
-        "url": "/project/resetting-the-barbican-with-nodejs"
+        "url": "/project/resetting-the-barbican-with-nodejs",
+        "filename": "resetting_the_barbican_with_nodejs"
       }
     },
     {
@@ -2557,7 +2561,8 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>"
         ],
         "pathname": "leytonstone-loves-film",
-        "url": "/project/leytonstone-loves-film"
+        "url": "/project/leytonstone-loves-film",
+        "filename": "leytonstone_loves_film"
       }
     },
     {
@@ -2668,7 +2673,8 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>"
         ],
         "pathname": "walthamstow-garden-party",
-        "url": "/project/walthamstow-garden-party"
+        "url": "/project/walthamstow-garden-party",
+        "filename": "walthamstow_garden_party"
       }
     },
     {
@@ -2779,7 +2785,8 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "designing-account-areas-in-vuejs",
-        "url": "/project/designing-account-areas-in-vuejs"
+        "url": "/project/designing-account-areas-in-vuejs",
+        "filename": "designing_account_areas_in_vuejs"
       }
     },
     {
@@ -2887,7 +2894,8 @@
           "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>I worked on this project with Chloe Ings. We both developed creative routes, from which I ultimately supplied the final brand animations.</p>\n<ul>\n<li>🎨 Creating concepts with <a href=\"https://www.adobe.com/uk/products/indesign.html\">Adobe InDesign</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://www.adobe.com/uk/products/aftereffects.html\">Adobe After Effects</a></li>\n</ul>"
         ],
         "pathname": "moving-orchestras-with-after-effects",
-        "url": "/project/moving-orchestras-with-after-effects"
+        "url": "/project/moving-orchestras-with-after-effects",
+        "filename": "moving_orchestras_with_after_effects"
       }
     },
     {
@@ -2998,7 +3006,8 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "selling-designer-fabric-with-wordpress",
-        "url": "/project/selling-designer-fabric-with-wordpress"
+        "url": "/project/selling-designer-fabric-with-wordpress",
+        "filename": "selling_designer_fabric_with_wordpress"
       }
     }
   ],
@@ -3094,7 +3103,8 @@
           "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>"
         ],
         "pathname": "the-git-github-bootcamp",
-        "url": "/article/the-git-github-bootcamp"
+        "url": "/article/the-git-github-bootcamp",
+        "filename": "the_git_github_bootcamp"
       }
     },
     {
@@ -3239,7 +3249,8 @@
           "\n<h4 id=\"therearethreetypesofknowledge\">There are three types of knowledge:</h4>\n<p>a) The stuff \"you know, you know\"</p>\n<p>b) the stuff \"you know, you dont know\"</p>\n<p>c) the stuff \"you dont know, you dont know\"</p>\n<p>In my experience its almost impossible to work solely in (a). Instead, by growing (b) and reducing (c) you will improve your awareness, becoming a better problem solver, and a more empathetic person.</p>"
         ],
         "pathname": "problem-solving-basics",
-        "url": "/article/problem-solving-basics"
+        "url": "/article/problem-solving-basics",
+        "filename": "problem_solving_basics"
       }
     },
     {
@@ -3333,7 +3344,8 @@
           "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building the package for <a href=\"https://www.npmjs.com/\">NPM</a></li>\n<li>💡 Creating components for <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "resetting-the-barbican-with-nodejs",
-        "url": "/article/resetting-the-barbican-with-nodejs"
+        "url": "/article/resetting-the-barbican-with-nodejs",
+        "filename": "resetting_the_barbican_with_nodejs"
       }
     }
   ],
@@ -3408,7 +3420,7 @@
             "url": "https://open.spotify.com/artist/7LTSTQkL7iK7zndjFQgHQo",
             "name": "O'Flynn"
           },
-          "popularity": 27,
+          "popularity": 28,
           "release_date": "2019-09-06",
           "url": "https://open.spotify.com/track/1SMLoRfenhQJjL4fbimctZ",
           "name": "Aletheia"
@@ -3418,7 +3430,7 @@
             "url": "https://open.spotify.com/artist/2dOnTAoXrpBwYAo1qIbemO",
             "name": "Steam Down"
           },
-          "popularity": 24,
+          "popularity": 25,
           "release_date": "2019-11-08",
           "url": "https://open.spotify.com/track/3a9BypAqVxHNCZgHQXfeG7",
           "name": "Free My Skin"
@@ -3428,7 +3440,7 @@
             "url": "https://open.spotify.com/artist/1ooAqaFu4Ac3BO2HpL4V2R",
             "name": "Henrik Schwarz"
           },
-          "popularity": 26,
+          "popularity": 27,
           "release_date": "2020-03-20",
           "url": "https://open.spotify.com/track/7GA49BEANCELzwyBxQVxU1",
           "name": "Come Together"
@@ -3438,7 +3450,7 @@
             "url": "https://open.spotify.com/artist/0uo6UbyUYXbG4xBT7vBGSx",
             "name": "Wilma Archer"
           },
-          "popularity": 18,
+          "popularity": 19,
           "release_date": "2020-04-03",
           "url": "https://open.spotify.com/track/2C5Q2WNxzaW6NTucwChrAr",
           "name": "Cheater"
@@ -3448,7 +3460,7 @@
             "url": "https://open.spotify.com/artist/6aRJP31fKBf0jbvb6qYAGt",
             "name": "Iftin Band"
           },
-          "popularity": 12,
+          "popularity": 13,
           "release_date": "2019-12-13",
           "url": "https://open.spotify.com/track/2l8davPIbbdn8BxYgbkwtP",
           "name": "Sirmaqabe - No Secrets"
@@ -3458,7 +3470,7 @@
             "url": "https://open.spotify.com/artist/3uOdNUjwD6hhOh1z2dQEIn",
             "name": "lau.ra"
           },
-          "popularity": 14,
+          "popularity": 15,
           "release_date": "2020-02-07",
           "url": "https://open.spotify.com/track/5rtAx0XN2V6P0RCkJSAXZ5",
           "name": "Sideways"
@@ -3521,7 +3533,7 @@
             "url": "https://open.spotify.com/artist/6nbtlXRy0S6adYpDVoRdNi",
             "name": "Anna B Savage"
           },
-          "popularity": 18,
+          "popularity": 19,
           "release_date": "2021-01-29",
           "url": "https://open.spotify.com/track/4oUBPVqmxoP5u9HeXLU6To",
           "name": "Corncrakes"
@@ -3541,7 +3553,7 @@
             "url": "https://open.spotify.com/artist/4BSjlnV6ZYrkMLPm55Wrfm",
             "name": "Deep Throat Choir"
           },
-          "popularity": 2,
+          "popularity": 3,
           "release_date": "2021-09-27",
           "url": "https://open.spotify.com/track/4GC8pzLgJSqp1gD55ddTaz",
           "name": "In Order to Know You"
@@ -3561,7 +3573,7 @@
             "url": "https://open.spotify.com/artist/6SsTlCsuCYleNza6xGwynu",
             "name": "Agnes"
           },
-          "popularity": 43,
+          "popularity": 44,
           "release_date": "2021-10-22",
           "url": "https://open.spotify.com/track/7f0SiAYG8XjOoQyfGvgbLA",
           "name": "Fingers Crossed"
@@ -3571,7 +3583,7 @@
             "url": "https://open.spotify.com/artist/6aDX1jzNVAI9enlQzW0Pgw",
             "name": "Moonchild Sanelly"
           },
-          "popularity": 12,
+          "popularity": 13,
           "release_date": "2021-09-02",
           "url": "https://open.spotify.com/track/5pDJ0QhZMlcUldSFQqFdNM",
           "name": "Undumpable"
@@ -3654,7 +3666,7 @@
             "url": "https://open.spotify.com/artist/4rqegcqfzES4oBRh4n8TM1",
             "name": "Ezéchiel Pailhès"
           },
-          "popularity": 40,
+          "popularity": 41,
           "release_date": "2022-10-07",
           "url": "https://open.spotify.com/track/2k9B3ifvsmef8V8L73BawX",
           "name": "Mélopée"
@@ -3664,7 +3676,7 @@
             "url": "https://open.spotify.com/artist/370nbSkMB9kDWyTypwWYak",
             "name": "Haruomi Hosono"
           },
-          "popularity": 26,
+          "popularity": 27,
           "release_date": "1978",
           "url": "https://open.spotify.com/track/6EN8xSFfwNPy3W3BD4hCLH",
           "name": "SPORTS MEN (2018 Yoshinori Sunahara Remastering)"
@@ -3684,7 +3696,7 @@
             "url": "https://open.spotify.com/artist/3v8mFhjLFa50QK8zDvAMYN",
             "name": "Amanda Miguel"
           },
-          "popularity": 69,
+          "popularity": 70,
           "release_date": "1981-01-01",
           "url": "https://open.spotify.com/track/0hTao6s03MkTStWfxAmnGk",
           "name": "Así No Te Amará Jamás"
@@ -3694,7 +3706,7 @@
             "url": "https://open.spotify.com/artist/6CZhbpXpR3VJNQWFkwd2Ic",
             "name": "Noé Preszow"
           },
-          "popularity": 34,
+          "popularity": 35,
           "release_date": "2022-03-18",
           "url": "https://open.spotify.com/track/6sqYnu5QuI8e1JwxlbwFs4",
           "name": "Faire les choses bien - Version alternative"
@@ -3734,7 +3746,7 @@
             "url": "https://open.spotify.com/artist/0RwXnFrEoI8tltFvYpJgP6",
             "name": "Confidence Man"
           },
-          "popularity": 46,
+          "popularity": 47,
           "release_date": "2022-04-01",
           "url": "https://open.spotify.com/track/53wnscuzFnH8jaGymzqgfi",
           "name": "Holiday"
@@ -3744,7 +3756,7 @@
             "url": "https://open.spotify.com/artist/6RQoLyY1nkArRcNc3sE86m",
             "name": "Ora the Molecule"
           },
-          "popularity": 20,
+          "popularity": 21,
           "release_date": "2021-07-23",
           "url": "https://open.spotify.com/track/0vydtoDOsW0qRhmFEHdyTT",
           "name": "Creator"
@@ -3787,7 +3799,7 @@
             "url": "https://open.spotify.com/artist/5gMXwFotLyxnc0usqNgk5J",
             "name": "Stephen Shannon"
           },
-          "popularity": 29,
+          "popularity": 30,
           "release_date": "2023-05-19",
           "url": "https://open.spotify.com/track/2ieQh3HGdx34e6tvfKvobi",
           "name": "Eyot"
@@ -3807,7 +3819,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 21,
+          "popularity": 22,
           "release_date": "2023-02-20",
           "url": "https://open.spotify.com/track/46PG96cJ6QF9Agy7Pu5BQb",
           "name": "Burnt Pictures"
@@ -3867,7 +3879,7 @@
             "url": "https://open.spotify.com/artist/1iX0eIvL5iHnaDny7BBtWH",
             "name": "Headache"
           },
-          "popularity": 43,
+          "popularity": 44,
           "release_date": "2023-05-31",
           "url": "https://open.spotify.com/track/1MPtLlyuB1X78TeammWxy9",
           "name": "The Beginning of the End"
@@ -3890,76 +3902,7 @@
       "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2bfb13aaa9ae0871b9bf5fd1",
       "thumbnail": "/thumbnails/spotify/62m9CBpzOUaVbRU9UAbiaY.webp"
     },
-    "_year": [
-      {
-        "artist": "Phoria",
-        "name": "S.U.Y.B"
-      },
-      {
-        "artist": "abracadabra",
-        "name": "at the zoo"
-      },
-      {
-        "artist": "audiobooks",
-        "name": "Burnt Pictures"
-      },
-      {
-        "artist": "Stephen Shannon",
-        "name": "Eyot"
-      },
-      {
-        "artist": "Oracle Sisters",
-        "name": "RBH"
-      },
-      {
-        "artist": "Hak Baker",
-        "name": "DOOLALLY"
-      },
-      {
-        "artist": "Haiku Hands",
-        "name": "Nunchucka"
-      },
-      {
-        "artist": "HÆLOS",
-        "name": "Quietus"
-      },
-      {
-        "artist": "A Winged Victory for the Sullen",
-        "name": "The Slow Descent Has Begun"
-      },
-      {
-        "artist": "BC Camplight",
-        "name": "Kicking Up A Fuss"
-      },
-      {
-        "artist": "En Attendant Ana",
-        "name": "Wonder"
-      },
-      {
-        "artist": "Blur",
-        "name": "The Narcissist"
-      },
-      {
-        "artist": "Jessie Ware",
-        "name": "Free Yourself"
-      },
-      {
-        "artist": "The Orb",
-        "name": "living in recycled times"
-      },
-      {
-        "artist": "James Yorkston",
-        "name": "Hold Out For Love"
-      },
-      {
-        "artist": "The Chemical Brothers",
-        "name": "No Reason"
-      },
-      {
-        "artist": "Jungle",
-        "name": "Candle Flame"
-      }
-    ]
+    "_year": []
   },
   "gem": {
     "name": "futuro",
@@ -3970,7 +3913,7 @@
   "npm": {
     "name": "barbican-reset",
     "version": "2.16.3",
-    "downloads": 11770,
+    "downloads": 11486,
     "url": "https://www.npmjs.com/package/barbican-reset"
   }
 }

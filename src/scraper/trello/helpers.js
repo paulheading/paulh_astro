@@ -106,4 +106,36 @@ convert.labelColors = function (labels) {
   });
 };
 
+create.filename = function (value) {
+  let regex = new RegExp("-", "g");
+  return value.replace(regex, "_");
+};
+
+create.localAttributes = function (card) {
+  let local = {};
+
+  local.summary = card.desc ? create.summary(card.desc) : null;
+
+  local.desc = card.desc ? create.desc(card.desc) : null;
+
+  local.labels = card.labels.map(({ name }) => name);
+
+  local.sections = local.desc ? create.sections(local.desc) : null;
+
+  local.pathname = card.name
+    .replace(/\s+/g, "-")
+    .replace(/\//g, "-")
+    .replace(/[.]/g, "")
+    .replace(/&/g, "")
+    .replace("--", "-")
+    .replace(/:/g, "")
+    .toLowerCase();
+
+  local.url = "/" + card.type + "/" + local.pathname;
+
+  local.filename = create.filename(local.pathname);
+
+  return local;
+};
+
 export { remove, create, convert };

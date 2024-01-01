@@ -8,6 +8,8 @@ import Page from "~components/Page.astro";
 import Row from "~components/Page/Row.astro";
 import Back from "~components/Anchor/Back.astro";
 
+import galleries from "~data/galleries";
+
 interface layout {
   title: string;
   description: string;
@@ -32,7 +34,9 @@ interface props {
 
 export type { layout, local, back, props };
 
-const { layout, local = false, gallery = false, back } = Astro.props;
+const { layout, local, back } = Astro.props;
+
+const gallery = galleries[local.filename];
 ---
 
 <Layout {...layout}>

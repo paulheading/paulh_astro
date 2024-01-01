@@ -77,24 +77,7 @@ async function processCard(card, list) {
 
   card.labels = convert.labelColors(card.labels);
 
-  card.local = {}; // locally interpreted formatting of data
-  card.local.summary = card.desc ? create.summary(card.desc) : null;
-  card.local.desc = card.desc ? create.desc(card.desc) : null;
-  card.local.labels = card.labels.map(({ name }) => name);
-
-  card.local.sections = card.local.desc
-    ? create.sections(card.local.desc)
-    : null;
-
-  card.local.pathname = card.name
-    .replace(/\s+/g, "-")
-    .replace(/\//g, "-")
-    .replace(/[.]/g, "")
-    .replace(/&/g, "")
-    .replace("--", "-")
-    .replace(/:/g, "")
-    .toLowerCase();
-  card.local.url = "/" + card.type + "/" + card.local.pathname;
+  card.local = create.localAttributes(card); // locally interpreted formatting of data
 
   return card;
 }

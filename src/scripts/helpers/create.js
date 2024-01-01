@@ -86,16 +86,10 @@ function hpu({ src = "", info = "" }) {
   });
 }
 
-function filename(value) {
-  let regex = new RegExp("-", "g");
-  return value.replace(regex, "_");
-}
-
 export default {
   person,
   content,
   billboard,
   mpu,
   hpu,
-  filename,
 };

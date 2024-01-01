@@ -92,7 +92,8 @@
           "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>"
         ],
         "pathname": "the-git-github-bootcamp",
-        "url": "/learning/the-git-github-bootcamp"
+        "url": "/learning/the-git-github-bootcamp",
+        "filename": "the_git_github_bootcamp"
       }
     },
     {
@@ -187,7 +188,8 @@
           "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>"
         ],
         "pathname": "the-complete-guide-to-testing-javascript-node-applications",
-        "url": "/learning/the-complete-guide-to-testing-javascript-node-applications"
+        "url": "/learning/the-complete-guide-to-testing-javascript-node-applications",
+        "filename": "the_complete_guide_to_testing_javascript_node_applications"
       }
     },
     {
@@ -283,7 +285,8 @@
           "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Because I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.</p>\n<p>[########] 80% Complete</p>"
         ],
         "pathname": "professional-learning-path",
-        "url": "/learning/professional-learning-path"
+        "url": "/learning/professional-learning-path",
+        "filename": "professional_learning_path"
       }
     },
     {
@@ -378,7 +381,8 @@
           "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[##########] 100% Complete</p>"
         ],
         "pathname": "javascript-understanding-the-weird-parts",
-        "url": "/learning/javascript-understanding-the-weird-parts"
+        "url": "/learning/javascript-understanding-the-weird-parts",
+        "filename": "javascript_understanding_the_weird_parts"
       }
     },
     {
@@ -474,7 +478,8 @@
           "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>"
         ],
         "pathname": "full-stack-javascript-techdegree",
-        "url": "/learning/full-stack-javascript-techdegree"
+        "url": "/learning/full-stack-javascript-techdegree",
+        "filename": "full_stack_javascript_techdegree"
       }
     },
     {
@@ -569,7 +574,8 @@
           "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[##########] 100% Complete</p>"
         ],
         "pathname": "html5-game-from-scratch-step-by-step-learning-javascript",
-        "url": "/learning/html5-game-from-scratch-step-by-step-learning-javascript"
+        "url": "/learning/html5-game-from-scratch-step-by-step-learning-javascript",
+        "filename": "html5_game_from_scratch_step_by_step_learning_javascript"
       }
     },
     {
@@ -664,7 +670,8 @@
           "\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>I learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.</p>"
         ],
         "pathname": "ba-history",
-        "url": "/learning/ba-history"
+        "url": "/learning/ba-history",
+        "filename": "ba_history"
       }
     }
   ],
@@ -761,7 +768,8 @@
           "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working within an Agile team and estimating deadlines every fortnight</li>\n<li>🗣️ Presenting at fortnightly demos to people across the organisation</li>\n<li>🗣️ Testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible experiences</li>\n<li>🎨 Wireframing and prototyping with Figma</li>\n<li>💻 Building with Vue.js</li>\n<li>🚀 Animating with GSAP</li>\n<li>📝 Styling layouts with SCSS</li>\n</ul>"
         ],
         "pathname": "front-end-designer-developer",
-        "url": "/role/front-end-designer-developer"
+        "url": "/role/front-end-designer-developer",
+        "filename": "front_end_designer_developer"
       }
     },
     {
@@ -856,7 +864,8 @@
           "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>"
         ],
         "pathname": "design-manager",
-        "url": "/role/design-manager"
+        "url": "/role/design-manager",
+        "filename": "design_manager"
       }
     },
     {
@@ -951,7 +960,8 @@
           "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>"
         ],
         "pathname": "junior-designer",
-        "url": "/role/junior-designer"
+        "url": "/role/junior-designer",
+        "filename": "junior_designer"
       }
     }
   ]
