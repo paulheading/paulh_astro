@@ -1,14 +1,18 @@
 ---
+import { get } from "~scripts/helpers";
+
 const { margin = "-12" } = Astro.props;
 
-const toRems = (value = "1") => Number(value) * 0.0625 + "rem";
+let vars = {
+  margin: get.rems(margin),
+};
 ---
 
 <div class="thumbnails">
   <slot />
 </div>
 
-<style lang="scss" define:vars={{ margin: toRems(margin) }}>
+<style lang="scss" define:vars={vars}>
   @import "~styles/mixins";
 
   .thumbnails {

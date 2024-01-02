@@ -1,12 +1,9 @@
 ---
 import Outline from "~components/Button/Outline.astro";
 
-let { articles } = Astro.props;
+import type { wrapProps } from "~types/article/more";
 
-interface wrapProps {
-  class?: string;
-  style?: object;
-}
+let { articles } = Astro.props;
 
 let wrapProps: wrapProps = {
   class: "wrap",

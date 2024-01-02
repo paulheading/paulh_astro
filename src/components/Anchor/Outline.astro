@@ -1,18 +1,12 @@
 ---
+import { get } from "~scripts/helpers";
+
 const { size = 20, href = "/resume", id } = Astro.props;
-
-/**
- * @name toRems
- * @prop {Number} value
- * @returns {String}
- */
-
-const toRems = (value = 1) => String(value * 0.0625 + "rem");
 
 const anchorProps = {
   class: "anchor",
   href,
-  id
+  id,
 };
 
 const padding = size * 0.5;
@@ -20,9 +14,9 @@ const padding = size * 0.5;
 const radius = padding * 0.5;
 
 const vars = {
-  padding: toRems(padding),
-  radius: toRems(radius),
-  size: toRems(size),
+  padding: get.rems(padding),
+  radius: get.rems(radius),
+  size: get.rems(size),
 };
 ---
 
