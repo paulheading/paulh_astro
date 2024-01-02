@@ -93,6 +93,8 @@ function processDue() {
   @import "~styles/mixins";
 
   .container {
+    overflow: hidden;
+
     @include medium-down {
       padding: ($padding-row * 1.25) $padding-row ($padding-row * 0.75);
     }

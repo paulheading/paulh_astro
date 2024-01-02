@@ -3,12 +3,13 @@ import RowTitle from "~components/Page/Row/Title.astro";
 import RowControls from "~components/Page/Row/Controls.astro";
 import RowContent from "~components/Page/Row/Content.astro";
 
-const { title, controls = false, content, data } = Astro.props;
+const { title, controls = false, content, data, style } = Astro.props;
 
 interface props {
   class: string;
   data?: string;
   id?: string;
+  style?: object;
 }
 
 const props: props = {
@@ -17,6 +18,8 @@ const props: props = {
 };
 
 if (title) props.id = title.toLowerCase() + "_row";
+
+if (style) props.style = style;
 ---
 
 <div {...props}>

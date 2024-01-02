@@ -301,7 +301,7 @@ function loadNextRow() {
   for (let index = 0; index < $rows(state.mode).length; index++) {
     const $row = $rows(state.mode)[index];
 
-    const hidden = $row.getAttribute("style", "display") == "none";
+    const hidden = $row.getAttribute("style", "display") == "display:none";
 
     if (hidden) {
       $row.removeAttribute("style", "display");

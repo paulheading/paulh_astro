@@ -37,6 +37,7 @@
   display: -webkit-inline-box;
   -webkit-line-clamp: $lines;
   overflow: hidden;
+  max-width: 100%;
 }
 
 @mixin wrap {

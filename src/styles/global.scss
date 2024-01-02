@@ -4,6 +4,33 @@
 @import "~styles/mixins";
 @import "~styles/global/page-content";
 
+@mixin child-margins($margin: $margin-paragraph) {
+  margin: 0 0 $margin;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@mixin code-styles {
+  background-color: $c-body-bg;
+  padding: $padding-row;
+  display: block;
+  margin: 0;
+}
+
+@mixin list-styles {
+  @include child-margins;
+  padding-left: $margin-paragraph;
+  font-weight: 400;
+}
+
+@mixin h-styles($margin: $margin-paragraph) {
+  @include child-margins($margin);
+  font-family: $font-family-headings;
+  line-height: 1.2;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -35,84 +62,44 @@ a {
 }
 
 h1 {
-  $h1-drop: $h1-font-size * 0.5;
-
-  font-family: $font-family-headings;
+  @include h-styles($h1-font-size * 0.5);
   font-size: $h1-font-size;
-  margin: 0 0 $h1-drop;
-  line-height: 1.2;
 }
 
 h2 {
-  font-family: $font-family-headings;
+  @include h-styles;
   font-size: $h2-font-size;
-  line-height: 1.2;
-  margin: 0 0 $margin-paragraph;
 }
 
 h3 {
-  font-family: $font-family-headings;
+  @include h-styles;
   font-size: $h3-font-size;
-  line-height: 1.2;
-  margin: 0 0 $margin-paragraph;
 }
 
 h4 {
-  font-family: $font-family-headings;
+  @include h-styles;
   font-size: $h4-font-size;
-  line-height: 1.2;
-  margin: 0 0 $margin-paragraph;
 }
 
 h5 {
-  font-family: $font-family-headings;
+  @include h-styles;
   font-size: $h5-font-size;
-  line-height: 1.2;
-  margin: 0 0 $margin-paragraph;
 }
 
 h6 {
+  @include h-styles;
   font-size: $h6-font-size;
-  line-height: 1.2;
-  margin: 0 0 $margin-paragraph;
 }
 
 blockquote {
-  margin: 0 0 $margin-paragraph * 2;
-  padding: $margin-paragraph;
-  background-color: white;
-  display: inline-block;
-
-  p {
-    margin-bottom: 0;
-  }
+  @include code-styles;
+  @include child-margins;
 }
 
 p {
-  margin: 0 0 $margin-paragraph;
+  @include child-margins;
+  word-wrap: break-word;
   font-weight: 400;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-
-  +blockquote {
-    margin-top: $margin-paragraph * 0.5;
-  }
-
-  +h3 {
-    margin-top: $margin-paragraph * 2;
-  }
-}
-
-@mixin list-styles {
-  padding-left: $margin-paragraph;
-  margin: 0 0 $margin-paragraph;
-  font-weight: 400;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
 }
 
 ul {
@@ -152,20 +139,15 @@ iframe {
   }
 }
 
-pre {
-  margin: 0 0 $margin-paragraph;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
+code {
+  @include code-styles;
+  line-height: 1.75;
+  font-size: 80%;
 }
 
-code {
-  background: $c-body-bg;
-  white-space: pre-wrap;
-  display: inline-block;
-  padding: $padding-row;
-  font-size: 80%;
+img {
+  border: 1px solid gray;
+  max-width: 100%;
 }
 
 .artwork svg {
