@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^1.0.0",
+    "@astrojs/sitemap": "^3.0.4",
     "astro": "^3.0.8",
     "color": "^4.2.3",
     "focus-visible": "^5.2.0",
