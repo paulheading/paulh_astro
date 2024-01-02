@@ -7,14 +7,18 @@ import Label from "~components/Label.astro";
 import Name from "~components/Page/Card/Name.astro";
 import Summary from "~components/Page/Card/Summary.astro";
 
-import type { label } from "~types/card";
+import type { card } from "~types/page/card";
+
+interface Props {
+  card: card;
+  index: number;
+  countTime: boolean;
+}
 
 let { card, index, countTime = false } = Astro.props;
 
 let { name, labels, dueComplete, local, start, due, type, dateLastActivity } =
   card;
-
-let primary = labels[0].color;
 
 const containerProps = {
   "data-article": "true",
@@ -59,7 +63,7 @@ function processDue() {
   <div class="label_wrap">
     <Labels>
       {
-        labels.map(function ({ name, color }: label, index: number) {
+        labels.map(function ({ name, color }, index) {
           const props = {
             style: "solid",
             color,
@@ -67,7 +71,7 @@ function processDue() {
 
           if (index > 0) {
             props.style = "outline";
-            props.color = primary;
+            props.color = local.primaryColor;
           }
 
           return <Label {...props}>{name}</Label>;
@@ -75,7 +79,7 @@ function processDue() {
       }
       {
         countTime && (
-          <Label color={primary} style="outline">
+          <Label color={local.primaryColor} style="outline">
             {length}
           </Label>
         )

@@ -1,10 +1,12 @@
 ---
 import remove_markdown from "remove-markdown";
-import Layout from "~layouts/Main.astro";
-import Content from "~components/Content.astro";
-import Page from "~components/Page.astro";
 
-import Markdown from "~markdown/about.mdx";
+import Layout from "~layouts/Main.astro";
+
+import PageOuter from "~components/Page/Outer.astro";
+import PageInner from "~components/Page/Inner.astro";
+
+import Content from "~markdown/about.mdx";
 
 import description from "~markdown/biography.md?raw";
 
@@ -17,9 +19,9 @@ const layoutProps = {
 ---
 
 <Layout {...layoutProps}>
-  <Content>
-    <Page>
-      <Markdown />
-    </Page>
-  </Content>
+  <PageOuter>
+    <PageInner>
+      <Content />
+    </PageInner>
+  </PageOuter>
 </Layout>

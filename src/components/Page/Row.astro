@@ -3,26 +3,29 @@ import RowTitle from "~components/Page/Row/Title.astro";
 import RowControls from "~components/Page/Row/Controls.astro";
 import RowContent from "~components/Page/Row/Content.astro";
 
+import type { content, pageRow } from "~types/page/row";
+
 const { title, controls = false, content, data, style } = Astro.props;
 
-interface props {
-  class: string;
+interface Props {
+  title?: string;
+  controls?: boolean;
+  content?: content;
   data?: string;
-  id?: string;
   style?: object;
 }
 
-const props: props = {
+const pageRow: pageRow = {
   class: "page-row",
   data,
 };
 
-if (title) props.id = title.toLowerCase() + "_row";
+if (title) pageRow.id = title.toLowerCase() + "_row";
 
-if (style) props.style = style;
+if (style) pageRow.style = style;
 ---
 
-<div {...props}>
+<div {...pageRow}>
   {title && <RowTitle>{title}</RowTitle>}
   {
     controls ? (

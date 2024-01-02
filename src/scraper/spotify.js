@@ -140,7 +140,7 @@ getSpotify.data = async () => ({
   _2021: await getSpotify.playlist(playlist._2021),
   _2022: await getSpotify.playlist(playlist._2022),
   _2023: await getSpotify.playlist(playlist._2023),
-  _year: await getSpotify.tracksThisYear(playlist._year),
+  // _year: await getSpotify.tracksThisYear(playlist._year),
 });
 
 export default getSpotify.data;

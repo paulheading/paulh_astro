@@ -1,20 +1,20 @@
 ---
 const { data } = Astro.props;
 
-const props = {
-  class: "container",
+const pageInner = {
+  class: "page-inner",
   data,
 };
 ---
 
-<div {...props}>
+<div {...pageInner}>
   <slot />
 </div>
 
 <style lang="scss">
   @import "~styles/mixins";
 
-  .container {
+  .page-inner {
     @include wrap;
 
     @include medium-up {

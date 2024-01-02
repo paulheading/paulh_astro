@@ -56,10 +56,12 @@ const $moreWrap = $more.closest(".wrap");
 
 let articlesPerRow = 3;
 
-let state = {
-  search: "",
+let initialState = {
   mode: "article",
+  search: "",
 };
+
+let state = { ...initialState };
 
 /**
  * @name dataIs
@@ -176,9 +178,9 @@ function printResults(results) {
     $moreCount().innerText = `[${articlesRemaining}]`;
   }
 
-  let container = document.querySelector(".container[data=search]");
+  let pageInner = document.querySelector(".page-inner[data=search]");
 
-  output.forEach((row) => container.append(row));
+  output.forEach((row) => pageInner.append(row));
 }
 
 /**
@@ -272,7 +274,7 @@ function clearSearchResults() {
 
   resetMoreButton();
 
-  state.search = "";
+  state = { ...initialState };
 }
 
 /**
@@ -301,7 +303,7 @@ function loadNextRow() {
   for (let index = 0; index < $rows(state.mode).length; index++) {
     const $row = $rows(state.mode)[index];
 
-    const hidden = $row.getAttribute("style", "display") == "display:none";
+    const hidden = $row.style.getPropertyValue("display") == "none";
 
     if (hidden) {
       $row.removeAttribute("style", "display");

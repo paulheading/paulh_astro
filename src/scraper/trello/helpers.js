@@ -50,21 +50,6 @@ create.summary = function (target) {
 create.desc = (target) => create.snippet(target, 1);
 
 /**
- * @todo streamline process below
- */
-
-create.type = function (target) {
-  const { projects, roles, learning, articles } = list;
-
-  if (target == projects) return "project";
-  if (target == roles) return "role";
-  if (target == learning) return "learning";
-  if (target == articles) return "article";
-
-  return "unknown";
-};
-
-/**
  * @name create.sections
  * @param {string} content
  * @returns {[string]} An array of html strings
@@ -119,6 +104,8 @@ create.localAttributes = function (card) {
   local.desc = card.desc ? create.desc(card.desc) : null;
 
   local.labels = card.labels.map(({ name }) => name);
+
+  local.primaryColor = card.labels[0].color;
 
   local.sections = local.desc ? create.sections(local.desc) : null;
 

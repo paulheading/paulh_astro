@@ -1,11 +1,14 @@
 ---
 import Layout from "~layouts/Main.astro";
-import Content from "~components/Content.astro";
-import Page from "~components/Page.astro";
-import Row from "~components/Page/Row.astro";
-import SearchBar from "~components/SearchBar.astro";
+
+import PageOuter from "~components/Page/Outer.astro";
+import PageInner from "~components/Page/Inner.astro";
+import PageRow from "~components/Page/Row.astro";
+
 import ArticleRows from "~components/Article/Rows.astro";
 import ArticleMore from "~components/Article/More.astro";
+
+import SearchBar from "~components/SearchBar.astro";
 
 import seo from "~data/seo.js";
 import { articles } from "~data/layout.json";
@@ -42,9 +45,9 @@ let moreArticles = articles.length - articlesPerRow;
 ---
 
 <Layout {...layoutProps}>
-  <Content>
-    <Page data="search">
-      <Row content={{ padding: true }}>
+  <PageOuter>
+    <PageInner data="search">
+      <PageRow content={{ padding: true }}>
         <div class="title-wrap">
           <div class="title">Bloggy McBlogface</div>
           <SearchBar />
@@ -60,11 +63,11 @@ let moreArticles = articles.length - articlesPerRow;
             the facts around us. I'd like to document that process here.
           </p>
         </div>
-      </Row>
+      </PageRow>
       <ArticleRows rows={pages} />
-    </Page>
+    </PageInner>
     <ArticleMore articles={moreArticles} />
-  </Content>
+  </PageOuter>
 </Layout>
 
 <style lang="scss">

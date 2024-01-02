@@ -3,11 +3,13 @@ import { parse } from "node-html-parser";
 import remove_markdown from "remove-markdown";
 
 import Layout from "~layouts/Main.astro";
-import Content from "~components/Content.astro";
-import Page from "~components/Page.astro";
-import Row from "~components/Page/Row.astro";
+
+import PageOuter from "~components/Page/Outer.astro";
+import PageInner from "~components/Page/Inner.astro";
+import PageRow from "~components/Page/Row.astro";
+import PageCard from "~components/Page/Card.astro";
+
 import Biography from "~markdown/biography.md";
-import Card from "~components/Page/Card.astro";
 
 import description from "~markdown/biography.md?raw";
 
@@ -45,16 +47,16 @@ const learningProps = {
 <script src="~scripts/pages/resume.js"></script>
 
 <Layout {...layoutProps}>
-  <Content>
-    <Page>
-      <Row content={{ padding: true, columns: 2 }}>
+  <PageOuter>
+    <PageInner>
+      <PageRow content={{ padding: true, columns: 2 }}>
         <div class="name">{paul.name}</div>
         <div>
           <div>{paul.location}</div>
           <div>{parse(paul.email.link)}</div>
         </div>
-      </Row>
-      <Row content={{ padding: true, columns: 2 }}>
+      </PageRow>
+      <PageRow content={{ padding: true, columns: 2 }}>
         <div>
           <div class="title">Biography</div>
           <div class="copy">
@@ -62,33 +64,33 @@ const learningProps = {
           </div>
         </div>
         <div>{paul.platforms.map(({ link }) => <div>{parse(link)}</div>)}</div>
-      </Row>
-      <Row {...projectProps}>
+      </PageRow>
+      <PageRow {...projectProps}>
         {
           projects.map(function (card, index) {
             let props = { card, index, countTime: true };
-            return <Card {...props} />;
+            return <PageCard {...props} />;
           })
         }
-      </Row>
-      <Row {...rolesProps}>
+      </PageRow>
+      <PageRow {...rolesProps}>
         {
           roles.map(function (card, index) {
             let props = { card, index, countTime: true };
-            return <Card {...props} />;
+            return <PageCard {...props} />;
           })
         }
-      </Row>
-      <Row {...learningProps}>
+      </PageRow>
+      <PageRow {...learningProps}>
         {
           learning.map(function (card, index) {
             let props = { card, index, countTime: true };
-            return <Card {...props} />;
+            return <PageCard {...props} />;
           })
         }
-      </Row>
-    </Page>
-  </Content>
+      </PageRow>
+    </PageInner>
+  </PageOuter>
 </Layout>
 
 <style lang="scss">

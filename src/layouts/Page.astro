@@ -2,37 +2,24 @@
 import { parse } from "node-html-parser";
 
 import Layout from "~layouts/Main.astro";
-import Content from "~components/Content.astro";
-import Gallery from "~components/Gallery.astro";
-import Page from "~components/Page.astro";
-import Row from "~components/Page/Row.astro";
+
+import PageOuter from "~components/Page/Outer.astro";
+import PageInner from "~components/Page/Inner.astro";
+import PageRow from "~components/Page/Row.astro";
+import PageGallery from "~components/Page/Gallery.astro";
+
 import Back from "~components/Anchor/Back.astro";
 
 import galleries from "~data/galleries";
 
-interface layout {
-  title: string;
-  description: string;
-}
+import type { layout, back } from "~types/layout/page";
+import type { local } from "~types/page/card";
 
-interface local {
-  summary: string;
-  sections: [string];
-  pathname: string;
-}
-
-interface back {
-  title: string;
-  href: string;
-}
-
-interface props {
+interface Props {
   layout: layout;
   local: local;
   back: back;
 }
-
-export type { layout, local, back, props };
 
 const { layout, local, back } = Astro.props;
 
@@ -40,25 +27,25 @@ const gallery = galleries[local.filename];
 ---
 
 <Layout {...layout}>
-  <Content>
-    <Page>
+  <PageOuter>
+    <PageInner>
       {
         local.sections.map((section: string) => (
-          <Row content={{ padding: true }}>{parse(section)}</Row>
+          <PageRow content={{ padding: true }}>{parse(section)}</PageRow>
         ))
       }
       {
         gallery && (
-          <Row content={{ padding: true }}>
-            <Gallery content={gallery} />
-          </Row>
+          <PageRow content={{ padding: true }}>
+            <PageGallery content={gallery} />
+          </PageRow>
         )
       }
-    </Page>
+    </PageInner>
     <div class="wrap-back">
       <Back href={back.href}>{back.title}</Back>
     </div>
-  </Content>
+  </PageOuter>
 </Layout>
 
 <style lang="scss">

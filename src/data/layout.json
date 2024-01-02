@@ -3,6 +3,26 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "37fe0c5a-81ac-4d45-be1b-d4c8fb4df9d7",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2024/01/01-42653-gnl.fw.20240101.jg.arsenal_falter_at_fulham.mp3",
+        "published": "2024-01-01T12:36:06Z",
+        "duration": 3494,
+        "fileType": "audio/mp3",
+        "title": "Will a new striker solve problems for faltering Arsenal? – Football Weekly podcast",
+        "size": "100681984",
+        "playingStatus": 2,
+        "playedUpTo": 3494,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
         "uuid": "656146c6-94c1-47ef-9ae2-0c84f0f7ff5c",
         "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/038ff7c5-b5b2-4f7e-b46c-5bb0502eaf5a/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=038ff7c5-b5b2-4f7e-b46c-5bb0502eaf5a&feed=kwWc0lhf",
         "published": "2023-12-25T04:55:00Z",
@@ -11,7 +31,7 @@
         "title": "What Would Socrates Do?",
         "size": "48448008",
         "playingStatus": 2,
-        "playedUpTo": 3101,
+        "playedUpTo": 3148,
         "starred": false,
         "podcastUuid": "7868f900-21de-0133-2464-059c869cc4eb",
         "podcastTitle": "Hidden Brain",
@@ -1981,26 +2001,6 @@
         "isDeleted": false,
         "author": "The Australian",
         "bookmarks": []
-      },
-      {
-        "uuid": "5c9b34a5-69ee-4c48-90f8-d7e1ccd25f18",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/09/11-40649-gnl.fw.20230911.jg.england_stutter_flicks_off_2.mp3",
-        "published": "2023-09-11T11:28:46Z",
-        "duration": 3520,
-        "fileType": "audio/mp3",
-        "title": "England falter, Scotland soar and Flick’s off for Germany – Football Weekly",
-        "size": "103140430",
-        "playingStatus": 3,
-        "playedUpTo": 3520,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
       }
     ]
   },
@@ -2095,7 +2095,7 @@
       "cardRole": null,
       "marquee": "Organising spaces with GraphQL",
       "hero": true,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2105,6 +2105,11 @@
           "Barbican",
           "GraphQL"
         ],
+        "primaryColor": {
+          "name": "green",
+          "text": "#174b35",
+          "fill": "#4cce97"
+        },
         "sections": [
           "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n",
           "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
@@ -2113,7 +2118,7 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "organising-spaces-with-graphql",
-        "url": "/project/organising-spaces-with-graphql",
+        "url": "/projects/organising-spaces-with-graphql",
         "filename": "organising_spaces_with_graphql"
       }
     },
@@ -2207,7 +2212,7 @@
       "cardRole": null,
       "marquee": "Building a Portfolio in Next.js",
       "hero": false,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2217,6 +2222,11 @@
           "Freelance",
           "Next.js"
         ],
+        "primaryColor": {
+          "name": "purple",
+          "text": "#352c63",
+          "fill": "#9f8fef"
+        },
         "sections": [
           "<h1 id=\"buildingaportfolioinnextjs\">Building a Portfolio in Next.js</h1>\n<p>Build a portfolio site that is fast, engaging and showcases my abilities as a Designer/Developer.</p>\n",
           "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, you're looking at it 😉</p>\n<p>The code is in my public <a href=\"https://github.com/paulheading/paulh3\">Github repository</a>.</p>\n",
@@ -2225,7 +2235,7 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "building-a-portfolio-in-nextjs",
-        "url": "/project/building-a-portfolio-in-nextjs",
+        "url": "/projects/building-a-portfolio-in-nextjs",
         "filename": "building_a_portfolio_in_nextjs"
       }
     },
@@ -2319,7 +2329,7 @@
       "cardRole": null,
       "marquee": "Sparking the cannon with Next.js",
       "hero": true,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2329,6 +2339,11 @@
           "Freelance",
           "Next.js"
         ],
+        "primaryColor": {
+          "name": "purple",
+          "text": "#352c63",
+          "fill": "#9f8fef"
+        },
         "sections": [
           "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n",
           "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
@@ -2337,7 +2352,7 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>"
         ],
         "pathname": "sparking-the-cannon-with-nextjs",
-        "url": "/project/sparking-the-cannon-with-nextjs",
+        "url": "/projects/sparking-the-cannon-with-nextjs",
         "filename": "sparking_the_cannon_with_nextjs"
       }
     },
@@ -2431,7 +2446,7 @@
       "cardRole": null,
       "marquee": "Resetting the Barbican with Node.js",
       "hero": false,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2441,6 +2456,11 @@
           "Barbican",
           "Node.js"
         ],
+        "primaryColor": {
+          "name": "green",
+          "text": "#174b35",
+          "fill": "#4cce97"
+        },
         "sections": [
           "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n",
           "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n",
@@ -2449,7 +2469,7 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "resetting-the-barbican-with-nodejs",
-        "url": "/project/resetting-the-barbican-with-nodejs",
+        "url": "/projects/resetting-the-barbican-with-nodejs",
         "filename": "resetting_the_barbican_with_nodejs"
       }
     },
@@ -2543,7 +2563,7 @@
       "cardRole": null,
       "marquee": "Leytonstone Loves Film",
       "hero": false,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2553,6 +2573,11 @@
           "Barbican",
           "Nuxt"
         ],
+        "primaryColor": {
+          "name": "green",
+          "text": "#174b35",
+          "fill": "#4cce97"
+        },
         "sections": [
           "<h1 id=\"leytonstonelovesfilm\">Leytonstone Loves Film</h1>\n<p>Build and animate the website for a community festival called Leytonstone Loves Film.</p>\n",
           "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://leytonstonelovesfilm.com\">leytonstonelovesfilm.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n",
@@ -2561,7 +2586,7 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>"
         ],
         "pathname": "leytonstone-loves-film",
-        "url": "/project/leytonstone-loves-film",
+        "url": "/projects/leytonstone-loves-film",
         "filename": "leytonstone_loves_film"
       }
     },
@@ -2655,7 +2680,7 @@
       "cardRole": null,
       "marquee": "Walthamstow Garden Party",
       "hero": false,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2665,6 +2690,11 @@
           "Barbican",
           "Nuxt"
         ],
+        "primaryColor": {
+          "name": "green",
+          "text": "#174b35",
+          "fill": "#4cce97"
+        },
         "sections": [
           "<h1 id=\"walthamstowgardenparty\">Walthamstow Garden Party</h1>\n<p>Build and animate the website for a community festival called Walthamstow Garden Party.</p>\n",
           "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://walthamstowgardenparty.com\">walthamstowgardenparty.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n",
@@ -2673,7 +2703,7 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>"
         ],
         "pathname": "walthamstow-garden-party",
-        "url": "/project/walthamstow-garden-party",
+        "url": "/projects/walthamstow-garden-party",
         "filename": "walthamstow_garden_party"
       }
     },
@@ -2767,7 +2797,7 @@
       "cardRole": null,
       "marquee": "Designing account areas in Vue.js",
       "hero": true,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2777,6 +2807,11 @@
           "Barbican",
           "Vue.js"
         ],
+        "primaryColor": {
+          "name": "green",
+          "text": "#174b35",
+          "fill": "#4cce97"
+        },
         "sections": [
           "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n",
           "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
@@ -2785,7 +2820,7 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "designing-account-areas-in-vuejs",
-        "url": "/project/designing-account-areas-in-vuejs",
+        "url": "/projects/designing-account-areas-in-vuejs",
         "filename": "designing_account_areas_in_vuejs"
       }
     },
@@ -2879,7 +2914,7 @@
       "cardRole": null,
       "marquee": "Moving orchestras with After Effects",
       "hero": false,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2889,12 +2924,17 @@
           "Freelance",
           "Video"
         ],
+        "primaryColor": {
+          "name": "purple",
+          "text": "#352c63",
+          "fill": "#9f8fef"
+        },
         "sections": [
           "<h1 id=\"movingorchestraswithaftereffects\">Moving orchestras with After Effects</h1>\n<p>Animate a brand moment for the <a href=\"https://www.nyo.org.uk/\">NYO</a>, which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.</p>\n",
           "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>I worked on this project with Chloe Ings. We both developed creative routes, from which I ultimately supplied the final brand animations.</p>\n<ul>\n<li>🎨 Creating concepts with <a href=\"https://www.adobe.com/uk/products/indesign.html\">Adobe InDesign</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://www.adobe.com/uk/products/aftereffects.html\">Adobe After Effects</a></li>\n</ul>"
         ],
         "pathname": "moving-orchestras-with-after-effects",
-        "url": "/project/moving-orchestras-with-after-effects",
+        "url": "/projects/moving-orchestras-with-after-effects",
         "filename": "moving_orchestras_with_after_effects"
       }
     },
@@ -2988,7 +3028,7 @@
       "cardRole": null,
       "marquee": "Selling designer fabric with Wordpress",
       "hero": false,
-      "type": "project",
+      "type": "projects",
       "attachments": [],
       "actions": [],
       "local": {
@@ -2998,6 +3038,11 @@
           "Bourne St",
           "Wordpress"
         ],
+        "primaryColor": {
+          "name": "red",
+          "text": "#5d1f1a",
+          "fill": "#f87169"
+        },
         "sections": [
           "<h1 id=\"sellingdesignerfabricwithwordpress\">Selling designer fabric with Wordpress</h1>\n<p>Create &amp; brand an online shop for <a href=\"https://36bournestreet.com\">36 Bourne Street</a> in <a href=\"https://wordpress.com\">Wordpress</a>. The shop sells leather and fabric on the <a href=\"https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district\">Pimlico Road</a>.</p>\n",
           "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.36bournestreet.com\">36bournestreet.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/BourneSt\">repository</a>.</p>\n",
@@ -3006,7 +3051,7 @@
           "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "selling-designer-fabric-with-wordpress",
-        "url": "/project/selling-designer-fabric-with-wordpress",
+        "url": "/projects/selling-designer-fabric-with-wordpress",
         "filename": "selling_designer_fabric_with_wordpress"
       }
     }
@@ -3090,7 +3135,7 @@
       "cardRole": null,
       "marquee": "The Git & Github Bootcamp",
       "hero": false,
-      "type": "article",
+      "type": "articles",
       "attachments": [],
       "actions": [],
       "local": {
@@ -3099,11 +3144,16 @@
         "labels": [
           "Opinions"
         ],
+        "primaryColor": {
+          "name": "blue_dark",
+          "text": "#ffffff",
+          "fill": "#0c66e4"
+        },
         "sections": [
           "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p><a href=\"https://www.udemy.com/course/git-and-github-bootcamp/\">Master the essentials</a> and the tricky bits: rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>"
         ],
         "pathname": "the-git-github-bootcamp",
-        "url": "/article/the-git-github-bootcamp",
+        "url": "/articles/the-git-github-bootcamp",
         "filename": "the_git_github_bootcamp"
       }
     },
@@ -3185,7 +3235,7 @@
       "cardRole": null,
       "marquee": "Problem solving basics",
       "hero": false,
-      "type": "article",
+      "type": "articles",
       "attachments": [],
       "actions": [
         {
@@ -3240,6 +3290,11 @@
         "labels": [
           "Ideas"
         ],
+        "primaryColor": {
+          "name": "green_dark",
+          "text": "#ffffff",
+          "fill": "#1f845a"
+        },
         "sections": [
           "<h1 id=\"problemsolvingbasics\">Problem solving basics</h1>\n<p>Design is primarily about <strong>communicating ideas and solving problems</strong>. The ideas you communicate should in turn contribute to your desired outcome.</p>\n<p>Over time it becomes easier to identify bad assumptions in the process. I've listed some concepts below which will help make you a more productive problem solver.</p>\n",
           "\n<h3 id=\"whatisagoodoutcome\">What is a good outcome?</h3>\n<p>Outcomes justify the existence of your product. They can be anything from \"raising awareness of your product\", \"creating excitement around your product\" or \"making your product easier to use\". <strong>You define your outcomes</strong> and acheiving them is <strong>your measure of success</strong>.</p>\n",
@@ -3249,7 +3304,7 @@
           "\n<h4 id=\"therearethreetypesofknowledge\">There are three types of knowledge:</h4>\n<p>a) The stuff \"you know, you know\"</p>\n<p>b) the stuff \"you know, you dont know\"</p>\n<p>c) the stuff \"you dont know, you dont know\"</p>\n<p>In my experience its almost impossible to work solely in (a). Instead, by growing (b) and reducing (c) you will improve your awareness, becoming a better problem solver, and a more empathetic person.</p>"
         ],
         "pathname": "problem-solving-basics",
-        "url": "/article/problem-solving-basics",
+        "url": "/articles/problem-solving-basics",
         "filename": "problem_solving_basics"
       }
     },
@@ -3331,7 +3386,7 @@
       "cardRole": null,
       "marquee": "Designing account areas in Vue.js",
       "hero": false,
-      "type": "article",
+      "type": "articles",
       "attachments": [],
       "actions": [],
       "local": {
@@ -3340,6 +3395,11 @@
         "labels": [
           "Projects"
         ],
+        "primaryColor": {
+          "name": "red_dark",
+          "text": "#ffffff",
+          "fill": "#c9372c"
+        },
         "sections": [
           "<blockquote>\n  <p>I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the <a href=\"http://barbican.org.uk/\">Barbican</a>, an arts centre in London.</p>\n</blockquote>\n",
           "\n<h3 id=\"theproject\"><strong>The Project</strong></h3>\n<p>In February 2020, we redesigned the account dashboard for users of the Barbican <a href=\"https://tickets.barbican.org.uk/\">ticketing site</a>.</p>\n<p><strong>Why?</strong> The existing design was functional, but not great for browsing on mobile and didn’t reflect the brand very strongly.</p>\n<p><strong>How?</strong> Combine Vue.js with the Spektrix ticketing API and do a re-design in Figma.</p>\n<p><code>\nI’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the [Barbican](http://barbican.org.uk/), an arts centre in London.\n</code></p>\n",
@@ -3349,7 +3409,7 @@
           "\n<h3 id=\"howwebuiltit\"><strong>How we built it</strong></h3>\n<p>Everything built on our <a href=\"https://tickets.barbican.org.uk/\">ticketing</a> site is based on the popular front-end toolkit <a href=\"https://getbootstrap.com/\">Bootstrap</a>. This enables us to build consistently and predictably, speeding up development and improving user experience.</p>\n<p>We also use the <a href=\"https://fonts.google.com/icons\">Material Icons</a> resource. It’s a large, beautiful library of icons, that adds to this consistency.</p>\n<blockquote>\n  <p>This article is still being written. If you want to stay updated or have some suggestions, then please email <a href=\"mailto:hello@paulh.biz\">hello@paulh.biz</a></p>\n</blockquote>"
         ],
         "pathname": "designing-account-areas-in-vuejs",
-        "url": "/article/designing-account-areas-in-vuejs",
+        "url": "/articles/designing-account-areas-in-vuejs",
         "filename": "designing_account_areas_in_vuejs"
       }
     },
@@ -3431,7 +3491,7 @@
       "cardRole": null,
       "marquee": "Resetting the Barbican with Node.js",
       "hero": false,
-      "type": "article",
+      "type": "articles",
       "attachments": [],
       "actions": [],
       "local": {
@@ -3440,11 +3500,16 @@
         "labels": [
           "Projects"
         ],
+        "primaryColor": {
+          "name": "red_dark",
+          "text": "#ffffff",
+          "fill": "#c9372c"
+        },
         "sections": [
           "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building the package for <a href=\"https://www.npmjs.com/\">NPM</a></li>\n<li>💡 Creating components for <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.</p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
         ],
         "pathname": "resetting-the-barbican-with-nodejs",
-        "url": "/article/resetting-the-barbican-with-nodejs",
+        "url": "/articles/resetting-the-barbican-with-nodejs",
         "filename": "resetting_the_barbican_with_nodejs"
       }
     }
@@ -3673,7 +3738,7 @@
             "url": "https://open.spotify.com/artist/6SsTlCsuCYleNza6xGwynu",
             "name": "Agnes"
           },
-          "popularity": 44,
+          "popularity": 45,
           "release_date": "2021-10-22",
           "url": "https://open.spotify.com/track/7f0SiAYG8XjOoQyfGvgbLA",
           "name": "Fingers Crossed"
@@ -3693,7 +3758,7 @@
             "url": "https://open.spotify.com/artist/0Dy94lW3txJhWQHqNXP1BT",
             "name": "Laura Mvula"
           },
-          "popularity": 34,
+          "popularity": 35,
           "release_date": "2021-07-02",
           "url": "https://open.spotify.com/track/32YlBIj8qDpyXgsLJ4MfwR",
           "name": "Got Me"
@@ -3703,7 +3768,7 @@
             "url": "https://open.spotify.com/artist/4gQsGkfdB4uVrNBqo4MhmI",
             "name": "LUMP"
           },
-          "popularity": 16,
+          "popularity": 17,
           "release_date": "2021-05-05",
           "url": "https://open.spotify.com/track/6fcJI9qrH0vr9EYxjpQdaM",
           "name": "Animal - Edit"
@@ -3713,7 +3778,7 @@
             "url": "https://open.spotify.com/artist/5R9d1YP5jtBw2IrQItGzQI",
             "name": "Michael Mayer"
           },
-          "popularity": 19,
+          "popularity": 20,
           "release_date": "2021-06-04",
           "url": "https://open.spotify.com/track/0x1eIudX2mUXc28RujjNl5",
           "name": "Brainwave Technology"
@@ -3723,7 +3788,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 26,
+          "popularity": 27,
           "release_date": "2021-10-01",
           "url": "https://open.spotify.com/track/56CpzZPbczcpj3WGu2KYZ9",
           "name": "The Doll"
@@ -3816,7 +3881,7 @@
             "url": "https://open.spotify.com/artist/0uAnwMXg0tsGQsOdVwudkb",
             "name": "Colourbox"
           },
-          "popularity": 31,
+          "popularity": 32,
           "release_date": "1985-08-12",
           "url": "https://open.spotify.com/track/3RlGLTcM9OwrAA0ErwJ2rA",
           "name": "The Moon Is Blue"
@@ -3836,7 +3901,7 @@
             "url": "https://open.spotify.com/artist/6Jrxnp0JgqmeUX1veU591p",
             "name": "Santigold"
           },
-          "popularity": 42,
+          "popularity": 43,
           "release_date": "2022-09-09",
           "url": "https://open.spotify.com/track/1vbayZm5FgNe4ou8BRNiDq",
           "name": "High Priestess"
@@ -3909,7 +3974,7 @@
             "url": "https://open.spotify.com/artist/1HvH97rzvCH6lfnLlgyfke",
             "name": "Genesis Owusu"
           },
-          "popularity": 49,
+          "popularity": 50,
           "release_date": "2022-10-22",
           "url": "https://open.spotify.com/track/4Og0uXMYqouN7xOQ7u8jiW",
           "name": "Get Inspired"
@@ -3929,7 +3994,7 @@
             "url": "https://open.spotify.com/artist/2d2ElnqC2cMPp7zcSyv3yG",
             "name": "PVA"
           },
-          "popularity": 31,
+          "popularity": 32,
           "release_date": "2022-10-14",
           "url": "https://open.spotify.com/track/1mfv1mksVTGW1Nroabjt1u",
           "name": "Hero Man"
@@ -3949,7 +4014,7 @@
             "url": "https://open.spotify.com/artist/0U8TMcc0dtsUMFjft5DcGG",
             "name": "Will Powers"
           },
-          "popularity": 22,
+          "popularity": 23,
           "release_date": "1983-01-01",
           "url": "https://open.spotify.com/track/5TJg8fY39cD0RNh1JfKmvh",
           "name": "Dancing For Mental Health"
@@ -3969,7 +4034,7 @@
             "url": "https://open.spotify.com/artist/0vsByTdAyygALhiGzUGVab",
             "name": "Baby Dave"
           },
-          "popularity": 27,
+          "popularity": 28,
           "release_date": "2022-04-22",
           "url": "https://open.spotify.com/track/0PX6sHmMFFOpqkysQlvwRV",
           "name": "Gen Z Baby"
@@ -3989,7 +4054,7 @@
             "url": "https://open.spotify.com/artist/0Cc6v6tsUT1FktqPQYXME3",
             "name": "Virginia Astley"
           },
-          "popularity": 23,
+          "popularity": 24,
           "release_date": "1986-01-01",
           "url": "https://open.spotify.com/track/6EcATCFBm1bRBdsQNfwdHT",
           "name": "Some Small Hope"
@@ -4001,8 +4066,7 @@
       "url": "https://open.spotify.com/playlist/62m9CBpzOUaVbRU9UAbiaY",
       "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2bfb13aaa9ae0871b9bf5fd1",
       "thumbnail": "/thumbnails/spotify/62m9CBpzOUaVbRU9UAbiaY.webp"
-    },
-    "_year": []
+    }
   },
   "gem": {
     "name": "futuro",

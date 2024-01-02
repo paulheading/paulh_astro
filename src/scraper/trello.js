@@ -64,15 +64,19 @@ getTrello.svgs = function (actions) {
   return svg.length ? svg[0].data.text : null;
 };
 
-async function processCard(card, list) {
-  var isHero = card.name.startsWith("Hero: ") ? true : false;
+async function processCard(card, type) {
+  let isHero = card.name.startsWith("Hero: ") ? true : false;
 
   card.name = remove.hero(card.name);
+
   card.marquee = card.name;
+
   card.hero = isHero;
-  card.type = create.type(list);
+
+  card.type = type;
 
   card.attachments = card.id ? await getTrello.attachments(card.id) : null;
+
   card.actions = card.id ? await getTrello.actions(card.id) : null;
 
   card.labels = convert.labelColors(card.labels);
@@ -82,18 +86,18 @@ async function processCard(card, list) {
   return card;
 }
 
-getTrello.cards = async function (list) {
-  var cards = await getTrello.JSON(string.cards(list));
+getTrello.cards = async function (type) {
+  var cards = await getTrello.JSON(string.cards(list[type]));
 
   if (!cards.length) return [];
 
-  cards = cards.map((card) => processCard(card, list));
+  cards = cards.map((card) => processCard(card, type));
 
   return await Promise.all(cards);
 };
 
 getTrello.data = async function (type) {
-  let cards = await getTrello.cards(list[type]);
+  let cards = await getTrello.cards(type);
 
   cards = cards.filter(({ labels }) => !contains.label(labels, "Local")); // remove local projects in production
 
