@@ -100,6 +100,10 @@ p {
   @include child-margins;
   word-wrap: break-word;
   font-weight: 400;
+
+  >img {
+    border: 1px solid $c-body-bg;
+  }
 }
 
 ul {
@@ -146,7 +150,6 @@ code {
 }
 
 img {
-  border: 1px solid gray;
   max-width: 100%;
 }
 
