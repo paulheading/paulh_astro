@@ -21,13 +21,11 @@ let { name, labels, dueComplete, local, start, due, type, dateLastActivity } =
   card;
 
 const containerProps = {
+  "data-hidden": index >= 3 ? "true" : "false",
   "data-article": "true",
   "data-id": card.id,
   class: "container",
-  style: {},
 };
-
-if (index >= 3) containerProps.style = { display: "none" };
 
 let nameProps = {
   href: local.url,
@@ -104,7 +102,11 @@ function processDue() {
     }
   }
 
-  .container:not([style*="display:none;"]) + .container {
+  .container[data-hidden] {
+    display: none;
+  }
+
+  .container:not([data-hidden]) + .container {
     @include medium-down {
       border-top: $border-dashed;
     }

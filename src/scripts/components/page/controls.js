@@ -9,11 +9,11 @@ function update(args) {
     const $card = $cards[index];
 
     if (index < current) {
-      $card.setAttribute("style", "display: none;");
+      $card.setAttribute("data-hidden", "true");
     } else if (index < limit) {
-      $card.removeAttribute("style");
+      $card.removeAttribute("data-hidden");
     } else {
-      $card.setAttribute("style", "display: none;");
+      $card.setAttribute("data-hidden", "true");
     }
   }
 }
