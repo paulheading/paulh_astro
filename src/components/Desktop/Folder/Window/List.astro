@@ -1,26 +1,29 @@
 ---
-const { items } = Astro.props
+import type { props } from "~types/desktop/folder/window/list";
+
+const { items }: props = Astro.props;
 
 const listProps = {
-  'data-group': Astro.props['data-group'],
-  class: 'list',
-}
+  "data-group": Astro.props["data-group"],
+  class: "list",
+};
 ---
 
 <div {...listProps}>
   {
-    items.map(function (item) {
-      const itemProps = {
-        'data-state': item.state,
-        class: 'item',
-      }
-      return <button {...itemProps}>{item.title}</button>
-    })
+    items &&
+      items.map(function (item) {
+        const itemProps = {
+          "data-state": item.state,
+          class: "item",
+        };
+        return <button {...itemProps}>{item.title}</button>;
+      })
   }
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .item {
     background-color: transparent;
@@ -47,7 +50,7 @@ const listProps = {
     }
   }
 
-  .item[data-state='open'] {
+  .item[data-state="open"] {
     background-color: blue;
     color: white;
 

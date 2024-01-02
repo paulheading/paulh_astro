@@ -2,6 +2,7 @@
 const { class: className, dummy = false, size = "sm" } = Astro.props;
 
 var topbar_padding = "0.625rem";
+
 var close_padding = "0.625rem";
 
 if (size == "lg") {
@@ -17,6 +18,11 @@ const windowProps = {
 const closeProps = {
   class: "close",
   title: "close",
+};
+
+let vars = {
+  topbar_padding,
+  close_padding,
 };
 ---
 
@@ -35,7 +41,7 @@ const closeProps = {
   </div>
 </div>
 
-<style lang="scss" define:vars={{ topbar_padding, close_padding }}>
+<style lang="scss" define:vars={vars}>
   @import "~styles/mixins";
 
   .window {
