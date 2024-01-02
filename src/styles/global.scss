@@ -28,7 +28,7 @@
 @mixin h-styles($margin: $margin-paragraph) {
   @include child-margins($margin);
   font-family: $font-family-headings;
-  line-height: 1.2;
+  line-height: $line-height-sm;
 }
 
 * {

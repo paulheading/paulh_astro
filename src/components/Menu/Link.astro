@@ -1,36 +1,85 @@
 ---
-const { name, class: className } = Astro.props;
+const { class: className } = Astro.props;
+
+const name = className.split(" ")[0];
 
 const isHome = name == "home";
 
 const href = isHome ? "/" : "/" + name;
+
 const path = Astro.url.pathname.split("/").join("");
-const classes = `link ${name}-link ${className}`;
+
+interface menuLinkProps {
+  "class:list": string[];
+  "aria-label"?: string;
+  href?: string;
+}
+
+const menuLinkProps: menuLinkProps = {
+  "class:list": ["menu-link", className],
+};
 
 let matches = path == name;
 
 if (isHome && !path.length) matches = true;
 
-const props = {
-  class: classes,
-};
-
 if (!matches) {
-  // @ts-ignore
-  props.href = href;
-  // @ts-ignore
-  props["aria-label"] = name;
+  menuLinkProps.href = href;
+  menuLinkProps["aria-label"] = name;
 }
 ---
 
 {
   matches ? (
-    <div {...props}>
-      <slot />
+    <div {...menuLinkProps}>
+      <div class="desktop">
+        <slot name="desktop" />
+      </div>
+      <div class="mobile">
+        <slot name="mobile" />
+      </div>
     </div>
   ) : (
-    <a {...props}>
-      <slot />
+    <a {...menuLinkProps}>
+      <div class="desktop">
+        <slot name="desktop" />
+      </div>
+      <div class="mobile">
+        <slot name="mobile" />
+      </div>
     </a>
   )
 }
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .menu-link {
+    @include small-up {
+      line-height: $line-height-sm;
+      font-size: $h4-font-size;
+    }
+  }
+
+  div.menu-link {
+    @include small-down {
+      @include focus-link;
+    }
+  }
+
+  .desktop {
+    display: flex;
+
+    @include small-down {
+      display: none;
+    }
+  }
+
+  .mobile {
+    display: flex;
+
+    @include small-up {
+      display: none;
+    }
+  }
+</style>

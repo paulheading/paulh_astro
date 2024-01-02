@@ -1,0 +1,48 @@
+---
+import MenuLink from "~components/Menu/Link.astro";
+import AboutIcon from "~components/Menu/Icon/About.astro";
+---
+
+<MenuLink class="about">
+  <div slot="desktop">About</div>
+  <AboutIcon slot="mobile" />
+</MenuLink>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .about {
+    @include small-down {
+      border-radius: 50%;
+    }
+
+    @include small-up {
+      border-radius: $border-radius-sm;
+      padding: $padding-link;
+    }
+  }
+
+  a.about {
+    @include small-down {
+      @include focus {
+        @include focus-link;
+      }
+    }
+
+    @include small-up {
+      background-color: black;
+      text-decoration: none;
+      color: white;
+
+      @include focus {
+        @include focus-about(black, white);
+      }
+    }
+  }
+
+  div.about {
+    @include small-up {
+      @include focus-about(black, white);
+    }
+  }
+</style>

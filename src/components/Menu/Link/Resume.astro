@@ -1,0 +1,44 @@
+---
+import MenuLink from "~components/Menu/Link.astro";
+import ResumeIcon from "~components/Menu/Icon/Resume.astro";
+---
+
+<MenuLink class="resume">
+  <div slot="desktop">Resume</div>
+  <ResumeIcon slot="mobile" />
+</MenuLink>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .resume {
+    @include small-down {
+      border-radius: $border-radius-sm;
+    }
+
+    @include small-up {
+      border: 0.125rem dotted transparent;
+      padding: 0.375rem;
+    }
+  }
+
+  a.resume {
+    @include small-down {
+      @include focus {
+        @include focus-link;
+      }
+    }
+
+    @include small-up {
+      @include focus {
+        @include focus-resume;
+      }
+    }
+  }
+
+  div.resume {
+    @include small-up {
+      @include focus-resume;
+    }
+  }
+</style>
