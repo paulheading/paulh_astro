@@ -4,8 +4,9 @@ import { calc } from "~scripts/helpers";
 
 import Labels from "~components/Labels.astro";
 import Label from "~components/Label.astro";
-import Name from "~components/Page/Card/Name.astro";
-import Summary from "~components/Page/Card/Summary.astro";
+
+import CardName from "~components/Page/Card/Name.astro";
+import CardSummary from "~components/Page/Card/Summary.astro";
 
 import type { card } from "~types/page/card";
 
@@ -15,17 +16,27 @@ interface Props {
   countTime: boolean;
 }
 
+interface containerProps {
+  "data-hidden"?: string;
+  "data-type": string;
+  "data-id": string;
+  class: string;
+}
+
 let { card, index, countTime = false } = Astro.props;
 
 let { name, labels, dueComplete, local, start, due, type, dateLastActivity } =
   card;
 
-const containerProps = {
-  "data-hidden": index >= 3 ? "true" : "false",
-  "data-article": "true",
+const containerProps: containerProps = {
+  "data-type": type,
   "data-id": card.id,
   class: "container",
 };
+
+if (type != "articles") {
+  containerProps["data-hidden"] = index >= 3 ? "true" : "false";
+}
 
 let nameProps = {
   href: local.url,
@@ -84,11 +95,11 @@ function processDue() {
       }
     </Labels>
   </div>
-  <Name {...nameProps} />
+  <CardName {...nameProps} />
   <div class="due">
     {processDue}
   </div>
-  <Summary {...summaryProps} />
+  <CardSummary {...summaryProps} />
 </div>
 
 <style lang="scss">

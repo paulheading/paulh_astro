@@ -34,7 +34,7 @@ const $rows = function (type) {
   return document.querySelectorAll(query);
 };
 
-const $articles = () => document.querySelectorAll("[data-article=true]");
+const $articles = () => document.querySelectorAll("[data-type=articles]");
 
 const $input = () => $submit.previousSibling;
 
