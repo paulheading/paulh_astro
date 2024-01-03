@@ -1,9 +1,62 @@
 ---
-import Topbar from '~components/Desktop/Topbar.astro'
-import Canvas from '~components/Desktop/Canvas.astro'
+import DesktopTopbar from "~components/Desktop/Topbar.astro";
+
+import CanvasContainer from "~components/Desktop/Canvas/Container.astro";
+import CanvasContent from "~components/Desktop/Canvas/Content.astro";
+
+import TrelloWindow from "~components/Desktop/Windows/Trello.astro";
+import TrelloFolder from "~components/Desktop/Folders/Trello.astro";
+
+import SpotifyWindow from "~components/Desktop/Windows/Spotify.astro";
+import SpotifyFolder from "~components/Desktop/Folders/Spotify.astro";
+
+// import ThemeWindow from "~components/Desktop/Windows/Theme.astro";
+import ThemeFolder from "~components/Desktop/Folders/Theme.astro";
+
+import CarbonWindow from "~components/Desktop/Windows/Carbon.astro";
+
+import content from "~data/folders";
 ---
 
 <div id="desktop">
-  <Topbar />
-  <Canvas />
+  <DesktopTopbar />
+  <CanvasContainer>
+    <CanvasContent>
+      {
+        content.trello.map((content) => (
+          <TrelloWindow {...content} slot="windows" />
+        ))
+      }
+      {
+        content.trello.map((content) => (
+          <TrelloFolder {...content} slot="folders" />
+        ))
+      }
+      {
+        content.spotify.map((content) => (
+          <SpotifyWindow {...content} slot="windows" />
+        ))
+      }
+      {
+        content.spotify.map((content) => (
+          <SpotifyFolder {...content} slot="folders" />
+        ))
+      }
+      <!-- {
+        content.themes.map((content) => (
+          <ThemeWindow {...content} slot="windows" />
+        ))
+      } -->
+      {
+        content.themes.map((content) => (
+          <ThemeFolder {...content} slot="folders" />
+        ))
+      }
+      {
+        content.carbon.map((content) => (
+          <CarbonWindow {...content} slot="windows" />
+        ))
+      }
+    </CanvasContent>
+  </CanvasContainer>
 </div>

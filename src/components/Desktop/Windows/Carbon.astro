@@ -1,0 +1,17 @@
+---
+import Window from "~components/Desktop/Window.astro";
+---
+
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer
+></script>
+
+<Window {...Astro.props} class="position">
+  <div id="wcb" class="carbonbadge"></div>
+</Window>
+
+<style lang="scss">
+  .position {
+    left: 8rem;
+    top: 10rem;
+  }
+</style>

@@ -1,0 +1,26 @@
+---
+import DesktopCredit from "~components/Desktop/Credit.astro";
+---
+
+<script src="~scripts/components/desktop/canvas.js"></script>
+
+<div id="canvas" class="canvas-container">
+  <div class="canvas-wrap">
+    <slot />
+    <DesktopCredit />
+  </div>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .canvas-container {
+    background-color: $c-teal;
+    padding: $padding-canvas;
+    overflow: hidden;
+  }
+
+  .canvas-wrap {
+    @include wrap;
+  }
+</style>

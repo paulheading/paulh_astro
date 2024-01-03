@@ -1,40 +1,36 @@
 ---
-// import folder_open from '~svg/folder/open.svg?raw'
-// import folder_closed from '~svg/folder/closed.svg?raw'
-// import { parse } from 'node-html-parser'
-// import Window from '~components/Desktop/Folder/Window.astro'
-// import WindowList from '~components/Desktop/Folder/Window/List.astro'
+import folder_open from '~svg/folder/open.svg?raw'
+import folder_closed from '~svg/folder/closed.svg?raw'
+import { parse } from 'node-html-parser'
+import Window from '~components/Desktop/Folder/Window.astro'
+import WindowList from '~components/Desktop/Folder/Window/List.astro'
 
-const { title, folders, open } = Astro.props;
+const { title, folders, state } = Astro.props
 
-// const isGroup = folders.length ? true : false
+const isGroup = folders.length ? true : false
 
-// const dataProps = {
-//   'data-group': isGroup ? title : false,
-//   'data-state': state,
-// }
+const dataProps = {
+  'data-group': isGroup ? title : false,
+  'data-state': state,
+}
 
-// const folderProps = {
-//   ...dataProps,
-//   id: 'folder_' + title,
-//   class: 'folder',
-// }
+const folderProps = {
+  ...dataProps,
+  id: 'folder_' + title,
+  class: 'folder',
+}
 
-// const windowProps = {
-//   'data-state': dataProps['data-state'],
-// }
+const windowProps = {
+  'data-state': dataProps['data-state'],
+}
 
-// const listProps = {
-//   'data-group': dataProps['data-group'],
-//   items: folders,
-// }
+const listProps = {
+  'data-group': dataProps['data-group'],
+  items: folders,
+}
 ---
 
-<div>
-  {title}
-</div>
-
-<!-- <div class="container">
+<div class="container">
   <button {...folderProps}>
     <div class="icon">
       {parse(folder_open)}{parse(folder_closed)}
@@ -48,7 +44,9 @@ const { title, folders, open } = Astro.props;
       </Window>
     )
   }
-</div> --><!-- <style lang="scss">
+</div>
+
+<style lang="scss">
   @import '~styles/mixins';
 
   .container {
@@ -90,4 +88,4 @@ const { title, folders, open } = Astro.props;
       display: none;
     }
   }
-</style> -->
+</style>

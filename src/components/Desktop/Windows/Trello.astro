@@ -1,12 +1,12 @@
 ---
-import Window from '~components/Desktop/Window.astro'
-import Header from '~components/Desktop/Window/Trello/Header.astro'
-import Main from '~components/Desktop/Window/Trello/Main.astro'
-import Footer from '~components/Desktop/Window/Trello/Footer.astro'
+import Window from "~components/Desktop/Window.astro";
+import Header from "~components/Desktop/Window/Trello/Header.astro";
+import Main from "~components/Desktop/Window/Trello/Main.astro";
+import Footer from "~components/Desktop/Window/Trello/Footer.astro";
 ---
 
-<Window {...Astro.props} class="window">
-  <div class="content">
+<Window {...Astro.props} class="position">
+  <div class="trello-content">
     <Header />
     <Main />
     <Footer />
@@ -14,14 +14,14 @@ import Footer from '~components/Desktop/Window/Trello/Footer.astro'
 </Window>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
-  .window {
+  .position {
     left: 0rem;
     top: 4rem;
   }
 
-  .content {
+  .trello-content {
     background-color: $c-trello-background;
     padding-right: $padding-trello;
     padding-left: $padding-trello;

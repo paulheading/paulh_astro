@@ -114,6 +114,7 @@ function window(item) {
   attachFocusWindow(links, item);
 }
 
-$.folders.forEach(folder);
-
-$.windows.forEach(window);
+if ($.windows && $.folders) {
+  $.windows.forEach(window);
+  $.folders.forEach(folder);
+}

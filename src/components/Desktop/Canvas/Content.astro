@@ -1,0 +1,32 @@
+<div class="canvas-content">
+  <div class="wrap-windows">
+    <slot name="windows" />
+  </div>
+  <div class="wrap-folders">
+    <slot name="folders" />
+  </div>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .canvas-content {
+    justify-content: center;
+    display: grid;
+
+    @include medium-up {
+      justify-content: space-between;
+      height: $height-section;
+      display: flex;
+    }
+  }
+
+  .wrap-windows {
+    position: relative;
+  }
+
+  .wrap-folders {
+    text-align: center;
+    position: relative;
+  }
+</style>

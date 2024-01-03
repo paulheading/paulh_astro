@@ -1,21 +1,17 @@
 ---
 import Skiplink from "~components/Skiplink.astro";
 
-const { name, open, group, class: className } = Astro.props;
-
-// const outerProps = {
-//   id: "window_" + title,
-// };
+const { title, state, class: className, group } = Astro.props;
 
 const outerProps = {
-  "class:list": ["outer-window", className],
+  class: "outer " + className,
+  id: "window_" + title,
   "data-group": group,
-  "data-name": name,
-  "data-open": open,
+  "data-state": state,
 };
 
 const innerProps = {
-  class: "inner-window",
+  class: "inner",
 };
 ---
 
@@ -29,17 +25,17 @@ const innerProps = {
 <style lang="scss">
   @import "~styles/mixins";
 
-  .outer-window {
+  .outer {
     position: absolute;
     display: none;
     width: 16rem;
   }
 
-  .outer-window[data-open] {
+  .outer[data-state="open"] {
     display: block;
   }
 
-  .inner-window {
+  .inner {
     border-radius: $border-radius-lg;
     box-shadow: $box-shadow-window;
     background-color: white;

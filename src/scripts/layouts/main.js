@@ -29,10 +29,12 @@ function updateDOM() {
 
   marquee.setup(name, local.url);
 
-  for (let index = 0; index < $.folders.length; index++) {
-    const folder = $.folders[index];
-    const position = folder.parentElement.parentElement;
-    position.setAttribute("data-count", count);
+  if ($.folders) {
+    for (let index = 0; index < $.folders.length; index++) {
+      const folder = $.folders[index];
+      const position = folder.parentElement.parentElement;
+      position.setAttribute("data-count", count);
+    }
   }
 
   wifi();

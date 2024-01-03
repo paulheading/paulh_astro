@@ -1,0 +1,24 @@
+<div class="credit">
+  <a href="https://www.flaticon.com/authors/dinosoftlabs" class="link">
+    Icons made by DinosoftLabs
+  </a>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .credit {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .link {
+    @include folder_words;
+    font-size: $h6-font-size;
+    border-radius: 0.25rem;
+
+    @include focus {
+      @include folder_words--focus;
+    }
+  }
+</style>

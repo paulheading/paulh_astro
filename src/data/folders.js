@@ -1,27 +1,23 @@
-const folder = (name = '', position, open = false, group = null, focus = false) => ({ name, position, open, group, focus })
+function groupContent(folders, group = "") {
+  return folders.map(({ name, open = false }) => ({ name, open, group }));
+}
 
-const position = (a, b, c, d) => [
-  {
-    right: a,
-    top: b,
-  },
-  {
-    right: c,
-    top: d,
-  },
-]
+const trello = [{ name: "trello", open: true }];
 
-const group = (items = [], open = false) => ({
-  open,
-  items,
-})
+const spotify = [
+  { name: "2020" },
+  { name: "2021" },
+  { name: "2022" },
+  { name: "2023", open: true },
+];
 
-const group_item = (name, open = false, focus = false) => ({ name, open, focus })
+const themes = [{ name: "reset", open: true }, { name: "futuro" }];
 
-const folders = [
-  folder('trello', position(10, 20, 20, 40), true),
-  folder('spotify', position(200, 40, 160, 90), false, group([group_item('2020'), group_item('2021'), group_item('2022', true)])),
-  folder('themes', position(100, 100, 60, 170), false, group([group_item('barbican reset', true), group_item('futuro')])),
-]
+const carbon = [{ name: "carbon", open: true }];
 
-export default folders
+export default {
+  trello: groupContent(trello, "trello"),
+  spotify: groupContent(spotify, "spotify"),
+  themes: groupContent(themes, "themes"),
+  carbon: groupContent(carbon, "carbon"),
+};
