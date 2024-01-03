@@ -38,8 +38,6 @@ const $articles = () => document.querySelectorAll("[data-type=articles]");
 
 const $input = () => $submit.previousSibling;
 
-const $moreCount = () => $more.querySelector(".count");
-
 /**
  * Static Selectors
  */
@@ -53,6 +51,10 @@ const $clear = $form.querySelector("#clear-search");
 const $more = document.querySelector("#see-more");
 
 const $moreWrap = $more.closest(".wrap");
+
+const $moreContent = $more.querySelector(".content");
+
+const $moreCount = $more.querySelector(".count");
 
 let articlesPerRow = 3;
 
@@ -141,11 +143,11 @@ function collectResults(results) {
 function printResults(results) {
   results = collectResults(results);
 
-  let rows = document.querySelectorAll(".page-row[data=article]");
+  let $articleRows = $rows("article");
 
-  let empty = createEmptyRow(rows[0]);
+  let empty = createEmptyRow($articleRows[0]);
 
-  rows.forEach((row) => row.setAttribute("style", "display: none;"));
+  $articleRows.forEach((row) => row.setAttribute("style", "display: none;"));
 
   let output = [];
 
@@ -162,25 +164,24 @@ function printResults(results) {
 
     let lastRow = output[output.length - 1];
 
-    let lastContent = lastRow.querySelector(".row-content");
+    let $lastContent = lastRow.querySelector(".row-content");
 
-    lastContent.append(result);
+    $lastContent.append(result);
   }
 
   results.forEach(assignRow);
 
   let articlesRemaining = results.length - articlesPerRow;
 
-  if (articlesRemaining <= 0) $moreWrap.setAttribute("style", "display: none;");
-
-  if (articlesRemaining > 0) {
-    $moreWrap.removeAttribute("style", "display");
-    $moreCount().innerText = `[${articlesRemaining}]`;
+  if (articlesRemaining <= 0) {
+    setMoreReset();
+  } else {
+    $moreCount.innerText = `[${articlesRemaining}]`;
   }
 
-  let pageInner = document.querySelector(".page-inner[data=search]");
+  let $pageInner = document.querySelector(".page-inner[data=search]");
 
-  output.forEach((row) => pageInner.append(row));
+  output.forEach((row) => $pageInner.append(row));
 }
 
 /**
@@ -245,26 +246,25 @@ function resetMoreButton() {
 
   if (articlesRemaining <= 0) return;
 
-  $moreWrap.removeAttribute("style", "display");
+  $moreContent.innerText = "See more";
 
-  $moreCount().innerText = `[${articlesRemaining}]`;
+  $moreCount.innerText = `[${articlesRemaining}]`;
+
+  $moreCount.removeAttribute("style", "display");
 }
 
 function clearSearchResults() {
-  function removeSearchRows(row) {
-    if (dataIs(row, "search")) row.remove();
-  }
+  $rows("search").forEach(($row) => $row.remove());
 
-  $rows().forEach(removeSearchRows);
-
-  for (let index = 0; index < $rows().length; index++) {
-    const $row = $rows()[index];
-
-    if (dataIs($row, "article")) {
+  function resetArticleRows($row, index) {
+    if (index > 0) {
+      $row.setAttribute("style", "display: none;");
+    } else {
       $row.removeAttribute("style", "display");
-      break;
     }
   }
+
+  $rows("article").forEach(resetArticleRows);
 
   $input().value = "";
 
@@ -277,21 +277,27 @@ function clearSearchResults() {
   state = { ...initialState };
 }
 
+function setMoreReset() {
+  $moreContent.innerText = "Reset";
+  $moreCount.setAttribute("style", "display: none;");
+  $moreCount.innerText = "";
+}
+
 /**
  * @name decreaseMoreCount
  * @description Decrease the number of articles displayed within the see more button
  */
 
 function decreaseMoreCount() {
-  let { innerText } = $moreCount();
+  let { innerText } = $moreCount;
 
   innerText = Number(innerText.slice(1, -1));
 
   innerText = innerText - articlesPerRow;
 
-  $moreCount().innerText = `[${innerText}]`;
+  $moreCount.innerText = `[${innerText}]`;
 
-  if (innerText <= 0) $moreWrap.setAttribute("style", "display: none;");
+  if (innerText <= 0) setMoreReset();
 }
 
 /**
@@ -314,8 +320,13 @@ function loadNextRow() {
   decreaseMoreCount();
 }
 
+function handleMoreClick() {
+  const needsReset = $moreCount.style.getPropertyValue("display") == "none";
+  needsReset ? clearSearchResults() : loadNextRow();
+}
+
 $submit.addEventListener("click", searchArticles);
 
 $clear.addEventListener("click", clearSearchResults);
 
-$more.addEventListener("click", loadNextRow);
+$more.addEventListener("click", handleMoreClick);
