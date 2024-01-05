@@ -10,7 +10,7 @@ import TrelloFolder from "~components/Desktop/Folders/Trello.astro";
 import SpotifyWindow from "~components/Desktop/Windows/Spotify.astro";
 import SpotifyFolder from "~components/Desktop/Folders/Spotify.astro";
 
-// import ThemeWindow from "~components/Desktop/Windows/Theme.astro";
+import ThemeWindow from "~components/Desktop/Windows/Theme.astro";
 import ThemeFolder from "~components/Desktop/Folders/Theme.astro";
 
 import CarbonWindow from "~components/Desktop/Windows/Carbon.astro";
@@ -27,31 +27,31 @@ import content from "~data/folders";
           <TrelloWindow {...content} slot="windows" />
         ))
       }
-      {
+      <!-- {
         content.trello.map((content) => (
           <TrelloFolder {...content} slot="folders" />
         ))
-      }
+      } -->
       {
         content.spotify.map((content) => (
           <SpotifyWindow {...content} slot="windows" />
         ))
       }
-      {
+      <!-- {
         content.spotify.map((content) => (
           <SpotifyFolder {...content} slot="folders" />
-        ))
-      }
-      <!-- {
-        content.themes.map((content) => (
-          <ThemeWindow {...content} slot="windows" />
         ))
       } -->
       {
         content.themes.map((content) => (
-          <ThemeFolder {...content} slot="folders" />
+          <ThemeWindow {...content} slot="windows" />
         ))
       }
+      <!-- {
+        content.themes.map((content) => (
+          <ThemeFolder {...content} slot="folders" />
+        ))
+      } -->
       {
         content.carbon.map((content) => (
           <CarbonWindow {...content} slot="windows" />

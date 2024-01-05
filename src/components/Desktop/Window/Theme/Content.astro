@@ -1,20 +1,16 @@
 ---
 import Graph from "~components/Desktop/Window/Theme/Graph.astro";
 
-const { name, url, version, downloads, color, class: className } = Astro.props;
-
-const containerProps = {
-  class: "container " + className,
-};
+const { name, url, version, downloads, color } = Astro.props;
 ---
 
-<div {...containerProps}>
+<div class="theme-content">
   <header>
     <div>
-      <a class="name" href={url}>{name}</a>
+      <a class="theme-name" href={url}>{name}</a>
       <div>{downloads}</div>
     </div>
-    <div class="version">{version}</div>
+    <div class="theme-version">{version}</div>
   </header>
   <Graph color={color} />
 </div>
@@ -22,10 +18,13 @@ const containerProps = {
 <style lang="scss" define:vars={{ color }}>
   @import "~styles/mixins";
 
-  .container {
+  .theme-content {
     border-radius: $border-radius-lg;
     border: 1px solid var(--color);
+    background-color: black;
+    font-weight: normal;
     padding: 1rem;
+    color: white;
   }
 
   header {
@@ -33,7 +32,7 @@ const containerProps = {
     display: flex;
   }
 
-  .name {
+  .theme-name {
     @include focus {
       @include single-box($c-lemon);
       background-color: $c-lemon;
@@ -41,7 +40,7 @@ const containerProps = {
     }
   }
 
-  .version {
+  .theme-version {
     color: var(--color);
   }
 </style>

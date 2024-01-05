@@ -1,17 +1,29 @@
 ---
 import Window from "~components/Desktop/Window.astro";
+import { toRem } from "~scripts/helpers";
+
+const props = {
+  ...Astro.props,
+  style: {
+    left: toRem(220),
+    top: toRem(220),
+  },
+};
 ---
 
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer
 ></script>
 
-<Window {...Astro.props} class="position">
-  <div id="wcb" class="carbonbadge"></div>
+<Window {...props} class="custom">
+  <div id="wcb" class="carbonbadge wcb-d"></div>
 </Window>
 
 <style lang="scss">
-  .position {
-    left: 8rem;
-    top: 10rem;
+  @import "~styles/mixins";
+
+  .custom {
+    background-color: #1f201f;
+    padding: $padding-trello;
+    color: white;
   }
 </style>

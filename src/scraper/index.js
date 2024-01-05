@@ -11,13 +11,13 @@ import getPocketcastsData from "./pocketcasts.js";
 import processImages from "./images/setup.js";
 
 async function getLayoutData() {
+  const pocketcasts = await getPocketcastsData();
   // const hashnode = await getHashnodeData();
   const projects = await getTrelloData("projects");
   const articles = await getTrelloData("articles");
+  const spotify = await getSpotifyData();
   const gem = await getGemData();
   const npm = await getNpmData();
-  const spotify = await getSpotifyData();
-  const pocketcasts = await getPocketcastsData();
 
   return {
     pocketcasts,
@@ -25,8 +25,10 @@ async function getLayoutData() {
     projects,
     articles,
     spotify,
-    gem,
-    npm,
+    themes: {
+      futuro: gem,
+      reset: npm,
+    },
   };
 }
 

@@ -1,0 +1,20 @@
+---
+import Window from "~components/Desktop/Window.astro";
+import ThemeContent from "~components/Desktop/Window/Theme/Content.astro";
+import { themes } from "~data/layout.json";
+import { toRem } from "~scripts/helpers";
+
+const { name } = Astro.props;
+
+const props = {
+  ...Astro.props,
+  style: {
+    left: toRem(128),
+    top: toRem(160),
+  },
+};
+---
+
+<Window {...props}>
+  <ThemeContent {...themes[name]} />
+</Window>

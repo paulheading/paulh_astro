@@ -5,7 +5,7 @@ async function getGemData() {
 
   const { name, version, downloads, project_uri } = gem;
 
-  return { name, version, downloads, url: project_uri };
+  return { name, version, downloads, url: project_uri, color: "dodgerblue" };
 }
 
 export default getGemData;

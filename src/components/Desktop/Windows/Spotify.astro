@@ -2,24 +2,26 @@
 import Window from "~components/Desktop/Window.astro";
 import Header from "~components/Desktop/Window/Spotify/Header.astro";
 import Main from "~components/Desktop/Window/Spotify/Main.astro";
+import { toRem } from "~scripts/helpers";
 
 const { name } = Astro.props;
+
+const props = {
+  ...Astro.props,
+  style: {
+    left: toRem(64),
+    top: toRem(32),
+  },
+};
 ---
 
-<Window {...Astro.props} class="position">
-  <div class="content">
-    <Header year={name} />
-    <Main year={name} />
-  </div>
+<Window {...props} class="custom">
+  <Header year={name} />
+  <Main year={name} />
 </Window>
 
 <style lang="scss">
-  .position {
-    left: 4rem;
-    top: 2rem;
-  }
-
-  .content {
+  .custom {
     background-color: black;
     color: white;
   }

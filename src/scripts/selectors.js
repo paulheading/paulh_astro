@@ -29,11 +29,12 @@ $.desktop_folders = document.getElementById("desktop_folders");
 $.folders = $.desktop_folders?.querySelectorAll(".folder");
 $.windows = $.desktop_windows?.querySelectorAll(".window");
 
-$.trello = document.getElementById("window_trello");
-$.trello_pages = $.trello?.querySelectorAll(".page");
+$.trello = document.querySelector(".outer-window[data-group=trello]");
+$.trello_pages = $.trello?.querySelectorAll("main > a");
 $.trello_footer = $.trello?.querySelector("footer");
 $.trello_previous = $.trello_footer?.querySelector(".previous");
 $.trello_status = $.trello_footer?.querySelector(".status");
+$.trello_currentPage = $.trello_status?.querySelector(".currentPage");
 $.trello_next = $.trello_footer?.querySelector(".next");
 
 $.contact = document.getElementById("contact");

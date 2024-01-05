@@ -1,19 +1,32 @@
 ---
 import Label from "~components/Label.astro";
 
-import type { local } from "~types/layout/page";
+import type { local } from "~types/page/card";
+
+interface label {
+  color: local["primaryColor"];
+  name: string;
+}
 
 interface Props {
   name: string;
   local: local;
-  labels: [object];
+  labels: label[];
+  style?: object;
 }
 
-const { name, local, labels } = Astro.props;
+interface labelProps {
+  color: local["primaryColor"];
+  style?: string;
+  size: string;
+}
+
+const { name, local, labels, style } = Astro.props;
 
 const anchorProps = {
   class: "container",
   href: local.url,
+  style,
 };
 ---
 
@@ -22,7 +35,7 @@ const anchorProps = {
   <div class="labels">
     {
       labels.map(function ({ name, color }, index) {
-        const props = {
+        const props: labelProps = {
           size: "sm",
           color,
         };
@@ -49,14 +62,14 @@ const anchorProps = {
     overflow: hidden;
     display: block;
 
-    + .container {
-      margin-top: $padding-trello;
-    }
-
     @include focus {
       @include single-box($c-trello-text, 0.1875rem);
       z-index: inherit;
     }
+  }
+
+  .container:not([style*="display: none;"]) + .container {
+    margin-top: $padding-trello;
   }
 
   .labels {

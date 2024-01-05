@@ -1,11 +1,21 @@
 ---
 import Prev from "~components/Desktop/Window/Trello/Prev.astro";
 import Next from "~components/Desktop/Window/Trello/Next.astro";
+
+import { projects } from "~data/layout.json";
+
+let totalPages = Math.ceil(projects.length / 2);
 ---
+
+<script src="~scripts/components/desktop/window/trello/footer.js"></script>
 
 <footer>
   <Prev />
-  <div class="status"></div>
+  <div class="status">
+    <span class="currentPage">1</span> of <span class="totalPages"
+      >{totalPages}</span
+    >
+  </div>
   <Next />
 </footer>
 

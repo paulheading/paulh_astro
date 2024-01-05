@@ -12,7 +12,7 @@ async function getNpmData() {
   const { latest } = registry["dist-tags"];
   const downloads = last_year["downloads"];
 
-  return { name, version: latest, downloads, url };
+  return { name, version: latest, downloads, url, color: "red" };
 }
 
 export default getNpmData;
