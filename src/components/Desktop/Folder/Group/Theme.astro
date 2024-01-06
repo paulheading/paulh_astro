@@ -8,7 +8,7 @@ const { label } = group[0];
 
 const divProps = {
   "class:list": ["position"],
-  "data-count": "0",
+  "data-move": "false",
 };
 
 const folderProps = {
@@ -41,7 +41,7 @@ const folderProps = {
     }
   }
 
-  .position[data-count="1"] {
+  .position[data-move="true"] {
     @include medium-up {
       right: toRem(60);
       top: toRem(170);

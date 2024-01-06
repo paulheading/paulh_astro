@@ -10,6 +10,7 @@ import time from "~scripts/components/desktop/topbar/time";
 let heroes = projects.filter(({ hero }) => hero);
 let last = heroes.length - 1;
 let count = 0;
+let moveFolders = true;
 
 function updateDOM() {
   let hero = heroes[count];
@@ -29,10 +30,11 @@ function updateDOM() {
 
   marquee.setup(name, local.url);
 
+  moveFolders = !moveFolders;
+
   $.desktop_groupfolders.forEach(function (item) {
     const position = item.parentElement;
-    const oddOrEven = count % 2;
-    position.setAttribute("data-count", oddOrEven);
+    position.setAttribute("data-move", moveFolders);
   });
 
   wifi();
