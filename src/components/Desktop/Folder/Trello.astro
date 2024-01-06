@@ -1,5 +1,5 @@
 ---
-import Folder from '~components/Desktop/Folder.astro'
+import Folder from "~components/Desktop/Folder.astro";
 ---
 
 <div class="position">
@@ -7,21 +7,21 @@ import Folder from '~components/Desktop/Folder.astro'
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .position {
     @include position-folder;
 
     @include medium-up {
-      right: 20px;
-      top: 10px;
+      right: toRem(20);
+      top: toRem(10);
     }
   }
 
-  .position[data-count='1'] {
+  .position[data-count="1"] {
     @include medium-up {
-      right: 40px;
-      top: 20px;
+      right: toRem(40);
+      top: toRem(20);
     }
   }
 </style>

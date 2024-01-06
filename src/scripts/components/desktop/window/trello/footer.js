@@ -27,8 +27,6 @@ function displayButtons() {
   } else {
     $.trello_next.removeAttribute("style", "visibility");
   }
-
-  $.trello_status.innerText = `${currentPage} of ${totalPages}`;
 }
 
 function prevPage() {

@@ -1,0 +1,46 @@
+---
+import Window from "~components/Desktop/Window.astro";
+import Folder from "~components/Desktop/Folder.astro";
+
+import WindowRows from "~components/Desktop/Folder/Group/Rows.astro";
+
+const { group, label, window, class: className } = Astro.props;
+
+let open = false;
+
+group.forEach(function (item) {
+  if (item.open) open = true;
+});
+
+const groupProps = {
+  "class:list": ["groupfolder-container", className],
+};
+
+const folderProps = {
+  open: !open,
+  label,
+};
+
+const windowProps = {
+  ...window,
+  label,
+  open,
+};
+---
+
+<div {...groupProps}>
+  <Folder {...folderProps} />
+  <Window {...windowProps}>
+    <WindowRows group={group} />
+  </Window>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .groupfolder-container {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+  }
+</style>

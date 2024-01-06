@@ -1,5 +1,5 @@
-function groupContent(folders, group = "") {
-  return folders.map(({ name, open = false }) => ({ name, open, group }));
+function labelContent(content, label = "") {
+  return content.map(({ name, open = false }) => ({ name, open, label }));
 }
 
 const trello = [{ name: "trello", open: true }];
@@ -16,8 +16,8 @@ const themes = [{ name: "reset", open: true }, { name: "futuro" }];
 const carbon = [{ name: "carbon", open: true }];
 
 export default {
-  trello: groupContent(trello, "trello"),
-  spotify: groupContent(spotify, "spotify"),
-  themes: groupContent(themes, "themes"),
-  carbon: groupContent(carbon, "carbon"),
+  trello: labelContent(trello, "trello"),
+  spotify: labelContent(spotify, "spotify"),
+  themes: labelContent(themes, "themes"),
+  carbon: labelContent(carbon, "carbon"),
 };

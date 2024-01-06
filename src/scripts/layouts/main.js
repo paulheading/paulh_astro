@@ -29,13 +29,11 @@ function updateDOM() {
 
   marquee.setup(name, local.url);
 
-  if ($.folders) {
-    for (let index = 0; index < $.folders.length; index++) {
-      const folder = $.folders[index];
-      const position = folder.parentElement.parentElement;
-      position.setAttribute("data-count", count);
-    }
-  }
+  $.desktop_groupfolders.forEach(function (item) {
+    const position = item.parentElement;
+    const oddOrEven = count % 2;
+    position.setAttribute("data-count", oddOrEven);
+  });
 
   wifi();
 

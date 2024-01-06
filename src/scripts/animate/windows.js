@@ -28,7 +28,7 @@ function draggableSubfolder(folder) {
 }
 
 function draggableWindow(window) {
-  let isSpotify = window.getAttribute("data-group") == "spotify";
+  let isSpotify = window.getAttribute("data-label") == "spotify";
 
   if (isSpotify) {
     let trigger = window.querySelector("header");

@@ -23,13 +23,19 @@ $.time_hours = $.time?.querySelector(".hours");
 $.time_separator = $.time?.querySelector(".separator");
 $.time_minutes = $.time?.querySelector(".minutes");
 
-$.desktop_windows = document.getElementById("desktop_windows");
-$.desktop_folders = document.getElementById("desktop_folders");
+$.wrap_windows = document.querySelector(".wrap-windows");
+$.wrap_folders = document.querySelector(".wrap-folders");
 
-$.folders = $.desktop_folders?.querySelectorAll(".folder");
-$.windows = $.desktop_windows?.querySelectorAll(".window");
+$.desktop_windows = $.wrap_windows?.querySelectorAll(".outer-window");
+// $.desktop_folders = $.wrap_folders?.querySelectorAll(".outer-window");
+$.desktop_groupfolders = $.wrap_folders?.querySelectorAll(
+  ".groupfolder-container"
+);
 
-$.trello = document.querySelector(".outer-window[data-group=trello]");
+// $.folders = $.desktop_folders?.querySelectorAll(".folder");
+// $.windows = $.desktop_windows?.querySelectorAll(".window");
+
+$.trello = document.querySelector(".outer-window[data-label=trello]");
 $.trello_pages = $.trello?.querySelectorAll("main > a");
 $.trello_footer = $.trello?.querySelector("footer");
 $.trello_previous = $.trello_footer?.querySelector(".previous");

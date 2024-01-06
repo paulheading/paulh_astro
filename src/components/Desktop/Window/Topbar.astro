@@ -1,0 +1,48 @@
+---
+const { label } = Astro.props;
+---
+
+<div class="topbar">
+  <button class="close"></button>
+  <span class="label">{label}</span>
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .topbar {
+    justify-content: space-between;
+    background-color: $c-gray-5;
+    align-items: center;
+    padding: toRem(12);
+    gap: toRem(12);
+    display: flex;
+  }
+
+  .close {
+    background-color: $c-red;
+    padding: $padding-trello;
+    border-radius: 50%;
+    font-size: 0;
+    color: black;
+    border: 0;
+  }
+
+  button.close {
+    &:active {
+      transform: scale(0.9);
+    }
+
+    @include focus {
+      background-color: $c-darkred;
+    }
+  }
+
+  .label {
+    font-size: toRem(16);
+    font-style: italic;
+    font-weight: 400;
+    cursor: default;
+    opacity: 0.5;
+  }
+</style>

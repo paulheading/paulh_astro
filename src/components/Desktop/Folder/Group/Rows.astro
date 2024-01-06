@@ -1,0 +1,62 @@
+---
+const { group } = Astro.props;
+---
+
+{
+  group.map(function ({ open, name, label }, index) {
+    const even = index % 2 && "even";
+    const state = open && "open";
+
+    const props = {
+      "class:list": ["groupfolder-row", state, even],
+      "data-label": label,
+    };
+
+    return <button {...props}>{name}</button>;
+  })
+}
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  @mixin focus-state {
+    @include focus {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  @mixin open-state {
+    background-color: blue;
+    color: white;
+
+    @include focus-state;
+  }
+
+  .groupfolder-row {
+    background-color: white;
+    font-size: toRem(14);
+    white-space: nowrap;
+    padding: toRem(10);
+    display: block;
+    color: inherit;
+    border: none;
+    width: 100%;
+
+    @include focus-state;
+
+    &.open {
+      @include open-state;
+    }
+  }
+
+  .groupfolder-row.even {
+    background-color: darken(white, 10%);
+
+    @include focus-state;
+
+    &.open {
+      @include open-state;
+    }
+  }
+</style>

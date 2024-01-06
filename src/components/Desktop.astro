@@ -4,59 +4,34 @@ import DesktopTopbar from "~components/Desktop/Topbar.astro";
 import CanvasContainer from "~components/Desktop/Canvas/Container.astro";
 import CanvasContent from "~components/Desktop/Canvas/Content.astro";
 
-import TrelloWindow from "~components/Desktop/Windows/Trello.astro";
-import TrelloFolder from "~components/Desktop/Folders/Trello.astro";
+import TrelloWindow from "~components/Desktop/Window/Trello.astro";
+import TrelloFolder from "~components/Desktop/Folder/Trello.astro";
 
-import SpotifyWindow from "~components/Desktop/Windows/Spotify.astro";
-import SpotifyFolder from "~components/Desktop/Folders/Spotify.astro";
+import SpotifyWindow from "~components/Desktop/Window/Spotify.astro";
+import SpotifyGroupFolder from "~components/Desktop/Folder/Group/Spotify.astro";
 
-import ThemeWindow from "~components/Desktop/Windows/Theme.astro";
-import ThemeFolder from "~components/Desktop/Folders/Theme.astro";
+import ThemeWindow from "~components/Desktop/Window/Theme.astro";
+import ThemeGroupFolder from "~components/Desktop/Folder/Group/Theme.astro";
 
-import CarbonWindow from "~components/Desktop/Windows/Carbon.astro";
+import CarbonWindow from "~components/Desktop/Window/Carbon.astro";
 
-import content from "~data/folders";
+import desktop from "~data/desktop";
+
+const { trello, spotify, themes, carbon } = desktop;
 ---
 
 <div id="desktop">
   <DesktopTopbar />
   <CanvasContainer>
     <CanvasContent>
-      {
-        content.trello.map((content) => (
-          <TrelloWindow {...content} slot="windows" />
-        ))
-      }
-      <!-- {
-        content.trello.map((content) => (
-          <TrelloFolder {...content} slot="folders" />
-        ))
-      } -->
-      {
-        content.spotify.map((content) => (
-          <SpotifyWindow {...content} slot="windows" />
-        ))
-      }
-      <!-- {
-        content.spotify.map((content) => (
-          <SpotifyFolder {...content} slot="folders" />
-        ))
-      } -->
-      {
-        content.themes.map((content) => (
-          <ThemeWindow {...content} slot="windows" />
-        ))
-      }
-      <!-- {
-        content.themes.map((content) => (
-          <ThemeFolder {...content} slot="folders" />
-        ))
-      } -->
-      {
-        content.carbon.map((content) => (
-          <CarbonWindow {...content} slot="windows" />
-        ))
-      }
+      {trello.map((window) => <TrelloWindow {...window} slot="windows" />)}
+      {spotify.map((window) => <SpotifyWindow {...window} slot="windows" />)}
+      {themes.map((window) => <ThemeWindow {...window} slot="windows" />)}
+      {carbon.map((window) => <CarbonWindow {...window} slot="windows" />)}
+
+      <!-- <TrelloFolder {...trello} slot="folders" /> -->
+      <SpotifyGroupFolder group={spotify} slot="folders" />
+      <ThemeGroupFolder group={themes} slot="folders" />
     </CanvasContent>
   </CanvasContainer>
 </div>

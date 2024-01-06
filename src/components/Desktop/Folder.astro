@@ -1,93 +1,61 @@
 ---
-// import folder_open from '~svg/folder/open.svg?raw'
-// import folder_closed from '~svg/folder/closed.svg?raw'
-// import { parse } from 'node-html-parser'
-// import Window from '~components/Desktop/Folder/Window.astro'
-// import WindowList from '~components/Desktop/Folder/Window/List.astro'
+import OpenIcon from "~components/Desktop/Folder/Icons/Open.astro";
+import ShutIcon from "~components/Desktop/Folder/Icons/Shut.astro";
 
-const { title, folders, open } = Astro.props;
+const { label, open } = Astro.props;
 
-// const isGroup = folders.length ? true : false
+const folderProps = {
+  class: "folder-container",
+  style: {
+    visibility: open ? "visible" : "hidden",
+  },
+};
 
-// const dataProps = {
-//   'data-group': isGroup ? title : false,
-//   'data-state': state,
-// }
+const openProps = {
+  style: {
+    visibility: !open ? "visible" : "hidden",
+  },
+};
 
-// const folderProps = {
-//   ...dataProps,
-//   id: 'folder_' + title,
-//   class: 'folder',
-// }
-
-// const windowProps = {
-//   'data-state': dataProps['data-state'],
-// }
-
-// const listProps = {
-//   'data-group': dataProps['data-group'],
-//   items: folders,
-// }
+const shutProps = {
+  style: {
+    visibility: open ? "visible" : "hidden",
+  },
+};
 ---
 
-<div>
-  {title}
-</div>
+<button {...folderProps}>
+  <div class="folder-icons">
+    <OpenIcon {...openProps} />
+    <ShutIcon {...shutProps} />
+  </div>
+  <div class="folder-label">{label}</div>
+</button>
 
-<!-- <div class="container">
-  <button {...folderProps}>
-    <div class="icon">
-      {parse(folder_open)}{parse(folder_closed)}
-    </div>
-    <div class="title">{title}</div>
-  </button>
-  {
-    isGroup && (
-      <Window {...windowProps} class="window">
-        <WindowList {...listProps} />
-      </Window>
-    )
-  }
-</div> --><!-- <style lang="scss">
-  @import '~styles/mixins';
+<style lang="scss">
+  @import "~styles/mixins";
 
-  .container {
-    position: relative;
-  }
-
-  .window {
-    position: absolute;
-    left: -8rem;
-  }
-
-  .folder {
+  .folder-container {
     @include invisible-button;
     margin: 0.75rem;
+    border: none;
+    width: 100%;
 
     @include focus {
-      .title {
+      .folder-label {
         @include folder_words--focus;
       }
     }
   }
 
-  .title {
+  .folder-label {
     @include folder_words;
     font-size: $h6-font-size;
     font-weight: 600;
   }
+
+  .folder-icons {
+    justify-content: center;
+    display: grid;
+  }
 </style>
-
-<style lang="scss" is:global>
-  .folder[data-state='open'] {
-    #svg_closed {
-      display: none;
-    }
-  }
-
-  .folder[data-state='closed'] {
-    #svg_open {
-      display: none;
-    }
-  }
-</style> -->

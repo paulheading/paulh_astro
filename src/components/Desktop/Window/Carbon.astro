@@ -1,0 +1,71 @@
+---
+import Window from "~components/Desktop/Window.astro";
+import { toRem } from "~scripts/helpers";
+
+const props = {
+  ...Astro.props,
+  style: {
+    left: toRem(220),
+    top: toRem(220),
+  },
+};
+---
+
+<Window {...props} class="custom">
+  <a href="https://www.websitecarbon.com/website/paulh-biz/" class="dialog">
+    <div class="perView">0.03g of CO<sub>2</sub>/view</div>
+    <div class="title">Website Carbon</div>
+  </a>
+  <p class="message">Cleaner than 97% of pages tested</p>
+</Window>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  $gray: #1f201f;
+  $green: #05ffb3;
+  $blue: #0c14a2;
+
+  $padding: 0.75rem;
+
+  .custom {
+    background-color: $gray;
+    text-align: center;
+    padding: $padding;
+    color: white;
+  }
+
+  .dialog {
+    border-radius: $border-radius-lg;
+    border: 2px solid $green;
+    background-color: white;
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    color: $blue;
+  }
+
+  @mixin boxes {
+    padding-bottom: $padding * 0.5;
+    padding-top: $padding * 0.5;
+  }
+
+  .perView {
+    @include boxes;
+    font-size: toRem(14);
+    font-weight: 400;
+  }
+
+  .title {
+    @include boxes;
+    background-color: $green;
+    font-size: toRem(16);
+  }
+
+  .message {
+    margin-top: $padding-trello;
+    font-size: toRem(14);
+    cursor: default;
+    line-height: 1;
+  }
+</style>

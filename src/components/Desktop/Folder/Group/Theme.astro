@@ -1,0 +1,50 @@
+---
+import GroupFolder from "~components/Desktop/Folder/Group.astro";
+import { toRem } from "~scripts/helpers";
+
+const { group } = Astro.props;
+
+const { label } = group[0];
+
+const divProps = {
+  "class:list": ["position"],
+  "data-count": "0",
+};
+
+const folderProps = {
+  ...Astro.props,
+  window: {
+    topbar: {
+      label,
+    },
+    style: {
+      width: toRem(124),
+    },
+  },
+  label,
+};
+---
+
+<div {...divProps}>
+  <GroupFolder {...folderProps} />
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .position {
+    @include position-folder;
+
+    @include medium-up {
+      right: toRem(100);
+      top: toRem(100);
+    }
+  }
+
+  .position[data-count="1"] {
+    @include medium-up {
+      right: toRem(60);
+      top: toRem(170);
+    }
+  }
+</style>

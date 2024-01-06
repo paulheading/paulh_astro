@@ -1,14 +1,17 @@
 ---
 import Skiplink from "~components/Skiplink.astro";
+import WindowTopbar from "~components/Desktop/Window/Topbar.astro";
 
-const { name, open, group, style, class: className } = Astro.props;
+const { name, open, label, style, class: className, topbar } = Astro.props;
 
 const outerProps = {
   class: "outer-window",
-  "data-group": group,
+  "data-label": label,
   "data-name": name,
-  "data-open": open,
-  style,
+  style: {
+    visibility: open ? "visible" : "hidden",
+    ...style,
+  },
 };
 
 const innerProps = {
@@ -19,6 +22,7 @@ const innerProps = {
 <div {...outerProps}>
   <Skiplink />
   <div {...innerProps}>
+    {topbar && <WindowTopbar {...topbar} />}
     <slot />
   </div>
 </div>
@@ -28,18 +32,13 @@ const innerProps = {
 
   .outer-window {
     position: absolute;
-    display: none;
     width: 16rem;
-  }
-
-  .outer-window[data-open] {
-    display: block;
   }
 
   .inner-window {
     border-radius: $border-radius-lg;
     box-shadow: $box-shadow-window;
-    font-size: 1.125rem;
+    font-size: toRem(18);
     overflow: hidden;
   }
 

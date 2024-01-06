@@ -16,7 +16,7 @@ function toggleState(target) {
 }
 
 function toggleWindow(window, title, group) {
-  const window_group = window.getAttribute("data-group");
+  const window_group = window.getAttribute("data-label");
   const window_state = window.getAttribute("data-state");
   const window_title = window.id.slice(7);
 
@@ -54,7 +54,7 @@ function toggleSubfolder(subfolder, folder) {
 function toggleSubWindow(event, list) {
   const { target } = event;
   const title = target.innerHTML;
-  const group = list.getAttribute("data-group");
+  const group = list.getAttribute("data-label");
   const siblings = list.children;
 
   toggleState(target);
