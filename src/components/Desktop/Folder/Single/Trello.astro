@@ -1,10 +1,8 @@
 ---
-import Folder from "~components/Desktop/Folder.astro";
+import SingleFolder from "~components/Desktop/Folder/Single.astro";
 ---
 
-<div class="position">
-  <Folder {...Astro.props} />
-</div>
+<SingleFolder {...Astro.props[0]} class="position" />
 
 <style lang="scss">
   @import "~styles/mixins";
@@ -18,7 +16,7 @@ import Folder from "~components/Desktop/Folder.astro";
     }
   }
 
-  .position[data-count="1"] {
+  .position[data-move="true"] {
     @include medium-up {
       right: toRem(40);
       top: toRem(20);

@@ -5,7 +5,7 @@ import CanvasContainer from "~components/Desktop/Canvas/Container.astro";
 import CanvasContent from "~components/Desktop/Canvas/Content.astro";
 
 import TrelloWindow from "~components/Desktop/Window/Trello.astro";
-import TrelloFolder from "~components/Desktop/Folder/Trello.astro";
+import TrelloSingleFolder from "~components/Desktop/Folder/Single/Trello.astro";
 
 import SpotifyWindow from "~components/Desktop/Window/Spotify.astro";
 import SpotifyGroupFolder from "~components/Desktop/Folder/Group/Spotify.astro";
@@ -29,7 +29,7 @@ const { trello, spotify, themes, carbon } = desktop;
       {themes.map((window) => <ThemeWindow {...window} slot="windows" />)}
       {carbon.map((window) => <CarbonWindow {...window} slot="windows" />)}
 
-      <!-- <TrelloFolder {...trello} slot="folders" /> -->
+      <TrelloSingleFolder {...trello} slot="folders" />
       <SpotifyGroupFolder group={spotify} slot="folders" />
       <ThemeGroupFolder group={themes} slot="folders" />
     </CanvasContent>

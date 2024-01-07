@@ -27,7 +27,9 @@ $.wrap_windows = document.querySelector(".wrap-windows");
 $.wrap_folders = document.querySelector(".wrap-folders");
 
 $.desktop_windows = $.wrap_windows?.querySelectorAll(".outer-window");
-// $.desktop_folders = $.wrap_folders?.querySelectorAll(".outer-window");
+$.desktop_singlefolders = $.wrap_folders?.querySelectorAll(
+  ".singlefolder-container"
+);
 $.desktop_groupfolders = $.wrap_folders?.querySelectorAll(
   ".groupfolder-container"
 );

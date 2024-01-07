@@ -1,0 +1,23 @@
+---
+import Folder from "~components/Desktop/Folder.astro";
+
+const { class: className } = Astro.props;
+
+const singleProps = {
+  "class:list": ["singlefolder-container", className],
+};
+---
+
+<div {...singleProps}>
+  <Folder {...Astro.props} />
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .singlefolder-container {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+  }
+</style>

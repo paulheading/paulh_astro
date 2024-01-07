@@ -12,13 +12,14 @@ group.forEach(function (item) {
   if (item.open) open = true;
 });
 
-const groupProps = {
+const divProps = {
   "class:list": ["groupfolder-container", className],
+  "data-move": "false",
 };
 
 const folderProps = {
-  open: !open,
   label,
+  open,
 };
 
 const windowProps = {
@@ -28,7 +29,7 @@ const windowProps = {
 };
 ---
 
-<div {...groupProps}>
+<div {...divProps}>
   <Folder {...folderProps} />
   <Window {...windowProps}>
     <WindowRows group={group} />

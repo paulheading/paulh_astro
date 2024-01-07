@@ -6,28 +6,23 @@ const { group } = Astro.props;
 
 const { label } = group[0];
 
-const divProps = {
-  "class:list": ["position"],
-  "data-move": "false",
+const window = {
+  topbar: {
+    label,
+  },
+  style: {
+    width: toRem(124),
+  },
 };
 
 const folderProps = {
-  ...Astro.props,
-  window: {
-    topbar: {
-      label,
-    },
-    style: {
-      width: toRem(124),
-    },
-  },
+  window,
+  group,
   label,
 };
 ---
 
-<div {...divProps}>
-  <GroupFolder {...folderProps} />
-</div>
+<GroupFolder {...folderProps} class="position" />
 
 <style lang="scss">
   @import "~styles/mixins";

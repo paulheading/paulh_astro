@@ -8,11 +8,14 @@ const outerProps = {
   class: "outer-window",
   "data-label": label,
   "data-name": name,
-  style: {
-    visibility: open ? "visible" : "hidden",
-    ...style,
-  },
+  style,
 };
+
+if (!open) {
+  outerProps.style.visibility = "hidden";
+  outerProps.style.opacity = 0;
+  outerProps.style.scale = 0.5;
+}
 
 const innerProps = {
   "class:list": ["inner-window", className ? className : "default"],

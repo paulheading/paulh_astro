@@ -32,10 +32,10 @@ function updateDOM() {
 
   moveFolders = !moveFolders;
 
-  $.desktop_groupfolders.forEach(function (item) {
-    const position = item.parentElement;
-    position.setAttribute("data-move", moveFolders);
-  });
+  const setPositionData = (item) => item.setAttribute("data-move", moveFolders);
+
+  $.desktop_singlefolders.forEach(setPositionData);
+  $.desktop_groupfolders.forEach(setPositionData);
 
   wifi();
 

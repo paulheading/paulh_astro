@@ -1,8 +1,24 @@
 import $ from "~scripts/selectors";
 import { gsap } from "gsap";
 
+const duration = 0.3;
+
 function checkWindows(callback) {
   $.desktop_windows.forEach((item, index) => callback(item, index));
+}
+
+function animateWindowState({ close, window, onComplete }) {
+  const tl = gsap.timeline({ defaults: { duration } });
+
+  if (close) {
+    // prettier-ignore
+    tl.to(window, { opacity: 0, scale: 0.5 })
+      .set(window, { visibility: "hidden", onComplete })
+  } else {
+    // prettier-ignore
+    tl.set(window, { clearProps: "visibility" })
+      .to(window, { opacity: 1, scale: 1, onComplete });
+  }
 }
 
 function displayMatchingWindowName(label, name) {
@@ -13,7 +29,7 @@ function displayMatchingWindowName(label, name) {
 
     if (!labelMatch) return;
 
-    item.style.visibility = nameMatch ? "visible" : "hidden";
+    animateWindowState({ close: !nameMatch, window: item });
   }
 
   checkWindows(displayMatchingName);
@@ -35,12 +51,12 @@ function closeGroupWindow(event) {
   const tl = gsap.timeline();
 
   // prettier-ignore
-  tl.set($window, { visibility: "hidden" })
-    .set($folder, { visibility: "visible", onComplete })
-    .set($openIcon, { visibility: "hidden", delay: 0.4 })
-    .set($shutIcon, { visibility: "visible" });
+  tl.set($folder, { clearProps: "visibility", onComplete })
+    .set($openIcon, { visibility: "hidden", delay: duration })
+    .set($shutIcon, { clearProps: "visibility" });
 
   function onComplete() {
+    animateWindowState({ close: true, window: $window });
     checkWindows(hideMatchingLabels);
   }
 
@@ -49,7 +65,7 @@ function closeGroupWindow(event) {
 
     if (!match) return;
 
-    item.style.visibility = "hidden";
+    animateWindowState({ close: match, window: item });
   }
 }
 
@@ -75,14 +91,14 @@ function openGroupFolder(event) {
   const tl = gsap.timeline();
 
   function onComplete() {
+    animateWindowState({ close: false, window: $window });
     displayMatchingWindowName(label, name);
   }
 
   // prettier-ignore
-  tl.set($openIcon, { visibility: "visible" })
+  tl.set($openIcon, { clearProps: "visibility" })
     .set($shutIcon, { visibility: "hidden" })
-    .set(currentTarget, { visibility: "hidden", delay: 0.4 })
-    .set($window, { visibility: "visible", onComplete });
+    .add(onComplete, "+=" + duration);
 }
 
 function handleGroupFolderRows(rows) {
@@ -126,4 +142,40 @@ function handleGroupFolderClicks(groupfolder) {
   close.addEventListener("click", closeGroupWindow);
 }
 
-export default handleGroupFolderClicks;
+function toggleSingleFolder(event) {
+  const { currentTarget } = event;
+
+  const $openIcon = currentTarget.querySelector(".open-icon");
+
+  const $shutIcon = currentTarget.querySelector(".shut-icon");
+
+  const isOpen = $openIcon.style.getPropertyValue("visibility") == "visible";
+
+  const label = currentTarget.getAttribute("data-label");
+
+  const tl = gsap.timeline();
+
+  // prettier-ignore
+  tl.set($openIcon, { visibility: isOpen ? "hidden" : "visible" })
+    .set($shutIcon, { visibility: isOpen ? "visible" : "hidden", onComplete });
+
+  function toggleMatchingLabels(item) {
+    const match = item.getAttribute("data-label") == label;
+
+    if (!match) return;
+
+    animateWindowState({ close: isOpen, window: item });
+  }
+
+  function onComplete() {
+    checkWindows(toggleMatchingLabels);
+  }
+}
+
+function handleSingleFolderClicks(container) {
+  const folder = container.querySelector(".folder-container");
+
+  folder.addEventListener("click", toggleSingleFolder);
+}
+
+export { handleGroupFolderClicks, handleSingleFolderClicks };
