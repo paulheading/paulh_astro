@@ -1,0 +1,25 @@
+---
+import SingleFolder from "~components/Desktop/Folder/Single.astro";
+---
+
+<SingleFolder {...Astro.props[0]} class="position" />
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .position {
+    @include position-folder;
+
+    @include medium-up {
+      right: toRem(120);
+      top: toRem(110);
+    }
+  }
+
+  .position[data-move="true"] {
+    @include medium-up {
+      right: toRem(140);
+      top: toRem(120);
+    }
+  }
+</style>

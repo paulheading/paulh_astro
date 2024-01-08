@@ -1,0 +1,16 @@
+<div class="wrap-folders">
+  <slot />
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .wrap-folders {
+    text-align: center;
+    position: relative;
+
+    @include medium-down {
+      display: none;
+    }
+  }
+</style>

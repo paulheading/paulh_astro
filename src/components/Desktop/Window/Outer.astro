@@ -1,0 +1,34 @@
+---
+import Skiplink from "~components/Skiplink.astro";
+
+const { name, open, label, class: className, width } = Astro.props;
+
+const outerProps = {
+  "class:list": ["outer-window", className],
+  "data-label": label,
+  "data-name": name,
+  style: {},
+};
+
+if (width) outerProps.style.width = width;
+
+if (!open) {
+  outerProps.style.visibility = "hidden";
+  outerProps.style.opacity = 0;
+  outerProps.style.scale = 0.5;
+}
+---
+
+<div {...outerProps}>
+  <Skiplink />
+  <slot />
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .outer-window {
+    position: absolute;
+    width: 16rem;
+  }
+</style>

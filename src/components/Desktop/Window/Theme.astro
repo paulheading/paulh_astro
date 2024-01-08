@@ -1,20 +1,23 @@
 ---
-import Window from "~components/Desktop/Window.astro";
+import WindowOuter from "~components/Desktop/Window/Outer.astro";
+import WindowInner from "~components/Desktop/Window/Inner.astro";
 import ThemeContent from "~components/Desktop/Window/Theme/Content.astro";
 import { themes } from "~data/layout.json";
-import { toRem } from "~scripts/helpers";
 
 const { name } = Astro.props;
-
-const props = {
-  ...Astro.props,
-  style: {
-    left: toRem(128),
-    top: toRem(160),
-  },
-};
 ---
 
-<Window {...props}>
-  <ThemeContent {...themes[name]} />
-</Window>
+<WindowOuter {...Astro.props} class="outer">
+  <WindowInner>
+    <ThemeContent {...themes[name]} />
+  </WindowInner>
+</WindowOuter>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .outer {
+    left: toRem(128);
+    top: toRem(160);
+  }
+</style>

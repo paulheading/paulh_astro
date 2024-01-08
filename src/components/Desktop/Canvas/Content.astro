@@ -1,12 +1,17 @@
+---
+import WrapWindows from "~components/Desktop/Canvas/Windows.astro";
+import WrapFolders from "~components/Desktop/Canvas/Folders.astro";
+---
+
 <script src="~scripts/components/desktop.js"></script>
 
 <div class="canvas-content">
-  <div class="wrap-windows">
+  <WrapWindows>
     <slot name="windows" />
-  </div>
-  <div class="wrap-folders">
+  </WrapWindows>
+  <WrapFolders>
     <slot name="folders" />
-  </div>
+  </WrapFolders>
 </div>
 
 <style lang="scss">
@@ -21,14 +26,5 @@
       height: $height-section;
       display: flex;
     }
-  }
-
-  .wrap-windows {
-    position: relative;
-  }
-
-  .wrap-folders {
-    text-align: center;
-    position: relative;
   }
 </style>

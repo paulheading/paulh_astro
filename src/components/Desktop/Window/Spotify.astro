@@ -1,27 +1,28 @@
 ---
-import Window from "~components/Desktop/Window.astro";
+import WindowOuter from "~components/Desktop/Window/Outer.astro";
+import WindowInner from "~components/Desktop/Window/Inner.astro";
 import Header from "~components/Desktop/Window/Spotify/Header.astro";
 import Main from "~components/Desktop/Window/Spotify/Main.astro";
-import { toRem } from "~scripts/helpers";
 
 const { name } = Astro.props;
-
-const props = {
-  ...Astro.props,
-  style: {
-    left: toRem(64),
-    top: toRem(32),
-  },
-};
 ---
 
-<Window {...props} class="custom">
-  <Header year={name} />
-  <Main year={name} />
-</Window>
+<WindowOuter {...Astro.props} class="outer">
+  <WindowInner class="inner">
+    <Header year={name} />
+    <Main year={name} />
+  </WindowInner>
+</WindowOuter>
 
 <style lang="scss">
-  .custom {
+  @import "~styles/mixins";
+
+  .outer {
+    left: toRem(64);
+    top: toRem(32);
+  }
+
+  .inner {
     background-color: black;
     color: white;
   }

@@ -1,14 +1,14 @@
 ---
-import Skiplink from "~components/Skiplink.astro";
+import WindowOuter from "~components/Desktop/Window/Outer.astro";
 import WindowTopbar from "~components/Desktop/Window/Topbar.astro";
 
-const { name, open, label, style, class: className, topbar } = Astro.props;
+const { name, open, label, class: className, topbar } = Astro.props;
 
 const outerProps = {
-  class: "outer-window",
+  "class:list": ["outer-window", className],
   "data-label": label,
   "data-name": name,
-  style,
+  style: {},
 };
 
 if (!open) {
@@ -18,25 +18,19 @@ if (!open) {
 }
 
 const innerProps = {
-  "class:list": ["inner-window", className ? className : "default"],
+  "class:list": ["inner-window", className],
 };
 ---
 
-<div {...outerProps}>
-  <Skiplink />
+<WindowOuter {...outerProps}>
   <div {...innerProps}>
     {topbar && <WindowTopbar {...topbar} />}
     <slot />
   </div>
-</div>
+</WindowOuter>
 
 <style lang="scss">
   @import "~styles/mixins";
-
-  .outer-window {
-    position: absolute;
-    width: 16rem;
-  }
 
   .inner-window {
     border-radius: $border-radius-lg;
@@ -45,7 +39,7 @@ const innerProps = {
     overflow: hidden;
   }
 
-  .inner-window.default {
+  .inner-window:not(.custom) {
     background-color: white;
     color: black;
   }

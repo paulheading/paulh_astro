@@ -65,10 +65,6 @@
 }
 
 @mixin position-folder {
-  @include medium-down {
-    display: inline-block;
-  }
-
   @include medium-up {
     transition: right 300ms steps(3), top 300ms steps(3);
     position: absolute;

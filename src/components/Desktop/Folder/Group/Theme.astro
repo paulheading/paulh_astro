@@ -6,17 +6,10 @@ const { group } = Astro.props;
 
 const { label } = group[0];
 
-const window = {
-  topbar: {
-    label,
-  },
-  style: {
-    width: toRem(124),
-  },
-};
+const width = toRem(124);
 
 const folderProps = {
-  window,
+  width,
   group,
   label,
 };

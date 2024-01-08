@@ -1,10 +1,11 @@
 ---
-import Window from "~components/Desktop/Window.astro";
+import WindowOuter from "~components/Desktop/Window/Outer.astro";
+import WindowInner from "~components/Desktop/Window/Inner.astro";
 import Folder from "~components/Desktop/Folder.astro";
 
 import WindowRows from "~components/Desktop/Folder/Group/Rows.astro";
 
-const { group, label, window, class: className } = Astro.props;
+const { group, label, width, class: className } = Astro.props;
 
 let open = false;
 
@@ -22,18 +23,26 @@ const folderProps = {
   open,
 };
 
-const windowProps = {
-  ...window,
+const outerProps = {
+  width,
   label,
   open,
+};
+
+const innerProps = {
+  topbar: {
+    label,
+  },
 };
 ---
 
 <div {...divProps}>
   <Folder {...folderProps} />
-  <Window {...windowProps}>
-    <WindowRows group={group} />
-  </Window>
+  <WindowOuter {...outerProps}>
+    <WindowInner {...innerProps}>
+      <WindowRows group={group} />
+    </WindowInner>
+  </WindowOuter>
 </div>
 
 <style lang="scss">
@@ -41,7 +50,7 @@ const windowProps = {
 
   .groupfolder-container {
     justify-items: center;
+    display: inline-grid;
     align-items: center;
-    display: grid;
   }
 </style>

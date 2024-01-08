@@ -1,23 +1,17 @@
 ---
-import Window from "~components/Desktop/Window.astro";
-import { toRem } from "~scripts/helpers";
-
-const props = {
-  ...Astro.props,
-  style: {
-    left: toRem(220),
-    top: toRem(220),
-  },
-};
+import WindowOuter from "~components/Desktop/Window/Outer.astro";
+import WindowInner from "~components/Desktop/Window/Inner.astro";
 ---
 
-<Window {...props} class="custom">
-  <a href="https://www.websitecarbon.com/website/paulh-biz/" class="dialog">
-    <div class="perView">0.03g of CO<sub>2</sub>/view</div>
-    <div class="title">Website Carbon</div>
-  </a>
-  <p class="message">Cleaner than 97% of pages tested</p>
-</Window>
+<WindowOuter {...Astro.props} class="outer">
+  <WindowInner class="inner">
+    <a href="https://www.websitecarbon.com/website/paulh-biz/" class="dialog">
+      <div class="perView">0.03g of CO<sub>2</sub>/view</div>
+      <div class="title">Website Carbon</div>
+    </a>
+    <p class="message">Cleaner than 97% of pages tested</p>
+  </WindowInner>
+</WindowOuter>
 
 <style lang="scss">
   @import "~styles/mixins";
@@ -28,7 +22,17 @@ const props = {
 
   $padding: 0.75rem;
 
-  .custom {
+  @mixin boxes {
+    padding-bottom: $padding * 0.5;
+    padding-top: $padding * 0.5;
+  }
+
+  .outer {
+    left: toRem(220);
+    top: toRem(220);
+  }
+
+  .inner {
     background-color: $gray;
     text-align: center;
     padding: $padding;
@@ -43,11 +47,6 @@ const props = {
     overflow: hidden;
     display: block;
     color: $blue;
-  }
-
-  @mixin boxes {
-    padding-bottom: $padding * 0.5;
-    padding-top: $padding * 0.5;
   }
 
   .perView {

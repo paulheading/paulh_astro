@@ -1,0 +1,16 @@
+<div class="wrap-windows">
+  <slot />
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .wrap-windows {
+    position: relative;
+
+    @include medium-down {
+      height: toRem(440);
+      width: toRem(256);
+    }
+  }
+</style>

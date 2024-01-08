@@ -1,7 +1,7 @@
 import $ from "~scripts/selectors";
 import { gsap } from "gsap";
 
-const duration = 0.3;
+const duration = 0.2;
 
 function checkWindows(callback) {
   $.desktop_windows.forEach((item, index) => callback(item, index));

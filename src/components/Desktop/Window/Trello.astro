@@ -1,29 +1,28 @@
 ---
-import Window from "~components/Desktop/Window.astro";
+import WindowOuter from "~components/Desktop/Window/Outer.astro";
+import WindowInner from "~components/Desktop/Window/Inner.astro";
 import Header from "~components/Desktop/Window/Trello/Header.astro";
 import Main from "~components/Desktop/Window/Trello/Main.astro";
 import Footer from "~components/Desktop/Window/Trello/Footer.astro";
-import { toRem } from "~scripts/helpers";
-
-const props = {
-  ...Astro.props,
-  style: {
-    left: toRem(0),
-    top: toRem(64),
-  },
-};
 ---
 
-<Window {...props} class="custom">
-  <Header />
-  <Main />
-  <Footer />
-</Window>
+<WindowOuter {...Astro.props} class="outer">
+  <WindowInner class="inner">
+    <Header />
+    <Main />
+    <Footer />
+  </WindowInner>
+</WindowOuter>
 
 <style lang="scss">
   @import "~styles/mixins";
 
-  .custom {
+  .outer {
+    left: toRem(0);
+    top: toRem(64);
+  }
+
+  .inner {
     background-color: $c-trello-background;
     padding-right: $padding-trello;
     padding-left: $padding-trello;
