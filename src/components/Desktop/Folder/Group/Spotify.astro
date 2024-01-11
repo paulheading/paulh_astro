@@ -24,15 +24,7 @@ const folderProps = {
     @include position-folder;
 
     @include medium-up {
-      right: toRem(200);
-      top: toRem(40);
-    }
-  }
-
-  .position[data-move="true"] {
-    @include medium-up {
-      right: toRem(160);
-      top: toRem(90);
+      @include desktop-grid(7, 1);
     }
   }
 </style>

@@ -3,179 +3,177 @@ import { gsap } from "gsap";
 
 const duration = 0.2;
 
+const get = {
+  label: (target) => target.getAttribute("data-label"),
+  name: (target) => target.getAttribute("data-name"),
+};
+
 function checkWindows(callback) {
   $.desktop_windows.forEach((item, index) => callback(item, index));
 }
 
-function animateWindowState({ close, window, onComplete }) {
+function animateWindowState({ item, isOpen, onComplete }) {
   const tl = gsap.timeline({ defaults: { duration } });
 
-  if (close) {
-    // prettier-ignore
-    tl.to(window, { opacity: 0, scale: 0.5 })
-      .set(window, { visibility: "hidden", onComplete })
+  if (isOpen) {
+    //prettier-ignore
+    tl.to(item, { opacity: 0, scale: 0.5 })
+      .set(item, { visibility: "hidden", onComplete });
   } else {
     // prettier-ignore
-    tl.set(window, { clearProps: "visibility" })
-      .to(window, { opacity: 1, scale: 1, onComplete });
+    tl.set(item, { clearProps: "visibility" })
+      .to(item, { opacity: 1, scale: 1, onComplete });
   }
 }
 
-function displayMatchingWindowName(label, name) {
-  function displayMatchingName(item) {
-    const labelMatch = item.getAttribute("data-label") == label;
+function toggleMatchingWindowLabel(item, { isOpen, label }) {
+  const labelMatches = get.label(item) == label;
 
-    const nameMatch = item.getAttribute("data-name") == name;
+  if (!labelMatches) return;
 
-    if (!labelMatch) return;
-
-    animateWindowState({ close: !nameMatch, window: item });
-  }
-
-  checkWindows(displayMatchingName);
+  animateWindowState({ item, isOpen });
 }
 
-function closeGroupWindow(event) {
-  const { currentTarget } = event;
+function toggleMatchingWindowName(item, { isOpen, label, name }) {
+  const labelMatches = get.label(item) == label;
 
-  const $window = currentTarget.closest(".outer-window");
+  if (!labelMatches) return;
 
-  const label = $window.getAttribute("data-label");
+  const nameMatches = get.name(item) == name;
 
-  const $folder = $window.previousSibling;
+  if (!nameMatches) {
+    animateWindowState({ item, isOpen: true });
+    return;
+  }
 
-  const $openIcon = $folder.querySelector(".open-icon");
+  animateWindowState({ item, isOpen });
+}
 
-  const $shutIcon = $folder.querySelector(".shut-icon");
+function getIconState(icon) {
+  return icon.style.getPropertyValue("visibility") != "hidden";
+}
 
+function animateFolderState({ icons, isOpen, onComplete }) {
   const tl = gsap.timeline();
 
-  // prettier-ignore
-  tl.set($folder, { clearProps: "visibility", onComplete })
-    .set($openIcon, { visibility: "hidden", delay: duration })
-    .set($shutIcon, { clearProps: "visibility" });
-
-  function onComplete() {
-    animateWindowState({ close: true, window: $window });
-    checkWindows(hideMatchingLabels);
-  }
-
-  function hideMatchingLabels(item) {
-    const match = item.getAttribute("data-label") == label;
-
-    if (!match) return;
-
-    animateWindowState({ close: match, window: item });
+  if (isOpen) {
+    // prettier-ignore
+    tl.set(icons.open, { visibility: "hidden" })
+      .set(icons.shut, { clearProps: "visibility", onComplete });
+  } else {
+    // prettier-ignore
+    tl.set(icons.shut, { visibility: "hidden" })
+      .set(icons.open, { clearProps: "visibility", onComplete });
   }
 }
 
-function openGroupFolder(event) {
-  const { currentTarget } = event;
+function getFolderState(target) {
+  const icons = {
+    open: target.querySelector(".open-icon"),
+    shut: target.querySelector(".shut-icon"),
+  };
 
-  const $window = currentTarget.nextSibling;
+  const isOpen = getIconState(icons.open);
 
-  const label = $window.getAttribute("data-label");
+  const folder = target.querySelector(".folder-container");
 
-  let rows = $window.querySelectorAll(".groupfolder-row");
+  const label = get.label(folder);
 
-  let name = "";
-
-  rows.forEach(function (item) {
-    if (item.classList.contains("open")) name = item.textContent;
-  });
-
-  const $openIcon = currentTarget.querySelector(".open-icon");
-
-  const $shutIcon = currentTarget.querySelector(".shut-icon");
-
-  const tl = gsap.timeline();
-
-  function onComplete() {
-    animateWindowState({ close: false, window: $window });
-    displayMatchingWindowName(label, name);
-  }
-
-  // prettier-ignore
-  tl.set($openIcon, { clearProps: "visibility" })
-    .set($shutIcon, { visibility: "hidden" })
-    .add(onComplete, "+=" + duration);
-}
-
-function handleGroupFolderRows(rows) {
-  function handleRowClick(event) {
-    const { currentTarget } = event;
-
-    const alreadyOpen = currentTarget.classList.contains("open");
-
-    if (alreadyOpen) return;
-
-    const name = currentTarget.innerText;
-
-    const label = currentTarget.getAttribute("data-label");
-
-    rows.forEach(function (item) {
-      const match = item == currentTarget;
-      match ? item.classList.add("open") : item.classList.remove("open");
-    });
-
-    displayMatchingWindowName(label, name);
-  }
-
-  rows.forEach((row) => row.addEventListener("click", handleRowClick));
-}
-
-function handleGroupFolderClicks(groupfolder) {
-  const folder = groupfolder.querySelector(".folder-container");
-
-  const window = groupfolder.querySelector(".outer-window");
-
-  const topbar = window.querySelector(".topbar");
-
-  const close = topbar.querySelector(".close");
-
-  const rows = window.querySelectorAll(".groupfolder-row");
-
-  handleGroupFolderRows(rows);
-
-  folder.addEventListener("click", openGroupFolder);
-
-  close.addEventListener("click", closeGroupWindow);
+  return { target, icons, isOpen, label };
 }
 
 function toggleSingleFolder(event) {
   const { currentTarget } = event;
 
-  const $openIcon = currentTarget.querySelector(".open-icon");
+  const $container = currentTarget.closest(".singlefolder-container");
 
-  const $shutIcon = currentTarget.querySelector(".shut-icon");
-
-  const isOpen = $openIcon.style.getPropertyValue("visibility") == "visible";
-
-  const label = currentTarget.getAttribute("data-label");
-
-  const tl = gsap.timeline();
-
-  // prettier-ignore
-  tl.set($openIcon, { visibility: isOpen ? "hidden" : "visible" })
-    .set($shutIcon, { visibility: isOpen ? "visible" : "hidden", onComplete });
-
-  function toggleMatchingLabels(item) {
-    const match = item.getAttribute("data-label") == label;
-
-    if (!match) return;
-
-    animateWindowState({ close: isOpen, window: item });
-  }
+  const settings = getFolderState($container);
 
   function onComplete() {
-    checkWindows(toggleMatchingLabels);
+    checkWindows(function (item) {
+      toggleMatchingWindowLabel(item, { ...settings });
+    });
   }
+
+  animateFolderState({
+    ...settings,
+    onComplete,
+  });
 }
 
-function handleSingleFolderClicks(container) {
-  const folder = container.querySelector(".folder-container");
+function toggleGroupFolder(event) {
+  const { currentTarget } = event;
 
-  folder.addEventListener("click", toggleSingleFolder);
+  const $container = currentTarget.closest(".groupfolder-container");
+
+  const settings = getFolderState($container);
+
+  const $window = $container.querySelector(".outer-window");
+
+  const $openRow = $window.querySelector(".groupfolder-row.open");
+
+  const name = $openRow.textContent;
+
+  function onComplete() {
+    const { isOpen } = settings;
+    animateWindowState({ item: $window, isOpen });
+
+    checkWindows(function (item) {
+      toggleMatchingWindowName(item, { ...settings, name });
+    });
+  }
+
+  animateFolderState({
+    ...settings,
+    onComplete,
+  });
+}
+
+function handleFolderClicks($container, callback) {
+  const $folder = $container.querySelector(".folder-container");
+
+  $folder.addEventListener("click", callback);
+}
+
+function handleRowClicks(event, $rows) {
+  const { currentTarget } = event;
+
+  const isOpen = currentTarget.classList.contains("open");
+
+  if (isOpen) return;
+
+  const name = currentTarget.textContent;
+
+  const label = get.label(currentTarget);
+
+  $rows.forEach(function ($row) {
+    const match = $row == currentTarget;
+    match ? $row.classList.add("open") : $row.classList.remove("open");
+  });
+
+  checkWindows(function (item) {
+    toggleMatchingWindowName(item, { isOpen, label, name });
+  });
+}
+
+function handleGroupFolderClicks($container) {
+  const $window = $container.querySelector(".outer-window");
+
+  const $close = $window.querySelector("button.close");
+
+  const $rows = $window.querySelectorAll(".groupfolder-row");
+
+  $close.addEventListener("click", toggleGroupFolder);
+
+  $rows.forEach(function ($row) {
+    $row.addEventListener("click", (event) => handleRowClicks(event, $rows));
+  });
+
+  handleFolderClicks($container, toggleGroupFolder);
+}
+
+function handleSingleFolderClicks($container) {
+  handleFolderClicks($container, toggleSingleFolder);
 }
 
 export { handleGroupFolderClicks, handleSingleFolderClicks };

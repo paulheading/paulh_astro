@@ -1,13 +1,13 @@
 ---
 import Skiplink from "~components/Skiplink.astro";
 
-const { name, open, label, class: className, width } = Astro.props;
+const { name, open, label, class: className, style = {}, width } = Astro.props;
 
 const outerProps = {
   "class:list": ["outer-window", className],
   "data-label": label,
   "data-name": name,
-  style: {},
+  style,
 };
 
 if (width) outerProps.style.width = width;

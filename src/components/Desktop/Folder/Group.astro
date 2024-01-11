@@ -4,6 +4,7 @@ import WindowInner from "~components/Desktop/Window/Inner.astro";
 import Folder from "~components/Desktop/Folder.astro";
 
 import WindowRows from "~components/Desktop/Folder/Group/Rows.astro";
+import { toRem } from "~scripts/helpers";
 
 const { group, label, width, class: className } = Astro.props;
 
@@ -15,7 +16,6 @@ group.forEach(function (item) {
 
 const divProps = {
   "class:list": ["groupfolder-container", className],
-  "data-move": "false",
 };
 
 const folderProps = {
@@ -27,6 +27,10 @@ const outerProps = {
   width,
   label,
   open,
+  style: {
+    left: toRem(-28),
+    top: toRem(-28),
+  },
 };
 
 const innerProps = {
@@ -49,8 +53,6 @@ const innerProps = {
   @import "~styles/mixins";
 
   .groupfolder-container {
-    justify-items: center;
-    display: inline-grid;
-    align-items: center;
+    @include folder-container;
   }
 </style>

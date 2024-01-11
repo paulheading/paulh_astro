@@ -10,7 +10,6 @@ import time from "~scripts/components/desktop/topbar/time";
 let heroes = projects.filter(({ hero }) => hero);
 let last = heroes.length - 1;
 let count = 0;
-let moveFolders = true;
 
 function updateDOM() {
   let hero = heroes[count];
@@ -29,13 +28,6 @@ function updateDOM() {
   if ($.hero_svgs) artwork.toggle($.hero_svgs, loop);
 
   marquee.setup(name, local.url);
-
-  moveFolders = !moveFolders;
-
-  const setPositionData = (item) => item.setAttribute("data-move", moveFolders);
-
-  $.desktop_singlefolders.forEach(setPositionData);
-  $.desktop_groupfolders.forEach(setPositionData);
 
   wifi();
 

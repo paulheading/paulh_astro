@@ -71,6 +71,11 @@
   }
 }
 
+@mixin desktop-grid($right: 0, $top: 0) {
+  right: rightAdjust($right * 45);
+  top: toRem($top * 50);
+}
+
 @mixin trello-button {
   $backgroundColour: white;
   $color: black;

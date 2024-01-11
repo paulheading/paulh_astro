@@ -11,15 +11,7 @@ import SingleFolder from "~components/Desktop/Folder/Single.astro";
     @include position-folder;
 
     @include medium-up {
-      right: toRem(20);
-      top: toRem(10);
-    }
-  }
-
-  .position[data-move="true"] {
-    @include medium-up {
-      right: toRem(40);
-      top: toRem(20);
+      @include desktop-grid(2);
     }
   }
 </style>

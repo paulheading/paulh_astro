@@ -23,8 +23,10 @@ $.time_hours = $.time?.querySelector(".hours");
 $.time_separator = $.time?.querySelector(".separator");
 $.time_minutes = $.time?.querySelector(".minutes");
 
-$.wrap_windows = document.querySelector(".wrap-windows");
-$.wrap_folders = document.querySelector(".wrap-folders");
+$.canvas_container = document.querySelector(".canvas-container");
+
+$.wrap_windows = $.canvas_container?.querySelector(".wrap-windows");
+$.wrap_folders = $.canvas_container?.querySelector(".wrap-folders");
 
 $.desktop_windows = $.wrap_windows?.querySelectorAll(".outer-window");
 $.desktop_singlefolders = $.wrap_folders?.querySelectorAll(
@@ -33,9 +35,6 @@ $.desktop_singlefolders = $.wrap_folders?.querySelectorAll(
 $.desktop_groupfolders = $.wrap_folders?.querySelectorAll(
   ".groupfolder-container"
 );
-
-// $.folders = $.desktop_folders?.querySelectorAll(".folder");
-// $.windows = $.desktop_windows?.querySelectorAll(".window");
 
 $.trello = document.querySelector(".outer-window[data-label=trello]");
 $.trello_pages = $.trello?.querySelectorAll("main > a");
