@@ -21,5 +21,8 @@ pnpm-debug.log*
 .DS_Store
 
 # scraper
-src/scripts/scraper/node_modules
-src/scripts/scraper/.env
+src/scraper/node_modules
+src/scraper/.env
+
+# markdown
+src/markdown/node_modules
