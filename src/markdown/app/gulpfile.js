@@ -4,7 +4,7 @@ const nunjucksRender = require("gulp-nunjucks-render");
 
 const src = "src/*.njk";
 
-const dest = "dist";
+const dest = "../";
 
 const renderSettings = {
   path: ["templates"],

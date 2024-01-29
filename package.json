@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "scrape": "cd src/scraper && node index.js",
-    "build:md": "cd src/markdown && gulp",
+    "build:md": "cd src/markdown/app && gulp",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
