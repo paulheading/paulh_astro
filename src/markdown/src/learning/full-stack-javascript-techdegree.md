@@ -1,16 +1,16 @@
-In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href="/role/design-manager">Digital Design Manager</a>. I enrolled in the <a href="https://teamtreehouse.com/techdegree/full-stack-javascript">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.
+In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href="/role/design-manager">Digital Design Manager</a>. I enrolled in the <a href="https://teamtreehouse.com/techdegree/full-stack-JavaScript">Full-Stack JavaScript Techdegree</a> at teamtreehouse.com.
 
 ---
 
-# Full-Stack Javascript Techdegree
+# Full-Stack JavaScript Techdegree
 
-In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href="/role/design-manager">Digital Design Manager</a>. I enrolled in the <a href="https://teamtreehouse.com/techdegree/full-stack-javascript">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.
+In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href="/role/design-manager">Digital Design Manager</a>. I enrolled in the <a href="https://teamtreehouse.com/techdegree/full-stack-JavaScript">Full-Stack JavaScript Techdegree</a> at teamtreehouse.com.
 
 <br>
 
 ### What did I learn?
 
-<a href="https://teamtreehouse.com/techdegree/full-stack-javascript">The course</a> is comprised of 10 units:
+<a href="https://teamtreehouse.com/techdegree/full-stack-JavaScript">The course</a> is comprised of 10 units:
 
 - <a href="https://github.com/paulheading/TreehouseTaskOne">A Random Quote Generator</a>
 - <a href="https://github.com/paulheading/TreehouseTaskTwo">Data Pagination and Filtering</a>

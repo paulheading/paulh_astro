@@ -1,6 +1,6 @@
 ### Got anything more specific to writing code?
 
-Sure, here's a couple more concepts I picked up writing javascript:
+Sure, here's a couple more concepts I picked up writing JavaScript:
 
 be verbose, be a good storyteller, good code should read like a fun 90s movie. predictable, enjoyable. definitely not a mystery, no plot twists.
 

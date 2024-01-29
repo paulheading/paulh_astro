@@ -1,7 +1,7 @@
 ---
 import { get } from "~scripts/helpers";
 
-const { size = 20, onClick, id } = Astro.props;
+const { size = 20, align = "center", onClick, id } = Astro.props;
 
 const buttonProps = {
   class: "button",
@@ -17,6 +17,7 @@ const vars = {
   padding: get.rems(padding),
   radius: get.rems(radius),
   size: get.rems(size),
+  align,
 };
 ---
 
@@ -34,7 +35,7 @@ const vars = {
   @import "~styles/mixins";
 
   .outline {
-    text-align: center;
+    text-align: var(--align);
   }
 
   .button {

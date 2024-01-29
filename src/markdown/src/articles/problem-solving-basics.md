@@ -28,9 +28,9 @@ Here's some concepts that I find useful in my design process:
 
 #### Combine simple ideas to create complex outcomes:
 
-In javascript this means; write functions with specific inputs/outputs. This is easier to read, understand and debug. It creates less room for incorrect assumptions and gaps in your understanding.
+In JavaScript this means; write functions with specific inputs/outputs. This is easier to read, understand and debug. It creates less room for incorrect assumptions and gaps in your understanding.
 
-Beyond javascript this means; break down your problems and spend time prioritising what outcomes are important. This will give you a stronger sense of self and give you a more flexible mindset.
+Beyond JavaScript this means; break down your problems and spend time prioritising what outcomes are important. This will give you a stronger sense of self and give you a more flexible mindset.
 
 <br>
 

@@ -1,10 +1,10 @@
-<a href="https://frontendmasters.com">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.
+<a href="https://frontendmasters.com">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!
 
 ---
 
 # Professional Learning Path
 
-<a href="https://frontendmasters.com">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer! I'm currently studying the path to becoming a Senior Web Developer.
+<a href="https://frontendmasters.com">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!
 
 <br>
 
@@ -12,8 +12,8 @@
 
 <a href="https://frontendmasters.com/learn/professional/">The course</a> is comprised of 9 core units:
 
-- <a href="https://frontendmasters.com/courses/javascript-hard-parts-v2/">JavaScript: The Hard Parts, v2</a>
-- <a href="https://frontendmasters.com/courses/deep-javascript-v3/">Deep JavaScript Foundations, v3</a>
+- <a href="https://frontendmasters.com/courses/JavaScript-hard-parts-v2/">JavaScript: The Hard Parts, v2</a>
+- <a href="https://frontendmasters.com/courses/deep-JavaScript-v3/">Deep JavaScript Foundations, v3</a>
 - <a href="https://frontendmasters.com/courses/complete-react-v8/">Complete Intro to React, v8</a>
 - <a href="https://frontendmasters.com/courses/css-grid-flexbox-v2/">CSS Grid & Flexbox for Responsive Layouts, v2</a>
 - <a href="https://frontendmasters.com/courses/vanilla-js-apps/">Vanilla JS: You Might Not Need a Framework</a>

@@ -9,9 +9,11 @@ import PageInner from "~components/Page/Inner.astro";
 import PageRow from "~components/Page/Row.astro";
 import PageCard from "~components/Page/Card.astro";
 
-import Biography from "~markdown/biography.md";
+import OutlineButton from "~components/Button/Outline.astro";
 
-import description from "~markdown/biography.md?raw";
+import Summary from "~markdown/dist/summary.md";
+
+import description from "~markdown/dist/summary.md?raw";
 
 import seo from "~data/seo.js";
 import details from "~data/personal.js";
@@ -42,6 +44,12 @@ const learningProps = {
   title: "Learning",
   ...defaultProps,
 };
+
+const saveProps = {
+  id: "saveAsPDF",
+  align: "left",
+  size: 14,
+};
 ---
 
 <script src="~scripts/pages/resume.js"></script>
@@ -50,20 +58,25 @@ const learningProps = {
   <PageOuter>
     <PageInner>
       <PageRow content={{ padding: true, columns: 2 }}>
-        <div class="name">{paul.name}</div>
         <div>
-          <div>{paul.location}</div>
-          <div>{parse(paul.email.link)}</div>
+          <div class="name">{paul.name}</div>
+          <OutlineButton {...saveProps}>Save as PDF</OutlineButton>
+        </div>
+        <div>
+          <div class="location">{paul.location}</div>
+          <div class="email">{parse(paul.email.link)}</div>
         </div>
       </PageRow>
       <PageRow content={{ padding: true, columns: 2 }}>
         <div>
-          <div class="title">Biography</div>
-          <div class="copy">
-            <Biography />
+          <div class="title biography">Summary</div>
+          <div class="copy biography">
+            <Summary />
           </div>
         </div>
-        <div>{paul.platforms.map(({ link }) => <div>{parse(link)}</div>)}</div>
+        <div class="platforms">
+          {paul.platforms.map(({ link }) => <div>{parse(link)}</div>)}
+        </div>
       </PageRow>
       <PageRow {...projectProps}>
         {

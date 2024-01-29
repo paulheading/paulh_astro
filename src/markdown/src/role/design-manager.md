@@ -1,4 +1,4 @@
-I worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican), designing digital content for marketing campaigns, as well as managing one other Designer.
+I worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican) designing digital content for marketing campaigns and managing another designer.
 
 ---
 

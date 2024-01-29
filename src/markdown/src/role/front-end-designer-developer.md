@@ -1,4 +1,4 @@
-[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer & Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org). Outside of this role, I also like to build in [Next.js](https://nextjs.org)
+Currently working for the [Barbican](https://barbican.org.uk) in London. I create [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com) and build things in [Vue.js](https://vuejs.org).
 
 ---
 
