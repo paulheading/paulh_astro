@@ -98,7 +98,12 @@
         ],
         "pathname": "the-git-github-bootcamp",
         "url": "/learning/the-git-github-bootcamp",
-        "filename": "the_git_github_bootcamp"
+        "filename": "the_git_github_bootcamp",
+        "projectDetails": {
+          "length": "6 months",
+          "start": "Aug 2023",
+          "due": "Jan 2024"
+        }
       }
     },
     {
@@ -199,7 +204,12 @@
         ],
         "pathname": "the-complete-guide-to-testing-javascript",
         "url": "/learning/the-complete-guide-to-testing-javascript",
-        "filename": "the_complete_guide_to_testing_javascript"
+        "filename": "the_complete_guide_to_testing_javascript",
+        "projectDetails": {
+          "length": "1 year",
+          "start": "Sep 2021",
+          "due": "Sep 2022"
+        }
       }
     },
     {
@@ -301,7 +311,12 @@
         ],
         "pathname": "professional-learning-path",
         "url": "/learning/professional-learning-path",
-        "filename": "professional_learning_path"
+        "filename": "professional_learning_path",
+        "projectDetails": {
+          "length": "9 months",
+          "start": "May 2023",
+          "due": "Jan 2024"
+        }
       }
     },
     {
@@ -402,7 +417,12 @@
         ],
         "pathname": "javascript-understanding-the-weird-parts",
         "url": "/learning/javascript-understanding-the-weird-parts",
-        "filename": "javascript_understanding_the_weird_parts"
+        "filename": "javascript_understanding_the_weird_parts",
+        "projectDetails": {
+          "length": "1 year",
+          "start": "Feb 2020",
+          "due": "Feb 2021"
+        }
       }
     },
     {
@@ -504,7 +524,12 @@
         ],
         "pathname": "full-stack-javascript-techdegree",
         "url": "/learning/full-stack-javascript-techdegree",
-        "filename": "full_stack_javascript_techdegree"
+        "filename": "full_stack_javascript_techdegree",
+        "projectDetails": {
+          "length": "2.9 years",
+          "start": "Nov 2017",
+          "due": "Oct 2020"
+        }
       }
     },
     {
@@ -605,7 +630,12 @@
         ],
         "pathname": "html5-game-from-scratch-step-by-step-learning-javascript",
         "url": "/learning/html5-game-from-scratch-step-by-step-learning-javascript",
-        "filename": "html5_game_from_scratch_step_by_step_learning_javascript"
+        "filename": "html5_game_from_scratch_step_by_step_learning_javascript",
+        "projectDetails": {
+          "length": "5.1 years",
+          "start": "Jan 2019",
+          "due": "Jan 2024"
+        }
       }
     },
     {
@@ -706,7 +736,12 @@
         ],
         "pathname": "ba-history",
         "url": "/learning/ba-history",
-        "filename": "ba_history"
+        "filename": "ba_history",
+        "projectDetails": {
+          "length": "3 years",
+          "start": "Jun 2006",
+          "due": "Jun 2009"
+        }
       }
     }
   ],
@@ -809,7 +844,12 @@
         ],
         "pathname": "front-end-designer-developer",
         "url": "/roles/front-end-designer-developer",
-        "filename": "front_end_designer_developer"
+        "filename": "front_end_designer_developer",
+        "projectDetails": {
+          "length": "4.2 years",
+          "start": "Dec 2019",
+          "due": "Jan 2024"
+        }
       }
     },
     {
@@ -910,7 +950,12 @@
         ],
         "pathname": "design-manager",
         "url": "/roles/design-manager",
-        "filename": "design_manager"
+        "filename": "design_manager",
+        "projectDetails": {
+          "length": "3.8 years",
+          "start": "Mar 2016",
+          "due": "Dec 2019"
+        }
       }
     },
     {
@@ -1011,7 +1056,12 @@
         ],
         "pathname": "junior-designer",
         "url": "/roles/junior-designer",
-        "filename": "junior_designer"
+        "filename": "junior_designer",
+        "projectDetails": {
+          "length": "3 years",
+          "start": "Mar 2013",
+          "due": "Mar 2016"
+        }
       }
     }
   ]

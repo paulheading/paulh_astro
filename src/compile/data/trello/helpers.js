@@ -1,6 +1,7 @@
 import { stripHtml } from "string-strip-html";
 import showdown from "showdown";
-import { list } from "./variables.js";
+import { DateTime } from "luxon";
+
 import colors from "./colors.js";
 
 const create = {};
@@ -96,6 +97,44 @@ create.filename = function (value) {
   return value.replace(regex, "_");
 };
 
+create.projectDetails = function (card) {
+  let { dueComplete, due, start } = card;
+
+  if (!start) return { length: null, start: null, due: null };
+
+  start = DateTime.fromISO(start);
+
+  due = !dueComplete ? DateTime.now() : DateTime.fromISO(due);
+
+  let diff = due.diff(start, ["year", "month"]);
+
+  let { years, months } = diff.toObject();
+
+  years = years.toFixed(0);
+
+  months = months.toFixed(0);
+
+  let length = "";
+
+  let multipleYears = years > 0;
+
+  if (multipleYears) {
+    months = Number(months / 12).toFixed(1);
+
+    years = Number(years) + Number(months);
+
+    length = `${years} ${years != 1 ? "years" : "year"}`;
+  }
+
+  if (!multipleYears) length = `${months} ${months != 1 ? "months" : "month"}`;
+
+  return {
+    length,
+    start: start.toFormat("MMM yyyy"),
+    due: due.toFormat("MMM yyyy"),
+  };
+};
+
 create.localAttributes = function (card) {
   let local = {};
 
@@ -121,6 +160,8 @@ create.localAttributes = function (card) {
   local.url = "/" + card.type + "/" + local.pathname;
 
   local.filename = create.filename(local.pathname);
+
+  local.projectDetails = create.projectDetails(card);
 
   return local;
 };

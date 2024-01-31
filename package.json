@@ -3,8 +3,11 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "scrape": "cd src/scraper && node index.js",
-    "build:md": "cd src/markdown/app && gulp",
+    "compile:data": "cd src/compile/data && node index.js",
+    "compile:images": "cd src/compile/images && node index.js",
+    "compile:pdf": "cd src/compile/pdf && node index.js",
+    "compile:md": "cd src/compile/md && gulp",
+    "compile": "npm run compile:md && npm run compile:data && npm run compile:images && npm run compile:pdf",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",

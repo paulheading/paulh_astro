@@ -1,4 +1,4 @@
-import { get } from "../scripts/helpers.js";
+import { get } from "../../scripts/helpers.js";
 
 async function getGemData() {
   const gem = await get.JSON("https://rubygems.org/api/v1/gems/futuro");

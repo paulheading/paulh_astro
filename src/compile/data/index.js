@@ -8,8 +8,6 @@ import getNpmData from "./npm.js";
 // import getHashnodeData from "./hashnode.js";
 import getPocketcastsData from "./pocketcasts.js";
 
-import processImages from "./images/setup.js";
-
 async function getLayoutData() {
   const pocketcasts = await getPocketcastsData();
   // const hashnode = await getHashnodeData();
@@ -42,24 +40,26 @@ async function getResumeData() {
   };
 }
 
-function handleResult(error) {
-  if (error) console.log("there was an error: ", error);
-}
+const outputFolder = "../../data/";
 
 const layout = [
-  "../data/layout.json",
+  outputFolder + "layout.json",
   JSON.stringify(await getLayoutData(), null, 2),
-  handleResult,
+  function (error) {
+    if (error) console.log("there was an error: ", error);
+  },
 ];
 
 const resume = [
-  "../data/resume.json",
+  outputFolder + "resume.json",
   JSON.stringify(await getResumeData(), null, 2),
-  handleResult,
+  function (error) {
+    if (error) console.log("there was an error: ", error);
+  },
 ];
 
 fs.writeFile(...layout);
 
 fs.writeFile(...resume);
 
-processImages();
+console.log("data compiled!");

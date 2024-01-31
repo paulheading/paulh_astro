@@ -1,5 +1,5 @@
 import { string, playlist, id, secret, base } from "./spotify/variables.js";
-import { get } from "../scripts/helpers.js";
+import { get } from "../../scripts/helpers.js";
 
 import fs from "fs";
 import imageDownload from "image-download";
@@ -83,7 +83,7 @@ getSpotify.playlist = async function (target) {
   function writeAndResize({ buffer }) {
     data.thumbnail = `/thumbnails/spotify/${data.id}.webp`;
 
-    const filepath = "../../public" + data.thumbnail;
+    const filepath = "../../../public" + data.thumbnail;
 
     fs.writeFile(filepath, buffer, function (error) {
       error ? console.log("there was an error: ", error) : resizeFile(filepath);

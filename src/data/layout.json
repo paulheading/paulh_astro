@@ -3,6 +3,166 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "a98d5a08-6ddd-49b0-bedf-09e0d628533b",
+        "url": "https://flex.acast.com/audio.guim.co.uk/2024/01/29-51343-gfw290124.mp3",
+        "published": "2024-01-29T14:22:59Z",
+        "duration": 3812,
+        "fileType": "audio/mp3",
+        "title": "Jürgen Klopp to step down at Liverpool as Maidstone step up – Football Weekly",
+        "size": "88394547",
+        "playingStatus": 2,
+        "playedUpTo": 3812,
+        "starred": false,
+        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Football Weekly",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "The Guardian",
+        "bookmarks": []
+      },
+      {
+        "uuid": "050decf3-d3dd-4eb0-aed8-1cb6411c7958",
+        "url": "https://pscrb.fm/rss/p/chrt.fm/track/53A61E/prfx.byspotify.com/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/758af4c0-a2c3-47ec-a2d8-05f41bfbde51/episodes/3b58451b-26e6-40ff-9f0f-c1f96cd15161/audio/128/default.mp3?aid=rss_feed&awCollectionId=758af4c0-a2c3-47ec-a2d8-05f41bfbde51&awEpisodeId=3b58451b-26e6-40ff-9f0f-c1f96cd15161&feed=EmVW7VGp",
+        "published": "2024-01-26T15:00:00Z",
+        "duration": 2544,
+        "fileType": "audio/mpeg",
+        "title": "Zoozve",
+        "size": "39330552",
+        "playingStatus": 3,
+        "playedUpTo": 2544,
+        "starred": false,
+        "podcastUuid": "f5b97290-0422-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Radiolab",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 560,
+        "isDeleted": true,
+        "author": "WNYC Studios",
+        "bookmarks": []
+      },
+      {
+        "uuid": "9c737229-22ed-46bb-919e-ebae556d9ca5",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/chtbl.com/track/28D492/traffic.megaphone.fm/SLT3901725254.mp3?updated=1706304772",
+        "published": "2024-01-28T08:00:00Z",
+        "duration": 1513,
+        "fileType": "audio/mpeg",
+        "title": "What Next TBD: Why Is Everybody Sick?",
+        "size": "0",
+        "playingStatus": 2,
+        "playedUpTo": 1474,
+        "starred": false,
+        "podcastUuid": "5c2afaf0-83c4-0136-7b90-27f978dac4db",
+        "podcastTitle": "Slate Technology",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Slate Podcasts",
+        "bookmarks": []
+      },
+      {
+        "uuid": "78a11127-8f38-459c-ac3e-7e54bab681d6",
+        "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/http/vpid/p0h7f6jy.mp3",
+        "published": "2024-01-26T21:11:00Z",
+        "duration": 2807,
+        "fileType": "audio/mp3",
+        "title": "AQ: Rhun ap Iorwerth MS, Fay Jones MP, Anna Mikhailova, Nick Thomas-Symonds MP",
+        "size": "44912000",
+        "playingStatus": 2,
+        "playedUpTo": 1771,
+        "starred": false,
+        "podcastUuid": "66fd3830-b8e3-012e-61d2-00163e1b201c",
+        "podcastTitle": "Any Questions? and Any Answers?",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "BBC Radio 4",
+        "bookmarks": []
+      },
+      {
+        "uuid": "77f4a2b1-e4d1-468f-a584-2fbf1ee090b6",
+        "url": "https://pdst.fm/e/chtbl.com/track/1F1B1F/traffic.megaphone.fm/WSJ2045982145.mp3?updated=1706306602",
+        "published": "2024-01-26T21:29:00Z",
+        "duration": 1165,
+        "fileType": "audio/mpeg",
+        "title": "A Russian Billionaire, an Art Dealer and an Epic Feud",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 1165,
+        "starred": false,
+        "podcastUuid": "472f9970-773b-0137-f268-1d245fc5f9cf",
+        "podcastTitle": "The Journal.",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "The Wall Street Journal & Gimlet",
+        "bookmarks": []
+      },
+      {
+        "uuid": "cccf612e-541b-4a0e-8a38-4b15157d286f",
+        "url": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510289/traffic.megaphone.fm/NPR1337993295.mp3?d=1575&size=25210925&e=1197956698&t=podcast&p=510289",
+        "published": "2024-01-27T01:01:02Z",
+        "duration": 1827,
+        "fileType": "audio/mpeg",
+        "title": "Rescues at sea, and how to make a fortune",
+        "size": "25210925",
+        "playingStatus": 2,
+        "playedUpTo": 27,
+        "starred": false,
+        "podcastUuid": "c59b45b0-0bc4-012e-fb02-00163e1b201c",
+        "podcastTitle": "Planet Money",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 1712,
+        "isDeleted": false,
+        "author": "NPR",
+        "bookmarks": []
+      },
+      {
+        "uuid": "c1ada049-f43f-4fda-a271-9c2462994191",
+        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/f00c5eac-fc1a-4150-af01-f0ec47f7f2e2/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=f00c5eac-fc1a-4150-af01-f0ec47f7f2e2&feed=BqbsxVfO",
+        "published": "2024-01-26T22:07:58Z",
+        "duration": 2227,
+        "fileType": "audio/mpeg",
+        "title": "Roman Mars Describes Chicago As It Is",
+        "size": "36246302",
+        "playingStatus": 2,
+        "playedUpTo": 2093,
+        "starred": false,
+        "podcastUuid": "0cc43410-1d2f-012e-0175-00163e1b201c",
+        "podcastTitle": "99% Invisible",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Roman Mars",
+        "bookmarks": []
+      },
+      {
+        "uuid": "8d367e52-1c37-4cc8-a88e-24b35f882d37",
+        "url": "https://pdst.fm/e/chtbl.com/track/1F1B1F/traffic.megaphone.fm/WSJ2235362052.mp3?updated=1706220397",
+        "published": "2024-01-25T21:12:00Z",
+        "duration": 1159,
+        "fileType": "audio/mpeg",
+        "title": "How China's BYD Overtook Tesla",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 1148,
+        "starred": false,
+        "podcastUuid": "472f9970-773b-0137-f268-1d245fc5f9cf",
+        "podcastTitle": "The Journal.",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "The Wall Street Journal & Gimlet",
+        "bookmarks": []
+      },
+      {
         "uuid": "47ab6bfc-fe1d-4fd7-ad51-eb08141ad3d3",
         "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP7895489127.mp3?updated=1705602904",
         "published": "2024-01-19T09:05:00Z",
@@ -667,19 +827,19 @@
         "url": "https://pfx.vpixl.com/6qj4J/dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/bbbcc290-ed3b-44a2-8e5d-5513e38cfe20/episodes/b4329120-86b2-4181-b34f-0606d7c4736c/audio/128/default.mp3?awCollectionId=bbbcc290-ed3b-44a2-8e5d-5513e38cfe20&awEpisodeId=b4329120-86b2-4181-b34f-0606d7c4736c",
         "published": "2023-12-31T23:00:00Z",
         "duration": 3470,
-        "fileType": "audio/mpeg",
+        "fileType": "",
         "title": "241: 20 Acts in 60 Minutes",
         "size": "0",
         "playingStatus": 3,
         "playedUpTo": 3470,
         "starred": false,
         "podcastUuid": "3782b780-0bc5-012e-fb02-00163e1b201c",
-        "podcastTitle": "This American Life",
-        "episodeType": "full",
+        "podcastTitle": "",
+        "episodeType": "",
         "episodeSeason": 0,
         "episodeNumber": 0,
         "isDeleted": true,
-        "author": "This American Life",
+        "author": "",
         "bookmarks": []
       },
       {
@@ -1841,166 +2001,6 @@
         "isDeleted": false,
         "author": "The Guardian",
         "bookmarks": []
-      },
-      {
-        "uuid": "fa558f7a-469e-4a8d-a44a-f4323ea48a23",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/10/19-48700-gfw191023.mp3",
-        "published": "2023-10-19T13:50:43Z",
-        "duration": 3535,
-        "fileType": "audio/mp3",
-        "title": "Merseyside derby kicks off Premier League’s return – Football Weekly Extra",
-        "size": "81959579",
-        "playingStatus": 2,
-        "playedUpTo": 3533,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "b1222fae-4192-41ee-9e03-c768773e1e4b",
-        "url": "https://sphinx.acast.com/p/open/s/64f75edec2b55e0011a26fb2/e/6530071714bb5f0012b7ce82/media.mp3",
-        "published": "2023-10-19T04:00:07Z",
-        "duration": 2214,
-        "fileType": "audio/mp3",
-        "title": "Why the Brexit referendum wasn't all David Cameron's fault",
-        "size": "51463683",
-        "playingStatus": 2,
-        "playedUpTo": 1809,
-        "starred": false,
-        "podcastUuid": "03c3e480-306d-013c-f68b-0acc26574db2",
-        "podcastTitle": "Trendy",
-        "episodeType": "full",
-        "episodeSeason": 1,
-        "episodeNumber": 5,
-        "isDeleted": false,
-        "author": "Tortoise Media",
-        "bookmarks": []
-      },
-      {
-        "uuid": "08ed0ede-0574-4610-8c20-e684fd055de5",
-        "url": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT7642806111.mp3?updated=1662675380",
-        "published": "2016-09-23T22:45:00Z",
-        "duration": 2473,
-        "fileType": "audio/mpeg",
-        "title": "#1 Buzz",
-        "size": "0",
-        "playingStatus": 3,
-        "playedUpTo": 2473,
-        "starred": false,
-        "podcastUuid": "77f1b350-5419-0134-ec2d-0d50f522381b",
-        "podcastTitle": "Heavyweight",
-        "episodeType": "full",
-        "episodeSeason": 1,
-        "episodeNumber": 1,
-        "isDeleted": true,
-        "author": "Spotify Studios",
-        "bookmarks": []
-      },
-      {
-        "uuid": "77f2f630-5419-0134-ec2d-0d50f522381b",
-        "url": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT3611306397.mp3?updated=1664476502",
-        "published": "2016-09-03T13:14:00Z",
-        "duration": 120,
-        "fileType": "audio/mpeg",
-        "title": "Welcome to Heavyweight",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 63,
-        "starred": false,
-        "podcastUuid": "77f1b350-5419-0134-ec2d-0d50f522381b",
-        "podcastTitle": "Heavyweight",
-        "episodeType": "full",
-        "episodeSeason": 1,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "Spotify Studios",
-        "bookmarks": []
-      },
-      {
-        "uuid": "f47867eb-79e1-4b1d-aa7d-875c6ea80a57",
-        "url": "https://sphinx.acast.com/p/acast/s/adambuxton/e/652cf4432bf6d10012b12516/media.mp3",
-        "published": "2023-10-16T08:28:51Z",
-        "duration": 4796,
-        "fileType": "audio/mp3",
-        "title": "EP.208 - NATALIE WYNN aka CONTRAPOINTS",
-        "size": "111024440",
-        "playingStatus": 2,
-        "playedUpTo": 2018,
-        "starred": false,
-        "podcastUuid": "a862d790-3ea8-0133-bdc8-0d11918ab357",
-        "podcastTitle": "THE ADAM BUXTON PODCAST",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "ADAM BUXTON",
-        "bookmarks": []
-      },
-      {
-        "uuid": "72114bbf-3f7e-4eb5-b049-a3f4c32fc2a8",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/10/18-45620-gfw181023.mp3",
-        "published": "2023-10-18T13:51:29Z",
-        "duration": 3274,
-        "fileType": "audio/mp3",
-        "title": "England seal Euro 2024 spot and San Marino score a goal – Football Weekly",
-        "size": "77073371",
-        "playingStatus": 3,
-        "playedUpTo": 3274,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "e1483f4f-92c9-44d4-89ea-0d96981d88fe",
-        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/df179a36-a022-41e3-bf7c-b7a4efc6f51e/episodes/c55b2fe5-b673-49d7-82bb-b3dcfad318b0/audio/128/default.mp3?aid=rss_feed&awCollectionId=df179a36-a022-41e3-bf7c-b7a4efc6f51e&awEpisodeId=c55b2fe5-b673-49d7-82bb-b3dcfad318b0&feed=kwWc0lhf",
-        "published": "2023-10-16T19:00:00Z",
-        "duration": 2991,
-        "fileType": "audio/mpeg",
-        "title": "Follow the Anomalies",
-        "size": "46902395",
-        "playingStatus": 2,
-        "playedUpTo": 2991,
-        "starred": false,
-        "podcastUuid": "7868f900-21de-0133-2464-059c869cc4eb",
-        "podcastTitle": "Hidden Brain",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Hidden Brain, Shankar Vedantam",
-        "bookmarks": []
-      },
-      {
-        "uuid": "ddc2d96d-a74c-4af5-8efb-3f619d6eef0b",
-        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP3316845227.mp3?updated=1697146256",
-        "published": "2023-10-13T08:00:00Z",
-        "duration": 2500,
-        "fileType": "audio/mpeg",
-        "title": "Chesa, Kathy, and David",
-        "size": "0",
-        "playingStatus": 2,
-        "playedUpTo": 2467,
-        "starred": false,
-        "podcastUuid": "39897570-6d94-0131-7809-723c91aeae46",
-        "podcastTitle": "Criminal",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 239,
-        "isDeleted": false,
-        "author": "Vox Media Podcast Network",
-        "bookmarks": []
       }
     ]
   },
@@ -2032,7 +2032,7 @@
       "checkItemStates": [],
       "closed": false,
       "dueComplete": false,
-      "dateLastActivity": "2023-12-30T17:33:59.718Z",
+      "dateLastActivity": "2024-01-31T07:21:21.943Z",
       "desc": "```\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n---\n\n# Organising Spaces with GraphQL\n\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n<br>\n\n### Can I see it?\n\nUnfortunately not, it's only available for Barbican staff at [dev.event.barbican.org.uk](https://dev.event.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paulh.biz/organising-spaces-with-graphql-1) on [my blog](https://blog.paulh.biz).\n\n<br>\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue 3](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 💾 Consuming data from the [Barbican](https://barbican.org.uk) [GraphQL](https://graphql.org) feed.\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n<br>\n\n### What are the interesting parts?\n\nThis project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the [Barbican](https://barbican.org.uk) to use.\n\nWe're using [GraphQL](https://graphql.org) to pull data from the original system, and are using [Vue.js](https://vuejs.org) to present a more intuitive view of everything that is happening at the centre.\n\n<br>\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
       "descData": {
         "emoji": {}
@@ -2060,9 +2060,20 @@
           "uses": 9
         },
         {
-          "id": "64b80f73bdf98a4131949e44",
+          "id": "64b80eedd3cb846ab0943db4",
           "idBoard": "5fb002b217fa6a2ca13512f7",
-          "name": "GraphQL",
+          "name": "Vue.js",
+          "color": {
+            "name": "black_dark",
+            "text": "#ffffff",
+            "fill": "#626f86"
+          },
+          "uses": 2
+        },
+        {
+          "id": "65b9f4f1db17ca3f53fa683a",
+          "idBoard": "5fb002b217fa6a2ca13512f7",
+          "name": "Paused",
           "color": {
             "name": "black_dark",
             "text": "#ffffff",
@@ -2073,7 +2084,8 @@
       ],
       "idLabels": [
         "5fb002b2cdabcf46c03cf423",
-        "64b80f73bdf98a4131949e44"
+        "64b80eedd3cb846ab0943db4",
+        "65b9f4f1db17ca3f53fa683a"
       ],
       "manualCoverAttachment": false,
       "name": "Organising spaces with GraphQL",
@@ -2103,7 +2115,8 @@
         "desc": "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
         "labels": [
           "Barbican",
-          "GraphQL"
+          "Vue.js",
+          "Paused"
         ],
         "primaryColor": {
           "name": "green",
@@ -2119,7 +2132,12 @@
         ],
         "pathname": "organising-spaces-with-graphql",
         "url": "/projects/organising-spaces-with-graphql",
-        "filename": "organising_spaces_with_graphql"
+        "filename": "organising_spaces_with_graphql",
+        "projectDetails": {
+          "length": "1.1 years",
+          "start": "Jan 2023",
+          "due": "Jan 2024"
+        }
       }
     },
     {
@@ -2236,7 +2254,12 @@
         ],
         "pathname": "building-a-portfolio-in-nextjs",
         "url": "/projects/building-a-portfolio-in-nextjs",
-        "filename": "building_a_portfolio_in_nextjs"
+        "filename": "building_a_portfolio_in_nextjs",
+        "projectDetails": {
+          "length": "6 months",
+          "start": "Sep 2022",
+          "due": "Mar 2023"
+        }
       }
     },
     {
@@ -2353,7 +2376,12 @@
         ],
         "pathname": "sparking-the-cannon-with-nextjs",
         "url": "/projects/sparking-the-cannon-with-nextjs",
-        "filename": "sparking_the_cannon_with_nextjs"
+        "filename": "sparking_the_cannon_with_nextjs",
+        "projectDetails": {
+          "length": "6 months",
+          "start": "Aug 2022",
+          "due": "Feb 2023"
+        }
       }
     },
     {
@@ -2470,7 +2498,12 @@
         ],
         "pathname": "resetting-the-barbican-with-nodejs",
         "url": "/projects/resetting-the-barbican-with-nodejs",
-        "filename": "resetting_the_barbican_with_nodejs"
+        "filename": "resetting_the_barbican_with_nodejs",
+        "projectDetails": {
+          "length": "3.3 years",
+          "start": "Nov 2020",
+          "due": "Jan 2024"
+        }
       }
     },
     {
@@ -2587,7 +2620,12 @@
         ],
         "pathname": "leytonstone-loves-film",
         "url": "/projects/leytonstone-loves-film",
-        "filename": "leytonstone_loves_film"
+        "filename": "leytonstone_loves_film",
+        "projectDetails": {
+          "length": "3 months",
+          "start": "Apr 2021",
+          "due": "Jul 2021"
+        }
       }
     },
     {
@@ -2704,7 +2742,12 @@
         ],
         "pathname": "walthamstow-garden-party",
         "url": "/projects/walthamstow-garden-party",
-        "filename": "walthamstow_garden_party"
+        "filename": "walthamstow_garden_party",
+        "projectDetails": {
+          "length": "3 months",
+          "start": "Apr 2021",
+          "due": "Jul 2021"
+        }
       }
     },
     {
@@ -2770,7 +2813,7 @@
             "text": "#ffffff",
             "fill": "#626f86"
           },
-          "uses": 1
+          "uses": 2
         }
       ],
       "idLabels": [
@@ -2821,7 +2864,12 @@
         ],
         "pathname": "designing-account-areas-in-vuejs",
         "url": "/projects/designing-account-areas-in-vuejs",
-        "filename": "designing_account_areas_in_vuejs"
+        "filename": "designing_account_areas_in_vuejs",
+        "projectDetails": {
+          "length": "1 month",
+          "start": "Nov 2020",
+          "due": "Dec 2020"
+        }
       }
     },
     {
@@ -2935,7 +2983,12 @@
         ],
         "pathname": "moving-orchestras-with-after-effects",
         "url": "/projects/moving-orchestras-with-after-effects",
-        "filename": "moving_orchestras_with_after_effects"
+        "filename": "moving_orchestras_with_after_effects",
+        "projectDetails": {
+          "length": "3 months",
+          "start": "Feb 2017",
+          "due": "May 2017"
+        }
       }
     },
     {
@@ -3052,7 +3105,12 @@
         ],
         "pathname": "selling-designer-fabric-with-wordpress",
         "url": "/projects/selling-designer-fabric-with-wordpress",
-        "filename": "selling_designer_fabric_with_wordpress"
+        "filename": "selling_designer_fabric_with_wordpress",
+        "projectDetails": {
+          "length": "6.8 years",
+          "start": "Jan 2017",
+          "due": "Nov 2023"
+        }
       }
     }
   ],
@@ -3154,7 +3212,12 @@
         ],
         "pathname": "the-git-github-bootcamp",
         "url": "/articles/the-git-github-bootcamp",
-        "filename": "the_git_github_bootcamp"
+        "filename": "the_git_github_bootcamp",
+        "projectDetails": {
+          "length": "6 months",
+          "start": "Aug 2023",
+          "due": "Jan 2024"
+        }
       }
     },
     {
@@ -3305,7 +3368,12 @@
         ],
         "pathname": "problem-solving-basics",
         "url": "/articles/problem-solving-basics",
-        "filename": "problem_solving_basics"
+        "filename": "problem_solving_basics",
+        "projectDetails": {
+          "length": null,
+          "start": null,
+          "due": null
+        }
       }
     },
     {
@@ -3410,7 +3478,12 @@
         ],
         "pathname": "designing-account-areas-in-vuejs",
         "url": "/articles/designing-account-areas-in-vuejs",
-        "filename": "designing_account_areas_in_vuejs"
+        "filename": "designing_account_areas_in_vuejs",
+        "projectDetails": {
+          "length": "3.3 years",
+          "start": "Nov 2020",
+          "due": "Jan 2024"
+        }
       }
     },
     {
@@ -3510,7 +3583,12 @@
         ],
         "pathname": "resetting-the-barbican-with-nodejs",
         "url": "/articles/resetting-the-barbican-with-nodejs",
-        "filename": "resetting_the_barbican_with_nodejs"
+        "filename": "resetting_the_barbican_with_nodejs",
+        "projectDetails": {
+          "length": "3.3 years",
+          "start": "Nov 2020",
+          "due": "Jan 2024"
+        }
       }
     }
   ],
@@ -3575,7 +3653,7 @@
             "url": "https://open.spotify.com/artist/1GFkwGetxvXluztDxPShGo",
             "name": "Rina Mushonga"
           },
-          "popularity": 45,
+          "popularity": 44,
           "release_date": "2019-02-15",
           "url": "https://open.spotify.com/track/3OyedWlIaMQWvx1qAiILAA",
           "name": "Narcisc0"
@@ -3698,7 +3776,7 @@
             "url": "https://open.spotify.com/artist/6nbtlXRy0S6adYpDVoRdNi",
             "name": "Anna B Savage"
           },
-          "popularity": 17,
+          "popularity": 15,
           "release_date": "2021-01-29",
           "url": "https://open.spotify.com/track/4oUBPVqmxoP5u9HeXLU6To",
           "name": "Corncrakes"
@@ -3708,7 +3786,7 @@
             "url": "https://open.spotify.com/artist/5K9Px0eeCuYatmBGFfhSOA",
             "name": "Orlando Weeks"
           },
-          "popularity": 18,
+          "popularity": 19,
           "release_date": "2021-06-16",
           "url": "https://open.spotify.com/track/0Zga9iWiTp760vRHHLNxFF",
           "name": "Big Skies, Silly Faces"
@@ -3748,7 +3826,7 @@
             "url": "https://open.spotify.com/artist/6aDX1jzNVAI9enlQzW0Pgw",
             "name": "Moonchild Sanelly"
           },
-          "popularity": 14,
+          "popularity": 15,
           "release_date": "2021-09-02",
           "url": "https://open.spotify.com/track/5pDJ0QhZMlcUldSFQqFdNM",
           "name": "Undumpable"
@@ -3851,7 +3929,7 @@
             "url": "https://open.spotify.com/artist/3I3Fz1DeUY0icXFvOjbXm7",
             "name": "Methyl Ethel"
           },
-          "popularity": 21,
+          "popularity": 20,
           "release_date": "2022-02-18",
           "url": "https://open.spotify.com/track/4QI59IbUG9W8oUo4gWoBxw",
           "name": "Proof"
@@ -3901,7 +3979,7 @@
             "url": "https://open.spotify.com/artist/6Jrxnp0JgqmeUX1veU591p",
             "name": "Santigold"
           },
-          "popularity": 43,
+          "popularity": 42,
           "release_date": "2022-09-09",
           "url": "https://open.spotify.com/track/1vbayZm5FgNe4ou8BRNiDq",
           "name": "High Priestess"
@@ -3984,7 +4062,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 25,
+          "popularity": 24,
           "release_date": "2023-02-20",
           "url": "https://open.spotify.com/track/46PG96cJ6QF9Agy7Pu5BQb",
           "name": "Burnt Pictures"
@@ -4072,14 +4150,14 @@
     "futuro": {
       "name": "futuro",
       "version": "1.1.8",
-      "downloads": 186595,
+      "downloads": 186944,
       "url": "https://rubygems.org/gems/futuro",
       "color": "dodgerblue"
     },
     "reset": {
       "name": "barbican-reset",
       "version": "2.21.0",
-      "downloads": 11746,
+      "downloads": 11708,
       "url": "https://www.npmjs.com/package/barbican-reset",
       "color": "red"
     }

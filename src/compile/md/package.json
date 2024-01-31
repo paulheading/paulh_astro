@@ -1,5 +1,5 @@
 {
-  "name": "markdown",
+  "name": "compile-md",
   "version": "1.0.0",
   "description": "nunjucks markdown generator",
   "main": "gulpfile.js",
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "chokidar": "^3.5.3",
+    "fancy-log": "^2.0.0",
     "gulp": "^4.0.2",
     "gulp-nunjucks-render": "^2.2.3",
     "nunjucks": "^3.2.4"

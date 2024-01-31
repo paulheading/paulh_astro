@@ -1,6 +1,6 @@
 import { create, remove, convert } from "./trello/helpers.js";
 import { string, list } from "./trello/variables.js";
-import { contains, get } from "../scripts/helpers.js";
+import { contains, get } from "../../scripts/helpers.js";
 
 const getTrello = {};
 
