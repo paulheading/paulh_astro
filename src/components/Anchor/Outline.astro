@@ -1,7 +1,7 @@
 ---
 import { get } from "~scripts/helpers";
 
-const { size = 20, href = "/resume", id } = Astro.props;
+const { size = 20, href = "/resume", id, justify = "center" } = Astro.props;
 
 const anchorProps = {
   class: "anchor",
@@ -17,6 +17,7 @@ const vars = {
   padding: get.rems(padding),
   radius: get.rems(radius),
   size: get.rems(size),
+  justify,
 };
 ---
 
@@ -34,7 +35,8 @@ const vars = {
   @import "~styles/mixins";
 
   .outline {
-    text-align: center;
+    justify-content: var(--justify);
+    display: flex;
   }
 
   .anchor {
@@ -47,9 +49,7 @@ const vars = {
     display: inline-flex;
     align-items: center;
     gap: var(--padding);
-    margin-right: auto;
     fill: currentColor;
-    margin-left: auto;
     font-weight: bold;
     line-height: 1;
     color: black;

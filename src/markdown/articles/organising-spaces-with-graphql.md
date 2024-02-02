@@ -1,3 +1,7 @@
+Make a browser-based app for people who work at the [Barbican](https://en.wikipedia.org/wiki/Barbican_Centre) and want to book/see available spaces in the centre.
+
+---
+
 > I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the [Barbican](http://barbican.org.uk/), an arts centre in London.
 
 ### **The Project**

@@ -4,21 +4,36 @@ const nunjucksRender = require("gulp-nunjucks-render");
 
 const log = require("fancy-log");
 
-const src = "src/*.njk";
-
-const dest = "../../markdown";
-
 const renderSettings = {
   path: ["templates"],
   ext: ".md",
 };
 
-function defaultTask() {
+function process({ src = "*", dest = "", message = "markdown complete!" }) {
   return gulp
-    .src(src)
+    .src("src/" + src)
     .pipe(nunjucksRender({ ...renderSettings }))
-    .pipe(gulp.dest(dest))
-    .on("end", () => log("markdown compiled!"));
+    .pipe(gulp.dest("../../markdown/" + dest))
+    .on("end", () => log(message));
 }
 
-gulp.task("default", defaultTask);
+let subfolders = ["articles", "learning", "project", "role"];
+
+gulp.task("basic", process);
+
+subfolders.forEach((subfolder) =>
+  gulp.task(subfolder, () =>
+    process({
+      src: subfolder + "/*",
+      dest: subfolder,
+      message: subfolder + " complete!",
+    })
+  )
+);
+
+gulp.task("default", gulp.parallel("basic", ...subfolders));
+
+gulp.task("watch", function () {
+  gulp.watch(["src/*/*", "templates/*/*"], gulp.series("default"));
+  return;
+});

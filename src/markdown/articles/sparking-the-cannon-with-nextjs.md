@@ -1,4 +1,8 @@
-> I’m a web designer and developer whose learning to write more interesting stories and less complex code. This article is about a recent [freelance project](https://paulh.biz/resume).
+A brand refresh and new website for voiceover artist Stephanie Cannon. The new website must be fast, mobile-friendly and cohesively communicate her new brand.
+
+---
+
+> I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the [Barbican](http://barbican.org.uk/), an arts centre in London.
 
 ### The Project
 

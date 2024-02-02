@@ -1,0 +1,15 @@
+@mixin blockquote {
+  @include code-styles;
+  @include child-margins;
+  border: 1px solid $c-status-neutral-light;
+  background-color: $c-status-neutral-fade;
+  color: $c-status-neutral;
+
+  a {
+    @include focus {
+      @include single-box($c-status-neutral);
+      background-color: $c-status-neutral;
+      color: $c-status-neutral-fade;
+    }
+  }
+}

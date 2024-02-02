@@ -92,8 +92,7 @@ h6 {
 }
 
 blockquote {
-  @include code-styles;
-  @include child-margins;
+  @include blockquote;
 }
 
 p {
@@ -145,6 +144,8 @@ iframe {
 
 code {
   @include code-styles;
+  background-color: black;
+  color: $color-code;
   line-height: 1.75;
   font-size: 80%;
 }
@@ -161,11 +162,19 @@ button:not(:disabled) {
   cursor: pointer;
 }
 
-.page-row a {
-  @include focus {
-    @include gold-box;
+.page-row {
+  a {
+    @include focus {
+      @include gold-box;
+    }
+  }
+
+  blockquote {
+    @include blockquote;
   }
 }
+
+
 
 .overlay a {
   @include focus {

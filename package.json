@@ -7,6 +7,7 @@
     "compile:images": "cd src/compile/images && node index.js",
     "compile:pdf": "cd src/compile/pdf && node index.js",
     "compile:md": "cd src/compile/md && gulp",
+    "watch:md": "cd src/compile/md && gulp watch",
     "compile": "npm run compile:md && npm run compile:data && npm run compile:images && npm run compile:pdf",
     "dev": "astro dev",
     "start": "astro dev",

@@ -12,6 +12,7 @@
 @import "~styles/mixins/row";
 @import "~styles/mixins/spotify";
 @import "~styles/mixins/theme";
+@import "~styles/mixins/typography";
 
 @mixin size($value) {
   height: $value;

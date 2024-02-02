@@ -9,7 +9,7 @@ import PageInner from "~components/Page/Inner.astro";
 import PageRow from "~components/Page/Row.astro";
 import PageCard from "~components/Page/Card.astro";
 
-import OutlineButton from "~components/Button/Outline.astro";
+import OutlineAnchor from "~components/Anchor/Outline.astro";
 
 import Summary from "~markdown/summary.md";
 
@@ -46,8 +46,8 @@ const learningProps = {
 };
 
 const saveProps = {
-  id: "saveAsPDF",
-  align: "left",
+  href: "/paul-heading-resume-front-end-designer-developer.pdf",
+  justify: "flex-start",
   size: 14,
 };
 ---
@@ -60,7 +60,7 @@ const saveProps = {
       <PageRow content={{ padding: true, columns: 2 }}>
         <div>
           <div class="name">{paul.name}</div>
-          <OutlineButton {...saveProps}>Save as PDF</OutlineButton>
+          <OutlineAnchor {...saveProps}>Save as PDF</OutlineAnchor>
         </div>
         <div>
           <div class="location">{paul.location}</div>

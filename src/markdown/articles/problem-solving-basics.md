@@ -1,3 +1,7 @@
+Design is primarily about **communicating ideas and solving problems**. The ideas you communicate should in turn contribute to your desired outcome.
+
+---
+
 # Problem solving basics
 
 Design is primarily about **communicating ideas and solving problems**. The ideas you communicate should in turn contribute to your desired outcome.

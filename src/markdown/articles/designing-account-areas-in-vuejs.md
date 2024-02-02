@@ -1,3 +1,7 @@
+In February 2020, we redesigned the account dashboard for users of the Barbican [ticketing site](https://tickets.barbican.org.uk/).
+
+---
+
 > I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the [Barbican](http://barbican.org.uk/), an arts centre in London.
 
 <br>
@@ -29,7 +33,7 @@ Doing this meant we could improve fundamentals such as:
 - How meaningful interactions are  
    (ie. receiving confirmation that information has been saved on update)
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*iSO0-WYH22NWgefKnSnWWw.jpeg align="left")
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*iSO0-WYH22NWgefKnSnWWw.jpeg">
 
 _A view of the Barbican Centre from the lakeside. It is Europe’s largest art centre and home to a concert hall, 2 art galleries, 2 theatres, 3 cinemas, a rooftop conservatory and a residential estate._
 
@@ -45,7 +49,7 @@ Next, we ran crazy eights. For this exercise, each group member was asked to ske
 
 This process is designed to quickly generate simple ideas, which can then be iterated upon during the prototype stage.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*AnfnUpDO-iSNrsv-BHyY6Q.png align="left")
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*AnfnUpDO-iSNrsv-BHyY6Q.png">
 
 _Ideas for Crazy Eights are typically sketched on a single sheet of A4 paper._
 
@@ -67,7 +71,7 @@ I love how you can navigate this layout without extra menus. The browsing experi
 
 _The account area for the Tate Shop inspired much of our design work. The modular layout became a flexible foundation for our build._
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687271798440/39ccb8f3-27be-4003-9f89-f5e9fde3b352.png align="center")
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1687271798440/39ccb8f3-27be-4003-9f89-f5e9fde3b352.png">
 
 <br>
 
