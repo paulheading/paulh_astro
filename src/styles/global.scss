@@ -129,7 +129,7 @@ p:has(img:only-child) {
 
   +p:has(em:only-child) {
     background-color: $c-body-bg;
-    font-size: $font-size-small;
+    font-size: $font-size-caption;
     padding: $margin-paragraph;
   }
 }

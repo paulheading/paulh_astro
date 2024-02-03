@@ -16,7 +16,7 @@
 @mixin code-styles {
   @include code-setup;
   background-color: $color-code--background;
-  font-size: $font-size-small;
+  font-size: $font-size-caption;
   color: $color-code;
   line-height: 1.75;
 
