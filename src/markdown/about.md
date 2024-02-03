@@ -10,6 +10,8 @@ I've been a Front-End Developer since 2020 and a Designer for over 10 years. I w
 
 Before 2020, I worked as a [Designer](https://www.creativelivesinprogress.com/article/paul-heading) 👨‍🎨 in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican).
 
+<br>
+
 ### What have I made
 
 
@@ -23,6 +25,8 @@ My portfolio site is built using ~~[Next.js](https://nextjs.org)~~ the [Astro](h
 I also upload videos alongside projects for extra context. If you'd like to see more information on a particular project, please do let me know.
 
 Take a look at my [resume page](https://paulh.biz/resume) for more examples.
+
+<br>
 
 ### My journey so far
 

@@ -1,13 +1,14 @@
 ---
+import showdown from "showdown";
 import remove_markdown from "remove-markdown";
+import { parse } from "node-html-parser";
 
 import Layout from "~layouts/Main.astro";
-
 import PageOuter from "~components/Page/Outer.astro";
 import PageInner from "~components/Page/Inner.astro";
+import PageRow from "~components/Page/Row.astro";
 
-import Content from "~markdown/about.md";
-
+import content from "~markdown/about.md?raw";
 import description from "~markdown/summary.md?raw";
 
 import seo from "~data/seo.js";
@@ -16,12 +17,22 @@ const layoutProps = {
   title: seo.title("About"),
   description: remove_markdown(description),
 };
+
+const converter = new showdown.Converter({ strikethrough: true });
+
+let sections = converter.makeHtml(content);
+
+sections = sections.split("<p><br></p>");
 ---
 
 <Layout {...layoutProps}>
   <PageOuter>
     <PageInner>
-      <Content />
+      {
+        sections.map((section) => (
+          <PageRow content={{ padding: true }}>{parse(section)}</PageRow>
+        ))
+      }
     </PageInner>
   </PageOuter>
 </Layout>

@@ -34,6 +34,6 @@ subfolders.forEach((subfolder) =>
 gulp.task("default", gulp.parallel("basic", ...subfolders));
 
 gulp.task("watch", function () {
-  gulp.watch(["src/*/*", "templates/*/*"], gulp.series("default"));
+  gulp.watch(["src/*", "src/*/*", "templates/*/*"], gulp.series("default"));
   return;
 });

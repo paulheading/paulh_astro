@@ -4,33 +4,6 @@
 @import "~styles/mixins";
 @import "~styles/global/page-content";
 
-@mixin child-margins($margin: $margin-paragraph) {
-  margin: 0 0 $margin;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-
-@mixin code-styles {
-  background-color: $c-body-bg;
-  padding: $padding-row;
-  display: block;
-  margin: 0;
-}
-
-@mixin list-styles {
-  @include child-margins;
-  padding-left: $margin-paragraph;
-  font-weight: 400;
-}
-
-@mixin h-styles($margin: $margin-paragraph) {
-  @include child-margins($margin);
-  font-family: $font-family-headings;
-  line-height: $line-height-sm;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -163,7 +136,7 @@ button:not(:disabled) {
 }
 
 .page-row {
-  a {
+  a:not(.anchor) {
     @include focus {
       @include gold-box;
     }
@@ -173,8 +146,6 @@ button:not(:disabled) {
     @include blockquote;
   }
 }
-
-
 
 .overlay a {
   @include focus {
