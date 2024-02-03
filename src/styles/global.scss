@@ -117,14 +117,26 @@ iframe {
 
 code {
   @include code-styles;
-  background-color: black;
-  color: $color-code;
-  line-height: 1.75;
-  font-size: 80%;
+}
+
+pre {
+  @include code-styles;
+  overflow: scroll;
+}
+
+p:has(img:only-child) {
+  margin-bottom: 0;
+
+  +p:has(em:only-child) {
+    background-color: $c-body-bg;
+    font-size: $font-size-small;
+    padding: $margin-paragraph;
+  }
 }
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 .artwork svg {

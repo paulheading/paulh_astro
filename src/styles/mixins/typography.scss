@@ -6,11 +6,23 @@
   }
 }
 
-@mixin code-styles {
+@mixin code-setup {
   background-color: $c-body-bg;
   padding: $padding-row;
   display: block;
   margin: 0;
+}
+
+@mixin code-styles {
+  @include code-setup;
+  background-color: $color-code--background;
+  font-size: $font-size-small;
+  color: $color-code;
+  line-height: 1.75;
+
+  &.hljs {
+    padding: $padding-row;
+  }
 }
 
 @mixin list-styles {
@@ -26,7 +38,7 @@
 }
 
 @mixin blockquote {
-  @include code-styles;
+  @include code-setup;
   @include child-margins;
   border: 1px solid $c-status-neutral-light;
   background-color: $c-status-neutral-fade;

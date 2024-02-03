@@ -63,7 +63,9 @@ $c-status-success-fade: hsl(120, 30%, 95%);
 $c-status-success-light: hsl(120, 30%, 75%);
 $c-status-success: hsl(120, 30%, 37%);
 
-$color-code: #dcdcaa;
+$color-code: #d0d0d0;
+
+$color-code--background: #181818;
 
 $heroes: (
   "606d7": (bg: $c-606d7-bg,
