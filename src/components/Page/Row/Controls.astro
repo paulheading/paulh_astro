@@ -40,13 +40,12 @@ const nudgeSvg = (value = {}) => ({ position: "relative", ...value });
 <style lang="scss">
   @import "~styles/mixins";
 
-  $padding: $padding-row * 0.5;
+  $padding: toRem(16);
 
   .row-controls {
     position: relative;
 
     @include medium-down {
-      border-top: $border-dashed;
       padding-bottom: $padding;
       padding-top: $padding;
     }

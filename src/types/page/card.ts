@@ -16,6 +16,13 @@ interface primaryColor {
   fill: string;
 }
 
+interface projectDetails {
+  length: string;
+  start: string;
+  due: string;
+  status: string;
+}
+
 interface local {
   summary: string;
   desc: string;
@@ -25,6 +32,7 @@ interface local {
   pathname: string;
   url: string;
   filename: string;
+  projectDetails: projectDetails;
 }
 
 interface card {

@@ -4,6 +4,16 @@ import { DateTime } from "luxon";
 
 import colors from "./colors.js";
 
+const formatDate = (value) => value.toFormat("MMM yyyy");
+
+function formatDateFromISO(value) {
+  let result = DateTime.fromISO(value);
+
+  result = formatDate(result);
+
+  return result;
+}
+
 const create = {};
 
 /**
@@ -97,11 +107,7 @@ create.filename = function (value) {
   return value.replace(regex, "_");
 };
 
-create.projectDetails = function (card) {
-  let { dueComplete, due, start } = card;
-
-  if (!start) return { length: null, start: null, due: null };
-
+create.projectTimeline = function ({ start, due, dueComplete }) {
   start = DateTime.fromISO(start);
 
   due = !dueComplete ? DateTime.now() : DateTime.fromISO(due);
@@ -128,11 +134,82 @@ create.projectDetails = function (card) {
 
   if (!multipleYears) length = `${months} ${months != 1 ? "months" : "month"}`;
 
-  return {
-    length,
-    start: start.toFormat("MMM yyyy"),
-    due: due.toFormat("MMM yyyy"),
+  return { length, start: formatDate(start), due: formatDate(due) };
+};
+
+create.currentStatus = function (labels) {
+  let status = "Ongoing";
+
+  labels.forEach(function (label) {
+    if (label.name == "Paused") status = label.name;
+  });
+
+  return status;
+};
+
+create.projectStatus = function ({
+  due,
+  dueComplete,
+  dateLastActivity,
+  type,
+  labels,
+}) {
+  if (type == "article") {
+    return formatDateFromISO(dateLastActivity);
+  }
+
+  return dueComplete ? formatDateFromISO(due) : create.currentStatus(labels);
+};
+
+create.projectDetails = function (card) {
+  let { start, due, dueComplete, dateLastActivity, type, labels } = card;
+
+  if (!start) {
+    return {
+      length: null,
+      start: null,
+      due: null,
+      status: null,
+      labels: null,
+    };
+  }
+
+  let resultProps = { start, due, dueComplete };
+
+  let result = create.projectTimeline({ ...resultProps });
+
+  let statusProps = {
+    due,
+    dueComplete,
+    dateLastActivity,
+    type,
+    labels,
   };
+
+  result.status = create.projectStatus({ ...statusProps });
+
+  return result;
+};
+
+create.localLabels = function (labels, primary) {
+  labels = labels.filter(function (label) {
+    return label.name != "Paused";
+  });
+
+  return labels.map(function (label, index) {
+    label.style = "solid";
+
+    if (index > 0) {
+      label.style = "outline";
+      label.color = primary;
+    }
+
+    delete label.id;
+    delete label.idBoard;
+    delete label.uses;
+
+    return label;
+  });
 };
 
 create.localAttributes = function (card) {
@@ -142,9 +219,9 @@ create.localAttributes = function (card) {
 
   local.desc = card.desc ? create.desc(card.desc) : null;
 
-  local.labels = card.labels.map(({ name }) => name);
-
   local.primaryColor = card.labels[0].color;
+
+  local.labels = create.localLabels(card.labels, local.primaryColor);
 
   local.sections = local.desc ? create.sections(local.desc) : null;
 
@@ -162,6 +239,14 @@ create.localAttributes = function (card) {
   local.filename = create.filename(local.pathname);
 
   local.projectDetails = create.projectDetails(card);
+
+  if (card.type != "article") {
+    local.labels.push({
+      name: local.projectDetails.length,
+      color: local.primaryColor,
+      style: "outline",
+    });
+  }
 
   return local;
 };

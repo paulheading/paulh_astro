@@ -28,21 +28,24 @@ const layoutProps = {
 
 const paul = new create.person(details);
 
-const defaultProps = { controls: true, content: { columns: 3 } };
+const defaultProps = { content: { columns: 3 } };
 
 const projectProps = {
-  title: "Projects",
   ...defaultProps,
+  title: "Projects",
+  controls: true,
 };
 
 const rolesProps = {
-  title: "Roles",
   ...defaultProps,
+  title: "Roles",
+  controls: false,
 };
 
 const learningProps = {
-  title: "Learning",
   ...defaultProps,
+  title: "Learning",
+  controls: true,
 };
 
 const saveProps = {
@@ -81,23 +84,18 @@ const saveProps = {
       <PageRow {...projectProps}>
         {
           projects.map(function (card, index) {
-            let props = { card, index, countTime: true };
+            let props = { card, hidden: index > 3 };
             return <PageCard {...props} />;
           })
         }
       </PageRow>
       <PageRow {...rolesProps}>
-        {
-          roles.map(function (card, index) {
-            let props = { card, index, countTime: true };
-            return <PageCard {...props} />;
-          })
-        }
+        {roles.map((card) => <PageCard card={card} />)}
       </PageRow>
       <PageRow {...learningProps}>
         {
           learning.map(function (card, index) {
-            let props = { card, index, countTime: true };
+            let props = { card, hidden: index > 3 };
             return <PageCard {...props} />;
           })
         }
@@ -109,32 +107,22 @@ const saveProps = {
 <style lang="scss">
   @import "~styles/mixins";
 
-  @mixin mobile-bump {
-    @include medium-down {
-      margin-bottom: $padding-row * 0.5;
-    }
+  @mixin title-bump {
+    line-height: $line-height-sm;
+    margin-bottom: toRem(8);
   }
 
   .name {
-    @include mobile-bump;
+    @include title-bump;
     font-size: $h2-font-size;
 
     @include small-up {
       font-size: $h1-font-size;
     }
-
-    @include medium-down {
-      line-height: 1.3;
-    }
   }
 
   .title {
-    margin-bottom: $padding-row * 0.5;
+    @include title-bump;
     font-size: $h3-font-size;
-  }
-
-  .copy {
-    @include mobile-bump;
-    font-weight: normal;
   }
 </style>

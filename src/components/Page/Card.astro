@@ -1,7 +1,4 @@
 ---
-import { DateTime } from "luxon";
-import { calc } from "~scripts/helpers";
-
 import Labels from "~components/Labels.astro";
 import Label from "~components/Label.astro";
 
@@ -12,31 +9,28 @@ import type { card } from "~types/page/card";
 
 interface Props {
   card: card;
-  index: number;
-  countTime: boolean;
+  hidden: boolean;
 }
 
-interface containerProps {
-  "data-hidden"?: string;
+interface pageCardProps {
+  "data-hidden": boolean;
   "data-type": string;
   "data-id": string;
   class: string;
 }
 
-let { card, index, countTime = false } = Astro.props;
+let { card, hidden = false } = Astro.props;
 
-let { name, labels, dueComplete, local, start, due, type, dateLastActivity } =
-  card;
+let { name, local, type } = card;
 
-const containerProps: containerProps = {
+let { projectDetails, labels } = local;
+
+const pageCardProps: pageCardProps = {
+  "data-hidden": hidden,
   "data-type": type,
   "data-id": card.id,
-  class: "container",
+  class: "page-card",
 };
-
-if (type != "articles") {
-  containerProps["data-hidden"] = index >= 3 ? "true" : "false";
-}
 
 let nameProps = {
   href: local.url,
@@ -47,57 +41,33 @@ let summaryProps = {
   content: local.summary,
 };
 
-let lengthSettings = {
-  dueComplete,
-  due: DateTime.fromISO(due),
-  start: DateTime.fromISO(start),
+let dueCustomClass = projectDetails.status == "Paused" ? "paused" : null;
+
+let dueProps = {
+  "class:list": ["due", dueCustomClass],
 };
-
-let length = countTime ? calc.summary_length(lengthSettings) : null;
-
-function processDue() {
-  let isArticle = type == "article";
-
-  let date = DateTime.fromISO(isArticle ? dateLastActivity : due);
-
-  date = date.toFormat("MMM yyyy");
-
-  if (isArticle) return date;
-
-  return dueComplete ? date : "Ongoing";
-}
 ---
 
-<div {...containerProps}>
+<div {...pageCardProps}>
   <div class="label_wrap">
     <Labels>
       {
-        labels.map(function ({ name, color }, index) {
-          const props = {
-            style: "solid",
+        labels.map(function (label) {
+          let { name, style, color } = label;
+
+          let props = {
+            style,
             color,
           };
-
-          if (index > 0) {
-            props.style = "outline";
-            props.color = local.primaryColor;
-          }
 
           return <Label {...props}>{name}</Label>;
         })
       }
-      {
-        countTime && (
-          <Label color={local.primaryColor} style="outline">
-            {length}
-          </Label>
-        )
-      }
     </Labels>
   </div>
   <CardName {...nameProps} />
-  <div class="due">
-    {processDue}
+  <div {...dueProps}>
+    {projectDetails.status}
   </div>
   <CardSummary {...summaryProps} />
 </div>
@@ -105,19 +75,19 @@ function processDue() {
 <style lang="scss">
   @import "~styles/mixins";
 
-  .container {
+  .page-card {
     overflow: hidden;
 
     @include medium-down {
-      padding: ($padding-row * 1.25) $padding-row ($padding-row * 0.75);
+      padding: toRem(24) toRem(24) toRem(12);
     }
   }
 
-  .container[data-hidden] {
+  .page-card[data-hidden="true"] {
     display: none;
   }
 
-  .container:not([data-hidden]) + .container {
+  .page-card:not([data-hidden="true"]) + .page-card {
     @include medium-down {
       border-top: $border-dashed;
     }
@@ -132,5 +102,9 @@ function processDue() {
     margin-bottom: 0.5rem;
     font-style: italic;
     color: $c-gray-7;
+  }
+
+  .due.paused {
+    color: $c-status-error;
   }
 </style>

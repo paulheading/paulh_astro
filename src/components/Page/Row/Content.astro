@@ -1,10 +1,11 @@
 ---
-const { columns = 0, padding = false } = Astro.props;
+const { columns = 1, padding = false } = Astro.props;
 
 function createColumnClass(columns: number) {
-  if (columns == 2) return "double";
-  if (columns == 3) return "triple";
-  return "";
+  let classNames = ["single", "double", "triple"];
+  let columnsToIndex = columns - 1;
+
+  return classNames[columnsToIndex];
 }
 
 function createPropClasses(columns: number, padding: boolean) {
@@ -30,8 +31,6 @@ const props = {
   @import "~styles/mixins";
 
   @mixin row-content {
-    min-height: 3.5rem;
-
     @include medium-up {
       align-items: flex-start;
       gap: $padding-row;
