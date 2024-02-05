@@ -68,6 +68,7 @@ const saveProps = {
         <div>
           <div class="location">{paul.location}</div>
           <div class="email">{parse(paul.email.link)}</div>
+          <div class="dateCompiled">{projects.data.dateCompiled}</div>
         </div>
       </PageRow>
       <PageRow content={{ padding: true, columns: 2 }}>
@@ -83,18 +84,18 @@ const saveProps = {
       </PageRow>
       <PageRow {...projectProps}>
         {
-          projects.map(function (card, index) {
+          projects.cards.map(function (card, index) {
             let props = { card, hidden: index > 3 };
             return <PageCard {...props} />;
           })
         }
       </PageRow>
       <PageRow {...rolesProps}>
-        {roles.map((card) => <PageCard card={card} />)}
+        {roles.cards.map((card) => <PageCard card={card} />)}
       </PageRow>
       <PageRow {...learningProps}>
         {
-          learning.map(function (card, index) {
+          learning.cards.map(function (card, index) {
             let props = { card, hidden: index > 3 };
             return <PageCard {...props} />;
           })
@@ -107,9 +108,11 @@ const saveProps = {
 <style lang="scss">
   @import "~styles/mixins";
 
+  $margin-compiled: toRem(10);
+
   @mixin title-bump {
+    margin-bottom: $margin-compiled;
     line-height: $line-height-sm;
-    margin-bottom: toRem(8);
   }
 
   .name {
@@ -124,5 +127,11 @@ const saveProps = {
   .title {
     @include title-bump;
     font-size: $h3-font-size;
+  }
+
+  .dateCompiled {
+    font-weight: $font-weight-normal;
+    font-size: $font-size-caption;
+    margin-top: $margin-compiled;
   }
 </style>

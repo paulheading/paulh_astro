@@ -1,11 +1,13 @@
 ---
 import { projects } from "~data/layout.json";
 import Card from "~components/Desktop/Window/Trello/Card.astro";
+
+let { cards } = projects;
 ---
 
 <main>
   {
-    projects.map(function (project, index) {
+    cards.map(function (project, index) {
       const props = project;
 
       if (index >= 2) props.style = { display: "none" };

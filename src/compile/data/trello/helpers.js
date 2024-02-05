@@ -212,6 +212,11 @@ create.localLabels = function (labels, primary) {
   });
 };
 
+create.dateCompiled = function (value = "Updated on") {
+  let date = DateTime.now().toFormat("dd LLL yyyy");
+  return value + " " + date;
+};
+
 create.localAttributes = function (card) {
   let local = {};
 

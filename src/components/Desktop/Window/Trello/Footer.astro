@@ -4,7 +4,9 @@ import Next from "~components/Desktop/Window/Trello/Next.astro";
 
 import { projects } from "~data/layout.json";
 
-let totalPages = Math.ceil(projects.length / 2);
+let { cards } = projects;
+
+let totalPages = Math.ceil(cards.length / 2);
 ---
 
 <script src="~scripts/components/desktop/window/trello/footer.js"></script>

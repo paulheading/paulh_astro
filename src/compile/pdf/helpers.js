@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import { jsPDF } from "jspdf";
+import { DateTime } from "luxon";
 
 const $ = {};
 
@@ -9,15 +10,7 @@ $.title = "paul-heading-resume-front-end-designer-developer";
 
 $.website = "https://paulh.biz";
 
-let date = new Date();
-
-date = String(date).split(":");
-
-date = date[0];
-
-date = date.slice(0, -2);
-
-$.date_created = "Created on " + date;
+$.date_created = "Created on " + DateTime.now().toFormat("dd LLL yyyy");
 
 $.readFile = async function (path) {
   const data = await fs.readFile(path, "utf8");

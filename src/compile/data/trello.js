@@ -97,11 +97,20 @@ getTrello.cards = async function (type) {
 };
 
 getTrello.data = async function (type) {
+  let data = {
+    dateCompiled: create.dateCompiled(),
+  };
+
   let cards = await getTrello.cards(type);
 
   cards = cards.filter(({ labels }) => !contains.label(labels, "Local")); // remove local projects in production
 
-  return cards;
+  cards = cards.map(function (card) {
+    delete card.badges;
+    return card;
+  });
+
+  return { data, cards };
 };
 
 export default getTrello.data;

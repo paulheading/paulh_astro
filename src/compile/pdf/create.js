@@ -78,11 +78,14 @@ create.title = function (settings) {
 create.labels = function (labels, x, y) {
   let offsets = [];
 
-  labels.forEach((label) => offsets.push($.doc.getTextWidth(label) + 2));
+  labels.forEach(function (label) {
+    let textWidth = $.doc.getTextWidth(label.name);
+    return offsets.push(textWidth + 2);
+  });
 
   labels.forEach(function (label, index) {
     if (index > 0) x += offsets[index - 1];
-    $.doc.text(label, x, y);
+    $.doc.text(label.name, x, y);
   });
 };
 
@@ -94,8 +97,6 @@ create.content_column = function (content, index, y) {
   let { name, local, dueComplete } = content;
 
   let { labels, summary, url, projectDetails } = local;
-
-  labels.push(projectDetails.length);
 
   url = $.website + url;
 

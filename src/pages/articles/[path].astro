@@ -5,7 +5,7 @@ import { articles } from "~data/layout.json";
 import { get } from "~scripts/helpers";
 
 export function getStaticPaths() {
-  return get.StaticPaths(articles);
+  return get.StaticPaths(articles.cards);
 }
 
 const { name, local } = Astro.props;

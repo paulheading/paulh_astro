@@ -1,92 +1,29 @@
 {
-  "learning": [
-    {
-      "id": "6536ec32963aacd62d98943c",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
-        "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": null,
+  "learning": {
+    "data": {
+      "dateCompiled": "Updated on 05 Feb 2024"
+    },
+    "cards": [
+      {
+        "id": "6536ec32963aacd62d98943c",
+        "checkItemStates": [],
+        "closed": false,
         "dueComplete": false,
-        "start": "2023-08-14T07:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": false,
-      "dateLastActivity": "2024-01-25T15:59:30.657Z",
-      "desc": "```\nMaster rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n---\n\n# The Git and Github Bootcamp\n\nMaster rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n<br>\n\n### Why did I sign up?\n\nI use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.\n\n[##] 20% Complete\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": null,
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fb2640a3e5fc6395c87a038",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 33,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Udemy",
-          "color": {
-            "name": "blue",
-            "text": "#08336c",
-            "fill": "#579dff"
-          },
-          "style": "solid"
-        }
-      ],
-      "idLabels": [
-        "6536ece7ba06209fab3d3b81"
-      ],
-      "manualCoverAttachment": false,
-      "name": "The Git & Github Bootcamp",
-      "pos": 32767.5,
-      "shortLink": "zVmZy8fg",
-      "shortUrl": "https://trello.com/c/zVmZy8fg",
-      "start": "2023-08-14T07:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/zVmZy8fg/33-the-git-github-bootcamp",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
-      },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "The Git & Github Bootcamp",
-      "hero": false,
-      "type": "learning",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "Master rebasing, squashing, stashing, reflogs, blobs, trees, & more!",
-        "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p>Master rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
-        "primaryColor": {
-          "name": "blue",
-          "text": "#08336c",
-          "fill": "#579dff"
+        "dateLastActivity": "2024-01-25T15:59:30.657Z",
+        "desc": "```\nMaster rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n---\n\n# The Git and Github Bootcamp\n\nMaster rebasing, squashing, stashing, reflogs, blobs, trees, & more!\n\n<br>\n\n### Why did I sign up?\n\nI use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.\n\n[##] 20% Complete\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": null,
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fb2640a3e5fc6395c87a038",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 33,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Udemy",
@@ -96,119 +33,97 @@
               "fill": "#579dff"
             },
             "style": "solid"
-          },
-          {
-            "name": "6 months",
-            "color": {
-              "name": "blue",
-              "text": "#08336c",
-              "fill": "#579dff"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p>Master rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n",
-          "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>"
+        "idLabels": [
+          "6536ece7ba06209fab3d3b81"
         ],
-        "pathname": "the-git-github-bootcamp",
-        "url": "/learning/the-git-github-bootcamp",
-        "filename": "the_git_github_bootcamp",
-        "projectDetails": {
-          "length": "6 months",
-          "start": "Aug 2023",
-          "due": "Feb 2024",
-          "status": "Ongoing"
-        }
-      }
-    },
-    {
-      "id": "6536eec524c417764a9d00bb",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
+        "manualCoverAttachment": false,
+        "name": "The Git & Github Bootcamp",
+        "pos": 32767.5,
+        "shortLink": "zVmZy8fg",
+        "shortUrl": "https://trello.com/c/zVmZy8fg",
+        "start": "2023-08-14T07:00:00.000Z",
         "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": "2022-09-19T11:00:00.000Z",
+        "url": "https://trello.com/c/zVmZy8fg/33-the-git-github-bootcamp",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "The Git & Github Bootcamp",
+        "hero": false,
+        "type": "learning",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "Master rebasing, squashing, stashing, reflogs, blobs, trees, & more!",
+          "desc": "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p>Master rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>",
+          "primaryColor": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
+          "labels": [
+            {
+              "name": "Udemy",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "6 months",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"thegitandgithubbootcamp\">The Git and Github Bootcamp</h1>\n<p>Master rebasing, squashing, stashing, reflogs, blobs, trees, &amp; more!</p>\n",
+            "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I use git everyday and until recently always used a GUI. I feel this stopped me from building a concrete understanding of how the technology really works. I'm now much more comfortable working with git through a command line, as it was intended to be used.</p>\n<p>[##] 20% Complete</p>"
+          ],
+          "pathname": "the-git-github-bootcamp",
+          "url": "/learning/the-git-github-bootcamp",
+          "filename": "the_git_github_bootcamp",
+          "projectDetails": {
+            "length": "6 months",
+            "start": "Aug 2023",
+            "due": "Feb 2024",
+            "status": "Ongoing"
+          }
+        }
+      },
+      {
+        "id": "6536eec524c417764a9d00bb",
+        "checkItemStates": [],
+        "closed": false,
         "dueComplete": true,
-        "start": "2021-09-19T07:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": true,
-      "dateLastActivity": "2024-01-25T15:57:11.917Z",
-      "desc": "```\nMaster advanced nodejs testing from scratch, jest, cypress, mocha and more.\n\n---\n\n# The complete guide to testing javascript\n\nMaster advanced nodejs testing from scratch, jest, cypress, mocha and more.\n\n<br>\n\n### Why did I sign up?\n\nThe more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!\n\n[##########] 100% Complete\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2022-09-19T11:00:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fb2640a3e5fc6395c87a038",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 35,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Udemy",
-          "color": {
-            "name": "blue",
-            "text": "#08336c",
-            "fill": "#579dff"
-          },
-          "style": "solid"
-        }
-      ],
-      "idLabels": [
-        "6536ece7ba06209fab3d3b81"
-      ],
-      "manualCoverAttachment": false,
-      "name": "The complete guide to testing javascript",
-      "pos": 40959.375,
-      "shortLink": "MMCKi36K",
-      "shortUrl": "https://trello.com/c/MMCKi36K",
-      "start": "2021-09-19T07:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/MMCKi36K/35-the-complete-guide-to-testing-javascript",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
-      },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "The complete guide to testing javascript",
-      "hero": false,
-      "type": "learning",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "Master advanced nodejs testing from scratch, jest, cypress, mocha and more.",
-        "desc": "<h1 id=\"thecompleteguidetotestingjavascript\">The complete guide to testing javascript</h1>\n<p>Master advanced nodejs testing from scratch, jest, cypress, mocha and more.</p>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>",
-        "primaryColor": {
-          "name": "blue",
-          "text": "#08336c",
-          "fill": "#579dff"
+        "dateLastActivity": "2024-01-25T15:57:11.917Z",
+        "desc": "```\nMaster advanced nodejs testing from scratch, jest, cypress, mocha and more.\n\n---\n\n# The complete guide to testing javascript\n\nMaster advanced nodejs testing from scratch, jest, cypress, mocha and more.\n\n<br>\n\n### Why did I sign up?\n\nThe more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!\n\n[##########] 100% Complete\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": "2022-09-19T11:00:00.000Z",
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fb2640a3e5fc6395c87a038",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 35,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Udemy",
@@ -218,119 +133,97 @@
               "fill": "#579dff"
             },
             "style": "solid"
-          },
-          {
-            "name": "1 year",
-            "color": {
-              "name": "blue",
-              "text": "#08336c",
-              "fill": "#579dff"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"thecompleteguidetotestingjavascript\">The complete guide to testing javascript</h1>\n<p>Master advanced nodejs testing from scratch, jest, cypress, mocha and more.</p>\n",
-          "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>"
+        "idLabels": [
+          "6536ece7ba06209fab3d3b81"
         ],
-        "pathname": "the-complete-guide-to-testing-javascript",
-        "url": "/learning/the-complete-guide-to-testing-javascript",
-        "filename": "the_complete_guide_to_testing_javascript",
-        "projectDetails": {
-          "length": "1 year",
-          "start": "Sep 2021",
-          "due": "Sep 2022",
-          "status": "Sep 2022"
-        }
-      }
-    },
-    {
-      "id": "65412d237c24936104ffad7e",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
+        "manualCoverAttachment": false,
+        "name": "The complete guide to testing javascript",
+        "pos": 40959.375,
+        "shortLink": "MMCKi36K",
+        "shortUrl": "https://trello.com/c/MMCKi36K",
+        "start": "2021-09-19T07:00:00.000Z",
         "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": null,
-        "dueComplete": false,
-        "start": "2023-05-03T07:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": false,
-      "dateLastActivity": "2024-01-25T15:52:04.266Z",
-      "desc": "```\n<a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!\n\n---\n\n# Professional Learning Path\n\n<a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!\n\n<br>\n\n### What did I learn?\n\n<a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:\n\n- <a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a>\n- <a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a>\n- <a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a>\n- <a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a>\n- <a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a>\n- <a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a>\n- <a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a>\n\nStill in progress:\n\n- <a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a>\n- <a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a>\n\n<br>\n\n### Why did I sign up?\n\nBecause I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.\n\n[########] 80% Complete\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": null,
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fb2640a3e5fc6395c87a038",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 37,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Frontend Masters",
-          "color": {
+        "url": "https://trello.com/c/MMCKi36K/35-the-complete-guide-to-testing-javascript",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "The complete guide to testing javascript",
+        "hero": false,
+        "type": "learning",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "Master advanced nodejs testing from scratch, jest, cypress, mocha and more.",
+          "desc": "<h1 id=\"thecompleteguidetotestingjavascript\">The complete guide to testing javascript</h1>\n<p>Master advanced nodejs testing from scratch, jest, cypress, mocha and more.</p>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>",
+          "primaryColor": {
             "name": "blue",
             "text": "#08336c",
             "fill": "#579dff"
           },
-          "style": "solid"
+          "labels": [
+            {
+              "name": "Udemy",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "1 year",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"thecompleteguidetotestingjavascript\">The complete guide to testing javascript</h1>\n<p>Master advanced nodejs testing from scratch, jest, cypress, mocha and more.</p>\n",
+            "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>The more I write code, the more I appreciate how impossible it is to test by hand. Time to learn some automation!</p>\n<p>[##########] 100% Complete</p>"
+          ],
+          "pathname": "the-complete-guide-to-testing-javascript",
+          "url": "/learning/the-complete-guide-to-testing-javascript",
+          "filename": "the_complete_guide_to_testing_javascript",
+          "projectDetails": {
+            "length": "1 year",
+            "start": "Sep 2021",
+            "due": "Sep 2022",
+            "status": "Sep 2022"
+          }
         }
-      ],
-      "idLabels": [
-        "65412d5a15e62081a8a2338f"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Professional Learning Path",
-      "pos": 45055.3125,
-      "shortLink": "u0NiT1F2",
-      "shortUrl": "https://trello.com/c/u0NiT1F2",
-      "start": "2023-05-03T07:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/u0NiT1F2/37-professional-learning-path",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
       },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Professional Learning Path",
-      "hero": false,
-      "type": "learning",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "Frontend Masters hosts learning paths to expand your abilities as a well-rounded engineer!",
-        "desc": "<h1 id=\"professionallearningpath\">Professional Learning Path</h1>\n<p><a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!</p>\n<p><br></p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a></li>\n<li><a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a></li>\n<li><a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a></li>\n<li><a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a></li>\n</ul>\n<p>Still in progress:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Because I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.</p>\n<p>[########] 80% Complete</p>",
-        "primaryColor": {
-          "name": "blue",
-          "text": "#08336c",
-          "fill": "#579dff"
+      {
+        "id": "65412d237c24936104ffad7e",
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": false,
+        "dateLastActivity": "2024-01-25T15:52:04.266Z",
+        "desc": "```\n<a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!\n\n---\n\n# Professional Learning Path\n\n<a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!\n\n<br>\n\n### What did I learn?\n\n<a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:\n\n- <a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a>\n- <a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a>\n- <a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a>\n- <a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a>\n- <a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a>\n- <a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a>\n- <a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a>\n\nStill in progress:\n\n- <a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a>\n- <a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a>\n\n<br>\n\n### Why did I sign up?\n\nBecause I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.\n\n[########] 80% Complete\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": null,
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fb2640a3e5fc6395c87a038",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 37,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Frontend Masters",
@@ -340,120 +233,98 @@
               "fill": "#579dff"
             },
             "style": "solid"
-          },
-          {
-            "name": "9 months",
-            "color": {
-              "name": "blue",
-              "text": "#08336c",
-              "fill": "#579dff"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"professionallearningpath\">Professional Learning Path</h1>\n<p><a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!</p>\n",
-          "\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a></li>\n<li><a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a></li>\n<li><a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a></li>\n<li><a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a></li>\n</ul>\n<p>Still in progress:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a></li>\n</ul>\n",
-          "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Because I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.</p>\n<p>[########] 80% Complete</p>"
+        "idLabels": [
+          "65412d5a15e62081a8a2338f"
         ],
-        "pathname": "professional-learning-path",
-        "url": "/learning/professional-learning-path",
-        "filename": "professional_learning_path",
-        "projectDetails": {
-          "length": "9 months",
-          "start": "May 2023",
-          "due": "Feb 2024",
-          "status": "Ongoing"
-        }
-      }
-    },
-    {
-      "id": "6536edf85ef64e7bba016992",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
+        "manualCoverAttachment": false,
+        "name": "Professional Learning Path",
+        "pos": 45055.3125,
+        "shortLink": "u0NiT1F2",
+        "shortUrl": "https://trello.com/c/u0NiT1F2",
+        "start": "2023-05-03T07:00:00.000Z",
         "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": "2021-02-28T12:00:00.000Z",
-        "dueComplete": true,
-        "start": "2020-02-28T08:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": true,
-      "dateLastActivity": "2023-12-30T17:29:59.160Z",
-      "desc": "```\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n---\n\n# Javascript: Understanding the Weird Parts\n\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n<br>\n\n### Why did I sign up?\n\nTo build an understanding of the core concepts that shape the language.\n\n[##########] 100% Complete\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2021-02-28T12:00:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fb2640a3e5fc6395c87a038",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 34,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Udemy",
-          "color": {
+        "url": "https://trello.com/c/u0NiT1F2/37-professional-learning-path",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "Professional Learning Path",
+        "hero": false,
+        "type": "learning",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "Frontend Masters hosts learning paths to expand your abilities as a well-rounded engineer!",
+          "desc": "<h1 id=\"professionallearningpath\">Professional Learning Path</h1>\n<p><a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!</p>\n<p><br></p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a></li>\n<li><a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a></li>\n<li><a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a></li>\n<li><a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a></li>\n</ul>\n<p>Still in progress:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Because I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.</p>\n<p>[########] 80% Complete</p>",
+          "primaryColor": {
             "name": "blue",
             "text": "#08336c",
             "fill": "#579dff"
           },
-          "style": "solid"
+          "labels": [
+            {
+              "name": "Frontend Masters",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "9 months",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"professionallearningpath\">Professional Learning Path</h1>\n<p><a href=\"https://frontendmasters.com\">Frontend Masters</a> hosts learning paths to expand your abilities as a well-rounded engineer!</p>\n",
+            "\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://frontendmasters.com/learn/professional/\">The course</a> is comprised of 9 core units:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/javascript-hard-parts-v2/\">JavaScript: The Hard Parts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/deep-javascript-v3/\">Deep JavaScript Foundations, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/complete-react-v8/\">Complete Intro to React, v8</a></li>\n<li><a href=\"https://frontendmasters.com/courses/css-grid-flexbox-v2/\">CSS Grid & Flexbox for Responsive Layouts, v2</a></li>\n<li><a href=\"https://frontendmasters.com/courses/vanilla-js-apps/\">Vanilla JS: You Might Not Need a Framework</a></li>\n<li><a href=\"https://frontendmasters.com/courses/web-perf/\">Web Performance Fundamentals</a></li>\n<li><a href=\"https://frontendmasters.com/courses/functional-first-steps/\">Functional JavaScript First Steps</a></li>\n</ul>\n<p>Still in progress:</p>\n<ul>\n<li><a href=\"https://frontendmasters.com/courses/fullstack-v3/\">Full Stack for Front-End Engineers, v3</a></li>\n<li><a href=\"https://frontendmasters.com/courses/typescript-v3/\">TypeScript Fundamentals, v3</a></li>\n</ul>\n",
+            "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Because I'm a lifelong learner! Plus a wider understanding of technologies will feed my ability to find creative solutions in my work.</p>\n<p>[########] 80% Complete</p>"
+          ],
+          "pathname": "professional-learning-path",
+          "url": "/learning/professional-learning-path",
+          "filename": "professional_learning_path",
+          "projectDetails": {
+            "length": "9 months",
+            "start": "May 2023",
+            "due": "Feb 2024",
+            "status": "Ongoing"
+          }
         }
-      ],
-      "idLabels": [
-        "6536ece7ba06209fab3d3b81"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Javascript: Understanding the Weird Parts",
-      "pos": 49151.25,
-      "shortLink": "CWS6pYLb",
-      "shortUrl": "https://trello.com/c/CWS6pYLb",
-      "start": "2020-02-28T08:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/CWS6pYLb/34-javascript-understanding-the-weird-parts",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
       },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Javascript: Understanding the Weird Parts",
-      "hero": false,
-      "type": "learning",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
-        "desc": "<h1 id=\"javascriptunderstandingtheweirdparts\">Javascript: Understanding the Weird Parts</h1>\n<p>An <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.</p>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[##########] 100% Complete</p>",
-        "primaryColor": {
-          "name": "blue",
-          "text": "#08336c",
-          "fill": "#579dff"
+      {
+        "id": "6536edf85ef64e7bba016992",
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": true,
+        "dateLastActivity": "2023-12-30T17:29:59.160Z",
+        "desc": "```\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n---\n\n# Javascript: Understanding the Weird Parts\n\nAn <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.\n\n<br>\n\n### Why did I sign up?\n\nTo build an understanding of the core concepts that shape the language.\n\n[##########] 100% Complete\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": "2021-02-28T12:00:00.000Z",
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fb2640a3e5fc6395c87a038",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 34,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Udemy",
@@ -463,119 +334,97 @@
               "fill": "#579dff"
             },
             "style": "solid"
-          },
-          {
-            "name": "1 year",
-            "color": {
-              "name": "blue",
-              "text": "#08336c",
-              "fill": "#579dff"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"javascriptunderstandingtheweirdparts\">Javascript: Understanding the Weird Parts</h1>\n<p>An <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.</p>\n",
-          "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[##########] 100% Complete</p>"
+        "idLabels": [
+          "6536ece7ba06209fab3d3b81"
         ],
-        "pathname": "javascript-understanding-the-weird-parts",
-        "url": "/learning/javascript-understanding-the-weird-parts",
-        "filename": "javascript_understanding_the_weird_parts",
-        "projectDetails": {
-          "length": "1 year",
-          "start": "Feb 2020",
-          "due": "Feb 2021",
-          "status": "Feb 2021"
-        }
-      }
-    },
-    {
-      "id": "5fb2641a2db4d70a004f4556",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
+        "manualCoverAttachment": false,
+        "name": "Javascript: Understanding the Weird Parts",
+        "pos": 49151.25,
+        "shortLink": "CWS6pYLb",
+        "shortUrl": "https://trello.com/c/CWS6pYLb",
+        "start": "2020-02-28T08:00:00.000Z",
         "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": "2020-10-01T10:36:00.000Z",
-        "dueComplete": true,
-        "start": "2017-11-01T08:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": true,
-      "dateLastActivity": "2023-12-30T17:29:24.540Z",
-      "desc": "```\nIn early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.\n\n---\n\n# Full-Stack Javascript Techdegree\n\nIn early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.\n\n<br>\n\n### What did I learn?\n\n<a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:\n\n- <a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a>\n\n<br>\n\n### Why did I sign up?\n\nI retrained for 2 reasons:\n\n- More control in the design/build process\n- Career opportunities\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2020-10-01T10:36:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fb2640a3e5fc6395c87a038",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 11,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Treehouse",
-          "color": {
+        "url": "https://trello.com/c/CWS6pYLb/34-javascript-understanding-the-weird-parts",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "Javascript: Understanding the Weird Parts",
+        "hero": false,
+        "type": "learning",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
+          "desc": "<h1 id=\"javascriptunderstandingtheweirdparts\">Javascript: Understanding the Weird Parts</h1>\n<p>An <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.</p>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[##########] 100% Complete</p>",
+          "primaryColor": {
             "name": "blue",
             "text": "#08336c",
             "fill": "#579dff"
           },
-          "style": "solid"
+          "labels": [
+            {
+              "name": "Udemy",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "1 year",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"javascriptunderstandingtheweirdparts\">Javascript: Understanding the Weird Parts</h1>\n<p>An <a href=\"https://www.udemy.com/course/understand-javascript/\">advanced JavaScript course</a> for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.</p>\n",
+            "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>To build an understanding of the core concepts that shape the language.</p>\n<p>[##########] 100% Complete</p>"
+          ],
+          "pathname": "javascript-understanding-the-weird-parts",
+          "url": "/learning/javascript-understanding-the-weird-parts",
+          "filename": "javascript_understanding_the_weird_parts",
+          "projectDetails": {
+            "length": "1 year",
+            "start": "Feb 2020",
+            "due": "Feb 2021",
+            "status": "Feb 2021"
+          }
         }
-      ],
-      "idLabels": [
-        "6214cc8307e4ec530e71135d"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Full-Stack Javascript Techdegree",
-      "pos": 65535,
-      "shortLink": "IzBQxk00",
-      "shortUrl": "https://trello.com/c/IzBQxk00",
-      "start": "2017-11-01T08:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/IzBQxk00/11-full-stack-javascript-techdegree",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
       },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Full-Stack Javascript Techdegree",
-      "hero": false,
-      "type": "learning",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "In early 2018 I decided to retrain as a developer, studying alongside my full-time job as Digital Design Manager. I enrolled in the Full-Stack Javascript Techdegree at teamtreehouse.com.",
-        "desc": "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<p>In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.</p>\n<p><br></p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:</p>\n<ul>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>",
-        "primaryColor": {
-          "name": "blue",
-          "text": "#08336c",
-          "fill": "#579dff"
+      {
+        "id": "5fb2641a2db4d70a004f4556",
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": true,
+        "dateLastActivity": "2023-12-30T17:29:24.540Z",
+        "desc": "```\nIn early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.\n\n---\n\n# Full-Stack Javascript Techdegree\n\nIn early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.\n\n<br>\n\n### What did I learn?\n\n<a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:\n\n- <a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a>\n- <a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a>\n\n<br>\n\n### Why did I sign up?\n\nI retrained for 2 reasons:\n\n- More control in the design/build process\n- Career opportunities\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": "2020-10-01T10:36:00.000Z",
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fb2640a3e5fc6395c87a038",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 11,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Treehouse",
@@ -585,120 +434,98 @@
               "fill": "#579dff"
             },
             "style": "solid"
-          },
-          {
-            "name": "2.9 years",
-            "color": {
-              "name": "blue",
-              "text": "#08336c",
-              "fill": "#579dff"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<p>In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.</p>\n",
-          "\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:</p>\n<ul>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a></li>\n</ul>\n",
-          "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>"
+        "idLabels": [
+          "6214cc8307e4ec530e71135d"
         ],
-        "pathname": "full-stack-javascript-techdegree",
-        "url": "/learning/full-stack-javascript-techdegree",
-        "filename": "full_stack_javascript_techdegree",
-        "projectDetails": {
-          "length": "2.9 years",
-          "start": "Nov 2017",
-          "due": "Oct 2020",
-          "status": "Oct 2020"
-        }
-      }
-    },
-    {
-      "id": "6536eef09c26c6e1eb245536",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
+        "manualCoverAttachment": false,
+        "name": "Full-Stack Javascript Techdegree",
+        "pos": 65535,
+        "shortLink": "IzBQxk00",
+        "shortUrl": "https://trello.com/c/IzBQxk00",
+        "start": "2017-11-01T08:00:00.000Z",
         "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": null,
-        "dueComplete": false,
-        "start": "2019-01-06T08:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": false,
-      "dateLastActivity": "2023-12-30T17:29:43.356Z",
-      "desc": "```\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n---\n\n# HTML5 Game from scratch step by step learning JavaScript\n\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n<br>\n\n### Why did I sign up?\n\nMaking games is fun! And this is a great way to learn the language.\n\n[##########] 100% Complete\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": null,
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fb2640a3e5fc6395c87a038",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 36,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Udemy",
-          "color": {
+        "url": "https://trello.com/c/IzBQxk00/11-full-stack-javascript-techdegree",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "Full-Stack Javascript Techdegree",
+        "hero": false,
+        "type": "learning",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "In early 2018 I decided to retrain as a developer, studying alongside my full-time job as Digital Design Manager. I enrolled in the Full-Stack Javascript Techdegree at teamtreehouse.com.",
+          "desc": "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<p>In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.</p>\n<p><br></p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:</p>\n<ul>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>",
+          "primaryColor": {
             "name": "blue",
             "text": "#08336c",
             "fill": "#579dff"
           },
-          "style": "solid"
+          "labels": [
+            {
+              "name": "Treehouse",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "2.9 years",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"fullstackjavascripttechdegree\">Full-Stack Javascript Techdegree</h1>\n<p>In early 2018 I decided to retrain as a developer, studying alongside my full-time job as <a href=\"/role/design-manager\">Digital Design Manager</a>. I enrolled in the <a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">Full-Stack Javascript Techdegree</a> at teamtreehouse.com.</p>\n",
+            "\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p><a href=\"https://teamtreehouse.com/techdegree/full-stack-javascript\">The course</a> is comprised of 10 units:</p>\n<ul>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskOne\">A Random Quote Generator</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTwo\">Data Pagination and Filtering</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskThree\">Interactive Form</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFour\">OOP Game Show App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskFive\">Public API Requests</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSix\">Static Node.js and Express Site</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskSeven\">React Gallery App</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskEight\">SQL Library Manager</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskNine\">REST API</a></li>\n<li><a href=\"https://github.com/paulheading/TreehouseTaskTen\">Full Stack App with React and REST API</a></li>\n</ul>\n",
+            "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>I retrained for 2 reasons:</p>\n<ul>\n<li>More control in the design/build process</li>\n<li>Career opportunities</li>\n</ul>"
+          ],
+          "pathname": "full-stack-javascript-techdegree",
+          "url": "/learning/full-stack-javascript-techdegree",
+          "filename": "full_stack_javascript_techdegree",
+          "projectDetails": {
+            "length": "2.9 years",
+            "start": "Nov 2017",
+            "due": "Oct 2020",
+            "status": "Oct 2020"
+          }
         }
-      ],
-      "idLabels": [
-        "6536ece7ba06209fab3d3b81"
-      ],
-      "manualCoverAttachment": false,
-      "name": "HTML5 Game from scratch step by step learning JavaScript",
-      "pos": 98303,
-      "shortLink": "Bwy1DOtA",
-      "shortUrl": "https://trello.com/c/Bwy1DOtA",
-      "start": "2019-01-06T08:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/Bwy1DOtA/36-html5-game-from-scratch-step-by-step-learning-javascript",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
       },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "HTML5 Game from scratch step by step learning JavaScript",
-      "hero": false,
-      "type": "learning",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "Learn how to create HTML5 and JavaScript games from scratch Step by step tutorials with real HTML5 code examples.",
-        "desc": "<h1 id=\"html5gamefromscratchstepbysteplearningjavascript\">HTML5 Game from scratch step by step learning JavaScript</h1>\n<p>Learn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.</p>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[##########] 100% Complete</p>",
-        "primaryColor": {
-          "name": "blue",
-          "text": "#08336c",
-          "fill": "#579dff"
+      {
+        "id": "6536eef09c26c6e1eb245536",
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": false,
+        "dateLastActivity": "2023-12-30T17:29:43.356Z",
+        "desc": "```\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n---\n\n# HTML5 Game from scratch step by step learning JavaScript\n\nLearn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.\n\n<br>\n\n### Why did I sign up?\n\nMaking games is fun! And this is a great way to learn the language.\n\n[##########] 100% Complete\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": null,
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fb2640a3e5fc6395c87a038",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 36,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Udemy",
@@ -708,119 +535,97 @@
               "fill": "#579dff"
             },
             "style": "solid"
-          },
-          {
-            "name": "5.1 years",
-            "color": {
-              "name": "blue",
-              "text": "#08336c",
-              "fill": "#579dff"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"html5gamefromscratchstepbysteplearningjavascript\">HTML5 Game from scratch step by step learning JavaScript</h1>\n<p>Learn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.</p>\n",
-          "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[##########] 100% Complete</p>"
+        "idLabels": [
+          "6536ece7ba06209fab3d3b81"
         ],
-        "pathname": "html5-game-from-scratch-step-by-step-learning-javascript",
-        "url": "/learning/html5-game-from-scratch-step-by-step-learning-javascript",
-        "filename": "html5_game_from_scratch_step_by_step_learning_javascript",
-        "projectDetails": {
-          "length": "5.1 years",
-          "start": "Jan 2019",
-          "due": "Feb 2024",
-          "status": "Ongoing"
-        }
-      }
-    },
-    {
-      "id": "5fb26430a9be1e2de6e583b7",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
+        "manualCoverAttachment": false,
+        "name": "HTML5 Game from scratch step by step learning JavaScript",
+        "pos": 98303,
+        "shortLink": "Bwy1DOtA",
+        "shortUrl": "https://trello.com/c/Bwy1DOtA",
+        "start": "2019-01-06T08:00:00.000Z",
         "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": "2009-06-01T10:36:00.000Z",
-        "dueComplete": true,
-        "start": "2006-06-01T07:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": true,
-      "dateLastActivity": "2023-12-30T17:28:54.482Z",
-      "desc": "```\nI began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show.\n\n---\n\n# BA History\n\nI began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.\n\n<br>\n\n### What did I learn?\n\nI learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2009-06-01T10:36:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fb2640a3e5fc6395c87a038",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 13,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Goldsmiths",
-          "color": {
+        "url": "https://trello.com/c/Bwy1DOtA/36-html5-game-from-scratch-step-by-step-learning-javascript",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "HTML5 Game from scratch step by step learning JavaScript",
+        "hero": false,
+        "type": "learning",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "Learn how to create HTML5 and JavaScript games from scratch Step by step tutorials with real HTML5 code examples.",
+          "desc": "<h1 id=\"html5gamefromscratchstepbysteplearningjavascript\">HTML5 Game from scratch step by step learning JavaScript</h1>\n<p>Learn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.</p>\n<p><br></p>\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[##########] 100% Complete</p>",
+          "primaryColor": {
             "name": "blue",
             "text": "#08336c",
             "fill": "#579dff"
           },
-          "style": "solid"
+          "labels": [
+            {
+              "name": "Udemy",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "5.1 years",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"html5gamefromscratchstepbysteplearningjavascript\">HTML5 Game from scratch step by step learning JavaScript</h1>\n<p>Learn how to <a href=\"https://www.udemy.com/course/understand-javascript/\">create HTML5 and JavaScript</a> games from scratch Step by step tutorials with real HTML5 code examples.</p>\n",
+            "\n<h3 id=\"whydidisignup\">Why did I sign up?</h3>\n<p>Making games is fun! And this is a great way to learn the language.</p>\n<p>[##########] 100% Complete</p>"
+          ],
+          "pathname": "html5-game-from-scratch-step-by-step-learning-javascript",
+          "url": "/learning/html5-game-from-scratch-step-by-step-learning-javascript",
+          "filename": "html5_game_from_scratch_step_by_step_learning_javascript",
+          "projectDetails": {
+            "length": "5.1 years",
+            "start": "Jan 2019",
+            "due": "Feb 2024",
+            "status": "Ongoing"
+          }
         }
-      ],
-      "idLabels": [
-        "6214cc35d8fa632b682f3e9e"
-      ],
-      "manualCoverAttachment": false,
-      "name": "BA History",
-      "pos": 196607,
-      "shortLink": "Xf9TrWyD",
-      "shortUrl": "https://trello.com/c/Xf9TrWyD",
-      "start": "2006-06-01T07:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/Xf9TrWyD/13-ba-history",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
       },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "BA History",
-      "hero": false,
-      "type": "learning",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "I began creating design work for friends projects while studying History at Goldsmiths University. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show.",
-        "desc": "<h1 id=\"bahistory\">BA History</h1>\n<p>I began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.</p>\n<p><br></p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>I learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.</p>",
-        "primaryColor": {
-          "name": "blue",
-          "text": "#08336c",
-          "fill": "#579dff"
+      {
+        "id": "5fb26430a9be1e2de6e583b7",
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": true,
+        "dateLastActivity": "2023-12-30T17:28:54.482Z",
+        "desc": "```\nI began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show.\n\n---\n\n# BA History\n\nI began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.\n\n<br>\n\n### What did I learn?\n\nI learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": "2009-06-01T10:36:00.000Z",
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fb2640a3e5fc6395c87a038",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 13,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Goldsmiths",
@@ -830,121 +635,104 @@
               "fill": "#579dff"
             },
             "style": "solid"
-          },
-          {
-            "name": "3 years",
-            "color": {
-              "name": "blue",
-              "text": "#08336c",
-              "fill": "#579dff"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"bahistory\">BA History</h1>\n<p>I began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.</p>\n",
-          "\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>I learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.</p>"
+        "idLabels": [
+          "6214cc35d8fa632b682f3e9e"
         ],
-        "pathname": "ba-history",
-        "url": "/learning/ba-history",
-        "filename": "ba_history",
-        "projectDetails": {
-          "length": "3 years",
-          "start": "Jun 2006",
-          "due": "Jun 2009",
-          "status": "Jun 2009"
+        "manualCoverAttachment": false,
+        "name": "BA History",
+        "pos": 196607,
+        "shortLink": "Xf9TrWyD",
+        "shortUrl": "https://trello.com/c/Xf9TrWyD",
+        "start": "2006-06-01T07:00:00.000Z",
+        "subscribed": false,
+        "url": "https://trello.com/c/Xf9TrWyD/13-ba-history",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "BA History",
+        "hero": false,
+        "type": "learning",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "I began creating design work for friends projects while studying History at Goldsmiths University. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show.",
+          "desc": "<h1 id=\"bahistory\">BA History</h1>\n<p>I began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.</p>\n<p><br></p>\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>I learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.</p>",
+          "primaryColor": {
+            "name": "blue",
+            "text": "#08336c",
+            "fill": "#579dff"
+          },
+          "labels": [
+            {
+              "name": "Goldsmiths",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "3 years",
+              "color": {
+                "name": "blue",
+                "text": "#08336c",
+                "fill": "#579dff"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"bahistory\">BA History</h1>\n<p>I began creating design work for friends projects while studying History at <a href=\"https://gold.ac.uk\">Goldsmiths University</a>. I created banners for the ski society, visuals for a burlesque show and a catalogue for the BA Textiles degree show. After a disastrous experience studying Fine Art at A-Level, I was discouraged from pursuing a career in the creative industries. It was not until midway through university that I returned to doing something that I love.</p>\n",
+            "\n<h3 id=\"whatdidilearn\">What did I learn?</h3>\n<p>I learnt that I loved to create, build and design. I also learnt that I work best when responding to a brief or solving a specific problem.</p>"
+          ],
+          "pathname": "ba-history",
+          "url": "/learning/ba-history",
+          "filename": "ba_history",
+          "projectDetails": {
+            "length": "3 years",
+            "start": "Jun 2006",
+            "due": "Jun 2009",
+            "status": "Jun 2009"
+          }
         }
       }
-    }
-  ],
-  "roles": [
-    {
-      "id": "5fcfcf2c4cb94d2d4d03cb00",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
-        "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 1,
-        "attachments": 0,
-        "description": true,
-        "due": null,
+    ]
+  },
+  "roles": {
+    "data": {
+      "dateCompiled": "Updated on 05 Feb 2024"
+    },
+    "cards": [
+      {
+        "id": "5fcfcf2c4cb94d2d4d03cb00",
+        "checkItemStates": [],
+        "closed": false,
         "dueComplete": false,
-        "start": "2019-12-02T08:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": false,
-      "dateLastActivity": "2024-01-24T16:31:08.004Z",
-      "desc": "```\nCurrently working for the [Barbican](https://barbican.org.uk) in London. I create [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com) and build things in [Vue.js](https://vuejs.org).\n\n---\n\n# Front-end Designer & Developer\n\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer & Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org).\n\n<br>\n\n### What does this include?\n\n- ⏱️ Working within an Agile team and estimating deadlines every fortnight\n- 🗣️ Presenting at fortnightly demos to people across the organisation\n- 🗣️ Testing and responding to user feedback\n- 👨‍🔬 Designing more inclusive and accessible experiences\n- 🎨 Wireframing and prototyping with Figma\n- 💻 Building with Vue.js\n- 🚀 Animating with GSAP\n- 📝 Styling layouts with SCSS\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": null,
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fcfcf0ce3266a31c9d16d38",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 17,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Barbican",
-          "color": {
-            "name": "green",
-            "text": "#174b35",
-            "fill": "#4cce97"
-          },
-          "style": "solid"
-        }
-      ],
-      "idLabels": [
-        "5fb002b2cdabcf46c03cf423"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Front-end Designer & Developer",
-      "pos": 16384,
-      "shortLink": "w7J6wjLT",
-      "shortUrl": "https://trello.com/c/w7J6wjLT",
-      "start": "2019-12-02T08:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/w7J6wjLT/17-front-end-designer-developer",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
-      },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Front-end Designer & Developer",
-      "hero": false,
-      "type": "roles",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "Currently working for the Barbican in London. I create prototypes in Figma and build things in Vue.js.",
-        "desc": "<h1 id=\"frontenddesignerdeveloper\">Front-end Designer &amp; Developer</h1>\n<p><a href=\"https://en.wikipedia.org/wiki/Front-end_web_development\">Front-end</a> Designer &amp; Developer working for the <a href=\"https://barbican.org.uk\">Barbican</a> in London. I create <a href=\"https://www.figma.com/blog/how-to-wireframe/\">wireframes</a> and <a href=\"https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma\">prototypes</a> in <a href=\"https://figma.com\">Figma</a>, and build things in <a href=\"https://vuejs.org\">Vue.js</a>.</p>\n<p><br></p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working within an Agile team and estimating deadlines every fortnight</li>\n<li>🗣️ Presenting at fortnightly demos to people across the organisation</li>\n<li>🗣️ Testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible experiences</li>\n<li>🎨 Wireframing and prototyping with Figma</li>\n<li>💻 Building with Vue.js</li>\n<li>🚀 Animating with GSAP</li>\n<li>📝 Styling layouts with SCSS</li>\n</ul>",
-        "primaryColor": {
-          "name": "green",
-          "text": "#174b35",
-          "fill": "#4cce97"
+        "dateLastActivity": "2024-01-24T16:31:08.004Z",
+        "desc": "```\nCurrently working for the [Barbican](https://barbican.org.uk) in London. I create [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com) and build things in [Vue.js](https://vuejs.org).\n\n---\n\n# Front-end Designer & Developer\n\n[Front-end](https://en.wikipedia.org/wiki/Front-end_web_development) Designer & Developer working for the [Barbican](https://barbican.org.uk) in London. I create [wireframes](https://www.figma.com/blog/how-to-wireframe/) and [prototypes](https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma) in [Figma](https://figma.com), and build things in [Vue.js](https://vuejs.org).\n\n<br>\n\n### What does this include?\n\n- ⏱️ Working within an Agile team and estimating deadlines every fortnight\n- 🗣️ Presenting at fortnightly demos to people across the organisation\n- 🗣️ Testing and responding to user feedback\n- 👨‍🔬 Designing more inclusive and accessible experiences\n- 🎨 Wireframing and prototyping with Figma\n- 💻 Building with Vue.js\n- 🚀 Animating with GSAP\n- 📝 Styling layouts with SCSS\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": null,
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fcfcf0ce3266a31c9d16d38",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 17,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Barbican",
@@ -954,119 +742,97 @@
               "fill": "#4cce97"
             },
             "style": "solid"
-          },
-          {
-            "name": "4.2 years",
-            "color": {
-              "name": "green",
-              "text": "#174b35",
-              "fill": "#4cce97"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"frontenddesignerdeveloper\">Front-end Designer &amp; Developer</h1>\n<p><a href=\"https://en.wikipedia.org/wiki/Front-end_web_development\">Front-end</a> Designer &amp; Developer working for the <a href=\"https://barbican.org.uk\">Barbican</a> in London. I create <a href=\"https://www.figma.com/blog/how-to-wireframe/\">wireframes</a> and <a href=\"https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma\">prototypes</a> in <a href=\"https://figma.com\">Figma</a>, and build things in <a href=\"https://vuejs.org\">Vue.js</a>.</p>\n",
-          "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working within an Agile team and estimating deadlines every fortnight</li>\n<li>🗣️ Presenting at fortnightly demos to people across the organisation</li>\n<li>🗣️ Testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible experiences</li>\n<li>🎨 Wireframing and prototyping with Figma</li>\n<li>💻 Building with Vue.js</li>\n<li>🚀 Animating with GSAP</li>\n<li>📝 Styling layouts with SCSS</li>\n</ul>"
+        "idLabels": [
+          "5fb002b2cdabcf46c03cf423"
         ],
-        "pathname": "front-end-designer-developer",
-        "url": "/roles/front-end-designer-developer",
-        "filename": "front_end_designer_developer",
-        "projectDetails": {
-          "length": "4.2 years",
-          "start": "Dec 2019",
-          "due": "Feb 2024",
-          "status": "Ongoing"
-        }
-      }
-    },
-    {
-      "id": "5fcfd001212e45767e76c7de",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
+        "manualCoverAttachment": false,
+        "name": "Front-end Designer & Developer",
+        "pos": 16384,
+        "shortLink": "w7J6wjLT",
+        "shortUrl": "https://trello.com/c/w7J6wjLT",
+        "start": "2019-12-02T08:00:00.000Z",
         "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
+        "url": "https://trello.com/c/w7J6wjLT/17-front-end-designer-developer",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "Front-end Designer & Developer",
+        "hero": false,
+        "type": "roles",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "Currently working for the Barbican in London. I create prototypes in Figma and build things in Vue.js.",
+          "desc": "<h1 id=\"frontenddesignerdeveloper\">Front-end Designer &amp; Developer</h1>\n<p><a href=\"https://en.wikipedia.org/wiki/Front-end_web_development\">Front-end</a> Designer &amp; Developer working for the <a href=\"https://barbican.org.uk\">Barbican</a> in London. I create <a href=\"https://www.figma.com/blog/how-to-wireframe/\">wireframes</a> and <a href=\"https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma\">prototypes</a> in <a href=\"https://figma.com\">Figma</a>, and build things in <a href=\"https://vuejs.org\">Vue.js</a>.</p>\n<p><br></p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working within an Agile team and estimating deadlines every fortnight</li>\n<li>🗣️ Presenting at fortnightly demos to people across the organisation</li>\n<li>🗣️ Testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible experiences</li>\n<li>🎨 Wireframing and prototyping with Figma</li>\n<li>💻 Building with Vue.js</li>\n<li>🚀 Animating with GSAP</li>\n<li>📝 Styling layouts with SCSS</li>\n</ul>",
+          "primaryColor": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
+          "labels": [
+            {
+              "name": "Barbican",
+              "color": {
+                "name": "green",
+                "text": "#174b35",
+                "fill": "#4cce97"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "4.2 years",
+              "color": {
+                "name": "green",
+                "text": "#174b35",
+                "fill": "#4cce97"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"frontenddesignerdeveloper\">Front-end Designer &amp; Developer</h1>\n<p><a href=\"https://en.wikipedia.org/wiki/Front-end_web_development\">Front-end</a> Designer &amp; Developer working for the <a href=\"https://barbican.org.uk\">Barbican</a> in London. I create <a href=\"https://www.figma.com/blog/how-to-wireframe/\">wireframes</a> and <a href=\"https://www.uiprep.com/blog/ultimate-guide-to-prototyping-in-figma\">prototypes</a> in <a href=\"https://figma.com\">Figma</a>, and build things in <a href=\"https://vuejs.org\">Vue.js</a>.</p>\n",
+            "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>⏱️ Working within an Agile team and estimating deadlines every fortnight</li>\n<li>🗣️ Presenting at fortnightly demos to people across the organisation</li>\n<li>🗣️ Testing and responding to user feedback</li>\n<li>👨‍🔬 Designing more inclusive and accessible experiences</li>\n<li>🎨 Wireframing and prototyping with Figma</li>\n<li>💻 Building with Vue.js</li>\n<li>🚀 Animating with GSAP</li>\n<li>📝 Styling layouts with SCSS</li>\n</ul>"
+          ],
+          "pathname": "front-end-designer-developer",
+          "url": "/roles/front-end-designer-developer",
+          "filename": "front_end_designer_developer",
+          "projectDetails": {
+            "length": "4.2 years",
+            "start": "Dec 2019",
+            "due": "Feb 2024",
+            "status": "Ongoing"
+          }
+        }
+      },
+      {
+        "id": "5fcfd001212e45767e76c7de",
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": true,
+        "dateLastActivity": "2024-01-24T16:38:57.107Z",
+        "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican) designing digital content for marketing campaigns and managing another designer.\n\n---\n\n# Design Manager\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican), designing digital content for marketing campaigns, as well as managing one other Designer.\n\n<br>\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 🎞️ Creating cinema trailers with Adobe After Effects\n- 🚀 Animating HTML 5 advertising with GSAP\n- 🎨 Designing layouts and concepts with Sketch\n- 👨‍💻 Managing workflow with Trello\n```",
+        "descData": {
+          "emoji": {}
+        },
         "due": "2019-12-02T13:19:00.000Z",
-        "dueComplete": true,
-        "start": "2016-03-14T08:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": true,
-      "dateLastActivity": "2024-01-24T16:38:57.107Z",
-      "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican) designing digital content for marketing campaigns and managing another designer.\n\n---\n\n# Design Manager\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/barbican), designing digital content for marketing campaigns, as well as managing one other Designer.\n\n<br>\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 🎞️ Creating cinema trailers with Adobe After Effects\n- 🚀 Animating HTML 5 advertising with GSAP\n- 🎨 Designing layouts and concepts with Sketch\n- 👨‍💻 Managing workflow with Trello\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2019-12-02T13:19:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fcfcf0ce3266a31c9d16d38",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 18,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Barbican",
-          "color": {
-            "name": "green",
-            "text": "#174b35",
-            "fill": "#4cce97"
-          },
-          "style": "solid"
-        }
-      ],
-      "idLabels": [
-        "5fb002b2cdabcf46c03cf423"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Design Manager",
-      "pos": 32768,
-      "shortLink": "7s0duLts",
-      "shortUrl": "https://trello.com/c/7s0duLts",
-      "start": "2016-03-14T08:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/7s0duLts/18-design-manager",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
-      },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Design Manager",
-      "hero": false,
-      "type": "roles",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "I worked in the Barbican Design Studio designing digital content for marketing campaigns and managing another designer.",
-        "desc": "<h1 id=\"designmanager\">Design Manager</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/barbican\">Barbican Design Studio</a>, designing digital content for marketing campaigns, as well as managing one other Designer.</p>\n<p><br></p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>",
-        "primaryColor": {
-          "name": "green",
-          "text": "#174b35",
-          "fill": "#4cce97"
-        },
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fcfcf0ce3266a31c9d16d38",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 18,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Barbican",
@@ -1076,119 +842,97 @@
               "fill": "#4cce97"
             },
             "style": "solid"
-          },
-          {
-            "name": "3.8 years",
-            "color": {
-              "name": "green",
-              "text": "#174b35",
-              "fill": "#4cce97"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"designmanager\">Design Manager</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/barbican\">Barbican Design Studio</a>, designing digital content for marketing campaigns, as well as managing one other Designer.</p>\n",
-          "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>"
+        "idLabels": [
+          "5fb002b2cdabcf46c03cf423"
         ],
-        "pathname": "design-manager",
-        "url": "/roles/design-manager",
-        "filename": "design_manager",
-        "projectDetails": {
-          "length": "3.8 years",
-          "start": "Mar 2016",
-          "due": "Dec 2019",
-          "status": "Dec 2019"
-        }
-      }
-    },
-    {
-      "id": "5fcfd05eea168a6c8d469cea",
-      "badges": {
-        "attachmentsByType": {
-          "trello": {
-            "board": 0,
-            "card": 0
-          }
-        },
-        "location": false,
-        "votes": 0,
-        "viewingMemberVoted": false,
+        "manualCoverAttachment": false,
+        "name": "Design Manager",
+        "pos": 32768,
+        "shortLink": "7s0duLts",
+        "shortUrl": "https://trello.com/c/7s0duLts",
+        "start": "2016-03-14T08:00:00.000Z",
         "subscribed": false,
-        "fogbugz": "",
-        "checkItems": 0,
-        "checkItemsChecked": 0,
-        "checkItemsEarliestDue": null,
-        "comments": 0,
-        "attachments": 0,
-        "description": true,
-        "due": "2016-03-11T13:19:00.000Z",
-        "dueComplete": true,
-        "start": "2013-03-13T08:00:00.000Z"
-      },
-      "checkItemStates": [],
-      "closed": false,
-      "dueComplete": true,
-      "dateLastActivity": "2023-12-30T17:36:02.393Z",
-      "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n---\n\n# Junior Designer\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n<br>\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 📺 Creating plasma trailers with Adobe After Effects\n- 🚀 Animating online advertising with Adobe Photoshop\n- 🎨 Designing layouts and concepts with Sketch\n```",
-      "descData": {
-        "emoji": {}
-      },
-      "due": "2016-03-11T13:19:00.000Z",
-      "dueReminder": -1,
-      "email": null,
-      "idBoard": "5fb002b217fa6a2ca13512f7",
-      "idChecklists": [],
-      "idList": "5fcfcf0ce3266a31c9d16d38",
-      "idMembers": [],
-      "idMembersVoted": [],
-      "idShort": 19,
-      "idAttachmentCover": null,
-      "labels": [
-        {
-          "name": "Barbican",
-          "color": {
+        "url": "https://trello.com/c/7s0duLts/18-design-manager",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "Design Manager",
+        "hero": false,
+        "type": "roles",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "I worked in the Barbican Design Studio designing digital content for marketing campaigns and managing another designer.",
+          "desc": "<h1 id=\"designmanager\">Design Manager</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/barbican\">Barbican Design Studio</a>, designing digital content for marketing campaigns, as well as managing one other Designer.</p>\n<p><br></p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>",
+          "primaryColor": {
             "name": "green",
             "text": "#174b35",
             "fill": "#4cce97"
           },
-          "style": "solid"
+          "labels": [
+            {
+              "name": "Barbican",
+              "color": {
+                "name": "green",
+                "text": "#174b35",
+                "fill": "#4cce97"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "3.8 years",
+              "color": {
+                "name": "green",
+                "text": "#174b35",
+                "fill": "#4cce97"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"designmanager\">Design Manager</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/barbican\">Barbican Design Studio</a>, designing digital content for marketing campaigns, as well as managing one other Designer.</p>\n",
+            "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>🎞️ Creating cinema trailers with Adobe After Effects</li>\n<li>🚀 Animating HTML 5 advertising with GSAP</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n<li>👨‍💻 Managing workflow with Trello</li>\n</ul>"
+          ],
+          "pathname": "design-manager",
+          "url": "/roles/design-manager",
+          "filename": "design_manager",
+          "projectDetails": {
+            "length": "3.8 years",
+            "start": "Mar 2016",
+            "due": "Dec 2019",
+            "status": "Dec 2019"
+          }
         }
-      ],
-      "idLabels": [
-        "5fb002b2cdabcf46c03cf423"
-      ],
-      "manualCoverAttachment": false,
-      "name": "Junior Designer",
-      "pos": 49152,
-      "shortLink": "O3a6Y14f",
-      "shortUrl": "https://trello.com/c/O3a6Y14f",
-      "start": "2013-03-13T08:00:00.000Z",
-      "subscribed": false,
-      "url": "https://trello.com/c/O3a6Y14f/19-junior-designer",
-      "cover": {
-        "idAttachment": null,
-        "color": null,
-        "idUploadedBackground": null,
-        "size": "normal",
-        "brightness": "light",
-        "idPlugin": null
       },
-      "isTemplate": false,
-      "cardRole": null,
-      "marquee": "Junior Designer",
-      "hero": false,
-      "type": "roles",
-      "attachments": [],
-      "actions": [],
-      "local": {
-        "summary": "I worked in the Barbican Design Studio designing digital content for marketing campaigns.",
-        "desc": "<h1 id=\"juniordesigner\">Junior Designer</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/paul-heading\">Barbican Design Studio</a> designing digital content for marketing campaigns.</p>\n<p><br></p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>",
-        "primaryColor": {
-          "name": "green",
-          "text": "#174b35",
-          "fill": "#4cce97"
+      {
+        "id": "5fcfd05eea168a6c8d469cea",
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": true,
+        "dateLastActivity": "2023-12-30T17:36:02.393Z",
+        "desc": "```\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n---\n\n# Junior Designer\n\nI worked in the [Barbican Design Studio](https://www.creativelivesinprogress.com/article/paul-heading) designing digital content for marketing campaigns.\n\n<br>\n\n### What does this include?\n\n- 🗣️ Discussing and responding to design briefs with the Marketing team\n- 📺 Creating plasma trailers with Adobe After Effects\n- 🚀 Animating online advertising with Adobe Photoshop\n- 🎨 Designing layouts and concepts with Sketch\n```",
+        "descData": {
+          "emoji": {}
         },
+        "due": "2016-03-11T13:19:00.000Z",
+        "dueReminder": -1,
+        "email": null,
+        "idBoard": "5fb002b217fa6a2ca13512f7",
+        "idChecklists": [],
+        "idList": "5fcfcf0ce3266a31c9d16d38",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 19,
+        "idAttachmentCover": null,
         "labels": [
           {
             "name": "Barbican",
@@ -1198,31 +942,77 @@
               "fill": "#4cce97"
             },
             "style": "solid"
-          },
-          {
-            "name": "3 years",
-            "color": {
-              "name": "green",
-              "text": "#174b35",
-              "fill": "#4cce97"
-            },
-            "style": "outline"
           }
         ],
-        "sections": [
-          "<h1 id=\"juniordesigner\">Junior Designer</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/paul-heading\">Barbican Design Studio</a> designing digital content for marketing campaigns.</p>\n",
-          "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>"
+        "idLabels": [
+          "5fb002b2cdabcf46c03cf423"
         ],
-        "pathname": "junior-designer",
-        "url": "/roles/junior-designer",
-        "filename": "junior_designer",
-        "projectDetails": {
-          "length": "3 years",
-          "start": "Mar 2013",
-          "due": "Mar 2016",
-          "status": "Mar 2016"
+        "manualCoverAttachment": false,
+        "name": "Junior Designer",
+        "pos": 49152,
+        "shortLink": "O3a6Y14f",
+        "shortUrl": "https://trello.com/c/O3a6Y14f",
+        "start": "2013-03-13T08:00:00.000Z",
+        "subscribed": false,
+        "url": "https://trello.com/c/O3a6Y14f/19-junior-designer",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "light",
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "marquee": "Junior Designer",
+        "hero": false,
+        "type": "roles",
+        "attachments": [],
+        "actions": [],
+        "local": {
+          "summary": "I worked in the Barbican Design Studio designing digital content for marketing campaigns.",
+          "desc": "<h1 id=\"juniordesigner\">Junior Designer</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/paul-heading\">Barbican Design Studio</a> designing digital content for marketing campaigns.</p>\n<p><br></p>\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>",
+          "primaryColor": {
+            "name": "green",
+            "text": "#174b35",
+            "fill": "#4cce97"
+          },
+          "labels": [
+            {
+              "name": "Barbican",
+              "color": {
+                "name": "green",
+                "text": "#174b35",
+                "fill": "#4cce97"
+              },
+              "style": "solid"
+            },
+            {
+              "name": "3 years",
+              "color": {
+                "name": "green",
+                "text": "#174b35",
+                "fill": "#4cce97"
+              },
+              "style": "outline"
+            }
+          ],
+          "sections": [
+            "<h1 id=\"juniordesigner\">Junior Designer</h1>\n<p>I worked in the <a href=\"https://www.creativelivesinprogress.com/article/paul-heading\">Barbican Design Studio</a> designing digital content for marketing campaigns.</p>\n",
+            "\n<h3 id=\"whatdoesthisinclude\">What does this include?</h3>\n<ul>\n<li>🗣️ Discussing and responding to design briefs with the Marketing team</li>\n<li>📺 Creating plasma trailers with Adobe After Effects</li>\n<li>🚀 Animating online advertising with Adobe Photoshop</li>\n<li>🎨 Designing layouts and concepts with Sketch</li>\n</ul>"
+          ],
+          "pathname": "junior-designer",
+          "url": "/roles/junior-designer",
+          "filename": "junior_designer",
+          "projectDetails": {
+            "length": "3 years",
+            "start": "Mar 2013",
+            "due": "Mar 2016",
+            "status": "Mar 2016"
+          }
         }
       }
-    }
-  ]
+    ]
+  }
 }

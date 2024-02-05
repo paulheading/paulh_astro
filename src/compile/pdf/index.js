@@ -43,7 +43,7 @@ $.doc.setFont(...$.normalText);
 $.doc.setFontSize($.fontSizeBody);
 create.title(print.projects_title);
 
-projects.forEach(function (content, index) {
+projects.cards.forEach(function (content, index) {
   const y = $.rows[2] + $.lineHeight;
   $.doc.setFontSize($.fontSizeSmall);
   $.doc.setFont(...$.normalText);
@@ -53,7 +53,7 @@ projects.forEach(function (content, index) {
 $.doc.setFontSize($.fontSizeBody);
 create.title(print.roles_title);
 
-roles.forEach(function (content, index) {
+roles.cards.forEach(function (content, index) {
   const y = $.rows[3] + $.lineHeight;
   $.doc.setFontSize($.fontSizeSmall);
   $.doc.setFont(...$.normalText);
@@ -63,7 +63,7 @@ roles.forEach(function (content, index) {
 $.doc.setFontSize($.fontSizeBody);
 create.title(print.learning_title);
 
-learning.forEach(function (content, index) {
+learning.cards.forEach(function (content, index) {
   const y = $.rows[4] + $.lineHeight;
   $.doc.setFontSize($.fontSizeSmall);
   $.doc.setFont(...$.normalText);

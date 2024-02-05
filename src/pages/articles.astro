@@ -33,7 +33,7 @@ function createPages(articles: [object]) {
   return pages;
 }
 
-let pages = createPages(articles);
+let pages = createPages(articles.cards);
 
 const layoutProps = {
   title: seo.title("Articles"),
@@ -41,7 +41,7 @@ const layoutProps = {
 
 let articlesPerRow = 3;
 
-let moreArticles = articles.length - articlesPerRow;
+let moreArticles = articles.cards.length - articlesPerRow;
 ---
 
 <Layout {...layoutProps}>

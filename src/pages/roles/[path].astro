@@ -5,7 +5,7 @@ import { roles } from "~data/resume.json";
 import { get } from "~scripts/helpers";
 
 export function getStaticPaths() {
-  return get.StaticPaths(roles);
+  return get.StaticPaths(roles.cards);
 }
 
 const { name, local } = Astro.props;

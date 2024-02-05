@@ -7,7 +7,8 @@ import marquee from "~scripts/components/marquee";
 import wifi from "~scripts/animate/wifi";
 import time from "~scripts/components/desktop/topbar/time";
 
-let heroes = projects.filter(({ hero }) => hero);
+let { cards } = projects;
+let heroes = cards.filter(({ hero }) => hero);
 let last = heroes.length - 1;
 let count = 0;
 
