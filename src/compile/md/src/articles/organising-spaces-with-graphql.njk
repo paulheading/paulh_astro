@@ -4,6 +4,8 @@ Make a browser-based app for people who work at the [Barbican](https://en.wikipe
 
 {% include "blockquote/intro.njk" %}
 
+<br>
+
 ### **The Project**
 
 Make a browser-based app for people who work at the [Barbican](https://en.wikipedia.org/wiki/Barbican_Centre) and want to book/see available spaces in the centre.
@@ -22,21 +24,21 @@ The current events system (let's call it Filofax) does a decent job of organisin
 - **It’s ugly.** The interface lacks direction and clarity. There’s no curation of information and no sense of priority.
 - **It’s inaccessible.** You need server access and specific training just to get started. That’s a major barrier to entry.
 
+<br>
+
 ### Our Response
 
 We’re a small team, so we use [Agile](https://www.apm.org.uk/resources/find-a-resource/agile-project-management/) project management. The idea is to achieve maximum impact as quickly as possible. We break up work into very specific “tickets” and prioritise those tickets according to the goals of the project. Every 2 weeks, we assess how the project is going, and then create more tickets.
-
-/im
 
 Our priority [user story](https://www.atlassian.com/agile/project-management/user-stories) was “_I want to easily view event data in an intuitive and useful way_”. Therefore, we didn’t focus on themes such as event management/creation quite yet. Also, **Filofax** already provides this functionality for more advanced users.
 
 We articulated several user stories from our initial brief, and so I began responding to these by creating wireframes in [Figma](https://www.figma.com/).
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687194758654/a6a5c0be-dc5f-40c4-a272-5981eb1cdc16.jpeg align="center")
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1687194758654/a6a5c0be-dc5f-40c4-a272-5981eb1cdc16.jpeg">
 
 I decided there were 3 simple steps necessary to build a view of the event data. The first one was date selection. At this stage, the user can only choose a single-day view. Ranges are not available.
 
-> Users needed to have quick entry into the app, so we implemented Office365 authentication. This is the same way we authenticate users' email or website access, so often the login happened without their knowledge. One less login = is always a good thing.
+> Users needed to have quick entry into the app, so we implemented Office365 authentication. This is the same way we authenticate users' email or website access, so often the login happened without their knowledge.
 
 There is also a sidebar included in the wireframes. It’s not currently included in the build but is the plan for developing app functionality. It contains potential features such as:
 
@@ -44,11 +46,11 @@ There is also a sidebar included in the wireframes. It’s not currently include
 - **Search:** A dedicated search area
 - **Snapshots:** A collection of saved event data “views”. Useful for repetitive searches, such as: “all confirmed events in the Theatre and Concert Hall every Thursday”
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687194715184/ac870b72-cfdd-4e37-8c06-5b1d8b15bf2a.jpeg align="center")
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1687194715184/ac870b72-cfdd-4e37-8c06-5b1d8b15bf2a.jpeg">
 
 This step was inspired by functionality included in the excellent [Advanced Custom Fields](https://www.advancedcustomfields.com/resources/creating-a-field-group/) [WordPress](https://wordpress.com/) plugin. I love how the elegant interface allows users to build pretty complex queries.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687194645337/c4921fd3-752b-4e09-b3af-0b150d15c93c.jpeg align="center")
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1687194645337/c4921fd3-752b-4e09-b3af-0b150d15c93c.jpeg">
 
 We had 3 ideas for useful ways to show our event data:
 
@@ -56,7 +58,7 @@ We had 3 ideas for useful ways to show our event data:
 - **Gantt View:** The “Garageband” view collects event bookings into groups and displays them as a single bar on a chart. This helps users understand which bookings clash and overlap.
 - **List View:** The most basic view. It displays a paginated list of results, but data has been grouped into collections of related events. You’re also able to sort the data by various categories.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687194902839/ffd0bdba-f40d-4a68-b0c2-5a9e4bcfdd63.jpeg align="center")
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1687194902839/ffd0bdba-f40d-4a68-b0c2-5a9e4bcfdd63.jpeg">
 
 In **Map View**, live performances pulsate to denote the noise around them
 

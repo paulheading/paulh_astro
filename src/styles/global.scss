@@ -124,14 +124,11 @@ pre {
   overflow: scroll;
 }
 
-p:has(img:only-child) {
-  margin-bottom: 0;
-
-  +p:has(em:only-child) {
-    background-color: $c-body-bg;
-    font-size: $font-size-caption;
-    padding: $margin-paragraph;
-  }
+p:has(img:only-child)+p:has(em:only-child) {
+  margin-top: -$margin-paragraph;
+  font-size: $font-size-caption;
+  background-color: $c-body-bg;
+  padding: $padding-blockquote;
 }
 
 img {
@@ -148,7 +145,7 @@ button:not(:disabled) {
 }
 
 .page-row {
-  a:not(.anchor) {
+  @include simple-links {
     @include focus {
       @include gold-box;
     }
@@ -156,6 +153,15 @@ button:not(:disabled) {
 
   blockquote {
     @include blockquote;
+  }
+
+  p+blockquote,
+  blockquote+p,
+  ul+blockquote,
+  blockquote+ul,
+  ol+blockquote,
+  blockquote+ol {
+    margin-top: $margin-blockquote;
   }
 }
 

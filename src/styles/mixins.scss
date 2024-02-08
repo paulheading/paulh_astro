@@ -199,3 +199,9 @@
   right: 0;
   left: 0;
 }
+
+@mixin simple-links {
+  a:not(.anchor) {
+    @content;
+  }
+}
