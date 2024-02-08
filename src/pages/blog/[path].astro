@@ -11,12 +11,12 @@ export function getStaticPaths() {
 const { name, local } = Astro.props;
 
 const back = {
-  href: "/articles",
-  title: "Articles",
+  href: "/blog",
+  title: "Blog",
 };
 
 const layout = {
-  title: "Paul Heading | Article | " + name,
+  title: "Paul Heading | Blog | " + name,
   description: local.summary,
 };
 
