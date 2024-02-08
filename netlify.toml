@@ -1,9 +1,3 @@
 [build]
 command = "npm run build"
 publish = "dist"
-
-[[redirects]]
-force = true
-from = "https://blog.paulh.biz"
-status = 200
-to = "https://paulh.biz/blog"
