@@ -3243,7 +3243,7 @@
             "\n<h4 id=\"therearethreetypesofknowledge\">There are three types of knowledge:</h4>\n<p>a) The stuff \"you know, you know\"</p>\n<p>b) the stuff \"you know, you dont know\"</p>\n<p>c) the stuff \"you dont know, you dont know\"</p>\n<p>In my experience its almost impossible to work solely in (a). Instead, by growing (b) and reducing (c) you will improve your awareness, becoming a better problem solver, and a more empathetic person.</p>"
           ],
           "pathname": "problem-solving-basics",
-          "url": "/articles/problem-solving-basics",
+          "url": "/blog/problem-solving-basics",
           "filename": "problem_solving_basics",
           "projectDetails": {
             "length": null,
@@ -3348,7 +3348,7 @@
             "\n<h3 id=\"howwebuiltit\"><strong>How we built it</strong></h3>\n<p>Everything built on our <a href=\"https://tickets.barbican.org.uk/\">ticketing</a> site is based on the popular front-end toolkit <a href=\"https://getbootstrap.com/\">Bootstrap</a>. This enables us to build consistently and predictably, speeding up development and improving user experience.</p>\n<p>We also use the <a href=\"https://fonts.google.com/icons\">Material Icons</a> resource. It’s a large, beautiful library of icons, that adds to this consistency.</p>\n<blockquote>\n  <p>This article is still being written. If you want to stay updated or have some suggestions, then please email <a href=\"mailto:hello@paulh.biz\">hello@paulh.biz</a></p>\n</blockquote>"
           ],
           "pathname": "designing-account-areas-in-vuejs",
-          "url": "/articles/designing-account-areas-in-vuejs",
+          "url": "/blog/designing-account-areas-in-vuejs",
           "filename": "designing_account_areas_in_vuejs",
           "projectDetails": {
             "length": "3.3 years",
@@ -3449,7 +3449,7 @@
             "\n<h3 id=\"ourresponse\">Our Response</h3>\n<p>We’re a small team, so we use <a href=\"https://www.apm.org.uk/resources/find-a-resource/agile-project-management/\">Agile</a> project management. The idea is to achieve maximum impact as quickly as possible. We break up work into very specific “tickets” and prioritise those tickets according to the goals of the project. Every 2 weeks, we assess how the project is going, and then create more tickets.</p>\n<p>Our priority <a href=\"https://www.atlassian.com/agile/project-management/user-stories\">user story</a> was “<em>I want to easily view event data in an intuitive and useful way</em>”. Therefore, we didn’t focus on themes such as event management/creation quite yet. Also, <strong>Filofax</strong> already provides this functionality for more advanced users.</p>\n<p>We articulated several user stories from our initial brief, and so I began responding to these by creating wireframes in <a href=\"https://www.figma.com/\">Figma</a>.</p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194758654/a6a5c0be-dc5f-40c4-a272-5981eb1cdc16.jpeg\"></p>\n<p>I decided there were 3 simple steps necessary to build a view of the event data. The first one was date selection. At this stage, the user can only choose a single-day view. Ranges are not available.</p>\n<blockquote>\n  <p>Users needed to have quick entry into the app, so we implemented Office365 authentication. This is the same way we authenticate users' email or website access, so often the login happened without their knowledge.</p>\n</blockquote>\n<p>There is also a sidebar included in the wireframes. It’s not currently included in the build but is the plan for developing app functionality. It contains potential features such as:</p>\n<ul>\n<li><strong>Alerts:</strong> Users could “watch” events and receive notifications when those events change</li>\n<li><strong>Search:</strong> A dedicated search area</li>\n<li><strong>Snapshots:</strong> A collection of saved event data “views”. Useful for repetitive searches, such as: “all confirmed events in the Theatre and Concert Hall every Thursday”</li>\n</ul>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194715184/ac870b72-cfdd-4e37-8c06-5b1d8b15bf2a.jpeg\"></p>\n<p>This step was inspired by functionality included in the excellent <a href=\"https://www.advancedcustomfields.com/resources/creating-a-field-group/\">Advanced Custom Fields</a> <a href=\"https://wordpress.com/\">WordPress</a> plugin. I love how the elegant interface allows users to build pretty complex queries.</p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194645337/c4921fd3-752b-4e09-b3af-0b150d15c93c.jpeg\"></p>\n<p>We had 3 ideas for useful ways to show our event data:</p>\n<ul>\n<li><strong>Map View:</strong> Groups spaces into levels. This helps users understand which spaces are close together, and where noisy performances may affect your booking. This view is not yet available.</li>\n<li><strong>Gantt View:</strong> The “Garageband” view collects event bookings into groups and displays them as a single bar on a chart. This helps users understand which bookings clash and overlap.</li>\n<li><strong>List View:</strong> The most basic view. It displays a paginated list of results, but data has been grouped into collections of related events. You’re also able to sort the data by various categories.</li>\n</ul>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194902839/ffd0bdba-f40d-4a68-b0c2-5a9e4bcfdd63.jpeg\"></p>\n<p>In <strong>Map View</strong>, live performances pulsate to denote the noise around&nbsp;them</p>\n<p>Both Map and Gantt views contain several similarities:</p>\n<ul>\n<li>An extra sidebar (in this case, denoting each level)</li>\n<li>A horizontally scrolling timeline (with a marker to denote the time of day)</li>\n</ul>\n<p>Each view also contains navigation for:</p>\n<ul>\n<li>switching between day views</li>\n<li>switching between view modes</li>\n<li>editing filter settings</li>\n<li>viewing the additional event information</li>\n</ul>\n<blockquote>\n  <p>This article is still being written. If you want to stay updated or have some suggestions, then please email <a href=\"mailto:hello@paulh.biz\">hello@paulh.biz</a></p>\n</blockquote>"
           ],
           "pathname": "organising-spaces-with-graphql",
-          "url": "/articles/organising-spaces-with-graphql",
+          "url": "/blog/organising-spaces-with-graphql",
           "filename": "organising_spaces_with_graphql",
           "projectDetails": {
             "length": "3.3 years",
@@ -3971,7 +3971,7 @@
             "url": "https://open.spotify.com/artist/3QX8CTn1znpY0HF3hbnNye",
             "name": "Haiku Hands"
           },
-          "popularity": 27,
+          "popularity": 26,
           "release_date": "2023-05-08",
           "url": "https://open.spotify.com/track/5eGOxe4PEFgSZFcwB8GEUI",
           "name": "Nunchucka"

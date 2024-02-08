@@ -266,6 +266,9 @@ create.dateCompiled = function (value = "Updated on") {
 };
 
 create.localAttributes = function (card) {
+  let { type } = card;
+  let isArticle = type == "articles";
+
   let local = {};
 
   local.summary = card.desc ? create.summary(card.desc) : null;
@@ -285,7 +288,9 @@ create.localAttributes = function (card) {
     .replace(/:/g, "")
     .toLowerCase();
 
-  local.url = "/" + card.type + "/" + local.pathname;
+  local.url = isArticle
+    ? "/blog/" + local.pathname
+    : "/" + card.type + "/" + local.pathname;
 
   local.filename = create.filename(local.pathname);
 
