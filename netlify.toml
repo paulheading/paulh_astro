@@ -4,6 +4,6 @@ publish = "dist"
 
 [[redirects]]
 force = true
-from = "https://paulh.biz/blog/*"
+from = "https://blog.paulh.biz/*"
 status = 200
-to = "https://blog.paulh.biz/:splat"
+to = "https://paulh.biz/blog/:splat"
