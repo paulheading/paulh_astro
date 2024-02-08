@@ -3,6 +3,7 @@ import Labels from "~components/Labels.astro";
 import Label from "~components/Label.astro";
 
 import CardName from "~components/Page/Card/Name.astro";
+import CardStatus from "~components/Page/Card/Status.astro";
 import CardSummary from "~components/Page/Card/Summary.astro";
 
 import type { card } from "~types/page/card";
@@ -40,12 +41,6 @@ let nameProps = {
 let summaryProps = {
   content: local.summary,
 };
-
-let dueCustomClass = projectDetails.status == "Paused" ? "paused" : null;
-
-let dueProps = {
-  "class:list": ["due", dueCustomClass],
-};
 ---
 
 <div {...pageCardProps}>
@@ -66,9 +61,7 @@ let dueProps = {
     </Labels>
   </div>
   <CardName {...nameProps} />
-  <div {...dueProps}>
-    {projectDetails.status}
-  </div>
+  {projectDetails.status && <CardStatus status={projectDetails.status} />}
   <CardSummary {...summaryProps} />
 </div>
 
@@ -95,16 +88,5 @@ let dueProps = {
 
   .label_wrap {
     margin-bottom: 0.75rem;
-  }
-
-  .due {
-    font-size: $font-size-summary;
-    margin-bottom: 0.5rem;
-    font-style: italic;
-    color: $c-gray-7;
-  }
-
-  .due.paused {
-    color: $c-status-error;
   }
 </style>

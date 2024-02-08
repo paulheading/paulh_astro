@@ -1,0 +1,28 @@
+---
+let { status } = Astro.props;
+
+let pausedClass = status == "Paused" ? "paused" : null;
+
+let statusProps = {
+  "class:list": ["status", pausedClass],
+};
+---
+
+<div {...statusProps}>
+  {status}
+</div>
+
+<style lang="scss">
+  @import "~styles/mixins";
+
+  .status {
+    font-size: $font-size-summary;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    color: $c-gray-7;
+  }
+
+  .status.paused {
+    color: $c-status-error;
+  }
+</style>

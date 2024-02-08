@@ -38,7 +38,7 @@ $.lineHeight = 7.5;
 
 $.columns = [$.calcColumns(1), $.calcColumns(2), $.calcColumns(3)];
 
-$.rows = [$.vtPadding, 36, 80, 150, 220];
+$.rows = [$.vtPadding, 36, 78, 150, 222];
 
 $.fontSizeBody = 13;
 $.fontSizeSmall = 10;

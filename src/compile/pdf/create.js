@@ -80,12 +80,21 @@ create.labels = function (labels, x, y) {
 
   labels.forEach(function (label) {
     let textWidth = $.doc.getTextWidth(label.name);
-    return offsets.push(textWidth + 2);
+
+    offsets.push(textWidth + 2);
   });
 
   labels.forEach(function (label, index) {
-    if (index > 0) x += offsets[index - 1];
-    $.doc.text(label.name, x, y);
+    if (index > 0) x += offsets[index - 1] + 2;
+
+    let rect_x = x;
+    let rect_y = y - 4;
+    let rect_width = offsets[index];
+    let rect_height = 6;
+
+    $.doc.rect(rect_x, rect_y, rect_width, rect_height);
+
+    $.doc.text(label.name, rect_x + 1, y);
   });
 };
 
@@ -94,7 +103,7 @@ create.content_column = function (content, index, y) {
 
   $.doc.setFontSize($.fontSizeBody);
 
-  let { name, local, dueComplete } = content;
+  let { name, local } = content;
 
   let { labels, summary, url, projectDetails } = local;
 
@@ -107,21 +116,17 @@ create.content_column = function (content, index, y) {
   function statusOffset(lines) {
     lines--;
 
-    let offset = 11.25;
+    let offset = 16.5;
 
     offset += lines * 6.25;
-
-    offset += 2.5;
 
     return offset;
   }
 
   function nameCallback(_, lines) {
-    let status = dueComplete ? projectDetails.due : "Ongoing";
-
     let statusY = y + statusOffset(lines.length);
 
-    let statusProps = [status, x, statusY, { maxWidth }];
+    let statusProps = [projectDetails.status, x, statusY, { maxWidth }];
 
     let summaryY = statusY + $.lineHeight;
 
@@ -140,11 +145,11 @@ create.content_column = function (content, index, y) {
     $.doc.text(...summaryProps);
   }
 
-  let nameProps = [name, x, y + $.lineHeight, { url, maxWidth }, nameCallback];
+  let nameProps = [name, x, y + 10.5, { url, maxWidth }, nameCallback];
 
   $.doc.setFontSize($.fontSizeSmall);
 
-  create.labels(labels, x, y);
+  create.labels(labels, x, y + 2);
 
   $.doc.setFontSize($.fontSizeBody);
 

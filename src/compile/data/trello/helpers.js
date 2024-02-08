@@ -163,6 +163,7 @@ create.projectStatus = function ({
 
 create.projectDetails = function (card) {
   let { start, due, dueComplete, dateLastActivity, type, labels } = card;
+  let isArticle = type == "articles";
 
   if (!start) {
     return {
@@ -176,32 +177,47 @@ create.projectDetails = function (card) {
 
   let resultProps = { start, due, dueComplete };
 
-  let result = create.projectTimeline({ ...resultProps });
-
-  let statusProps = {
-    due,
-    dueComplete,
-    dateLastActivity,
-    type,
-    labels,
+  let result = {
+    ...create.projectTimeline({ ...resultProps }),
+    status: null,
   };
 
-  result.status = create.projectStatus({ ...statusProps });
+  if (!isArticle) {
+    let statusProps = {
+      due,
+      dueComplete,
+      dateLastActivity,
+      type,
+      labels,
+    };
+
+    result.status = create.projectStatus({ ...statusProps });
+  }
 
   return result;
 };
 
-create.localLabels = function (labels, primary) {
+create.localLabels = function (card, local) {
+  let { labels, type } = card;
+  let { primaryColor, projectDetails } = local;
+
+  let isArticle = type == "articles";
+
+  let extraLabels = {
+    color: primaryColor,
+    style: "outline",
+  };
+
   labels = labels.filter(function (label) {
     return label.name != "Paused";
   });
 
-  return labels.map(function (label, index) {
+  labels = labels.map(function (label, index) {
     label.style = "solid";
 
     if (index > 0) {
       label.style = "outline";
-      label.color = primary;
+      label.color = primaryColor;
     }
 
     delete label.id;
@@ -210,6 +226,38 @@ create.localLabels = function (labels, primary) {
 
     return label;
   });
+
+  if (isArticle) {
+    let wordCount = 0;
+
+    let readingTime = 0;
+
+    local.sections.forEach(function (section) {
+      let words = section.split(" ");
+
+      words.forEach(() => {
+        wordCount++;
+      });
+    });
+
+    readingTime = Math.ceil(wordCount / 238);
+
+    readingTime = `${readingTime} ${readingTime > 1 ? "mins" : "min"}`;
+
+    labels.push({
+      name: readingTime,
+      ...extraLabels,
+    });
+
+    return labels;
+  }
+
+  labels.push({
+    name: projectDetails.length,
+    ...extraLabels,
+  });
+
+  return labels;
 };
 
 create.dateCompiled = function (value = "Updated on") {
@@ -225,8 +273,6 @@ create.localAttributes = function (card) {
   local.desc = card.desc ? create.desc(card.desc) : null;
 
   local.primaryColor = card.labels[0].color;
-
-  local.labels = create.localLabels(card.labels, local.primaryColor);
 
   local.sections = local.desc ? create.sections(local.desc) : null;
 
@@ -245,13 +291,7 @@ create.localAttributes = function (card) {
 
   local.projectDetails = create.projectDetails(card);
 
-  if (card.type != "article") {
-    local.labels.push({
-      name: local.projectDetails.length,
-      color: local.primaryColor,
-      style: "outline",
-    });
-  }
+  local.labels = create.localLabels(card, local);
 
   return local;
 };
