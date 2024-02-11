@@ -298,7 +298,25 @@ create.localAttributes = function (card) {
 
   local.labels = create.localLabels(card, local);
 
+  local.search = create.searchData(card, local);
+
   return local;
+};
+
+create.searchData = function (card, local) {
+  let result = { ...local };
+
+  result.id = card.id;
+
+  result.name = card.name;
+
+  result.labels = result.labels.map((label) => label.name);
+
+  delete result.projectDetails;
+
+  delete result.primaryColor;
+
+  return result;
 };
 
 export { remove, create, convert };

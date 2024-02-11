@@ -3,16 +3,13 @@ import { gsap } from "gsap";
 
 import { articles } from "~data/layout.json";
 
-var search = new JsSearch.Search("id");
+let search = new JsSearch.Search("id");
 
-search.addDocuments(articles);
+articles.cards.forEach((card) => search.addDocuments({ ...card.local.search }));
 
-search.addIndex("name");
-search.addIndex(["local", "desc"]);
-search.addIndex(["local", "pathname"]);
-search.addIndex(["local", "summary"]);
-search.addIndex(["local", "url"]);
-search.addIndex(["local", "labels"]);
+let indexes = ["name", "desc", "pathname", "summary", "url", "labels"];
+
+indexes.forEach((item) => search.addIndex(item));
 
 /**
  * Dynamic Selectors
@@ -184,6 +181,11 @@ function printResults(results) {
   output.forEach((row) => $pageInner.append(row));
 }
 
+function resetSearchForm() {
+  clearSearchResults();
+  $form.removeAttribute("data-error");
+}
+
 /**
  * @name searchArticles
  * @param {MouseEvent} event
@@ -195,8 +197,7 @@ function searchArticles(event) {
   let value = $input().value;
 
   if (!value.length) {
-    clearSearchResults();
-    $form.removeAttribute("data-error");
+    resetSearchForm();
     return;
   }
 
@@ -257,11 +258,9 @@ function clearSearchResults() {
   $rows("search").forEach(($row) => $row.remove());
 
   function resetArticleRows($row, index) {
-    if (index > 0) {
-      $row.setAttribute("style", "display: none;");
-    } else {
-      $row.removeAttribute("style", "display");
-    }
+    index > 0
+      ? $row.setAttribute("style", "display: none;")
+      : $row.removeAttribute("style", "display");
   }
 
   $rows("article").forEach(resetArticleRows);

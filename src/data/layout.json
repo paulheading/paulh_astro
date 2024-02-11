@@ -3,6 +3,66 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "6782d7a2-5954-4c38-99c2-820ae7205c28",
+        "url": "https://pscrb.fm/rss/p/chrt.fm/track/53A61E/prfx.byspotify.com/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/758af4c0-a2c3-47ec-a2d8-05f41bfbde51/episodes/1f601094-07a2-4f8a-ae4e-dcb07738c0e9/audio/128/default.mp3?aid=rss_feed&awCollectionId=758af4c0-a2c3-47ec-a2d8-05f41bfbde51&awEpisodeId=1f601094-07a2-4f8a-ae4e-dcb07738c0e9&feed=EmVW7VGp",
+        "published": "2024-02-09T15:30:00Z",
+        "duration": 2671,
+        "fileType": "audio/mpeg",
+        "title": "Cheating Death",
+        "size": "40153922",
+        "playingStatus": 2,
+        "playedUpTo": 2671,
+        "starred": false,
+        "podcastUuid": "f5b97290-0422-012e-f9a0-00163e1b201c",
+        "podcastTitle": "Radiolab",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 565,
+        "isDeleted": false,
+        "author": "WNYC Studios",
+        "bookmarks": []
+      },
+      {
+        "uuid": "b123c7d8-6cd6-4d19-92b8-94d2632b2390",
+        "url": "https://sphinx.acast.com/p/open/s/65118b05e7b19e00113ac2c0/e/65baeb10e650d400155569df/media.mp3",
+        "published": "2024-02-01T05:00:00Z",
+        "duration": 4639,
+        "fileType": "audio/mp3",
+        "title": "Replacing Klopp & Rashford’s Big Night Out | Stick to Football EP 17",
+        "size": "150429532",
+        "playingStatus": 2,
+        "playedUpTo": 3018,
+        "starred": false,
+        "podcastUuid": "090a5fe0-3edc-013c-f6d4-0acc26574db2",
+        "podcastTitle": "Stick to Football",
+        "episodeType": "full",
+        "episodeSeason": 1,
+        "episodeNumber": 17,
+        "isDeleted": false,
+        "author": "The Overlap",
+        "bookmarks": []
+      },
+      {
+        "uuid": "ab03d3e5-89ba-4dca-b0af-2b5943dafece",
+        "url": "https://sphinx.acast.com/p/open/s/64f75edec2b55e0011a26fb2/e/65c4ca1b2f12a6001639df09/media.mp3",
+        "published": "2024-02-08T16:00:00Z",
+        "duration": 2468,
+        "fileType": "audio/mp3",
+        "title": "Going places: is social mobility alive and well?",
+        "size": "91994078",
+        "playingStatus": 3,
+        "playedUpTo": 2468,
+        "starred": false,
+        "podcastUuid": "03c3e480-306d-013c-f68b-0acc26574db2",
+        "podcastTitle": "Trendy",
+        "episodeType": "full",
+        "episodeSeason": 2,
+        "episodeNumber": 5,
+        "isDeleted": true,
+        "author": "Tortoise Media",
+        "bookmarks": []
+      },
+      {
         "uuid": "8a66ee1e-b3da-4605-b94a-8330b5ac154e",
         "url": "https://pdst.fm/e/chtbl.com/track/1F1B1F/traffic.megaphone.fm/WSJ9126407219.mp3?updated=1707341816",
         "published": "2024-02-07T20:52:00Z",
@@ -18,7 +78,7 @@
         "episodeType": "full",
         "episodeSeason": 0,
         "episodeNumber": 0,
-        "isDeleted": false,
+        "isDeleted": true,
         "author": "The Wall Street Journal & Gimlet",
         "bookmarks": []
       },
@@ -1941,72 +2001,12 @@
         "isDeleted": true,
         "author": "The Guardian",
         "bookmarks": []
-      },
-      {
-        "uuid": "13d742ca-76c2-4a28-bb54-a1d70f0de7dd",
-        "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/http/vpid/p0gp9c94.mp3",
-        "published": "2023-10-27T20:22:00Z",
-        "duration": 2801,
-        "fileType": "audio/mp3",
-        "title": "AQ: Dr Halima Begum, Lord Blunkett, Lord Darroch, Lord Hannan",
-        "size": "44816000",
-        "playingStatus": 3,
-        "playedUpTo": 2801,
-        "starred": false,
-        "podcastUuid": "66fd3830-b8e3-012e-61d2-00163e1b201c",
-        "podcastTitle": "Any Questions? and Any Answers?",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "BBC Radio 4",
-        "bookmarks": []
-      },
-      {
-        "uuid": "4d37c8c3-7cec-446a-9014-58ca0c388de8",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2023/10/26-43520-gnl.fw.20231026.jg.dortmund_shock_newcastle.mp3",
-        "published": "2023-10-26T12:44:34Z",
-        "duration": 3849,
-        "fileType": "audio/mp3",
-        "title": "Dortmund rock Newcastle, Celtic make Atlético sweat – Football Weekly Extra",
-        "size": "102862239",
-        "playingStatus": 3,
-        "playedUpTo": 3849,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "e4f4e05e-bc1e-41af-a37d-c591e938460a",
-        "url": "https://chtbl.com/track/736CG3/pdst.fm/e/stitcher.simplecastaudio.com/2be48404-a43c-4fa8-a32c-760a3216272e/episodes/d6c2036f-0d18-4e3e-af86-db8c57d521be/audio/128/default.mp3?aid=rss_feed&awCollectionId=2be48404-a43c-4fa8-a32c-760a3216272e&awEpisodeId=d6c2036f-0d18-4e3e-af86-db8c57d521be&feed=Y8lFbOT4",
-        "published": "2023-10-26T03:00:00Z",
-        "duration": 3855,
-        "fileType": "audio/mpeg",
-        "title": "563. How to Succeed at Failing, Part 3: Grit vs. Quit",
-        "size": "61073282",
-        "playingStatus": 3,
-        "playedUpTo": 3855,
-        "starred": false,
-        "podcastUuid": "d81fbcb0-0422-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Freakonomics Radio",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 563,
-        "isDeleted": true,
-        "author": "Freakonomics Radio + Stitcher",
-        "bookmarks": []
       }
     ]
   },
   "projects": {
     "data": {
-      "dateCompiled": "Updated on 08 Feb 2024"
+      "dateCompiled": "Updated on 11 Feb 2024"
     },
     "cards": [
       {
@@ -2140,7 +2140,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Build a website/app for staff at the Barbican to see which spaces are available to book.",
+            "desc": "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+            "sections": [
+              "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
+              "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n",
+              "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
+            ],
+            "pathname": "organising-spaces-with-graphql",
+            "url": "/projects/organising-spaces-with-graphql",
+            "filename": "organising_spaces_with_graphql",
+            "labels": [
+              "Barbican",
+              "Vue.js",
+              "1.1 years"
+            ],
+            "id": "606d70215309533eec28564a",
+            "name": "Organising spaces with GraphQL"
+          }
         }
       },
       {
@@ -2262,7 +2283,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Build a portfolio site that is fast, engaging and showcases my abilities.",
+            "desc": "<h1 id=\"buildingaportfolioinnextjs\">Building a Portfolio in Next.js</h1>\n<p>Build a portfolio site that is fast, engaging and showcases my abilities.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, you're looking at it 😉</p>\n<p>The code is in my public <a href=\"https://github.com/paulheading/paulh3\">Github repository</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layout with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.</p>\n<p>It also makes use of <a href=\"https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes\">Next.js dynamic routing</a>, <a href=\"https://www.npmjs.com/package/raw-loader\">markdown for content generation</a> and <a href=\"https://greensock.com/gsap\">GSAP</a> for web animation.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+            "sections": [
+              "<h1 id=\"buildingaportfolioinnextjs\">Building a Portfolio in Next.js</h1>\n<p>Build a portfolio site that is fast, engaging and showcases my abilities.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, you're looking at it 😉</p>\n<p>The code is in my public <a href=\"https://github.com/paulheading/paulh3\">Github repository</a>.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layout with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
+              "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This website creates content by combining data from multiple APIs. It scrapes and stores data during local development, rather than on deploy, so is super fast and consistent at build time.</p>\n<p>It also makes use of <a href=\"https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes\">Next.js dynamic routing</a>, <a href=\"https://www.npmjs.com/package/raw-loader\">markdown for content generation</a> and <a href=\"https://greensock.com/gsap\">GSAP</a> for web animation.</p>\n",
+              "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
+            ],
+            "pathname": "building-a-portfolio-in-nextjs",
+            "url": "/projects/building-a-portfolio-in-nextjs",
+            "filename": "building_a_portfolio_in_nextjs",
+            "labels": [
+              "Freelance",
+              "Next.js",
+              "6 months"
+            ],
+            "id": "64be46a284472c83d0ead0f6",
+            "name": "Building a Portfolio in Next.js"
+          }
         }
       },
       {
@@ -2384,7 +2426,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.",
+            "desc": "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>",
+            "sections": [
+              "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
+              "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n",
+              "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>"
+            ],
+            "pathname": "sparking-the-cannon-with-nextjs",
+            "url": "/projects/sparking-the-cannon-with-nextjs",
+            "filename": "sparking_the_cannon_with_nextjs",
+            "labels": [
+              "Freelance",
+              "Next.js",
+              "6 months"
+            ],
+            "id": "6491c7bdb4a1fd40f80a1a99",
+            "name": "Sparking the cannon with Next.js"
+          }
         }
       },
       {
@@ -2506,7 +2569,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Build the Barbican Reset. An NPM package that can be used across the Barbican's many digital products to provide consistent styling and functionality.",
+            "desc": "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building the package for <a href=\"https://www.npmjs.com/\">NPM</a></li>\n<li>💡 Creating components for <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+            "sections": [
+              "<h1 id=\"resettingthebarbicanwithnodejs\">Resetting the Barbican with Node.js</h1>\n<p>Build the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a>. An <a href=\"https://docs.npmjs.com/about-packages-and-modules\">NPM package</a> that can be used across the <a href=\"https://barbican.org.uk\">Barbican's</a> many digital products to provide consistent styling and functionality.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.npmjs.com/package/barbican-reset\">npmjs.com/package/barbican-reset</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly. But feel free to download the <a href=\"https://www.npmjs.com/package/barbican-reset\">Barbican Reset</a> and review the production code.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building the package for <a href=\"https://www.npmjs.com/\">NPM</a></li>\n<li>💡 Creating components for <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
+              "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This was the first time I created an NPM package, so that was new and interesting for me. Understanding how to provide functionality for both vue and drupal was also a challenge, providing both styled components and a set of useful mixins that would make replicating those components easy.</p>\n",
+              "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Compatibility</strong> 😥 We're currently in the process of moving the project to vue 3 and removing dependency on Bootstrap.</li>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
+            ],
+            "pathname": "resetting-the-barbican-with-nodejs",
+            "url": "/projects/resetting-the-barbican-with-nodejs",
+            "filename": "resetting_the_barbican_with_nodejs",
+            "labels": [
+              "Barbican",
+              "Node.js",
+              "3.3 years"
+            ],
+            "id": "64b7e3a314038c0ef3b3350a",
+            "name": "Resetting the Barbican with Node.js"
+          }
         }
       },
       {
@@ -2628,7 +2712,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Build and animate the website for a community festival called Leytonstone Loves Film.",
+            "desc": "<h1 id=\"leytonstonelovesfilm\">Leytonstone Loves Film</h1>\n<p>Build and animate the website for a community festival called Leytonstone Loves Film.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://leytonstonelovesfilm.com\">leytonstonelovesfilm.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nuxt.com\">Nuxt.js</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>I'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>",
+            "sections": [
+              "<h1 id=\"leytonstonelovesfilm\">Leytonstone Loves Film</h1>\n<p>Build and animate the website for a community festival called Leytonstone Loves Film.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://leytonstonelovesfilm.com\">leytonstonelovesfilm.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nuxt.com\">Nuxt.js</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
+              "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>I'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.</p>\n",
+              "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>"
+            ],
+            "pathname": "leytonstone-loves-film",
+            "url": "/projects/leytonstone-loves-film",
+            "filename": "leytonstone_loves_film",
+            "labels": [
+              "Barbican",
+              "Nuxt",
+              "3 months"
+            ],
+            "id": "64a6bdfeea6cc13792990d17",
+            "name": "Leytonstone Loves Film"
+          }
         }
       },
       {
@@ -2750,7 +2855,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Build and animate the website for a community festival called Walthamstow Garden Party.",
+            "desc": "<h1 id=\"walthamstowgardenparty\">Walthamstow Garden Party</h1>\n<p>Build and animate the website for a community festival called Walthamstow Garden Party.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://walthamstowgardenparty.com\">walthamstowgardenparty.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nuxt.com\">Nuxt.js</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>I'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>",
+            "sections": [
+              "<h1 id=\"walthamstowgardenparty\">Walthamstow Garden Party</h1>\n<p>Build and animate the website for a community festival called Walthamstow Garden Party.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://walthamstowgardenparty.com\">walthamstowgardenparty.com</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nuxt.com\">Nuxt.js</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
+              "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>I'd say the build itself was pretty interesting for this one. We had a large group of stakeholders who needed to update the site content, so we used a Drupal CMS for the backend and Nuxt.js for consuming CMS data on the frontend. It was definitely a journey learning how to build with that data and understanding the different forms it may arrive in.</p>\n",
+              "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It has none. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> were not considered at build time.</li>\n</ul>"
+            ],
+            "pathname": "walthamstow-garden-party",
+            "url": "/projects/walthamstow-garden-party",
+            "filename": "walthamstow_garden_party",
+            "labels": [
+              "Barbican",
+              "Nuxt",
+              "3 months"
+            ],
+            "id": "64a1d42ad7a72fe6b404d356",
+            "name": "Walthamstow Garden Party"
+          }
         }
       },
       {
@@ -2872,7 +2998,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Update the Barbican ticketing platform with a modular design that better reflects the brand and offers a wider range of functionality.",
+            "desc": "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+            "sections": [
+              "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
+              "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n",
+              "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
+            ],
+            "pathname": "designing-account-areas-in-vuejs",
+            "url": "/projects/designing-account-areas-in-vuejs",
+            "filename": "designing_account_areas_in_vuejs",
+            "labels": [
+              "Barbican",
+              "Vue.js",
+              "1 month"
+            ],
+            "id": "6073409c74b96c31fb853842",
+            "name": "Designing account areas in Vue.js"
+          }
         }
       },
       {
@@ -2991,7 +3138,25 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Animate a brand moment for the NYO, which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.",
+            "desc": "<h1 id=\"movingorchestraswithaftereffects\">Moving orchestras with After Effects</h1>\n<p>Animate a brand moment for the <a href=\"https://www.nyo.org.uk/\">NYO</a>, which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>I worked on this project with Chloe Ings. We both developed creative routes, from which I ultimately supplied the final brand animations.</p>\n<ul>\n<li>🎨 Creating concepts with <a href=\"https://www.adobe.com/uk/products/indesign.html\">Adobe InDesign</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://www.adobe.com/uk/products/aftereffects.html\">Adobe After Effects</a></li>\n</ul>",
+            "sections": [
+              "<h1 id=\"movingorchestraswithaftereffects\">Moving orchestras with After Effects</h1>\n<p>Animate a brand moment for the <a href=\"https://www.nyo.org.uk/\">NYO</a>, which expresses its core intentions of incredible musical performances, inspiring young people and being open to the nation.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>I worked on this project with Chloe Ings. We both developed creative routes, from which I ultimately supplied the final brand animations.</p>\n<ul>\n<li>🎨 Creating concepts with <a href=\"https://www.adobe.com/uk/products/indesign.html\">Adobe InDesign</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://www.adobe.com/uk/products/aftereffects.html\">Adobe After Effects</a></li>\n</ul>"
+            ],
+            "pathname": "moving-orchestras-with-after-effects",
+            "url": "/projects/moving-orchestras-with-after-effects",
+            "filename": "moving_orchestras_with_after_effects",
+            "labels": [
+              "Freelance",
+              "Video",
+              "3 months"
+            ],
+            "id": "65361bb8a1a1d1627f281d2f",
+            "name": "Moving orchestras with After Effects"
+          }
         }
       },
       {
@@ -3113,14 +3278,35 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Create & brand an online shop for 36 Bourne Street in Wordpress. The shop sells leather and fabric on the Pimlico Road.",
+            "desc": "<h1 id=\"sellingdesignerfabricwithwordpress\">Selling designer fabric with Wordpress</h1>\n<p>Create &amp; brand an online shop for <a href=\"https://36bournestreet.com\">36 Bourne Street</a> in <a href=\"https://wordpress.com\">Wordpress</a>. The shop sells leather and fabric on the <a href=\"https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district\">Pimlico Road</a>.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.36bournestreet.com\">36bournestreet.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/BourneSt\">repository</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building a child theme for <a href=\"https://wordpress.com/\">Wordpress</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a <a href=\"https://www.wpbeginner.com/glossary/content-management-system-cms\">CMS</a>, using <a href=\"https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps\">template partials in Wordpress</a> and building functionality with the <a href=\"https://www.advancedcustomfields.com\">Advanced Custom Fields</a> plugin.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+            "sections": [
+              "<h1 id=\"sellingdesignerfabricwithwordpress\">Selling designer fabric with Wordpress</h1>\n<p>Create &amp; brand an online shop for <a href=\"https://36bournestreet.com\">36 Bourne Street</a> in <a href=\"https://wordpress.com\">Wordpress</a>. The shop sells leather and fabric on the <a href=\"https://www.sothebys.com/en/digital-catalogues/the-pimlico-road-londons-design-antiques-district\">Pimlico Road</a>.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://www.36bournestreet.com\">36bournestreet.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/BourneSt\">repository</a>.</p>\n",
+              "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Pretty much everything, which includes:</p>\n<ul>\n<li>💻 Building a child theme for <a href=\"https://wordpress.com/\">Wordpress</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
+              "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The handdrawn artwork was pretty interesting to work on and adapt for the website. This was also my first time coding for a <a href=\"https://www.wpbeginner.com/glossary/content-management-system-cms\">CMS</a>, using <a href=\"https://www.sitepoint.com/build-wordpress-theme-from-scratch-first-steps\">template partials in Wordpress</a> and building functionality with the <a href=\"https://www.advancedcustomfields.com\">Advanced Custom Fields</a> plugin.</p>\n",
+              "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
+            ],
+            "pathname": "selling-designer-fabric-with-wordpress",
+            "url": "/projects/selling-designer-fabric-with-wordpress",
+            "filename": "selling_designer_fabric_with_wordpress",
+            "labels": [
+              "Bourne St",
+              "Wordpress",
+              "6.8 years"
+            ],
+            "id": "64b7ebc40642ef9285ec9c0d",
+            "name": "Selling designer fabric with Wordpress"
+          }
         }
       }
     ]
   },
   "articles": {
     "data": {
-      "dateCompiled": "Updated on 08 Feb 2024"
+      "dateCompiled": "Updated on 11 Feb 2024"
     },
     "cards": [
       {
@@ -3271,7 +3457,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Problem solving basics\nDesign is primarily about communicating ideas and solving problems. The ideas you communicate should in turn contribute to your desired outcome.\nOver time it becomes easier to identify bad assumptions in the process. I've listed some concepts below which will help make you a more productive problem solver.\n\nWhat is a good outcome?\nOutcomes justify the existence of your product. They can be anything from \"raising awareness of your product\", \"creating excitement around your product\" or \"making your product easier to use\". You define your outcomes and acheiving them is your measure of success.\n\nCan outcomes ever be bad then?\nYes, that's why its important to understand the details:\n\nVague outcomes are common and can waste your time; acheiving something unspecific or unuseful.\nUnintended outcomes can create more problems than they solve.\n\nSo what concepts are useful?\nHere's some concepts that I find useful in my design process:\nCombine simple ideas to create complex outcomes:\nIn javascript this means; write functions with specific inputs/outputs. This is easier to read, understand and debug. It creates less room for incorrect assumptions and gaps in your understanding.\nBeyond javascript this means; break down your problems and spend time prioritising what outcomes are important. This will give you a stronger sense of self and give you a more flexible mindset.\n\nTo find correct solutions, ask the correct questions:\nWhen solving problems it feels intuitive to focus on solutions, but it's also important to understand the specifics of your problem. After all it's not much use solving the wrong problem, or worse, creating an entirely new one.\n\nThere are three types of knowledge:\na) The stuff \"you know, you know\"\nb) the stuff \"you know, you dont know\"\nc) the stuff \"you dont know, you dont know\"\nIn my experience its almost impossible to work solely in (a). Instead, by growing (b) and reducing (c) you will improve your awareness, becoming a better problem solver, and a more empathetic person.",
+            "desc": "<h1 id=\"problemsolvingbasics\">Problem solving basics</h1>\n<p>Design is primarily about <strong>communicating ideas and solving problems</strong>. The ideas you communicate should in turn contribute to your desired outcome.</p>\n<p>Over time it becomes easier to identify bad assumptions in the process. I've listed some concepts below which will help make you a more productive problem solver.</p>\n<p><br></p>\n<h3 id=\"whatisagoodoutcome\">What is a good outcome?</h3>\n<p>Outcomes justify the existence of your product. They can be anything from \"raising awareness of your product\", \"creating excitement around your product\" or \"making your product easier to use\". <strong>You define your outcomes</strong> and acheiving them is <strong>your measure of success</strong>.</p>\n<p><br></p>\n<h3 id=\"canoutcomeseverbebadthen\">Can outcomes ever be bad then?</h3>\n<p>Yes, that's why its important to understand the details:</p>\n<ol>\n<li><p>Vague outcomes are common and can waste your time; acheiving something unspecific or unuseful.</p></li>\n<li><p>Unintended outcomes can create more problems than they solve.</p></li>\n</ol>\n<p><br></p>\n<h3 id=\"sowhatconceptsareuseful\">So what concepts are useful?</h3>\n<p>Here's some concepts that I find useful in my design process:</p>\n<h4 id=\"combinesimpleideastocreatecomplexoutcomes\">Combine simple ideas to create complex outcomes:</h4>\n<p>In javascript this means; write functions with specific inputs/outputs. This is easier to read, understand and debug. It creates less room for incorrect assumptions and gaps in your understanding.</p>\n<p>Beyond javascript this means; break down your problems and spend time prioritising what outcomes are important. This will give you a stronger sense of self and give you a more flexible mindset.</p>\n<p><br></p>\n<h4 id=\"tofindcorrectsolutionsaskthecorrectquestions\">To find correct solutions, ask the correct questions:</h4>\n<p>When solving problems it feels intuitive to focus on solutions, but it's also important to understand the specifics of your problem. After all it's not much use solving the wrong problem, or worse, creating an entirely new one.</p>\n<p><br></p>\n<h4 id=\"therearethreetypesofknowledge\">There are three types of knowledge:</h4>\n<p>a) The stuff \"you know, you know\"</p>\n<p>b) the stuff \"you know, you dont know\"</p>\n<p>c) the stuff \"you dont know, you dont know\"</p>\n<p>In my experience its almost impossible to work solely in (a). Instead, by growing (b) and reducing (c) you will improve your awareness, becoming a better problem solver, and a more empathetic person.</p>",
+            "sections": [
+              "<h1 id=\"problemsolvingbasics\">Problem solving basics</h1>\n<p>Design is primarily about <strong>communicating ideas and solving problems</strong>. The ideas you communicate should in turn contribute to your desired outcome.</p>\n<p>Over time it becomes easier to identify bad assumptions in the process. I've listed some concepts below which will help make you a more productive problem solver.</p>\n",
+              "\n<h3 id=\"whatisagoodoutcome\">What is a good outcome?</h3>\n<p>Outcomes justify the existence of your product. They can be anything from \"raising awareness of your product\", \"creating excitement around your product\" or \"making your product easier to use\". <strong>You define your outcomes</strong> and acheiving them is <strong>your measure of success</strong>.</p>\n",
+              "\n<h3 id=\"canoutcomeseverbebadthen\">Can outcomes ever be bad then?</h3>\n<p>Yes, that's why its important to understand the details:</p>\n<ol>\n<li><p>Vague outcomes are common and can waste your time; acheiving something unspecific or unuseful.</p></li>\n<li><p>Unintended outcomes can create more problems than they solve.</p></li>\n</ol>\n",
+              "\n<h3 id=\"sowhatconceptsareuseful\">So what concepts are useful?</h3>\n<p>Here's some concepts that I find useful in my design process:</p>\n<h4 id=\"combinesimpleideastocreatecomplexoutcomes\">Combine simple ideas to create complex outcomes:</h4>\n<p>In javascript this means; write functions with specific inputs/outputs. This is easier to read, understand and debug. It creates less room for incorrect assumptions and gaps in your understanding.</p>\n<p>Beyond javascript this means; break down your problems and spend time prioritising what outcomes are important. This will give you a stronger sense of self and give you a more flexible mindset.</p>\n",
+              "\n<h4 id=\"tofindcorrectsolutionsaskthecorrectquestions\">To find correct solutions, ask the correct questions:</h4>\n<p>When solving problems it feels intuitive to focus on solutions, but it's also important to understand the specifics of your problem. After all it's not much use solving the wrong problem, or worse, creating an entirely new one.</p>\n",
+              "\n<h4 id=\"therearethreetypesofknowledge\">There are three types of knowledge:</h4>\n<p>a) The stuff \"you know, you know\"</p>\n<p>b) the stuff \"you know, you dont know\"</p>\n<p>c) the stuff \"you dont know, you dont know\"</p>\n<p>In my experience its almost impossible to work solely in (a). Instead, by growing (b) and reducing (c) you will improve your awareness, becoming a better problem solver, and a more empathetic person.</p>"
+            ],
+            "pathname": "problem-solving-basics",
+            "url": "/blog/problem-solving-basics",
+            "filename": "problem_solving_basics",
+            "labels": [
+              "Ideas",
+              "2 mins"
+            ],
+            "id": "6578ecd9573ab2c9b71a7a0c",
+            "name": "Problem solving basics"
+          }
         }
       },
       {
@@ -3375,7 +3582,28 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "In February 2020, we redesigned the account dashboard for users of the Barbican ticketing site.",
+            "desc": "<blockquote>\n  <p>I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the <a href=\"http://barbican.org.uk/\">Barbican</a>, an arts centre in London.</p>\n</blockquote>\n<p><br></p>\n<h3 id=\"theproject\"><strong>The Project</strong></h3>\n<p>In February 2020, we redesigned the account dashboard for users of the Barbican <a href=\"https://tickets.barbican.org.uk/\">ticketing site</a>.</p>\n<p><strong>Why?</strong> The existing design was functional, but not great for browsing on mobile and didn’t reflect the brand very strongly.</p>\n<p><strong>How?</strong> Combine Vue.js with the Spektrix ticketing API and do a re-design in Figma.</p>\n<p><br></p>\n<h3 id=\"ourresponse\">Our Response</h3>\n<p>We knew this online space would evolve. We expected the number of services provided (and the way we provide them) to change fairly often, so it was important the design could handle iteration gracefully.</p>\n<p>Our <strong>Digital Products</strong> team is small at the <a href=\"https://barbican.org.uk/\">Barbican</a> so we have to be agile when we build. The hardest part of this project would be in transitioning our ticketing experience from an iframe-based interaction to a feature-rich API-driven one.</p>\n<p>Doing this meant we could improve fundamentals such as:</p>\n<ul>\n<li>How functionality appears (and responds on smaller screens)</li>\n<li>The accessibility of page content</li>\n<li>How meaningful interactions are\n(ie. receiving confirmation that information has been saved on update)</li>\n</ul>\n<p><img src=\"https://miro.medium.com/v2/resize:fit:1400/1*iSO0-WYH22NWgefKnSnWWw.jpeg\"></p>\n<p><em>A view of the Barbican Centre from the lakeside. It is Europe’s largest art centre and home to a concert hall, 2 art galleries, 2 theatres, 3 cinemas, a rooftop conservatory and a residential estate.</em></p>\n<p><br></p>\n<h3 id=\"howweplannedit\"><strong>How we planned it</strong></h3>\n<p>Removing assumptions is an important part of the design process, so we used various exercises to include a wide range of contributions.</p>\n<p>We began with a card sorting exercise, asking several people to sort functionality into groups based on their assumptions. This helped create more intuitive account navigation.</p>\n<p>Next, we ran crazy eights. For this exercise, each group member was asked to sketch eight ideas in eight minutes. This is usually done by folding a sheet of paper into eight pieces and scribbling an idea into each one.</p>\n<p>This process is designed to quickly generate simple ideas, which can then be iterated upon during the prototype stage.</p>\n<p><img src=\"https://miro.medium.com/v2/resize:fit:1400/1*AnfnUpDO-iSNrsv-BHyY6Q.png\"></p>\n<p><em>Ideas for Crazy Eights are typically sketched on a single sheet of A4 paper.</em></p>\n<p><br></p>\n<h3 id=\"howwedesignedit\"><strong>How we designed it</strong></h3>\n<p>Prototypes are designed &amp; shared online using <a href=\"https://www.figma.com/\">Figma</a>.</p>\n<p>At this point, we can create working layouts, which are informed by our group research, and can also be shared with our user panel for further testing.</p>\n<p>These prototypes don’t always look immediately similar to the final product. Sometimes more complex designs are refined during multiple rounds of testing.</p>\n<p>In this case, the final design was inspired by the <a href=\"https://shop.tate.org.uk/\">Tate Shop</a>.</p>\n<p>I love how you can navigate this layout without extra menus. The browsing experience is very similar on all screen sizes. You don’t need to re-learn how to browse on smaller screens (or vice versa) as there is very little content shift. I found this to be very elegant.</p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687271828380/a845476b-287d-4e41-91c8-6cc17e5c8aaa.png\"></p>\n<p><em>The account area for the Tate Shop inspired much of our design work. The modular layout became a flexible foundation for our build.</em></p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687271798440/39ccb8f3-27be-4003-9f89-f5e9fde3b352.png\"></p>\n<p><br></p>\n<h3 id=\"howwebuiltit\"><strong>How we built it</strong></h3>\n<p>Everything built on our <a href=\"https://tickets.barbican.org.uk/\">ticketing</a> site is based on the popular front-end toolkit <a href=\"https://getbootstrap.com/\">Bootstrap</a>. This enables us to build consistently and predictably, speeding up development and improving user experience.</p>\n<p>We also use the <a href=\"https://fonts.google.com/icons\">Material Icons</a> resource. It’s a large, beautiful library of icons, that adds to this consistency.</p>\n<blockquote>\n  <p>This article is still being written. If you want to stay updated or have some suggestions, then please email <a href=\"mailto:hello@paulh.biz\">hello@paulh.biz</a></p>\n</blockquote>",
+            "sections": [
+              "<blockquote>\n  <p>I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the <a href=\"http://barbican.org.uk/\">Barbican</a>, an arts centre in London.</p>\n</blockquote>\n",
+              "\n<h3 id=\"theproject\"><strong>The Project</strong></h3>\n<p>In February 2020, we redesigned the account dashboard for users of the Barbican <a href=\"https://tickets.barbican.org.uk/\">ticketing site</a>.</p>\n<p><strong>Why?</strong> The existing design was functional, but not great for browsing on mobile and didn’t reflect the brand very strongly.</p>\n<p><strong>How?</strong> Combine Vue.js with the Spektrix ticketing API and do a re-design in Figma.</p>\n",
+              "\n<h3 id=\"ourresponse\">Our Response</h3>\n<p>We knew this online space would evolve. We expected the number of services provided (and the way we provide them) to change fairly often, so it was important the design could handle iteration gracefully.</p>\n<p>Our <strong>Digital Products</strong> team is small at the <a href=\"https://barbican.org.uk/\">Barbican</a> so we have to be agile when we build. The hardest part of this project would be in transitioning our ticketing experience from an iframe-based interaction to a feature-rich API-driven one.</p>\n<p>Doing this meant we could improve fundamentals such as:</p>\n<ul>\n<li>How functionality appears (and responds on smaller screens)</li>\n<li>The accessibility of page content</li>\n<li>How meaningful interactions are\n(ie. receiving confirmation that information has been saved on update)</li>\n</ul>\n<p><img src=\"https://miro.medium.com/v2/resize:fit:1400/1*iSO0-WYH22NWgefKnSnWWw.jpeg\"></p>\n<p><em>A view of the Barbican Centre from the lakeside. It is Europe’s largest art centre and home to a concert hall, 2 art galleries, 2 theatres, 3 cinemas, a rooftop conservatory and a residential estate.</em></p>\n",
+              "\n<h3 id=\"howweplannedit\"><strong>How we planned it</strong></h3>\n<p>Removing assumptions is an important part of the design process, so we used various exercises to include a wide range of contributions.</p>\n<p>We began with a card sorting exercise, asking several people to sort functionality into groups based on their assumptions. This helped create more intuitive account navigation.</p>\n<p>Next, we ran crazy eights. For this exercise, each group member was asked to sketch eight ideas in eight minutes. This is usually done by folding a sheet of paper into eight pieces and scribbling an idea into each one.</p>\n<p>This process is designed to quickly generate simple ideas, which can then be iterated upon during the prototype stage.</p>\n<p><img src=\"https://miro.medium.com/v2/resize:fit:1400/1*AnfnUpDO-iSNrsv-BHyY6Q.png\"></p>\n<p><em>Ideas for Crazy Eights are typically sketched on a single sheet of A4 paper.</em></p>\n",
+              "\n<h3 id=\"howwedesignedit\"><strong>How we designed it</strong></h3>\n<p>Prototypes are designed &amp; shared online using <a href=\"https://www.figma.com/\">Figma</a>.</p>\n<p>At this point, we can create working layouts, which are informed by our group research, and can also be shared with our user panel for further testing.</p>\n<p>These prototypes don’t always look immediately similar to the final product. Sometimes more complex designs are refined during multiple rounds of testing.</p>\n<p>In this case, the final design was inspired by the <a href=\"https://shop.tate.org.uk/\">Tate Shop</a>.</p>\n<p>I love how you can navigate this layout without extra menus. The browsing experience is very similar on all screen sizes. You don’t need to re-learn how to browse on smaller screens (or vice versa) as there is very little content shift. I found this to be very elegant.</p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687271828380/a845476b-287d-4e41-91c8-6cc17e5c8aaa.png\"></p>\n<p><em>The account area for the Tate Shop inspired much of our design work. The modular layout became a flexible foundation for our build.</em></p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687271798440/39ccb8f3-27be-4003-9f89-f5e9fde3b352.png\"></p>\n",
+              "\n<h3 id=\"howwebuiltit\"><strong>How we built it</strong></h3>\n<p>Everything built on our <a href=\"https://tickets.barbican.org.uk/\">ticketing</a> site is based on the popular front-end toolkit <a href=\"https://getbootstrap.com/\">Bootstrap</a>. This enables us to build consistently and predictably, speeding up development and improving user experience.</p>\n<p>We also use the <a href=\"https://fonts.google.com/icons\">Material Icons</a> resource. It’s a large, beautiful library of icons, that adds to this consistency.</p>\n<blockquote>\n  <p>This article is still being written. If you want to stay updated or have some suggestions, then please email <a href=\"mailto:hello@paulh.biz\">hello@paulh.biz</a></p>\n</blockquote>"
+            ],
+            "pathname": "designing-account-areas-in-vuejs",
+            "url": "/blog/designing-account-areas-in-vuejs",
+            "filename": "designing_account_areas_in_vuejs",
+            "labels": [
+              "Projects",
+              "3 mins"
+            ],
+            "id": "6592dc638a132c6bba1c5de3",
+            "name": "Designing account areas in Vue.js"
+          }
         }
       },
       {
@@ -3476,7 +3704,25 @@
               },
               "style": "outline"
             }
-          ]
+          ],
+          "search": {
+            "summary": "Make a browser-based app for people who work at the Barbican and want to book/see available spaces in the centre.",
+            "desc": "<blockquote>\n  <p>I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the <a href=\"http://barbican.org.uk/\">Barbican</a>, an arts centre in London.</p>\n</blockquote>\n<p><br></p>\n<h3 id=\"theproject\"><strong>The Project</strong></h3>\n<p>Make a browser-based app for people who work at the <a href=\"https://en.wikipedia.org/wiki/Barbican_Centre\">Barbican</a> and want to book/see available spaces in the centre.</p>\n<p><strong>Why?</strong> The current events system is too inaccessible for most users. It’s not intuitive to use and requires training to understand. Most users just need an easy way to view which spaces are available, and which are not.</p>\n<p><strong>How?</strong> Create an <a href=\"https://en.wikipedia.org/wiki/API#Web_APIs\">API</a> which makes data available from the current events system. We’ll then feed that data into a new <a href=\"https://vuejs.org/\">Vue 3</a> app via <a href=\"https://graphql.org/\">GraphQL</a>.</p>\n<blockquote>\n  <p>This project has already taken 2 years to reach the first round of testing. I’m going to write a series of posts about it. This is part one.</p>\n</blockquote>\n<p>The current events system (let's call it Filofax) does a decent job of organising events, but is now old and faces some problems:</p>\n<ul>\n<li><strong>It’s generic.</strong> It’s not designed for the very unique spaces and systems at the Barbican.</li>\n<li><strong>It’s technical.</strong> Some staff use <strong>Filofax</strong> daily and have a good understanding of its features. Most do not.</li>\n<li><strong>It’s old.</strong> Solutions have been created by users over time in ways that were never intended. The system is no longer intuitive.</li>\n<li><strong>It’s ugly.</strong> The interface lacks direction and clarity. There’s no curation of information and no sense of priority.</li>\n<li><strong>It’s inaccessible.</strong> You need server access and specific training just to get started. That’s a major barrier to entry.</li>\n</ul>\n<p><br></p>\n<h3 id=\"ourresponse\">Our Response</h3>\n<p>We’re a small team, so we use <a href=\"https://www.apm.org.uk/resources/find-a-resource/agile-project-management/\">Agile</a> project management. The idea is to achieve maximum impact as quickly as possible. We break up work into very specific “tickets” and prioritise those tickets according to the goals of the project. Every 2 weeks, we assess how the project is going, and then create more tickets.</p>\n<p>Our priority <a href=\"https://www.atlassian.com/agile/project-management/user-stories\">user story</a> was “<em>I want to easily view event data in an intuitive and useful way</em>”. Therefore, we didn’t focus on themes such as event management/creation quite yet. Also, <strong>Filofax</strong> already provides this functionality for more advanced users.</p>\n<p>We articulated several user stories from our initial brief, and so I began responding to these by creating wireframes in <a href=\"https://www.figma.com/\">Figma</a>.</p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194758654/a6a5c0be-dc5f-40c4-a272-5981eb1cdc16.jpeg\"></p>\n<p>I decided there were 3 simple steps necessary to build a view of the event data. The first one was date selection. At this stage, the user can only choose a single-day view. Ranges are not available.</p>\n<blockquote>\n  <p>Users needed to have quick entry into the app, so we implemented Office365 authentication. This is the same way we authenticate users' email or website access, so often the login happened without their knowledge.</p>\n</blockquote>\n<p>There is also a sidebar included in the wireframes. It’s not currently included in the build but is the plan for developing app functionality. It contains potential features such as:</p>\n<ul>\n<li><strong>Alerts:</strong> Users could “watch” events and receive notifications when those events change</li>\n<li><strong>Search:</strong> A dedicated search area</li>\n<li><strong>Snapshots:</strong> A collection of saved event data “views”. Useful for repetitive searches, such as: “all confirmed events in the Theatre and Concert Hall every Thursday”</li>\n</ul>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194715184/ac870b72-cfdd-4e37-8c06-5b1d8b15bf2a.jpeg\"></p>\n<p>This step was inspired by functionality included in the excellent <a href=\"https://www.advancedcustomfields.com/resources/creating-a-field-group/\">Advanced Custom Fields</a> <a href=\"https://wordpress.com/\">WordPress</a> plugin. I love how the elegant interface allows users to build pretty complex queries.</p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194645337/c4921fd3-752b-4e09-b3af-0b150d15c93c.jpeg\"></p>\n<p>We had 3 ideas for useful ways to show our event data:</p>\n<ul>\n<li><strong>Map View:</strong> Groups spaces into levels. This helps users understand which spaces are close together, and where noisy performances may affect your booking. This view is not yet available.</li>\n<li><strong>Gantt View:</strong> The “Garageband” view collects event bookings into groups and displays them as a single bar on a chart. This helps users understand which bookings clash and overlap.</li>\n<li><strong>List View:</strong> The most basic view. It displays a paginated list of results, but data has been grouped into collections of related events. You’re also able to sort the data by various categories.</li>\n</ul>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194902839/ffd0bdba-f40d-4a68-b0c2-5a9e4bcfdd63.jpeg\"></p>\n<p>In <strong>Map View</strong>, live performances pulsate to denote the noise around&nbsp;them</p>\n<p>Both Map and Gantt views contain several similarities:</p>\n<ul>\n<li>An extra sidebar (in this case, denoting each level)</li>\n<li>A horizontally scrolling timeline (with a marker to denote the time of day)</li>\n</ul>\n<p>Each view also contains navigation for:</p>\n<ul>\n<li>switching between day views</li>\n<li>switching between view modes</li>\n<li>editing filter settings</li>\n<li>viewing the additional event information</li>\n</ul>\n<blockquote>\n  <p>This article is still being written. If you want to stay updated or have some suggestions, then please email <a href=\"mailto:hello@paulh.biz\">hello@paulh.biz</a></p>\n</blockquote>",
+            "sections": [
+              "<blockquote>\n  <p>I’m a web designer and developer whose learning to write more interesting stories and less complex code. I work for the <a href=\"http://barbican.org.uk/\">Barbican</a>, an arts centre in London.</p>\n</blockquote>\n",
+              "\n<h3 id=\"theproject\"><strong>The Project</strong></h3>\n<p>Make a browser-based app for people who work at the <a href=\"https://en.wikipedia.org/wiki/Barbican_Centre\">Barbican</a> and want to book/see available spaces in the centre.</p>\n<p><strong>Why?</strong> The current events system is too inaccessible for most users. It’s not intuitive to use and requires training to understand. Most users just need an easy way to view which spaces are available, and which are not.</p>\n<p><strong>How?</strong> Create an <a href=\"https://en.wikipedia.org/wiki/API#Web_APIs\">API</a> which makes data available from the current events system. We’ll then feed that data into a new <a href=\"https://vuejs.org/\">Vue 3</a> app via <a href=\"https://graphql.org/\">GraphQL</a>.</p>\n<blockquote>\n  <p>This project has already taken 2 years to reach the first round of testing. I’m going to write a series of posts about it. This is part one.</p>\n</blockquote>\n<p>The current events system (let's call it Filofax) does a decent job of organising events, but is now old and faces some problems:</p>\n<ul>\n<li><strong>It’s generic.</strong> It’s not designed for the very unique spaces and systems at the Barbican.</li>\n<li><strong>It’s technical.</strong> Some staff use <strong>Filofax</strong> daily and have a good understanding of its features. Most do not.</li>\n<li><strong>It’s old.</strong> Solutions have been created by users over time in ways that were never intended. The system is no longer intuitive.</li>\n<li><strong>It’s ugly.</strong> The interface lacks direction and clarity. There’s no curation of information and no sense of priority.</li>\n<li><strong>It’s inaccessible.</strong> You need server access and specific training just to get started. That’s a major barrier to entry.</li>\n</ul>\n",
+              "\n<h3 id=\"ourresponse\">Our Response</h3>\n<p>We’re a small team, so we use <a href=\"https://www.apm.org.uk/resources/find-a-resource/agile-project-management/\">Agile</a> project management. The idea is to achieve maximum impact as quickly as possible. We break up work into very specific “tickets” and prioritise those tickets according to the goals of the project. Every 2 weeks, we assess how the project is going, and then create more tickets.</p>\n<p>Our priority <a href=\"https://www.atlassian.com/agile/project-management/user-stories\">user story</a> was “<em>I want to easily view event data in an intuitive and useful way</em>”. Therefore, we didn’t focus on themes such as event management/creation quite yet. Also, <strong>Filofax</strong> already provides this functionality for more advanced users.</p>\n<p>We articulated several user stories from our initial brief, and so I began responding to these by creating wireframes in <a href=\"https://www.figma.com/\">Figma</a>.</p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194758654/a6a5c0be-dc5f-40c4-a272-5981eb1cdc16.jpeg\"></p>\n<p>I decided there were 3 simple steps necessary to build a view of the event data. The first one was date selection. At this stage, the user can only choose a single-day view. Ranges are not available.</p>\n<blockquote>\n  <p>Users needed to have quick entry into the app, so we implemented Office365 authentication. This is the same way we authenticate users' email or website access, so often the login happened without their knowledge.</p>\n</blockquote>\n<p>There is also a sidebar included in the wireframes. It’s not currently included in the build but is the plan for developing app functionality. It contains potential features such as:</p>\n<ul>\n<li><strong>Alerts:</strong> Users could “watch” events and receive notifications when those events change</li>\n<li><strong>Search:</strong> A dedicated search area</li>\n<li><strong>Snapshots:</strong> A collection of saved event data “views”. Useful for repetitive searches, such as: “all confirmed events in the Theatre and Concert Hall every Thursday”</li>\n</ul>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194715184/ac870b72-cfdd-4e37-8c06-5b1d8b15bf2a.jpeg\"></p>\n<p>This step was inspired by functionality included in the excellent <a href=\"https://www.advancedcustomfields.com/resources/creating-a-field-group/\">Advanced Custom Fields</a> <a href=\"https://wordpress.com/\">WordPress</a> plugin. I love how the elegant interface allows users to build pretty complex queries.</p>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194645337/c4921fd3-752b-4e09-b3af-0b150d15c93c.jpeg\"></p>\n<p>We had 3 ideas for useful ways to show our event data:</p>\n<ul>\n<li><strong>Map View:</strong> Groups spaces into levels. This helps users understand which spaces are close together, and where noisy performances may affect your booking. This view is not yet available.</li>\n<li><strong>Gantt View:</strong> The “Garageband” view collects event bookings into groups and displays them as a single bar on a chart. This helps users understand which bookings clash and overlap.</li>\n<li><strong>List View:</strong> The most basic view. It displays a paginated list of results, but data has been grouped into collections of related events. You’re also able to sort the data by various categories.</li>\n</ul>\n<p><img src=\"https://cdn.hashnode.com/res/hashnode/image/upload/v1687194902839/ffd0bdba-f40d-4a68-b0c2-5a9e4bcfdd63.jpeg\"></p>\n<p>In <strong>Map View</strong>, live performances pulsate to denote the noise around&nbsp;them</p>\n<p>Both Map and Gantt views contain several similarities:</p>\n<ul>\n<li>An extra sidebar (in this case, denoting each level)</li>\n<li>A horizontally scrolling timeline (with a marker to denote the time of day)</li>\n</ul>\n<p>Each view also contains navigation for:</p>\n<ul>\n<li>switching between day views</li>\n<li>switching between view modes</li>\n<li>editing filter settings</li>\n<li>viewing the additional event information</li>\n</ul>\n<blockquote>\n  <p>This article is still being written. If you want to stay updated or have some suggestions, then please email <a href=\"mailto:hello@paulh.biz\">hello@paulh.biz</a></p>\n</blockquote>"
+            ],
+            "pathname": "organising-spaces-with-graphql",
+            "url": "/blog/organising-spaces-with-graphql",
+            "filename": "organising_spaces_with_graphql",
+            "labels": [
+              "Projects",
+              "4 mins"
+            ],
+            "id": "6578ecf1a1612cb39d9efd18",
+            "name": "Organising spaces with GraphQL"
+          }
         }
       }
     ]
@@ -3665,7 +3911,7 @@
             "url": "https://open.spotify.com/artist/6nbtlXRy0S6adYpDVoRdNi",
             "name": "Anna B Savage"
           },
-          "popularity": 12,
+          "popularity": 11,
           "release_date": "2021-01-29",
           "url": "https://open.spotify.com/track/4oUBPVqmxoP5u9HeXLU6To",
           "name": "Corncrakes"
@@ -3735,7 +3981,7 @@
             "url": "https://open.spotify.com/artist/4gQsGkfdB4uVrNBqo4MhmI",
             "name": "LUMP"
           },
-          "popularity": 18,
+          "popularity": 19,
           "release_date": "2021-05-05",
           "url": "https://open.spotify.com/track/6fcJI9qrH0vr9EYxjpQdaM",
           "name": "Animal - Edit"
@@ -3818,7 +4064,7 @@
             "url": "https://open.spotify.com/artist/3I3Fz1DeUY0icXFvOjbXm7",
             "name": "Methyl Ethel"
           },
-          "popularity": 17,
+          "popularity": 16,
           "release_date": "2022-02-18",
           "url": "https://open.spotify.com/track/4QI59IbUG9W8oUo4gWoBxw",
           "name": "Proof"
@@ -4039,14 +4285,14 @@
     "futuro": {
       "name": "futuro",
       "version": "1.1.8",
-      "downloads": 187874,
+      "downloads": 187990,
       "url": "https://rubygems.org/gems/futuro",
       "color": "dodgerblue"
     },
     "reset": {
       "name": "barbican-reset",
       "version": "2.21.0",
-      "downloads": 11406,
+      "downloads": 11398,
       "url": "https://www.npmjs.com/package/barbican-reset",
       "color": "red"
     }
