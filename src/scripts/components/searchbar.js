@@ -12,12 +12,6 @@ let indexes = ["name", "desc", "pathname", "summary", "url", "labels"];
 indexes.forEach((item) => search.addIndex(item));
 
 /**
- * Dynamic Selectors
- * @description Returns a selector on execution, not during setup
- * @returns {HTMLElement}
- */
-
-/**
  * @name $rows
  * @param {string} type - Option to filter via the data attribute
  * @returns {HTMLElement}
@@ -47,7 +41,7 @@ const $clear = $form.querySelector("#clear-search");
 
 const $more = document.querySelector("#see-more");
 
-const $moreWrap = $more.closest(".wrap");
+// const $moreWrap = $more.closest(".wrap");
 
 const $moreContent = $more.querySelector(".content");
 
@@ -62,17 +56,17 @@ let initialState = {
 
 let state = { ...initialState };
 
-/**
- * @name dataIs
- * @param {HTMLElement} element
- * @param {string} query
- * @returns {boolean} Indicating whether the data attribute matches the string query
- */
+// /**
+//  * @name dataIs
+//  * @param {HTMLElement} element
+//  * @param {string} query
+//  * @returns {boolean} Indicating whether the data attribute matches the string query
+//  */
 
-function dataIs(element, query) {
-  let data = element.getAttribute("data");
-  return data == query;
-}
+// function dataIs(element, query) {
+//   let data = element.getAttribute("data");
+//   return data == query;
+// }
 
 /**
  * @name createEmptyRow
