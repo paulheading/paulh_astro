@@ -35,10 +35,10 @@ print.date_created = [
 ];
 
 print.resume_link = [
-  "paulh.biz/resume",
+  "paul.ly/resume",
   $.columns[2],
   $.rows[1] + $.lines(3.75),
-  { url: "https://paulh.biz/resume" },
+  { url: "https://paul.ly/resume" },
 ];
 
 print.projects_title = ["Projects", $.columns[0], $.rows[2]];

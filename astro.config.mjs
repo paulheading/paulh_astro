@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://paulh.biz",
+  site: "https://paul.ly",
   images: {
     domains: ["mosaic.scdn.co", "i.scdn.co", "images-ak.spotifycdn.com"],
   },

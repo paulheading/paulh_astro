@@ -14,7 +14,7 @@ Unfortunately not, it's only available for Barbican staff at [dev.event.barbican
 
 The code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.
 
-I have started writing about [this project](https://blog.paulh.biz/organising-spaces-with-graphql-1) on [my blog](https://blog.paulh.biz).
+I have started writing about [this project](https://blog.paul.ly/organising-spaces-with-graphql-1) on [my blog](https://blog.paul.ly).
 
 <br>
 

@@ -14,7 +14,7 @@ Sure, it's at [tickets.barbican.org.uk](https://tickets.barbican.org.uk)
 
 The code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.
 
-I have started writing about [this project](https://blog.paulh.biz/designing-account-areas-in-vuejs) on [my blog](https://blog.paulh.biz).
+I have started writing about [this project](https://blog.paul.ly/designing-account-areas-in-vuejs) on [my blog](https://blog.paul.ly).
 
 <br>
 

@@ -14,7 +14,7 @@ Sure, it's at [sparkthecannon.com](https://sparkthecannon.com)
 
 The code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/steph23).
 
-I've started writing about [this project](https://blog.paulh.biz/preview/64908a776fdc99000f5daf42) on [my blog](https://blog.paulh.biz).
+I've started writing about [this project](https://blog.paul.ly/preview/64908a776fdc99000f5daf42) on [my blog](https://blog.paul.ly).
 
 <br>
 

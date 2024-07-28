@@ -2015,7 +2015,7 @@
         "closed": false,
         "dueComplete": false,
         "dateLastActivity": "2024-01-31T07:21:21.943Z",
-        "desc": "```\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n---\n\n# Organising Spaces with GraphQL\n\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n<br>\n\n### Can I see it?\n\nUnfortunately not, it's only available for Barbican staff at [dev.event.barbican.org.uk](https://dev.event.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paulh.biz/organising-spaces-with-graphql-1) on [my blog](https://blog.paulh.biz).\n\n<br>\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue 3](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 💾 Consuming data from the [Barbican](https://barbican.org.uk) [GraphQL](https://graphql.org) feed.\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n<br>\n\n### What are the interesting parts?\n\nThis project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the [Barbican](https://barbican.org.uk) to use.\n\nWe're using [GraphQL](https://graphql.org) to pull data from the original system, and are using [Vue.js](https://vuejs.org) to present a more intuitive view of everything that is happening at the centre.\n\n<br>\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+        "desc": "```\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n---\n\n# Organising Spaces with GraphQL\n\nBuild a website/app for staff at the [Barbican](https://barbican.org.uk) to see which spaces are available to book.\n\n<br>\n\n### Can I see it?\n\nUnfortunately not, it's only available for Barbican staff at [dev.event.barbican.org.uk](https://dev.event.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paul.ly/organising-spaces-with-graphql-1) on [my blog](https://blog.paul.ly).\n\n<br>\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue 3](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 💾 Consuming data from the [Barbican](https://barbican.org.uk) [GraphQL](https://graphql.org) feed.\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n<br>\n\n### What are the interesting parts?\n\nThis project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the [Barbican](https://barbican.org.uk) to use.\n\nWe're using [GraphQL](https://graphql.org) to pull data from the original system, and are using [Vue.js](https://vuejs.org) to present a more intuitive view of everything that is happening at the centre.\n\n<br>\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
         "descData": {
           "emoji": {}
         },
@@ -2090,7 +2090,7 @@
         "actions": [],
         "local": {
           "summary": "Build a website/app for staff at the Barbican to see which spaces are available to book.",
-          "desc": "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+          "desc": "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paul.ly/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
           "primaryColor": {
             "name": "green",
             "text": "#174b35",
@@ -2098,7 +2098,7 @@
           },
           "sections": [
             "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n",
-            "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+            "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paul.ly/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n",
             "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
             "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n",
             "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
@@ -2143,10 +2143,10 @@
           ],
           "search": {
             "summary": "Build a website/app for staff at the Barbican to see which spaces are available to book.",
-            "desc": "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+            "desc": "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paul.ly/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
             "sections": [
               "<h1 id=\"organisingspaceswithgraphql\">Organising Spaces with GraphQL</h1>\n<p>Build a website/app for staff at the <a href=\"https://barbican.org.uk\">Barbican</a> to see which spaces are available to book.</p>\n",
-              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Unfortunately not, it's only available for Barbican staff at <a href=\"https://dev.event.barbican.org.uk\">dev.event.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paul.ly/organising-spaces-with-graphql-1\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n",
               "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue 3</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>💾 Consuming data from the <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://graphql.org\">GraphQL</a> feed.</li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
               "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>This project is all about democratising information. There is already an event management system in place, but only a few staff members know how to use it. The original system is very technical and has been manipulated/misused over time. Our task is to build a more intuitive/accessible front end for anyone at the <a href=\"https://barbican.org.uk\">Barbican</a> to use.</p>\n<p>We're using <a href=\"https://graphql.org\">GraphQL</a> to pull data from the original system, and are using <a href=\"https://vuejs.org\">Vue.js</a> to present a more intuitive view of everything that is happening at the centre.</p>\n",
               "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
@@ -2154,11 +2154,7 @@
             "pathname": "organising-spaces-with-graphql",
             "url": "/projects/organising-spaces-with-graphql",
             "filename": "organising_spaces_with_graphql",
-            "labels": [
-              "Barbican",
-              "Vue.js",
-              "1.1 years"
-            ],
+            "labels": ["Barbican", "Vue.js", "1.1 years"],
             "id": "606d70215309533eec28564a",
             "name": "Organising spaces with GraphQL"
           }
@@ -2204,10 +2200,7 @@
             "style": "outline"
           }
         ],
-        "idLabels": [
-          "6491c7d859cf65f7b465cf91",
-          "64b80f8953c59efd3011ee02"
-        ],
+        "idLabels": ["6491c7d859cf65f7b465cf91", "64b80f8953c59efd3011ee02"],
         "manualCoverAttachment": false,
         "name": "Building a Portfolio in Next.js",
         "pos": 33791.484375,
@@ -2297,11 +2290,7 @@
             "pathname": "building-a-portfolio-in-nextjs",
             "url": "/projects/building-a-portfolio-in-nextjs",
             "filename": "building_a_portfolio_in_nextjs",
-            "labels": [
-              "Freelance",
-              "Next.js",
-              "6 months"
-            ],
+            "labels": ["Freelance", "Next.js", "6 months"],
             "id": "64be46a284472c83d0ead0f6",
             "name": "Building a Portfolio in Next.js"
           }
@@ -2313,7 +2302,7 @@
         "closed": false,
         "dueComplete": true,
         "dateLastActivity": "2023-12-30T17:34:57.147Z",
-        "desc": "```\nBuild and animate the website for Stephanie Cannon, a professional Voice-over Artist.\n\n---\n\n# Sparking the Cannon with Next.js\n\nBuild and animate the website for Stephanie Cannon, a professional Voice-over Artist.\n\n<br>\n\n### Can I see it?\n\nSure, it's at [sparkthecannon.com](https://sparkthecannon.com)\n\nThe code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/steph23).\n\nI've started writing about [this project](https://blog.paulh.biz/preview/64908a776fdc99000f5daf42) on [my blog](https://blog.paulh.biz).\n\n<br>\n\n### How much did you do?\n\nEverything! Except the wonderful illustration. This includes:\n\n- 💻 Building the site in [Next.js](https://nextjs.org)\n- 🎨 Designing the layouts with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n<br>\n\n### What are the interesting parts?\n\nDefinitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.\n\n<br>\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n- **Accessibility** 😥 It's pretty limited. Areas like [color contrast](https://webaim.org/resources/contrastchecker) and [focus states](https://design-system.service.gov.uk/get-started/focus-states) need further consideration.\n```",
+        "desc": "```\nBuild and animate the website for Stephanie Cannon, a professional Voice-over Artist.\n\n---\n\n# Sparking the Cannon with Next.js\n\nBuild and animate the website for Stephanie Cannon, a professional Voice-over Artist.\n\n<br>\n\n### Can I see it?\n\nSure, it's at [sparkthecannon.com](https://sparkthecannon.com)\n\nThe code is in my public [Github](https://github.com) [repository](https://github.com/paulheading/steph23).\n\nI've started writing about [this project](https://blog.paul.ly/preview/64908a776fdc99000f5daf42) on [my blog](https://blog.paul.ly).\n\n<br>\n\n### How much did you do?\n\nEverything! Except the wonderful illustration. This includes:\n\n- 💻 Building the site in [Next.js](https://nextjs.org)\n- 🎨 Designing the layouts with [Figma](https://figma.com)\n- 🚀 Animating the brand artwork in [GSAP](https://greensock.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n<br>\n\n### What are the interesting parts?\n\nDefinitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.\n\n<br>\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n- **Accessibility** 😥 It's pretty limited. Areas like [color contrast](https://webaim.org/resources/contrastchecker) and [focus states](https://design-system.service.gov.uk/get-started/focus-states) need further consideration.\n```",
         "descData": {
           "emoji": {}
         },
@@ -2347,10 +2336,7 @@
             "style": "outline"
           }
         ],
-        "idLabels": [
-          "6491c7d859cf65f7b465cf91",
-          "64b80f8953c59efd3011ee02"
-        ],
+        "idLabels": ["6491c7d859cf65f7b465cf91", "64b80f8953c59efd3011ee02"],
         "manualCoverAttachment": false,
         "name": "Sparking the cannon with Next.js",
         "pos": 34815.46875,
@@ -2376,7 +2362,7 @@
         "actions": [],
         "local": {
           "summary": "Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.",
-          "desc": "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>",
+          "desc": "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paul.ly/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>",
           "primaryColor": {
             "name": "purple",
             "text": "#352c63",
@@ -2384,7 +2370,7 @@
           },
           "sections": [
             "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n",
-            "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+            "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paul.ly/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n",
             "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
             "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n",
             "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>"
@@ -2429,10 +2415,10 @@
           ],
           "search": {
             "summary": "Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.",
-            "desc": "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>",
+            "desc": "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paul.ly/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>",
             "sections": [
               "<h1 id=\"sparkingthecannonwithnextjs\">Sparking the Cannon with Next.js</h1>\n<p>Build and animate the website for Stephanie Cannon, a professional Voice-over Artist.</p>\n",
-              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paulh.biz/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://sparkthecannon.com\">sparkthecannon.com</a></p>\n<p>The code is in my public <a href=\"https://github.com\">Github</a> <a href=\"https://github.com/paulheading/steph23\">repository</a>.</p>\n<p>I've started writing about <a href=\"https://blog.paul.ly/preview/64908a776fdc99000f5daf42\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n",
               "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Everything! Except the wonderful illustration. This includes:</p>\n<ul>\n<li>💻 Building the site in <a href=\"https://nextjs.org\">Next.js</a></li>\n<li>🎨 Designing the layouts with <a href=\"https://figma.com\">Figma</a></li>\n<li>🚀 Animating the brand artwork in <a href=\"https://greensock.com\">GSAP</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
               "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>Definitely the various bespoke playlists and audio players. Note to self: write a case study on those. The animations are also pretty cute and the brand colour palette is delicious.</p>\n",
               "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n<li><strong>Accessibility</strong> 😥 It's pretty limited. Areas like <a href=\"https://webaim.org/resources/contrastchecker\">color contrast</a> and <a href=\"https://design-system.service.gov.uk/get-started/focus-states\">focus states</a> need further consideration.</li>\n</ul>"
@@ -2440,11 +2426,7 @@
             "pathname": "sparking-the-cannon-with-nextjs",
             "url": "/projects/sparking-the-cannon-with-nextjs",
             "filename": "sparking_the_cannon_with_nextjs",
-            "labels": [
-              "Freelance",
-              "Next.js",
-              "6 months"
-            ],
+            "labels": ["Freelance", "Next.js", "6 months"],
             "id": "6491c7bdb4a1fd40f80a1a99",
             "name": "Sparking the cannon with Next.js"
           }
@@ -2490,10 +2472,7 @@
             "style": "outline"
           }
         ],
-        "idLabels": [
-          "5fb002b2cdabcf46c03cf423",
-          "64b80fa76e02b0365160d280"
-        ],
+        "idLabels": ["5fb002b2cdabcf46c03cf423", "64b80fa76e02b0365160d280"],
         "manualCoverAttachment": true,
         "name": "Resetting the Barbican with Node.js",
         "pos": 35839.453125,
@@ -2583,11 +2562,7 @@
             "pathname": "resetting-the-barbican-with-nodejs",
             "url": "/projects/resetting-the-barbican-with-nodejs",
             "filename": "resetting_the_barbican_with_nodejs",
-            "labels": [
-              "Barbican",
-              "Node.js",
-              "3.3 years"
-            ],
+            "labels": ["Barbican", "Node.js", "3.3 years"],
             "id": "64b7e3a314038c0ef3b3350a",
             "name": "Resetting the Barbican with Node.js"
           }
@@ -2633,10 +2608,7 @@
             "style": "outline"
           }
         ],
-        "idLabels": [
-          "5fb002b2cdabcf46c03cf423",
-          "64b80fbffbbbe0940125f1a4"
-        ],
+        "idLabels": ["5fb002b2cdabcf46c03cf423", "64b80fbffbbbe0940125f1a4"],
         "manualCoverAttachment": false,
         "name": "Leytonstone Loves Film",
         "pos": 36863.4375,
@@ -2726,11 +2698,7 @@
             "pathname": "leytonstone-loves-film",
             "url": "/projects/leytonstone-loves-film",
             "filename": "leytonstone_loves_film",
-            "labels": [
-              "Barbican",
-              "Nuxt",
-              "3 months"
-            ],
+            "labels": ["Barbican", "Nuxt", "3 months"],
             "id": "64a6bdfeea6cc13792990d17",
             "name": "Leytonstone Loves Film"
           }
@@ -2776,10 +2744,7 @@
             "style": "outline"
           }
         ],
-        "idLabels": [
-          "5fb002b2cdabcf46c03cf423",
-          "64b80fbffbbbe0940125f1a4"
-        ],
+        "idLabels": ["5fb002b2cdabcf46c03cf423", "64b80fbffbbbe0940125f1a4"],
         "manualCoverAttachment": false,
         "name": "Walthamstow Garden Party",
         "pos": 38911.40625,
@@ -2869,11 +2834,7 @@
             "pathname": "walthamstow-garden-party",
             "url": "/projects/walthamstow-garden-party",
             "filename": "walthamstow_garden_party",
-            "labels": [
-              "Barbican",
-              "Nuxt",
-              "3 months"
-            ],
+            "labels": ["Barbican", "Nuxt", "3 months"],
             "id": "64a1d42ad7a72fe6b404d356",
             "name": "Walthamstow Garden Party"
           }
@@ -2885,7 +2846,7 @@
         "closed": false,
         "dueComplete": true,
         "dateLastActivity": "2023-12-30T17:33:01.801Z",
-        "desc": "```\nUpdate the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a modular design that better reflects the brand and offers a wider range of functionality.\n\n---\n\n# Designing Account Areas in Vue.js\n\nUpdate the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a modular design that better reflects the brand and offers a wider range of functionality.\n\n<br>\n\n### Can I see it?\n\nSure, it's at [tickets.barbican.org.uk](https://tickets.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paulh.biz/designing-account-areas-in-vuejs) on [my blog](https://blog.paulh.biz).\n\n<br>\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue.js](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n<br>\n\n### What are the interesting parts?\n\nThe platform is built in [Vue.js](https://vuejs.org) and combines [Drupal](https://drupal.org) data from the [main website](https://barbican.org.uk) with ticketing data from [Spektrix](https://spektrix.com). It's been at the centre of user-focussed innovation at the [Barbican](https://barbican.org.uk) for the last 3 years.\n\n<br>\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
+        "desc": "```\nUpdate the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a modular design that better reflects the brand and offers a wider range of functionality.\n\n---\n\n# Designing Account Areas in Vue.js\n\nUpdate the [Barbican ticketing platform](https://tickets.barbican.org.uk) with a modular design that better reflects the brand and offers a wider range of functionality.\n\n<br>\n\n### Can I see it?\n\nSure, it's at [tickets.barbican.org.uk](https://tickets.barbican.org.uk)\n\nThe code is in a private [Barbican](https://barbican.org.uk) [Bitbucket](https://bitbucket.org) repository sadly.\n\nI have started writing about [this project](https://blog.paul.ly/designing-account-areas-in-vuejs) on [my blog](https://blog.paul.ly).\n\n<br>\n\n### How much did you do?\n\nMost things on the frontend, which includes:\n\n- 💻 Building the app in [Vue.js](https://vuejs.org)\n- 🎨 Designing the user journey with [Figma](https://figma.com)\n- 📝 Writing the [SCSS](https://sass-lang.com)\n\n<br>\n\n### What are the interesting parts?\n\nThe platform is built in [Vue.js](https://vuejs.org) and combines [Drupal](https://drupal.org) data from the [main website](https://barbican.org.uk) with ticketing data from [Spektrix](https://spektrix.com). It's been at the centre of user-focussed innovation at the [Barbican](https://barbican.org.uk) for the last 3 years.\n\n<br>\n\n### What needs improving?\n\n- **Documentation** 😥 It really should include [JSDoc](https://jsdoc.app) and [SassDoc](https://sassdoc.com). The code is well structured but will be tricky to maintain without notes.\n```",
         "descData": {
           "emoji": {}
         },
@@ -2919,10 +2880,7 @@
             "style": "outline"
           }
         ],
-        "idLabels": [
-          "5fb002b2cdabcf46c03cf423",
-          "64b80eedd3cb846ab0943db4"
-        ],
+        "idLabels": ["5fb002b2cdabcf46c03cf423", "64b80eedd3cb846ab0943db4"],
         "manualCoverAttachment": true,
         "name": "Designing account areas in Vue.js",
         "pos": 40959.375,
@@ -2948,7 +2906,7 @@
         "actions": [],
         "local": {
           "summary": "Update the Barbican ticketing platform with a modular design that better reflects the brand and offers a wider range of functionality.",
-          "desc": "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+          "desc": "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paul.ly/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
           "primaryColor": {
             "name": "green",
             "text": "#174b35",
@@ -2956,7 +2914,7 @@
           },
           "sections": [
             "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n",
-            "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+            "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paul.ly/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n",
             "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
             "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n",
             "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
@@ -3001,10 +2959,10 @@
           ],
           "search": {
             "summary": "Update the Barbican ticketing platform with a modular design that better reflects the brand and offers a wider range of functionality.",
-            "desc": "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
+            "desc": "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n<p><br></p>\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paul.ly/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n<p><br></p>\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n<p><br></p>\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n<p><br></p>\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>",
             "sections": [
               "<h1 id=\"designingaccountareasinvuejs\">Designing Account Areas in Vue.js</h1>\n<p>Update the <a href=\"https://tickets.barbican.org.uk\">Barbican ticketing platform</a> with a modular design that better reflects the brand and offers a wider range of functionality.</p>\n",
-              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paulh.biz/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paulh.biz\">my blog</a>.</p>\n",
+              "\n<h3 id=\"caniseeit\">Can I see it?</h3>\n<p>Sure, it's at <a href=\"https://tickets.barbican.org.uk\">tickets.barbican.org.uk</a></p>\n<p>The code is in a private <a href=\"https://barbican.org.uk\">Barbican</a> <a href=\"https://bitbucket.org\">Bitbucket</a> repository sadly.</p>\n<p>I have started writing about <a href=\"https://blog.paul.ly/designing-account-areas-in-vuejs\">this project</a> on <a href=\"https://blog.paul.ly\">my blog</a>.</p>\n",
               "\n<h3 id=\"howmuchdidyoudo\">How much did you do?</h3>\n<p>Most things on the frontend, which includes:</p>\n<ul>\n<li>💻 Building the app in <a href=\"https://vuejs.org\">Vue.js</a></li>\n<li>🎨 Designing the user journey with <a href=\"https://figma.com\">Figma</a></li>\n<li>📝 Writing the <a href=\"https://sass-lang.com\">SCSS</a></li>\n</ul>\n",
               "\n<h3 id=\"whataretheinterestingparts\">What are the interesting parts?</h3>\n<p>The platform is built in <a href=\"https://vuejs.org\">Vue.js</a> and combines <a href=\"https://drupal.org\">Drupal</a> data from the <a href=\"https://barbican.org.uk\">main website</a> with ticketing data from <a href=\"https://spektrix.com\">Spektrix</a>. It's been at the centre of user-focussed innovation at the <a href=\"https://barbican.org.uk\">Barbican</a> for the last 3 years.</p>\n",
               "\n<h3 id=\"whatneedsimproving\">What needs improving?</h3>\n<ul>\n<li><strong>Documentation</strong> 😥 It really should include <a href=\"https://jsdoc.app\">JSDoc</a> and <a href=\"https://sassdoc.com\">SassDoc</a>. The code is well structured but will be tricky to maintain without notes.</li>\n</ul>"
@@ -3012,11 +2970,7 @@
             "pathname": "designing-account-areas-in-vuejs",
             "url": "/projects/designing-account-areas-in-vuejs",
             "filename": "designing_account_areas_in_vuejs",
-            "labels": [
-              "Barbican",
-              "Vue.js",
-              "1 month"
-            ],
+            "labels": ["Barbican", "Vue.js", "1 month"],
             "id": "6073409c74b96c31fb853842",
             "name": "Designing account areas in Vue.js"
           }
@@ -3062,10 +3016,7 @@
             "style": "outline"
           }
         ],
-        "idLabels": [
-          "6491c7d859cf65f7b465cf91",
-          "65361f1593cafe728614fc83"
-        ],
+        "idLabels": ["6491c7d859cf65f7b465cf91", "65361f1593cafe728614fc83"],
         "manualCoverAttachment": false,
         "name": "Moving orchestras with After Effects",
         "pos": 294911,
@@ -3149,11 +3100,7 @@
             "pathname": "moving-orchestras-with-after-effects",
             "url": "/projects/moving-orchestras-with-after-effects",
             "filename": "moving_orchestras_with_after_effects",
-            "labels": [
-              "Freelance",
-              "Video",
-              "3 months"
-            ],
+            "labels": ["Freelance", "Video", "3 months"],
             "id": "65361bb8a1a1d1627f281d2f",
             "name": "Moving orchestras with After Effects"
           }
@@ -3199,10 +3146,7 @@
             "style": "outline"
           }
         ],
-        "idLabels": [
-          "5fb002b2cdabcf46c03cf428",
-          "64b80fdfe485c8ac9019185e"
-        ],
+        "idLabels": ["5fb002b2cdabcf46c03cf428", "64b80fdfe485c8ac9019185e"],
         "manualCoverAttachment": true,
         "name": "Selling designer fabric with Wordpress",
         "pos": 327679,
@@ -3292,11 +3236,7 @@
             "pathname": "selling-designer-fabric-with-wordpress",
             "url": "/projects/selling-designer-fabric-with-wordpress",
             "filename": "selling_designer_fabric_with_wordpress",
-            "labels": [
-              "Bourne St",
-              "Wordpress",
-              "6.8 years"
-            ],
+            "labels": ["Bourne St", "Wordpress", "6.8 years"],
             "id": "64b7ebc40642ef9285ec9c0d",
             "name": "Selling designer fabric with Wordpress"
           }
@@ -3340,9 +3280,7 @@
             "style": "solid"
           }
         ],
-        "idLabels": [
-          "657a3c7a286f4a101c6447e8"
-        ],
+        "idLabels": ["657a3c7a286f4a101c6447e8"],
         "manualCoverAttachment": false,
         "name": "Problem solving basics",
         "pos": 163840,
@@ -3472,10 +3410,7 @@
             "pathname": "problem-solving-basics",
             "url": "/blog/problem-solving-basics",
             "filename": "problem_solving_basics",
-            "labels": [
-              "Ideas",
-              "2 mins"
-            ],
+            "labels": ["Ideas", "2 mins"],
             "id": "6578ecd9573ab2c9b71a7a0c",
             "name": "Problem solving basics"
           }
@@ -3512,9 +3447,7 @@
             "style": "solid"
           }
         ],
-        "idLabels": [
-          "6588b24a2e44859885d72024"
-        ],
+        "idLabels": ["6588b24a2e44859885d72024"],
         "manualCoverAttachment": true,
         "name": "Designing account areas in Vue.js",
         "pos": 172032,
@@ -3597,10 +3530,7 @@
             "pathname": "designing-account-areas-in-vuejs",
             "url": "/blog/designing-account-areas-in-vuejs",
             "filename": "designing_account_areas_in_vuejs",
-            "labels": [
-              "Projects",
-              "3 mins"
-            ],
+            "labels": ["Projects", "3 mins"],
             "id": "6592dc638a132c6bba1c5de3",
             "name": "Designing account areas in Vue.js"
           }
@@ -3637,9 +3567,7 @@
             "style": "solid"
           }
         ],
-        "idLabels": [
-          "6588b24a2e44859885d72024"
-        ],
+        "idLabels": ["6588b24a2e44859885d72024"],
         "manualCoverAttachment": true,
         "name": "Organising spaces with GraphQL",
         "pos": 180224,
@@ -3716,10 +3644,7 @@
             "pathname": "organising-spaces-with-graphql",
             "url": "/blog/organising-spaces-with-graphql",
             "filename": "organising_spaces_with_graphql",
-            "labels": [
-              "Projects",
-              "4 mins"
-            ],
+            "labels": ["Projects", "4 mins"],
             "id": "6578ecf1a1612cb39d9efd18",
             "name": "Organising spaces with GraphQL"
           }

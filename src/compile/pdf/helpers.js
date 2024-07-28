@@ -8,7 +8,7 @@ $.doc = new jsPDF({ lineHeight: 1.35 });
 
 $.title = "paul-heading-resume-front-end-designer-developer";
 
-$.website = "https://paulh.biz";
+$.website = "https://paul.ly";
 
 $.date_created = "Created on " + DateTime.now().toFormat("dd LLL yyyy");
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://paulh.biz/sitemap-index.xml
+Sitemap: https://paul.ly/sitemap-index.xml
