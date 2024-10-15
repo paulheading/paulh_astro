@@ -74,4 +74,4 @@ Each view also contains navigation for:
 - editing filter settings
 - viewing the additional event information
 
-> This article is still being written. If you want to stay updated or have some suggestions, then please email [hello@paulh.biz](mailto:hello@paulh.biz)
+> This article is still being written. If you want to stay updated or have some suggestions, then please email [hello@paul.ly](mailto:hello@paul.ly)

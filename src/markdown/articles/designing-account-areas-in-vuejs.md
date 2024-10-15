@@ -79,4 +79,4 @@ Everything built on our [ticketing](https://tickets.barbican.org.uk/) site is ba
 
 We also use the [Material Icons](https://fonts.google.com/icons) resource. It’s a large, beautiful library of icons, that adds to this consistency.
 
-> This article is still being written. If you want to stay updated or have some suggestions, then please email [hello@paulh.biz](mailto:hello@paulh.biz)
+> This article is still being written. If you want to stay updated or have some suggestions, then please email [hello@paul.ly](mailto:hello@paul.ly)

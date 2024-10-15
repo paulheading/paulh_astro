@@ -1,6 +1,6 @@
 export default {
   name: "Paul Heading",
-  email: "hello@paulh.biz",
+  email: "hello@paul.ly",
   location: "Camberwell, London",
   platforms: [
     { name: "RemoteOK", url: "https://rok.co/@paulheading" },
