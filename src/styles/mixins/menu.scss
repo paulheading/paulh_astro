@@ -22,18 +22,3 @@
   gap: $gap-links;
   display: flex;
 }
-
-@mixin focus-link {
-  @include single-box(white, 0.375rem);
-  background-color: white;
-}
-
-@mixin focus-about($a, $b) {
-  @include single-box($a);
-  background-color: $b;
-  color: $a;
-}
-
-@mixin focus-resume {
-  border-color: black;
-}

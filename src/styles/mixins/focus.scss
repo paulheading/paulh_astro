@@ -1,44 +1,3 @@
-@mixin focus-visible {
-  &[data-focus-visible-added] {
-    @content;
-  }
-}
-
-@mixin focus($outline: false) {
-  @media (hover: hover) {
-    &:hover {
-      @content;
-    }
-  }
-
-  &:active {
-    @content;
-  }
-
-  @include focus-visible {
-    @content;
-  }
-
-  @if not ($outline) {
-    outline: rgba(0, 0, 0, 0);
-  }
-}
-
-@mixin double-box($bg: white,
-  $col: black,
-  $bg_size: 0.25rem,
-  $col_size: 0.15rem) {
-  box-shadow: 0 0 0 $bg_size $bg, 0 0 0 ($bg_size + $col_size) $col;
-  position: relative;
-  z-index: 2;
-}
-
-@mixin single-box($bg: white, $size: 0.25rem) {
-  box-shadow: 0 0 0 $size $bg;
-  position: relative;
-  z-index: 2;
-}
-
 @mixin white-box {
   @include single-box(white);
   background-color: white;
@@ -55,4 +14,14 @@
   @include single-box($c-gold);
   background-color: $c-gold;
   color: black;
+}
+
+@mixin focus-about($a, $b) {
+  @include single-box($a);
+  background-color: $b;
+  color: $a;
+}
+
+@mixin focus-resume {
+  border-color: black;
 }

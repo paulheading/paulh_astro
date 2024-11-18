@@ -10,4 +10,9 @@ export default defineConfig({
   },
   scopedStyleStrategy: "class",
   integrations: [mdx(), sitemap()],
+  vite: {
+    ssr: {
+      noExternal: ["paully"],
+    },
+  },
 });
