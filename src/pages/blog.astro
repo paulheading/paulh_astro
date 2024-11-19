@@ -10,8 +10,10 @@ import ArticleMore from "~components/Article/More.astro";
 
 import SearchBar from "~components/SearchBar.astro";
 
-import seo from "~data/seo.js";
+import { data } from "paully";
 import { articles } from "~data/layout.json";
+
+let { seo } = data;
 
 function createPages(articles: [object]) {
   let pages: [[] | [object]] = [[]];

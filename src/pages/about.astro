@@ -11,7 +11,9 @@ import PageRow from "~components/Page/Row.astro";
 import content from "~markdown/about.md?raw";
 import description from "~markdown/summary.md?raw";
 
-import seo from "~data/seo.js";
+import { data } from "paully";
+
+let { seo } = data;
 
 const layoutProps = {
   title: seo.title("About"),

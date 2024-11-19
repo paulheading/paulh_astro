@@ -1,5 +1,5 @@
 ---
-import Skiplink from "~components/Skiplink.astro";
+import { Skiplink } from "paully";
 
 const { name, open, label, class: className, style = {}, width } = Astro.props;
 
@@ -20,7 +20,7 @@ if (!open) {
 ---
 
 <div {...outerProps}>
-  <Skiplink />
+  <Skiplink>Skip to folders</Skiplink>
   <slot />
 </div>
 

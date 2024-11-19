@@ -8,7 +8,7 @@ import PageInner from "~components/Page/Inner.astro";
 import PageRow from "~components/Page/Row.astro";
 import PageGallery from "~components/Page/Gallery.astro";
 
-import Back from "~components/Anchor/Back.astro";
+import { BackLink } from "paully";
 
 import galleries from "~data/galleries";
 
@@ -45,7 +45,7 @@ const gallery = galleries[local.filename];
       }
     </PageInner>
     <div class="wrap-back">
-      <Back href={back.href}>{back.title}</Back>
+      <BackLink href={back.href}>{back.title}</BackLink>
     </div>
   </PageOuter>
 </Layout>

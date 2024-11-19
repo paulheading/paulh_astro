@@ -1,5 +1,5 @@
 ---
-import Outline from "~components/Button/Outline.astro";
+import { OutlineButton } from "paully";
 
 import type { wrapProps } from "~types/article/more";
 
@@ -13,11 +13,11 @@ if (!articles) wrapProps.style = { display: "none" };
 ---
 
 <div {...wrapProps}>
-  <Outline id="see-more">
+  <OutlineButton id="see-more">
     See more <div class="count" slot="count">
       [{articles}]
     </div>
-  </Outline>
+  </OutlineButton>
 </div>
 
 <style lang="scss">

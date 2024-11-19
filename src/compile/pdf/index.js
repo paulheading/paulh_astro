@@ -1,11 +1,12 @@
 import $ from "./helpers.js";
 import create from "./create.js";
 import print from "./print.js";
-import personal from "../../data/personal.js";
+import { data } from "paully";
 
 import layout from "../../data/layout.json" assert { type: "json" };
 import resume from "../../data/resume.json" assert { type: "json" };
 
+let { personal } = data;
 const { projects } = layout;
 const { roles, learning } = resume;
 

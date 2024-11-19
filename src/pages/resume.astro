@@ -9,17 +9,18 @@ import PageInner from "~components/Page/Inner.astro";
 import PageRow from "~components/Page/Row.astro";
 import PageCard from "~components/Page/Card.astro";
 
-import OutlineAnchor from "~components/Anchor/Outline.astro";
+import { OutlineLink, data } from "paully";
 
 import Summary from "~markdown/summary.md";
 
 import description from "~markdown/summary.md?raw";
 
-import seo from "~data/seo.js";
 import details from "~data/personal.js";
 import { create } from "~scripts/helpers";
 import { projects } from "~data/layout.json";
 import { roles, learning } from "~data/resume.json";
+
+let { seo } = data;
 
 const layoutProps = {
   title: seo.title("Resume"),
@@ -63,7 +64,7 @@ const saveProps = {
       <PageRow content={{ padding: true, columns: 2 }}>
         <div>
           <div class="name">{paul.name}</div>
-          <OutlineAnchor {...saveProps}>Save as PDF</OutlineAnchor>
+          <OutlineLink {...saveProps}>Save as PDF</OutlineLink>
         </div>
         <div>
           <div class="location">{paul.location}</div>

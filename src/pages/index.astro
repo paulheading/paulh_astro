@@ -2,7 +2,9 @@
 import Layout from "~layouts/Main.astro";
 import Hero from "~components/Hero.astro";
 
-import seo from "~data/seo.js";
+import { data } from "paully";
+
+let { seo } = data;
 
 // import { pocketcasts } from "~data/layout.json";
 

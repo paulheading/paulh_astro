@@ -4,6 +4,10 @@ import Input from "~components/Form/Input.astro";
 import Textarea from "~components/Form/Textarea.astro";
 import Submit from "~components/Form/Submit.astro";
 
+import { data } from "paully";
+
+let { email } = data.personal;
+
 const formProps = {
   "data-netlify": true,
   noValidate: true,
@@ -11,7 +15,7 @@ const formProps = {
 };
 
 const toProps = {
-  placeholder: "hello@paul.ly",
+  placeholder: email,
 };
 
 const subjectProps = {

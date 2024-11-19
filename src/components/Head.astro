@@ -1,6 +1,7 @@
 ---
-import seo from "~data/seo.js";
-import personal from "~data/personal.js";
+import { data } from "paully";
+
+let { personal, seo } = data;
 
 const { title, keywords, description } = Astro.props;
 
