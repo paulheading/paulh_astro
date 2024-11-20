@@ -29,7 +29,7 @@
     "marked": "^5.1.2",
     "node-fetch": "^2.5.0",
     "node-html-parser": "^6.1.6",
-    "paully": "^1.0.8",
+    "paully": "^1.0.9",
     "pocketcasts": "^1.0.1",
     "react": "^18.2.0",
     "remove-markdown": "^0.5.0",

@@ -1,10 +1,10 @@
 ---
-import { get } from "~scripts/helpers";
+import { helpers } from "paully";
 
 const { margin = "-12" } = Astro.props;
 
 let vars = {
-  margin: get.rems(margin),
+  margin: helpers.get.rems(margin),
 };
 ---
 
