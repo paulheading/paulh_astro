@@ -4,13 +4,11 @@ import Hero from "~components/Hero.astro";
 
 import { data } from "paully";
 
-let { seo } = data;
-
 // import { pocketcasts } from "~data/layout.json";
 
 const layoutProps = {
-  keywords: seo.keywords("portfolio"),
-  description: "I'm a " + seo.job.title + ". " + seo.job.description,
+  keywords: data.seo.keywords("portfolio"),
+  description: "I'm a " + data.seo.job.title + ". " + data.seo.job.description,
 };
 ---
 

@@ -13,10 +13,8 @@ import description from "~markdown/summary.md?raw";
 
 import { data } from "paully";
 
-let { seo } = data;
-
 const layoutProps = {
-  title: seo.title("About"),
+  title: data.seo.title("About"),
   description: remove_markdown(description),
 };
 

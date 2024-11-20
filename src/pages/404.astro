@@ -3,13 +3,11 @@ import Layout from "~layouts/Main.astro";
 import PageOuter from "~components/Page/Outer.astro";
 import { data } from "paully";
 
-let { personal, seo } = data;
-
 const layoutProps = {
-  title: seo.title("404"),
+  title: data.seo.title("404"),
   description:
     "Oh no... this page is missing. Maybe the url is incorrect? If something looks broken, please email " +
-    personal.email,
+    data.personal.email,
 };
 ---
 
@@ -18,7 +16,9 @@ const layoutProps = {
     <div class="wrap">
       <h1 class="title">Page Not Found 🤬</h1>
       <p class="copy">
-        <a href={"mailto:" + personal.email} class="link">where the page go?</a>
+        <a href={"mailto:" + data.personal.email} class="link">
+          where the page go?
+        </a>
       </p>
     </div>
   </PageOuter>

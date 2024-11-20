@@ -13,8 +13,6 @@ import SearchBar from "~components/SearchBar.astro";
 import { data } from "paully";
 import { articles } from "~data/layout.json";
 
-let { seo } = data;
-
 function createPages(articles: [object]) {
   let pages: [[] | [object]] = [[]];
   let position = 0;
@@ -38,7 +36,7 @@ function createPages(articles: [object]) {
 let pages = createPages(articles.cards);
 
 const layoutProps = {
-  title: seo.title("Blog"),
+  title: data.seo.title("Blog"),
 };
 
 let articlesPerRow = 3;
