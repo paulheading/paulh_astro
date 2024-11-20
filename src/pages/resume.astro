@@ -15,19 +15,16 @@ import Summary from "~markdown/summary.md";
 
 import description from "~markdown/summary.md?raw";
 
-import details from "~data/personal.js";
 import { create } from "~scripts/helpers";
 import { projects } from "~data/layout.json";
 import { roles, learning } from "~data/resume.json";
 
-let { seo } = data;
-
 const layoutProps = {
-  title: seo.title("Resume"),
+  title: data.seo.title("Resume"),
   description: remove_markdown(description),
 };
 
-const paul = new create.person(details);
+const paul = new create.person(data.personal);
 
 const defaultProps = { content: { columns: 3 } };
 
