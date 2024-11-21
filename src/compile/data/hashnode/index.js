@@ -1,5 +1,6 @@
-import { get } from "../../scripts/helpers.js";
-import { GET_USER_ARTICLES } from "./hashnode/queries.js";
+import { get } from "#helpers";
+
+import { GET_USER_ARTICLES } from "#hashnode/queries";
 
 async function getHashnodeData() {
   const data = await get

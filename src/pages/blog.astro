@@ -10,7 +10,7 @@ import ArticleMore from "~components/Article/More.astro";
 
 import SearchBar from "~components/SearchBar.astro";
 
-import { data } from "paully";
+import { seo } from "paully/data";
 import { articles } from "~data/layout.json";
 
 function createPages(articles: [object]) {
@@ -36,7 +36,7 @@ function createPages(articles: [object]) {
 let pages = createPages(articles.cards);
 
 const layoutProps = {
-  title: data.seo.title("Blog"),
+  title: seo.title("Blog"),
 };
 
 let articlesPerRow = 3;

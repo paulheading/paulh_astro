@@ -9,22 +9,23 @@ import PageInner from "~components/Page/Inner.astro";
 import PageRow from "~components/Page/Row.astro";
 import PageCard from "~components/Page/Card.astro";
 
-import { OutlineLink, data } from "paully";
+import { OutlineLink } from "paully";
+import { personal, seo } from "paully/data";
 
 import Summary from "~markdown/summary.md";
 
 import description from "~markdown/summary.md?raw";
 
-import { create } from "~scripts/helpers";
+import { create } from "paully/helpers";
 import { projects } from "~data/layout.json";
 import { roles, learning } from "~data/resume.json";
 
 const layoutProps = {
-  title: data.seo.title("Resume"),
+  title: seo.title("Resume"),
   description: remove_markdown(description),
 };
 
-const paul = new create.person(data.personal);
+const paul = new create.person(personal);
 
 const defaultProps = { content: { columns: 3 } };
 

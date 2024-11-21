@@ -1,7 +1,6 @@
 import $ from "./helpers.js";
-import { data } from "paully";
 
-let { personal } = data;
+import { personal } from "paully/data";
 
 const summary_copy = await $.readFile("../../markdown/summary_plain.md");
 

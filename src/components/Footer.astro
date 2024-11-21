@@ -1,7 +1,8 @@
 ---
-import { Banner, data } from "paully";
+import { Banner } from "paully";
+import { personal } from "paully/data";
 
-const { email } = data.personal;
+const { email } = personal;
 
 const linkProps = {
   href: `mailto:${email}`,

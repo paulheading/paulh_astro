@@ -2,8 +2,7 @@ import $ from "~scripts/selectors";
 import get from "~scripts/components/gallery/getters";
 import set from "~scripts/components/gallery/setters";
 import overlay from "~scripts/components/gallery/overlay";
-import contains from "~scripts/helpers/contains";
-import calc from "~scripts/helpers/calc";
+import { contains, calc } from "paully/helpers";
 
 const index = () => get.player.data(get.$player()).index;
 

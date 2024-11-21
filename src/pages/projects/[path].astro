@@ -2,10 +2,10 @@
 import Layout from "~layouts/Page.astro";
 
 import { projects } from "~data/layout.json";
-import { helpers } from "paully";
+import { get } from "paully/helpers";
 
 export function getStaticPaths() {
-  return helpers.get.StaticPaths(projects.cards);
+  return get.StaticPaths(projects.cards);
 }
 
 const { name, local } = Astro.props;

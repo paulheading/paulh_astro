@@ -11,10 +11,10 @@ import PageRow from "~components/Page/Row.astro";
 import content from "~markdown/about.md?raw";
 import description from "~markdown/summary.md?raw";
 
-import { data } from "paully";
+import { seo } from "paully/data";
 
 const layoutProps = {
-  title: data.seo.title("About"),
+  title: seo.title("About"),
   description: remove_markdown(description),
 };
 

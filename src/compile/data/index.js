@@ -1,12 +1,12 @@
 import "dotenv/config";
 import fs from "fs";
 
-import getTrelloData from "./trello.js";
-import getSpotifyData from "./spotify.js";
-import getGemData from "./gem.js";
-import getNpmData from "./npm.js";
-// import getHashnodeData from "./hashnode.js";
-import getPocketcastsData from "./pocketcasts.js";
+import getTrelloData from "#trello/index";
+import getSpotifyData from "#spotify/index";
+import getGemData from "#gem";
+import getNpmData from "#npm";
+// import getHashnodeData from "#hashnode/index";
+import getPocketcastsData from "#pocketcasts";
 
 async function getLayoutData() {
   const pocketcasts = await getPocketcastsData();

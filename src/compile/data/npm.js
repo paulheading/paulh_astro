@@ -1,4 +1,4 @@
-import { get } from "../../scripts/helpers.js";
+import { get } from "#helpers";
 
 async function getNpmData() {
   const name = "barbican-reset";

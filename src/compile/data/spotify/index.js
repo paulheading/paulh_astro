@@ -1,5 +1,5 @@
-import { string, playlist, id, secret, base } from "./spotify/variables.js";
-import { get } from "../../scripts/helpers.js";
+import { string, playlist, id, secret, base } from "#spotify/vars";
+import { get } from "#helpers";
 
 import fs from "fs";
 import imageDownload from "image-download";

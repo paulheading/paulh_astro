@@ -7,11 +7,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "imports": {
+    "#helpers": "./helpers.js",
+    "#spotify/*": "./spotify/*.js",
+    "#trello/*": "./trello/*.js",
+    "#gem": "./gem.js",
+    "#npm": "./npm.js",
+    "#pocketcasts": "./pocketcasts.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
     "image-download": "^2.1.0",
+    "node-fetch": "^3.3.2",
     "resize-img": "^2.0.0"
   }
 }

@@ -1,4 +1,4 @@
-import { create } from "~scripts/helpers";
+import { create } from "paully/helpers";
 
 const trailer = (value = "") => "/trailers/" + value;
 

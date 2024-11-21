@@ -2,13 +2,13 @@
 import Layout from "~layouts/Main.astro";
 import Hero from "~components/Hero.astro";
 
-import { data } from "paully";
+import { seo } from "paully/data";
 
 // import { pocketcasts } from "~data/layout.json";
 
 const layoutProps = {
-  keywords: data.seo.keywords("portfolio"),
-  description: "I'm a " + data.seo.job.title + ". " + data.seo.job.description,
+  keywords: seo.keywords("portfolio"),
+  description: "I'm a " + seo.job.title + ". " + seo.job.description,
 };
 ---
 

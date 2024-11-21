@@ -1,12 +1,12 @@
 ---
 import GroupFolder from "~components/Desktop/Folder/Group.astro";
-import { toRem } from "~scripts/helpers";
+import { get } from "paully/helpers";
 
 const { group } = Astro.props;
 
 const { label } = group[0];
 
-const width = toRem(124);
+const width = get.rems(124);
 
 const folderProps = {
   width,
