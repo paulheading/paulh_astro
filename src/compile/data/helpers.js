@@ -18,7 +18,6 @@ get.JSON = async function (url, options) {
 //       variables,
 //     }),
 //   });
-
 //   return data.json();
 // };
 

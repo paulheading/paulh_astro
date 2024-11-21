@@ -1,8 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { spotify } from "~data/layout.json";
-import logo from "~svg/spotify.svg?raw";
-import { parse } from "node-html-parser";
+import { Spotify as Logo } from "paully/svgs";
 
 const { year } = Astro.props;
 
@@ -34,7 +33,7 @@ const imageProps = {
       </div>
     </div>
     <div class="wrap-logo">
-      <div class="logo">{parse(logo)}</div>
+      <div class="logo"><Logo /></div>
     </div>
   </div>
 </header>

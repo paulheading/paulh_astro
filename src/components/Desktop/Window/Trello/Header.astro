@@ -1,15 +1,14 @@
 ---
-import dots from '~svg/dots.svg?raw'
-import { parse } from 'node-html-parser'
+import { Dots } from "paully/svgs";
 ---
 
 <header>
   <div>Projects</div>
-  <div>{parse(dots)}</div>
+  <div><Dots /></div>
 </header>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   header {
     justify-content: space-between;

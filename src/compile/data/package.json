@@ -13,7 +13,8 @@
     "#trello/*": "./trello/*.js",
     "#gem": "./gem.js",
     "#npm": "./npm.js",
-    "#pocketcasts": "./pocketcasts.js"
+    "#pocketcasts": "./pocketcasts.js",
+    "#hashnode/*": "./hashnode/*.js"
   },
   "author": "",
   "license": "ISC",
