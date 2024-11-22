@@ -1,38 +1,11 @@
 ---
-const buttonProps = {
-  "data-state": "muted",
-  class: "mute",
-};
-
-const svgProps = {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 -960 960 960",
-  height: "24",
-  width: "24",
-};
-
-const unmutedSvgProps = {
-  ...svgProps,
-  class: "unmuted",
-};
-
-const mutedSvgProps = {
-  ...svgProps,
-  class: "muted",
-};
+import { Mute } from "paully/svgs";
+import { Unmute } from "paully/svgs";
 ---
 
-<button {...buttonProps}>
-  <svg {...unmutedSvgProps}
-    ><path
-      d="m616-320-56-56 104-104-104-104 56-56 104 104 104-104 56 56-104 104 104 104-56 56-104-104-104 104Zm-496-40v-240h160l200-200v640L280-360H120Z"
-    ></path></svg
-  >
-  <svg {...mutedSvgProps}
-    ><path
-      d="M560-131v-82q90-26 145-100t55-168q0-94-55-168T560-749v-82q124 28 202 125.5T840-481q0 127-78 224.5T560-131ZM120-360v-240h160l200-200v640L280-360H120Zm440 40v-322q47 22 73.5 66t26.5 96q0 51-26.5 94.5T560-320Z"
-    ></path></svg
-  >
+<button class="mute" data-state="muted">
+  <Mute className="any" />
+  <Unmute className="any" />
 </button>
 
 <style lang="scss">
@@ -40,16 +13,12 @@ const mutedSvgProps = {
 
   .mute {
     @include gallery-button;
-  }
 
-  .mute[data-state="muted"] {
-    svg.muted {
+    &[data-state="muted"] svg[data-muted] {
       display: none;
     }
-  }
 
-  .mute[data-state="unmuted"] {
-    svg.unmuted {
+    &[data-state="unmuted"] svg[data-unmuted] {
       display: none;
     }
   }
