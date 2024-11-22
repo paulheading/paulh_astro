@@ -2,7 +2,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "~*": ["src/*"]
+      "~*": ["src/*"],
+      "~Trello/*": ["src/components/Desktop/Window/Trello/*.astro"]
     }
   },
   "extends": "astro/tsconfigs/strict"
