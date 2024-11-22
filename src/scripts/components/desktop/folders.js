@@ -59,25 +59,29 @@ function animateFolderState({ icons, isOpen, onComplete }) {
   if (isOpen) {
     // prettier-ignore
     tl.set(icons.open, { visibility: "hidden" })
-      .set(icons.shut, { clearProps: "visibility", onComplete });
+      .set(icons.closed, { clearProps: "visibility", onComplete });
   } else {
     // prettier-ignore
-    tl.set(icons.shut, { visibility: "hidden" })
+    tl.set(icons.closed, { visibility: "hidden" })
       .set(icons.open, { clearProps: "visibility", onComplete });
   }
 }
 
 function getFolderState(target) {
-  const icons = {
-    open: target.querySelector(".open-icon"),
-    shut: target.querySelector(".shut-icon"),
+  let folder_container = target.querySelector(".folder-container");
+
+  let folder_icons = folder_container.querySelector(".folder-icons");
+
+  let svgs = folder_icons.getElementsByTagName("svg");
+
+  let label = get.label(folder_container);
+
+  let icons = {
+    open: svgs[0],
+    closed: svgs[1],
   };
 
-  const isOpen = getIconState(icons.open);
-
-  const folder = target.querySelector(".folder-container");
-
-  const label = get.label(folder);
+  let isOpen = getIconState(icons.open);
 
   return { target, icons, isOpen, label };
 }

@@ -1,31 +1,19 @@
 ---
-import OpenIcon from "~components/Desktop/Folder/Icons/Open.astro";
-import ShutIcon from "~components/Desktop/Folder/Icons/Shut.astro";
+import { OpenFolder, ClosedFolder } from "paully/svgs";
 
-const { label, open } = Astro.props;
+let { label, open } = Astro.props;
 
-const folderProps = {
-  class: "folder-container",
-  "data-label": label,
-};
+let gridArea = "1 / 1";
 
-const openProps = {
-  style: {
-    visibility: open ? "visible" : "hidden",
-  },
-};
+let openStyles = { gridArea, visibility: open ? "visible" : "hidden" };
 
-const shutProps = {
-  style: {
-    visibility: !open ? "visible" : "hidden",
-  },
-};
+let closedStyles = { gridArea, visibility: !open ? "visible" : "hidden" };
 ---
 
-<button {...folderProps}>
+<button class="folder-container" data-label={label}>
   <div class="folder-icons">
-    <OpenIcon {...openProps} />
-    <ShutIcon {...shutProps} />
+    <OpenFolder style={{ ...openStyles }} />
+    <ClosedFolder style={{ ...closedStyles }} />
   </div>
   <div class="folder-label">{label}</div>
 </button>

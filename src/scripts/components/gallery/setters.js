@@ -229,7 +229,7 @@ function video(data) {
 function loaded(value) {
   value = value ? "loaded" : "not-loaded";
   const targets = [$.overlay_loader, $.overlay_content];
-  // targets.forEach((target) => state(target, value));
+  targets.forEach((target) => state(target, value));
 }
 
 function iframe(data) {

@@ -51,9 +51,10 @@ $.contact_success = $.contact?.querySelector("#success");
 $.success_group = $.contact_success?.querySelector(".group");
 $.success_title = $.contact_success?.querySelector(".title");
 $.success_svg = $.contact_success?.querySelector("svg");
+$.success_colors = $.success_svg?.querySelector("[data-colors]");
 $.success_ellipses = $.success_svg?.querySelectorAll("ellipse");
-$.success_line = $.success_svg?.querySelector("#line");
-$.success_paths = $.success_line?.querySelector("path");
+$.success_line = $.success_svg?.querySelector("[data-line]");
+$.success_paths = $.success_line?.querySelectorAll("path");
 
 $.projects_row = document.getElementById("projects_row");
 $.roles_row = document.getElementById("roles_row");

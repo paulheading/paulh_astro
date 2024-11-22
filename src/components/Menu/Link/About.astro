@@ -1,11 +1,11 @@
 ---
 import MenuLink from "~components/Menu/Link.astro";
-import AboutIcon from "~components/Menu/Icon/About.astro";
+import { About } from "paully/svgs";
 ---
 
 <MenuLink class="about">
   <div slot="desktop">About</div>
-  <AboutIcon slot="mobile" />
+  <About slot="mobile" />
 </MenuLink>
 
 <style lang="scss">

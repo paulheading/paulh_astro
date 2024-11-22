@@ -1,11 +1,11 @@
 ---
-import Emoji from '~components/Form/Success/Emoji.astro'
+import { Confetti } from "paully/svgs";
 ---
 
 <div id="success" class="container">
   <div class="group">
     <div class="confetti">
-      <Emoji />
+      <Confetti />
     </div>
     <div class="title">Success!</div>
   </div>
@@ -13,7 +13,7 @@ import Emoji from '~components/Form/Success/Emoji.astro'
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .container {
     text-align: center;

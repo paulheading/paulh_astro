@@ -1,17 +1,13 @@
+---
+import { Wifi } from "paully/svgs";
+---
+
 <div id="wifi" class="container">
-  <svg fill="#072f23" viewBox="0 0 40 40" width="40">
-    <path d="M15,28.3l5,5l5-5C22.2,25.6,17.8,25.6,15,28.3z"></path>
-    <path
-      d="M8.3,21.7l3.3,3.3c4.6-4.6,12.1-4.6,16.7,0l3.3-3.3C25.2,15.2,14.8,15.2,8.3,21.7z"
-    ></path>
-    <path
-      d="M1.7,15L5,18.3c8.3-8.3,21.7-8.3,30,0l3.3-3.3C28.2,4.9,11.8,4.9,1.7,15z"
-    ></path>
-  </svg>
+  <Wifi />
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .container {
     @include topbar-icon;
