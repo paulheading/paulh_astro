@@ -1,15 +1,15 @@
 ---
-import Alert from '~components/Form/Alert.astro'
+import Alert from "~Form/Alert";
 
-const { name } = Astro.props
+const { name } = Astro.props;
 
-const placeholder = await Astro.slots.render('default')
+const placeholder = await Astro.slots.render("default");
 
 const textareaProps = {
   ...Astro.props,
   placeholder,
   id: name,
-}
+};
 ---
 
 <div class="row">
@@ -21,7 +21,7 @@ const textareaProps = {
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   .row {
     padding-bottom: $padding-row-hz;

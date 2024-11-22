@@ -48,13 +48,13 @@
 }
 
 @mixin icon($name) {
-  [astro-icon="#{$name}"] {
+  [astro-icon="~{$name}"] {
     @content;
   }
 }
 
 @mixin path($name) {
-  path[id="#{$name}"] {
+  path[id="~{$name}"] {
     @content;
   }
 }

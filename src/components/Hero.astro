@@ -1,5 +1,5 @@
 ---
-import Artwork from '~components/Hero/Artwork.astro'
+import Artwork from "~Components/Hero/Artwork";
 ---
 
 <div id="hero" class="container">
@@ -10,7 +10,7 @@ import Artwork from '~components/Hero/Artwork.astro'
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @import "~styles/mixins";
 
   @mixin center() {
     grid-column: 1 / 2;
@@ -31,7 +31,7 @@ import Artwork from '~components/Hero/Artwork.astro'
   }
 
   @each $key, $value in $heroes {
-    .container[data-loop='#{$key}'] {
+    .container[data-loop="#{$key}"] {
       background-color: map-get($value, bg);
 
       .link {

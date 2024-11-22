@@ -1,9 +1,9 @@
 ---
-import WindowOuter from "~components/Desktop/Window/Outer.astro";
-import WindowInner from "~components/Desktop/Window/Inner.astro";
-import Folder from "~components/Desktop/Folder.astro";
+import WindowOuter from "~Window/Outer";
+import WindowInner from "~Window/Inner";
+import Folder from "~Desktop/Folder";
 
-import WindowRows from "~components/Desktop/Folder/Group/Rows.astro";
+import WindowRows from "~Folder/Group/Rows";
 import { get } from "paully/helpers";
 
 const { group, label, width, class: className } = Astro.props;

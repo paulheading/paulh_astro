@@ -3,7 +3,18 @@
     "baseUrl": ".",
     "paths": {
       "~*": ["src/*"],
-      "~Trello/*": ["src/components/Desktop/Window/Trello/*.astro"]
+      "~Components/*": ["src/components/*.astro"],
+      "~Layouts/*": ["src/layouts/*.astro"],
+      "~Trello/*": ["src/components/Desktop/Window/Trello/*.astro"],
+      "~Window/*": ["src/components/Desktop/Window/*.astro"],
+      "~Folder/*": ["src/components/Desktop/Folder/*.astro"],
+      "~Canvas/*": ["src/components/Desktop/Canvas/*.astro"],
+      "~Topbar/*": ["src/components/Desktop/Topbar/*.astro"],
+      "~Gallery/*": ["src/components/Page/Gallery/*.astro"],
+      "~Desktop/*": ["src/components/Desktop/*.astro"],
+      "~Form/*": ["src/components/Form/*.astro"],
+      "~Menu/*": ["src/components/Menu/*.astro"],
+      "~Page/*": ["src/components/Page/*.astro"]
     }
   },
   "extends": "astro/tsconfigs/strict"

@@ -31,7 +31,7 @@ const menuOuterProps = {
   }
 
   @each $key, $value in $heroes {
-    .menu-outer.home[data-loop="#{$key}"] {
+    .menu-outer.home[data-loop="~{$key}"] {
       @include small-down {
         background-color: map-get($value, banner);
       }
