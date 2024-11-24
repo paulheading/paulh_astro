@@ -1,1 +1,0 @@
-portfolio appears static

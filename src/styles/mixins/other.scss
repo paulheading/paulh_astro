@@ -1,18 +1,4 @@
-@import "~styles/variables";
-@import "~styles/functions";
-
-@import "paully/mixins";
-
-@import "~styles/mixins/focus";
-@import "~styles/mixins/folder";
-@import "~styles/mixins/form";
-@import "~styles/mixins/hero";
-@import "~styles/mixins/label";
-@import "~styles/mixins/menu";
-@import "~styles/mixins/row";
-@import "~styles/mixins/spotify";
-@import "~styles/mixins/theme";
-@import "~styles/mixins/typography";
+@use "paully/mixins" as *;
 
 @mixin size($value) {
   height: $value;
@@ -198,10 +184,4 @@
   position: absolute;
   right: 0;
   left: 0;
-}
-
-@mixin simple-links {
-  a:not(.anchor) {
-    @content;
-  }
 }

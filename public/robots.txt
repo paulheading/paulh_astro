@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://paul.ly/sitemap-index.xml

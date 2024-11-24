@@ -21,7 +21,7 @@ const textareaProps = {
 </div>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   .row {
     padding-bottom: $padding-row-hz;
@@ -29,12 +29,15 @@ const textareaProps = {
 
   textarea {
     @include form_input;
-    display: block;
-    height: 8rem;
-    resize: none;
 
-    @include large-up {
-      height: 18rem;
+    & {
+      display: block;
+      height: 8rem;
+      resize: none;
+
+      @include large-up {
+        height: 18rem;
+      }
     }
   }
 

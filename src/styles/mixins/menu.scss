@@ -1,3 +1,6 @@
+@use "paully/vars" as *;
+@use "paully/mixins" as *;
+
 @mixin container {
   min-width: $min-width-site;
   padding-right: $gap-links;

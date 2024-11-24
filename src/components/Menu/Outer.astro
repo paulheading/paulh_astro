@@ -14,7 +14,8 @@ const menuOuterProps = {
 </div>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
+  @use "sass:map";
 
   .menu-outer {
     @include container;
@@ -31,9 +32,9 @@ const menuOuterProps = {
   }
 
   @each $key, $value in $heroes {
-    .menu-outer.home[data-loop="~{$key}"] {
+    .menu-outer.home[data-loop="#{$key}"] {
       @include small-down {
-        background-color: map-get($value, banner);
+        background-color: map.get($value, banner);
       }
     }
   }

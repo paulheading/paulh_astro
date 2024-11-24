@@ -5,7 +5,7 @@ import SingleFolder from "~Folder/Single";
 <SingleFolder {...Astro.props[0]} class="position" />
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   .position {
     @include position-folder;

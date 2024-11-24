@@ -19,16 +19,19 @@ let closedStyles = { gridArea, visibility: !open ? "visible" : "hidden" };
 </button>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   .folder-container {
     @include invisible-button;
-    border: none;
-    width: 100%;
 
-    @include focus {
-      .folder-label {
-        @include folder_words--focus;
+    & {
+      border: none;
+      width: 100%;
+
+      @include focus {
+        .folder-label {
+          @include folder_words--focus;
+        }
       }
     }
   }

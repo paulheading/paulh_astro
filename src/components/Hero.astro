@@ -10,9 +10,11 @@ import Artwork from "~Components/Hero/Artwork";
 </div>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
-  @mixin center() {
+  @use "sass:map";
+
+  @mixin center {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
@@ -32,11 +34,11 @@ import Artwork from "~Components/Hero/Artwork";
 
   @each $key, $value in $heroes {
     .container[data-loop="#{$key}"] {
-      background-color: map-get($value, bg);
+      background-color: map.get($value, bg);
 
       .link {
         @include focus {
-          background-color: map-get($value, svg);
+          background-color: map.get($value, svg);
         }
       }
     }

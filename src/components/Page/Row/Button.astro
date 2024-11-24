@@ -7,23 +7,26 @@ const { type = "" } = Astro.props;
 </button>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   $horizontal-offset: $page-button-size * 0.575;
 
   .row-button {
     @include page-button;
-    position: absolute;
 
-    @include medium-down {
-      transform: rotate(90deg);
-      margin: auto;
-      right: 0;
-      left: 0;
-    }
+    & {
+      position: absolute;
 
-    @include medium-up {
-      top: 7.5rem;
+      @include medium-down {
+        transform: rotate(90deg);
+        margin: auto;
+        right: 0;
+        left: 0;
+      }
+
+      @include medium-up {
+        top: 7.5rem;
+      }
     }
   }
 

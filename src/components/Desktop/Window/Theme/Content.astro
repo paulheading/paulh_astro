@@ -16,7 +16,7 @@ const { name, url, version, downloads, color } = Astro.props;
 </div>
 
 <style lang="scss" define:vars={{ color }}>
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   .theme-content {
     border-radius: $border-radius-lg;

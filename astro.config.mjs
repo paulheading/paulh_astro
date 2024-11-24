@@ -1,18 +1,33 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, passthroughImageService } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 
-// https://astro.build/config
-export default defineConfig({
-  site: "https://paul.ly",
-  images: {
-    domains: ["mosaic.scdn.co", "i.scdn.co", "images-ak.spotifycdn.com"],
+let images = {
+  domains: ["mosaic.scdn.co", "i.scdn.co", "images-ak.spotifycdn.com"],
+};
+
+let vite = {
+  ssr: {
+    noExternal: ["paully"],
   },
-  scopedStyleStrategy: "class",
-  integrations: [mdx(), sitemap()],
-  vite: {
-    ssr: {
-      noExternal: ["paully"],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: "modern",
+      },
     },
   },
+};
+
+// https://astro.build/config
+export default defineConfig({
+  integrations: [mdx(), sitemap()],
+  scopedStyleStrategy: "class",
+  site: "https://paul.ly",
+  output: "static",
+  images,
+  image: {
+    service: passthroughImageService(),
+  },
+  vite,
 });

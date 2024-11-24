@@ -1,19 +1,22 @@
-  @mixin folder-container {
-    @include size(0);
-    justify-items: center;
-    display: inline-grid;
-    align-items: center;
-  }
+@use "paully/vars" as *;
+@use "other" as *;
 
-  @mixin folder_words {
-    @include text-overflow;
-    background-color: $c-teal--xdark;
-    padding: 0.25rem 0.5rem;
-    display: inline-block;
-    color: white;
-  }
+@mixin folder-container {
+  @include size(0);
+  justify-items: center;
+  display: inline-grid;
+  align-items: center;
+}
 
-  @mixin folder_words--focus {
-    background-color: white;
-    color: $c-teal--xdark;
-  }
+@mixin folder_words {
+  @include text-overflow;
+  background-color: $c-teal--xdark;
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+  color: white;
+}
+
+@mixin folder_words--focus {
+  background-color: white;
+  color: $c-teal--xdark;
+}

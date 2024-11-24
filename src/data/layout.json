@@ -3,6 +3,126 @@
     "total": 100,
     "episodes": [
       {
+        "uuid": "d283fdff-1b78-487a-b1c4-2cbf87fd102a",
+        "url": "https://sphinx.acast.com/p/acast/s/adambuxton/e/674031655f96507d498074bd/media.mp3",
+        "published": "2024-11-22T07:23:25Z",
+        "duration": 4630,
+        "fileType": "audio/mp3",
+        "title": "EP.233 - MARINA HYDE",
+        "size": "180347706",
+        "playingStatus": 2,
+        "playedUpTo": 4553,
+        "starred": false,
+        "podcastUuid": "a862d790-3ea8-0133-bdc8-0d11918ab357",
+        "podcastTitle": "THE ADAM BUXTON PODCAST",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "ADAM BUXTON",
+        "bookmarks": []
+      },
+      {
+        "uuid": "a4b5bff7-2a6a-4d5a-90a2-8d3c98b1de4b",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/chtbl.com/track/28D492/traffic.megaphone.fm/SLT8930524752.mp3?updated=1732225245",
+        "published": "2024-11-22T08:00:00Z",
+        "duration": 1477,
+        "fileType": "audio/mpeg",
+        "title": "What Next TBD: What's Google Without Chrome?",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 1477,
+        "starred": false,
+        "podcastUuid": "5c2afaf0-83c4-0136-7b90-27f978dac4db",
+        "podcastTitle": "Slate Technology",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "Slate Podcasts",
+        "bookmarks": []
+      },
+      {
+        "uuid": "dffa1437-ecc8-4244-a5ff-d695b02e3f86",
+        "url": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510298/traffic.megaphone.fm/NPR1614071635.mp3?d=2975&size=47616045&e=1214662579&t=podcast&p=510298",
+        "published": "2024-11-22T08:00:59Z",
+        "duration": 3071,
+        "fileType": "audio/mpeg",
+        "title": "Life can be so awkward. Here's how to embrace the embarrassing",
+        "size": "47616045",
+        "playingStatus": 3,
+        "playedUpTo": 3071,
+        "starred": false,
+        "podcastUuid": "052df5e0-72b8-012f-1d57-525400c11844",
+        "podcastTitle": "TED Radio Hour",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": true,
+        "author": "NPR",
+        "bookmarks": []
+      },
+      {
+        "uuid": "41acdab8-e8c3-4320-adac-928940818c48",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/524GE/traffic.megaphone.fm/VMP9093605531.mp3?updated=1732223190",
+        "published": "2024-11-22T09:00:00Z",
+        "duration": 5023,
+        "fileType": "audio/mpeg",
+        "title": "For the Sake of American Youth",
+        "size": "0",
+        "playingStatus": 3,
+        "playedUpTo": 5023,
+        "starred": false,
+        "podcastUuid": "39897570-6d94-0131-7809-723c91aeae46",
+        "podcastTitle": "Criminal",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 294,
+        "isDeleted": true,
+        "author": "Vox Media Podcast Network",
+        "bookmarks": []
+      },
+      {
+        "uuid": "1b5e1c03-ec57-40c1-a46c-e848afa67029",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/chtbl.com/track/28D492/traffic.megaphone.fm/SLT6821178405.mp3?updated=1732324466",
+        "published": "2024-11-23T10:00:00Z",
+        "duration": 2541,
+        "fileType": "audio/mpeg",
+        "title": "Slate Money: Is Bluesky the New Old Twitter?",
+        "size": "0",
+        "playingStatus": 2,
+        "playedUpTo": 2541,
+        "starred": false,
+        "podcastUuid": "5c2afaf0-83c4-0136-7b90-27f978dac4db",
+        "podcastTitle": "Slate Technology",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "Slate Podcasts",
+        "bookmarks": []
+      },
+      {
+        "uuid": "07598fb7-7940-4f35-9f49-25140936e776",
+        "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0k6dxrx.mp3",
+        "published": "2024-11-22T21:28:00Z",
+        "duration": 2809,
+        "fileType": "audio/mp3",
+        "title": "AQ: Dr Halima Begum, Emma Reynolds MP, Joe Twyman & Sir John Whittingdale MP",
+        "size": "44944000",
+        "playingStatus": 2,
+        "playedUpTo": 2809,
+        "starred": false,
+        "podcastUuid": "66fd3830-b8e3-012e-61d2-00163e1b201c",
+        "podcastTitle": "Any Questions? and Any Answers?",
+        "episodeType": "full",
+        "episodeSeason": 0,
+        "episodeNumber": 0,
+        "isDeleted": false,
+        "author": "BBC Radio 4",
+        "bookmarks": []
+      },
+      {
         "uuid": "b6a5eea1-ab1c-4873-86b2-8738faa54fc7",
         "url": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510289/traffic.megaphone.fm/NPR6758810385.mp3?d=1735&size=27776401&e=1213159022&t=podcast&p=510289",
         "published": "2024-11-15T22:15:57Z",
@@ -1881,132 +2001,12 @@
         "isDeleted": false,
         "author": "The Guardian",
         "bookmarks": []
-      },
-      {
-        "uuid": "963c2188-abe3-4701-9733-5c8a0d75b7a9",
-        "url": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/252137a6-26a2-4bf0-8da6-ff321f4f33fa/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=252137a6-26a2-4bf0-8da6-ff321f4f33fa&feed=BqbsxVfO",
-        "published": "2024-10-15T22:12:37Z",
-        "duration": 1951,
-        "fileType": "audio/mpeg",
-        "title": "Trompe L'oeil",
-        "size": "31505710",
-        "playingStatus": 2,
-        "playedUpTo": 28,
-        "starred": false,
-        "podcastUuid": "0cc43410-1d2f-012e-0175-00163e1b201c",
-        "podcastTitle": "99% Invisible",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 599,
-        "isDeleted": false,
-        "author": "Roman Mars",
-        "bookmarks": []
-      },
-      {
-        "uuid": "e2a27ce1-ecc7-4204-8f22-7c6fd71395b3",
-        "url": "https://podtrac.com/pts/redirect.mp3/pdrl.fm/fb7305/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/f47457d5-7299-4554-8037-b1f4013a7364/226e1447-c807-4e88-914b-b2060101943a/audio.mp3?utm_source=Podcast&in_playlist=74be3893-ab46-4df4-9bfe-b1f4013aff4d",
-        "published": "2024-10-16T03:30:00Z",
-        "duration": 3075,
-        "fileType": "audio/mpeg",
-        "title": "Bush v. Gore: Episode 1 – Homestead",
-        "size": "49620151",
-        "playingStatus": 2,
-        "playedUpTo": 271,
-        "starred": false,
-        "podcastUuid": "07619560-ef6f-0138-e80b-0acc26574db2",
-        "podcastTitle": "Fiasco",
-        "episodeType": "full",
-        "episodeSeason": 2,
-        "episodeNumber": 1,
-        "isDeleted": false,
-        "author": "Pushkin Industries",
-        "bookmarks": []
-      },
-      {
-        "uuid": "32e2f4b0-289d-4f43-a2fa-0b89280c5144",
-        "url": "https://chrt.fm/track/53A61E/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/e68b6750-ddde-4b56-8121-be01a1922ff5/episodes/447cf8df-cb25-40d7-aa81-bfd3fbcbc92d/audio/128/default.mp3?aid=rss_feed&awCollectionId=e68b6750-ddde-4b56-8121-be01a1922ff5&awEpisodeId=447cf8df-cb25-40d7-aa81-bfd3fbcbc92d&feed=o4jAFXaw",
-        "published": "2024-10-16T07:00:00Z",
-        "duration": 1562,
-        "fileType": "audio/mpeg",
-        "title": "‘The Apprentice’: Donald Trump, Roy Cohn, and the Pursuit of Power",
-        "size": "24757218",
-        "playingStatus": 3,
-        "playedUpTo": 1562,
-        "starred": false,
-        "podcastUuid": "34b07760-0cc4-012e-fb69-00163e1b201c",
-        "podcastTitle": "On the Media",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "WNYC Studios",
-        "bookmarks": []
-      },
-      {
-        "uuid": "0bd094ee-3b88-4a94-ab93-6777a7b962fa",
-        "url": "https://pdst.fm/e/stitcher.simplecastaudio.com/89060b63-e603-4297-b6e8-5a654e50244e/episodes/3f2f16c3-cf33-4010-8749-0e8d6c85b7ff/audio/128/default.mp3?aid=rss_feed&awCollectionId=89060b63-e603-4297-b6e8-5a654e50244e&awEpisodeId=3f2f16c3-cf33-4010-8749-0e8d6c85b7ff&feed=FO6kxYGj",
-        "published": "2024-10-17T07:00:00Z",
-        "duration": 3710,
-        "fileType": "audio/mpeg",
-        "title": "Momiology (MUMMIFICATION) Part 2 with Salima Ikram & Kara Cooney",
-        "size": "57917065",
-        "playingStatus": 2,
-        "playedUpTo": 67,
-        "starred": false,
-        "podcastUuid": "eb7f8fa0-73d4-0135-9034-63f4b61a9224",
-        "podcastTitle": "Ologies with Alie Ward",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": false,
-        "author": "Alie Ward",
-        "bookmarks": []
-      },
-      {
-        "uuid": "a95ff05c-39b8-4656-9383-4e87b36c9d0f",
-        "url": "https://flex.acast.com/audio.guim.co.uk/2024/10/17-39773-gnl.fw.20241017.thomas_tuchel_addresses_the_media.mp3",
-        "published": "2024-10-17T11:33:02Z",
-        "duration": 3571,
-        "fileType": "audio/mp3",
-        "title": "Thomas Tuchel unveiled and a Premier League preview: Football Weekly Extra",
-        "size": "96686769",
-        "playingStatus": 3,
-        "playedUpTo": 3571,
-        "starred": false,
-        "podcastUuid": "b1d9c190-0423-012e-f9a0-00163e1b201c",
-        "podcastTitle": "Football Weekly",
-        "episodeType": "full",
-        "episodeSeason": 0,
-        "episodeNumber": 0,
-        "isDeleted": true,
-        "author": "The Guardian",
-        "bookmarks": []
-      },
-      {
-        "uuid": "98c687d6-2b99-438f-b15f-03b9b0d720b1",
-        "url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/eb9026c5-ce67-4e0c-8e58-b169012eb397/fb47a7f8-c190-4927-b348-b1c90112e869/audio.mp3?utm_source=Podcast&in_playlist=820606bb-176c-43ff-b2bd-b169012f280e",
-        "published": "2024-08-19T04:00:00Z",
-        "duration": 2777,
-        "fileType": "audio/mpeg",
-        "title": "S1 E8: The Not Knowing",
-        "size": "36311851",
-        "playingStatus": 2,
-        "playedUpTo": 2726,
-        "starred": false,
-        "podcastUuid": "6977e390-0bf2-013d-5db5-0acc26574db2",
-        "podcastTitle": "There and Gone: South Street",
-        "episodeType": "full",
-        "episodeSeason": 1,
-        "episodeNumber": 8,
-        "isDeleted": false,
-        "author": "iHeartPodcasts",
-        "bookmarks": []
       }
     ]
   },
   "projects": {
     "data": {
-      "dateCompiled": "Updated on 21 Nov 2024"
+      "dateCompiled": "Updated on 24 Nov 2024"
     },
     "cards": [
       {
@@ -3389,7 +3389,7 @@
   },
   "articles": {
     "data": {
-      "dateCompiled": "Updated on 21 Nov 2024"
+      "dateCompiled": "Updated on 24 Nov 2024"
     },
     "cards": [
       {
@@ -3936,7 +3936,7 @@
             "url": "https://open.spotify.com/artist/6aRJP31fKBf0jbvb6qYAGt",
             "name": "Iftin Band"
           },
-          "popularity": 10,
+          "popularity": 11,
           "release_date": "2019-12-13",
           "url": "https://open.spotify.com/track/2l8davPIbbdn8BxYgbkwtP",
           "name": "Sirmaqabe - No Secrets"
@@ -4099,7 +4099,7 @@
             "url": "https://open.spotify.com/artist/1YvLqwm8xl6ENUT3KK6XMj",
             "name": "audiobooks"
           },
-          "popularity": 20,
+          "popularity": 21,
           "release_date": "2021-10-01",
           "url": "https://open.spotify.com/track/56CpzZPbczcpj3WGu2KYZ9",
           "name": "The Doll"
@@ -4232,7 +4232,7 @@
             "url": "https://open.spotify.com/artist/6RQoLyY1nkArRcNc3sE86m",
             "name": "Ora the Molecule"
           },
-          "popularity": 16,
+          "popularity": 17,
           "release_date": "2021-07-23",
           "url": "https://open.spotify.com/track/0vydtoDOsW0qRhmFEHdyTT",
           "name": "Creator"
@@ -4275,7 +4275,7 @@
             "url": "https://open.spotify.com/artist/5gMXwFotLyxnc0usqNgk5J",
             "name": "Stephen Shannon"
           },
-          "popularity": 29,
+          "popularity": 30,
           "release_date": "2023-05-19",
           "url": "https://open.spotify.com/track/2ieQh3HGdx34e6tvfKvobi",
           "name": "Eyot"
@@ -4285,7 +4285,7 @@
             "url": "https://open.spotify.com/artist/1HvH97rzvCH6lfnLlgyfke",
             "name": "Genesis Owusu"
           },
-          "popularity": 41,
+          "popularity": 42,
           "release_date": "2022-10-22",
           "url": "https://open.spotify.com/track/4Og0uXMYqouN7xOQ7u8jiW",
           "name": "Get Inspired"
@@ -4365,7 +4365,7 @@
             "url": "https://open.spotify.com/artist/0Cc6v6tsUT1FktqPQYXME3",
             "name": "Virginia Astley"
           },
-          "popularity": 20,
+          "popularity": 21,
           "release_date": "1986-01-01",
           "url": "https://open.spotify.com/track/6EcATCFBm1bRBdsQNfwdHT",
           "name": "Some Small Hope"
@@ -4383,14 +4383,14 @@
     "futuro": {
       "name": "futuro",
       "version": "1.1.8",
-      "downloads": 203177,
+      "downloads": 203179,
       "url": "https://rubygems.org/gems/futuro",
       "color": "dodgerblue"
     },
     "reset": {
       "name": "barbican-reset",
       "version": "2.38.0",
-      "downloads": 7321,
+      "downloads": 7291,
       "url": "https://www.npmjs.com/package/barbican-reset",
       "color": "red"
     }

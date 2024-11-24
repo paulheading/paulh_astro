@@ -15,7 +15,7 @@ const { name } = Astro.props;
 </WindowOuter>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   .outer {
     left: toRem(64);

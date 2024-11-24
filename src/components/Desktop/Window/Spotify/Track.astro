@@ -1,6 +1,6 @@
 ---
-const { track, number, url } = Astro.props
-const { name, artist } = track
+const { track, number, url } = Astro.props;
+const { name, artist } = track;
 ---
 
 <div class="container">
@@ -16,7 +16,7 @@ const { name, artist } = track
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @use "~mixins" as *;
 
   .container {
     grid-template-columns: 1.5rem auto;
@@ -48,6 +48,9 @@ const { name, artist } = track
 
   .artist-name {
     @include track_name;
-    color: #a0a19e;
+
+    & {
+      color: #a0a19e;
+    }
   }
 </style>

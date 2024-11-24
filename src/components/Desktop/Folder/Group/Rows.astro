@@ -17,7 +17,8 @@ const { group } = Astro.props;
 }
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
+  @use "sass:color";
 
   @mixin focus-state {
     @include focus {
@@ -51,7 +52,7 @@ const { group } = Astro.props;
   }
 
   .groupfolder-row.even {
-    background-color: darken(white, 10%);
+    background-color: color.adjust(white, $lightness: -10%);
 
     @include focus-state;
 

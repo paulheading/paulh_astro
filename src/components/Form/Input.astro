@@ -18,11 +18,14 @@ const inputProps = {
 </div>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   .row {
     @include form_row;
-    border-bottom: 1px solid $c-gray-5;
+
+    & {
+      border-bottom: 1px solid $c-gray-5;
+    }
   }
 
   label {

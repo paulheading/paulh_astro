@@ -1,5 +1,5 @@
 ---
-const { placeholder } = Astro.props
+const { placeholder } = Astro.props;
 ---
 
 <div class="row">
@@ -12,18 +12,21 @@ const { placeholder } = Astro.props
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @use "~mixins" as *;
 
   .row {
     @include form_row;
-    border-bottom: 1px solid $c-gray-5;
-    padding-bottom: $padding-row-hz;
-    padding-top: $padding-row-hz;
 
-    @include large-down {
-      align-items: center;
-      display: flex;
-      gap: 1rem;
+    & {
+      border-bottom: 1px solid $c-gray-5;
+      padding-bottom: $padding-row-hz;
+      padding-top: $padding-row-hz;
+
+      @include large-down {
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+      }
     }
   }
 

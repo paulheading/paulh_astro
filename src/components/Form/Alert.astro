@@ -1,11 +1,11 @@
 ---
-const { class: className } = Astro.props
+const { class: className } = Astro.props;
 
 const containerProps = {
-  class: 'container',
-}
+  class: "container",
+};
 
-if (className) containerProps.class += ' ' + className
+if (className) containerProps.class += " " + className;
 ---
 
 <div {...containerProps}>
@@ -13,7 +13,7 @@ if (className) containerProps.class += ' ' + className
 </div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @use "~mixins" as *;
 
   .container {
     background-color: mistyrose;

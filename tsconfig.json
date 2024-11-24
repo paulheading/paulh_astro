@@ -3,6 +3,12 @@
     "baseUrl": ".",
     "paths": {
       "~*": ["src/*"],
+      "~vars": ["src/styles/_vars.scss"],
+      "~vars/*": ["src/styles/vars/*.scss"],
+      "~functions": ["src/styles/_functions.scss"],
+      "~functions/*": ["src/styles/functions/*.scss"],
+      "~mixins": ["src/styles/_mixins.scss"],
+      "~mixins/*": ["src/styles/mixins/*.scss"],
       "~Components/*": ["src/components/*.astro"],
       "~Layouts/*": ["src/layouts/*.astro"],
       "~Trello/*": ["src/components/Desktop/Window/Trello/*.astro"],

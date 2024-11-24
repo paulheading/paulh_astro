@@ -1,6 +1,6 @@
-import { length } from '~data/timings'
-import { gsap } from 'gsap'
+import { length } from "~data/timings";
+import { gsap } from "gsap";
 
-const timer = gsap.timeline({ repeat: -1, repeatDelay: length })
+const timer = gsap.timeline({ repeat: -1, repeatDelay: length });
 
-export default timer
+export default timer;

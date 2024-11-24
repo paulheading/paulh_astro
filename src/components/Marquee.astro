@@ -12,7 +12,7 @@ const mode = Astro.url.pathname == "/" ? "home" : "away";
 </div>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   $tab-height: 3.125rem;
 

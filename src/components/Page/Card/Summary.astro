@@ -7,7 +7,7 @@ const { content } = Astro.props;
 </div>
 
 <style lang="scss">
-  @import "~styles/mixins";
+  @use "~mixins" as *;
 
   .summary {
     @include line-overflow(4);

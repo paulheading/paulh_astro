@@ -1,13 +1,13 @@
 ---
-import Artwork606d7 from '~artwork/606d7.astro'
-import Artwork6491c from '~artwork/6491c.astro'
-import Artwork60734 from '~artwork/60734.astro'
+import Artwork606d7 from "~artwork/606d7.astro";
+import Artwork6491c from "~artwork/6491c.astro";
+import Artwork60734 from "~artwork/60734.astro";
 ---
 
 <div class="artwork"><Artwork606d7 /><Artwork6491c /><Artwork60734 /></div>
 
 <style lang="scss">
-  @import '~styles/mixins';
+  @use "~mixins" as *;
 
   .artwork {
     transform: scale(2);

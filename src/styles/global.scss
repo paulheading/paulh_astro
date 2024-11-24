@@ -1,110 +1,8 @@
-/// @author Paul Heading
-/// This is the global scss file
+@use "paully/styles";
 
-@import "~styles/mixins";
-@import "~styles/global/page-content";
+@use "global/page-content";
 
-// @import "paully/styles";
-// @import "paully/vars";
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: $font-family-body;
-  font-weight: $font-weight-bold;
-  background-color: $c-body-bg;
-  line-height: $line-height-lg;
-  font-size: $font-size-body;
-  min-width: 20rem;
-  color: black;
-  margin: 0;
-
-
-  &[data-state="hidden"] {
-    background-color: black;
-    visibility: hidden;
-    overflow: hidden;
-  }
-
-  * {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
-}
-
-a {
-  color: inherit;
-}
-
-h1 {
-  @include h-styles($h1-font-size * 0.5);
-  font-size: $h1-font-size;
-}
-
-h2 {
-  @include h-styles;
-  font-size: $h2-font-size;
-}
-
-h3 {
-  @include h-styles;
-  font-size: $h3-font-size;
-}
-
-h4 {
-  @include h-styles;
-  font-size: $h4-font-size;
-}
-
-h5 {
-  @include h-styles;
-  font-size: $h5-font-size;
-}
-
-h6 {
-  @include h-styles;
-  font-size: $h6-font-size;
-}
-
-blockquote {
-  @include blockquote;
-}
-
-p {
-  @include child-margins;
-  word-wrap: break-word;
-  font-weight: 400;
-
-  >img {
-    border: 1px solid $c-body-bg;
-  }
-}
-
-ul {
-  @include list-styles;
-}
-
-ol {
-  @include list-styles;
-}
-
-li+li {
-  margin-top: 0.25rem;
-}
-
-input,
-textarea {
-  -webkit-appearance: none;
-  border-radius: 0;
-  appearance: none;
-  width: 100%;
-  padding: 0;
-}
-
-iframe {
-  border: 0;
-}
+@use "mixins" as *;
 
 .small-up {
   @include small-down {
@@ -124,7 +22,10 @@ code {
 
 pre {
   @include code-styles;
-  overflow: scroll;
+
+  & {
+    overflow: scroll;
+  }
 }
 
 p:has(img:only-child)+p:has(em:only-child) {
