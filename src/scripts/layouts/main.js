@@ -9,7 +9,7 @@ import time from "~scripts/components/desktop/topbar/time";
 
 let { cards } = projects;
 let heroes = cards.filter(({ hero }) => hero);
-// let last = heroes.length - 1;
+let last = heroes.length - 1;
 let count = 1;
 
 function updateDOM() {
@@ -34,7 +34,7 @@ function updateDOM() {
 
   time.update();
 
-  // count > 0 ? (count = count - 1) : (count = last);
+  count > 0 ? (count = count - 1) : (count = last);
 }
 
 time.animate();

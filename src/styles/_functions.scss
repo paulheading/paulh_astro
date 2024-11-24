@@ -1,0 +1,5 @@
+@use "paully/mixins" as *;
+
+@function rightAdjust($value) {
+  @return toRem($value + 64);
+}
