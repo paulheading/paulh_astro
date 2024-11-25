@@ -18,7 +18,22 @@ const menuOuterProps = {
   @use "sass:map";
 
   .menu-outer {
-    @include container;
+    min-width: $min-width-site;
+    padding-right: $gap-links;
+    padding-left: $gap-links;
+
+    @include small-down {
+      border-bottom: $border-banner;
+      border-top: $border-banner;
+
+      .wrap {
+        height: $height-banner;
+      }
+    }
+
+    @include small-up {
+      padding: 2.5rem 2rem;
+    }
   }
 
   .menu-outer.home {

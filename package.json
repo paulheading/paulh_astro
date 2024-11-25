@@ -25,7 +25,7 @@
     "js-search": "^2.0.1",
     "luxon": "^3.3.0",
     "node-html-parser": "^6.1.13",
-    "paully": "^2.0.0",
+    "paully": "^2.0.1",
     "remove-markdown": "^0.5.5",
     "showdown": "^2.1.0"
   },
