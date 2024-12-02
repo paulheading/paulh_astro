@@ -51,14 +51,20 @@ import WindowInner from "~Window/Inner";
 
   .perView {
     @include boxes;
-    font-size: toRem(14);
-    font-weight: 400;
+
+    & {
+      font-size: toRem(14);
+      font-weight: 400;
+    }
   }
 
   .title {
     @include boxes;
-    background-color: $green;
-    font-size: toRem(16);
+
+    & {
+      background-color: $green;
+      font-size: toRem(16);
+    }
   }
 
   .message {

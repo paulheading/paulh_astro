@@ -29,7 +29,10 @@ const layoutProps = {
 
   .wrap {
     @include wrap;
-    text-align: center;
+
+    & {
+      text-align: center;
+    }
   }
 
   .copy {

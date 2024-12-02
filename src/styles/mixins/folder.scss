@@ -3,17 +3,23 @@
 
 @mixin folder-container {
   @include size(0);
-  justify-items: center;
-  display: inline-grid;
-  align-items: center;
+
+  & {
+    justify-items: center;
+    display: inline-grid;
+    align-items: center;
+  }
 }
 
 @mixin folder_words {
   @include text-overflow;
-  background-color: $c-teal--xdark;
-  padding: 0.25rem 0.5rem;
-  display: inline-block;
-  color: white;
+
+  & {
+    background-color: $c-teal--xdark;
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+    color: white;
+  }
 }
 
 @mixin folder_words--focus {

@@ -47,11 +47,17 @@ const contextProps = {
 
   .exit {
     @include control-row;
-    margin-bottom: toRem($margin-button);
+
+    & {
+      margin-bottom: toRem($margin-button);
+    }
   }
 
   .pagination {
     @include control-row;
-    margin-top: toRem($margin-button);
+
+    & {
+      margin-top: toRem($margin-button);
+    }
   }
 </style>

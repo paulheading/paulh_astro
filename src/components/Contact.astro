@@ -33,7 +33,10 @@ const windowProps = {
 
   .wrap {
     @include wrap;
-    max-width: 40rem;
+
+    & {
+      max-width: 40rem;
+    }
   }
 
   .window {

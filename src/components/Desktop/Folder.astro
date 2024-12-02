@@ -38,8 +38,11 @@ let closedStyles = { gridArea, visibility: !open ? "visible" : "hidden" };
 
   .folder-label {
     @include folder_words;
-    font-size: $h6-font-size;
-    font-weight: 600;
+
+    & {
+      font-size: $h6-font-size;
+      font-weight: 600;
+    }
   }
 
   .folder-icons {

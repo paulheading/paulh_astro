@@ -14,8 +14,11 @@
 
   .link {
     @include folder_words;
-    font-size: $h6-font-size;
-    border-radius: 0.25rem;
+
+    & {
+      font-size: $h6-font-size;
+      border-radius: 0.25rem;
+    }
 
     @include focus {
       @include folder_words--focus;

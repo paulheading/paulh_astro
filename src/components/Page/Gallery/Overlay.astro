@@ -105,10 +105,13 @@ const contentProps = {
 
   .controls {
     @include inset;
-    position: absolute;
-    min-width: 10rem;
-    margin: auto;
-    z-index: 1;
+
+    & {
+      position: absolute;
+      min-width: 10rem;
+      margin: auto;
+      z-index: 1;
+    }
 
     @include small-up {
       z-index: 3;
@@ -117,7 +120,10 @@ const contentProps = {
 
   .bottom {
     @include absolute-control-row;
-    bottom: $offset_lg;
+
+    & {
+      bottom: $offset_lg;
+    }
 
     @include small-up {
       bottom: $offset_sm;
@@ -126,7 +132,10 @@ const contentProps = {
 
   .top {
     @include absolute-control-row;
-    top: $offset_lg;
+
+    & {
+      top: $offset_lg;
+    }
 
     @include small-up {
       top: $offset_sm;

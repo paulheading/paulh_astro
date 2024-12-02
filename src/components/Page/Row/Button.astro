@@ -9,7 +9,7 @@ const { type = "" } = Astro.props;
 <style lang="scss">
   @use "~mixins" as *;
 
-  $horizontal-offset: $page-button-size * 0.575;
+  $horizontal-offset: $size-page-button * 0.575;
 
   .row-button {
     @include page-button;
@@ -32,11 +32,11 @@ const { type = "" } = Astro.props;
 
   @include medium-down {
     .row-button.prev {
-      top: -$page-button-size * 0.5;
+      top: -$size-page-button * 0.5;
     }
 
     .row-button.next {
-      bottom: -$page-button-size * 0.5;
+      bottom: -$size-page-button * 0.5;
     }
   }
 

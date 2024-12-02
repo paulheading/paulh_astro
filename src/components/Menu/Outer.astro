@@ -62,8 +62,11 @@ const menuOuterProps = {
 
   .wrap {
     @include wrap;
-    @include flex-links;
-    justify-content: center;
+
+    & {
+      @include flex-links;
+      justify-content: center;
+    }
 
     @include medium-down {
       position: relative;
